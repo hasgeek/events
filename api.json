@@ -1,0 +1,19 @@
+---
+permalink: /api
+---
+{% assign events = site.data.events | sort: 'start_time' %}
+{
+  "events": [
+	{% for event in events %}
+		{
+			"title": "{{ event.title }}",
+			"start_time": "{{ event.start_time | date_to_xmlschema }}",
+			"end_time": "{{ event.end_time | date_to_xmlschema }}",
+			"url": "{{ event.url }}",
+			"funnel": "{{ event.funnel }}",
+			"blurb": "{{ event.blurb }}"
+		}
+		{% if forloop.last == false %},{% endif %}
+	{% endfor %}
+	]
+}
