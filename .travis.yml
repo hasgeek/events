@@ -6,3 +6,10 @@ before_script:
 script:
   - bundle exec jekyll build
   - behave tests
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  target_branch: gh-pages
+  on:
+    branch: master
