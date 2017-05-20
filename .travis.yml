@@ -1,15 +1,21 @@
 language: ruby
 rvm:
   - ruby-head
-before_script:
-  - pip install --user -r requirements.txt
-script:
-  - bundle exec jekyll build
-  - behave tests
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  target_branch: gh-pages
-  on:
-    branch: master
+
+
+jobs:
+  include:
+    - stage: Tests
+      before_script:
+        - pip install --user -r requirements.txt
+      script:
+        - bundle exec jekyll build
+        - behave tests
+    - stage: GitHub Pages deploy
+      deploy:
+        provider: pages
+        skip_cleanup: false
+        github_token: $GITHUB_TOKEN
+        target_branch: gh-pages
+        on:
+          branch: master
