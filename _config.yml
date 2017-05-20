@@ -9,4 +9,4 @@ exclude:
   - Gemfile.lock
   - tests
   - requirements.txt
-
+  - vendor
