@@ -5,7 +5,8 @@ permalink: /api
 {
   "events": [
 	{% for event in events %}
-		{
+		{	
+			"id": "{{ event.name }}",
 			"title": "{{ event.title }}",
 			"start_time": "{{ event.start_time | date_to_xmlschema }}",
 			"end_time": "{{ event.end_time | date_to_xmlschema }}",

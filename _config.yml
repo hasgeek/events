@@ -4,9 +4,9 @@ collections:
 
 # Build settings
 markdown: kramdown
-gems:
-  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+  - tests
+  - requirements.txt
 

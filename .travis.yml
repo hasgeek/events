@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - ruby-head
+before_script:
+  - pip install -r requirements.txt
+  - bundle update
+script:
+  - bundle exec jekyll build
+  - behave tests
