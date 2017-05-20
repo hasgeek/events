@@ -3,7 +3,6 @@ rvm:
   - ruby-head
 before_script:
   - pip install --user -r requirements.txt
-  - bundle update
 script:
   - bundle exec jekyll build
   - behave tests
