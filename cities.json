@@ -1,0 +1,11 @@
+---
+---
+{% assign cities = site.data.cities %}
+{
+  "cities": [
+	{% for city in cities %}
+		"{{ city }}"
+		{% if forloop.last == false %},{% endif %}
+	{% endfor %}
+	]
+}

@@ -1,5 +1,4 @@
 ---
-permalink: /api
 ---
 {% assign events = site.data.events | sort: 'start_time' %}
 {
@@ -9,6 +8,9 @@ permalink: /api
 			"id": "{{ event.name }}",
 			"title": "{{ event.title }}",
 			"start_time": "{{ event.start_time | date_to_xmlschema }}",
+			"city": "{{ event.city }}",
+			"venue": "{{ event.venue }}",
+			"google_maps_link": "{{ event.google_maps_link }}",
 			"end_time": "{{ event.end_time | date_to_xmlschema }}",
 			"url": "{{ event.url }}",
 			"funnel": "{{ event.funnel }}",

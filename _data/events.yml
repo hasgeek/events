@@ -1,5 +1,8 @@
 - name: fifthelephant-2017
   title: The Fifth Elephant 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
   start_time: 2017-06-27
   end_time: 2017-06-28
   url: https://fifthelephant.in/2017/
@@ -8,6 +11,9 @@
 
 - name: anthillinside-2017
   title: Anthill Inside 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
   start_time: 2017-06-29
   end_time: 2017-06-29
   url: https://anthillinside.in/2017/
@@ -16,6 +22,9 @@
 
 - name: jsfoo-2017
   title: JSFoo 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
   start_time: 2017-09-15
   end_time: 2017-09-16
   url: https://jsfoo.in/2017/
@@ -24,6 +33,9 @@
 
 - name: fragments-2017
   title: Fragments 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
   start_time: 2017-09-12
   end_time: 2017-09-13
   funnel: https://fragments.talkfunnel.com/2017/
@@ -31,6 +43,9 @@
 
 - name: reactfoo-2017
   title: ReactFoo 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zts
   start_time: 2017-09-14
   end_time: 2017-09-14
   funnel: https://reactfoo.talkfunnel.com/2017/
