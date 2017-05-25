@@ -1,53 +1,17 @@
-- name: fifthelephant-2017
-  title: The Fifth Elephant 2017
+- name: open-house-information-breaches
+  title: Open House on Information Breaches
   city: Bangalore
-  venue: MLR Convention Center, Whitefield
-  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
-  start_time: 2017-06-27
-  end_time: 2017-06-28
-  url: https://fifthelephant.in/2017/
-  funnel: https://fifthelephant.talkfunnel.com/2017/
-  blurb: The Fifth Elephant is an annual gathering of data scientists, analysts, researchers, and technologists working in the areas of data mining and analysis, data science, machine learning, and deep learning from different domains.
+  venue: HasGeek House
+  start_time: 2017-05-26 19:00
+  end_time: 2017-05-26 22:00
+  url: https://www.facebook.com/events/299253997189888/
+  blurb: Understand the state of information security in India and abroad, and legal and regulatory measures that companies must comply with, and consumers should be aware of.
 
-- name: anthillinside-2017
-  title: Anthill Inside 2017
+- name: kilter-picnic
+  title: "Kilter Picnic #2"
   city: Bangalore
-  venue: MLR Convention Center, Whitefield
-  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
-  start_time: 2017-06-29
-  end_time: 2017-06-29
-  url: https://anthillinside.in/2017/
-  funnel: https://anthillinside.talkfunnel.com/2017/
-  blurb: Anthill Inside is the new avatar of last year’s Deep Learning Conf. It is a spin off of The Fifth Elephant that focuses specifically on deep learning and artificial intelligence, attempting to bridge the gap and bring theoretical advances closer to functioning reality.
-
-- name: jsfoo-2017
-  title: JSFoo 2017
-  city: Bangalore
-  venue: MLR Convention Center, Whitefield
-  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
-  start_time: 2017-09-15
-  end_time: 2017-09-16
-  url: https://jsfoo.in/2017/
-  funnel: https://jsfoo.talkfunnel.com/2017/
-  blurb: JSFoo is our annual conference on JavaScript. This year, the focus is on building reliable web apps.
-
-- name: fragments-2017
-  title: Fragments 2017
-  city: Bangalore
-  venue: MLR Convention Center, Whitefield
-  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
-  start_time: 2017-09-12
-  end_time: 2017-09-13
-  funnel: https://fragments.talkfunnel.com/2017/
-  blurb: Fragments is our new conference on the mobile ecosystem in India. Fragments aims to bring together professionals working across the spectrum of mobile applications. Whether Android, iOS, mobile websites, or progressive web apps.
-
-- name: reactfoo-2017
-  title: ReactFoo 2017
-  city: Bangalore
-  venue: MLR Convention Center, Whitefield
-  google_maps_pin: https://goo.gl/maps/ziPb95Y77zts
-  start_time: 2017-09-14
-  end_time: 2017-09-14
-  funnel: https://reactfoo.talkfunnel.com/2017/
-  blurb: ReactFoo is our new conference on the state of React in India. We’ll have more news on this in the coming weeks.
-
+  venue: Cubbon Park
+  start_time: 2017-05-28 08:00
+  end_time: 2017-05-28 10:00
+  url: https://blog.kilter.in/kilter-picnic-2-98f50058b8fc
+  blurb: Let’s enjoy a Kilter morning in the park. Invite your friends and bring the kids; this picnic is what you make it. You can discuss habit formation, trade recipes, stretch, or get active with other Kilterers. The slackline group meets nearby, so stay a while and play with them, too.

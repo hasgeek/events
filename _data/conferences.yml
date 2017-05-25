@@ -1,0 +1,64 @@
+- name: fifthelephant-2017
+  title: The Fifth Elephant 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
+  start_time: 2017-06-27
+  end_time: 2017-06-28
+  url: https://fifthelephant.in/2017/
+  funnel: https://fifthelephant.talkfunnel.com/2017/
+  blurb: An annual gathering of data scientists, analysts, researchers, and technologists working in the areas of data mining and analysis, data science, machine learning, and deep learning from different domains.
+  color:
+    primary: "#68bec1"
+    primary_dark: "#498f94"
+    accent: "#ec5f13"
+
+- name: anthillinside-2017
+  title: Anthill Inside 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
+  start_time: 2017-06-29
+  end_time: 2017-06-29
+  url: https://anthillinside.in/2017/
+  funnel: https://anthillinside.talkfunnel.com/2017/
+  blurb: The new avatar of last year’s Deep Learning Conf. It is a spin off of The Fifth Elephant that focuses specifically on deep learning and artificial intelligence, attempting to bridge the gap and bring theoretical advances closer to functioning reality.
+  color:
+    primary: "#3f50a3"
+    primary_dark: "#213284"
+    accent: "#e76f45"
+
+- name: jsfoo-2017
+  title: JSFoo 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
+  start_time: 2017-09-15
+  end_time: 2017-09-16
+  url: https://jsfoo.in/2017/
+  funnel: https://jsfoo.talkfunnel.com/2017/
+  blurb: Our annual conference on JavaScript. This year, the focus is on building reliable web apps.
+  color:
+    primary: "#549eaf"
+    primary_dark: "#2e3661"
+    accent: "#faa51a"
+
+- name: fragments-2017
+  title: Fragments 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
+  start_time: 2017-09-12
+  end_time: 2017-09-13
+  funnel: https://fragments.talkfunnel.com/2017/
+  blurb: Our new conference on the mobile ecosystem in India. Fragments aims to bring together professionals working across the spectrum of mobile applications. Whether Android, iOS, mobile websites, or progressive web apps.
+
+- name: reactfoo-2017
+  title: ReactFoo 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zts
+  start_time: 2017-09-14
+  end_time: 2017-09-14
+  funnel: https://reactfoo.talkfunnel.com/2017/
+  blurb: Our new conference on the state of React in India. We’ll have more news on this in the coming weeks.

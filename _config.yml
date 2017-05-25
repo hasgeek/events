@@ -2,6 +2,10 @@ collections:
   hg_events:
     output: false
 
+webrick:
+  headers:
+    Access-Control-Allow-Origin: '*'
+
 # Build settings
 markdown: kramdown
 exclude:

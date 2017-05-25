@@ -1,0 +1,23 @@
+---
+---
+{% assign conferences = site.data.conferences | sort: 'start_time' %}
+{
+  "conferences": [
+	{% for conf in conferences %}
+		{	
+			"id": "{{ conf.name }}",
+			"title": "{{ conf.title }}",
+			"start_time": "{{ conf.start_time | date_to_xmlschema }}",
+			"city": "{{ conf.city }}",
+			"venue": "{{ conf.venue }}",
+			"google_maps_link": "{{ conf.google_maps_link }}",
+			"end_time": "{{ conf.end_time | date_to_xmlschema }}",
+			"url": "{{ conf.url }}",
+			"funnel": "{{ conf.funnel }}",
+			"blurb": "{{ conf.blurb }}"
+			{% if conf.color %}, "color": {{conf.color|jsonify}} {% endif %}
+		}
+		{% if forloop.last == false %},{% endif %}
+	{% endfor %}
+	]
+}

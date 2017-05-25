@@ -13,7 +13,7 @@ urlregex = re.compile(
     r'(?::\d+)?' # optional port
     r'(?:/?|[/?]\S+)$', re.IGNORECASE)
 
-@given('An event added')
+@given('an event added')
 def step_impl(context):
 	pass
 
@@ -25,9 +25,9 @@ def step_impl(context):
 	context.events = events
 
 	stream = open("_data/cities.yml", "r")
-	context.cities = yaml.load(stream)
+	context.cities = yaml.load(stream, Loader=yaml.BaseLoader)
 
-@then('all mandatory fields must exist')
+@then('all mandatory event fields must exist')
 def step_impl(context):
 	for event in context.events:
 		print("Checking mandatory fields for " + event['name'])
@@ -35,12 +35,11 @@ def step_impl(context):
 		assert event.get('title'), "'title' value is missing"
 		assert event.get('city'), "'city' value is missing"
 		assert event.get('venue'), "'venue' value is missing"
-		assert event.get('google_maps_pin'), "'google_maps_pin' value is missing"
 		assert event.get('start_time'), "'start_time' value is missing"
 		assert event.get('end_time'), "'end_time' value is missing"
 		assert event.get('blurb'), "'blurb' value is missing"
 
-@then('all fields must be the right type and length')
+@then('all event fields must be the right type and length')
 def step_impl(context):
 	for event in context.events:
 		print("Validating fields for " + event['name'])
@@ -48,9 +47,13 @@ def step_impl(context):
 		assert len(event.get('title')) < 80, "'title' value is more than 80 characters"
 		assert event.get('city') in context.cities, "'city' value should be one of those listed in cities.yml"
 		assert len(event.get('venue')) < 40, "'venue' value is more than 40 characters"
-		assert urlregex.match(event.get('google_maps_pin')), "'google_maps_pin' is not a valid URL"
-		assert isinstance(event.get('start_time'), datetime.date), "'start_time' needs to be in the datetime format"
-		assert isinstance(event.get('end_time'), datetime.date), "'end_time' needs to be in the datetime format"
+
+
+		assert isinstance(datetime.datetime.strptime(event.get('start_time'), '%Y-%m-%d %H:%M'), datetime.datetime), "'start_time' needs to be in the datetime format"
+		assert isinstance(datetime.datetime.strptime(event.get('end_time'), '%Y-%m-%d %H:%M'), datetime.datetime), "'end_time' needs to be in the datetime format"
+		
+		assert event.get('start_time') <= event.get('end_time', datetime.date), "'start_time' needs to before 'end_time'"		
+
 		assert len(event.get('blurb')) < 300 , "'blurb' value is more than 200 characters"
 		if event.get('url'):
 			assert urlregex.match(event.get('url')), "'url' is not a valid URL"
