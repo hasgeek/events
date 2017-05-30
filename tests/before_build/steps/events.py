@@ -38,6 +38,7 @@ def step_impl(context):
 		assert event.get('start_time'), "'start_time' value is missing"
 		assert event.get('end_time'), "'end_time' value is missing"
 		assert event.get('blurb'), "'blurb' value is missing"
+		assert event.get('url'), "'url' value is missing"
 
 @then('all event fields must be the right type and length')
 def step_impl(context):
@@ -54,9 +55,6 @@ def step_impl(context):
 		
 		assert event.get('start_time') <= event.get('end_time', datetime.date), "'start_time' needs to before 'end_time'"		
 
-		assert len(event.get('blurb')) < 300 , "'blurb' value is more than 200 characters"
-		if event.get('url'):
-			assert urlregex.match(event.get('url')), "'url' is not a valid URL"
-		if event.get('funnel'):
-			assert urlregex.match(event.get('funnel')), "'funnel' is not a valid URL"
+		assert len(event.get('blurb')) < 300 , "'blurb' value is more than 300 characters"
+		assert urlregex.match(event.get('url')), "'url' is not a valid URL"
 

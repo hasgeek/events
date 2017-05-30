@@ -62,7 +62,7 @@ def step_impl(context):
 		
 		assert datetime.datetime.strptime(conf.get('start_time'), '%Y-%m-%d') <= datetime.datetime.strptime(conf.get('end_time'), '%Y-%m-%d'), "'start_time' needs to before 'end_time'"		
 
-		assert len(conf.get('blurb')) < 300 , "'blurb' value is more than 200 characters"
+		assert len(conf.get('blurb')) < 300 , "'blurb' value is more than 300 characters"
 		if conf.get('url'):
 			assert urlregex.match(conf.get('url')), "'url' is not a valid URL"
 		if conf.get('funnel'):

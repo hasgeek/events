@@ -5,8 +5,9 @@ rvm:
 before_script:
   - pip install --user -r requirements.txt
 script:
+  - behave tests/before_build
   - bundle exec jekyll build
-  - behave tests
+  - behave tests/after_build
 deploy:
   provider: pages
   skip_cleanup: false
