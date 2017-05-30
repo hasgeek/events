@@ -2,6 +2,7 @@
 ---
 {% assign conferences = site.data.conferences | sort: 'start_time' %}
 {% assign events = site.data.events | sort: 'start_time' %}
+{% assign cities = site.data.cities %}
 {
 	"conferences": [
 		{% for conf in conferences %}
