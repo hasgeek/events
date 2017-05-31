@@ -18,12 +18,12 @@ Travis will build the branch and run some tests to make sure the data is in the 
 The fields are as follows (all mandatory):
 
 
-* name: <short-hand-name-with-underscores>
+* name: short-hand-name-with-underscores
 * title: Full name of the event in <80 characters (In [sentence case](https://www.thoughtco.com/sentence-case-titles-1691944))
 * city:  A valid city from the list at `_data/cities.yml`
 * venue: Venue name in <40 characters
-* start_time: YYYY-MM-DD HH:MM (24h format)
-* end_time: YYYY-MM-DD HH:MM (24h format)
+* start_time: YYYY-MM-DD HH:MM (24h format in IST)
+* end_time: YYYY-MM-DD HH:MM (24h format in IST)
 * url: A link to a valid URL for the event.
 * blurb: A short description of the event. Must be <300 characters.
 
