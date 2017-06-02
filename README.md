@@ -30,3 +30,11 @@ The fields are as follows (all mandatory):
 
 ## How will it get approved?
 Someone from our team will review the Pull Request once it is sent. All communication will be in public on the PR itself.
+
+## Support
+If you have any questions, you can open reach us on the [Friends of HasGeek Slack](https://friends.hasgeek.com) team. Ping @karthik or @dunebuggie there.
+
+
+## API
+(This is work in progress)
+You can fetch a list of all the events here [https://hasgeek.github.io/events/api/all.json](https://hasgeek.github.io/events/api/all.json)
