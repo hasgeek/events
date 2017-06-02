@@ -24,3 +24,12 @@
   end_time: 2017-06-02 21:00
   url: https://www.facebook.com/events/1694671104175474/
   blurb: In an era where AI and virtual reality would be the next big truth, how do we make sure that this future is inclusive and reflective of everyone's realities? Joining us on Friday to talk more about this is Jasmine from Hidden Pockets.
+
+- name: nagpur-techies-june-tech-meetup-xamarin-hands-on-workshop
+  title: Nagpur Techies - June tech meetup - Xamarin hands-on workshop
+  city: Nagpur
+  venue: Persistent Systems, IT Park
+  start_time: 2017-06-04 09:30
+  end_time: 2017-06-04 15:30
+  url: https://www.meetup.com/Nagpur-Techies/events/239902099/
+  blurb: This is a HANDS-ON introductory level workshop. With a C#-shared codebase, Xamarin can be used to write native Android, iOS, and Windows apps with native user interfaces and share code across multiple platforms. You will be able to develop Xamarin mobile applications by the end of the workshop.
