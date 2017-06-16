@@ -1,3 +1,18 @@
+- name: building-reliable-payment-systems-2017
+  title: Building reliable payment systems and services 2017
+  city: Mumbai
+  venue: BSE Auditorium
+  google_maps_pin: https://goo.gl/maps/WpYAnrNrEf62
+  start_time: 2017-07-08
+  end_time: 2017-07-08
+  url: https://50p.in/devpay2017/
+  funnel: https://50p.talkfunnel.com/building-reliable-payment-systems-2017/
+  blurb: Revisiting the payments ecosystem in India.
+  color:
+    primary: "#3f50a3"
+    primary_dark: "#213284"
+    accent: "#e76f45
+
 - name: fifthelephant-2017
   title: The Fifth Elephant 2017
   city: Bangalore
