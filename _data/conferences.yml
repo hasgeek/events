@@ -77,3 +77,13 @@
   end_time: 2017-09-14
   funnel: https://reactfoo.talkfunnel.com/2017/
   blurb: Our new conference on the state of React in India. We’ll have more news on this in the coming weeks.
+  
+- name: cmsconf-2017
+  title: CMS conf 2017
+  city: Bangalore
+  venue: NIMHANS Convention Centre, Dairy Circle
+  google_maps_pin: https://goo.gl/maps/guzuU8H37Zy
+  start_time: 2017-12-01
+  end_time: 2017-12-01
+  funnel: https://metarefresh.talkfunnel.com/cms-conf-2017/
+  blurb: CMS conf discusses engineering challenges and business decisions underlying the choice of Content Management Systems (CMS).
