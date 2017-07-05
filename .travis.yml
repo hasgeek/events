@@ -1,7 +1,7 @@
 language: ruby
 cache: bundler
 rvm:
-- ruby-head
+- 2.2
 before_script:
 - pip install --user -r requirements.txt
 script:
