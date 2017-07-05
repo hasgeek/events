@@ -1,0 +1,65 @@
+
+/* Color Themes - Variables */
+
+$dark-blue: #3E50A3;
+$orange: #eb5b1f;
+
+
+/* Common Colors - Variables */
+
+$off-wht: #fafafa;
+
+/* Mixins */
+
+@mixin btn-theme($btn-color) {
+    border-color: darken($btn-color, 10%);
+    background-color: $btn-color;
+    &:hover {
+        background-color: darken($btn-color, 6%);
+       /*  box-shadow: 0 .125em $off-wht, inset 0 .063em $off-wht, inset 0 -.188em lighten($btn-color, 2%); */
+        color: $off-wht;
+    }
+    &:active {
+        box-shadow: 0 .063em $off-wht, inset 0 0 1.094em darken($btn-color, 10%),inset 0 -0.188em darken($btn-color, 20%);
+    }
+}
+
+@mixin trans($val...) {
+    -webkit-transition: $val;
+    -moz-transition: $val;
+    -o-transition: $val;
+    transition: $val;
+}
+
+/* Button Global */
+
+.btn {
+    display: inline-block;
+    margin: 8px;
+    /* border: .094em solid; */
+    border-radius: .400em;
+    /* box-shadow: 0 .375em .313em -.313em rgba(black,.8), inset 0 .063em $off-wht, inset 0 -.188em rgba(black,.15); */
+    color: #FFF;
+    @include trans(0.2s ease-in-out);
+    text: {
+        decoration: none;
+        shadow: 0 .063em rgba(black,.3);
+    }
+  cursor:pointer;
+  &:focus{
+    outline: none;
+    color: #fff;
+  }
+}
+
+.btn-l{
+     padding: .938em 1.875em;
+}
+
+/* Themes */
+.dark-blue {
+    @include btn-theme($dark-blue);
+}
+.orange {
+    @include btn-theme($orange);
+}

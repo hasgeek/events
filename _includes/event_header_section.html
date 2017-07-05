@@ -1,0 +1,24 @@
+<section class="hero is-large is-primary is-bold">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        {{ include.event.title }}
+      </h1>
+      {% if include.event.subtitle %}
+      <h2 class="subtitle">
+        {{ include.event.subtitle }}
+      </h2>
+      {% endif %}
+      <h3 class="subtitle is-6">{{ include.event.datelocation }}</h3>
+
+      <div class="block">
+        {% if include.event.boxoffice_item_collection %}
+        <a class="button" href="#tickets">Buy Tickets</a>
+        {% endif %}
+        {% if include.event.funnel %}
+        <a class="button" href="{{ include.event.funnel }}" target="_blank">Propose a talk</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

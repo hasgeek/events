@@ -1,0 +1,144 @@
+/* This partial is for styles that are unique to the main rootconf page. When creating a partial unique to a page add a unique class to the body in the html of that page eg. <body class="rootconf-main">. Nest your scss in this class. Eg.
+.rootconf-main {
+  p {
+    color: tomato;
+  }
+  h1 {
+    color: blue;
+  }
+}
+This prevents classes from overriding each other in main.css and creating chaos in the stylesheets */
+
+.main{
+  font-family: 'Inconsolata', monospace;
+
+  .masthead{
+    background-color: #f6f9fc;
+    width: auto;
+    height: 400px;
+  }
+  .event-shoutout {
+    background-image: linear-gradient(to bottom, rgba(129, 104, 148, 0.86) 0%, rgba(62, 53, 70, 0.91) 100%), url(https://c1.staticflickr.com/6/5747/22752109178_1b12151e17_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  .event-shoutout-position{
+    position: relative;
+    top: -100px;
+  }
+  .card {
+    @extend .off-white;
+
+    &:hover {
+      @extend .card-box-shadow;
+    }
+  }
+.meetup{
+  .card-heading{
+    background-color: #0088af;
+    padding: 20px 20px;
+    border-radius: 5px 5px 0 0;
+  }
+}
+.ama{
+  .card-heading{
+    background-color: #f29c4a;
+    padding: 20px 20px;
+    border-radius: 5px 5px 0 0;
+  }
+}
+.workshop{
+  .card-heading{
+    background-color: #239C70;
+    padding: 20px 20px;
+    border-radius: 5px 5px 0 0;
+  }
+}
+.blog{
+  hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .panel-heading{
+    padding: 5px 5px 0 5px;
+  }
+  .nav-tabs{
+    border-bottom: none;
+  }
+  .nav-justified{
+    margin-bottom: -1px;
+  }
+}
+.nav-tabs{
+  li{
+    a{
+      color: #fff;
+      &:hover{
+        color: #fff;
+      }
+      &:focus{
+        color: #fff;
+      }
+    }
+  }
+}
+
+}//
+
+
+.panel-primary{
+  .nav-tabs{
+    a{
+      color: #fff;
+      background-color: #3071a9;
+      border-color: transparent;
+      &:hover{
+        color: #fff;
+        background-color: #3071a9;
+        border-color: transparent;
+      }
+      &:focus{
+        color: #fff;
+        background-color: #3071a9;
+        border-color: transparent;
+      }
+    }
+  }
+}
+
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #428bca;
+  background-color: #fff;
+  border-color: #428bca;
+  border-bottom-color: transparent;
+}
+
+
+.grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
+
+.affix {
+  top: -150px;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-wrapper{
+  height: 53px;
+}
+/*   .affix + .container-fluid {
+padding-top: 70px;
+}
+*/
+
+@media only screen and (max-width: 500px) {
+  .attendee-stories {
+    .carousel-control{
+      display: none;
+    }
+  }
+}

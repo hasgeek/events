@@ -1,0 +1,58 @@
+---
+layout: base
+---
+
+
+<section class="hero is-medium is-primary is-bold">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        {{ site.title }}
+      </h1>
+      {% if site.subtitle %}
+      <h2 class="subtitle">
+        {{ site.subtitle }}
+      </h2>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+      {% assign all_events = site.collections | where:'type', 'event' | first %}
+      {% assign featured_events = all_events.docs | where_exp:'event', "event.relative_path contains site.event_collection" | where:'featured', 'true' %}
+      {% assign featured_length_mod = featured_events | size | modulo:2 %}
+      {% if featured_length_mod == 0 %}
+        {% assign featured_count = 'even' %}
+      {% else %}
+        {% assign featured_count = 'odd' %}
+      {% endif %}
+
+      {% if featured_count == 'odd' %}
+        {% assign first_featured_event = featured_events | first %}
+        <div class="columns is-centered">
+          <div class="column is-7">
+            {% include event_card.html event=first_featured_event%}
+          </div>
+        </div>
+        <div class="columns is-centered is-multiline">
+          {% for event in featured_events offset:1 %}
+          <div class="column is-one-third">
+            {% include event_card.html event=event%}
+          </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        <div class="columns is-centered is-multiline">
+          {% for event in featured_events %}
+          <div class="column is-one-third">
+            {% include event_card.html event=event%}
+          </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+  </div>
+</section>
+
+{% include footer.html %}

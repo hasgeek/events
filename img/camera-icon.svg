@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="88px" height="68px" viewBox="0 0 88 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>camera-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="camera-icon" transform="translate(0.000000, -1.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Group" transform="translate(0.000000, 0.637820)">
+                <path d="M32,0.36217 L27,10.36217 L7,10.36217 C3.1220005,10.36217 5e-07,13.48416 5e-07,17.36217 L5e-07,61.3622 C5e-07,65.2402 3.1220005,68.3622 7,68.3622 L81,68.3622 C84.878,68.3622 88,65.2402 88,61.3622 L88,17.36217 C88,13.48416 84.878,10.36217 81,10.36217 L61,10.36217 L56,0.36217 L32,0.36217 Z M44,18.36217 C55.5625,18.36217 65,27.79979 65,39.3622 C65,50.9246 55.5625,60.3622 44,60.3622 C32.437601,60.3622 23,50.9246 23,39.3622 C23,27.79969 32.4377,18.36217 44,18.36217 Z M44,24.36219 C35.680301,24.36219 29,31.04239 29,39.3622 C29,47.6819 35.6804,54.3622 44,54.3622 C52.319901,54.3622 59,47.682 59,39.3622 C59,31.04239 52.319901,24.36219 44,24.36219 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

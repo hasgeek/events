@@ -1,0 +1,29 @@
+title: Anthill Inside
+subtitle: "India's community of deep learning and artifical intelligence practitioners"
+description: "India's community of deep learning and artifical intelligence practitioners"
+baseurl: "/anthillinside" # the subpath of your site, e.g. /blog
+url: "https://hasgeek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - .git
+  - .sass_cache
+  - _site
+  - tests
+
+sass_dir: _sass
+
+liquid:
+  error_mode: strict
+
+collections:
+  anthillinside_events:
+    type: event
+    output: true
+    permalink: /:name/

@@ -1,0 +1,15 @@
+{% assign all_events = site.collections | where:'type', 'event' | first %}
+{% assign featured_events = all_events.docs | where_exp:'event', "event.relative_path contains site.event_collection" | where:'featured', 'true' %}
+
+<nav class="nav has-shadow is-hidden-mobile">
+  <div class="container">
+    <a class="nav-item" href="{{site.url}}{{site.baseurl}}/" >
+      {{ site.title }}
+    </a>
+    <div class="nav-left">
+			{% for event in featured_events %}
+			  <a class="nav-item" href="{{site.url}}{{site.baseurl}}{{ event.url }}" >{{ event.title }}</a>
+			{% endfor %}
+    </div>
+  </div>
+</nav>

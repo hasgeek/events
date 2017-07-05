@@ -1,0 +1,23 @@
+<div class="card is-clickable" onclick="goToUrl('{{site.url}}{{site.baseurl}}{{ include.event.url }}')">
+  <header class="card-content">
+    <p class="title">
+      {{ include.event.title }}
+    </p>
+    <p class="subtitle is-6">
+      {{ include.event.datelocation }}
+    </p>
+
+      {% if include.event.boxoffice_item_collection %}
+      <span class="tag is-primary">Tickets now available</span>
+      {% endif %}
+      {% if include.event.funnel %}
+      <span class="tag is-success">Call for Proposals are open</span>
+      {% endif %}
+
+  </header>
+  <div class="card-content">
+    <div class="content">
+      {{ include.event.description }}
+    </div>
+  </div>
+</div>

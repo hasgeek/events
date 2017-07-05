@@ -1,17 +1,37 @@
-collections:
-  hg_events:
-    output: false
-timezone: Asia/Calcutta
-webrick:
-  headers:
-    Access-Control-Allow-Origin: '*'
+title: Fragments
+subtitle: "India's community of Android, iOS, and mobile web developers<br>(formerly called droidconIN)"
+description: "India's community of Android, iOS, and mobile web developers"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fragments.in" # the base hostname & protocol for your site, e.g. http://example.com
+sass_settings: fragments
+event_collection: fragments
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Rakefile
+  - .git
+  - .sass_cache
+  - _site
   - tests
-  - requirements.txt
   - vendor
+  - .DS_Store
+  - configs
+  - deploy
+  - requirements.txt
   - README.md
+
+sass_dir: _sass
+
+liquid:
+  error_mode: strict
+
+collections:
+  events:
+    type: event
+    output: true
+    permalink: /:path/

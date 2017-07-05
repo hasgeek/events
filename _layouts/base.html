@@ -1,0 +1,142 @@
+---
+---
+
+{% if page.description %}
+  {% assign description = page.description %}
+{% else %}
+  {% assign description = site.description %}
+{% endif %}
+
+{% if page.title %}
+  {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
+{% else %}
+  {% capture title %}{{ site.title }}{% endcapture %}
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+    <meta name="description" content="{{ description }}">
+    <meta name="keywords" content="{{ site.keywords }}">
+    <link rel="author" href="https://plus.google.com/{{googlePlusId}}" />
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}" />
+
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:see_also" content="{{ site.url }}{{ site.baseurl }}">
+    <meta property="og:type" content="website">
+
+    <meta itemprop="name" content="{{ title }}">
+    <meta itemprop="description" content="{{ description }}">
+    <meta itemprop="image" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="">
+
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/main.css">
+
+    {% if page.custom_css %}
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/{{ page.custom_css }}">
+    {% endif %}
+
+    {% if page.boxoffice_item_collection %}
+      {% include boxoffice_styles.html %}
+    {% endif %}
+
+    {% if page.venue %}
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/leaflet.css">
+    {% endif %}
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.light.min.css">
+</head>
+<body>
+  {% include sidebar_site.html %}
+
+  {% include navbar_site.html %}
+
+  {{ content }}
+
+  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery-3.2.1.min.js"></script>
+  <script src="//cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
+{% if page.venue %}
+  <script src="{{ site.url }}{{ site.baseurl }}/js/leaflet.js"></script>
+{% endif %}
+<script>
+  $(document).ready( function() {
+
+    var stickyNav = $(".nav-sticky");
+    var navHeight;
+    if (stickyNav.length > 0) {
+      stuck = "nav-stuck";
+      headerHeight = $(stickyNav[0]).offset().top;
+      nextSibling = stickyNav.parent().next()[0];
+      navHeight = stickyNav[0].clientHeight;
+      $(window).scroll(function() {
+        if( $(this).scrollTop() > headerHeight) {
+          stickyNav.parent().addClass(stuck);
+          nextSibling.style.marginTop = navHeight+"px";
+        } else {
+          stickyNav.parent().removeClass(stuck);
+          nextSibling.style.marginTop = 0;
+        }
+      });
+    }
+    $("a").click(function (e) {
+      var goto = $(this).attr('data-href');
+      if (goto) {
+        // Prevent a page reload when a link is pressed
+        e.preventDefault();
+        // Scroll to section
+        var offset_top = $(goto).offset().top - navHeight || 0;
+        $("body,html").stop(true,true).animate({scrollTop:offset_top},300)
+      }
+    });
+
+    {% if page.venue %}
+      initLeaflets();
+    {% endif %}
+
+    $('#sidebar').show();
+    $('.nav-toggle').sidr({
+      name: 'sidebar',
+      source: '#sidebar',
+      renaming: false
+    });
+
+    // Toggle button
+      // document.querySelector('.nav-toggle').addEventListener('click', function() {
+      //   slideout.toggle();
+      // });
+  })
+
+  function goToUrl(url) {
+    window.location.href = url;
+  }
+  function showModal(modalId) {
+    $('#'+modalId).addClass('is-active');
+  }
+  function hideModal(modalId) {
+    $('#'+modalId).removeClass('is-active');
+  }
+</script>
+{% if page.boxoffice_item_collection %}
+  {% include boxoffice_js.html %}
+{% endif %}
+
+{% if jekyll.environment == 'production '%}
+{% include analytics.html ga_tracking_code=site.ga_tracking_code %}
+{% endif %}
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+title: Fragments
+subtitle: "India's community of Android, iOS, and mobile web developers<br>(formerly called droidconIN)"
+description: "India's community of Android, iOS, and mobile web developers"
+baseurl: "/fragments" # the subpath of your site, e.g. /blog
+url: "https://hasgeek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+sass_settings: fragments
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - .git
+  - .sass_cache
+  - _site
+  - tests
+
+sass_dir: _sass
+
+liquid:
+  error_mode: strict
+
+collections:
+  fragments_events:
+    type: event
+    output: true
+    permalink: /:name/

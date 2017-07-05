@@ -1,0 +1,44 @@
+<section class="section "id="sponsor">
+  <div class="container">
+    <div class="has-text-centered">
+      <h1 class="title">Sponsors</h1>
+      <h2 class="subtitle">{{ include.blurb }}</h2>
+      <a class="button is-primary" href="{{ include.sponsorship_deck_url }}" target="_blank">Sponsorship Deck</a>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+        {% if include.sponsors %}
+          {% for sponsor_type in include.sponsors %}
+          <div class="message has-text-centered">
+            <div class="message-body">
+              <h3 class="title">{{ sponsor_type.title }}</h3>
+              <div class="columns is-multiline is-centered">
+                {% for sponsor in sponsor_type.sponsors %}
+                  <div class="column is-one-quarter">
+                    <figure class="image">
+                      <img src="{{ sponsor.logo_url }}" alt="{{ sponsor.title }}"style="cursor: pointer;max-height: 100px;width: auto;" onclick="showModal('sponsor-{{ include.sponsor.title | slugify }}')">
+                    </figure>
+                  </div>
+                  <div class="modal" id="sponsor-{{ include.sponsor.title | slugify }}" style="z-index:20;">
+                    <div class="modal-background"></div>
+                    <div class="modal-content">
+                      <div class="box">
+                        <figure class="image">
+                          <img src="{{ sponsor.logo_url }}" alt="{{ sponsor.title }}"style="cursor: pointer;max-height: 60px;width: auto; margin: auto;">
+                        </figure>
+                        <a href="{{ sponsor.url }}">{{ sponsor.display_url }}</a>
+                        <p>{{ sponsor.blurb | markdownify }}</p>
+                      </div>
+                    </div>
+                    <button class="modal-close is-large" onclick="hideModal('sponsor-{{ include.sponsor.title | slugify }}')"></button>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        {% endif %}
+  </div>
+</section>

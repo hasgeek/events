@@ -1,17 +1,22 @@
 language: ruby
 cache: bundler
 rvm:
-  - ruby-head
+- ruby-head
 before_script:
-  - pip install --user -r requirements.txt
+- pip install --user -r requirements.txt
 script:
-  - behave tests/before_build
-  - bundle exec jekyll build
-  - behave tests/after_build
+- behave tests/before_build
+- bundle exec jekyll build
+- behave tests/after_build
 deploy:
-  provider: pages
-  skip_cleanup: false
-  github_token: $GITHUB_TOKEN
-  target_branch: gh-pages
-  on:
-    branch: master
+  - provider: pages
+    skip_cleanup: false
+    github_token: "$GITHUB_TOKEN"
+    target_branch: gh-pages
+    on:
+      branch: master
+
+  - provider: script
+    script: deploy/deploy.sh
+    on:
+      branch: master
