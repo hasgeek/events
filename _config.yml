@@ -1,8 +1,8 @@
 title: Fragments
 subtitle: "India's community of Android, iOS, and mobile web developers<br>(formerly called droidconIN)"
-description: "India's community of Android, iOS, and mobile web developers"
+description: "India's community of Android, iOS, and mobile web developers."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fragments.in" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://fragments.in" # the base hostname & protocol for your site, e.g. http://example.com
 sass_settings: fragments
 event_collection: fragments
 
