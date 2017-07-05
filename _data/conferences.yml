@@ -1,10 +1,25 @@
+- name: building-reliable-payment-systems-2017
+  title: Building reliable payment systems and services 2017
+  city: Mumbai
+  venue: VSIT Mumbai
+  google_maps_pin: https://goo.gl/maps/xvL5y19KiFT2
+  start_time: 2017-07-08
+  end_time: 2017-07-08
+  url: https://50p.in/devpay2017/
+  funnel: https://50p.talkfunnel.com/building-reliable-payment-systems-2017/
+  blurb: Revisiting the payments ecosystem in India.
+  color:
+    primary: "#826995"
+    primary_dark: "#514F74"
+    accent: "#ECC378"
+
 - name: fifthelephant-2017
   title: The Fifth Elephant 2017
   city: Bangalore
   venue: MLR Convention Center, Whitefield
   google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
-  start_time: 2017-06-27
-  end_time: 2017-06-28
+  start_time: 2017-07-27
+  end_time: 2017-07-28
   url: https://fifthelephant.in/2017/
   funnel: https://fifthelephant.talkfunnel.com/2017/
   blurb: An annual gathering of data scientists, analysts, researchers, and technologists working in the areas of data mining and analysis, data science, machine learning, and deep learning from different domains.
@@ -18,8 +33,8 @@
   city: Bangalore
   venue: MLR Convention Center, Whitefield
   google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
-  start_time: 2017-06-29
-  end_time: 2017-06-29
+  start_time: 2017-07-29
+  end_time: 2017-07-29
   url: https://anthillinside.in/2017/
   funnel: https://anthillinside.talkfunnel.com/2017/
   blurb: The new avatar of last year’s Deep Learning Conf. It is a spin off of The Fifth Elephant that focuses specifically on deep learning and artificial intelligence, attempting to bridge the gap and bring theoretical advances closer to functioning reality.
@@ -62,3 +77,13 @@
   end_time: 2017-09-14
   funnel: https://reactfoo.talkfunnel.com/2017/
   blurb: Our new conference on the state of React in India. We’ll have more news on this in the coming weeks.
+  
+- name: cmsconf-2017
+  title: CMS conf 2017
+  city: Bangalore
+  venue: NIMHANS Convention Centre, Dairy Circle
+  google_maps_pin: https://goo.gl/maps/guzuU8H37Zy
+  start_time: 2017-12-01
+  end_time: 2017-12-01
+  funnel: https://metarefresh.talkfunnel.com/cms-conf-2017/
+  blurb: CMS conf discusses engineering challenges and business decisions underlying the choice of Content Management Systems (CMS).

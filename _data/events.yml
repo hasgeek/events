@@ -33,3 +33,48 @@
   end_time: 2017-06-09 21:00
   url: https://www.facebook.com/events/1578118532239183/
   blurb: Engineering involves crafting great user experiences for customers. For this week's open house, we have Mario Stallone, who works on front-end at Myntra. 
+
+- name: open-house-hasjob
+  title: Hasjob open house for employers
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-06-16 19:00
+  end_time: 2017-06-16 20:00
+  url: https://www.facebook.com/events/377669675968615/
+  blurb: The open house on Friday is for startup founders and CEOs, CTOs, HR personnel from enterprises and mid-sized companies, talent acquisition teams & recruiters to discuss challenges in hiring for tech.
+  
+- name: medianama-securing-online-data
+  title: Session on securing online data - MediaNama
+  city: Bangalore
+  venue: Hilton Embassy GolfLinks
+  start_time: 2017-06-23 19:00
+  end_time: 2017-06-23 21:30
+  url: https://docs.google.com/forms/d/e/1FAIpQLScLqpDJLKfxZQsZHcLl-WlG2-R6k9HzLE1b9BSogG1QVgiSXg/viewform
+  blurb: MediaNama is hosting a free, invitation-only, interactive discussion this Friday for Founders, CTO's, CPO's and CIO’s on cloud data security. Apply to attend. (Attendees will be confirmed by 21st June)
+  
+- name: open-house-modern-mobile-teams
+  title: Open House on modern mobile dev teams
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-06-23 19:00
+  end_time: 2017-06-23 20:00
+  url: https://www.facebook.com/events/1789987124627442/
+  blurb: We’d like to invite mobile developers, team leads, and architects for an open discussion to help understand how modern mobile development teams are structured, mobile strategies arrived at, and how tech decisions at made.
+
+- name: open-house-papers-we-love
+  title: Papers we love with Lakshman Prasad
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-06-30 19:00
+  end_time: 2017-06-30 20:00
+  url: https://www.facebook.com/events/1149033318533901/
+  blurb: This Friday, we're putting together a meetup to discuss a paper with Lakshman Prasad. You can find more details about the paper and the topic on the event page.
+  
+- name: fifthel-pune-meetup
+  title: The Fifth Elephant Pune meetup
+  city: Pune
+  venue: Wingify
+  start_time: 2017-07-08 11:00
+  end_time: 2017-07-08 14:00
+  url: https://fifthelephant.in/2017/pune-meetup
+  blurb: We're putting together a Fifth Elephant meetup in Pune on 8th July at Wingify office. We'll have one workshop followed by talks. If you're a data scientist, analyst, researcher or technologist working in the areas of machine learning and deep learning engineer in and around Pune, do attend!
