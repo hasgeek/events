@@ -1,9 +1,8 @@
 title: Fragments
 subtitle: "India's community of Android, iOS, and mobile web developers<br>(formerly called droidconIN)"
 description: "India's community of Android, iOS, and mobile web developers"
-baseurl: "/fragments" # the subpath of your site, e.g. /blog
-url: "https://hasgeek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-sass_settings: fragments
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fragments.in" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
@@ -17,6 +16,14 @@ exclude:
   - .sass_cache
   - _site
   - tests
+  - vendor
+  - .DS_Store
+  - configs
+  - deploy
+  - requirements.txt
+  - README.md
+
+destination: _site/fragments
 
 sass_dir: _sass
 

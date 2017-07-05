@@ -20,8 +20,9 @@ layout: base
 
 <section class="section">
   <div class="container">
-      {% assign all_events = site.collections | where:'type', 'event' | first %}
-      {% assign featured_events = all_events.docs | where_exp:'event', "event.relative_path contains site.event_collection" | where:'featured', 'true' %}
+
+      {% include assign_featured_events.html %}
+
       {% assign featured_length_mod = featured_events | size | modulo:2 %}
       {% if featured_length_mod == 0 %}
         {% assign featured_count = 'even' %}

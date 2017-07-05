@@ -1,8 +1,8 @@
 title: Anthill Inside
 subtitle: "India's community of deep learning and artifical intelligence practitioners"
 description: "India's community of deep learning and artifical intelligence practitioners"
-baseurl: "/anthillinside" # the subpath of your site, e.g. /blog
-url: "https://hasgeek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/test" # the subpath of your site, e.g. /blog
+url: "https://anthillinside.in" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
@@ -16,6 +16,14 @@ exclude:
   - .sass_cache
   - _site
   - tests
+  - vendor
+  - .DS_Store
+  - configs
+  - deploy
+  - requirements.txt
+  - README.md
+
+destination: _site/anthillinside
 
 sass_dir: _sass
 

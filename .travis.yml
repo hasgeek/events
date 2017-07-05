@@ -17,7 +17,12 @@ deploy:
       branch: master
 
   - provider: script
-    script: chmod +x deploy/deploy.sh && deploy/deploy.sh
+    script: deploy/deploy.sh fragments
+    skip_cleanup: true
+    on:
+      branch: master
+  - provider: script
+    script: deploy/deploy.sh anthillinside
     skip_cleanup: true
     on:
       branch: master

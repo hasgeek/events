@@ -1,5 +1,4 @@
-{% assign all_events = site.collections | where:'type', 'event' | first %}
-{% assign featured_events = all_events.docs | where_exp:'event', "event.relative_path contains site.event_collection" | where:'featured', 'true' %}
+{% include assign_featured_events.html %}
 
 <nav class="nav has-shadow is-hidden-mobile">
   <div class="container">

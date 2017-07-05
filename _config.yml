@@ -1,10 +1,8 @@
-title: Fragments
-subtitle: "India's community of Android, iOS, and mobile web developers<br>(formerly called droidconIN)"
-description: "India's community of Android, iOS, and mobile web developers."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://fragments.in" # the base hostname & protocol for your site, e.g. http://example.com
-sass_settings: fragments
-event_collection: fragments
+title: HasGeek Events
+subtitle: "We creates discussion spaces for geeks. Come to our events to meet like-minded people, learn new things and discover new opportunities."
+description: "HasGeek creates discussion spaces for geeks. Come to our events to meet like-minded people, learn new things and discover new opportunities."
+baseurl: "/events" # the subpath of your site, e.g. /blog
+url: "https://hasgeek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
@@ -25,13 +23,19 @@ exclude:
   - requirements.txt
   - README.md
 
+destination: _site/_site
+
 sass_dir: _sass
 
 liquid:
   error_mode: strict
 
 collections:
-  events:
+  fragments_events:
     type: event
     output: true
-    permalink: /:path/
+    permalink: /fragments/:name/
+  anthillinside_events:
+    type: event
+    output: true
+    permalink: /anthillinside/:name/
