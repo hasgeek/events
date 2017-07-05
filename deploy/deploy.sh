@@ -17,8 +17,8 @@ git config user.email "deploy@travis-ci.org"
 
 git add .
 
-git commit -m "Deployment" 
+git commit -m "Deployment"
 
 git remote add deploy git@e2e.hasgeek.com:fragments
 
-git push deploy
+git push -u -f deploy master
