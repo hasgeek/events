@@ -12,6 +12,8 @@ cd _site
 
 git init
 
+git add .
+
 git remote add deploy git@e2e.hasgeek.com:fragments
 
 git push deploy
