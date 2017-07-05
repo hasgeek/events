@@ -12,7 +12,12 @@ cd _site
 
 git init
 
+git config user.name "Deployment Bot (from Travis CI)"
+git config user.email "deploy@travis-ci.org"
+
 git add .
+
+git commit -m "Deployment" 
 
 git remote add deploy git@e2e.hasgeek.com:fragments
 
