@@ -23,6 +23,11 @@ exclude:
   - requirements.txt
   - README.md
 
+timezone: Asia/Calcutta
+webrick:
+  headers:
+    Access-Control-Allow-Origin: '*'
+
 destination: _site/_site
 
 sass_dir: _sass
