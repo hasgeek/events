@@ -41,7 +41,6 @@ def step_impl(context):
 		assert conf.get('start_time'), "'start_time' value is missing"
 		assert conf.get('end_time'), "'end_time' value is missing"
 		assert conf.get('blurb'), "'blurb' value is missing"
-		assert conf.get('funnel'), "'funnel' value is missing"
 		if conf.get('color'):
 			assert conf.get('color').get('primary'), "'primary' color is not set"
 			assert conf.get('color').get('primary_dark'), "'primary_dark' color is not set"
@@ -56,11 +55,11 @@ def step_impl(context):
 		assert conf.get('city') in context.cities, "'city' value should be one of those listed in cities.yml"
 		assert len(conf.get('venue')) < 40, "'venue' value is more than 40 characters"
 		assert urlregex.match(conf.get('google_maps_pin')), "'google_maps_pin' is not a valid URL"
-		
+
 		assert isinstance(datetime.datetime.strptime(conf.get('start_time'), '%Y-%m-%d'), datetime.datetime), "'start_time' needs to be in the datetime format"
 		assert isinstance(datetime.datetime.strptime(conf.get('end_time'), '%Y-%m-%d'), datetime.datetime), "'end_time' needs to be in the datetime format"
-		
-		assert datetime.datetime.strptime(conf.get('start_time'), '%Y-%m-%d') <= datetime.datetime.strptime(conf.get('end_time'), '%Y-%m-%d'), "'start_time' needs to before 'end_time'"		
+
+		assert datetime.datetime.strptime(conf.get('start_time'), '%Y-%m-%d') <= datetime.datetime.strptime(conf.get('end_time'), '%Y-%m-%d'), "'start_time' needs to before 'end_time'"
 
 		assert len(conf.get('blurb')) < 300 , "'blurb' value is more than 300 characters"
 		if conf.get('url'):
@@ -72,4 +71,3 @@ def step_impl(context):
 			assert colorregex.match(conf.get('color').get('primary')), "'primary' color is not a valid color"
 			assert colorregex.match(conf.get('color').get('primary_dark')), "'primary_dark' color is not a valid color"
 			assert colorregex.match(conf.get('color').get('accent')), "'accent' color is not a valid color"
-
