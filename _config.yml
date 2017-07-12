@@ -39,8 +39,12 @@ collections:
   fragments_events:
     type: event
     output: true
-    permalink: /fragments/:name/
+    permalink: /fragments/:path/
   anthillinside_events:
     type: event
     output: true
-    permalink: /anthillinside/:name/
+    permalink: /anthillinside/:path/
+  reactfoo_events:
+    type: event
+    output: true
+    permalink: /reactfoo/:path/
