@@ -20,8 +20,8 @@ layout: base
           {% if page.overview %}
           <a class="nav-item is-tab is-hidden-tablet" data-href="#overview">Overview</a>
           {% endif %}
-          {% if page.instructors %}
-          <a class="nav-item is-tab is-hidden-tablet" data-href="#instructors">Instructors</a>
+          {% if page.instructors or page.speakers %}
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#{% if page.instructors %}instructors{%else%}speakers{%endif%}">{% if page.instructors %}Instructors{%else%}Speakers{%endif%}</a>
           {% endif %}
           <!-- <li><a href="#schedule">Schedule</a></li> -->
           {% if page.boxoffice_item_collection %}
@@ -39,8 +39,8 @@ layout: base
           {% if page.overview %}
           <a class="nav-item is-tab is-hidden-mobile" data-href="#overview">Overview</a>
           {% endif %}
-          {% if page.instructors %}
-          <a class="nav-item is-tab is-hidden-mobile" data-href="#instructors">Instructors</a>
+          {% if page.instructors or page.speakers %}
+          <a class="nav-item is-tab is-hidden-mobile" data-href="#{% if page.instructors %}instructors{%else%}speakers{%endif%}">{% if page.instructors %}Instructors{%else%}Speakers{%endif%}</a>
           {% endif %}
           <!-- <li><a href="#schedule">Schedule</a></li> -->
           {% if page.boxoffice_item_collection %}
@@ -70,10 +70,10 @@ layout: base
 </section>
 {% endif %}
 
-{% if page.instructors %}
-<section class="section" id="instructors">
+{% if page.instructors or page.speakers %}
+<section class="section" id="{% if page.instructors %}instructors{%else%}speakers{%endif%}">
   <div class="container">
-    {% include instructors_section.html instructors=page.instructors%}
+    {% include instructors_section.html instructors=page.instructors speakers=page.speakers%}
   </div>
 </section>
 {% endif %}
