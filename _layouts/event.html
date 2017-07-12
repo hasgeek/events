@@ -11,6 +11,10 @@ layout: base
 
   {% include event_header_section.html event=page %}
 
+  {% if page.subbanner %}
+    {% include subbanner_{{ page.subbanner }}.html %}
+  {% endif %}
+
 
 <div style="z-index:10;">
   <nav class="nav has-shadow nav-sticky" style="z-index:10;">

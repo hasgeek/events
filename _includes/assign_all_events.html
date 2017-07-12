@@ -1,0 +1,9 @@
+{% assign all_events = "" | split: "" %}
+{% assign all_collections = site.collections | where:'type', 'event'%}
+{% for collection in all_collections  %}
+  {% assign all_events_c = collection.docs %}
+  {% for event in all_events_c  %}
+    {% assign all_events = all_events | push: event %}
+  {% endfor %}
+{% endfor %}
+{% assign all_events = all_events | sort: 'end_time' %}

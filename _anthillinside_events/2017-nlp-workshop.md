@@ -1,8 +1,11 @@
 ---
 layout: workshop
-title: Learning representations of text for NLP
+title: Workshop on learning representations of text for NLP
 subtitle: A conference on deep learning and artificial intelligence
-datelocation: "29 July 2017, Bangalore"
+datelocation: "30 July 2017, Bangalore"
+city: Bangalore
+start_time: 2017-07-30
+end_time: 2017-07-30
 description: "India's community of deep learning and artifical intelligence practitioners"
 boxoffice_item_collection: "721ddcca-2439-11e7-a658-855025fdda9d"
 overview:

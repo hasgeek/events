@@ -36,4 +36,4 @@ collections:
   anthillinside_events:
     type: event
     output: true
-    permalink: /:name/
+    permalink: /:path/

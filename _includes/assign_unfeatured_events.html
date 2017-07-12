@@ -1,0 +1,9 @@
+{% assign unfeatured_events = "" | split: "" %}
+{% assign all_collections = site.collections | where:'type', 'event'%}
+{% for collection in all_collections  %}
+  {% assign featured_events_c = collection.docs | where_exp:'event', "event.featured != true" %}
+  {% for event in featured_events_c  %}
+    {% assign unfeatured_events = unfeatured_events | push: event %}
+  {% endfor %}
+{% endfor %}
+{% assign unfeatured_events = unfeatured_events | sort: 'end_time' %}

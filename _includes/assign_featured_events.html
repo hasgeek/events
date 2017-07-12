@@ -6,3 +6,4 @@
     {% assign featured_events = featured_events | push: event %}
   {% endfor %}
 {% endfor %}
+{% assign featured_events = featured_events | sort: 'end_time' %}
