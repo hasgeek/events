@@ -4,6 +4,10 @@ layout: base
 
   {% include event_header_section.html event=page %}
 
+  {% if page.subbanner %}
+    {% include subbanner_{{ page.subbanner }}.html %}
+  {% endif %}
+
   <div style="z-index:10;">
     <nav class="nav has-shadow nav-sticky" style="z-index:10;">
       <div class="container">
@@ -14,7 +18,10 @@ layout: base
             <span></span>
           </span>
           {% if page.overview %}
-          <a class="nav-item is-tab is-hidden-tablet" data-href="#overview" style="z-index:10;">Overview</a>
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#overview">Overview</a>
+          {% endif %}
+          {% if page.instructors %}
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#instructors">Instructors</a>
           {% endif %}
           <!-- <li><a href="#schedule">Schedule</a></li> -->
           {% if page.boxoffice_item_collection %}
@@ -31,6 +38,9 @@ layout: base
         <div class="nav-center" style="z-index:10;">
           {% if page.overview %}
           <a class="nav-item is-tab is-hidden-mobile" data-href="#overview">Overview</a>
+          {% endif %}
+          {% if page.instructors %}
+          <a class="nav-item is-tab is-hidden-mobile" data-href="#instructors">Instructors</a>
           {% endif %}
           <!-- <li><a href="#schedule">Schedule</a></li> -->
           {% if page.boxoffice_item_collection %}
@@ -53,15 +63,23 @@ layout: base
 <!--/.Secondary Navbar -->
 
 {% if page.overview %}
-<section class="section "id="overview">
+<section class="section" id="overview">
   <div class="container">
     {% include overview_section.html left=page.overview.left_content right=page.overview.right_content center=page.overview.center_content %}
   </div>
 </section>
 {% endif %}
 
+{% if page.instructors %}
+<section class="section" id="instructors">
+  <div class="container">
+    {% include instructors_section.html instructors=page.instructors%}
+  </div>
+</section>
+{% endif %}
+
 {% if page.boxoffice_item_collection %}
-<section class="section "id="tickets">
+<section class="section" id="tickets">
   <div class="container">
     {% include boxoffice_tickets_section.html %}
   </div>
