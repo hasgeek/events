@@ -96,4 +96,21 @@
   end_time: 2017-07-14 20:00
   url: https://www.facebook.com/events/101658303796453
   blurb: Prof. S Chandrashekar spent more than 20 years working at the Indian Space Research Organisation (ISRO). Post his career at ISRO, Chandra joined the Indian Institute of Management Bangalore (IIMB) as a Professor in the Corporate Strategy and Policy Area.
+
+- name: fifthel-bangalore-meetup
+  title: The Fifth Elephant Bangalore Meetup
+  city: Bangalore
+  venue: WalmartLabs
+  start_time: 2017-07-15 11:00
+  end_time: 2017-07-15 14:00
+  url: https://fifthelephant.in/2017/bangalore-meetup
+  blurb: On Saturday, 15th July, we're putting together a meetup on trends in machine learning and artificial intelligence in e-commerce.
   
+- name: perf-testing-meetup
+  title: Performance testing at cloud scale meetup
+  city: Bangalore
+  venue: CA Technologies
+  start_time: 2017-07-19 18:00
+  end_time: 2017-07-19 20:00
+  url: https://rootconf.in/2017/perf-testing-meetup
+  blurb: On 19th July, we’re putting together a meetup at CA technologies on ‘Performance testing at cloud scale'. If you work on DevOps, cloud, automation, testing etc. this is a great opportunity for you to meet people working in this domain.
