@@ -5,7 +5,7 @@
       <div id="venue-map" class="leaflet-map" data-label="{{ include.venue.label }}" data-marker="{{ include.venue.lat }},{{ include.venue.lng }}" style="height: 400px; width: 100%; z-index: 0;"><h2>Loading...</h2></div>
     </div>
   </div>
-  {% if include.venue.google_maps_link %}
-  <a class="button is-primary" href="{{ include.venue.google_maps_link }}" target="_blank">Directions</a>
+  {% if include.venue.google_maps_url %}
+  <a class="button is-primary" href="{{ include.venue.google_maps_url }}" target="_blank">Directions</a>
   {% endif %}
 </div>
