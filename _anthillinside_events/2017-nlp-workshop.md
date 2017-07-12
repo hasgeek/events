@@ -8,6 +8,17 @@ start_time: 2017-07-30
 end_time: 2017-07-30
 description: "India's community of deep learning and artifical intelligence practitioners"
 boxoffice_item_collection: "721ddcca-2439-11e7-a658-855025fdda9d"
+instructors:
+- name: Anuj Gupta
+  byline: ML researcher at Freshdesk
+  image_url: https://images.hasgeek.com/embed/file/a524455ee6b34301aaaa4faa31a2564a
+  bio: |
+    **Anuj Gupta** is a senior ML researcher at Freshdesk; working in the area NLP, Machine Learning, Deep learning. Earlier he was heading ML efforts at Airwoot(Now acquired by Freshdesk). He dropped out of Phd in ML to work with startups. He graduated from IIIT H with specialization in theoretical comp science. He has given tech talks at prestigious forums like PyData DC, The Fifth Elephant, ICDCN, PODC, IIT Delhi, IIIT Hyderabad and special interest groups like DLBLR.
+- name: Satyam Saxena
+  byline: ML researcher at Freshdesk
+  image_url: https://images.hasgeek.com/embed/file/4727b3dd37aa4880a7d87f03056f7727
+  bio: |
+    **Satyam Saxena** is a ML researcher at Freshdesk. An IIT alumnus, his interest lie in NLP, Machine Learning, Deep Learning. Prior to this, he was a part of ML group Cisco. He was a visiting researcher at Vision Labs in IIIT Hyd where he used computer vision and deep learning to build applications to assisting visually impaired people. He presented some of this work at ICAT 2014, Turkey.
 overview:
   left_content: |
     Think of your favorite NLP application that you wish to build - sentiment analysis, named entity recognition, machine translation, information extraction, summarization, recommender system, to name a few. A key step to building it is - using the right technique to represent the text in a form that machine can understand. In this workshop, we will understand key concepts, maths, and code behind state-of-the-art techniques for text representation.
