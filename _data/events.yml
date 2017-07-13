@@ -114,3 +114,12 @@
   end_time: 2017-07-19 20:00
   url: https://rootconf.in/2017/perf-testing-meetup
   blurb: On 19th July, we’re putting together a meetup at CA technologies on ‘Performance testing at cloud scale'. If you work on DevOps, cloud, automation, testing etc. this is a great opportunity for you to meet people working in this domain.
+
+- name: hackgsf-bangalore-2017
+  title: HackGSF 2017, Bangalore
+  city: Bangalore
+  venue: Y Media Lab, Kodihalli
+  start_time: 2017-07-29 10:30
+  end_time: 2017-07-30 13:30
+  url: https://hackgsf.hackerearth.com/
+  blurb: HackGSF encourages developers to build products that employ one or more frontier technologies. We will provide developers with resources such as data and frameworks to implement these technologies into their projects. The event will be witness to workshops curated by experts in these fields.
