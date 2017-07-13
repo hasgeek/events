@@ -75,9 +75,10 @@
   google_maps_pin: https://goo.gl/maps/ziPb95Y77zts
   start_time: 2017-09-14
   end_time: 2017-09-14
+  url: https://reactfoo.in/2017/
   funnel: https://reactfoo.talkfunnel.com/2017/
   blurb: Our new conference on the state of React in India. We’ll have more news on this in the coming weeks.
-  
+
 - name: cmsconf-2017
   title: CMS conf 2017
   city: Bangalore
