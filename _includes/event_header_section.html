@@ -1,3 +1,40 @@
+{% if include.event.logo %}
+<section class="hero is-medium is-bold">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <figure class="image is-centered">
+        {% if include.event.logo.image_url contains "://" %}
+          {% assign logo_url = include.event.logo.image_url %}
+        {% else %}
+          {% assign logo_url = include.event.logo.image_url | absolute_url %}
+        {% endif %}
+        <img src="{{ logo_url }}" style="max-height: {% if include.event.logo.has_title %}14{% else %}8{% endif %}rem;width: auto; display: inline-block;">
+      </figure>
+      {% if include.event.logo.has_title %}
+      {% else %}
+      <h1 class="title">
+        {{ include.event.title }}
+      </h1>
+      {% endif %}
+      {% if include.event.subtitle %}
+      <h2 class="subtitle">
+        {{ include.event.subtitle }}
+      </h2>
+      {% endif %}
+      <h3 class="subtitle is-6">{{ include.event.datelocation }}</h3>
+
+      <div class="block">
+        {% if include.event.boxoffice_item_collection %}
+        <a class="button is-primary" href="#tickets">Buy Tickets</a>
+        {% endif %}
+        {% if include.event.funnel.open %}
+        <a class="button is-primary" href="{{ include.event.funnel.url }}" target="_blank">Propose a talk</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% else %}
 <section class="hero is-medium is-primary is-bold">
   <div class="hero-body">
     <div class="container has-text-centered">
@@ -22,3 +59,4 @@
     </div>
   </div>
 </section>
+{% endif %}
