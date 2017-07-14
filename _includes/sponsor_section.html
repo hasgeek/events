@@ -18,10 +18,10 @@
                 {% for sponsor in sponsor_type.sponsors %}
                   <div class="column is-one-quarter">
                     <figure class="image">
-                      <img src="{{ sponsor.logo_url }}" alt="{{ sponsor.title }}"style="cursor: pointer;max-height: 100px;width: auto;" onclick="showModal('sponsor-{{ include.sponsor.title | slugify }}')">
+                      <img src="{{ sponsor.logo_url }}" alt="{{ sponsor.title }}"style="cursor: pointer;max-height: 100px;width: auto;" onclick="showModal('sponsor-{{ sponsor_type.title | slugify }}-{{ sponsor.title | slugify }}')">
                     </figure>
                   </div>
-                  <div class="modal" id="sponsor-{{ include.sponsor.title | slugify }}" style="z-index:20;">
+                  <div class="modal" id="sponsor-{{ sponsor_type.title | slugify }}-{{ sponsor.title | slugify }}" style="z-index:20;">
                     <div class="modal-background"></div>
                     <div class="modal-content">
                       <div class="box">
@@ -32,7 +32,7 @@
                         <p>{{ sponsor.blurb | markdownify }}</p>
                       </div>
                     </div>
-                    <button class="modal-close is-large" onclick="hideModal('sponsor-{{ include.sponsor.title | slugify }}')"></button>
+                    <button class="modal-close is-large" onclick="hideModal('sponsor-{{ sponsor_type.title | slugify }}-{{ sponsor.title | slugify }}')"></button>
                   </div>
                 {% endfor %}
               </div>
