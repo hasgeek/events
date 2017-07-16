@@ -18,7 +18,7 @@ cp .gitignore _site/$1
 
 cd _site/$1
 
-rm -rf node_modules && npm cache clean && npm install
+npm install
 
 npm link lru-cache
 
