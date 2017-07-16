@@ -12,12 +12,12 @@
   <div class="column is-6">
     <div class="card">
       <div class="card-content">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-128x128" style="background-image: url('{{ speaker.image_url }}'); background-size: cover; background-position: center;">
+        <div class="columns is-mobile">
+          <div class="column is-3">
+            <figure class="image is-1by1" style="background-image: url('{{ speaker.image_url }}'); background-size: cover; background-position: center;">
             </figure>
           </div>
-          <div class="media-content">
+          <div class="column is-9">
             <h1 class="title is-5"><a href="{{ speaker.funnel_url }}" target="_blank">{{ speaker.talk_title }}</a></h1>
             <h2 class="title is-6">{{ speaker.name }}</h2>
             <h2 class="subtitle is-6">{{ speaker.designation }}</p>
