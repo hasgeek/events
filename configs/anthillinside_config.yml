@@ -6,6 +6,7 @@ url: "https://anthillinside.in" # the base hostname & protocol for your site, e.
 colors:
   primary: "#3f50a3"
   accent: "#e76f45"
+ga_tracking_code: UA-19123154-36
 # Build settings
 markdown: kramdown
 gems:
