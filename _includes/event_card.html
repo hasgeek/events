@@ -1,4 +1,10 @@
-<div class="card is-clickable" onclick="goToUrl('{{site.url}}{{site.baseurl}}{{ include.event.url }}')">
+{% if include.event.url contains "://" %}
+  {% assign event_url = include.event.url %}
+{% else %}
+  {% assign event_url = include.event.url | absolute_url %}
+{% endif %}
+
+<div class="card is-clickable" onclick="goToUrl('{{ event_url }}')">
   {% if include.featured == true%}
   <header class="card-content">
     <p class="title">
