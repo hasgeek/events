@@ -13,13 +13,14 @@ ssh-add /tmp/deploy_rsa_$1
 bundle exec jekyll build --config configs/$1_config.yml
 
 cp deploy/gulpfile.js _site/$1
+cp deploy/package.json _site/$1
 cp .gitignore _site/$1
 
 cd _site/$1
 
-npm install gulp
-npm install path
-npm install sw-precache
+rm -rf node_modules && npm cache clean && npm install
+
+npm link lru-cache
 
 gulp generate-service-worker
 
