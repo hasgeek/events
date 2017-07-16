@@ -142,5 +142,17 @@
 
 {% include analytics.html ga_tracking_code=site.ga_tracking_code %}
 
+{% if site.service_worker %}
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('{{ site.url }}{{ site.baseurl }}/sw.js').then(function () {
+    // console.log('Service worker registered');
+    }).catch(function() {
+    // console.log('Service worker registration failed');
+  });
+};
+</script>
+{% endif %}
+
 </body>
 </html>

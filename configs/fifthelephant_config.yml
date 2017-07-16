@@ -17,6 +17,7 @@ exclude:
   - Rakefile
   - .git
   - .sass_cache
+  - node_modules
   - _site
   - tests
   - vendor

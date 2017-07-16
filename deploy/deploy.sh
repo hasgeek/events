@@ -9,7 +9,17 @@ chmod 600 /tmp/deploy_rsa_$1
 ssh-add /tmp/deploy_rsa_$1
 
 bundle exec jekyll build --config configs/$1_config.yml
+
+cp deploy/gulpfile.js /_site/$1
+cp .gitignore /_site/$1
+
 cd _site/$1
+
+npm install gulp
+npm install path
+npm install sw-precache
+
+gulp generate-service-worker
 
 git init
 
