@@ -86,6 +86,14 @@ layout: base
 </section>
 {% endif %}
 
+{% if page.venue %}
+<section class="section "id="venue">
+  <div class="container">
+    {% include venue_section.html venue=page.venue %}
+  </div>
+</section>
+{% endif %}
+
 {% if page.sponsor.blurb %}
 {% assign sponsor_blurb = page.sponsor.blurb %}
 {% else %}

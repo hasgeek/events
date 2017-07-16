@@ -2,7 +2,7 @@
   <div class="container">
     <div class="has-text-centered">
       <h1 class="title">Sponsors</h1>
-      <h2 class="subtitle">{{ include.blurb }}</h2>
+      <h2 class="subtitle">{{ include.blurb | markdownify }}</h2>
       <a class="button is-primary" href="{{ include.sponsorship_deck_url }}" target="_blank">Sponsorship Deck</a>
     </div>
   </div>
@@ -14,19 +14,19 @@
 
             {% if sponsor_type.size == 'l' %}
               {% assign sponsor_column_size = 'is-6' %}
-              {% assign sponsor_type_title_size = 'is-3' %}
+              {% assign sponsor_height = '8rem' %}
 
             {% elsif sponsor_type.size == 'm' %}
               {% assign sponsor_column_size = 'is-4' %}
-              {% assign sponsor_type_title_size = 'is-4' %}
+              {% assign sponsor_height = '6rem' %}
 
             {% elsif sponsor_type.size == 's' %}
               {% assign sponsor_column_size = 'is-3' %}
-              {% assign sponsor_type_title_size = 'is-5' %}
+              {% assign sponsor_height = '5rem' %}
 
             {% else %}
               {% assign sponsor_column_size = 'is-4' %}
-              {% assign sponsor_type_title_size = 'is-4' %}
+              {% assign sponsor_height = '6rem' %}
             {% endif %}
 
           <div class="columns is-centered">
@@ -35,13 +35,20 @@
               </div>
               <div class="column is-8">
                 <div class="columns is-multiline">
-                  {% for sponsor in sponsor_type.sponsors %}
+                  {% for sponsor_s in sponsor_type.sponsors %}
+                    {% if sponsor_s.title %}
+                    {% assign sponsor = sponsor_s %}
+                    {% else %}
+                    {% assign sponsor = site.data.sponsors[sponsor_s] %}
+                    {% endif %}
                     <div class="column {{ sponsor_column_size }}">
                       <div class="card is-clickable has-text-centered" style="cursor: pointer;" onclick="showModal('sponsor-{{ sponsor_type.title | slugify }}-{{ sponsor.title | slugify }}')">
                         <div class="card-content">
-                          <figure class="image">
-                            <img src="{{ sponsor.logo_url }}" alt="{{ sponsor.title }}"style="max-height: 100px;width: auto;display: inline-block;">
-                          </figure>
+                          <div style="height: {{ sponsor_height }}; align-items:center; justify-content: center; display: flex;">
+                            <figure class="image">
+                              <img src="{{ sponsor.logo_url }}" alt="{{ sponsor.title }}"style="max-height: {{ sponsor_height }};width: auto;display: block;">
+                            </figure>
+                          </div>
                         </div>
                       </div>
                     </div>

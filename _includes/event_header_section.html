@@ -1,5 +1,5 @@
 {% if include.event.logo %}
-<section class="hero is-medium is-bold">
+<section class="hero is-halfheight is-bold">
   <div class="hero-body">
     <div class="container has-text-centered">
       <figure class="image is-centered">
@@ -8,7 +8,7 @@
         {% else %}
           {% assign logo_url = include.event.logo.image_url | absolute_url %}
         {% endif %}
-        <img src="{{ logo_url }}" style="max-height: {% if include.event.logo.has_title %}14{% else %}8{% endif %}rem;width: auto; display: inline-block;">
+        <img src="{{ logo_url }}" style="max-height: {% if include.event.logo.has_title %}16{% else %}12{% endif %}rem;width: auto; display: inline-block;">
       </figure>
       {% if include.event.logo.has_title %}
       {% else %}
@@ -27,7 +27,7 @@
         {% if include.event.boxoffice_item_collection %}
         <a class="button is-primary" data-href="#tickets">Buy Tickets</a>
         {% endif %}
-        {% if include.event.funnel.open %}
+        {% if include.event.funnel.open == true %}
         <a class="button is-primary" href="{{ include.event.funnel.url }}" target="_blank">Propose a talk</a>
         {% endif %}
       </div>
@@ -35,7 +35,7 @@
   </div>
 </section>
 {% else %}
-<section class="hero is-medium is-primary is-bold">
+<section class="hero is-halfheight is-primary is-bold">
   <div class="hero-body">
     <div class="container has-text-centered">
       <h1 class="title">
@@ -52,7 +52,7 @@
         {% if include.event.boxoffice_item_collection %}
         <a class="button" href="#tickets" data-href="#tickets">Buy Tickets</a>
         {% endif %}
-        {% if include.event.funnel.open %}
+        {% if include.event.funnel.open == true %}
         <a class="button" href="{{ include.event.funnel.url }}" target="_blank">Propose a talk</a>
         {% endif %}
       </div>

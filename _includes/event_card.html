@@ -4,34 +4,25 @@
   {% assign event_url = include.event.url | absolute_url %}
 {% endif %}
 
-<div class="card is-clickable" onclick="goToUrl('{{ event_url }}')">
-  {% if include.featured == true%}
-  <header class="card-content">
-    <p class="title">
+<div class="card is-clickable" onclick="goToUrl('{{ event_url }}')" style="height:21rem;">
+  <div class="card-content">
+    <p class="title is-4">
       {{ include.event.title }}
     </p>
     <p class="subtitle is-6">
       {{ include.event.datelocation }}
     </p>
-    {% if include.event.boxoffice_item_collection %}
-    <span class="tag is-primary">Tickets now available</span>
-    {% endif %}
-    {% if include.event.funnel %}
-    <span class="tag is-info">Call for Proposals are open</span>
-    {% endif %}
-  </header>
-  {% endif %}
-  <div class="card-content">
-    <div class="content">
-      {% if include.featured != true%}
-      <p class="title is-4">
-        {{ include.event.title }}
-      </p>
-      <p class="subtitle is-6">
-        {{ include.event.datelocation }}
-      </p>
+
+    {% if include.featured == true %}
+      {% if include.event.boxoffice_item_collection %}
+      <span class="tag is-primary">Tickets now available</span>
       {% endif %}
-      <p>{{ include.event.description }}</p>
+      {% if include.event.funnel.open == true %}
+      <span class="tag is-info">Call for Proposals are open</span>
+      {% endif %}
+    {% endif %}
+    <div class="content">
+      <p>{{ include.event.description | truncate: 260, "..." | markdownify }}</p>
     </div>
   </div>
 </div>

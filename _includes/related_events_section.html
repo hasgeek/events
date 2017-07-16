@@ -28,8 +28,8 @@
 
 <div class="columns is-centered is-multiline">
 {% for event in all_related_events %}
-  <div class="column {% if event.featured %}is-8{% else %}is-one-third{% endif %}">
-    {% include event_card.html event=event featured=event.featured %}
+  <div class="column is-5">
+    {% include event_card.html event=event %}
   </div>
 {% endfor %}
 </div>
