@@ -1,7 +1,7 @@
 title: Anthill Inside
 subtitle: "India's community of deep learning and artifical intelligence practitioners"
 description: "India's community of deep learning and artifical intelligence practitioners"
-baseurl: "/test" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://anthillinside.in" # the base hostname & protocol for your site, e.g. http://example.com
 colors:
   primary: "#3f50a3"

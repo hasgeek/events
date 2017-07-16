@@ -75,7 +75,7 @@ layout: base
 {% if page.overview %}
 <section class="section "id="overview">
   <div class="container">
-    {% include overview_section.html left=page.overview.left_content right=page.overview.right_content center=page.overview.center_content %}
+    {% include content_section.html left=page.overview.left_content right=page.overview.right_content center=page.overview.center_content %}
   </div>
 </section>
 {% endif %}
@@ -145,6 +145,14 @@ layout: base
 
   {% include sponsor_section.html blurb=sponsor_blurb sponsorship_deck_url=page.sponsor.sponsorship_deck_url sponsors=page.sponsor.sponsors %}
 
+{% endif %}
+
+{% if page.footer %}
+<section class="section" id="footer">
+  <div class="container">
+    {% include content_section.html left=page.footer.left_content right=page.footer.right_content center=page.footer.center_content %}
+  </div>
+</section>
 {% endif %}
 
 {% include footer.html %}
