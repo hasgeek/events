@@ -10,8 +10,8 @@ ssh-add /tmp/deploy_rsa_$1
 
 bundle exec jekyll build --config configs/$1_config.yml
 
-cp deploy/gulpfile.js /_site/$1
-cp .gitignore /_site/$1
+cp deploy/gulpfile.js _site/$1
+cp .gitignore _site/$1
 
 cd _site/$1
 
