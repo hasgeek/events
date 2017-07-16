@@ -1,0 +1,77 @@
+{% raw %}
+<script id="scheduletemplate" type="text/x-mustache-template">
+  <h4 class="text-left space-two regular"><i class="fa fa-calendar"></i> {{date}}</h4>
+  <table class="schedule-table" id="{{tableid}}">
+    <thead>
+    </thead>
+    <tbody>
+    {{#slots}}
+      {{#issession}}
+      <tr>
+        <td class="time" scope="row">
+          <div class="time-icon"></div>
+          <p class="time-text bold">{{slot}}</p>
+        </td>
+        {{#sessions}}
+        {{#is_break}}
+          {{#roomTitle}}
+            {{#track}}
+              <td class="track-{{track}} break" rowspan={{rowspan}}>
+            {{/track}}
+            {{^track}}
+              <td class="track-{{track}} break tab-active" rowspan={{rowspan}}>
+            {{/track}}
+            <div class="schedule-talk">
+              <h4 class="space-1q title">{{title}}</h4>
+              <p class="space-1q duration">{{start}} - {{end}}</p>
+            </div>
+          </td>
+          {{/roomTitle}}
+          {{^roomTitle}}
+          <td colspan="{{rooms.length}}" class="break tab-active" rowspan={{rowspan}}>
+            <div class="schedule-talk">
+              <h4 class="space-1q title">{{title}}</h4>
+              <p class="space-1q duration">{{start}} - {{end}}</p>
+            </div>
+          </td>
+          {{/roomTitle}}
+        {{/is_break}}
+        {{^is_break}}
+          {{#track}}
+            <td class="track-{{track}}" rowspan={{rowspan}}>
+          {{/track}}
+          {{^track}}
+            <td class="track-{{track}} tab-active" rowspan={{rowspan}}>
+          {{/track}}
+            <div class="schedule-talk">
+              <h4 class="link-silent space-1q">
+                {{#description}}
+                <i class="fa fa-caret-right js-expand expand-icon"></i>
+                {{/description}}
+                {{#proposal_url}}
+                <a href="{{proposal_url}}" target="_blank" class="title click-btn">{{title}}</a>
+                {{/proposal_url}}
+                {{^proposal_url}}
+                <span class="title">{{title}}</span>
+                {{/proposal_url}}
+              </h4>
+              {{#speaker}}
+              <p class="space-1q speaker">{{speaker}}</p>
+              {{/speaker}}
+              {{#title}}
+              <p class="space-1q duration">{{start}} - {{end}}</p>
+              {{/title}}
+              {{#roomTitle}}
+              <p class="space-1q venue"><i class="fa fa-map-marker"></i> {{roomTitle}}</p>
+              {{/roomTitle}}
+            </div>
+          </td>
+        {{/is_break}}
+        {{/sessions}}
+      </tr>
+      {{/issession}}
+    {{/slots}}
+    </tbody>
+  </table>
+</script>
+{% endraw %}

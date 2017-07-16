@@ -54,6 +54,10 @@
       {% include boxoffice_styles.html %}
     {% endif %}
 
+    {% if page.schedule_url %}
+      {% include schedule_styles.html %}
+    {% endif %}
+
     {% if page.venue %}
     <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/leaflet.css">
     {% endif %}
@@ -115,10 +119,10 @@
       renaming: false
     });
 
-    // Toggle button
-      // document.querySelector('.nav-toggle').addEventListener('click', function() {
-      //   slideout.toggle();
-      // });
+    {% if page.schedule_url %}
+      loadProposals();
+    {% endif %}
+
   })
 
   function goToUrl(url) {
@@ -133,6 +137,11 @@
 </script>
 {% if page.boxoffice_item_collection %}
   {% include boxoffice_js.html %}
+{% endif %}
+{% if page.schedule_url %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js" charset="utf-8"></script>
+  {% include schedule_js.html %}
+  {% include schedule_template.html %}
 {% endif %}
 
 {% if jekyll.environment == 'production '%}

@@ -28,7 +28,9 @@ layout: base
         {% if page.overview %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#overview" style="z-index:10;">Overview</a>
         {% endif %}
-        <!-- <li><a href="#schedule">Schedule</a></li> -->
+        {% if page.schedule_url %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#schedule" style="z-index:10;">Schedule</a>
+        {% endif %}
         {% if page.funnel.open %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#speak">Call for Proposals</a>
         {% endif %}
@@ -47,7 +49,9 @@ layout: base
         {% if page.overview %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#overview">Overview</a>
         {% endif %}
-        <!-- <li><a href="#schedule">Schedule</a></li> -->
+        {% if page.schedule_url %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#schedule">Schedule</a>
+        {% endif %}
         {% if page.funnel.open %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#speak">Call for Proposals</a>
         {% endif %}
@@ -72,6 +76,30 @@ layout: base
 <section class="section "id="overview">
   <div class="container">
     {% include overview_section.html left=page.overview.left_content right=page.overview.right_content center=page.overview.center_content %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.announcements %}
+<section class="section "id="announcements">
+  <div class="container">
+    {% include announcements_section.html announcements=page.announcements %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.related_events %}
+<section class="section">
+  <div class="container">
+    {% include related_events_section.html %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.schedule_url %}
+<section class="section "id="schedule">
+  <div class="container">
+    {% include schedule_section.html %}
   </div>
 </section>
 {% endif %}
