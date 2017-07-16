@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 openssl aes-256-cbc -K $encrypted_f874a539f83d_key -iv $encrypted_f874a539f83d_iv -in deploy/id_rsa.enc -out /tmp/deploy_rsa_$1 -d
 
 eval "$(ssh-agent -s)"
