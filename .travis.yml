@@ -30,6 +30,11 @@ deploy:
   skip_cleanup: true
   on:
     branch: master
+- provider: script
+  script: deploy/deploy.sh fifthelephant
+  skip_cleanup: true
+  on:
+    branch: master
 addons:
   ssh_known_hosts: e2e.hasgeek.com
 notifications:

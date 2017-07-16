@@ -31,7 +31,7 @@ layout: base
         {% if page.schedule_url %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#schedule" style="z-index:10;">Schedule</a>
         {% endif %}
-        {% if page.funnel.open %}
+        {% if page.funnel.open == true %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#speak">Call for Proposals</a>
         {% endif %}
         {% if page.boxoffice_item_collection %}
@@ -52,7 +52,7 @@ layout: base
         {% if page.schedule_url %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#schedule">Schedule</a>
         {% endif %}
-        {% if page.funnel.open %}
+        {% if page.funnel.open == true %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#speak">Call for Proposals</a>
         {% endif %}
         {% if page.boxoffice_item_collection %}

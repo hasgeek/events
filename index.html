@@ -25,7 +25,7 @@ layout: base
 
       <div class="columns is-centered is-multiline">
         {% for event in all_events%}
-        <div class="column {% if event.featured %}is-8{% else %}is-one-third{% endif %}">
+        <div class="column is-one-third">
           {% include event_card.html event=event featured=event.featured %}
         </div>
         {% endfor %}

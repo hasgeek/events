@@ -1,0 +1,39 @@
+title: The Fifth Elephant
+subtitle: "India's most renowned data science community and conference"
+description: "India’s most renowned data science conference. Discuss the most cutting edge developments in the fields of machine learning, data science and technology that power data collection and analysis."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fifthelephant.in" # the base hostname & protocol for your site, e.g. http://example.com
+colors:
+  primary: "#498f94"
+  accent: "#EC6015"
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - .git
+  - .sass_cache
+  - _site
+  - tests
+  - vendor
+  - .DS_Store
+  - configs
+  - deploy
+  - requirements.txt
+  - README.md
+
+destination: _site/fifthelephant
+
+sass_dir: _sass
+
+liquid:
+  error_mode: strict
+
+collections:
+  fifthelephant_events:
+    type: event
+    output: true
+    permalink: /:path/

@@ -48,3 +48,7 @@ collections:
     type: event
     output: true
     permalink: /reactfoo/:path/
+  fifthelephant_events:
+    type: event
+    output: true
+    permalink: /fifthelephant/:path/

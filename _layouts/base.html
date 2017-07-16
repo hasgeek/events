@@ -14,7 +14,7 @@
 {% endif %}
 
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js svg inlinesvg">
   <head>
     <title>{{ title }}</title>
     <meta charset="utf-8">
@@ -52,10 +52,6 @@
 
     {% if page.boxoffice_item_collection %}
       {% include boxoffice_styles.html %}
-    {% endif %}
-
-    {% if page.schedule_url %}
-      {% include schedule_styles.html %}
     {% endif %}
 
     {% if page.venue %}
