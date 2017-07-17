@@ -70,6 +70,7 @@
 
   <script src="{{ site.url }}{{ site.baseurl }}/js/jquery-3.2.1.min.js"></script>
   <script src="//cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/mustache.min.js"></script>
 {% if page.venue %}
   <script src="{{ site.url }}{{ site.baseurl }}/js/leaflet.js"></script>
 {% endif %}
@@ -139,7 +140,6 @@
 {% endif %}
 
 {% if page.schedule %}
-  <script src="{{ site.url }}{{ site.baseurl }}/js/mustache.min.js"></script>
   <script src="{{ site.url }}{{ site.baseurl }}/js/schedule.js"></script>
   <script>
     window.Event.schedule_url = "{{ page.schedule.json_url }}";
@@ -148,12 +148,6 @@
 {% endif %}
 
 {% if page.show_proposals %}
-  <script src="{{ site.url }}{{ site.baseurl }}/js/mustache.min.js"></script>
-  <script src="{{ site.url }}{{ site.baseurl }}/js/schedule.js"></script>
-  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.mobile.custom.min.js"></script>
-  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.mousewheel.js"></script>
-  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.mCustomScrollbar.min.js"></script>
-  <script src="{{ site.url }}{{ site.baseurl }}/js/ractive.min.js"></script>
   <script src="{{ site.url }}{{ site.baseurl }}/js/proposal.js"></script>
   <script>
     window.Event.proposal_url = "{{ page.show_proposals.url }}";

@@ -2,11 +2,10 @@
   <h1 class="title">Proposals</h1>
 </div>
 <div id="funnel-proposals">
-  <p class="has-text-centered ">Loading...</p>
-  {%raw%}
-  <script id="proposals-wrapper" type="text/ractive">
+  <p class="has-text-centered loadingtxt">Loading...</p>
+  {% raw %}
+  <script id="proposals-wrapper" type="text/x-mustache-template">
     <div class="proposals">
-    <div class="mCustomScrollbar" data-mcs-theme="dark">
       {{#proposals}}
         <div class="proposal-card click" onclick="showModal('modal-proposal-{{id}}')">
           <div class="talk">
@@ -18,8 +17,7 @@
             <p class="fullname regular"><span>{{fullname}}</span></p>
           </div>
         </div>
-      {{/}}
-    </div>
+      {{/proposals}}
     </div>
     {{#proposals}}
     <div class="modal" tabindex="-1" role="dialog" id="modal-proposal-{{id}}">
@@ -41,9 +39,9 @@
         </footer>
       </div>
     </div>
-    {{/}}
+    {{/proposals}}
   </script>
-  {%endraw%}
+  {% endraw %}
 </div>
 {% if page.funnel.open %}
   <p class="has-text-centered"><a href="{{ page.funnel.url }}" class="button is-primary">Propose a talk</a></p>

@@ -9,39 +9,39 @@ $(document).ready( function() {
     }
   };
 
-  var getElemWidth = function(elem) {
-    var card_width = $(elem).css('width');
-    var card_margin = $(elem).css('margin-left');
-    var card_total_width = parseInt(card_width, 10) + 2.5 * parseInt(card_margin, 10);
-    return card_total_width;
-  };
+  // var getElemWidth = function(elem) {
+  //   var card_width = $(elem).css('width');
+  //   var card_margin = $(elem).css('margin-left');
+  //   var card_total_width = parseInt(card_width, 10) + 2.5 * parseInt(card_margin, 10);
+  //   return card_total_width;
+  // };
 
-  var enableScroll = function(items_length) {
-    $(".mCustomScrollbar").css('width', items_length * getElemWidth(".proposal-card") + 'px');
-    $('.mCustomScrollbar').mCustomScrollbar({ axis:"x", theme: "dark-3", scrollInertia: 10, alwaysShowScrollbar: 0});
-  };
+  // var enableScroll = function(items_length) {
+  //   $(".mCustomScrollbar").css('width', items_length * getElemWidth(".proposal-card") + 'px');
+  //   $('.mCustomScrollbar').mCustomScrollbar({ axis:"x", theme: "dark-3", scrollInertia: 10, alwaysShowScrollbar: 0});
+  // };
 
-  function parseProposalJson(json) {
-    var proposal_ractive = new Ractive({
-      el: '#funnel-proposals',
-      template: '#proposals-wrapper',
-      data: {
-        proposals: json.proposals
-      },
-      complete: function() {
-        $.each($('.proposal-card .title'), function(index, title) {
-          updateFontSize(title);
-        });
+  // function parseProposalJson(json) {
+  //   var proposal_ractive = new Ractive({
+  //     el: '#funnel-proposals',
+  //     template: '#proposals-wrapper',
+  //     data: {
+  //       proposals: json.proposals
+  //     },
+  //     complete: function() {
+  //       $.each($('.proposal-card .title'), function(index, title) {
+  //         updateFontSize(title);
+  //       });
 
-        //Set width of content div to enable horizontal scrolling
-        enableScroll(json.proposals.length);
+  //       //Set width of content div to enable horizontal scrolling
+  //       enableScroll(json.proposals.length);
 
-        $(window).resize(function() {
-          enableScroll(json.proposals.length);
-        });
-      }
-    });
-  };
+  //       $(window).resize(function() {
+  //         enableScroll(json.proposals.length);
+  //       });
+  //     }
+  //   });
+  // };
 
   if(($('#funnel-proposals').length)) {
     $.ajax({
@@ -49,7 +49,12 @@ $(document).ready( function() {
       dataType: 'jsonp',
       url: window.Event.proposal_url,
       success: function(data) {
-        parseProposalJson(data);
+        $(".funnel-proposals p.loadingtxt").hide();
+        var proposalsTemplate = $('#proposals-wrapper').html();
+        $("#funnel-proposals").append(Mustache.render(proposalsTemplate, data));
+        $.each($('.proposal-card .title'), function(index, title) {
+          updateFontSize(title);
+        });
       }
     });//eof ajax call
   }
