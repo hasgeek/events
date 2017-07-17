@@ -1,0 +1,106 @@
+intuit:
+  title: "Intuit"
+  logo_url: https://images.hasgeek.com/embed/file/3b7d652ebe2345f2a4ee2a0cb2ae89cd
+  url: https://www.intuit.com/
+  display_url: intuit.com
+  blurb: |
+    Intuit Inc. is committed to powering prosperity around the world for consumers, small businesses and the self-employed through its ecosystem of innovative financial management solutions.
+
+    Its flagship products and services include QuickBooks® and TurboTax®, which make it easier to manage small businesses and tax preparation and filing. QuickBooks Self-Employed provides freelancers and independent contractors with an easy and affordable way to manage their finances and save money at tax time, while Mint delivers financial tools and insights to help people make smart choices about their money.
+
+    Intuit's ProConnect brand portfolio includes ProConnect Tax Online, ProSeries® and Lacerte®, the company's leading tax preparation offerings for professional accountants.
+
+    Founded in 1983, Intuit serves 42 million customers in North America, Europe, Australia and Brazil, with revenue of $4.7 billion in its fiscal year 2016. The company has approximately 7,900 employees with major offices in the United States, Canada, the United Kingdom, India, Australia and other locations.
+
+walmartlabs:
+  title: "@WalmartLabs"
+  logo_url: https://images.hasgeek.com/embed/file/4aeb1f4dff9243eb95500c8decdda1fe
+  url: http://www.walmartlabs.com/india/
+  display_url: www.walmartlabs.com
+  blurb: |
+    By bringing together online, mobile, and social with our 11,000+ stores around the world, @WalmartLabs is creating a seamless experience for customers to shop in the way that’s most convenient for them - anytime and anywhere. When you combine our unmatched assets in retail with our commitment to building best-in-class eCommerce capabilities, we’re positioned to serve customers in ways no one else can. Our technology center in Bangalore is a key part of a global push to strengthen Walmart’s business. Our teams are all engaged in cutting edge engineering and process development to make Walmart operate more efficiently. Using enhanced data analytics, we help predict what customers will need and want next.
+
+    A culture of curiosity and exploration awaits you at @WalmartLabs. Our culture is incorporated into every aspect of our business, and is unique. As diverse as we are, we’re bound together by a common way of doing business that drives performance and creates a positive place for us to work.
+
+e2enetworks:
+  title: "E2E Networks"
+  logo_url: https://images.hasgeek.com/embed/file/932dc7a9d1584527817bf0fc59707738
+  url: https://www.e2enetworks.com/
+  display_url: e2enetworks.com
+  blurb: |
+    E2E Networks is the fastest growing Cloud Computing (IaaS) company in India, providing Value Priced, Pure SSD Virtual Private Servers and Dedicated Servers combined with vast India specific expertise in implementing and managing infrastructure for web, mobile or enterprise centric workloads.Founded in 2009 and EBITA positive since inception, today some of the biggest web and mobile properties in India run on E2E Networks infrastructure.
+
+razorpay:
+  title: "Razorpay"
+  logo_url: https://images.hasgeek.com/embed/file/f63ea0db56e042a4aec7b1c469a4f5d0
+  url: https://razorpay.com
+  display_url: razorpay.com
+  blurb: |
+    Razorpay is a Y Combinator incubated payments platform that powers online businesses to accept digital payments. Razorpay helps businesses accept online payments via several modes like Credit Card, Debit Card, Net banking, UPI and multiple Wallets from their end customers.
+
+    Razorpay is a developer friendly payment gateway that focuses on essentials such as 24x7 support, one line integration code and checkout experiences that are intuitive and customer friendly. Razorpay offers a simple and paperless onboarding process for businesses where developers can integrate APIs with their website within a few hours. More than 30,000 merchants currently leverage Razorpay’s seamless payment solution.
+    The USP of Razorpay’s payment platform is its ‘Checkout’ feature, that allows customers to start and end the payment process on a single page without any re-directs, leading to better payment success rates and customer retention rates. Razorpay’s solution comes with a powerful dashboard that allows merchants to track key business metrics as well as get customized reports. The dashboard also enables merchants to easily handle customer refunds at a click of a button.
+    Being an innovator in the payments domain, Razorpay has received many accolades in a short span of time. Last year Razorpay won the Nasscom 'League of 10' Companies and it won the Financial Express ‘Software Product of the Year’, Runner-up and the bronze award for the ‘Best POS innovation by PYMNTS.com this year. Founders of Razorpay, Harshil Mathur and Shashank Kumar were recently selected for the prestigious ‘Forbes 30 Under 30’ 2017. Razorpay is also backed by marquee investors like Tiger Global, Matrix Partners and Mastercard.
+
+go-jek:
+  title: "GO-JEK"
+  logo_url: https://images.hasgeek.com/embed/file/a47607bf6b684bb287fbb8a5a7cadea5
+  url: http://gojekengineering.com/
+  display_url: gojekengineering.com
+  blurb: |
+    GO-JEK is Indonesia's largest startup, and is currently the fastest growing startup in South and South East Asia, growing 900X in the 18 months since launch. GO-JEK's platform powers the Indonesian equivalents of Ola, PayTM, Swiggy, Grophers, Zomato, Dunzo and UrbanClap, and at comparable scale. GO-FOOD alone already does more daily orders than all Indian food tech startups combined.
+
+    Funded by Sequoia Capital and Yuri Milner's DST global, GO-JEK's mission is formalising the informal sector to provide a one stop mobile application for the daily needs of Indonesia, the 4th largest country in the world. We partner with more than 200,000 experienced and trustworthy motorcycle, car and truck drivers to provide our customers with a wide array of services. These include payments, people logistics, hyperlocal delivery, food delivery, e-commerce logistics, O2O, lifestyle and home improvement services.
+
+    GO-JEK has recently established an R&D centre in Bangalore to tap into India's talent pool, and is looking to hire passionate engineers and data scientists.
+
+mathworks:
+  title: "MathWorks"
+  logo_url: https://images.hasgeek.com/embed/file/2ace46fd44cd4a4f8bdcfa843fee00a8
+  url: http://in.mathworks.com/
+  display_url: mathworks.com
+  blurb: |
+    As a leader in mathematical computing and data analytics software, MathWorks® enables engineers and scientists worldwide to accelerate the pace of discovery, innovation, and development. MATLAB® is a programming environment with built-in apps and visualization for data science, data analysis, algorithm development, and numeric computation. You can use familiar MATLAB functions and syntax to work with big data on file systems, SQL and NoSQL databases, and Hadoop/HDFS. You can scale from your local desktop machine to Hadoop and Spark without rewriting your algorithms.
+
+aerospike:
+  title: "Aerospike"
+  logo_url: https://images.hasgeek.com/embed/file/26ba60afa81c446983833517aa7544b9
+  url: http://www.aerospike.com/
+  display_url: www.aerospike.com
+  blurb: |
+    Aerospike is the high-performance NoSQL database that delivers predictable performance, higher up time and availability and lower TCO. Aerospike is purpose-built for the real-time transactional workloads that support mission-critical applications as part of a Digital Transformation. These workloads have the mandate to deliver informed and immediate decisions for industries like financial services, ad tech, and e-commerce. Aerospike’s unique combination of speed, scale, and reliability delivers 10x performance at 1/10th the cost compared to other databases. For more information, visit us on Facebook, Twitter or [aerospike.com](https://aerospike.com)
+
+payu:
+  title: "PayU"
+  logo_url: https://images.hasgeek.com/embed/file/397db5a0dd264ed8bcf0d0c928e8ceaf
+  url: https://www.payumoney.com/
+  display_url: www.payumoney.com
+  blurb: |
+    PayU uses its payments heritage and expertise to deliver financial services in emerging markets. Our local operations in Asia, Central and Eastern Europe, Latin America, the Middle East and Africa enable us to be experts in these countries and provide the best solutions for the local market.
+
+    PayU is the leading online payment service provider in 16 high growth markets, dedicated to creating a fast, simple and efficient payment process for merchants and buyers. Our 250+ payment methods and PCI certified platforms are designed to meet every consumer’s needs.
+
+    The markets in which PayU operates represent a potential consumer base of nearly 2.3 billion people and a huge growth potential for merchants. PayU has more than 1,800 payment specialists based in these local markets supporting PayU’s 200,000+ merchants and the millions of consumers making online payments.
+
+qubole:
+  title: "Qubole"
+  logo_url: https://images.hasgeek.com/embed/file/4188d2366eb8420a94ee508825fc78d4
+  url: https://www.qubole.com/
+  display_url: www.qubole.com
+  blurb: |
+    Qubole is passionate about making data-driven insights easily accessible to anyone. Qubole customers currently process nearly an exabyte of data every month, making us the leading cloud-agnostic big-data-as-a-service provider. Customers have chosen Qubole because we created the industry’s first autonomous data platform. This cloud-based data platform self-manages, self-optimizes and learns to improve automatically and as a result delivers unbeatable agility, flexibility, and TCO. Qubole customers focus on their data, not their data platform.
+
+imerit:
+  title: "iMerit"
+  logo_url: https://images.hasgeek.com/embed/file/372ebbdea6a149ea85101bff82fb7b2a
+  url: http://imerit.net/
+  display_url: imerit.net
+  blurb: |
+    iMerit offers an on-demand, human-empowered computing workforce. The world’s most innovative and tech-driven companies partner with us to unlock the value hidden within complex, unstructured data and to improve technical process efficiencies while making a social impact. iMerit’s customers are able to focus on the projects that drive their company forward whether it be machine learning, computer vision, analytics or virtual reality while our team of specialists handle the data work. To give some examples, our data work powers robust applications in machine learning, computer vision, big data and fintech such as helping driverless cars understand their environment, advancing cancer cell research, improving crop-yield through the analysis of geo-spatial data and keeping the databases of a global financial data and media company updated in real-time. With an employee attrition rate of less than 3% and higher than 95% accuracy, iMerit is a reliable partner in delivering cost-effective, quality data projects on time and on budget.
+
+iqlect:
+  title: "IQLECT"
+  logo_url: https://images.hasgeek.com/embed/file/64bdfe0b428845be8c058b0b8a047924
+  url: http://www.iqlect.com/
+  display_url: www.iqlect.com
+  blurb: |

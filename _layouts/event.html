@@ -28,8 +28,7 @@ layout: base
         {% if page.overview %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#overview" style="z-index:10;">Overview</a>
         {% endif %}
-        <!-- <li><a href="#schedule">Schedule</a></li> -->
-        {% if page.funnel.open %}
+        {% if page.funnel.open == true %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#speak">Call for Proposals</a>
         {% endif %}
         {% if page.show_proposals %}
@@ -48,13 +47,13 @@ layout: base
         <a class="nav-item is-tab is-hidden-tablet" data-href="#sponsor">Sponsors</a>
         {% endif %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#hasgeek">About HasGeek</a>
+        <a class="nav-item is-tab is-hidden-tablet" href="{{ site.url }}{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
       </div>
       <div class="nav-center" style="z-index:10;">
         {% if page.overview %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#overview">Overview</a>
         {% endif %}
-        <!-- <li><a href="#schedule">Schedule</a></li> -->
-        {% if page.funnel.open %}
+        {% if page.funnel.open == true %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#speak">Call for Proposals</a>
         {% endif %}
         {% if page.show_proposals %}
@@ -73,6 +72,7 @@ layout: base
         <a class="nav-item is-tab is-hidden-mobile" data-href="#sponsor">Sponsors</a>
         {% endif %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#hasgeek">About HasGeek</a>
+        <a class="nav-item is-tab is-hidden-mobile" href="{{ site.url }}{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
       </div>
       <div class="nav-right">
       </div>
@@ -83,7 +83,31 @@ layout: base
 {% if page.overview %}
 <section class="section "id="overview">
   <div class="container">
-    {% include overview_section.html left=page.overview.left_content right=page.overview.right_content center=page.overview.center_content %}
+    {% include content_section.html left=page.overview.left_content right=page.overview.right_content center=page.overview.center_content %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.announcements %}
+<section class="section "id="announcements">
+  <div class="container">
+    {% include announcements_section.html announcements=page.announcements %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.related_events %}
+<section class="section">
+  <div class="container">
+    {% include related_events_section.html %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.featured_speakers %}
+<section class="section "id="featured_speakers">
+  <div class="container">
+  {% include featured_speakers_section.html speakers=page.featured_speakers %}
   </div>
 </section>
 {% endif %}
@@ -145,6 +169,14 @@ layout: base
 
   {% include sponsor_section.html blurb=sponsor_blurb sponsorship_deck_url=page.sponsor.sponsorship_deck_url sponsors=page.sponsor.sponsors %}
 
+{% endif %}
+
+{% if page.footer %}
+<section class="section" id="footer">
+  <div class="container">
+    {% include content_section.html left=page.footer.left_content right=page.footer.right_content center=page.footer.center_content %}
+  </div>
+</section>
 {% endif %}
 
 {% include footer.html %}

@@ -14,6 +14,7 @@ exclude:
   - Rakefile
   - .git
   - .sass_cache
+  - node_modules
   - _site
   - tests
   - vendor
@@ -48,3 +49,7 @@ collections:
     type: event
     output: true
     permalink: /reactfoo/:path/
+  fifthelephant_events:
+    type: event
+    output: true
+    permalink: /fifthelephant/:path/

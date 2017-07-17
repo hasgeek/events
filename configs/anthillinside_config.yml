@@ -1,11 +1,13 @@
 title: Anthill Inside
 subtitle: "India's community of deep learning and artifical intelligence practitioners"
 description: "India's community of deep learning and artifical intelligence practitioners"
-baseurl: "/test" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://anthillinside.in" # the base hostname & protocol for your site, e.g. http://example.com
 colors:
   primary: "#3f50a3"
   accent: "#e76f45"
+ga_tracking_code: UA-19123154-36
+service_worker: true
 # Build settings
 markdown: kramdown
 gems:
@@ -16,6 +18,7 @@ exclude:
   - Rakefile
   - .git
   - .sass_cache
+  - node_modules
   - _site
   - tests
   - vendor

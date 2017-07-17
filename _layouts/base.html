@@ -14,7 +14,7 @@
 {% endif %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="svg inlinesvg">
   <head>
     <title>{{ title }}</title>
     <meta charset="utf-8">
@@ -118,10 +118,10 @@
       renaming: false
     });
 
-    // Toggle button
-      // document.querySelector('.nav-toggle').addEventListener('click', function() {
-      //   slideout.toggle();
-      // });
+    {% if page.schedule_url %}
+      loadProposals();
+    {% endif %}
+
   })
 
   function goToUrl(url) {
@@ -160,8 +160,18 @@
   </script>
 {% endif %}
 
-{% if jekyll.environment == 'production '%}
 {% include analytics.html ga_tracking_code=site.ga_tracking_code %}
+
+{% if site.service_worker %}
+<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('{{ site.url }}{{ site.baseurl }}/sw.js').then(function () {
+    // console.log('Service worker registered');
+    }).catch(function() {
+    // console.log('Service worker registration failed');
+  });
+};
+</script>
 {% endif %}
 
 </body>

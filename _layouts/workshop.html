@@ -34,6 +34,7 @@ layout: base
           <a class="nav-item is-tab is-hidden-tablet" data-href="#sponsor">Sponsors</a>
           {% endif %}
           <a class="nav-item is-tab is-hidden-tablet" data-href="#hasgeek">About HasGeek</a>
+          <a class="nav-item is-tab is-hidden-tablet" href="{{ site.url }}{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
         </div>
         <div class="nav-center" style="z-index:10;">
           {% if page.overview %}
@@ -53,6 +54,7 @@ layout: base
           <a class="nav-item is-tab is-hidden-mobile" data-href="#sponsor">Sponsors</a>
           {% endif %}
           <a class="nav-item is-tab is-hidden-mobile" data-href="#hasgeek">About HasGeek</a>
+          <a class="nav-item is-tab is-hidden-mobile" href="{{ site.url }}{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
         </div>
         <div class="nav-right">
         </div>
@@ -65,7 +67,7 @@ layout: base
 {% if page.overview %}
 <section class="section" id="overview">
   <div class="container">
-    {% include overview_section.html left=page.overview.left_content right=page.overview.right_content center=page.overview.center_content %}
+    {% include content_section.html left=page.overview.left_content right=page.overview.right_content center=page.overview.center_content %}
   </div>
 </section>
 {% endif %}
@@ -86,6 +88,14 @@ layout: base
 </section>
 {% endif %}
 
+{% if page.venue %}
+<section class="section "id="venue">
+  <div class="container">
+    {% include venue_section.html venue=page.venue %}
+  </div>
+</section>
+{% endif %}
+
 {% if page.sponsor.blurb %}
 {% assign sponsor_blurb = page.sponsor.blurb %}
 {% else %}
@@ -95,6 +105,14 @@ layout: base
 
   {% include sponsor_section.html blurb=sponsor_blurb sponsorship_deck_url=page.sponsor.sponsorship_deck_url sponsors=page.sponsor.sponsors %}
 
+{% endif %}
+
+{% if page.footer %}
+<section class="section" id="footer">
+  <div class="container">
+    {% include content_section.html left=page.footer.left_content right=page.footer.right_content center=page.footer.center_content %}
+  </div>
+</section>
 {% endif %}
 
 {% include footer.html %}
