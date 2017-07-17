@@ -6,13 +6,17 @@
 {% if site.colors %}
 $primary: {{ site.colors.primary }};
 $info: {{ site.colors.accent }};
+$secondary: {{ site.colors.secondary }};
 {% else %}
 $primary: #826995;
 $info: #514F74;
+$secondary: #aaa;
 {% endif %}
 $link-hover: darken($primary, 10);
 $button-hover: darken($primary, 10);
 
 @import "bulma/bulma";
 @import "bulma_material_overrides";
-@import "navbar_dropdown"
+@import "navbar_dropdown";
+@import "schedule";
+@import "proposal_card";

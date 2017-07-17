@@ -14,7 +14,7 @@
 {% endif %}
 
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
   <head>
     <title>{{ title }}</title>
     <meta charset="utf-8">
@@ -73,6 +73,9 @@
 {% if page.venue %}
   <script src="{{ site.url }}{{ site.baseurl }}/js/leaflet.js"></script>
 {% endif %}
+<script>
+    window.Event = {};
+</script>
 <script>
   $(document).ready( function() {
 
@@ -133,6 +136,28 @@
 </script>
 {% if page.boxoffice_item_collection %}
   {% include boxoffice_js.html %}
+{% endif %}
+
+{% if page.schedule %}
+  <script src="{{ site.url }}{{ site.baseurl }}/js/mustache.min.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/schedule.js"></script>
+  <script>
+    window.Event.schedule_url = "{{ page.schedule.json_url }}";
+    window.Event.schedule_type = "{{ page.schedule.type }}";
+  </script>
+{% endif %}
+
+{% if page.show_proposals %}
+  <script src="{{ site.url }}{{ site.baseurl }}/js/mustache.min.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/schedule.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.mobile.custom.min.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.mousewheel.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.mCustomScrollbar.min.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/ractive.min.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/proposal.js"></script>
+  <script>
+    window.Event.proposal_url = "{{ page.show_proposals.url }}";
+  </script>
 {% endif %}
 
 {% if jekyll.environment == 'production '%}
