@@ -26,6 +26,7 @@ function initLeaflets() {
         attribution: '<a href="http://open.mapquest.co.uk" target="_blank">MapQuest</a>, <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC-BY-SA</a>',
         subdomains: ['a','b','c'],
         scrollWheelZoom: false,
+        dragging: false,
       },
       args,
       options,
@@ -43,6 +44,7 @@ function initLeaflets() {
         center: options.center || options.marker
         , zoom: options.zoom
         , scrollWheelZoom: options.scrollWheelZoom
+        , dragging: options.dragging
     });
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

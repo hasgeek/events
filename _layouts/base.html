@@ -50,10 +50,6 @@
     <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/{{ page.custom_css }}">
     {% endif %}
 
-    {% if page.boxoffice_item_collection %}
-      {% include boxoffice_styles.html %}
-    {% endif %}
-
     {% if page.venue %}
     <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/leaflet.css">
     {% endif %}
@@ -118,10 +114,6 @@
       source: '#sidebar',
       renaming: false
     });
-
-    {% if page.schedule_url %}
-      loadProposals();
-    {% endif %}
 
   })
 
