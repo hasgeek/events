@@ -28,11 +28,14 @@ layout: base
         {% if page.overview %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#overview" style="z-index:10;">Overview</a>
         {% endif %}
-        {% if page.schedule_url %}
-        <a class="nav-item is-tab is-hidden-tablet" data-href="#schedule" style="z-index:10;">Schedule</a>
-        {% endif %}
         {% if page.funnel.open == true %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#speak">Call for Proposals</a>
+        {% endif %}
+        {% if page.show_proposals %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#proposals">Proposals</a>
+        {% endif %}
+        {% if page.schedule %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#schedule">Schedule</a>
         {% endif %}
         {% if page.boxoffice_item_collection %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#tickets">Tickets</a>
@@ -50,11 +53,14 @@ layout: base
         {% if page.overview %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#overview">Overview</a>
         {% endif %}
-        {% if page.schedule_url %}
-        <a class="nav-item is-tab is-hidden-mobile" data-href="#schedule">Schedule</a>
-        {% endif %}
         {% if page.funnel.open == true %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#speak">Call for Proposals</a>
+        {% endif %}
+        {% if page.show_proposals %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#proposals">Proposals</a>
+        {% endif %}
+        {% if page.schedule %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#schedule">Schedule</a>
         {% endif %}
         {% if page.boxoffice_item_collection %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#tickets">Tickets</a>
@@ -98,14 +104,6 @@ layout: base
 </section>
 {% endif %}
 
-{% if page.schedule_url %}
-<section class="section "id="schedule">
-  <div class="container">
-    {% include schedule_section.html %}
-  </div>
-</section>
-{% endif %}
-
 {% if page.featured_speakers %}
 <section class="section "id="featured_speakers">
   <div class="container">
@@ -115,15 +113,31 @@ layout: base
 {% endif %}
 
 {% if page.funnel %}
-<section class="section "id="speak">
+<section class="section" id="speak">
   <div class="container">
   {% include proposal_section.html %}
   </div>
 </section>
 {% endif %}
 
+{% if page.show_proposals %}
+<section class="section" id="proposals">
+  <div class="container">
+    {% include submitted_proposal.html %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.schedule %}
+<section class="section" id="schedule">
+  <div class="container">
+    {% include schedule_section.html %}
+  </div>
+</section>
+{% endif %}
+
 {% if page.boxoffice_item_collection %}
-<section class="section "id="tickets">
+<section class="section" id="tickets">
   <div class="container">
     {% include boxoffice_tickets_section.html %}
   </div>
@@ -131,7 +145,7 @@ layout: base
 {% endif %}
 
 {% if page.venue %}
-<section class="section "id="venue">
+<section class="section" id="venue">
   <div class="container">
     {% include venue_section.html venue=page.venue %}
   </div>
@@ -139,7 +153,7 @@ layout: base
 {% endif %}
 
 {% if page.archive %}
-<section class="section "id="archive">
+<section class="section" id="archive">
   <div class="container">
   {% include archive_section.html photos_url=page.archive.photos_url videos_url=page.archive.videos_url %}
   </div>

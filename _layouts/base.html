@@ -14,7 +14,7 @@
 {% endif %}
 
 <!DOCTYPE html>
-<html lang="en" class="no-js svg inlinesvg">
+<html lang="en" class="svg inlinesvg">
   <head>
     <title>{{ title }}</title>
     <meta charset="utf-8">
@@ -66,9 +66,13 @@
 
   <script src="{{ site.url }}{{ site.baseurl }}/js/jquery-3.2.1.min.js"></script>
   <script src="//cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/mustache.min.js"></script>
 {% if page.venue %}
   <script src="{{ site.url }}{{ site.baseurl }}/js/leaflet.js"></script>
 {% endif %}
+<script>
+    window.Event = {};
+</script>
 <script>
   $(document).ready( function() {
 
@@ -111,10 +115,6 @@
       renaming: false
     });
 
-    {% if page.schedule_url %}
-      loadProposals();
-    {% endif %}
-
   })
 
   function goToUrl(url) {
@@ -130,10 +130,20 @@
 {% if page.boxoffice_item_collection %}
   {% include boxoffice_js.html %}
 {% endif %}
-{% if page.schedule_url %}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js" charset="utf-8"></script>
-  {% include schedule_js.html %}
-  {% include schedule_template.html %}
+
+{% if page.schedule %}
+  <script>
+    window.Event.schedule_url = "{{ page.schedule.json_url }}";
+    window.Event.schedule_type = "{{ page.schedule.type }}";
+  </script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/schedule.js"></script>
+{% endif %}
+
+{% if page.show_proposals %}
+  <script>
+    window.Event.proposal_url = "{{ page.show_proposals.url }}";
+  </script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/proposal.js"></script>
 {% endif %}
 
 {% include analytics.html ga_tracking_code=site.ga_tracking_code %}
