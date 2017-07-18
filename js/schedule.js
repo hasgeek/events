@@ -209,11 +209,6 @@ $(document).ready( function() {
           schedules[scheduleindex].end = getIST(getTimeString(slot.sessions[sessions.length-1].end));
         }
         sessions.forEach(function(session, sessionindex, sessions) {
-          //Type of schedule
-          if (session.section_name && session.section_name.toLowerCase().indexOf('workshop') !== -1) {
-            schedules[scheduleindex].type = 'workshop';
-          }
-
           //Tracks or No:of auditorium
           if (session.room && (rooms.indexOf(session.room) === -1)) {
               rooms.push(session.room);
@@ -223,9 +218,7 @@ $(document).ready( function() {
           schedules[scheduleindex].slots[slotindex].sessions[sessionindex].end = getIST(getTimeString(session.end));
         }); //eof sessions loop
 
-        if (schedules[scheduleindex].type !== 'workshop') {
-          schedules[scheduleindex].type = 'conference';
-        }
+        schedules[scheduleindex].type = 'conference';
       }); //eof schedule.slots loop
 
       //Sort rooms
@@ -248,16 +241,9 @@ $(document).ready( function() {
         });
       });
 
-      if (schedules[scheduleindex].type === 'conference') {
-        conferenceSchedule.push({date: schedules[scheduleindex].date, tableid: schedules[scheduleindex].tableid, rooms: schedules[scheduleindex].rooms, start: schedules[scheduleindex].start, end: schedules[scheduleindex].end});
-        createTable(conferenceSchedule[conferenceScheduleCounter]);
-        conferenceScheduleCounter += 1;
-      }
-      else {
-        workshopSchedule.push({date:schedules[scheduleindex].date, rooms: schedules[scheduleindex].rooms, start: schedules[scheduleindex].start, end: schedules[scheduleindex].end});
-        createTable(workshopSchedule[workshopScheduleCounter]);
-        workshopScheduleCounter += 1;
-      }
+      conferenceSchedule.push({date: schedules[scheduleindex].date, tableid: schedules[scheduleindex].tableid, rooms: schedules[scheduleindex].rooms, start: schedules[scheduleindex].start, end: schedules[scheduleindex].end});
+      createTable(conferenceSchedule[conferenceScheduleCounter]);
+      conferenceScheduleCounter += 1;
     });//eof schedules loop
 
     //Reset counters
@@ -274,25 +260,13 @@ $(document).ready( function() {
         }
       });
 
-      if (schedule.type === 'conference') {
-        pushSessions(conferenceSchedule[conferenceScheduleCounter], schedule.slots);
-        addRowSpan(conferenceSchedule[conferenceScheduleCounter]);
-        checkColumns(conferenceSchedule[conferenceScheduleCounter]);
-        conferenceScheduleCounter += 1;
-      }
-      else {
-        pushSessions(workshopSchedule[workshopScheduleCounter], schedule.slots);
-        addRowSpan(workshopSchedule[workshopScheduleCounter]);
-        checkColumns(workshopSchedule[workshopScheduleCounter]);
-        workshopScheduleCounter += 1;
-      }
+      pushSessions(conferenceSchedule[conferenceScheduleCounter], schedule.slots);
+      addRowSpan(conferenceSchedule[conferenceScheduleCounter]);
+      checkColumns(conferenceSchedule[conferenceScheduleCounter]);
+      conferenceScheduleCounter += 1;
     }); //eof schedules loop
 
-    if (eventType === 'conference') {
-      renderScheduleTable(conferenceSchedule, 'conference', divContainer);
-    } else {
-      renderScheduleTable(workshopSchedule, 'workshop', divContainer);
-    }
+    renderScheduleTable(conferenceSchedule, 'conference', divContainer);
   }
 
     $(window).resize(function() {
@@ -332,6 +306,7 @@ $(document).ready( function() {
       dataType: 'jsonp',
       url: window.Event.schedule_url,
       success: function(data) {
+        console.log("data", data)
         parseJson(data, window.Event.schedule_type, '#event-schedule-table');
       }
     });//eof ajax call
