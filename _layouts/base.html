@@ -132,18 +132,18 @@
 {% endif %}
 
 {% if page.schedule %}
-  <script src="{{ site.url }}{{ site.baseurl }}/js/schedule.js"></script>
   <script>
     window.Event.schedule_url = "{{ page.schedule.json_url }}";
     window.Event.schedule_type = "{{ page.schedule.type }}";
   </script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/schedule.js"></script>
 {% endif %}
 
 {% if page.show_proposals %}
-  <script src="{{ site.url }}{{ site.baseurl }}/js/proposal.js"></script>
   <script>
     window.Event.proposal_url = "{{ page.show_proposals.url }}";
   </script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/proposal.js"></script>
 {% endif %}
 
 {% include analytics.html ga_tracking_code=site.ga_tracking_code %}
