@@ -28,7 +28,13 @@ e2enetworks:
   url: https://www.e2enetworks.com/
   display_url: e2enetworks.com
   blurb: |
-    E2E Networks is the fastest growing Cloud Computing (IaaS) company in India, providing Value Priced, Pure SSD Virtual Private Servers and Dedicated Servers combined with vast India specific expertise in implementing and managing infrastructure for web, mobile or enterprise centric workloads.Founded in 2009 and EBITA positive since inception, today some of the biggest web and mobile properties in India run on E2E Networks infrastructure.
+    Founded in 2009 and EBITA positive since inception, [E2E Networks Private Limited](https://www.e2enetworks.com/) is India's #1 Pure SSD Cloud player. E2E’s team consists of professionals from leading companies such as Yahoo, Microsoft, ValueFirst, HP, NRCFOSS, Iron Systems, PwC, etc.
+
+    Using our vast experience in implementing and managing infrastructure for the web, mobile or enterprise centric workloads we have built a fully cloud agnostic CloudOps platform, which supports over 2,000 public clouds from across the world. Many of India’s best known start-ups have been using our CloudOps platform to boost measurable performance (up to 15% gains), while at the same time slashing their public cloud computing spend (up to 60% savings).
+
+    Our CloudOps platform uses a unique blend of automation delivered via technology combined with human intelligence to drastically reduce the workload of your in-house DevOps team by freeing them from the worry of managing RTB (Run The Business) issues.
+
+    E2E’s was the first company in India to launch contract free computing way back in 2009. We followed this up by launching our hourly billed pure SSD public cloud and private cloud. Our Cloud Infrastructure has been used by many well-known Indian Startups for their journey from Seed Level to Unicorn Stage and beyond.
 
 razorpay:
   title: "Razorpay"
@@ -92,7 +98,7 @@ qubole:
 
 imerit:
   title: "iMerit"
-  logo_url: https://images.hasgeek.com/embed/file/372ebbdea6a149ea85101bff82fb7b2a
+  logo_url: https://images.hasgeek.com/embed/file/caf2db57a84b47dfb5eeddcf62f52325
   url: http://imerit.net/
   display_url: imerit.net
   blurb: |
