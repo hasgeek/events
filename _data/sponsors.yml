@@ -110,3 +110,13 @@ iqlect:
   url: http://www.iqlect.com/
   display_url: www.iqlect.com
   blurb: |
+
+intel:
+  title: "Intel"
+  logo_url: https://images.hasgeek.com/embed/file/ce2f056c84ad4152908e009c6096a2e5
+  url: https://www.intel.com/software
+  display_url: www.intel.com/software
+  blurb: |
+    Intel is a world leader in computing innovation. Intel invents at the boundaries of technology to make amazing experiences possible for business and society, and for every person on Earth. Harnessing the capabilities of the cloud, the ubiquity of the Internet of Things, the latest advances in memory and programmable solutions and the promise of always-on 5G connectivity, Intel is disrupting industries and solving global challenges. 
+
+    Intel® Developer Zone is the single destination for all software related resources from Intel. It is designed to provide the development support that you need to innovate and succeed. Join the Intel® Developer Zone and get access to tools, code, and support communities with Intel experts and industry peers. Discover new opportunities to help you develop, market, and sell your software.
