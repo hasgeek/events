@@ -40,6 +40,9 @@ layout: base
         {% if page.boxoffice_item_collection %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#tickets">Tickets</a>
         {% endif %}
+        {% if page.accommodation %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#accommodation">Accommodation</a>
+        {% endif %}
         {% if page.venue %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#venue">Venue</a>
         {% endif %}
@@ -64,6 +67,9 @@ layout: base
         {% endif %}
         {% if page.boxoffice_item_collection %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#tickets">Tickets</a>
+        {% endif %}
+        {% if page.accommodation %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#accommodation">Accommodation</a>
         {% endif %}
         {% if page.venue %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#venue">Venue</a>
@@ -140,6 +146,14 @@ layout: base
 <section class="section" id="tickets">
   <div class="container">
     {% include boxoffice_tickets_section.html %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.accommodation %}
+<section class="section" id="accommodation">
+  <div class="container">
+    {% include accommodation_section.html accommodation=page.accommodation %}
   </div>
 </section>
 {% endif %}
