@@ -12,10 +12,10 @@
             <th class="time has-text-centered js-track"><div>Time</div></th>
             {{#rooms}}
             {{#track}}
-              <th class="track{{track}} has-text-centered js-track" data-td="track-{{track}}"><div>{{shorttitle}}</div></th>
+              <th class="track track{{track}} has-text-centered js-track" data-td="track-{{track}}"><div>{{shorttitle}}</div></th>
             {{/track}}
             {{^track}}
-              <th class="track{{track}} has-text-centered tab-active js-track" data-td="track-{{track}}"><div>{{shorttitle}}</div></th>
+              <th class="track track{{track}} has-text-centered tab-active js-track" data-td="track-{{track}}"><div>{{shorttitle}}</div></th>
             {{/track}}
             {{/rooms}}
           </tr>
@@ -32,10 +32,10 @@
             {{#is_break}}
               {{#roomTitle}}
                 {{#track}}
-                  <td class="track-{{track}} break" rowspan={{rowspan}}>
+                  <td class="track track-{{track}} break" rowspan={{rowspan}}>
                 {{/track}}
                 {{^track}}
-                  <td class="track-{{track}} break tab-active" rowspan={{rowspan}}>
+                  <td class="track track-{{track}} break tab-active" rowspan={{rowspan}}>
                 {{/track}}
                 <div class="schedule-talk">
                   <h4 class="title">{{title}}</h4>
@@ -60,10 +60,10 @@
             {{/is_break}}
             {{^is_break}}
               {{#track}}
-                <td class="track-{{track}}" rowspan={{rowspan}}>
+                <td class="track track-{{track}}" rowspan={{rowspan}}>
               {{/track}}
               {{^track}}
-                <td class="track-{{track}} tab-active" rowspan={{rowspan}}>
+                <td class="track track-{{track}} tab-active" rowspan={{rowspan}}>
               {{/track}}
                 <div class="schedule-talk">
                   <h4 class="title">

@@ -55,46 +55,34 @@
   background-color: #826995;
   box-shadow: 0 1px 2px rgba(0,0,0,0.25);
   padding: 15px 5px;
-  font-size: 10px;
+  font-size: 15px;
   border-radius: 4px;
   height: 65px;
 }
-.schedule-table th.track0,
-.schedule-table th.track1,
-.schedule-table th.track2  {
+.schedule-table th.track {
   border-color: transparent;
   border-style: solid;
   border-width: 0 5px 10px 0;
   background-color: transparent;
   padding: 0;
 }
-.schedule-table th.track1 {
-  border-width: 0 0 10px;
-}
-.schedule-table th.track0 div,
-.schedule-table th.track1 div,
-.schedule-table th.track2 div {
+.schedule-table th.track div {
   margin: 0 0.2rem;
   box-shadow: 0 1px 2px rgba(0,0,0,0.25);
   border-radius: 4px;
-  padding: 5px;
-  font-size: 10px;
+  padding: 15px 5px;
+  font-size: 15px;
   background-color: $primary;
   color: #fff;
   cursor: pointer;
   height: 65px;
   overflow: hidden;
 }
-.schedule-table th.track0.tab-active div,
-.schedule-table th.track1.tab-active div,
-.schedule-table th.track2.tab-active div {
+.schedule-table th.tab-active {
   opacity: 0.4;
 }
 @media(min-width: 480px) {
-  .schedule-table thead th.time div,
-  .schedule-table th.track0 div,
-  .schedule-table th.track1 div,
-  .schedule-table th.track2 div {
+  .schedule-table thead th div {
     padding: 15px 5px;
     font-size: inherit;
   }
@@ -161,14 +149,19 @@
   border-style: solid;
   border-width: 5px 5px 5px 20px;
 }
-.schedule-table td.track-0,
-.schedule-table td.track-1,
-.schedule-table td.track-2 {
+.schedule-table td.track {
   width: 44%;
   background-color: transparent;
   padding: 0;
   border-color: transparent;
   border-style: solid;
+  border-width: 5px 5px 5px 20px;
+}
+.schedule-table tbody .track.break {
+  display: table-cell;
+  border-width: 5px;
+}
+.schedule-table tbody .track.track-0.break {
   border-width: 5px 5px 5px 20px;
 }
 .schedule-table tbody td .schedule-talk{
