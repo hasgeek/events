@@ -10,10 +10,10 @@ description: "In this intensive data science bootcamp, you will learn how to sol
 boxoffice_item_collection: "f42bc00b-257f-4207-828c-b8fc5181bc6e"
 venue:
   label: HasGeek House, Bangalore
-  lat: 12.96170
-  lng: 77.64213
+  lat: 12.96149473
+  lng: 77.64430654
   address: |
-    2699, 19th Main Road 
+    2699, 19th Main Road
     HAL 2nd Stage, Indiranagar
     Bengaluru, Karnataka 560008
   google_maps_url: https://goo.gl/maps/1oAmjTuHXMv
