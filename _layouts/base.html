@@ -8,7 +8,11 @@
 {% endif %}
 
 {% if page.title %}
-  {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
+  {% if page.title contains site.title %}
+    {% capture title %}{{ page.title }}{% endcapture %}
+  {% else %}
+    {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
+  {% endif %}
 {% else %}
   {% capture title %}{{ site.title }}{% endcapture %}
 {% endif %}
