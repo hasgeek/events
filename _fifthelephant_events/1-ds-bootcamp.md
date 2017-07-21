@@ -2,7 +2,7 @@
 layout: workshop
 title: "Data Science Bootcamp"
 subtitle: "Learn how to build a seamless end-to-end data driven application"
-datelocation: "25-26 July 2017, Bangalore"
+datelocation: "20 Aug - 17 Sep 2017, Bangalore"
 city: Bangalore
 start_time: 2017-08-20
 end_time: 2017-09-17
