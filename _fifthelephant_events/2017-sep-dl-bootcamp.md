@@ -2,7 +2,7 @@
 layout: workshop
 title: "Deep Learning Bootcamp"
 subtitle: "A two-day bootcamp on learning Deep Learning"
-datelocation: "9 - 17 Sep 2017, Bangalore"
+datelocation: "9-17 Sep 2017, Bangalore"
 city: Bangalore
 start_time: 2017-09-09
 end_time: 2017-09-16
@@ -29,7 +29,7 @@ instructors:
     url: https://twitter.com/bargava
     label: "@bargava"
 overview:
-  center_content: | 
+  center_content: |
     > _“All knowledge is connected to all other knowledge. The fun is in making the connections.” - Arthur Aufderheide_
 
     The objective for the Deep Learning bootcamp is to ensure that the participants have enough theory and practical concepts of building a deep learning solution in the space of computer vision and natural language processing. Post the bootcamp, all the participants would be familiar with the following key concepts and would be able to apply them to a problem.
@@ -51,17 +51,17 @@ overview:
     There will be **eight** sessions in total of **two** hours each over two days.
 
     ### Session 1: Deep Learning (DL) Theory
-    1. What is deep learning? 
+    1. What is deep learning?
     2. Use cases in computer vision and natural language processing.
     3. Overview of the building blocks
       - Neurons
       - Activation functions
       - Back propagation algorithm
       - Stochastic gradient descent
-      - Adaptive learning 
+      - Adaptive learning
       - Momentum
 
-    ### Session 2: DL for Computer Vision 
+    ### Session 2: DL for Computer Vision
     1. Introduction to problem and data-set
     2. Working on the cloud, including `keras` and `tensorflow`
     3. Build your first DL Model - Multi-layer Perceptron (MLP)
@@ -80,11 +80,11 @@ overview:
 
     ### Session 5: DL for Natural Language Processing (NLP)
     1. Challenges with traditional NLP techniques
-    2. Concept of Word Embedding - word2vec 
+    2. Concept of Word Embedding - word2vec
     3. Build your fourth DL Model - MLP using word2vec
 
     ### Session 6: Recurrent Neural Networks (RNN)
-    1. Concept of RNNs 
+    1. Concept of RNNs
     2. Concept of Long Short-Term Memory (LSTM)
     3. Build your fifth DL Model - LSTM
 
@@ -99,7 +99,7 @@ overview:
     3. Moving beyond Classification e.g. Object Detection
     4. Concept of DL for Unsupervised Learning
     5. Concept of Reinforcement Learning
-    7. Where to go from here 
+    7. Where to go from here
 
     ## Resources
     The material for the workshop is hosted on github:

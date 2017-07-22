@@ -6,4 +6,4 @@
     {% assign all_events = all_events | push: event %}
   {% endfor %}
 {% endfor %}
-{% assign all_events = all_events | sort: 'end_time' %}
+{% assign all_events = all_events | sort: 'start_time' %}
