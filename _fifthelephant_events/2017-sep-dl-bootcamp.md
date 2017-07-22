@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Data Learning Bootcamp"
+title: "Deep Learning Bootcamp"
 subtitle: "A two-day bootcamp on learning Deep Learning"
 datelocation: "9 - 17 Sep 2017, Bangalore"
 city: Bangalore
@@ -10,10 +10,10 @@ description: "The objective for the Deep Learning bootcamp is to ensure that the
 boxoffice_item_collection: "f8a8397b-bab4-4138-b0b3-7e2341513cba"
 venue:
   label: HasGeek House, Bangalore
-  lat: 12.96170
-  lng: 77.64213
+  lat: 12.96149473
+  lng: 77.64430654
   address: |
-    2699, 19th Main Road 
+    2699, 19th Main Road
     HAL 2nd Stage, Indiranagar
     Bengaluru, Karnataka 560008
   google_maps_url: https://goo.gl/maps/1oAmjTuHXMv
