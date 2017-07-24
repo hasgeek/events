@@ -19,11 +19,11 @@ function initLeaflets() {
   $('.leaflet-map').each(function initLeafletMap () {
     var $container = $(this),
       defaults = {
-        zoom: 17,
+        zoom: 16,
         marker: [12.999026, 77.701948], // bangalore
         label: null,
         maxZoom: 18,
-        attribution: '<a href="http://open.mapquest.co.uk" target="_blank">MapQuest</a>, <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC-BY-SA</a>',
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
         subdomains: ['a','b','c'],
         scrollWheelZoom: false,
         dragging: false,
@@ -47,14 +47,17 @@ function initLeaflets() {
         , dragging: options.dragging
     });
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    var tileLayer = args.tilelayer || 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+    L.tileLayer(tileLayer, {
         maxZoom: options.maxZoom
         , attribution: options.attribution
         , subdomains: options.subdomains
     }).addTo(map);
 
 
-    marker = new L.marker(options.marker).addTo(map);
-    if (options.label) marker.bindPopup(options.label).openPopup();
+    if (!args.tilelayer) {
+      marker = new L.marker(options.marker).addTo(map);
+      if (options.label) marker.bindPopup(options.label).openPopup();
+    }
   });
 }
