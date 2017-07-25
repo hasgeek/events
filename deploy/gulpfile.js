@@ -6,13 +6,14 @@ gulp.task('generate-service-worker', function(callback) {
   var rootDir = '.';
 
   swPrecache.write(path.join(rootDir, 'sw.js'), {
-    staticFileGlobs: [rootDir + '/{css,fonts,images,js}/*.{js,html,css,png,jpg,gif,svg,ttf}'],
-    runtimeCaching: [{
-      urlPattern: /^http:\/\/boxoffice\.hasgeek\.com/,
-      handler: 'networkOnly'
+    staticFileGlobs: [rootDir + '/{css,fonts,images,js}/*.{js,css,png,jpg,gif,svg,ttf}'],
+    runtimeCaching: [
+    {
+      urlPattern: /.html/,
+      handler: 'networkFirst'
     },
     {
-      urlPattern: /^https:\/\/imgee\.s3\.amazonaws\.com\/imgee/,
+      urlPattern: /images\.hasgeek\.com/,
       handler: 'cacheFirst'
     },
     {

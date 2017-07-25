@@ -58,8 +58,8 @@
     <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/leaflet.css">
     {% endif %}
 
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.light.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/jquery.sidr.2.2.1.min.css">
+    <link rel="stylesheet" href="{ site.url }}{{ site.baseurl }}/css/font-awesome.min.css">
 </head>
 <body>
   {% include sidebar_site.html %}
@@ -69,7 +69,7 @@
   {{ content }}
 
   <script src="{{ site.url }}{{ site.baseurl }}/js/jquery-3.2.1.min.js"></script>
-  <script src="//cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.sidr-2.2.1.min.js"></script>
   <script src="{{ site.url }}{{ site.baseurl }}/js/mustache.min.js"></script>
 {% if page.venue %}
   <script src="{{ site.url }}{{ site.baseurl }}/js/leaflet.js"></script>
