@@ -64,7 +64,11 @@
     {% endif %}
 
     {% if page.venue %}
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/leaflet.css">
+      {% if page.venue.mapbox %}
+      <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/mapbox-gl-0.39.1.css">
+      {% else %}
+      <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/leaflet.css">
+      {% endif %}
     {% endif %}
 
     <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/jquery.sidr.2.2.1.min.css">
@@ -81,7 +85,11 @@
   <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.sidr-2.2.1.min.js"></script>
   <script src="{{ site.url }}{{ site.baseurl }}/js/mustache.min.js"></script>
 {% if page.venue %}
+  {% if page.venue.mapbox %}
+  <script src="{{ site.url }}{{ site.baseurl }}/js/mapbox-gl.0.39.1.min.js"></script>
+  {% else %}
   <script src="{{ site.url }}{{ site.baseurl }}/js/leaflet.js"></script>
+  {% endif %}
 {% endif %}
 <script>
     window.Event = {};

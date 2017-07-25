@@ -16,14 +16,14 @@ function initLeaflets() {
   }
 
   /*Map*/
-  $('.leaflet-map').each(function initLeafletMap () {
+  $('.embed-map').each(function initLeafletMap () {
     var $container = $(this),
       defaults = {
         zoom: 16,
         marker: [12.999026, 77.701948], // bangalore
         label: null,
         maxZoom: 18,
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
         subdomains: ['a','b','c'],
         scrollWheelZoom: false,
         dragging: false,
@@ -37,9 +37,10 @@ function initLeaflets() {
     $container.empty();
 
     args = $container.data();
-    if (args.marker) { args.marker = args.marker.split(','); }
+    if (args.markerlat && args.markerlng) { args.marker = [args.markerlat,args.markerlng]; }
     options = $.extend({}, defaults, args);
 
+    console.log(options);
     map = new L.Map($container[0], {
         center: options.center || options.marker
         , zoom: options.zoom
@@ -47,7 +48,7 @@ function initLeaflets() {
         , dragging: options.dragging
     });
 
-    var tileLayer = args.tilelayer || 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+    var tileLayer = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
     L.tileLayer(tileLayer, {
         maxZoom: options.maxZoom
         , attribution: options.attribution
