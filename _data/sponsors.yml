@@ -110,6 +110,13 @@ iqlect:
   url: http://www.iqlect.com/
   display_url: www.iqlect.com
   blurb: |
+    IQLECT is a real-time and predictive big data analytics SaaS platform. The platform is loaded with numerous apps for monitoring and analyzing devices, applications, websites, sensors, logs, databases and more.
+
+    IQLECT’s approach to analytics includes features such as real-time analysis, predictive modeling, unsupervised learning, data science on streaming data, complex event processing, anomaly detection, machine learning, reporting, and notifications. The entire platform and the apps have a novel architecture built using IQLECT’s own NoSQL database BangDB.
+
+    The organization began operation in 2015 and has steadily built the product since then. The company has been working with several enterprise clients and partners and has recently launched their SaaS offering.
+
+    IQLECT’s SaaS platform makes real-time data analytics easy and smooth for developers, system admins, entrepreneurs and business owners. The tool requires no coding to implement standard solutions and allows tech savvy to create custom solutions as well.
 
 intel:
   title: "Intel"

@@ -152,7 +152,9 @@
 
 {% include analytics.html ga_tracking_code=site.ga_tracking_code %}
 
-{% if site.service_worker %}
+
+{% if site.service_worker == 'false' %}
+{% else %}
 <script type="text/javascript">
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('{{ site.url }}{{ site.baseurl }}/sw.js').then(function () {
