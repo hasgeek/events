@@ -7,6 +7,8 @@ colors:
   primary: "#498f94"
   accent: "#EC6015"
 ga_tracking_code: UA-19123154-20
+meta:
+  image: "images/meta/fifthelephant.png"
 icons:
   touch:
   - src: "images/touch/fifthelephant-icon-192.png"

@@ -7,6 +7,17 @@
   {% assign description = site.description %}
 {% endif %}
 
+{% if page.meta.image %}
+  {% assign image = page.meta.image %}
+{% else %}
+  {% assign image = site.meta.image %}
+{% endif %}
+
+{% if image contains "://" %}
+{% else %}
+  {% assign image = image | absolute_url %}
+{% endif %}
+
 {% if page.title %}
   {% if page.title contains site.title %}
     {% capture title %}{{ page.title }}{% endcapture %}
@@ -36,7 +47,7 @@
     <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}" />
 
     <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="{{ image }}">
     <meta property="og:description" content="{{ description }}">
     <meta property="og:title" content="{{ title }}">
     <meta property="og:site_name" content="{{ site.title }}">
@@ -45,13 +56,13 @@
 
     <meta itemprop="name" content="{{ title }}">
     <meta itemprop="description" content="{{ description }}">
-    <meta itemprop="image" content="">
+    <meta itemprop="image" content="{{ image }}">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
     <meta name="twitter:title" content="{{ title }}">
     <meta name="twitter:description" content="{{ description }}">
-    <meta name="twitter:image" content="">
+    <meta name="twitter:image" content="{{ image }}">
 
 
     {% if site.icons.touch %}

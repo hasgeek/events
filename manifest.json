@@ -5,7 +5,7 @@
   "short_name": "{{ site.title }}",
   "display": "standalone",
   "orientation": "portrait",
-  "start_url": "{{ site.url }}{{ site.baseurl }}/?utm_source=app_homescreen",
+  "start_url": "/?utm_source=app_homescreen",
   {% if site.colors %}
   "theme_color": "{{ site.colors.primary }}",
   {% else %}

@@ -9,7 +9,7 @@ gulp.task('generate-service-worker', function(callback) {
     staticFileGlobs: [rootDir + '/{css,fonts,images,js}/*.{js,css,png,jpg,gif,svg,ttf}'],
     runtimeCaching: [
     {
-      urlPattern: /(\.html|\/)$/,
+      urlPattern: /(\.html|\/)(?:\?|$)/,
       handler: 'networkFirst'
     },
     {
