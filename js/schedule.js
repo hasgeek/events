@@ -306,7 +306,6 @@ $(document).ready( function() {
       dataType: 'jsonp',
       url: window.Event.schedule_url,
       success: function(data) {
-        console.log("data", data)
         parseJson(data, window.Event.schedule_type, '#event-schedule-table');
       }
     });//eof ajax call

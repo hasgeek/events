@@ -157,12 +157,14 @@
   border-style: solid;
   border-width: 5px 5px 5px 20px;
 }
-.schedule-table tbody .track.break {
-  display: table-cell;
-  border-width: 5px;
-}
-.schedule-table tbody .track.track-0.break {
-  border-width: 5px 5px 5px 20px;
+@media (min-width: 768px) {
+  .schedule-table tbody .track.break {
+    display: table-cell;
+    border-width: 5px;
+  }
+  .schedule-table tbody .track.track-0.break {
+    border-width: 5px 5px 5px 20px;
+  }
 }
 .schedule-table tbody td .schedule-talk{
   padding: 0;
