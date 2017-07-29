@@ -7,7 +7,13 @@ colors:
   primary: "#3f50a3"
   accent: "#e76f45"
 ga_tracking_code: UA-19123154-36
-service_worker: true
+meta:
+  image: "images/meta/anthillinside.png"
+icons:
+  touch:
+  - src: "images/touch/anthillinside-icon-192.png"
+    sizes: "192x192"
+    type: "image/png"
 # Build settings
 markdown: kramdown
 gems:

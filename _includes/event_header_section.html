@@ -27,10 +27,19 @@
         {% if include.event.boxoffice_item_collection %}
         <a class="button is-primary" data-href="#tickets">Buy Tickets</a>
         {% endif %}
+        {% if include.event.schedule %}
+        <a class="button is-primary" data-href="#schedule">View Schedule</a>
+        {% endif %}
         {% if include.event.funnel.open == true %}
         <a class="button is-primary" href="{{ include.event.funnel.url }}" target="_blank">Propose a talk</a>
         {% endif %}
       </div>
+      {% if include.event.live %}
+        <div class="block">
+          <a class="button is-info" href="{{ site.url }}{{ site.baseurl }}/live"><span class="icon"><i class="fa fa-video-camera" aria-hidden="true"></i></span><span>Watch the live stream</span></a>
+        </div>
+      {% endif %}
+
     </div>
   </div>
 </section>

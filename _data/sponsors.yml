@@ -24,7 +24,7 @@ walmartlabs:
 
 e2enetworks:
   title: "E2E Networks"
-  logo_url: https://images.hasgeek.com/embed/file/932dc7a9d1584527817bf0fc59707738
+  logo_url: https://images.hasgeek.com/embed/file/81843420733e421e8f62705efd2a0754?size=320x240
   url: https://www.e2enetworks.com/
   display_url: e2enetworks.com
   blurb: |
@@ -110,6 +110,13 @@ iqlect:
   url: http://www.iqlect.com/
   display_url: www.iqlect.com
   blurb: |
+    IQLECT is a real-time and predictive big data analytics SaaS platform. The platform is loaded with numerous apps for monitoring and analyzing devices, applications, websites, sensors, logs, databases and more.
+
+    IQLECT’s approach to analytics includes features such as real-time analysis, predictive modeling, unsupervised learning, data science on streaming data, complex event processing, anomaly detection, machine learning, reporting, and notifications. The entire platform and the apps have a novel architecture built using IQLECT’s own NoSQL database BangDB.
+
+    The organization began operation in 2015 and has steadily built the product since then. The company has been working with several enterprise clients and partners and has recently launched their SaaS offering.
+
+    IQLECT’s SaaS platform makes real-time data analytics easy and smooth for developers, system admins, entrepreneurs and business owners. The tool requires no coding to implement standard solutions and allows tech savvy to create custom solutions as well.
 
 intel:
   title: "Intel"
@@ -120,6 +127,7 @@ intel:
     Intel is a world leader in computing innovation. Intel invents at the boundaries of technology to make amazing experiences possible for business and society, and for every person on Earth. Harnessing the capabilities of the cloud, the ubiquity of the Internet of Things, the latest advances in memory and programmable solutions and the promise of always-on 5G connectivity, Intel is disrupting industries and solving global challenges. 
 
     Intel® Developer Zone is the single destination for all software related resources from Intel. It is designed to provide the development support that you need to innovate and succeed. Join the Intel® Developer Zone and get access to tools, code, and support communities with Intel experts and industry peers. Discover new opportunities to help you develop, market, and sell your software.
+
 snackexperts:
   title: "Snackexperts"
   logo_url: https://images.hasgeek.com/embed/file/ac7727b48267449e84523fc8016a54bd
@@ -129,3 +137,36 @@ snackexperts:
     Intel is a world leader in computing innovation. Intel invents at the boundaries of technology to make amazing experiences possible for business and society, and for every person on Earth. Harnessing the capabilities of the cloud, the ubiquity of the Internet of Things, the latest advances in memory and programmable solutions and the promise of always-on 5G connectivity, Intel is disrupting industries and solving global challenges. 
 
     Intel® Developer Zone is the single destination for all software related resources from Intel. It is designed to provide the development support that you need to innovate and succeed. Join the Intel® Developer Zone and get access to tools, code, and support communities with Intel experts and industry peers. Discover new opportunities to help you develop, market, and sell your software.
+
+uber:
+  title: "Uber"
+  logo_url: https://images.hasgeek.com/embed/file/b6178452c0bb4a4a8a586d9c98b5af7e
+  url: https://www.uber.com/
+  display_url: www.uber.com
+  blurb: |
+    Uber India Engineering is dedicated to creating a world with clean, unclogged cities and reliable transportation everywhere, for everyone. The only engineering presence for Uber in Asia is assembling the smartest minds in tech to realize its vision of solving some of the world’s biggest urban transportation challenges. Our specific focus is to get Uber magic to emerging markets - next billion riders/drivers onto Uber platform.
+
+    We have engineering teams located in Bangalore and Hyderabad.
+    Engineering/product teams at Uber Bangalore are working on the following areas focused on drivers, riders and platforms:
+    Rider and Driver: Our engineering teams are at the forefront of scaling Uber’s rider and driver technologies worldwide, with a special focus on solving transportation for emerging markets.
+    Payments: Architecting a frictionless digital payment experience for riders and driver-partners is a key priority for the Uber Engineering team in Bangalore.
+    Global Vehicle Platform: Our Global Vehicle Platform team is building a Vehicle Lifecycle Management platform for vehicles and fleets at Uber.
+    Maps: Our Maps team is responsible for directing and scaling global mapping efforts that involve core technologies such as search, geocoding, routing, ETA algorithms, and geospatial data pipelines.
+    We are looking to hire engineers, product managers, data scientists, researchers, product designers for all of the above teams.
+
+    To know more about Bangalore openings,  browse through our site pages at
+    [https://www.uber.com/info/bangalore-engineering/](https://www.uber.com/info/bangalore-engineering/)
+
+    Hyderabad engineering team is focused on finance engineering.
+    To know more about Hyderabad openings, browse through our site pages at:
+    [http://careersinfo.uber.com/hyderabad-eng/](http://careersinfo.uber.com/hyderabad-eng/)
+
+cowrks:
+  title: "CoWrks"
+  logo_url: https://images.hasgeek.com/embed/file/361304cc6a1147a99d5a383c2810f0bc
+  url: https://www.cowrks.com/
+  display_url: www.cowrks.com
+  blurb: |
+    CoWrks is a large format shared office space operator founded in 2016. Home to creative individuals, entrepreneurs, startups, small businesses and Fortune 500 companies, CoWrks places maximum importance on the member journey. This voyage is furthered by providing the 3,000+ members with several amenities, a variety of membership plans to choose from, and scope to interact with coworkers and prolific mentors at events.
+
+    In the six months that follow, the CoWrks community will strengthen by 15,000 members across 10 centers in four major metros - Bangalore, Mumbai, Delhi–NCR and Chennai. By making a mark across the country, CoWrks gives its members pan India presence and allows them to take their business wherever they go.
