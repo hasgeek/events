@@ -2,7 +2,7 @@
 layout: workshop
 title: "Data Science Bootcamp"
 subtitle: "A five-day bootcamp on Data Science"
-datelocation: "20 Aug - 17 Sep 2017, Bangalore"
+datelocation: "5 Sundays starting from 20th Aug 2017, Bangalore"
 city: Bangalore
 start_time: 2017-08-20
 end_time: 2017-09-17
@@ -23,20 +23,38 @@ instructors:
   website:
     url: http://amitkaps.com/
     label: amitkaps.com
+  byline: Crafting Visual Stories with Data
+  bio: |
+    **Amit** teaches the craft of telling visual stories with data. He conducts workshops and trainings on Data Science in Python and R, as well as on Data Visualisation topics. His background is in strategy consulting having worked with AT Kearney in India, then with Booz & Company in Europe and more recently for startups in Bangalore. He did his B.Tech in Mechanical Engineering from IIT, Delhi and PGDM (MBA) from IIM, Ahmedabad. You can find more about him at [amitkaps.com](http://amitkaps.com/) and tweet him at [@amitkaps](https://twitter.com/amitkaps).
+- name: Anand Chitipothu
+  image_url: https://pipal.in/media/trainers/anand.jpeg
+  website:
+    url: http://anandology.com/
+    label: anandology.com
+  byline: Software Consultant and Trainer at Pipal Academy
+  bio: |
+    **Anand** has been crafting beautiful software since a decade and half. He’s now building a data science platform, [rorodata](http://www.rorodata.com/), which he recently co-founded. He regularly conducts advanced programming courses through [Pipal Academy](https://pipal.in/trainers/anand/). He is co-author of [web.py](http://webpy.org/), a micro web framework in Python. He has worked at Strand Life Sciences and Internet Archive.
 - name: Bargava Subramanian
   image_url: https://images.hasgeek.com/embed/file/195574f5c883459c927ecfdef066715c
   website:
     url: https://twitter.com/bargava
     label: "@bargava"
+  byline: Senior Data Scientist
+  bio: |
+    **Bargava** is a practicing Data Scientist. He has 14 years of experience delivering business analytics solutions to Investment Banks, Entertainment Studios and High-Tech companies. He has given talks and conducted workshops on Data Science, Machine Learning, Deep Learning and Optimization in Python and R. He has a Masters in Statistics from University of Maryland, College Park, USA. He is an ardent NBA fan. You can tweet to him at [@bargava](https://twitter.com/bargava).
 overview:
   center_content: |
     > _"Jack of all trades, master of none, though oft times better than master of one."_
 
     In this intensive data science bootcamp, you will learn how to solve business problem using data science (the art of data science), the principle and application of data visualisation (Data Visualisation for Data Science), the math behind machine learning in a hacker's way (HackerMath for ML), using machine learning in an applied context (Applied ML) and finally how to create a data-driven product (FullStack Data Science).
 
-    ## Course Content
+    ## Who is it for?
+    - **A programmer but not a data science practioner**: A programmer with experience in server-side or front-end development and maybe has some familiarity with doing data analysis. You could be looking to transition in to building data driven products or a create a richer product experience with data.
+    - **A data science practioner but not a programmer**: A data science newbie with some experience in doing data analysis, preferably in a scripting language (R/Python/Scala), but wants to get a deeper and a more richer experience in data science.
 
-    ### Day 1: The Art of Data Science
+    ## What will you learn?
+
+    #### Day 1: The Art of Data Science *(Sunday, 20th Aug)*
 
     - Frame a problem
     - Acquire the data
@@ -46,7 +64,7 @@ overview:
     - Model the data
     - Communicate the Insight
 
-    ### Day 2: Data Visualisation for Data Science
+    #### Day 2: Data Visualisation for Data Science *(Sunday, 27th Aug)*
 
     - Intro to visualization
       - Understand Exploratory Data Analysis (EDA)
@@ -67,7 +85,7 @@ overview:
     - Visualizing geo-spatial data
     - Creating Interactive Data Dashboards
 
-    ### Day 3: HackerMath for Machine Learning
+    #### Day 3: HackerMath for Machine Learning *(Sunday, 3rd Sept)*
 
     - Linear Algebra
       - Matrix: Basics, Inverse
@@ -84,7 +102,7 @@ overview:
       - Shuffling
       - Application: A/B Testing
 
-    ### Day 4: Applied Machine Learning
+    #### Day 4: Applied Machine Learning *(Sunday, 10th Sept)*
 
     - Model Building
       - Decision Trees
@@ -103,7 +121,7 @@ overview:
       - Feature Engineering
       - Ensemble Models (Advanced)
 
-    ### Day 5: Full Stack Data Science
+    #### Day 5: Full Stack Data Science *(Sunday, 17th Sept)*
 
     - Overview of the case
     - Build Simple ML model (linear/logistic regression)
@@ -112,11 +130,6 @@ overview:
     - Updating the model as more data comes in (batch only - no streaming)
     - A simple webpage front-end to visualise the results and interact with the API.
     - Creating a simple application that accomplishes this end-to-end
-
-
-    ## Target Audience
-    - **A programmer but not a data science practioner**: A programmer with experience in server-side or front-end development and maybe has some familiarity with doing data analysis. You could be looking to transition in to building data driven products or a create a richer product experience with data.
-    - **A data science practioner but not a programmer**: A data science newbie with some experience in doing data analysis, preferably in a scripting language (R/Python/Scala), but wants to get a deeper and a more richer experience in data science.
 
     ##  Pre-requisites
     - Programming knowledge is mandatory. Attendee should be able to write conditional statements, use loops, be comfortable writing functions and be able to understand code snippets and come up with programming logic.
