@@ -3,7 +3,7 @@ subtitle: "We creates discussion spaces for geeks. Come to our events to meet li
 description: "HasGeek creates discussion spaces for geeks. Come to our events to meet like-minded people, learn new things and discover new opportunities."
 baseurl: "/events" # the subpath of your site, e.g. /blog
 url: "https://hasgeek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
+id: hasgeek
 # Build settings
 markdown: kramdown
 gems:

@@ -1,8 +1,6 @@
 ---
 layout: base
 ---
-
-
 <section class="hero is-medium is-primary is-bold">
   <div class="hero-body">
     <div class="container has-text-centered">
@@ -22,9 +20,14 @@ layout: base
   <div class="container">
 
       {% include assign_all_events.html %}
-
       <div class="columns is-centered is-multiline">
-        {% for event in all_events%}
+        {% for event in all_events %}
+        <div class="column is-one-third">
+          {% include event_card.html event=event featured=event.featured %}
+        </div>
+        {% endfor %}
+        {% include assign_past_events.html %}
+        {% for event in past_events %}
         <div class="column is-one-third">
           {% include event_card.html event=event featured=event.featured %}
         </div>

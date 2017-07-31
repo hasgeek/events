@@ -1,0 +1,11 @@
+{% assign past_events = "" | split: "" %}
+{% if site.id == 'hasgeek' %}
+  {% for event_c in site.data.past-events  %}
+    {% for event in event_c[1] %}
+      {% assign past_events = past_events | push: event %}
+    {% endfor %}
+  {% endfor %}
+{% elsif site.id == "" %}
+{% else %}
+  {% assign past_events = site.data.past-events[site.id] %}
+{% endif %}

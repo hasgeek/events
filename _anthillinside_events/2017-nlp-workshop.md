@@ -7,7 +7,6 @@ city: Bangalore
 start_time: 2017-07-30
 end_time: 2017-07-30
 description: "Think of your favorite NLP application that you wish to build - sentiment analysis, named entity recognition, machine translation, information extraction, summarization, recommender system, to name a few. A key step to building it is - using the right technique to represent the text in a form that machine can understand. While in images, directly using the pixel values is a very natural representation; However, when it comes to text, there is no such natural representation. In this workshop, we will understand key concepts, maths, and code behind state-of-the-art techniques for text representation."
-boxoffice_item_collection: "721ddcca-2439-11e7-a658-855025fdda9d"
 instructors:
 - name: Anuj Gupta
   byline: ML researcher at Freshdesk

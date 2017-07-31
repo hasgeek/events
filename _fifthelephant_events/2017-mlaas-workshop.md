@@ -7,7 +7,6 @@ city: Bangalore
 start_time: 2017-07-25
 end_time: 2017-07-26
 description: "In this workshop, one would learn how to build a seamless end-to-end data driven application – Starting from data ingestion, data exploration, creating a simple machine learning model, exposing the output as a RESTful API and deploying the dashboard as a web application – to solve a business problem. The attendees would then learn how to make this process repeatable and automated - how to set up data pipelines and how to handle updates to data by updating models and/or dashboard."
-boxoffice_item_collection: "d386dbcf-1a32-11e7-b315-5d5ee7239cc7"
 venue:
   label: Thought Factory, Bangalore
   lat: 12.95921

@@ -9,9 +9,11 @@
     <p class="title is-4">
       {{ include.event.title }}
     </p>
+    {% if include.event.datelocation %}
     <p class="subtitle is-6">
       {{ include.event.datelocation }}
     </p>
+    {% endif %}
 
     {% if include.featured == true %}
       {% if include.event.boxoffice_item_collection %}

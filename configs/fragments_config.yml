@@ -3,7 +3,7 @@ subtitle: "India's community of Android, iOS, and mobile web developers<br>(form
 description: "India's community of Android, iOS, and mobile web developers"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fragments.in" # the base hostname & protocol for your site, e.g. http://example.com
-
+id: fragments
 ga_tracking_code: UA-19123154-37
 service_worker: true
 # Build settings
