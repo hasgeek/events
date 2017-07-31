@@ -5,12 +5,13 @@
     {% assign all_related_events = all_related_events | push: other_event %}
   {% else %}
     {% assign e = other_event | split: "-" | first %}
-    {% assign x = other_event | split: "-" | shift | join: "-" %}
-
+    {% assign y = other_event | split: "-" | shift | join: "-" %}
+    {% capture x %}/{{y}}/{% endcapture %}
     {% include assign_all_events.html %}
 
     {% for event in all_events %}
       {% if event.collection contains e and event.url contains x %}
+
         {% assign all_related_events = all_related_events | push: event %}
       {% endif %}
     {% endfor %}

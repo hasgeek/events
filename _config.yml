@@ -53,3 +53,7 @@ collections:
     type: event
     output: true
     permalink: /fifthelephant/:path/
+  metarefresh_events:
+    type: event
+    output: true
+    permalink: /metarefresh/:path/
