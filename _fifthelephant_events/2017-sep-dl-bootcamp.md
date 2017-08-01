@@ -23,25 +23,19 @@ instructors:
   website:
     url: http://amitkaps.com/
     label: amitkaps.com
+  byline: Crafting Visual Stories with Data
+  bio: |
+    **Amit** teaches the craft of telling visual stories with data. He conducts workshops and trainings on Data Science in Python and R, as well as on Data Visualisation topics. His background is in strategy consulting having worked with AT Kearney in India, then with Booz & Company in Europe and more recently for startups in Bangalore. He did his B.Tech in Mechanical Engineering from IIT, Delhi and PGDM (MBA) from IIM, Ahmedabad. You can find more about him at [amitkaps.com](http://amitkaps.com/) and tweet him at [@amitkaps](https://twitter.com/amitkaps).
 - name: Bargava Subramanian
   image_url: https://images.hasgeek.com/embed/file/195574f5c883459c927ecfdef066715c
   website:
     url: https://twitter.com/bargava
     label: "@bargava"
+  byline: Senior Data Scientist
+  bio: |
+    **Bargava** is a practicing Data Scientist. He has 14 years of experience delivering business analytics solutions to Investment Banks, Entertainment Studios and High-Tech companies. He has given talks and conducted workshops on Data Science, Machine Learning, Deep Learning and Optimization in Python and R. He has a Masters in Statistics from University of Maryland, College Park, USA. He is an ardent NBA fan.
 overview:
-  center_content: |
-    > _“All knowledge is connected to all other knowledge. The fun is in making the connections.” - Arthur Aufderheide_
-
-    The objective for the Deep Learning bootcamp is to ensure that the participants have enough theory and practical concepts of building a deep learning solution in the space of computer vision and natural language processing. Post the bootcamp, all the participants would be familiar with the following key concepts and would be able to apply them to a problem.
-
-    ### **Key Deep Learning Concept**
-    - **Theory**: DL Motivation, Back-propagation, Activation
-    - **Paradigms**: Supervised, Unsupervised
-    - **Models**: Architecture, Pre-trained Models (Transfer Learning)
-    - **Methods**: Perceptron, Convolution, Pooling, Dropouts, Recurrent, LSTM
-    - **Process**: Setup, Encoding, Training, Serving
-    - **Tools**: `python-data-stack`, `keras`, `tensorflow`
-
+  left_content: |
     ### Approach
     This would be a two-day instructor-led hands-on workshop to learn and implement an end-to-end deep learning model for computer vision (image recognition and generation) and natural language processing (text classfication and generation)
 
@@ -100,6 +94,18 @@ overview:
     4. Concept of DL for Unsupervised Learning
     5. Concept of Reinforcement Learning
     7. Where to go from here
+  right_content: |
+    > _“All knowledge is connected to all other knowledge. The fun is in making the connections.” - Arthur Aufderheide_
+
+    The objective for the Deep Learning bootcamp is to ensure that the participants have enough theory and practical concepts of building a deep learning solution in the space of computer vision and natural language processing. Post the bootcamp, all the participants would be familiar with the following key concepts and would be able to apply them to a problem.
+
+    ### **Key Deep Learning Concept**
+    - **Theory**: DL Motivation, Back-propagation, Activation
+    - **Paradigms**: Supervised, Unsupervised
+    - **Models**: Architecture, Pre-trained Models (Transfer Learning)
+    - **Methods**: Perceptron, Convolution, Pooling, Dropouts, Recurrent, LSTM
+    - **Process**: Setup, Encoding, Training, Serving
+    - **Tools**: `python-data-stack`, `keras`, `tensorflow`
 
     ## Resources
     The material for the workshop is hosted on github:

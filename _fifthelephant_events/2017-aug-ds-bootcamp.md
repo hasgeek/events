@@ -43,15 +43,7 @@ instructors:
   bio: |
     **Bargava** is a practicing Data Scientist. He has 14 years of experience delivering business analytics solutions to Investment Banks, Entertainment Studios and High-Tech companies. He has given talks and conducted workshops on Data Science, Machine Learning, Deep Learning and Optimization in Python and R. He has a Masters in Statistics from University of Maryland, College Park, USA. He is an ardent NBA fan. You can tweet to him at [@bargava](https://twitter.com/bargava).
 overview:
-  center_content: |
-    > _"Jack of all trades, master of none, though oft times better than master of one."_
-
-    In this intensive data science bootcamp, you will learn how to solve business problem using data science (the art of data science), the principle and application of data visualisation (Data Visualisation for Data Science), the math behind machine learning in a hacker's way (HackerMath for ML), using machine learning in an applied context (Applied ML) and finally how to create a data-driven product (FullStack Data Science).
-
-    ## Who is it for?
-    - **A programmer but not a data science practioner**: A programmer with experience in server-side or front-end development and maybe has some familiarity with doing data analysis. You could be looking to transition in to building data driven products or a create a richer product experience with data.
-    - **A data science practioner but not a programmer**: A data science newbie with some experience in doing data analysis, preferably in a scripting language (R/Python/Scala), but wants to get a deeper and a more richer experience in data science.
-
+  left_content: |
     ## What will you learn?
 
     #### Day 1: The Art of Data Science *(Sunday, 20th Aug)*
@@ -131,11 +123,20 @@ overview:
     - A simple webpage front-end to visualise the results and interact with the API.
     - Creating a simple application that accomplishes this end-to-end
 
+  right_content: |
+    > _"Jack of all trades, master of none, though oft times better than master of one."_
+
+    In this intensive data science bootcamp, you will learn how to solve business problem using data science (the art of data science), the principle and application of data visualisation (Data Visualisation for Data Science), the math behind machine learning in a hacker's way (HackerMath for ML), using machine learning in an applied context (Applied ML) and finally how to create a data-driven product (FullStack Data Science).
+
+    ## Who is it for?
+    - **A programmer but not a data science practioner**: A programmer with experience in server-side or front-end development and maybe has some familiarity with doing data analysis. You could be looking to transition in to building data driven products or a create a richer product experience with data.
+    - **A data science practioner but not a programmer**: A data science newbie with some experience in doing data analysis, preferably in a scripting language (R/Python/Scala), but wants to get a deeper and a more richer experience in data science.
+
     ##  Pre-requisites
     - Programming knowledge is mandatory. Attendee should be able to write conditional statements, use loops, be comfortable writing functions and be able to understand code snippets and come up with programming logic.
     - Participants should have a basic familiarity of Python. Specifically, we expect participants to know the first three sections from this: [http://anandology.com/python-practice-book/](http://anandology.com/python-practice-book/)
 
     ## Software Requirements
-    We will be using Python data stack for the workshop. Please install Ananconda for Python 3.5 for the workshop. Additional requirement will be communicated to participants.    
+    We will be using Python data stack for the workshop. Please install Ananconda for Python 3.5 for the workshop. Additional requirement will be communicated to participants.  
 
 ---
