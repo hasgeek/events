@@ -48,18 +48,47 @@ overview:
 
     #### Day 1: The Art of Data Science *(Sunday, 20th Aug)*
 
-    - Frame a problem
-    - Acquire the data
-    - Refine the data
-    - Transform the data
-    - Explore the data
-    - Model the data
-    - Communicate the Insight
+    Learning data science involves understanding the process of approaching a business problem and going through a series of structured steps to find a decision solution. There is both structure and art to the whole process. This goal of this day is to enable you to understand the end-to-end data science process through a case-driven approach.
+
+    - Frame: *Problem Definition*
+      - Hypothesis-driven approach
+      - Types: descriptive, inquisitive, predictive, causal
+    - Acquire: *Data Ingestion* 
+      - From flat files and databases
+      - From third party clients / APIs
+    - Refine: *Data Wrangling*
+      - Check for quality and completeness
+      - Treatment of missing values and outlier
+    - Transform the data: *Feature Creation*
+      - Tidy data
+      - Split-Apply-Combine
+      - Derive, parse, calculate
+      - Filter, sample, summarize
+    - Explore: *Feature Selection*
+      - Single and Dual variable visualisation
+      - Multi-dimensional Visualisation
+    - Model: *Model Creation*
+      - Regression: Linear
+      - Classification: Logistics
+    - Insight: *Model Selection*
+      - Accuracy metrics
+      - Selection criteria
+    - Deploy: *Model Deployment* 
+      - Making an model api
+      - Using the API
+    - Build: *Decision Application*
+      - Dashboard vs Decision Tools
+      - Narrative communications
+
+    GitHub Repo: [https://github.com/amitkaps/art-data-science](https://github.com/amitkaps/art-data-science)
 
     #### Day 2: Data Visualisation for Data Science *(Sunday, 27th Aug)*
 
+    Visualisation plays a key component during the entire data science process - in exploratory data analysis, model visualisation as well as in communicating the results through a narrative or a dashboard. This goal of this day is to help you gain a deeper understanding on the art and science of data visualisation.
+
     - Intro to visualization
       - Understand Exploratory Data Analysis (EDA)
+      - Role of model visualisation 
       - Communicating insights using visualisation
     - The Grammar of Graphics
       - Visualizing single & dual variables
@@ -79,6 +108,8 @@ overview:
 
     #### Day 3: HackerMath for Machine Learning *(Sunday, 3rd Sept)*
 
+    Math literacy, including proficiency in Linear Algebra and Statistics, is a must for anyone learning data science. The goal of this day is to introduce the key concepts from these domains that get used repeatedly in data science applications. Our approach is what we call the “Hacker’s way”. Instead of going back to formulae and proofs, we will teach the concepts by writing code and in practical applications. Concepts don’t remain sticky if the usage is not made apparent.
+
     - Linear Algebra
       - Matrix: Basics, Inverse
       - Solve for `Ax=b` for `nxn`
@@ -95,6 +126,8 @@ overview:
       - Application: A/B Testing
 
     #### Day 4: Applied Machine Learning *(Sunday, 10th Sept)*
+
+    The challenge for many beginners is how do I navigate the landscape of possible ML models and then how do I choose the right model. The goal of this day is to go deeper in to the model building, evaluation and selection process. Real-life case studies are used to teach the various algorithms and techniques. The focus will be on applications, rather than on exposition of the various algorithms.
 
     - Model Building
       - Decision Trees
@@ -115,6 +148,8 @@ overview:
 
     #### Day 5: Full Stack Data Science *(Sunday, 17th Sept)*
 
+    One of the common use case in building a data-driven app is to create an API and provide seamless integration with other business applications like a dashboard. This goal of this day is on building a basic understanding of server-side programming and front-end application, and allowing you to start creating a data-product from your ML models.
+
     - Overview of the case
     - Build Simple ML model (linear/logistic regression)
     - Creating RESTful API
@@ -126,17 +161,34 @@ overview:
   right_content: |
     > _"Jack of all trades, master of none, though oft times better than master of one."_
 
-    In this intensive data science bootcamp, you will learn how to solve business problem using data science (the art of data science), the principle and application of data visualisation (Data Visualisation for Data Science), the math behind machine learning in a hacker's way (HackerMath for ML), using machine learning in an applied context (Applied ML) and finally how to create a data-driven product (FullStack Data Science).
+    **An Intensive Bootcamp to build your Data Science Portfolio**
+
+    The availability of data has provided a rich playground to build data-driven products to help take business decisions. Whether you want to predict the resale value of an second hand car, classify whether a customer will default on a loan product, or  recommend which product a user is likely to buy next - they all use data science and machine learning in the process. The ability to take a business problem, frame it as as an analytical problem and then provide a solution to the business to take decisions on it, has become an important skill to learn.
+
+    So how do you learn data science and get started on your journey to build data-driven product. Over the last three years, we have helped multiple organisation and professionals get started on learning data science - and have also written and talked about [learning data science](http://amitkaps.com/learning-data-science). There are two basic tenets on which we wanted to design the bootcamp. First, we want to cover the fundamental topics in data science through in-person structured sessions to so you can grok the concepts. Second, we want to provide enough elapsed time in between these sessions, so that the concepts learned can be consolidated by practice and allow you to start building your own data science portfolio.
+
+    In the five structure in-class sessions, you will learn how to solve business problem using data science (the art of data science), the principle and application of data visualisation (Data Visualisation for Data Science), the math behind machine learning in a hacker's way (HackerMath for ML), using machine learning in an applied context (Applied ML) and finally how to create a data-driven product (FullStack Data Science). Between these classes, you will be working on a different data-set and applying what you have learned in the class. This way during the boot camp, you would have started to build your own personal data science portfolio. Support for answering your queries as well as peer-to-peer learning will be provided through the use of messaging platform like Slack. 
 
     ## Who is it for?
     - **A programmer but not a data science practioner**: A programmer with experience in server-side or front-end development and maybe has some familiarity with doing data analysis. You could be looking to transition in to building data driven products or a create a richer product experience with data.
     - **A data science practioner but not a programmer**: A data science newbie with some experience in doing data analysis, preferably in a scripting language (R/Python/Scala), but wants to get a deeper and a more richer experience in data science.
+
+    ## Testimonials
+
+    > "The instant Amit starts to talk, his attention to detail and clarity of thought is unmissable. Having learnt from him, I've always been astounded by the amount of effort that he puts into his content. And when he presents this content, it is understandable, relatable and the delivery is on point. I wouldn't think twice about attending a workshop that he conducts. A total value for money and time." 
+    -- Shrayas R, Head of engineering at Logic Soft
+
+    > "Enjoyed the workshop overall and really appreciate Amit's smooth coordinating skills, alongside actual Data science skill sets in teaching."
+    -- Vijay Kumar, Lead data scientist at GE Digital
+
+    > "Wonderful session. People usually just teach how to use a library. But, Amit and Bargava taught how to approach the problem."
+    -- Dhilipsiva, Full stack engineer at AppKnox
 
     ##  Pre-requisites
     - Programming knowledge is mandatory. Attendee should be able to write conditional statements, use loops, be comfortable writing functions and be able to understand code snippets and come up with programming logic.
     - Participants should have a basic familiarity of Python. Specifically, we expect participants to know the first three sections from this: [http://anandology.com/python-practice-book/](http://anandology.com/python-practice-book/)
 
     ## Software Requirements
-    We will be using Python data stack for the workshop. Please install Ananconda for Python 3.5 for the workshop. Additional requirement will be communicated to participants.  
+    We will be using Python data stack for the workshop. Please install Ananconda for Python 3.5 for the workshop. Additional requirement will be communicated to participants.
 
 ---
