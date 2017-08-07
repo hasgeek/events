@@ -6,33 +6,37 @@ datelocation: "19th Aug 2017, Bangalore"
 city: Bangalore
 start_time: 2017-08-19
 end_time: 2017-08-19
-description: "Human body is the most complex machine on Earth. It is undoubtedly fascinating how the Human Visual System works. How as a human, we see the world, store the visual information and learn from what we see and recognize the next time. The goal of the workshop is to build an understanding of how Computer Vision itself evolved from basic Image Processing to what it is now with exciting examples. With the help of Machine Learning and Deep learning, we are able to attain state-of-art performance in many fields. The workshop is meant for those who want to get started with solving Computer Vision problems easily and more elegantly using ML / DL with hands-on."
+description: "The human body is one of the most complex machines on Earth. We are fascinated by how the Human Visual System works. How as a human, we see the world, store the visual information and learn from what we see and recognize patterns from previous experiences. The goal of the workshop is to help build an understanding of how to solve real world problems using Computer Vision with examples. We start from biological motivations for Computer Vision, developing intuitions to solve problems, converting the intuitions into the language of mathematics and finally developing code that represents the mathematics. With the help of Machine Learning and Deep learning, we are able to attain state-of-art performance in many Computer Vision problems. The workshop is meant for those who want to get get a hands-on experience of using ML / DL for solving Computer Vision problems."
 boxoffice_item_collection: "6162bdc9-1af6-4921-9b65-ee1dd1da5536"
 
 instructors:
 - name: Sumod Mohan
-  byline: CTO of Digital Aristotle
+  byline: CTO of Digital Aristotle and heads the Computer Vision and Machine Learning at Soliton Technologies
+  image_url: https://images.hasgeek.com/embed/file/57b0d183f7c34a69894adaa376f9531f
   bio: |
     **Sumod Mohan** is CTO of Digital Aristotle and heads the Computer Vision and Machine Learning at Soliton Technologies. His experience spans Computer Vision, Machine Learning, 3D Vision, Deep Learning, NLP, Graph Algorithms, Probabilistic Graphical Models, Code Optimization and Parallelization and has worked in the Computer Vision and Machine Learning for past 10+ years. His broad research interest is in application of Graph Algorithms and Probabilistic Graphical Models in Computer Vision and holds an M.S degree from Clemson University, USA with specialization in Intelligent Systems and Robotics. Prior to this after dropping out of his Ph.D program, he worked for HighlightCam Inc, a startup in California where he led Computer Vision Algorithm Development.
 - name: Shivarajkumar Magadi
   byline: Leads the 3D Vision team at Soliton Technologies
+  image_url: https://images.hasgeek.com/embed/file/41c1c141aacd4764948bba808946a409
   bio: |
     **Shivaraj** is currently leading 3D Vision team in Soliton Technologies and his prior experience includes 3D pose estimation, 3D depth estimation, segmentation, pattern recognition and machine learning. The products developed include Monocular Augmented Reality Application, Classification of manufactured components, Pose Estimation for large nearly-rigid objects etc. He has more than 4+ years experience developing and deploying products in 3D Vision and Machine Vision.
 
 - name: Dhivakar Kanagaraj
   byline: Computer Vision and Machine Learning Engineer at Soliton Technologies
+  image_url: https://images.hasgeek.com/embed/file/fd5cbbf8363949abb0ec437609cf6252
   bio: |
     **Dhivakar** is currently working as a Computer Vision and Machine Learning Engineer at Soliton Technologies. He has been working for the past 2+ years on Object detection and Recognition problems  with Computer Vision and Deep Learning. He has also been a co-organizer and in-charge of the Bangalore Computer Vision Meetup (BCVM): a forum for discussing research papers on Computer Vision, Machine Learning and Deep Learning.
 
 
 - name: Senthil Palanisamy
   byline: Computer Vision and Machine Learning Engineer in Soliton Technologies
+  image_url: https://images.hasgeek.com/embed/file/c048debabb0746b09aa3083924b83c7c
   bio: |
     **Senthil** is currently working as a Computer Vision and Machine Learning Engineer in Soliton Technologies. His research interest lies in the intersection of Deep Learning and Graph Algorithms. He completed his bachelor's degree in Electronics and Communication Engineering in Coimbatore Institute of Technology.
 
 overview:
   left_content: |
-    The human body is one of the most complex machines on Earth. We are fascinated by how the Human Visual System works. How as a human, we see the world, store the visual information and learn from what we see and recognize patterns from previous experiences. The goal of the workshop is to help build an understanding of how to solve real world problems using Computer Vision with examples. We start from biological motivations for Computer Vision, developing intuitions to solve problems, converting the intuitions into the language of mathematics and finally developing code that represents the mathematics. With the help of Machine Learning and Deep learning, we are able to attain state-of-art performance in many Computer Vision Problems. The workshop is meant for those who want to get get a hands-on experience of using ML / DL for solving Computer Vision Problems.
+    The human body is one of the most complex machines on Earth. We are fascinated by how the Human Visual System works. How as a human, we see the world, store the visual information and learn from what we see and recognize patterns from previous experiences. The goal of the workshop is to help build an understanding of how to solve real world problems using Computer Vision with examples. We start from biological motivations for Computer Vision, developing intuitions to solve problems, converting the intuitions into the language of mathematics and finally developing code that represents the mathematics. With the help of Machine Learning and Deep learning, we are able to attain state-of-art performance in many Computer Vision problems. The workshop is meant for those who want to get get a hands-on experience of using ML / DL for solving Computer Vision problems.
 
     #### Who is it for?
 
@@ -66,8 +70,8 @@ overview:
 
     **Part I**
 
-    - Motivation: Interesting use cases where Computer Vision with Deep learning outperforms
-    - What is Computer Vision?
+    - Motivation: Interesting applications of Computer Vision
+    - What is Computer Vision, Machine Vision and Image Processing ?
     - Simple Computer Vision based classification (hands-on)
 
     **Part II**
@@ -80,6 +84,6 @@ overview:
     - Emergence and Dominance of Deep Learning
     - Applications of DL (hands-on)
     - Compare ML and DL (hands-on)
-    - How to solve a CV problem by choosing the appropriate technique?   
+    - How to solve a CV problem by choosing the appropriate technique?
 
 ---
