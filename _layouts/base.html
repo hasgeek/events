@@ -44,7 +44,13 @@
     <meta name="description" content="{{ description }}">
     <meta name="keywords" content="{{ site.keywords }}">
     <link rel="author" href="https://plus.google.com/{{googlePlusId}}" />
-    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}" />
+    {% if page.canonical %}
+      {% if page.canonical contains "://" %}
+      {% else %}
+        {% assign page.canonical = page.canonical | absolute_url %}
+      {% endif %}
+    <link rel="canonical" href="{{ page.canonical }}" />
+    {% endif %}
 
     <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
     <meta property="og:image" content="{{ image }}">

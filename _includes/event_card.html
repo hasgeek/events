@@ -15,13 +15,11 @@
     </p>
     {% endif %}
 
-    {% if include.featured == true %}
-      {% if include.event.boxoffice_item_collection %}
-      <span class="tag is-primary">Tickets now available</span>
-      {% endif %}
-      {% if include.event.funnel.open == true %}
-      <span class="tag is-info">Call for Proposals are open</span>
-      {% endif %}
+    {% if include.event.boxoffice_item_collection %}
+    <span class="tag is-primary">Tickets now available</span>
+    {% endif %}
+    {% if include.event.funnel.open == true %}
+    <span class="tag is-info">Call for Proposals are open</span>
     {% endif %}
     <div class="content">
       <p>{{ include.event.description | truncate: 260, "..." | markdownify }}</p>

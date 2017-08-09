@@ -18,23 +18,35 @@ layout: base
 
 <section class="section">
   <div class="container">
+    <h1 class="title">Upcoming</h1>
+    <hr>
+    {% include assign_all_events.html %}
+    <div class="columns is-centered is-multiline">
+      {% for event in all_events %}
+      <div class="column is-one-third">
+        {% include event_card.html event=event featured=event.featured %}
+      </div>
+      {% endfor %}
+    </div>
 
-      {% include assign_all_events.html %}
+  </div>
+</section>
+
+{% include assign_past_events.html %}
+{% if past_events != "" %}
+<section class="section">
+  <div class="container">
+      <h1 class="title">Past Events</h1>
+      <hr>
       <div class="columns is-centered is-multiline">
-        {% for event in all_events %}
-        <div class="column is-one-third">
-          {% include event_card.html event=event featured=event.featured %}
-        </div>
-        {% endfor %}
-        {% include assign_past_events.html %}
         {% for event in past_events %}
         <div class="column is-one-third">
           {% include event_card.html event=event featured=event.featured %}
         </div>
         {% endfor %}
       </div>
-
   </div>
 </section>
+{% endif %}
 
 {% include footer.html %}

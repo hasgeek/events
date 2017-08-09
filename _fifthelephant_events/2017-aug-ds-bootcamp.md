@@ -1,5 +1,6 @@
 ---
 layout: workshop
+canonical: http://amitkaps.com/dsbootcamp
 title: "Data Science Bootcamp"
 subtitle: "A five-day bootcamp on Data Science"
 datelocation: "5 Sundays starting from 20th Aug 2017, Bangalore"
@@ -53,7 +54,7 @@ overview:
     - Frame: *Problem Definition*
       - Hypothesis-driven approach
       - Types: descriptive, inquisitive, predictive, causal
-    - Acquire: *Data Ingestion* 
+    - Acquire: *Data Ingestion*
       - From flat files and databases
       - From third party clients / APIs
     - Refine: *Data Wrangling*
@@ -73,7 +74,7 @@ overview:
     - Insight: *Model Selection*
       - Accuracy metrics
       - Selection criteria
-    - Deploy: *Model Deployment* 
+    - Deploy: *Model Deployment*
       - Making an model api
       - Using the API
     - Build: *Decision Application*
@@ -88,7 +89,7 @@ overview:
 
     - Intro to visualization
       - Understand Exploratory Data Analysis (EDA)
-      - Role of model visualisation 
+      - Role of model visualisation
       - Communicating insights using visualisation
     - The Grammar of Graphics
       - Visualizing single & dual variables
@@ -167,7 +168,7 @@ overview:
 
     So how do you learn data science and get started on your journey to build data-driven product. Over the last three years, we have helped multiple organisation and professionals get started on learning data science - and have also written and talked about [learning data science](http://amitkaps.com/learning-data-science). There are two basic tenets on which we wanted to design the bootcamp. First, we want to cover the fundamental topics in data science through in-person structured sessions to so you can grok the concepts. Second, we want to provide enough elapsed time in between these sessions, so that the concepts learned can be consolidated by practice and allow you to start building your own data science portfolio.
 
-    In the five structure in-class sessions, you will learn how to solve business problem using data science (the art of data science), the principle and application of data visualisation (Data Visualisation for Data Science), the math behind machine learning in a hacker's way (HackerMath for ML), using machine learning in an applied context (Applied ML) and finally how to create a data-driven product (FullStack Data Science). Between these classes, you will be working on a different data-set and applying what you have learned in the class. This way during the boot camp, you would have started to build your own personal data science portfolio. Support for answering your queries as well as peer-to-peer learning will be provided through the use of messaging platform like Slack. 
+    In the five structure in-class sessions, you will learn how to solve business problem using data science (the art of data science), the principle and application of data visualisation (Data Visualisation for Data Science), the math behind machine learning in a hacker's way (HackerMath for ML), using machine learning in an applied context (Applied ML) and finally how to create a data-driven product (FullStack Data Science). Between these classes, you will be working on a different data-set and applying what you have learned in the class. This way during the boot camp, you would have started to build your own personal data science portfolio. Support for answering your queries as well as peer-to-peer learning will be provided through the use of messaging platform like Slack.
 
     ## Who is it for?
     - **A programmer but not a data science practioner**: A programmer with experience in server-side or front-end development and maybe has some familiarity with doing data analysis. You could be looking to transition in to building data driven products or a create a richer product experience with data.
@@ -175,7 +176,7 @@ overview:
 
     ## Testimonials
 
-    > "The instant Amit starts to talk, his attention to detail and clarity of thought is unmissable. Having learnt from him, I've always been astounded by the amount of effort that he puts into his content. And when he presents this content, it is understandable, relatable and the delivery is on point. I wouldn't think twice about attending a workshop that he conducts. A total value for money and time." 
+    > "The instant Amit starts to talk, his attention to detail and clarity of thought is unmissable. Having learnt from him, I've always been astounded by the amount of effort that he puts into his content. And when he presents this content, it is understandable, relatable and the delivery is on point. I wouldn't think twice about attending a workshop that he conducts. A total value for money and time."
     -- Shrayas R, Head of engineering at Logic Soft
 
     > "Enjoyed the workshop overall and really appreciate Amit's smooth coordinating skills, alongside actual Data science skill sets in teaching."

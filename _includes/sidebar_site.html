@@ -1,4 +1,4 @@
-{% include assign_featured_events.html %}
+{% include assign_all_events.html %}
 
 <div id="sidebar" style="display:none;">
   <nav class="nav has-shadow">
@@ -7,7 +7,7 @@
         {{ site.title }}
       </a>
       <div class="nav-right nav-menu is-active">
-  			{% for event in featured_events %}
+  			{% for event in all_events %}
   			  <a class="nav-item is-hidden-tablet" href="{{site.url}}{{site.baseurl}}{{ event.url }}" >{{ event.title }}</a>
   			{% endfor %}
       </div>
