@@ -6,6 +6,7 @@ url: "https://fragments.in" # the base hostname & protocol for your site, e.g. h
 id: fragments
 ga_tracking_code: UA-19123154-37
 service_worker: true
+id: fragments
 # Build settings
 markdown: kramdown
 gems:
