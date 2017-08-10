@@ -9,3 +9,9 @@ metarefresh:
   datelocation: "17 Sept 2016, Bangalore"
   url: "https://metarefresh.in/2016/"
   description: "Meta Refresh is a conference on user experience for the web. Speakers in this event are working web designers and developers who describe how their work has advanced the state of the web in the past year."
+
+jsfoo:
+- title: "JSFoo 2016"
+  datelocation: "15-16 Sept 2016, Bangalore"
+  url: "https://jsfoo.in/2016/"
+  description: "JSFoo is India’s premier JavaScript conference. We launched JSFoo in 2011 as India’s first JavaScript conference. The JS community in India has grown phenomenally since then. JavaScript now pervades every aspect of web development – browsers, apps, front-end, backend, mobile and IoT."

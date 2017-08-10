@@ -57,3 +57,7 @@ collections:
     type: event
     output: true
     permalink: /metarefresh/:path/
+  jsfoo_events:
+    type: event
+    output: true
+    permalink: /jsfoo/:path/
