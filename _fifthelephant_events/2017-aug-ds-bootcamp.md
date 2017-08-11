@@ -44,23 +44,23 @@ instructors:
   bio: |
     **Bargava** is a practicing Data Scientist. He has 14 years of experience delivering business analytics solutions to Investment Banks, Entertainment Studios and High-Tech companies. He has given talks and conducted workshops on Data Science, Machine Learning, Deep Learning and Optimization in Python and R. He has a Masters in Statistics from University of Maryland, College Park, USA. He is an ardent NBA fan. You can tweet to him at [@bargava](https://twitter.com/bargava).
 overview:
-  left_content: |
+  right_content: |
     ## What will you learn?
 
     #### Day 1: The Art of Data Science *(Sunday, 20th Aug)*
 
-    Learning data science involves understanding the process of approaching a business problem and going through a series of structured steps to find a decision solution. There is both structure and art to the whole process. This goal of this day is to enable you to understand the end-to-end data science process through a case-driven approach.
+    Learning data science involves understanding the process of approaching a business problem and going through a series of structured steps to find a decision solution. There is both a science and an art to the whole process. The goal of this day is to enable you to understand the end-to-end data science process through a case-driven approach.
 
     - Frame: *Problem Definition*
       - Hypothesis-driven approach
       - Types: descriptive, inquisitive, predictive, causal
-    - Acquire: *Data Ingestion*
+    - Acquire: *Data Ingestion* 
       - From flat files and databases
       - From third party clients / APIs
     - Refine: *Data Wrangling*
       - Check for quality and completeness
       - Treatment of missing values and outlier
-    - Transform the data: *Feature Creation*
+    - Transform: *Feature Creation*
       - Tidy data
       - Split-Apply-Combine
       - Derive, parse, calculate
@@ -74,7 +74,7 @@ overview:
     - Insight: *Model Selection*
       - Accuracy metrics
       - Selection criteria
-    - Deploy: *Model Deployment*
+    - Deploy: *Model Deployment* 
       - Making an model api
       - Using the API
     - Build: *Decision Application*
@@ -85,11 +85,11 @@ overview:
 
     #### Day 2: Data Visualisation for Data Science *(Sunday, 27th Aug)*
 
-    Visualisation plays a key component during the entire data science process - in exploratory data analysis, model visualisation as well as in communicating the results through a narrative or a dashboard. This goal of this day is to help you gain a deeper understanding on the art and science of data visualisation.
+    Visualisation plays a key component during the entire data science process - in exploratory data analysis, model visualisation as well as in communicating the results through a narrative or a dashboard. The goal of this day is to help you gain a deeper understanding on the art and science of data visualisation.
 
     - Intro to visualization
       - Understand Exploratory Data Analysis (EDA)
-      - Role of model visualisation
+      - Role of model visualisation 
       - Communicating insights using visualisation
     - The Grammar of Graphics
       - Visualizing single & dual variables
@@ -126,6 +126,8 @@ overview:
       - Shuffling
       - Application: A/B Testing
 
+    Github Repo: [https://github.com/amitkaps/hackermath](https://github.com/amitkaps/hackermath)
+
     #### Day 4: Applied Machine Learning *(Sunday, 10th Sept)*
 
     The challenge for many beginners is how do I navigate the landscape of possible ML models and then how do I choose the right model. The goal of this day is to go deeper in to the model building, evaluation and selection process. Real-life case studies are used to teach the various algorithms and techniques. The focus will be on applications, rather than on exposition of the various algorithms.
@@ -147,9 +149,11 @@ overview:
       - Feature Engineering
       - Ensemble Models (Advanced)
 
+    Github Repo: [https://github.com/amitkaps/applied-machine-learning](https://github.com/amitkaps/applied-machine-learning)
+
     #### Day 5: Full Stack Data Science *(Sunday, 17th Sept)*
 
-    One of the common use case in building a data-driven app is to create an API and provide seamless integration with other business applications like a dashboard. This goal of this day is on building a basic understanding of server-side programming and front-end application, and allowing you to start creating a data-product from your ML models.
+    One of the common use case in building a data-driven app is to create an API and provide seamless integration with other business applications like a dashboard. The goal of this day is on building a basic understanding of server-side programming and front-end application, and allowing you to start creating a data-product from your ML models.
 
     - Overview of the case
     - Build Simple ML model (linear/logistic regression)
@@ -159,7 +163,9 @@ overview:
     - A simple webpage front-end to visualise the results and interact with the API.
     - Creating a simple application that accomplishes this end-to-end
 
-  right_content: |
+    Github Repo: [https://github.com/amitkaps/full-stack-data-science](https://github.com/amitkaps/full-stack-data-science)
+
+  left_content: |
     > _"Jack of all trades, master of none, though oft times better than master of one."_
 
     **An Intensive Bootcamp to build your Data Science Portfolio**
