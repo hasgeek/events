@@ -1,49 +1,62 @@
 ---
 layout: workshop
-title: ""
-subtitle: ""
+title: "ReactJS Meetup Bangalore"
+subtitle: "A meetup for all the React enthusiasts in collaboration with ReactJS Bangalore community "
 datelocation: "19th Aug 2017,10 AM - 1 PM, WalmartLabs, Bangalore"
 city: Bangalore
 start_time: 2017-08-19
 end_time: 2017-08-19
 description: ""
+
 venue:
   label: WalmartLabs, Bangalore
   address: |
-    address here
-  lat: 12.999026
-  lng: 77.701948
-  google_maps_url: https://goo.gl/maps/o2PkomVJxMT2
+  Walmart Labs,
+  Sy No 15/2 & 14, 4th, 5th & 6th Floors.
+  A-Block, Salarpuria Aura Building,
+  Kadubeesenahalli, Outer Ring Road Bangalore
+  lat: 12.936681
+  lng: 77.690946
+  google_maps_url: https://goo.gl/maps/fEGy3MnRZRm
 speakers:
-- name: Sumod Mohan
-  byline: CTO of Digital Aristotle and heads the Computer Vision and Machine Learning at Soliton Technologies
-  image_url: https://images.hasgeek.com/embed/file/57b0d183f7c34a69894adaa376f9531f
+- name: Kavitha
+  byline: 
+  image_url: 
   bio: |
-    **Sumod Mohan** is CTO of Digital Aristotle and heads the Computer Vision and Machine Learning at Soliton Technologies. His experience spans Computer Vision, Machine Learning, 3D Vision, Deep Learning, NLP, Graph Algorithms, Probabilistic Graphical Models, Code Optimization and Parallelization and has worked in the Computer Vision and Machine Learning for past 10+ years. His broad research interest is in application of Graph Algorithms and Probabilistic Graphical Models in Computer Vision and holds an M.S degree from Clemson University, USA with specialization in Intelligent Systems and Robotics. Prior to this after dropping out of his Ph.D program, he worked for HighlightCam Inc, a startup in California where he led Computer Vision Algorithm Development.
+    **Kavitha**
 
-- name: Shivarajkumar Magadi
-  byline: Leads the 3D Vision team at Soliton Technologies
-  image_url: https://images.hasgeek.com/embed/file/41c1c141aacd4764948bba808946a409
+- name: Kiran Abburi
+  byline: 
+  image_url: https://images.hasgeek.com/embed/file/c2384d50d6e44788911262bfd13bf307
   bio: |
-    **Shivaraj** is currently leading 3D Vision team in Soliton Technologies and his prior experience includes 3D pose estimation, 3D depth estimation, segmentation, pattern recognition and machine learning. The products developed include Monocular Augmented Reality Application, Classification of manufactured components, Pose Estimation for large nearly-rigid objects etc. He has more than 4+ years experience developing and deploying products in 3D Vision and Machine Vision.
+    **Kiran** is a freelance developer and trainer. He loves all-thing-react. He's an open source contributor and the organizer of ReactJS Bangalore meetup.
 
-- name: Dhivakar Kanagaraj
-  byline: Computer Vision and Machine Learning Engineer at Soliton Technologies
-  image_url: https://images.hasgeek.com/embed/file/fd5cbbf8363949abb0ec437609cf6252
+- name: Kamlesh Chandnani
+  byline: 
+  image_url: https://images.hasgeek.com/embed/file/0f4f8374b0224349adda0faf16f11154
   bio: |
-    **Dhivakar** is currently working as a Computer Vision and Machine Learning Engineer at Soliton Technologies. He has been working for the past 2+ years on Object detection and Recognition problems  with Computer Vision and Deep Learning. He has also been a co-organizer and in-charge of the Bangalore Computer Vision Meetup (BCVM): a forum for discussing research papers on Computer Vision, Machine Learning and Deep Learning.
+    **Kamlesh**
 
-- name: Senthil Palanisamy
-  byline: Computer Vision and Machine Learning Engineer in Soliton Technologies
-  image_url: https://images.hasgeek.com/embed/file/c048debabb0746b09aa3083924b83c7c
+- name: Darpan Kakadia
+  byline: 
+  image_url: https://images.hasgeek.com/embed/file/416ca43660704db18a66e032e44de42a
   bio: |
-    **Senthil** is currently working as a Computer Vision and Machine Learning Engineer in Soliton Technologies. His research interest lies in the intersection of Deep Learning and Graph Algorithms. He completed his bachelor's degree in Electronics and Communication Engineering in Coimbatore Institute of Technology.
+    **Darpan** is currently working as a UI Engineer at Cleartrip.
 
 overview:
   left_content: |
-    Fill in overview here
+On 19th August, we’re putting together a meetup at WalmartLabs on React. In this meetup, we hope to cover a spectrum of topics from beginner, intermediate to advanced level talks. For this meetup, we’re collaborating with the amazing [React JS Bangalore](https://www.meetup.com/ReactJS-Bangalore) community. 
+
+We'll have a series of talks on the following topics.
+
+* Talk 1: A Beginners guide to setting up React project using npm, babel6, webpack and express server by Kavitha
+* Talk 2: Navigation in React Native apps by Kiran Abburi
+* Talk 3: Code splitting with React Router 4 and Webpack 2 by Kamlesh Chandnani
+* Talk 4: Redux middlewares by Darpan Kakadia
+* Talk 5: WalmartLabs
+
+If you'd like learn about the React ecosystem and meet some great developers, this is a great place to be. RSVP now to reserve your spot!
 
   right_content: |
-    RSVP google form embed here
-
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe8g-k22cayATUfbV28gLcJcJw2PAFZipPECTigq5dCcP2ryg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 ---
