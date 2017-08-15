@@ -2,7 +2,7 @@
 layout: workshop
 title: "Deep Learning and Machine Learning for Computer Vision"
 subtitle: "6 hour workshop"
-datelocation: "19th Aug 2017, Bangalore"
+datelocation: "19 Aug 2017, Bangalore"
 city: Bangalore
 start_time: 2017-08-19
 end_time: 2017-08-19
