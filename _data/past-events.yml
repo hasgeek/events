@@ -15,3 +15,9 @@ jsfoo:
   datelocation: "15-16 Sept 2016, Bangalore"
   url: "https://jsfoo.in/2016/"
   description: "JSFoo is India’s premier JavaScript conference. We launched JSFoo in 2011 as India’s first JavaScript conference. The JS community in India has grown phenomenally since then. JavaScript now pervades every aspect of web development – browsers, apps, front-end, backend, mobile and IoT."
+
+fragments:
+- title: "droidconIN 2016"
+  datelocation: "10-11 Nov 2016, Bangalore"
+  url: "https://droidcon.in/2016/"
+  description: "droidconIN is India’s largest Android conference, and part of a worldwide series of conferences focused on the Android ecosystem."
