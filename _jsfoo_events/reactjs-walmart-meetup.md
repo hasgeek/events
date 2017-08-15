@@ -1,12 +1,12 @@
 ---
 layout: workshop
 title: "ReactJS Meetup Bangalore"
-subtitle: "A meetup for all React enthusiasts, in collaboration with ReactJS Bangalore community."
+subtitle: "A meetup for all React enthusiasts, in collaboration with the ReactJS Bangalore community."
 datelocation: "19 Aug 2017, 2 PM - 5 PM, WalmartLabs"
 city: Bangalore
 start_time: 2017-08-19
 end_time: 2017-08-19
-description: "A meetup for all React enthusiasts, in collaboration with ReactJS Bangalore community."
+description: "A meetup for all React enthusiasts, in collaboration with the ReactJS Bangalore community."
 
 venue:
   label: WalmartLabs, Bangalore
