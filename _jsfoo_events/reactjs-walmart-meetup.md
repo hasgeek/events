@@ -1,12 +1,12 @@
 ---
 layout: workshop
 title: "ReactJS Meetup Bangalore"
-subtitle: "A meetup for all the React enthusiasts in collaboration with ReactJS Bangalore community "
+subtitle: "A meetup for all React enthusiasts, in collaboration with ReactJS Bangalore community."
 datelocation: "19th Aug 2017, 2 PM - 5 PM, WalmartLabs, Bangalore"
 city: Bangalore
 start_time: 2017-08-19
 end_time: 2017-08-19
-description: ""
+description: "A meetup for all React enthusiasts, in collaboration with ReactJS Bangalore community."
 
 venue:
   label: WalmartLabs, Bangalore
@@ -58,19 +58,19 @@ speakers:
     
 overview:
   left_content: |
-On 19th August, we’re putting together a meetup at WalmartLabs on React. In this meetup, we hope to cover a spectrum of topics from beginner, intermediate to advanced level talks. For this meetup, we’re collaborating with the amazing [React JS Bangalore](https://www.meetup.com/ReactJS-Bangalore) community. 
+    On 19th August, we’re putting together a meetup at WalmartLabs on React. In this meetup, we hope to cover a spectrum of topics from beginner, intermediate to advanced level talks. For this meetup, we’re collaborating with the amazing [React JS Bangalore](https://www.meetup.com/ReactJS-Bangalore) community. 
 
-We'll have a series of talks on the following topics.
+    We'll have a series of talks on the following topics.
 
-* Talk 1: A Beginners guide to setting up React project using npm, babel6, webpack and express server by Kavitha. This will help and guide people to setup React environment for the first time using Babel, Webpack and Express. The idea is for new developers to quickly setup React before they can explore its vastness. 
-* Talk 2: Navigation in React Native apps by Kiran Abburi. In this talk, different navigation solutions available in react native with their pros and cons, will be discussed. React Navigation library will be discussed in more detail along with demos for various navigation patterns in mobile apps.
-* Talk 3: Code splitting with React Router 4 and Webpack 2 by Kamlesh Chandnani.
-* Talk 4: Redux middlewares by Darpan Kakadia. He'll talk about how redux middlewares work? Different approaches to handling asynchronous Redux actions will be discussed and compared.
-* Talk 5: Do you even jam bruh? by Siddharth Kshetrapal. The Web audio API is incredibly flexible, you can play a wide variety of sounds. Combine this with the declarative nature of React and you can compose music in your browser
-* Talk 6: React + Typescript by Jorge Lainfiesta. We all know that React rocks, let's take it to the next level with Typescript! In this talk we'll explore how types can make your application more robust and future-proof.
+    * Talk 1: A Beginners guide to setting up React project using npm, babel6, webpack and express server by Kavitha. This will help and guide people to setup React environment for the first time using Babel, Webpack and Express. The idea is for new developers to quickly setup React before they can explore its vastness. 
+    * Talk 2: Navigation in React Native apps by Kiran Abburi. In this talk, different navigation solutions available in react native with their pros and cons, will be discussed. React Navigation library will be discussed in more detail along with demos for various navigation patterns in mobile apps.
+    * Talk 3: Code splitting with React Router 4 and Webpack 2 by Kamlesh Chandnani.
+    * Talk 4: Redux middlewares by Darpan Kakadia. He'll talk about how redux middlewares work? Different approaches to handling asynchronous Redux actions will be discussed and compared.
+    * Talk 5: Do you even jam bruh? by Siddharth Kshetrapal. The Web audio API is incredibly flexible, you can play a wide variety of sounds. Combine this with the declarative nature of React and you can compose music in your browser
+    * Talk 6: React + Typescript by Jorge Lainfiesta. We all know that React rocks, let's take it to the next level with Typescript! In this talk we'll explore how types can make your application more robust and future-proof.
 
-If you'd like learn about the React ecosystem and meet some great developers, this is a great place to be. RSVP now to reserve your spot!
+    If you'd like learn about the React ecosystem and meet some great developers, this is a great place to be. RSVP now to reserve your spot!
 
   right_content: |
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe8g-k22cayATUfbV28gLcJcJw2PAFZipPECTigq5dCcP2ryg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe8g-k22cayATUfbV28gLcJcJw2PAFZipPECTigq5dCcP2ryg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 ---
