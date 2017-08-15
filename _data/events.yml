@@ -160,3 +160,12 @@
   end_time: 2017-08-25 20:30
   url: https://blog.kilter.in/
   blurb: An OTR disussion session with Kilterers about personal metrics and plans going forward. From 7:30 - 8:30 at HasGeek House.
+
+- name: jsfoo-reactjs-meetup
+  title: "ReactJS Meetup Bangalore"
+  city: Bangalore
+  venue: WalmartLabs
+  start_time: 2017-08-19 14:00
+  end_time: 2017-08-19 17:00
+  url: https://jsfoo.in/reactjs-walmart-meetup/
+  blurb: A meetup for all React enthusiasts, in collaboration with the ReactJS Bangalore community.
