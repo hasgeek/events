@@ -1,3 +1,12 @@
+- name: data-science-bootcamp-1
+  title: Data Science Bootcamp
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-08-20 09:00
+  end_time: 2017-08-20 17:00
+  url: https://fifthelephant.in/2017-aug-ds-bootcamp/
+  blurb: The ability to take a business problem, frame it as as an analytical problem and then provide a solution to the business to take decisions on it, has become an important skill to learn. Attend this bootcamp and get started on building your own personal data science portfolio
+
 - name: open-house-information-breaches
   title: Open House on Information Breaches
   city: Bangalore
