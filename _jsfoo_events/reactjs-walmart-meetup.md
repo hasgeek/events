@@ -49,6 +49,11 @@ speakers:
   bio: |
     **Siddharth** is a Physics graduate. He likes to talk about design, web performance and open source. He's a JavaScript architect at Practo.
 
+- name: Kiran Kumar M
+  byline:
+  image_url: https://images.hasgeek.com/embed/file/0606ea0a52b74be8bd05a5533148d9af
+  bio: |
+    **Kiran Kumar ** is a front end developer with Walmart and has been working on Electrode. Also, he is an enthusiastic badminton player to have played in multiple platforms.
 
 - name: Jorge Lainfiesta
   byline:
@@ -68,6 +73,8 @@ overview:
     * Talk 4: Redux middlewares by Darpan Kakadia. He'll talk about how redux middlewares work? Different approaches to handling asynchronous Redux actions will be discussed and compared.
     * Talk 5: Do you even jam bruh? by Siddharth Kshetrapal. The Web audio API is incredibly flexible, you can play a wide variety of sounds. Combine this with the declarative nature of React and you can compose music in your browser
     * Talk 6: React + Typescript by Jorge Lainfiesta. We all know that React rocks, let's take it to the next level with Typescript! In this talk we'll explore how types can make your application more robust and future-proof.
+    * Talk 7: Building large scale React web applications with Electrode by Kiran Kumar. This session will give an overview of the Electrode framework for a quick bootstrapping of large scale applications with optimised server side rendering, out of box PWA and more.
+   
 
     If you'd like learn about the React ecosystem and meet some great developers, this is a great place to be. RSVP now to reserve your spot!
 
