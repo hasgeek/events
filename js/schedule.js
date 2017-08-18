@@ -131,7 +131,7 @@ $(document).ready( function() {
           }
         }
       }
-    });//eof slots loop 
+    });//eof slots loop
   }
 
   var checkColumns = function(schedule) {
@@ -191,7 +191,7 @@ $(document).ready( function() {
     var conferenceScheduleCounter = 0;
     var workshopScheduleCounter = 0;
     //Create rows at 5min intervals
-    schedules.forEach(function(eachSchedule, scheduleindex, schedules) {        
+    schedules.forEach(function(eachSchedule, scheduleindex, schedules) {
       var rooms = [];
       schedules[scheduleindex].date = getDateString(eachSchedule.date);
       schedules[scheduleindex].tableid = 'table-' + scheduleindex;
@@ -303,7 +303,7 @@ $(document).ready( function() {
   if(($('.schedule-table-container').length)) {
     $.ajax({
       type: 'GET',
-      dataType: 'jsonp',
+      dataType: 'json',
       url: window.Event.schedule_url,
       success: function(data) {
         parseJson(data, window.Event.schedule_type, '#event-schedule-table');
