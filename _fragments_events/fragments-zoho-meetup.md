@@ -13,8 +13,8 @@ venue:
   address: |
     Zoho, Estancia IT Park, Plot No. 140 & 151, GST Road,
     Vallancherry Village, Kanchipuram, District, Chengalpattu, Tamil Nadu 603202
-  lat: 12.936681
-  lng: 77.690946
+  lat: 12.8310116
+  lng: 80.049415
   google_maps_url: https://goo.gl/maps/CCSkjpdLGHJ2
 speakers:
 - name: Mario Stallone
