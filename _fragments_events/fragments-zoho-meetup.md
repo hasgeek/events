@@ -1,7 +1,7 @@
 ---
 layout: workshop
 title: "Fragments meetup in Chennai"
-subtitle: "A meetup in Chennai for ."
+subtitle: "A meetup in Chennai for everyone curious about the mobile ecosystem."
 datelocation: "19 Aug 2017, 2 PM - 5 PM, WalmartLabs"
 city: Bangalore
 start_time: 2017-08-19
@@ -36,5 +36,5 @@ overview:
     If you'd like to get a sense of the mobile ecosystem and interact with practitioners from the industry, this is a great place to be. RSVP now to reserve your spot!
 
   right_content: |
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSct4fwoeg4tyY_2M_uIca37sLzHmkI0yoC6vj9r_KnIiX-jxA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSct4fwoeg4tyY_2M_uIca37sLzHmkI0yoC6vj9r_KnIiX-jxA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; height:45rem;">Loading...</iframe>
 ---
