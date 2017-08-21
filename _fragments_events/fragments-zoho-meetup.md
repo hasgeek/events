@@ -2,16 +2,16 @@
 layout: workshop
 title: "Fragments meetup in Chennai"
 subtitle: "A meetup in Chennai for everyone curious about the mobile ecosystem."
-datelocation: "19 Aug 2017, 2 PM - 5 PM, WalmartLabs"
+datelocation: "2 Sep 2017, 10 AM - 1 PM, Chennai"
 city: Bangalore
-start_time: 2017-08-19
-end_time: 2017-08-19
+start_time: 2017-09-02
+end_time: 2017-09-02
 description: "A meetup for everyone curious about the mobile ecosystem."
 
 venue:
   label: Zoho Corporation, Chennai
   address: |
-    Zoho, Estancia IT Park, Plot No. 140 & 151, GST Road, 
+    Zoho, Estancia IT Park, Plot No. 140 & 151, GST Road,
     Vallancherry Village, Kanchipuram, District, Chengalpattu, Tamil Nadu 603202
   lat: 12.936681
   lng: 77.690946
