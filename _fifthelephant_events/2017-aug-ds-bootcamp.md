@@ -3,7 +3,7 @@ layout: workshop
 canonical: http://amitkaps.com/dsbootcamp
 title: "Data Science Bootcamp"
 subtitle: "A five-day bootcamp on Data Science"
-datelocation: "5 Sundays starting from 20th Aug 2017, Bangalore"
+datelocation: "5 Sundays starting from 20 Aug 2017, Bangalore"
 city: Bangalore
 start_time: 2017-08-20
 end_time: 2017-09-17
@@ -54,7 +54,7 @@ overview:
     - Frame: *Problem Definition*
       - Hypothesis-driven approach
       - Types: descriptive, inquisitive, predictive, causal
-    - Acquire: *Data Ingestion* 
+    - Acquire: *Data Ingestion*
       - From flat files and databases
       - From third party clients / APIs
     - Refine: *Data Wrangling*
@@ -74,7 +74,7 @@ overview:
     - Insight: *Model Selection*
       - Accuracy metrics
       - Selection criteria
-    - Deploy: *Model Deployment* 
+    - Deploy: *Model Deployment*
       - Making an model api
       - Using the API
     - Build: *Decision Application*
@@ -89,7 +89,7 @@ overview:
 
     - Intro to visualization
       - Understand Exploratory Data Analysis (EDA)
-      - Role of model visualisation 
+      - Role of model visualisation
       - Communicating insights using visualisation
     - The Grammar of Graphics
       - Visualizing single & dual variables

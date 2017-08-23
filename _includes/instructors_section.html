@@ -2,14 +2,14 @@
   <h3 class="title">{% if include.instructors %}Instructors{%else%}Speakers{%endif%}</h3>
   <br>
 </div>
-<div class="columns is-centered">
+<div class="columns is-centered is-multiline">
   {% if include.instructors %}
     {% assign instructors = include.instructors %}
   {% else %}
     {% assign instructors = include.speakers %}
   {% endif %}
   {% for instructor in instructors %}
-  <div class="column">
+  <div class="column is-3">
     <div class="card is-clickable" onclick="showModal('instructor-{{ instructor.name | slugify }}')">
       <div class="card-content">
         <div class="media">

@@ -2,7 +2,7 @@
 layout: workshop
 title: "Deep Learning Bootcamp"
 subtitle: "A two-day bootcamp on learning Deep Learning"
-datelocation: "9-17 Sep 2017, Bangalore"
+datelocation: "9-16 Sep 2017, Bangalore"
 city: Bangalore
 start_time: 2017-09-09
 end_time: 2017-09-16
