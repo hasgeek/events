@@ -187,3 +187,40 @@
   end_time: 2017-09-02 13:00
   url: https://fragments.in/2017-sep-chennai-meetup/
   blurb: A meetup for anyone interested in the evolution of the mobile ecosystem. This meetup is happening at Zoho Corporation in Chennai. 
+
+- name: jsfoo-hacknight
+  title: "JSFoo hacknight at HasGeek house"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-09-09 15:00
+  end_time: 2017-09-10 08:00
+  url: https://jsfoo.in/2017-sept-hacknight/
+  blurb: We're conducting a hacknight for all the JavaScript enthusiasts. Unlike regular hackathons, hacknights at HasGeek foster collaboration among developers who are passionate about building things. RSVP now to attend!
+  
+- name: jsfoo-keralajs-meetup
+  title: "JavaScript meetup in Kerala"
+  city: Kochi
+  venue: TBD
+  start_time: 2017-08-26 14:00
+  end_time: 2017-08-26 17:00
+  url: https://www.eventbrite.com/e/kerala-js-meetup-august-2017-tickets-36826621416
+  blurb: A meetup for all JavaScript enthusiasts, in collaboration with the KeralaJS community.
+  
+- name: open-house-anthill-math
+  title: "Anthill Inside open house on math and stats for programmers"
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-09-01 19:00
+  end_time: 2017-09-01 21:00
+  url: https://www.facebook.com/events/164410417454521/
+  blurb: Anthill Inside open house on “How much math and statistics do programmers need to know to plunge into Machine Learning and Deep Learning.”
+
+- name: open-house-right-to-privacy
+  title: "Celebrating the Right to Privacy verdict"
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-08-25 19:30
+  end_time: 2017-08-25 21:30
+  url: https://www.facebook.com/events/108583926542255/
+  blurb: "In light of the Supreme Court's Right to Privacy verdict yesterday, we are hosting a celebration! Join us as we talk about we got here, the historical context behind this judgement, and what doors this opens up in future."
+ 
