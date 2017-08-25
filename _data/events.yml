@@ -200,7 +200,7 @@
 - name: jsfoo-keralajs-meetup
   title: "JavaScript meetup in Kerala"
   city: Kochi
-  venue: 
+  venue: TBD
   start_time: 2017-08-26 14:00
   end_time: 2017-08-26 17:00
   url: https://www.eventbrite.com/e/kerala-js-meetup-august-2017-tickets-36826621416
@@ -214,3 +214,13 @@
   end_time: 2017-09-01 21:00
   url: https://www.facebook.com/events/164410417454521/
   blurb: Anthill Inside open house on “How much math and statistics do programmers need to know to plunge into Machine Learning and Deep Learning.”
+
+- name: open-house-right-to-privacy
+  title: "Celebrating the Right to Privacy verdict"
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-08-25 19:30
+  end_time: 2017-08-25 21:30
+  url: https://www.facebook.com/events/108583926542255/
+  blurb: "In light of the Supreme Court's Right to Privacy verdict yesterday, we are hosting a celebration! Join us as we talk about we got here, the historical context behind this judgement, and what doors this opens up in future."
+ 
