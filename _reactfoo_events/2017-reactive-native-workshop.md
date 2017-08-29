@@ -2,10 +2,10 @@
 layout: workshop
 title: "Building apps in react native that are extensible to any platform "
 subtitle: "(IOS, Android, Windows Phone, Web, Desktop, Electron and even VR*)"
-datelocation: "Date to be be decided, Bangalore"
+datelocation: "17 September 2017, Bangalore"
 city: Bangalore
-start_time: 2017-08-25
-end_time: 2017-08-26
+start_time: 2017-09-17
+end_time: 2017-09-17
 description: "Learn how to build native iOS and android app using React Native such that it can easily be extended to any platform such as Windows Phone, Web, Desktop, Electron and even VR*."
 boxoffice_item_collection: "41330df7-d462-455e-9804-212707f16f88"
 instructors:
