@@ -12,8 +12,8 @@ instructors:
 - name: Abhinandan Kothari
   image_url: https://images.hasgeek.com/embed/file/d2f69c4f584b48d18ee71ba450eae368
   website:
-    url: http://amitkaps.com/
-    label: amitkaps.com
+    url: https://twitter.com/abhinandan
+    label: @abhinandan
   byline: Product Engineer at Go-Jek Engineering
   bio: |
     **Abhinandan** is working as Product Engineer at Go-Jek Engineering. He is working in Android and Release engineering teams developing Android Apps along with the CI/CD setup for the iOS/Android/React-Native Apps at Go-Jek.
