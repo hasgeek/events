@@ -1,7 +1,7 @@
 ---
 layout: workshop
-title: "Building apps in react native that are extensible to any platform "
-subtitle: "(IOS, Android, Windows Phone, Web, Desktop, Electron and even VR*)"
+title: "React Native workshop"
+subtitle: "(iOS, Android, Windows Phone, Web, Desktop, Electron and even VR*)"
 datelocation: "17 September 2017, Bangalore"
 city: Bangalore
 start_time: 2017-09-17
@@ -24,9 +24,9 @@ instructors:
   website:
     url: http://rahulgaba.com/
     label: rahulgaba.com
-  byline: Software Counsultant
+  byline: Software Consultant
   bio: |
-    **Rahul** is an experienced JavaScript Developer. He worked for Xebia Group as a frontend-specialist for 3 years. He is passionate about React, React Native (IOS and Android), Angular and Progressive web apps. Rahul is an open source contributor and regularly published modules for react, react-native and angularjs. You can find more about his open source contributions at his [github profile](https://github.com/rgabs/). He also publishes his findings via his tech blog - [rahulgaba.com](http://rahulgaba.com/). 
+    **Rahul** is an experienced JavaScript Developer. He worked for Xebia Group as a frontend-specialist for 3 years. He is passionate about React, React Native (iOS and Android), Angular and Progressive Web Apps. Rahul is an open source contributor and regularly published modules for react, react-native and angularjs. You can find more about his open source contributions at his [github profile](https://github.com/rgabs/). He also publishes his findings via his tech blog - [rahulgaba.com](http://rahulgaba.com/).
 
     Both Atul and Rahul are currently working on their book for react native which can be used as a reference for building production grade applications which are easy to test, maintain and extend to multiple platforms. The book will help any react dev team /developer to quickly get productive with React Native.
 
@@ -49,7 +49,7 @@ overview:
 
     This talk is for: developers who have worked with React and are looking into jumping/ already working with React Native.
 
-    This talk will help: 
+    This talk will help:
     - React developers who are planning to start with react-native applications.
     - react-native developers extend their codebase to support other platforms by just following some code conventions
 
@@ -70,7 +70,7 @@ overview:
     * Build your first hello world app in react-native. (10min)
     * Intro to the development environment of RN (packager, debugging, and scripts setup) (15min)
     * Understanding how to structure the code to write platform specific code. (10min)
-    * Debugging RN apps (10mins) 
+    * Debugging RN apps (10mins)
 
     **Session 2 - Implementing functionalities in RN (55min)**
 
@@ -88,14 +88,14 @@ overview:
     * Building a simple custom native module for react native.(15min)
 
     **Session 4 - Conventions and best practices (55 min)**
-    
+
     * Components vs page pattern for React Native (10min)
     * Styling conventions - Writing maintainable style code for RN Apps (5min)
     * Eslint setup - Keep the code clean with automatic static code check (10min)
     * Adding web support for existing RN project (30min)
 
 
-    We will be preparing a gitbook document that we will use for the talk. We will distribute this document to the participants for their reference. 
+    We will be preparing a gitbook document that we will use for the talk. We will distribute this document to the participants for their reference.
 
     We will also have a git repository with topic/section wise branches to be in sync with the participants before each session.
 ---
