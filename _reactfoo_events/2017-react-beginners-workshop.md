@@ -2,10 +2,10 @@
 layout: workshop
 title: "React Beginners Workshop"
 subtitle: "Learn React and start implementing reusable, interactive and stateful UI components"
-datelocation: "Date to be be decided, Bangalore"
+datelocation: "9 September 2017, Bangalore"
 city: Bangalore
-start_time: 2017-08-25
-end_time: 2017-08-26
+start_time: 2017-09-98
+end_time: 2017-09-09
 description: "This workshop starts with understanding the basic internals of React before exploring how to \"think in React\", best practices and solutions to real problems that you will experience while building an application."
 boxoffice_item_collection: "41330df7-d462-455e-9804-212707f16f88"
 instructors:
