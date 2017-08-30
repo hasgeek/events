@@ -31,7 +31,7 @@ speakers:
 
 overview:
   left_content: |
-    On 9th September, we’re putting together a meetup at WalmartLabs to discuss about the application of computer vision in e-commerce. In this meetup, iate to advanced level talks. One of the key areas in which computer vision is currently used in e-commerce is in "fashion". Our speakers will walk us through some of the applications and use cases of the same.
+    On 9th September, we’re putting together a meetup at WalmartLabs to discuss about the application of computer vision in e-commerce. One of the key areas in which computer vision is currently used in e-commerce is in "fashion". Our speakers will walk us through some of the applications and use cases of the same.
 
     We'll have a series of talks on the following topics.
 
