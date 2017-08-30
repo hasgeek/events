@@ -1,8 +1,8 @@
 ---
 layout: workshop
-title: "Anthill Inside meetup at WalmartLabs, Bangalore"
+title: "Meetup on the uses of computer vision in e-commerce"
 subtitle: "A meetup in Bangalore where we discuss some of the uses of computer vision in e-commerce"
-datelocation: "9 Sep 2017, 11 AM - 2 PM, WalmartLabs"
+datelocation: "9 Sep 2017, 11 AM - 2 PM, WalmartLabs, Bangalore"
 city: Bangalore
 start_time: 2017-09-09
 end_time: 2017-09-09
