@@ -3,7 +3,7 @@ layout: workshop
 title: "Fragments meetup in Chennai"
 subtitle: "A meetup in Chennai for everyone curious about the mobile ecosystem."
 datelocation: "2 Sep 2017, 10 AM - 1 PM, Chennai"
-city: Bangalore
+city: Chennai
 start_time: 2017-09-02
 end_time: 2017-09-02
 description: "A meetup for everyone curious about the mobile ecosystem."
