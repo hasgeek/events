@@ -13,9 +13,22 @@
   {% assign image = site.meta.image %}
 {% endif %}
 
+{% if page.meta.favicon %}
+  {% assign favicon = page.meta.favicon %}
+{% elsif site.meta.favicon %}
+  {% assign favicon = site.meta.favicon %}
+{% else %}
+  {% assign favicon = "images/hg-favicon.ico" %}
+{% endif %}
+
 {% if image contains "://" %}
 {% else %}
   {% assign image = image | absolute_url %}
+{% endif %}
+
+{% if favicon contains "://" %}
+{% else %}
+  {% assign favicon = favicon | absolute_url %}
 {% endif %}
 
 {% if page.title %}
@@ -43,6 +56,7 @@
 
     <meta name="description" content="{{ description }}">
     <meta name="keywords" content="{{ site.keywords }}">
+    <link rel="shortcut icon" href="{{ favicon }}" />
     <link rel="author" href="https://plus.google.com/{{googlePlusId}}" />
     {% if page.canonical %}
       {% if page.canonical contains "://" %}
