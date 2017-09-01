@@ -262,7 +262,7 @@ grab:
   title: "Grab"
   logo_url: https://images.hasgeek.com/embed/file/e3cb1c180f8c44e6a0ecd6d3711239ff
   url: https://grab.careers/
-  display_url: www.grab.careers.com
+  display_url: grab.careers
   blurb: |
     Grab is more than just the leading ride-hailing and mobile payments platform in Southeast Asia. 
 
@@ -275,7 +275,7 @@ appsecco:
   title: "Appsecco"
   logo_url: https://images.hasgeek.com/embed/file/05a652936ab34904bdb1f004089e2f96
   url: https://appsecco.com/
-  display_url: www.appsecco.com
+  display_url: appsecco.com
   blurb: |
     Appsecco is a specialist application security company, founded in 2015, with physical presence in
     London, Bangalore, Doha and Boston, providing industry leading security advice that is firmly
