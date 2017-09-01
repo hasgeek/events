@@ -262,7 +262,7 @@ grab:
   title: "Grab"
   logo_url: https://images.hasgeek.com/embed/file/e3cb1c180f8c44e6a0ecd6d3711239ff
   url: https://grab.careers/
-  display_url: grab.careers.com
+  display_url: grab.careers
   blurb: |
     Grab is more than just the leading ride-hailing and mobile payments platform in Southeast Asia. 
 
@@ -270,3 +270,26 @@ grab:
 
     Grab began as a taxi-hailing app in 2012, but has extended its product platform to include private car services (GrabCar & GrabShare), motorcycle taxis (GrabBike), social carpooling (GrabHitch), last mile delivery (GrabExpress) as well as a mobile payments services (GrabPay). We are focused on pioneering new commuting and payment alternatives for drivers and passengers with an emphasis on speed, safety, and reliability. Currently we offer services in Singapore, Indonesia, Philippines, Malaysia, Thailand, Vietnam, and Myanmar; however, we also have R&D offices in Singapore, Seattle, Beijing, Bangalore, Jakarta, & Vietnam.
     If you share our vision of driving South East Asia forward, apply to join our team today.
+
+appsecco:
+  title: "Appsecco"
+  logo_url: https://images.hasgeek.com/embed/file/05a652936ab34904bdb1f004089e2f96
+  url: https://appsecco.com/
+  display_url: appsecco.com
+  blurb: |
+    Appsecco is a specialist application security company, founded in 2015, with physical presence in
+    London, Bangalore, Doha and Boston, providing industry leading security advice that is firmly
+    grounded in commercial reality.
+    Our services cover the entire software development lifecycle from advising on how build and foster
+    a culture of security within development teams and organisations to reviewing and advising on the
+    security of applications and associated infrastructure under development to providing rapid
+    response and advice in the event of a security breach or incident.
+    The solutions, advice and insight we deliver to our clients always follows three core principles:
+      1. It must be pragmatic; taking into account the specific commercial, organisational and
+         operational realities of each client individually
+      2. It must genuinely add value; the advice or solutions we provide must addresses the specific
+         problem a client seeks to solve and have actionable insight to enable them to achieve this
+      3. Never be purely automated; whenever we are testing for security our reports and output
+         always have significant, expert, human input to give the greatest possible value for our
+         clients.
+         
