@@ -10,7 +10,7 @@ gulp.task('generate-service-worker', function(callback) {
     runtimeCaching: [
     {
       urlPattern: /(\.html|\/)(?:\?|$)/,
-      handler: 'fastest'
+      handler: 'networkFirst'
     },
     {
       urlPattern: /images\.hasgeek\.com/,
@@ -18,7 +18,7 @@ gulp.task('generate-service-worker', function(callback) {
     },
     {
       urlPattern: /talkfunnel\.com.*schedule\/json$/,
-      handler: 'fastest'
+      handler: 'networkFirst'
     },
     {
       urlPattern: /imgee\.s3\.amazonaws\.com\/imgee/,
