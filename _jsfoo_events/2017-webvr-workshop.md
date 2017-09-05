@@ -21,19 +21,15 @@ He contributes to Mozilla WebVR, is part of Security and Emerging Technologies t
   byline: VR/AR Developer
   image_url: https://images.hasgeek.com/embed/file/61dbf41f1bb84b45877567b860786670
   bio: |
-    * A VR enthusiast and Guest Speaker on VR and related technologies at Mozilla Festival , London 2016
-    * Web Developer
-    * Game Programmer turned into VR Game developer
-    * Open Source Enthusiast
-    * Mozilla Contributor
+    Shivang is a VR/AR/MR Developer with a demonstrated history of working in the computer software industry. Skilled in Python, VR/AR Production, Augmented Reality, HMD design and Storytelling in VR. Strong operations professional with a Bachelor's degree focused in Computer Science from NIIT University with professional certification from the University of California, San Diego in Virtual Reality application development and Computational Graphics.
 
-    He have been attached with Mozilla VR since the invoking of this VR technology in 2014-15 and have worked and associated with the lead developer of this framework (A-frame)
+    Also, a Public Speaker and Developer Evangelist for Mozilla, BlockStack and International VR/AR association.
 
-    He has also been trained in Cinematic VR and production of VR films.
+    Shivang is a Co-Chair for International WebVR Community at VRAR Association and has been trained in Cinematic VR and production of VR films.
 
   website:
-    url: https://www.linkedin.com/in/shivang-shekhar-bb2b2780/
-    label: Linkedin
+    url: https://twitter.com/shivank1995
+    label: Twitter
 
 overview:
   left_content: |
