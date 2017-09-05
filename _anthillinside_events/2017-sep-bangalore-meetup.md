@@ -41,5 +41,5 @@ overview:
     If you'd like to get a sense of the applications of computer vision in e-commerce and interact with practitioners from the industry, this is a great place to be. RSVP now to reserve your spot!
 
   right_content: |
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdG7jgR801t5vfIUW7vu1PWhU7_pT1cqBWv1U64VwwkYW8MQA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdG7jgR801t5vfIUW7vu1PWhU7_pT1cqBWv1U64VwwkYW8MQA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; height:45rem;">Loading...</iframe>
 ---
