@@ -33,7 +33,7 @@ instructors:
   website:
     url: http://rahulgaba.com/
     label: rahulgaba.com
-  byline: Software Consultant
+  byline: Developer at Digital McKinsey, India
   bio: |
     **Rahul** is an experienced JavaScript Developer. He worked for Xebia Group as a frontend-specialist for 3 years. He is passionate about React, React Native (iOS and Android), Angular and Progressive Web Apps. Rahul is an open source contributor and regularly published modules for react, react-native and angularjs. You can find more about his open source contributions at his [github profile](https://github.com/rgabs/). He also publishes his findings via his tech blog - [rahulgaba.com](http://rahulgaba.com/).
 
