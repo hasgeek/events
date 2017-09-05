@@ -25,7 +25,7 @@ speakers:
   bio: |
 
 - name: Vishnu Vardhan Makkapati
-  byline: Chief Architect, Myntra
+  byline: Architect, Myntra
   image_url: https://images.hasgeek.com/embed/file/f85a1ba967114f88881c383d8bdf0fd1
   bio: |
 
