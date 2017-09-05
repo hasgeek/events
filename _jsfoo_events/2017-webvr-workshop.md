@@ -4,8 +4,8 @@ title: "WebVR Workshop"
 subtitle: "Learn how to create virtual reality in web"
 datelocation: "17 September 2017, Bangalore"
 city: Bangalore
-start_time: 2017-08-17
-end_time: 2017-08-17
+start_time: 2017-09-17
+end_time: 2017-09-17
 description: "Learn how to create virtual reality in web"
 
 instructors:
