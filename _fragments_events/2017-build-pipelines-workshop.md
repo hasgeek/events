@@ -8,6 +8,15 @@ start_time: 2017-09-17
 end_time: 2017-09-17
 description: "Learn how to automate tedious tasks like generating screenshots, dealing with provisioning profiles, and releasing your application."
 boxoffice_item_collection: "c5c6e6fa-6336-11e7-a070-516cd7cd867a"
+venue:
+  label: Thought Factory, Bangalore
+  lat: 12.95921
+  lng: 77.64431
+  address: |
+    Tower D, 2nd Floor, Diamond District
+    Old Airport Road, ISRO Colony, Domlur
+    Bengaluru, Karnataka 560008
+  google_maps_url: https://goo.gl/maps/oUnA1JB9paF2
 instructors:
 - name: Abhinandan Kothari
   image_url: https://images.hasgeek.com/embed/file/d2f69c4f584b48d18ee71ba450eae368
