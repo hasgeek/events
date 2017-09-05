@@ -44,17 +44,16 @@ def step_impl(context):
 def step_impl(context):
 	for event in context.events:
 		print("Validating fields for " + event['name'])
-		assert len(event.get('name')) < 80, "'name' value is more than 80 characters"
-		assert len(event.get('title')) < 80, "'title' value is more than 80 characters"
+		assert len(event.get('name')) <= 80, "'name' value is more than 80 characters"
+		assert len(event.get('title')) <= 80, "'title' value is more than 80 characters"
 		assert event.get('city') in context.cities, "'city' value should be one of those listed in cities.yml"
-		assert len(event.get('venue')) < 40, "'venue' value is more than 40 characters"
+		assert len(event.get('venue')) <= 40, "'venue' value is more than 40 characters"
 
 
 		assert isinstance(datetime.datetime.strptime(event.get('start_time'), '%Y-%m-%d %H:%M'), datetime.datetime), "'start_time' needs to be in the datetime format"
 		assert isinstance(datetime.datetime.strptime(event.get('end_time'), '%Y-%m-%d %H:%M'), datetime.datetime), "'end_time' needs to be in the datetime format"
-		
-		assert event.get('start_time') <= event.get('end_time', datetime.date), "'start_time' needs to before 'end_time'"		
 
-		assert len(event.get('blurb')) < 300 , "'blurb' value is more than 300 characters"
+		assert event.get('start_time') <= event.get('end_time', datetime.date), "'start_time' needs to before 'end_time'"
+
+		assert len(event.get('blurb')) <= 300 , "'blurb' value is more than 300 characters"
 		assert urlregex.match(event.get('url')), "'url' is not a valid URL"
-

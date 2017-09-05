@@ -8,6 +8,15 @@ start_time: 2017-09-08
 end_time: 2017-09-09
 description: "This workshop starts with understanding the basic internals of React before exploring how to \"think in React\", best practices and solutions to real problems that you will experience while building an application."
 boxoffice_item_collection: "41330df7-d462-455e-9804-212707f16f88"
+venue:
+  label: HasGeek House, Bangalore
+  lat: 12.96149473
+  lng: 77.64430654
+  address: |
+    2699, 19th Main Road
+    HAL 2nd Stage, Indiranagar
+    Bengaluru, Karnataka 560008
+  google_maps_url: https://goo.gl/maps/1oAmjTuHXMv
 instructors:
 - name: Siddharth Kshetrapal
   image_url: https://images.hasgeek.com/embed/file/7fe30292d3124a719f7cf163c1fff962

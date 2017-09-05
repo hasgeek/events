@@ -18,7 +18,7 @@ gulp.task('generate-service-worker', function(callback) {
     },
     {
       urlPattern: /talkfunnel\.com.*schedule\/json$/,
-      handler: 'cacheFirst'
+      handler: 'networkFirst'
     },
     {
       urlPattern: /imgee\.s3\.amazonaws\.com\/imgee/,

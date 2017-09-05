@@ -27,7 +27,7 @@ speakers:
   byline:
   image_url: https://images.hasgeek.com/embed/file/6bf95e3485fc48a2bf83d80c823e961a
   bio: |
-    **Girish** is a product developer at Freshworks Inc.
+    **Girish** is a lead engineer, Freshdesk mobile. Currently, he is driving cross platform initiatives for Freshworks suite of products, which is used by more than 100,000 businesses across the world. When he's not dreaming about United winning the championship, he's probably tinkering with Go, Swift or React Native.
 
 overview:
   left_content: |
