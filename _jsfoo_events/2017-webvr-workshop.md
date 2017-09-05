@@ -1,12 +1,12 @@
 ---
 layout: workshop
 title: "WebVR Workshop"
-subtitle: "Learn how to create virtual reality in web"
+subtitle: "Learn how to bring Virtual Reality to the Web with WebVR"
 datelocation: "17 September 2017, Bangalore"
 city: Bangalore
 start_time: 2017-09-17
 end_time: 2017-09-17
-description: "Learn how to create virtual reality in web"
+description: "Learn how to bring Virtual Reality to the Web with WebVR"
 
 instructors:
 - name: Rabimba Karanjai  
@@ -41,7 +41,7 @@ overview:
 
     * Intro to VR concepts
       * Introduction to Standlone VR
-      * Introduction to Web VR
+      * Introduction to WebVR
     * Why WebVR
       * Where webVR comes from?
     * How Aframe Comes into picture
@@ -86,11 +86,9 @@ overview:
     ## Hardware Requirement:
     
     * Laptop and Android (>4.4) mobile
-      * A laptop (with Internet connectivity) for coding.
-      * A mobile phone(with gyrometer/gyroscope) and a VR device for testing the VR experiences built.
+    * A laptop (with Internet connectivity) for coding.
+    * A mobile phone(with gyrometer/gyroscope) and a VR device for testing the VR experiences built.
 
-      We need VR Devices (Cardboards / Daydream View / HTC Vives) to test the VR experiences built. We can make few devices available for all participants, but if devices like Vives and Daydream Controllers can be arranged so it will be a super plus.
-
-
-
+    We need VR Devices (Cardboards / Daydream View / HTC Vives) to test the VR experiences built. We can make few devices available for all participants, but if devices like Vives and Daydream Controllers can be arranged so it will be a super plus.
+    
 ---
