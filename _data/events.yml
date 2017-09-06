@@ -224,3 +224,11 @@
   url: https://www.facebook.com/events/108583926542255/
   blurb: "In light of the Supreme Court's Right to Privacy verdict yesterday, we are hosting a celebration! Join us as we talk about we got here, the historical context behind this judgement, and what doors this opens up in future."
  
+- name: anthill-computer-vision-meetup
+  title: "Computer vision in e-commerce meetup"
+  city: Bangalore
+  venue: WalmartLabs
+  start_time: 2017-09-09 11:00
+  end_time: 2017-09-09 13:00
+  url: https://anthillinside.in/2017-sep-bangalore-meetup/
+  blurb: We’re putting together a meetup at WalmartLabs to discuss about the application of computer vision in e-commerce. One of the key areas in which computer vision is currently used in e-commerce is in “fashion”. Our speakers will walk us through some of the applications and use cases of the same.

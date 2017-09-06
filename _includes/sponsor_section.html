@@ -57,10 +57,10 @@
                       <div class="modal-content">
                         <div class="box">
                           <figure class="image">
-                            <img src="{{ sponsor.logo_url }}" alt="{{ sponsor.title }}"style="max-height: 60px;width: auto; margin: auto;">
+                            <img src="{{ sponsor.logo_url }}" alt="{{ sponsor.title }}"style="max-height: 60px;width: auto; margin: auto; padding-bottom: 20px;">
                           </figure>
-                          <div class="has-text-centered">
-                            <a href="{{ sponsor.url }}" target="_blank">{{ sponsor.display_url }}</a>
+                          <div class="has-text-centered" style="padding-bottom: 20px;">
+                            <p><a href="{{ sponsor.url }}" target="_blank">{{ sponsor.display_url }}</a></p>
                           </div>
                           <div class="content">
                             {{ sponsor.blurb | markdownify }}
