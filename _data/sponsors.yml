@@ -293,3 +293,10 @@ appsecco:
          always have significant, expert, human input to give the greatest possible value for our
          clients.
          
+facebook:
+  title: "Facebook"
+  logo_url: https://images.hasgeek.com/embed/file/321596a682f248948eeb62d93aa87f2c
+  url: https://developers.facebook.com
+  display_url: www.developers.facebook.com
+  blurb: |
+    
