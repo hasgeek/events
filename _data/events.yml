@@ -223,4 +223,12 @@
   end_time: 2017-08-25 21:30
   url: https://www.facebook.com/events/108583926542255/
   blurb: "In light of the Supreme Court's Right to Privacy verdict yesterday, we are hosting a celebration! Join us as we talk about we got here, the historical context behind this judgement, and what doors this opens up in future."
- 
+
+- name: tw-geek-night
+  title: "Geek Night: What do autodrivers, dictators & distributed systems have in common?"
+  city: Bangalore
+  venue: ThoughtWorks Bangalore
+  start_time: 2017-09-06 18:30
+  end_time: 2017-09-06 19:30
+  url: https://thoughtworks-bangalore.github.io/geeknight/ 
+  blurb: "In this session, Dr.Sriram Srinivasan( www.malhar.net/sriram/ ) will be sharing some of the interesting concepts/behaviour of distributed systems" 
