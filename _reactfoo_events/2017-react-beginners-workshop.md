@@ -2,7 +2,7 @@
 layout: workshop
 title: "React beginners workshop"
 subtitle: "Learn React and start implementing reusable, interactive and stateful UI components"
-datelocation: "9 September 2017, Bangalore"
+datelocation: "9 September 2017, HasGeek, Indira Nagar, Bangalore"
 city: Bangalore
 start_time: 2017-09-08
 end_time: 2017-09-09
