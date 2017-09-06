@@ -29,7 +29,7 @@ He contributes to Mozilla WebVR, is part of Security and Emerging Technologies t
 
   website:
     url: https://twitter.com/shivank1995
-    label: Twitter
+    label: @shivank1995
 
 overview:
   left_content: |
