@@ -2,7 +2,7 @@
 layout: workshop
 title: "Hacknight at HasGeek"
 subtitle: "JavaScript hacknight at HasGeek House"
-datelocation: "9-10 Sep 2017, 3 PM - 8 AM, HasGeek House"
+datelocation: "9-10 Sep 2017, 5 PM - 8 AM, HasGeek House"
 city: Bangalore
 start_time: 2017-09-09
 end_time: 2017-09-10
