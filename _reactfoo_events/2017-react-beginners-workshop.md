@@ -2,7 +2,7 @@
 layout: workshop
 title: "React beginners workshop"
 subtitle: "Learn React and start implementing reusable, interactive and stateful UI components"
-datelocation: "9 September 2017, Bangalore"
+datelocation: "9 September 2017 HasGeek House, Indira Nagar, Bangalore"
 city: Bangalore
 start_time: 2017-09-08
 end_time: 2017-09-09
@@ -25,9 +25,9 @@ instructors:
     label: Github Page
   byline: Javascript architect at Practo
   bio: |
-    Physics ⚛️ graduate, javascript architect @practo.
+    Physics graduate, javascript architect @practo.
     Talk to me about design, web performance and open source.
-    Enjoys playing football ⚽️, noob surfer 🏄
+    Enjoys playing football ️, noob surfer 
 overview:
   left_content: |
     ## Abstract
