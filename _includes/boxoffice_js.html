@@ -20,6 +20,20 @@ $(document).ready(function() {
           paymentDesc: "{{ page.title }}"
         });
       }, 1000);
+
+      window.setTimeout(function() {
+        $('#boxoffice-widget .boxoffice-section').ready(function() {
+          $.each($('.ticket-title'), function(index, ticket){
+            var ticketTitle = $(ticket).text().toLowerCase();
+            if (ticketTitle.indexOf('speaker') > -1 || ticketTitle.indexOf('sponsor') > -1) {
+              var price = $(ticket).parents(".ticket-booking").find('p.discount-price').text();
+              if (price !== "₹0") {
+                $(ticket).parents(".ticket-booking").hide();
+              }
+            }
+          });
+        });
+      }, 4500);
     },
     error: function(response) {
       var ajaxLoad = this;
