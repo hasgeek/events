@@ -292,4 +292,18 @@ appsecco:
       3. Never be purely automated; whenever we are testing for security our reports and output
          always have significant, expert, human input to give the greatest possible value for our
          clients.
-         
+
+facebook:
+  title: "Facebook"
+  logo_url: https://images.hasgeek.com/embed/file/321596a682f248948eeb62d93aa87f2c
+  url: https://developers.facebook.com
+  display_url: www.developers.facebook.com
+  blurb: |
+
+practo:
+  title: "Practo"
+  logo_url: https://images.hasgeek.com/embed/file/75b00fb6c7a9439d8b466a4c47936faa
+  url: https://medium.com/practo-engineering
+  display_url: medium.com/practo-engineering
+  blurb: |
+    For millions of people, Practo is their trusted home where they know they will find the healing touch. Practo is the place which connects them to everything that they need to take good take care of themselves and their families, assessing health issues, finding the right doctor, managing records securely, and finding new ways to live a longer healthier life. Healthcare providers use Practo because it is a trusted home for health for millions of people. Practo provides a definitive platform for them to build their presence, to grow their practice or business and to engage their patients in a way that was never possible before.

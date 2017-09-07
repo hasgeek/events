@@ -29,8 +29,7 @@ He contributes to Mozilla WebVR, is part of Security and Emerging Technologies t
 
   website:
     url: https://twitter.com/shivank1995
-    label: @shivank1995
-
+    label: "@shivank1995"
 overview:
   left_content: |
     ## Course Content
@@ -56,9 +55,9 @@ overview:
     * Workshop $9: Build interactive Scenes
     * Workshop #10: Build physics
     * Workshop #11: Mash VR and Web API
-    * Introduction Standalone VR, cinematic VR and storytelling 
+    * Introduction Standalone VR, cinematic VR and storytelling
     * Workshop: Build AR
-    * General tech discussion: ARcore, ARkit and other technologies 
+    * General tech discussion: ARcore, ARkit and other technologies
     * Showcase Your works
     * Q&A
     * Go back happily
@@ -80,11 +79,11 @@ overview:
     * D3.js, Vue.js and React redux knowledge is a super plus as will help grasp the differences super easily.
 
     ## Hardware Requirement:
-    
+
     * Laptop and Android (>4.4) mobile
     * A laptop (with Internet connectivity) for coding.
     * A mobile phone(with gyrometer/gyroscope) and a VR device for testing the VR experiences built.
 
     We need VR Devices (Cardboards / Daydream View / HTC Vives) to test the VR experiences built. We can make few devices available for all participants, but if devices like Vives and Daydream Controllers can be arranged so it will be a super plus.
-    
+
 ---
