@@ -16,7 +16,11 @@
     {% endif %}
 
     {% if include.event.boxoffice_item_collection %}
-    <span class="tag is-primary">Tickets now available</span>
+      {% if include.event.boxoffice_item_collection_sold_out == true %}
+      <span class="tag is-danger">Tickets sold out</span>
+      {% else %}
+      <span class="tag is-primary">Tickets now available</span>
+      {% endif %}
     {% endif %}
     {% if include.event.funnel.open == true %}
     <span class="tag is-info">Call for Proposals are open</span>

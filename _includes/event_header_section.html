@@ -25,7 +25,11 @@
 
       <div class="block">
         {% if include.event.boxoffice_item_collection %}
-        <a class="button is-primary" data-href="#tickets">Buy Tickets</a>
+          {% if include.event.boxoffice_item_collection_sold_out == true %}
+          <a class="button is-primary" data-href="#tickets" disabled>Buy Tickets(sold out)</a>
+          {% else %}
+          <a class="button is-primary" data-href="#tickets">Buy Tickets</a>
+          {% endif %}
         {% endif %}
         {% if include.event.schedule %}
         <a class="button is-primary" data-href="#schedule">View Schedule</a>
