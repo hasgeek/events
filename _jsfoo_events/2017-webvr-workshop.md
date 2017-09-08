@@ -7,6 +7,7 @@ city: Bangalore
 start_time: 2017-09-17
 end_time: 2017-09-17
 description: "Learn how to bring Virtual Reality to the Web with WebVR"
+boxoffice_item_collection: "20e2ea35-1df3-11e7-98d4-ad91ed4be229"
 
 instructors:
 - name: Rabimba Karanjai  
