@@ -232,3 +232,12 @@
   end_time: 2017-09-09 13:00
   url: https://anthillinside.in/2017-sep-bangalore-meetup/
   blurb: We’re putting together a meetup at WalmartLabs to discuss about the application of computer vision in e-commerce. One of the key areas in which computer vision is currently used in e-commerce is in “fashion”. Our speakers will walk us through some of the applications and use cases of the same.
+  
+- name: open-data-hyderabad
+  title: "Talk on Open Data Standards"
+  city: Hyderabad
+  venue: Gramener Hyderabad office
+  start_time: 2017-09-14 17:00
+  end_time: 2017-09-14 18:00
+  url: https://docs.google.com/forms/d/e/1FAIpQLSdWOpN3L1jPvftcJDne0-uabyGKOS14KVMoL0H0SY7NyGPyQg/viewform
+  blurb: This talk introduces you to various issues of proprietary data formats and the importance of open data standards
