@@ -2,7 +2,7 @@
 layout: workshop
 title: "React Native workshop"
 subtitle: "(iOS, Android, Windows Phone, Web, Desktop, Electron and even VR*)"
-datelocation: "17 September 2017, Bangalore"
+datelocation: "17 September 2017, 1:45PM to 6PM, Bangalore"
 city: Bangalore
 start_time: 2017-09-17
 end_time: 2017-09-17
@@ -65,6 +65,9 @@ overview:
     ##  Requirements
 
     The audience just need to bring their laptops with a JS IDE ( preferably Atom ;) ) and react native installed if they want to try hands on along with the speaker.
+
+    ## Date and Time
+    17th September, from 1:45PM to 6PM (4 hours) at Thought Factory, Bangalore.
 
   right_content: |
     ## Course Content

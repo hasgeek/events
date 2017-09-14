@@ -2,7 +2,7 @@
 layout: workshop
 title: "Automate Android, iOS and ReactNative build Pipelines using Fastlane"
 subtitle: "Learn how to automate tedious tasks like generating screenshots, dealing with provisioning profiles, and releasing your application."
-datelocation: "17 September 2017, Bangalore"
+datelocation: "17 September 2017, 9:00AM to 1:15PM, Bangalore"
 city: Bangalore
 start_time: 2017-09-17
 end_time: 2017-09-17
@@ -75,6 +75,10 @@ overview:
     * NPM for React Native
     * PlayStore / Apple Developer Console Credentials for provisioning profiles/Certificates (Optional)
     * Anyone can attend this workshop who is developing mobile apps(iOS, Android, React Native), the focus is on automating the release processes for your app right from commits by developer to its delivery to end users. So if you are release engineer or into a team/role in your organisation who handles releases of mobile apps then this workshop is more specifically designed for you.
+
+    ## Date and Time
+    17th September, from 9:00AM to 1:15PM (4 hours) at Thought Factory, Bangalore.
+
 
   right_content: |
     This is a hand-on workshop where participants will create Fastfile and automate their respective apps on iOS/Android/React Native.

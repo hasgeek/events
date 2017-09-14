@@ -69,6 +69,11 @@
         <a class="button" href="{{ include.event.funnel.url }}" target="_blank">Propose a talk</a>
         {% endif %}
       </div>
+      {% if include.event.live %}
+        <div class="block">
+          <a class="button" href="{{ site.url }}{{ site.baseurl }}/live"><span class="icon"><i class="fa fa-video-camera" aria-hidden="true"></i></span><span>Watch the live stream</span></a>
+        </div>
+      {% endif %}
     </div>
   </div>
 </section>
