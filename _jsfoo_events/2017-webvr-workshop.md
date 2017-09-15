@@ -2,13 +2,22 @@
 layout: workshop
 title: "WebVR Workshop"
 subtitle: "Learn how to bring Virtual Reality to the Web with WebVR"
-datelocation: "17 September 2017, Bangalore"
+datelocation: "17 September 2017, 9:30AM to 1:30PM, Bangalore"
 city: Bangalore
 start_time: 2017-09-17
 end_time: 2017-09-17
 description: "Learn how to bring Virtual Reality to the Web with WebVR"
 boxoffice_item_collection: "20e2ea35-1df3-11e7-98d4-ad91ed4be229"
-
+venue:
+  label: HasGeek House, Bangalore
+  address: |
+    HasGeek
+    2699, 19th Main Rd,
+    HAL 2nd Stage, Indiranagar, 19th Main Rd, HAL 2nd Stage, Indiranagar,
+    Bengaluru, Karnataka 560008
+  lat: 12.961499
+  lng: 77.644307
+  google_maps_url: https://goo.gl/maps/tQmKAFvox342
 instructors:
 - name: Rabimba Karanjai  
   image_url: https://images.hasgeek.com/embed/file/ba7b9f49136d4328bcf61b54e2fb8edd
@@ -62,6 +71,9 @@ overview:
     * Showcase Your works
     * Q&A
     * Go back happily
+
+    ## Date and Time
+    17th September 2017, from 9:30AM to 1:30PM (4 hours) at HasGeek House, Bangalore.
 
   right_content: |
     ## Target Audience:
