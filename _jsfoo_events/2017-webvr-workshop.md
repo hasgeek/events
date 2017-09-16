@@ -19,14 +19,16 @@ venue:
   lng: 77.644307
   google_maps_url: https://goo.gl/maps/tQmKAFvox342
 instructors:
-- name: Rabimba Karanjai  
-  image_url: https://images.hasgeek.com/embed/file/ba7b9f49136d4328bcf61b54e2fb8edd
-  byline: Mozilla Tech Speaker, Mozilla Corporation
-  bio: "Rabimba Karanjai is a full time Graduate Researcher, part time hacker, and FOSS enthusiast. He has written code for IBM Watson and done a bunch of other things at their lab. At present he is crawling his way towards a PhD at RICE University.
-He contributes to Mozilla WebVR, is part of Security and Emerging Technologies team at Mozilla, and is also a Mozilla TechSpeaker. He has been recognized for his contribution to Firefox in its about:credits page."
+- name: Ram Dayal Vaishnav  
+  image_url: https://images.hasgeek.com/embed/file/5ed0123e9f4d43168064df1c81c1c1ed
+  byline: Senior Web Developer at Arcesium
+  bio: |
+    Ram Dayal Vaishnav, Senior Web Developer from Arcesium, is very passionate about Open Source and has been to Mozilla’s projects for more than 5 years now. He is also a Mozilla Tech Speaker & Mozilla Representative. Ram was involved with Mozilla’s WebVR framework A-Frame since its birth in late 2015. Apart from code contribution, he has also gave talks on A-Frame at various national and international events including MozFest London and FOSSASIA Singapore.
+
+    Ram also co-founded WebVR India group, a developer community in India working on VR development & evangelism. DevDiner.com, a website for emerging technologies developers, recently named Ram as one of their AR/VR inspirations of 2016 for his inspirational work in the fields of VR & IoT. Ram is also W3C contributor in W3C WebVR community group.
   website:
-    url: http://rabimba.rice.edu/
-    label: rabimba.rice.edu
+    url: https://gurumukhi.wordpress.com/
+    label: Blog
 - name: Shivang Shekhar
   byline: VR/AR Developer
   image_url: https://images.hasgeek.com/embed/file/61dbf41f1bb84b45877567b860786670
