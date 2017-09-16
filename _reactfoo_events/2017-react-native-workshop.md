@@ -69,7 +69,7 @@ overview:
     - An ESLint supported IDE, preferably Atom: https://atom.io
     - Clone this repo: https://github.com/react-native-workshop/note-taker
 
-Note: Android SDK setup is a mandate for linux/windows users. Please install the android sdk by following steps in the README file of out repo.⁠⁠
+    Note: Android SDK setup is a mandate for linux/windows users. Please install the android sdk by following steps in the README file of out repo.⁠⁠
 
     ## Date and Time
     17th September, from 1:45PM to 6PM (4 hours) at Thought Factory, Bangalore.
