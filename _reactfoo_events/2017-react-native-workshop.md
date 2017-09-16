@@ -62,9 +62,14 @@ overview:
     - React developers who are planning to start with react-native applications.
     - react-native developers extend their codebase to support other platforms by just following some code conventions
 
-    ##  Requirements
+    ##  Prerequisites
 
-    The audience just need to bring their laptops with a JS IDE ( preferably Atom ;) ) and react native installed if they want to try hands on along with the speaker.
+    - Install node, react-native-cli, Android studio and Xcode,(click on "Building Projects with Native Code" tab):  https://facebook.github.io/react-native/docs/getting-started.html
+    - Yarn: npm install -g yarn
+    - An ESLint supported IDE, preferably Atom: https://atom.io
+    - Clone this repo: https://github.com/react-native-workshop/note-taker
+
+    Note: Android SDK setup is a mandate for linux/windows users. Please install the android sdk by following steps in the README file of out repo.⁠⁠
 
     ## Date and Time
     17th September, from 1:45PM to 6PM (4 hours) at Thought Factory, Bangalore.
