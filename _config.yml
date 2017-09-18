@@ -61,3 +61,7 @@ collections:
     type: event
     output: true
     permalink: /jsfoo/:path/
+  rootconf_events:
+    type: event
+    output: true
+    permalink: /rootconf/:path/

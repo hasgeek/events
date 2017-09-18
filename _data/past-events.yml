@@ -4,6 +4,12 @@ fragments:
   url: "https://droidcon.in/2016/"
   description: "droidconIN is India’s largest Android conference, and part of a worldwide series of conferences focused on the Android ecosystem."
 
+rootconf:
+- title: "Rootconf 2017"
+  datelocation: "11–12 May 2017, Bangalore"
+  url: "https://rootconf.in/2017/"
+  description: "This year's theme is service reliability. You will hear case studies of how organizations and teams plan, monitor and automate their infrastructure to ensure continous reliabilty and availability of services. You can participate in candid, Off-The-Record (OTR) conversations on cost optimization and resource allocation to make better decisions for your organization."
+
 jsfoo:
 - title: "JSFoo 2016"
   datelocation: "15-16 Sept 2016, Bangalore"
