@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block title %}{{ page.title }}{% endblock %}
+{% block headline %}{% endblock -%}
+{% block content -%}
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8">
+      <div class="page-header"><h1>{{ self.title() }}</h1></div>
+      {{ page.html|safe }}
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <ul class="well nav nav-list section">
+        <li class="nav-header">About</li>
+        <li><a href="/about/">About HasGeek</a></li>
+        <li><a href="/about/team">Team &amp; careers</a></li>
+        <li><a href="/about/media">Media resources</a></li>
+        <li><a href="/about/contact">Contact</a></li>
+        <li class="nav-header">Site Policies</li>
+        <li><a href="/about/policy/terms">Terms of service</a></li>
+        <li><a href="/about/policy/adtos">Sponsorship &amp; advertising</a></li>
+        <li><a href="/about/policy/privacy">Privacy policy</a></li>
+        <li><a href="/about/policy/refunds">Cancellation &amp; refund policy</a></li>
+        <li><a href="/about/policy/community">Community guidelines</a></li>
+        <li><a href="/about/policy/code">Code of conduct</a></li>
+      </ul>
+    </div>
+  </div>
+{%- endblock %}

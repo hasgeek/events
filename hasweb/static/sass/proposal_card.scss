@@ -1,0 +1,117 @@
+.proposals {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.proposal-card  {
+  flex: 0 0 auto;
+  vertical-align: top;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 0;
+  background-color: #fff;
+  width: 290px;
+  height: 400px;
+  margin: 30px 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .proposal-card  {
+    width: 420px;
+    height: 380px;
+    margin: 30px 15px;
+  }
+}
+
+.proposal-card :focus,
+.proposal-card :active {
+  outline: none;
+}
+
+.talk .title {
+  font-weight: bold;
+  font-size: 18px;
+  min-height: 50px;
+  max-height: 75px; /* fit text in one line */
+  margin: 0 0 10px;
+  padding: 15px 15px 0;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .talk .title {
+    max-height: 55px; /* fit text in one line */
+  }
+}
+
+.talk .separator {
+  border-width: 3px;
+  border-color: #F0DAAB;
+  margin: 0;
+}
+
+.talk .description {
+  max-height: 270px;
+  overflow: hidden;
+  padding: 15px 15px 0;
+}
+
+.description:after {
+  content: "";
+  width: 100%;
+  height: 52px;
+  position: absolute;
+  left: 0;
+  bottom: 52px;
+  z-index: 4;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 70%, #fff 100%);
+}
+
+@media (min-width: 768px) {
+  .talk .description {
+    max-height: 250px;
+  }
+}
+
+.proposal-card .description p, 
+.proposal-card .description ul,
+.proposal-card .description ol,
+.proposal-card .description pre {
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.proposal-card .description img {
+  width: 100%;
+}
+
+.proposal-card .description ul,
+.proposal-card .description ol {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+.talk .fullname {
+  background-color: $primary;
+  color: #fff;
+  margin: 0;
+  padding: 15px;
+  text-align: right;
+  line-height: 1.2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.modal-card-title {
+  width: 99%;
+}

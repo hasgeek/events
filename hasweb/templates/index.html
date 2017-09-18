@@ -1,0 +1,291 @@
+{% extends "layout.html" %}
+{% from "baseframe/components.html" import responsive_networkbar with context -%}
+{% block titletags -%}
+  <title>{% block title %}{{ config['SITE_TITLE'] }}{% endblock %}</title>
+  <meta name="DC.title" content="{{ config['SITE_TITLE'] }}"/>
+{%- endblock %}
+{% block headerbox %}
+  <header>
+    {{ responsive_networkbar(siteid=config['SITE_ID'], login=false) }}
+    <div id="home-header" class="container">
+      <div id="page-header" class="masthead col-md-12">
+        <img src="{{ url_for('static', filename='img/hg-banner.png') }}" alt="HasGeek logo" class="logo" width="185" height="139" />
+        <p class="primary">
+          <span class="s1">Hello!</span>
+          <span class="s2">HasGeek creates discussion spaces for geeks.</span>
+          <span class="s3">Come to our events to meet like-minded people,</span>
+          <span class="s1">learn new things</span>
+          <span class="s2">and discover new opportunities.</span>
+        </p>
+      </div>
+    </div>
+  </header>
+{% endblock %}
+{% block headline %}{% endblock %}
+{% block content %}
+  <div class="row" id="home-content">
+    <div class="col-md-6 masthead">
+      <p>
+        We operate <a href="https://hasjob.co/">Hasjob</a>,
+        hang out on a <a href="https://friends.hasgeek.com/">Slack channel</a>, and
+        <a href="https://github.com/hasgeek">publish our code</a>.
+        Our activities reach thousands of developers every month.
+      </p>
+    </div>
+    <div class="col-md-6 masthead">
+      <p>
+        <a href="https://talkfunnel.com/">Speak at our events</a>,
+        or <a href="http://eepurl.com/cygsfr">sign up to be notified</a> when we do one.
+        Watch videos from past events on <a href="https://hasgeek.tv/">HasGeek TV</a>.
+      </p>
+    </div>
+  </div>
+  <div class="container" id="app">
+      <h2 style="display:inline-block;">Upcoming Events</h2> (<a href="https://github.com/hasgeek/events" target="_blank">Add your event</a>)
+      <div id="events-container"><h2 class="text-center"><span class="loading">&nbsp;</span></h2></div>
+  </div>
+  <div class="container">
+      <h2>Upcoming Conferences</h2>
+      <div id="conf-container"><h2 class="text-center"><span class="loading">&nbsp;</span></h2></div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 masthead">
+      <p>
+        Previously:
+        <a href="https://kilter.in/2017/">Kilter 2017</a>,
+        <a href="https://50p.in/2017/">50p 2017</a>,
+        <a href="https://droidcon.in/2016/">droidconIN 2016</a>,
+        <a href="https://metarefresh.in/2016/">Meta Refresh 2016</a>,
+        <a href="https://jsfoo.in/2016/">JSFoo 2016</a>,
+        <a href="https://www.instamojo.com/devopsnexus/two-day-container-workshop-on-docker-platfor/">Two Day Container workshop on Docker platform</a>,
+        <a href="https://pipal.in/workshops/2016/http-bottom-up/">HTTP Bottom Up</a>,
+        <a href="https://pipal.in/workshops/2016/generators-inside-out/">Generators Inside Out</a>,
+        <a href="https://jsfoo.in/2016/nodejs-workshop/">NodeJS Workshop</a>,
+        <a href="https://metarefresh.in/2016/workshop">Good Enough Design for Responsive Web Apps</a>,
+        <a href="https://fifthelephant.in/2016/">The Fifth Elephant 2016</a>,
+        <a href="https://fifthelephant.in/2016/deep-learning/">Deep Learning Conf 2016</a>,
+        <a href="https://rootconf.in/2016/">Rootconf 2016</a>,
+        <a href="https://droidcon.in/2015/">droidconIN 2015</a>,
+        <a href="http://www.juliacon.in/2015/">JuliaCon India 2015</a>,
+        <a href="https://jsfoo.in/2015/">JSFoo 2015</a>,
+        <a href="https://fifthelephant.talkfunnel.com/2015/">The Fifth Elephant 2015</a>,
+        <a href="https://rootconf.talkfunnel.com/2015/">Rootconf 2015</a>,
+        <a href="https://metarefresh.talkfunnel.com/2015/">Meta Refresh 2015</a>,
+        <a href="https://rootconf.talkfunnel.com/informationsecurityworkshop/">Information Security workshop</a>,
+        <a href="https://droidcon.in/2014/">Droidcon India 2014</a>,
+        <a href="https://jsfoo.in/2014/">JSFoo 2014</a>,
+        <a href="https://fifthelephant.in/2014/">The Fifth Elephant 2014</a>,
+        <a href="https://rootconf.in/2014/">Rootconf 2014</a>,
+        <a href="https://funnel.hasgeek.com/redis-miniconf-2014">Redis Miniconf</a>,
+        <a href="https://metarefresh.in/2014/">Meta Refresh 2014</a>,
+        <a href="https://metarefresh.in/2014/angularjs-miniconf">AngularJS Miniconf</a>,
+        <a href="https://droidcon.in/2013/">Droidcon India 2013</a>,
+        <a href="https://jsfoo.in/2013/">JSFoo 2013</a>,
+        <a href="https://cssworkshop.metarefresh.in/">Responsive Web Design workshop</a>,
+        <a href="http://hasgeektv.doattend.com/">HasGeek TV workshop</a>,
+        <a href="https://advancedpython.hasgeek.com/">Advanced Python workshop</a>,
+        <a href="https://gitworkshop.hasgeek.com/">Git workshop</a>,
+        <a href="https://fifthelephant.in/2013/">The Fifth Elephant 2013</a>,
+        <a href="https://pigworkshop.fifthelephant.in/">Pig workshop</a>,
+        <a href="https://cssworkshop.metarefresh.in/2013-03/">CSS for the Soul</a>,
+        <a href="https://metarefresh.in/2013/">Meta Refresh 2013</a>,
+        <a href="https://droidcon.in/2012/">Droidcon India 2012</a>,
+        <a href="https://funnel.hasgeek.com/jsfoo/">JSFoo 2012</a>,
+        <a href="https://cartonama.com/2012/">Cartonama Conference</a>,
+        <a href="https://fifthelephant.in/2012/">The Fifth Elephant 2012</a>,
+        <a href="https://rootconf.in/bangalore2012">Rootconf</a>,
+        <a href="https://metarefresh.in/2012/">Meta Refresh 2012</a>,
+        <a href="https://workshop.cartonama.com/">Cartonama Workshop</a>,
+        JSFoo 2011-12 (in
+          <a href="https://jsfoo.in/bangalore2011">Bangalore</a>,
+          <a href="https://jsfoo.in/pune2012">Pune</a>, and
+          <a href="https://jsfoo.in/chennai2012">Chennai</a>),
+        <a href="https://droidcon.in/2011">Droidcon India 2011</a>,
+        <a href="https://phpcloud.hasgeek.com/">Scaling PHP in the Cloud</a>,
+        <a href="https://androidcamp.hasgeek.com/">AndroidCamp</a>
+        and <a href="http://www.doctypehtml5.in/">DocType HTML5</a>.
+      </p>
+    </div>
+  </div>
+{% endblock %}
+{% block footerscripts %}
+{% raw %}
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+<script id='event-card' type='text/ractive'>
+  <div class="col-md-4 col-sm-6">
+    <div class="event-card">
+      <div class="event-card-title-block">
+        <h2 class="event-card-title">{{ title }}</h2>
+        <small class="event-card-title-date">{{ date }}, {{ city }}</small>
+      </div>
+      <p class="event-card-blurb">{{ blurb }}</p>
+      <div class="event-card-btn-group">
+      {{#if url}}
+      <a href="{{ url }}" class="btn btn-sm btn-info event-card-btn-url">Attend</a>
+      {{/if}}
+      </div>
+    </div>
+  </div>
+</script>
+<script id='conf-card' type='text/ractive'>
+  {{#if color}}
+    {{>style-conf-card}}
+  {{/if}}
+  <div class="col-md-4 col-sm-6">
+    <div class="conf-card conf-card-{{idx}}">
+      <div class="conf-card-title-block conf-card-title-block-{{idx}}">
+        <h2 class="conf-card-title conf-card-title-{{idx}}">{{ title }}</h2>
+        <small class="conf-card-title-date conf-card-title-date-{{idx}}">{{ date }}, {{ city }}</small>
+      </div>
+      <p class="conf-card-blurb conf-card-blurb-{{idx}}">{{ blurb }}</p>
+      <div class="conf-card-btn-group">
+        {{#if url}}
+        <a href="{{ url }}" class="btn btn-sm btn-info conf-card-btn-url conf-card-btn-url-{{idx}}"><i class="fa fa-ticket"></i> Tickets</a>
+        {{/if}}
+        {{#if funnel}}
+        <a href="{{ funnel }}" class="btn btn-sm btn-info conf-card-btn-funnel conf-card-btn-funnel-{{idx}}"><i class="fa fa-file-text-o"></i> Call for proposals</a>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</script>
+<script id='style-conf-card' type='text/ractive'>
+<style type="text/css">
+  .conf-card-{{idx}} {
+    background-color: {{ color.primary }};
+    border-color: {{ color.primary_dark }};
+  }
+
+  .conf-card-title-block-{{idx}} {
+    background-color: {{ color.primary_dark }};
+  }
+
+  .conf-card-btn-url-{{idx}} {
+    background-color: {{ color.primary_dark }};
+    border-color: {{ color.primary_dark }};
+    text: {{buttonTextColor}};
+  }
+  .conf-card-btn-url-{{idx}}:hover, .conf-card-btn-url-{{idx}}:focus, .conf-card-btn-url-{{idx}}:active {
+    background-color: {{ color.primary_dark }};
+    border-color: {{ color.primary_dark }};
+    filter: brightness(85%);
+  }
+  .conf-card-btn-funnel-{{idx}} {
+    background-color: {{ color.primary_dark }};
+    border-color: {{ color.primary_dark }};
+    text: {{buttonTextColor}};
+  }
+  .conf-card-btn-funnel-{{idx}}:hover, .conf-card-btn-funnel-{{idx}}:focus, .conf-card-btn-funnel-{{idx}}:active {
+    background-color: {{ color.primary_dark }};
+    border-color: {{ color.primary_dark }};
+    filter: brightness(85%);
+  }
+</style>
+</script>
+<script>
+
+    $(document).ready(function (argument) {
+      loadEvents();
+    });
+
+    function loadEvents() {
+      $.getJSON("https://hasgeek.github.io/events/api/all.json")
+        .done(function success(data) {
+
+          eventComponent = Ractive.extend({
+            template: '{{#if inFuture}}{{>event-card}}{{/if}}',
+            computed: {
+              inFuture: function() {
+                return new Date(this.get('end_time')) > new Date();
+              },
+              date: function () {
+                startTime = new Date(this.get('start_time'));
+                endTime = new Date(this.get('end_time'));
+                if (startTime.toDateString() === endTime.toDateString()) { // same day
+                  return moment(startTime).format('ddd, D MMM, hA')+"-"+moment(endTime).format("hA");
+                }
+                else { // multiple days
+                  return moment(startTime).format("D")+"–"+moment(endTime).format("D MMM YYYY");
+                }
+              },
+              buttonTextColor: function(color) { return idealTextColor(this.get('color.primary_dark')); }
+            }
+          });
+
+          confComponent = Ractive.extend({
+            template: '{{#if inFuture}}{{>conf-card}}{{/if}}',
+            computed: {
+              inFuture: function() {
+                return new Date(this.get('start_time')) > new Date();
+              },
+              date: function () {
+                startTime = new Date(this.get('start_time'));
+                endTime = new Date(this.get('end_time'));
+                if (startTime.toDateString() === endTime.toDateString()) { // same day
+                  return moment(endTime).format("D MMM YYYY");
+                }
+                else { // multiple days
+                  return moment(startTime).format("D")+"–"+moment(endTime).format("D MMM YYYY");
+                }
+              },
+              buttonTextColor: function(color) { return idealTextColor(this.get('color.primary_dark')); }
+            }
+          });
+
+          ractive = new Ractive({
+            el: 'events-container',
+            template: '{{#events:idx}}<event/>{{/events}}',
+            data: {
+              events: data.events
+            },
+            components: { event: eventComponent }
+          });
+
+          ractive = new Ractive({
+            el: 'conf-container',
+            template: '{{#conferences:idx}}<conf/>{{/conferences}}',
+            data: {
+              conferences: data.conferences
+            },
+            components: { conf: confComponent }
+          });
+
+        })
+        .fail(function( jqxhr, textStatus, error ) {
+          var err = textStatus + ", " + error;
+          console.log("Request Failed: " + err );
+        });
+    }
+
+    function loadConferences() {
+      $.getJSON("https://hasgeek.github.io/events/conferences.json")
+        .done(function success(data) {
+
+        })
+        .fail(function( jqxhr, textStatus, error ) {
+          var err = textStatus + ", " + error;
+          console.log("Request Failed: " + err );
+        });
+    }
+
+    function idealTextColor(bgColor) {
+      var nThreshold = 105;
+      var components = getRGBComponents(bgColor);
+      var bgDelta = (components.R * 0.299) + (components.G * 0.587) + (components.B * 0.114);
+      return ((255 - bgDelta) < nThreshold) ? "#000000" : "#ffffff";
+    }
+
+    function getRGBComponents(color) {
+      var r = color.substring(1, 3);
+      var g = color.substring(3, 5);
+      var b = color.substring(5, 7);
+
+      return {
+        R: parseInt(r, 16),
+        G: parseInt(g, 16),
+        B: parseInt(b, 16)
+      };
+    }
+</script>
+{% endraw %}
+{% endblock %}

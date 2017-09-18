@@ -1,0 +1,48 @@
+---
+layout: base
+permalink: /live/
+---
+
+{% include assign_all_events.html %}
+
+{% assign all_live_events = all_events | where_exp: 'event', 'event.live'  %}
+
+
+  <section class="hero is-medium is-primary is-bold">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">
+          {{ site.title }}
+        </h1>
+        <h2 class="subtitle">
+          {% assign empty_array = "" | split: "" %}
+          {% if all_live_events != empty_array %}
+          Can't make it to the event? Watch the live stream here.
+          {% else %}
+          There are no upcoming live streams
+          {% endif %}
+        </h2>
+      </div>
+    </div>
+  </section>
+{% for event in all_live_events %}
+  <section class="section">
+    <div class="container">
+       <div class="columns is-centered">
+         <div class="column">
+           {% for live in event.live %}
+             <div class="has-text-centered">
+               <h1 class="title">{{ event.title }}</h1>
+               <h2 class="subtitle">{{ live.title }}</h2>
+               <iframe id="ytplayer" type="text/html" width="100%" height="360"
+               src="https://www.youtube.com/embed/{{ live.video_id }}?autoplay=0&origin={{ site.url }}{{ site.baseurl }}"
+               frameborder="0" style="max-width:640px;"></iframe>
+             </div>
+             <br>
+           {% endfor %}
+         </div>
+       </div>
+    </div>
+  </section>
+{% endfor %}
+{% include footer.html %}

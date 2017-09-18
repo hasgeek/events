@@ -1,0 +1,58 @@
+{% extends "baseframe.html" -%}
+{% from "baseframe/components.html" import responsive_networkbar with context %}
+
+{% block networkbar %}{{ responsive_networkbar(siteid=config['SITE_ID'], login=false) }}{% endblock %}
+
+{% block baseheadline -%}
+  {% block headline -%}
+    <h1>{{ self.title()|e }}</h1>
+  {%- endblock %}
+{%- endblock %}
+
+{% block basecontent -%}
+  {% block content %}{% endblock %}
+{%- endblock %}
+
+{% block footer -%}
+  <div class="row">
+    <div class="col-md-1">
+      <img src="{{ url_for('static', filename='img/footer.png') }}" width="75" alt="HasGeek" />
+    </div>
+    <div class="col-md-5" id="legal">
+      <p>
+        Copyright &copy; 2010-17 HasGeek. All rights reserved. <a href="/about/">About us and site policies</a>
+      </p>
+      <p>
+        #2699, 19th Main, 5th Cross, Indiranagar HAL 2nd Stage, Bangalore - 560008,
+        info&#64;hasgeek.com, +91 7676 33 2020
+      </p>
+    </div>
+    <div class="col-md-3">
+      <p id="footer-twitter">
+        <a href="https://twitter.com/hasgeek" class="twitter-follow-button">Follow @hasgeek</a>
+      </p>
+      <div class="fb-follow" data-href="https://www.facebook.com/HasGeek" data-layout="standard" data-show-faces="true">Follow on Facebook</div>
+    </div>
+    <div class="col-md-3">
+      <p>
+        Hosted by <a href="http://e2enetworks.com/">E2E Networks</a>
+      </p>
+    </div>    
+  </div>
+{%- endblock %}
+
+{% block layoutscripts -%}
+  {% block footerscripts %}{% endblock %}
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=114496105304651";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $('.navbar-brand').text('HasWeb');
+  </script>
+{%- endblock %}

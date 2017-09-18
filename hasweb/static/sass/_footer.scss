@@ -1,0 +1,33 @@
+@mixin footer-height($height) {
+    #root {
+        margin-bottom: -($height + 10px);
+        #root_footer {
+            height: $height + 10px;
+        }
+    }
+
+    footer {
+        min-height: $height;
+        .footer-inner {
+            min-height: $height;
+        }
+        .container {
+            text-align: left;    
+        }
+    }
+}
+
+@include footer-height(98px);
+
+@media screen and (max-width: 480px) {
+    @include footer-height(291px);
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    @include footer-height(247px);
+}
+@media screen and (min-width: 768px) and (max-width: 979px) {
+    @include footer-height(140px);
+}
+@media screen and (min-width: 980px) {
+    @include footer-height(123px);
+}

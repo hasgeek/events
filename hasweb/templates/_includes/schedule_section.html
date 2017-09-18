@@ -1,0 +1,103 @@
+<div class="has-text-centered">
+  <h1 class="title">Schedule</h1>
+</div>
+<div class="schedule-table-container" id="event-schedule-table">
+   <p class="has-text-centered loadingtxt"><a class="button is-primary" href="{{ page.schedule.url }}" target="_blank">View Schedule</a></p>
+   {% raw %}
+    <script id="scheduletemplate" type="text/x-mustache-template">
+      <div class="has-text-centered"><h4 class="subtitle"><i class="fa fa-calendar"></i> {{date}}</h4></div>
+      <table class="schedule-table" id="{{tableid}}">
+        <thead>
+          <tr>
+            <th class="time has-text-centered js-track"><div>Time</div></th>
+            {{#rooms}}
+            {{#track}}
+              <th class="track track{{track}} has-text-centered js-track" data-td="track-{{track}}"><div>{{shorttitle}}</div></th>
+            {{/track}}
+            {{^track}}
+              <th class="track track{{track}} has-text-centered tab-active js-track" data-td="track-{{track}}"><div>{{shorttitle}}</div></th>
+            {{/track}}
+            {{/rooms}}
+          </tr>
+        </thead>
+        <tbody>
+        {{#slots}}
+          {{#issession}}
+          <tr>
+            <td class="time" scope="row">
+              <div class="time-icon"></div>
+              <p class="time-text">{{slot}}</p>
+            </td>
+            {{#sessions}}
+            {{#is_break}}
+              {{#roomTitle}}
+                {{#track}}
+                  <td class="track track-{{track}} break" rowspan={{rowspan}}>
+                {{/track}}
+                {{^track}}
+                  <td class="track track-{{track}} break tab-active" rowspan={{rowspan}}>
+                {{/track}}
+                <div class="schedule-talk">
+                  <h4 class="title">{{title}}</h4>
+                  <p class="duration">{{start}} - {{end}}</p>
+                  {{#description}}
+                    <div class="description-text">{{{description}}}</div>
+                  {{/description}}
+                </div>
+              </td>
+              {{/roomTitle}}
+              {{^roomTitle}}
+              <td colspan="{{rooms.length}}" class="break tab-active" rowspan={{rowspan}}>
+                <div class="schedule-talk">
+                  <h4 class="title">{{title}}</h4>
+                  <p class="duration">{{start}} - {{end}}</p>
+                  {{#description}}
+                    <div class="description-text">{{{description}}}</div>
+                  {{/description}}
+                </div>
+              </td>
+              {{/roomTitle}}
+            {{/is_break}}
+            {{^is_break}}
+              {{#track}}
+                <td class="track track-{{track}}" rowspan={{rowspan}}>
+              {{/track}}
+              {{^track}}
+                <td class="track track-{{track}} tab-active" rowspan={{rowspan}}>
+              {{/track}}
+                <div class="schedule-talk">
+                  <h4 class="title">
+                    {{#description}}
+                    <i class="fa fa-caret-right js-expand expand-icon"></i>
+                    {{/description}}
+                    {{#proposal_url}}
+                    <a href="{{proposal_url}}" target="_blank" class="title click-btn">{{title}}</a>
+                    {{/proposal_url}}
+                    {{^proposal_url}}
+                    <span class="title">{{title}}</span>
+                    {{/proposal_url}}
+                  </h4>
+                  {{#description}}
+                  <div class="description-text">{{{description}}}</div>
+                  {{/description}}
+                  {{#speaker}}
+                  <p class="speaker">{{speaker}}</p>
+                  {{/speaker}}
+                  {{#title}}
+                  <p class="duration">{{start}} - {{end}}</p>
+                  {{/title}}
+                  {{#roomTitle}}
+                  <p class="venue"><i class="fa fa-map-marker"></i> {{roomTitle}}</p>
+                  {{/roomTitle}}
+                </div>
+              </td>
+            {{/is_break}}
+            {{/sessions}}
+          </tr>
+          {{/issession}}
+        {{/slots}}
+        </tbody>
+      </table>
+    </script>
+  {% endraw %}
+ </div>

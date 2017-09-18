@@ -1,0 +1,36 @@
+{% assign all_related_events = "" | split: "" %}
+
+{% for other_event in page.related_events %}
+  {% if other_event.title %}
+    {% assign all_related_events = all_related_events | push: other_event %}
+  {% else %}
+    {% assign e = other_event | split: "-" | first %}
+    {% assign y = other_event | split: "-" | shift | join: "-" %}
+    {% capture x %}/{{y}}/{% endcapture %}
+    {% include assign_all_events.html %}
+
+    {% for event in all_events %}
+      {% if event.collection contains e and event.url contains x %}
+
+        {% assign all_related_events = all_related_events | push: event %}
+      {% endif %}
+    {% endfor %}
+
+  {% endif %}
+
+{% endfor %}
+
+
+<div class="has-text-centered">
+    <h1 class="title">What else is happening?</h1>
+    <h2 class="subtitle">You may also be interested in these related events</h2>
+    <br>
+</div>
+
+<div class="columns is-centered is-multiline">
+{% for event in all_related_events %}
+  <div class="column is-4">
+    {% include event_card.html event=event %}
+  </div>
+{% endfor %}
+</div>

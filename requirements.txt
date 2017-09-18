@@ -1,2 +1,8 @@
+Flask
+git+https://github.com/hasgeek/coaster.git
+git+https://github.com/hasgeek/baseframe.git
+Flask-SQLAlchemy
+git+https://github.com/hasgeek/flask-lastuser.git
+Flask-Migrate
 pyyaml
 behave

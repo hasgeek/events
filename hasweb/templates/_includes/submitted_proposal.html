@@ -1,0 +1,48 @@
+<div class="has-text-centered">
+  <h1 class="title">Proposals</h1>
+</div>
+<div id="funnel-proposals">
+  <p class="has-text-centered loadingtxt">Loading...</p>
+  {% raw %}
+  <script id="proposals-wrapper" type="text/x-mustache-template">
+    <div class="proposals">
+      {{#proposals}}
+        <div class="proposal-card click" onclick="showModal('modal-proposal-{{id}}')">
+          <div class="talk">
+            <p class="title"><span>{{title}}</span></p>
+            <hr class="separator">
+            <div class="description">
+              {{{objective}}}
+            </div>
+            <p class="fullname regular"><span>{{fullname}}</span></p>
+          </div>
+        </div>
+      {{/proposals}}
+    </div>
+    {{#proposals}}
+    <div class="modal" tabindex="-1" role="dialog" id="modal-proposal-{{id}}">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">{{title}}</p>
+          <button class="delete" onclick="hideModal('modal-proposal-{{id}}')"></button>
+        </header>
+        <section class="modal-card-body">
+            <h4 class="modal-description-title ">Outline</h4>
+            <div class="modal-description">{{{description}}}</div>
+            <h4 class="modal-description-title ">Abstract</h4>
+            <div class="modal-description">{{{objective}}}</div>
+        </section>
+        <footer class="modal-card-foot">
+          <a type="button" class="button is-success" href="{{url}}" target="_blank" data-target="{{url}}" data-label="Vote">Vote</a>
+          <a type="button" class="button is-info" href="{{url}}/#comments" target="_blank" data-target="{{url}}/#comments" data-label="Discuss">Discuss</a>
+        </footer>
+      </div>
+    </div>
+    {{/proposals}}
+  </script>
+  {% endraw %}
+</div>
+{% if page.funnel.open %}
+  <p class="has-text-centered"><a href="{{ page.funnel.url }}" class="button is-primary">Propose a talk</a></p>
+{% endif %}

@@ -1,0 +1,13 @@
+{% assign all_events = "" | split: "" %}
+{% assign all_collections = site.collections | where:'type', 'event'%}
+{% for collection in all_collections  %}
+  {% assign all_events_c = collection.docs %}
+  {% for event in all_events_c  %}
+    {% assign event_d = event.end_time | date: '%Y%m%d' | plus: 0%}
+    {% assign site_d = site.time | date: '%Y%m%d' | plus: 0 %}
+    {% if event_d >= site_d %}
+      {% assign all_events = all_events | push: event %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% assign all_events = all_events | sort: 'start_time' %}

@@ -1,0 +1,18 @@
+<div>
+  <div class="col-md-offset-1 col-md-10">
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-md-12 mt-32 mb-32">
+          <h1 class="font-xl mt-32">{{ include.event.title }}</h1>
+          {% if include.event.subtitle %}
+          <h2 class="font-s">{{ include.event.subtitle }}</h2>
+          {% endif %}
+          <h2 class="font-m">{{ include.event.datelocation }}</h2>
+          {% if include.event.boxoffice_item_collection %}
+          <a class="mt-20 orange btn btn-m font-m" href="#tickets">Buy Tickets</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

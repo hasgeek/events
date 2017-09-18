@@ -1,0 +1,14 @@
+{% include assign_all_events.html %}
+
+<nav class="nav has-shadow is-hidden-mobile">
+  <div class="container">
+    <a class="nav-item" href="{{site.url}}{{site.baseurl}}/" >
+      {{ site.title }}
+    </a>
+    <div class="nav-left">
+			{% for event in all_events %}
+			  <a class="nav-item" href="{{site.url}}{{site.baseurl}}{{ event.url }}" >{{ event.title }}</a>
+			{% endfor %}
+    </div>
+  </div>
+</nav>
