@@ -1,0 +1,38 @@
+title: Rootconf
+subtitle: "A community and conference on DevOps and cloud infrastructure"
+description: "A community and conference on DevOps and cloud infrastructure"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://rootconf.in" # the base hostname & protocol for your site, e.g. http://example.com
+id: rootconf
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - .git
+  - .sass_cache
+  - node_modules
+  - _site
+  - tests
+  - vendor
+  - .DS_Store
+  - configs
+  - deploy
+  - requirements.txt
+  - README.md
+
+destination: _site/rootconf
+
+sass_dir: _sass
+
+liquid:
+  error_mode: strict
+
+collections:
+  rootconf_events:
+    type: event
+    output: true
+    permalink: /:path/

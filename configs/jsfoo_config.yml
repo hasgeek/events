@@ -1,9 +1,18 @@
-title: Rootconf
-subtitle: "A community and conference on DevOps and cloud infrastructure"
-description: "A community and conference on DevOps and cloud infrastructure"
+title: JSFoo
+subtitle: "A community and conference on JavaScript"
+description: "A community and conference on JavaScript"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://rootconf.in" # the base hostname & protocol for your site, e.g. http://example.com
-id: rootconf
+url: "https://jsfoo.in" # the base hostname & protocol for your site, e.g. http://example.com
+colors:
+  primary: "#549EAF"
+  accent: "#FAA51A"
+ga_tracking_code: UA-19123154-19
+icons:
+  touch:
+  - src: "images/touch/jsfoo-icon-300.png"
+    sizes: "300x300"
+    type: "image/png"
+id: jsfoo
 # Build settings
 markdown: kramdown
 gems:
@@ -24,7 +33,7 @@ exclude:
   - requirements.txt
   - README.md
 
-destination: _site/rootconf
+destination: _site/jsfoo
 
 sass_dir: _sass
 
@@ -32,7 +41,7 @@ liquid:
   error_mode: strict
 
 collections:
-  rootconf_events:
+  jsfoo_events:
     type: event
     output: true
     permalink: /:path/
