@@ -11,9 +11,7 @@ venue:
   label: WalmartLabs, Bangalore
   address: |
     Walmart Labs,
-    Sy No 15/2 & 14, 4th, 5th & 6th Floors.
-    A-Block, Salarpuria Aura Building,
-    Kadubeesenahalli, Outer Ring Road Bangalore
+    Salarpuria Aura, BLOCK A, 1st Floor, Marathahalli - Sarjapur Outer Ring Rd, Kaverappa Layout, Kadubeesanahalli, Bengaluru, Karnataka 560103, India
   lat: 12.936681
   lng: 77.690946
   google_maps_url: https://goo.gl/maps/fEGy3MnRZRm
@@ -25,6 +23,8 @@ overview:
     However, serverless also means serveral drawbacks including problems due to third-party API system, lack of operational tools, architectural complexity & implementation drawbacks. We'll have 2 talks followed by a panel discussion to delve deeper into the topic.
 
     If you'd like to get both the sides of server less architecture, this is a great place to be. RSVP now to reserve your spot!
+    
+    If you'd like to speak at the meetup or on the panel, write to shreyaskutty@hasgeek.com before Thursday, 21st September.
 
   right_content: |
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSctKXd83IA4Cv21JcUl5WG4inMv2UsiCV0XDMdrH0XL32bRfA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; height:45rem;">Loading...</iframe>
