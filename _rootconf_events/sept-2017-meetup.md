@@ -41,13 +41,13 @@ overview:
 
     However, serverless also means serveral drawbacks including problems due to third-party API system, lack of operational tools, architectural complexity & implementation drawbacks. We'll have 2 talks followed by a panel discussion to delve deeper into the topic.
     
-   We'll have a series of talks on the following topics:
-* Talk 1: Serverless Architecture : When less is more 
-Serverless architecture is a natural progression of computing model. When done right, it can add great value to developers. However, force fitting Serverless would have bad consequences for a project. Akhilesh's talk discusses the tradeoffs of using Serveless vs IaaS model. 
-* Talk 2: Serverless Through Case Studies and Examples
-Serverless is undoubtedly the hottest technology in cloud, but how is it applied in practice and how can we benefit from it? This talk provides a brief overview of serverless and gets into nitty-gritty details of how to use serverless in practice through a couple of case studies and examples. The first case study (with a demo) covers a chatbot implementation in AWS Lambda. The second case study (with a demo) covers a auto-retweeting code using Apache OpenWhisk and IBM Bluemix. The talk concludes with lessons learned, best practices and practical trade-offs involved in adopting serverless technologies.
+    We'll have a series of talks on the following topics:
+    * Talk 1: Serverless Architecture : When less is more 
+    Serverless architecture is a natural progression of computing model. When done right, it can add great value to developers. However, force fitting Serverless would have bad consequences for a project. Akhilesh's talk discusses the tradeoffs of using Serveless vs IaaS model. 
+    * Talk 2: Serverless Through Case Studies and Examples
+    Serverless is undoubtedly the hottest technology in cloud, but how is it applied in practice and how can we benefit from it? This talk provides a brief overview of serverless and gets into nitty-gritty details of how to use serverless in practice through a couple of case studies and examples. The first case study (with a demo) covers a chatbot implementation in AWS Lambda. The second case study (with a demo) covers a auto-retweeting code using Apache OpenWhisk and IBM Bluemix. The talk concludes with lessons learned, best practices and practical trade-offs involved in adopting serverless technologies.
 
-   If you'd like to get both the sides of server less architecture, this is a great place to be. RSVP now to reserve your spot!
+    If you'd like to get both the sides of server less architecture, this is a great place to be. RSVP now to reserve your spot!
     
     If you'd like to speak at the meetup or on the panel, write to shreyaskutty@hasgeek.com before Thursday, 21st September.
 
