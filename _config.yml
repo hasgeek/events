@@ -65,3 +65,7 @@ collections:
     type: event
     output: true
     permalink: /rootconf/:path/
+  50p_events:
+    type: event
+    output: true
+    permalink: /50p/:path/

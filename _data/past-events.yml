@@ -27,3 +27,13 @@ fifthelephant:
   datelocation: "28-29 Jul 2016, Bangalore"
   url: "https://fifthelephant.in/2016/"
   description: "Discuss the most cutting edge developments in the fields of machine learning, data science and technology that power data collection and analysis."
+
+50p:
+- title: "50p 2017, Mumbai"
+  datelocation: "8 Jul 2017, Mumbai"
+  url: "https://50p.in/devpay2017/"
+  description: "The second edition of 50p was held in Mumbai."
+- title: "50p 2017, Bangalore"
+  datelocation: "24-25 Jan 2017, Bangalore"
+  url: "https://50p.in/2017/"
+  description: "The first edition of 50p was held in Bangalore."
