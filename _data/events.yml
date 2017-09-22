@@ -250,3 +250,12 @@
   end_time: 2017-09-23 14:00
   url: https://rootconf.in/sept-2017-meetup/
   blurb: A meetup for anyone curious about serverless architecture. We'll have 2 talks followed by a panel discussion about the good, bad and ugly of serverless.
+
+- name: uber-mobility-techtalk-bangalore
+  title: "Uber for Everyone and Everywhere - Mobile and Web Performance Challenges"
+  city: Bangalore
+  venue: Uber, Bangalore
+  start_time: 2017-10-05 18:00
+  end_time: 2017-10-05 20:00
+  url: http://ubr.to/1SPGu12
+  blurb: Come and learn how Uber has built the foundations of Mobile and Web to suit the Indian market and solved some hard engineering challenges like device performance, networking and super lite web architecture.
