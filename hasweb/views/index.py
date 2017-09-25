@@ -6,7 +6,7 @@ from .. import app
 from hasweb.models import Event
 
 
-@app.route('/', subdomain="<brand>")
-def index(brand):
-    event = Event.query.one()
-    return "Hello "+brand+"\n"+request.headers['Host']+"---"+event.title
+@app.route('/')
+def index():
+    event = Event.query.first()
+    return "Hello \n"+request.headers['Host']+"---"+event.title
