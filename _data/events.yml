@@ -259,3 +259,21 @@
   end_time: 2017-10-05 20:00
   url: http://ubr.to/1SPGu12
   blurb: Come and learn how Uber has built the foundations of Mobile and Web to suit the Indian market and solved some hard engineering challenges like device performance, networking and super lite web architecture.
+  
+- name: open-house-prototyping
+  title: "Prototyping & motion in product design - Meta Refresh Open House"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-09-29 19:00
+  end_time: 2017-09-29 21:00
+  url: https://www.facebook.com/events/118427388821182/
+  blurb: Product design is a complex process. Come listen to Abhinav Chhikara share his experience with prototyping and motion design at the Meta Refresh open house on Friday.
+
+- name: javascript-enterprise-meetup-walmart
+  title: "JavaScript in Enterprise Meetup at WalmartLabs "
+  city: Bangalore
+  venue: WalmartLabs, Bangalore
+  start_time: 2017-10-14 11:00
+  end_time: 2017-10-14 14:00
+  url: https://jsfoo.in/2017-oct-enterprise-walmart-meetup/
+  blurb: On 14th October, we’re putting together a meetup on JavaScript in the enterprise world. We'll have 2 talks followed by a panel discussion on topics like hiring JS, adopting and adapting with new JS frameworks, impact of browser changes etc. RSVP now to attend!
