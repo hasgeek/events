@@ -18,7 +18,6 @@
     {% assign event_d = event.end_time | date: '%Y%m%d' | plus: 0 %}
     {% assign site_d = site.time | date: '%Y%m%d' | plus: 0 %}
     {% if event_d >= site_d %}
-      {% assign all_events = all_events | push: event %}
 
       {% if include.event.boxoffice_item_collection %}
         {% if include.event.boxoffice_item_collection_sold_out == true %}

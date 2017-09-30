@@ -23,12 +23,17 @@
       {% endif %}
       <h3 class="subtitle is-6">{{ include.event.datelocation }}</h3>
 
+      {% assign event_d = event.end_time | date: '%Y%m%d' | plus: 0 %}
+      {% assign site_d = site.time | date: '%Y%m%d' | plus: 0 %}
+
       <div class="block">
-        {% if include.event.boxoffice_item_collection %}
-          {% if include.event.boxoffice_item_collection_sold_out == true %}
-          <a class="button is-primary" data-href="#tickets" disabled>Buy Tickets(sold out)</a>
-          {% else %}
-          <a class="button is-primary" data-href="#tickets">Buy Tickets</a>
+        {% if event_d >= site_d %}
+          {% if include.event.boxoffice_item_collection %}
+            {% if include.event.boxoffice_item_collection_sold_out == true %}
+            <a class="button is-primary" data-href="#tickets" disabled>Buy Tickets(sold out)</a>
+            {% else %}
+            <a class="button is-primary" data-href="#tickets">Buy Tickets</a>
+            {% endif %}
           {% endif %}
         {% endif %}
         {% if include.event.schedule %}
@@ -38,12 +43,13 @@
         <a class="button is-primary" href="{{ include.event.funnel.url }}" target="_blank">Propose a talk</a>
         {% endif %}
       </div>
-      {% if include.event.live %}
-        <div class="block">
-          <a class="button is-info" href="{{ site.url }}{{ site.baseurl }}/live"><span class="icon"><i class="fa fa-video-camera" aria-hidden="true"></i></span><span>Watch the live stream</span></a>
-        </div>
+      {% if event_d >= site_d %}
+        {% if include.event.live %}
+          <div class="block">
+            <a class="button is-info" href="{{ site.url }}{{ site.baseurl }}/live"><span class="icon"><i class="fa fa-video-camera" aria-hidden="true"></i></span><span>Watch the live stream</span></a>
+          </div>
+        {% endif %}
       {% endif %}
-
     </div>
   </div>
 </section>
