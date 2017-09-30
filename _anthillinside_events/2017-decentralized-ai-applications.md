@@ -2,10 +2,10 @@
 layout: workshop
 title: "Decentralized AI applications"
 subtitle: "A workshop about the intersection of AI with blockchains and smart contracts."
-datelocation: "9 Dec 2017, 10 AM - 4:30 PM, Bangalore"
+datelocation: "11 Dec 2017, 10 AM - 4:30 PM, Bangalore"
 city: Bangalore
-start_time: 2017-12-09
-end_time: 2017-12-09
+start_time: 2017-12-11
+end_time: 2017-12-11
 description: "A workshop about the intersection of AI with blockchains and smart contracts."
 boxoffice_item_collection: 'f6c65297-7895-469a-a15b-a8ad6535d131'
 

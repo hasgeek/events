@@ -2,10 +2,10 @@
 layout: workshop
 title: "React Native workshop"
 subtitle: "(iOS, Android, Windows Phone, Web, Desktop, Electron and even VR*)"
-datelocation: "17 September 2017, 1:45PM to 6PM, Bangalore"
+datelocation: "28 Oct 2017, 1:45PM to 6PM, Bangalore"
 city: Bangalore
-start_time: 2017-09-17
-end_time: 2017-09-17
+start_time: 2017-10-28
+end_time: 2017-10-28
 description: "Learn how to build native iOS and android app using React Native such that it can easily be extended to any platform such as Windows Phone, Web, Desktop, Electron and even VR*."
 boxoffice_item_collection: "41330df7-d462-455e-9804-212707f16f88"
 venue:
