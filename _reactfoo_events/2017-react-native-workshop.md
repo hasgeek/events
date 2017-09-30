@@ -2,7 +2,7 @@
 layout: workshop
 title: "React Native workshop"
 subtitle: "(iOS, Android, Windows Phone, Web, Desktop, Electron and even VR*)"
-datelocation: "28 October 2017, 1:45PM to 6PM, Bangalore"
+datelocation: "28 Oct 2017, 1:45PM to 6PM, Bangalore"
 city: Bangalore
 start_time: 2017-10-28
 end_time: 2017-10-28
