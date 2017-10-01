@@ -2,14 +2,14 @@
 
 # The imports in this file are order-sensitive
 
+import coaster.app
+from baseframe import baseframe, assets, Version
 from flask import Flask
 from flask_lastuser import Lastuser
 from flask_lastuser.sqlalchemy import UserManager
-from baseframe import baseframe, assets, Version
 from flask_migrate import Migrate
-import coaster.app
-from ._version import __version__
 
+from ._version import __version__
 
 version = Version(__version__)
 app = Flask(__name__, instance_relative_config=True)
@@ -27,4 +27,3 @@ baseframe.init_app(app, requires=['fontawesome', 'ractive', 'bulma', 'hasweb'])
 lastuser.init_app(app)
 lastuser.init_usermanager(UserManager(models.db, models.User))
 
-from . import data

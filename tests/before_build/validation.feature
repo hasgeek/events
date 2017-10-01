@@ -9,3 +9,7 @@ Feature: Validating data
 	Then conferences.yml must exist
 	Then all mandatory conference fields must exist
 	Then all conference fields must be the right type and length
+  Scenario: New brand added to conferences.yml
+	Given a brand added
+	Then brands.yml must exist
+	Then all mandatory brand fields must exist

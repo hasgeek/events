@@ -6,4 +6,7 @@ try:
     port = int(sys.argv[1])
 except (IndexError, ValueError):
     port = 6400
-app.run('0.0.0.0', port=port, debug=True)
+
+
+if __name__ == '__main__':
+    app.run('0.0.0.0', port=port, debug=True)

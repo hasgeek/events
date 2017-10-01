@@ -2,7 +2,6 @@
 
 from flask_sqlalchemy import SQLAlchemy
 from hasweb import app
-from coaster.sqlalchemy import IdMixin, TimestampMixin, BaseMixin, BaseNameMixin
 
 db = SQLAlchemy(app)
 

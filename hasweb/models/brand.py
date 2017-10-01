@@ -1,10 +1,13 @@
 # -*- coding: utf-8 -*-
 
-from coaster.sqlalchemy import IdMixin
-from . import db
 import re
 
-__all__ = ['EventType', 'MapType', 'Speaker', 'Event']
+from coaster.sqlalchemy import IdMixin
+
+import data
+from . import db
+
+__all__ = ['EventType', 'MapType', 'Speaker']
 
 
 url_regex = re.compile(
@@ -17,8 +20,8 @@ url_regex = re.compile(
     r'(?:/?|[/?]\S+)$', re.IGNORECASE)
 
 
-class EventType(object):
-    def __init__(self, id=None, name=None):
+class Brand(object):
+    def __init__(self, id=None, name=None, config=None):
 
         self.validate(id, name)
 
@@ -27,11 +30,11 @@ class EventType(object):
 
     def validate(self, id, name):
         if id == None or name == None:
-            raise ValueError("EventType needs an id and name")
+            raise ValueError("Brand needs an id and name")
 
 
-class MapType(object):
-    def __init__(self, id=None, name=None):
+class BrandConfig(object):
+    def __init__(self, title=None, subtitle=None, description=None, hostname=None, style=None, analytics=None, meta=None):
 
         self.validate(id, name)
 
@@ -48,8 +51,8 @@ class Map(IdMixin, db.Model):
     __tablename__ = 'map'
 
     type = db.Column(db.Unicode(80), nullable=False)
-    lat = db.Column(db.DECIMAL, nullable=False)
-    lng = db.Column(db.DECIMAL, nullable=False)
+    lat = db.Column(db.Decimal, nullable=False)
+    lng = db.Column(db.Decimal, nullable=False)
 
     access_token = db.Column(db.Unicode(300), nullable=True)
     styles_url = db.Column(db.Unicode(300), nullable=True)
@@ -69,19 +72,19 @@ class Map(IdMixin, db.Model):
 
 
 
-    # def validate_type(self, type=None):
-    #     if type in data.MAP_TYPES.keys():
-    #         return
-    #     else:
-    #         raise ValueError('Map\'s type is invalid')
+    def validate_type(self, type=None):
+        if type in data.MAP_TYPES.keys():
+            return
+        else:
+            raise ValueError('Map\'s type is invalid')
 
 
-    # def validate_access_token(self, type=None, access_token=None):
-    #     if type in data.MAP_TYPES.keys():
-    #         if type == 'mapbox' and access_token == None:
-    #             raise ValueError('Need to specify an access token when using mapbox maps')
-    #     else:
-    #         raise ValueError('Invalid maptype')
+    def validate_access_token(self, type=None, access_token=None):
+        if type in data.MAP_TYPES.keys():
+            if type == 'mapbox' and access_token == None:
+                raise ValueError('Need to specify an access token when using mapbox maps')
+        else:
+            raise ValueError('Invalid maptype')
 
 
 
@@ -148,8 +151,12 @@ class Event(IdMixin, db.Model):
     end_time = db.Column(db.DateTime())
     description = db.Column(db.Unicode(300))
 
-    ticket_config_id = db.Column(None, db.ForeignKey('ticket_config.id'))
-    ticket_config = db.relationship("TicketConfig", backref=db.backref("event", uselist=False))
+
+    register_config_id = db.Column(None, db.ForeignKey('register_config.id'))
+    register_config = db.relationship("RegisterConfig", backref=db.backref("event", uselist=False))
+
+    event_type_id = db.Column(None, db.ForeignKey('event_type.id'))
+    event_type = db.relationship("EventType", backref=db.backref("event", uselist=False))
 
 
 

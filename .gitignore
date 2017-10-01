@@ -10,3 +10,4 @@ instance/development.py
 instance/testing.py
 .webassets-cache
 *.pyc
+.idea

@@ -1,0 +1,102 @@
+anthillinside:
+  title: Anthill Inside
+  subtitle: "India's community of deep learning and artificial intelligence practitioners"
+  path: "" # the subpath of your site, e.g. /blog
+  hostname: "anthillinside.in" # the base hostname of this site
+  seo:
+    description: "India's community of deep learning and artificial intelligence practitioners"
+  colors:
+    primary: "#3f50a3"
+    accent: "#e76f45"
+  ga_tracking_code: UA-19123154-36
+  meta:
+    image: "images/meta/anthillinside.png"
+  icons:
+    touch:
+    - src: "images/touch/anthillinside-icon-192.png"
+      sizes: "192x192"
+      type: "image/png"
+
+fifthelephant:
+  title: The Fifth Elephant
+  subtitle: "India's most renowned data science community and conference"
+  seo:
+    description: "India’s most renowned data science conference. Discuss the most cutting edge developments in the fields of machine learning, data science and technology that power data collection and analysis."
+  path: "" # the subpath of your site, e.g. /blog
+  hostname: "fifthelephant.in" # the base hostname & protocol for your site, e.g. http://example.com
+  colors:
+    primary: "#498f94"
+    accent: "#EC6015"
+  ga_tracking_code: UA-19123154-20
+  meta:
+    image: "images/meta/fifthelephant.png"
+  icons:
+    touch:
+    - src: "images/touch/fifthelephant-icon-192.png"
+      sizes: "192x192"
+      type: "image/png"
+
+fragments:
+  title: Fragments
+  subtitle: "India's community of Android, iOS, and mobile web developers<br>(formerly called droidconIN)"
+  seo:
+    description: "India's community of Android, iOS, and mobile web developers"
+  path: "" # the subpath of your site, e.g. /blog
+  hostname: "fragments.in" # the base hostname & protocol for your site, e.g. http://example.com
+  colors:
+    primary: "#1BAF82"
+    accent: "#99CB54"
+  meta:
+    image: "images/meta/fragments.png"
+  ga_tracking_code: UA-19123154-37
+
+jsfoo:
+  title: JSFoo
+  subtitle: "A community and conference on JavaScript"
+  seo:
+    description: "A community and conference on JavaScript"
+  path: "" # the subpath of your site, e.g. /blog
+  hostname: "jsfoo.in" # the base hostname & protocol for your site, e.g. http://example.com
+  colors:
+    primary: "#549EAF"
+    accent: "#FAA51A"
+  ga_tracking_code: UA-19123154-19
+  icons:
+    touch:
+    - src: "images/touch/jsfoo-icon-300.png"
+      sizes: "300x300"
+      type: "image/png"
+
+metarefresh:
+  title: Meta Refresh
+  subtitle: "A community and conference on the construction of user experience on the web"
+  seo:
+    description: "A community and conference on the construction of user experience on the web."
+  path: "" # the subpath of your site, e.g. /blog
+  hostname: "metarefresh.in" # the base hostname & protocol for your site, e.g. http://example.com
+  colors:
+    primary: "#b22e40"
+    accent: "#921b3f"
+  ga_tracking_code: UA-19123154-19
+  icons:
+    touch:
+    - src: "images/touch/metarefresh-icon-192.png"
+      sizes: "192x192"
+      type: "image/png"
+
+reactfoo:
+  title: ReactFoo
+  subtitle: "India's community of React.js and React Native developers"
+  seo:
+    description: "India's community of React.js and React Native developers"
+  path: "" # the subpath of your site, e.g. /blog
+  hostname: "https://reactfoo.in" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+rootconf:
+  title: Rootconf
+  subtitle: "A community and conference on DevOps and cloud infrastructure"
+  seo:
+    description: "A community and conference on DevOps and cloud infrastructure"
+  path: "" # the subpath of your site, e.g. /blog
+  hostname: "rootconf.in" # the base hostname & protocol for your site, e.g. http://example.com
