@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Workshop: The Art of Data Science"
+title: "Workshops: The Art of Data Science"
 subtitle: "Learn how to employ statistical and machine learning algorithms to solve real life problems"
 datelocation: "3-5 November 2017, Bangalore"
 city: Bangalore
