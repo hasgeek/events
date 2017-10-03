@@ -300,8 +300,8 @@
   title: React Native workshop
   city: Bangalore
   venue: IKP Eden
-  start_time: 2017-10-28 01:30
-  end_time: 2017-08-20 05:30
+  start_time: 2017-10-28 13:30
+  end_time: 2017-10-28 17:30
   url: https://reactfoo.in/2017-react-native-workshop/
   blurb: Learn how to build native iOS and android app using React Native such that it can easily be extended to any platform such as Windows Phone, Web, Desktop, Electron and even VR*.
 
