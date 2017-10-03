@@ -277,3 +277,21 @@
   end_time: 2017-10-14 14:00
   url: https://jsfoo.in/2017-oct-enterprise-walmart-meetup/
   blurb: On 14th October, we’re putting together a meetup on JavaScript in the enterprise world. We'll have 2 talks followed by a panel discussion on topics like hiring JS, adopting and adapting with new JS frameworks, impact of browser changes etc. RSVP now to attend!
+
+- name: open-house-icos
+  title: "ICOs, investing in cryptocurrencies, Segwit 101 and, scaling challenges"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-10-06 19:00
+  end_time: 2017-10-06 21:00
+  url: https://www.facebook.com/events/1962471267348058/
+  blurb: Discuss the new buzz in the cryptocurrency space with Nitin Sharma and Vivek K, who will talk in depth on cryptocurrencies, ICOs, what the future of investing looks like and touch on the 'hard fork' of bitcoin.
+
+- name: kilter-oct-fitness-festival
+  title: "October Fitness Festival"
+  city: Bangalore
+  venue: online
+  start_time: 2017-10-01 00:00
+  end_time: 2017-10-29 23:59
+  url: https://blog.kilter.in
+  blurb: Kilter's focus is on fitness through October. Daily step goals, exercise challenges, dance, meditation, and more. Join the community on Slack or WhatsApp.
