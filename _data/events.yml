@@ -299,6 +299,7 @@
 - name: react-native-workshop-1
   title: React Native workshop
   city: Bangalore
+  venue: IKP Eden
   start_time: 2017-10-28 01:30
   end_time: 2017-08-20 05:30
   url: https://reactfoo.in/2017-react-native-workshop/
@@ -307,6 +308,7 @@
 - name: artds-workshops-1
   title: Workshops series on The Art of Data Science
   city: Bangalore
+  venue: IKP Eden
   start_time: 2017-11-03 10:00
   end_time: 2017-11-05 17:00
   url: https://fifthelephant.in/2017-nov-artds-workshop/
@@ -315,6 +317,7 @@
 - name: dl-and-ml-for-cv-workshop-1
   title: Deep Learning and Machine Learning for Computer Vision
   city: Bangalore
+  venue: Innov8
   start_time: 2017-11-04 10:00
   end_time: 2017-11-04 17:00
   url: https://fifthelephant.in/2017-aug-dl-and-ml-for-cv-workshop/
@@ -323,6 +326,7 @@
 - name: pwa-workshop-1
   title: Angular PWA workshop
   city: Bangalore
+  venue: TBD
   start_time: 2017-11-11 10:00
   end_time: 2017-11-11 13:30
   url: https://jsfoo.in/2017-nov-pwa-workshop/
@@ -331,6 +335,7 @@
 - name: hackermath-workshop-1
   title: Hacker Math for Machine Learning
   city: Bangalore
+  venue: IKP Eden
   start_time: 2017-11-24 10:00
   end_time: 2017-11-25 17:00
   url: https://fifthelephant.in/2017-nov-hackermath-workshop/
@@ -339,6 +344,7 @@
 - name: interactive-viz-workshop-1
   title: Interactive Visualisation for Data Science
   city: Bangalore
+  venue: IKP Eden
   start_time: 2017-11-26 10:00
   end_time: 2017-11-26 13:00
   url: https://fifthelephant.in/2017-nov-interactive-viz-workshop/
@@ -347,6 +353,7 @@
 - name: recommendation-systems-workshop-1
   title: Introduction to Recommendation Systems
   city: Bangalore
+  venue: IKP Eden
   start_time: 2017-12-16 10:00
   end_time: 2017-12-16 17:00
   url: hhttps://fifthelephant.in/2017-dec-recommendation-systems-workshop/
