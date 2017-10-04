@@ -4,11 +4,6 @@ Feature: Validating data
 	Then events.yml must exist
 	Then all mandatory event fields must exist
 	Then all event fields must be the right type and length
-  Scenario: New conference added to conferences.yml
-	Given a conference added
-	Then conferences.yml must exist
-	Then all mandatory conference fields must exist
-	Then all conference fields must be the right type and length
   Scenario: New brand added to conferences.yml
 	Given a brand added
 	Then brands.yml must exist
