@@ -186,7 +186,7 @@
   start_time: 2017-09-02 10:00
   end_time: 2017-09-02 13:00
   url: https://fragments.in/2017-sep-chennai-meetup/
-  blurb: A meetup for anyone interested in the evolution of the mobile ecosystem. This meetup is happening at Zoho Corporation in Chennai. 
+  blurb: A meetup for anyone interested in the evolution of the mobile ecosystem. This meetup is happening at Zoho Corporation in Chennai.
 
 - name: jsfoo-hacknight
   title: "JSFoo hacknight at HasGeek house"
@@ -196,7 +196,7 @@
   end_time: 2017-09-10 08:00
   url: https://jsfoo.in/2017-sept-hacknight/
   blurb: We're conducting a hacknight for all the JavaScript enthusiasts. Unlike regular hackathons, hacknights at HasGeek foster collaboration among developers who are passionate about building things. RSVP now to attend!
-  
+
 - name: jsfoo-keralajs-meetup
   title: "JavaScript meetup in Kerala"
   city: Kochi
@@ -205,7 +205,7 @@
   end_time: 2017-08-26 17:00
   url: https://www.eventbrite.com/e/kerala-js-meetup-august-2017-tickets-36826621416
   blurb: A meetup for all JavaScript enthusiasts, in collaboration with the KeralaJS community.
-  
+
 - name: open-house-anthill-math
   title: "Anthill Inside open house on math and stats for programmers"
   city: Bangalore
@@ -223,7 +223,7 @@
   end_time: 2017-08-25 21:30
   url: https://www.facebook.com/events/108583926542255/
   blurb: "In light of the Supreme Court's Right to Privacy verdict yesterday, we are hosting a celebration! Join us as we talk about we got here, the historical context behind this judgement, and what doors this opens up in future."
- 
+
 - name: anthill-computer-vision-meetup
   title: "Computer vision in e-commerce meetup"
   city: Bangalore
@@ -232,7 +232,7 @@
   end_time: 2017-09-09 13:00
   url: https://anthillinside.in/2017-sep-bangalore-meetup/
   blurb: We’re putting together a meetup at WalmartLabs to discuss about the application of computer vision in e-commerce. One of the key areas in which computer vision is currently used in e-commerce is in “fashion”. Our speakers will walk us through some of the applications and use cases of the same.
-  
+
 - name: open-data-hyderabad
   title: "Talk on Open Data Standards"
   city: Hyderabad
@@ -259,7 +259,7 @@
   end_time: 2017-10-05 20:00
   url: http://ubr.to/1SPGu12
   blurb: Come and learn how Uber has built the foundations of Mobile and Web to suit the Indian market and solved some hard engineering challenges like device performance, networking and super lite web architecture.
-  
+
 - name: open-house-prototyping
   title: "Prototyping & motion in product design - Meta Refresh Open House"
   city: Bangalore
@@ -336,8 +336,8 @@
   title: Hacker Math for Machine Learning
   city: Bangalore
   venue: IKP Eden
-  start_time: 2017-11-24 10:00
-  end_time: 2017-11-25 17:00
+  start_time: 2017-11-25 10:00
+  end_time: 2017-11-26 17:00
   url: https://fifthelephant.in/2017-nov-hackermath-workshop/
   blurb: Workshop on learning Hacker Math for Machine Learning
 
@@ -345,8 +345,8 @@
   title: Interactive Visualisation for Data Science
   city: Bangalore
   venue: IKP Eden
-  start_time: 2017-11-26 10:00
-  end_time: 2017-11-26 13:00
+  start_time: 2017-11-18 10:00
+  end_time: 2017-11-18 13:00
   url: https://fifthelephant.in/2017-nov-interactive-viz-workshop/
   blurb: Workshop on learning the grammar of interactive graphics
 

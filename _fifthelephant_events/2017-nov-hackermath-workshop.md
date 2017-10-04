@@ -2,10 +2,10 @@
 layout: workshop
 title: "Hacker Math for Machine Learning"
 subtitle: "Workshop on learning Hacker Math for Machine Learning"
-datelocation: "24-25 November 2017, Bangalore"
+datelocation: "25-26 November 2017, Bangalore"
 city: Bangalore
-start_time: 2017-11-24
-end_time: 2017-11-25
+start_time: 2017-11-25
+end_time: 2017-11-26
 description: "Workshop on learning Hacker Math for Machine Learning"
 boxoffice_item_collection: '241fd2de-40b9-4c50-b84d-4384ca4affad'
 
