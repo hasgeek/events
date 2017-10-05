@@ -358,3 +358,12 @@
   end_time: 2017-12-16 17:00
   url: https://fifthelephant.in/2017-dec-recommendation-systems-workshop/
   blurb: Workshop on learning how to build various types of recommendation system
+
+- name: girls-who-javascript-3
+  title: "Girls Who JavaScript Meetup #3"
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-10-07 11:00
+  end_time: 2017-10-07 14:00
+  url: https://www.meetup.com/preview/Girls-Who-Javascript/events/243455082
+  blurb: A meetup for women who write JavaScript (or who want to learn Javascript). Come discuss your work, interests, and ideas in JS!
