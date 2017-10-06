@@ -23,7 +23,7 @@ from . import models, views  # NOQA
 # Configure the app
 coaster.app.init_app(app)
 migrate = Migrate(app, models.db)
-baseframe.init_app(app, requires=['fontawesome', 'ractive', 'bulma', 'hasweb'])
+baseframe.init_app(app, requires=['fontawesome', 'ractive', 'bulma', 'hasweb'], theme='mui')
 lastuser.init_app(app)
 lastuser.init_usermanager(UserManager(models.db, models.User))
 

@@ -27,7 +27,7 @@ for brand_key in ALL_BRANDS.keys():
         stream = open(event_file, "r")
         for event in yaml.load_all(stream):
             if event is not None:
-                ALL_EVENTS[brand_key+'_'+event_file] = event
+                ALL_EVENTS[brand_key+'_'+event_file.rsplit('/', 1)[1].split('.', 1)[0]] = event
 
 
 
