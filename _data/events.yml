@@ -367,3 +367,12 @@
   end_time: 2017-10-07 14:00
   url: https://www.meetup.com/preview/Girls-Who-Javascript/events/243455082
   blurb: A meetup for women who write JavaScript (or who want to learn JavaScript). Come discuss your work, interests, and ideas!
+
+- name: 50p-gnosis-consensys-meetup
+  title: "Meetup on applications of Blockchain in business trends"
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-10-08 15:00
+  end_time: 2017-10-08 16:00
+  url: https://www.facebook.com/events/308613639615900/
+  blurb: We're partnering with InOut to put together a meetup on the applications of blockchain & business trends. For this meetup, we'll have the amazing folks from Gnosis & ConsenSys.
