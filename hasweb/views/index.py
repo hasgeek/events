@@ -2,10 +2,12 @@
 
 from flask import render_template, redirect, url_for, request
 from hasweb.models import Event
+from helpers import get_brand
 from .. import app
+from data import ALL_EVENTS
 
 
-@app.route('/')
-def index():
-    event = Event.query.first()
-    return "Hello \n"+request.headers['Host']+"---"+event.title
+@app.route('/event/<id>')
+@get_brand
+def index(id, brand=None):
+    return brand['title'] or "Hello"

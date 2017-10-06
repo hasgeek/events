@@ -27,3 +27,4 @@ baseframe.init_app(app, requires=['fontawesome', 'ractive', 'bulma', 'hasweb'])
 lastuser.init_app(app)
 lastuser.init_usermanager(UserManager(models.db, models.User))
 
+import data
