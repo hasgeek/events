@@ -1,12 +1,12 @@
 ---
 layout: workshop
-title: "Hacker Math for Machine Learning"
-subtitle: "Workshop on learning Hacker Math for Machine Learning"
-datelocation: "25-26 November 2017, Bangalore"
+title: "Workshop: Hacker Math for Machine Learning"
+subtitle: " Learn linear algebra, calculus & statistics by writing code and vis"
+datelocation: "25-26 November 2017, 10:00 AM to 5:00 PM, IKP EDEN, Bengaluru"
 city: Bangalore
 start_time: 2017-11-25
 end_time: 2017-11-26
-description: "Workshop on learning Hacker Math for Machine Learning"
+description: "A deep dive in to linear algebra, calculus & statistics through the "Hacker's way " - by writing code and vis, not through formulae and proofs"
 boxoffice_item_collection: '241fd2de-40b9-4c50-b84d-4384ca4affad'
 
 instructors:
