@@ -2,7 +2,7 @@
 layout: workshop
 title: "Angular PWA workshop"
 subtitle: "Learn how to build progressive web apps using Angular"
-datelocation: "11 November 2017, Bangalore"
+datelocation: "11 November 2017, 10:00 AM to 1:15 PM, Bangalore"
 city: Bangalore
 start_time: 2017-11-11
 end_time: 2017-11-11
