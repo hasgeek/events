@@ -21,9 +21,9 @@ instructors:
 
 overview:
   left_content: |
-
-    Introduction
+  
     Progressive web apps are no longer considered an alternative to native mobile apps, instead they are evolving to becoming the de-facto way of building web apps.
+    
     Angular’s vision is to get to a point where every Angular application deployed to production is by default AOT compiled and is a PWA.
 
     During the workshop participants will fork a regular Angular application and will go about converting it into a PWA.
