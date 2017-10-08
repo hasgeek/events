@@ -2,7 +2,7 @@
 layout: workshop
 title: "Public lecture on Decentralized AI by Gene Kogan"
 subtitle: "A talk on possibilities that lie at the intersection of artificial intelligence and blockchains"
-datelocation: "8 Dec 2017, 6 PM - 9 PM, BHIVE HSR Layout Sector 6, Bangalore"
+datelocation: "12 Dec 2017, 6 PM - 9 PM, BHIVE HSR Layout Sector 6, Bangalore"
 city: Bangalore
 start_time: 2017-12-08
 end_time: 2017-12-08
