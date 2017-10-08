@@ -1,12 +1,12 @@
 ---
 layout: workshop
 title: "Interactive Visualisation for Data Science"
-subtitle: "Workshop on learning the grammar of interactive graphics"
-datelocation: "18 Nov 2017, Bangalore"
+subtitle: "A beginner workshop on creating interactive data visualisations for dataexplorations & communications"
+datelocation: "18 Nov 2017, 10:00 AM to 1:00 PM, IKP EDEN, Bengaluru"
 city: Bangalore
 start_time: 2017-11-18
 end_time: 2017-11-18
-description: "Workshop on learning the grammar of interactive graphics"
+description: "A beginner workshop on creating interactive data visualisations for dataexplorations & communications"
 boxoffice_item_collection: '2f04fac0-3a0a-49ec-b04b-2c90e01491f4'
 
 instructors:
