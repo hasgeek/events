@@ -57,7 +57,7 @@ overview:
 
     #### Duration: 3 hours
 
-    #### Workshop Team: 
+    #### Workshop Team (eXperience Technologies team from Sapient Razorfish): 
 
     * Vinci Rufus –Sr. Director  SapientRazorfish
     * Nisheed Jagdeesh  -Manager SapientRazorfish
