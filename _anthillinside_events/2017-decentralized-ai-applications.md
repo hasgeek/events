@@ -20,7 +20,7 @@ speakers:
 
 overview:
   center_content: |
-    This workshop is a follow-up to the talk "Decentralized AI" by Gene Kogan on December 12, which is about the intersection of artificial intelligence with decentralization technologies such as blockchains and smart contracts. Primary sub-topics include blockchain mechanics and cryptography, federated learning, and security considerations. Relevant platforms will be introduced. The tentative syllabus is as follows:
+    This workshop is a follow-up to the talk ["Decentralized AI" by Gene Kogan on December 12](https://anthillinside.in/2017-dec-bangalore-lecture/), which is about the intersection of artificial intelligence with decentralization technologies such as blockchains and smart contracts. Primary sub-topics include blockchain mechanics and cryptography, federated learning, and security considerations. Relevant platforms will be introduced. The tentative syllabus is as follows:
 
     #### cryptography prerequisites
     
