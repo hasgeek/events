@@ -26,7 +26,7 @@ speakers:
     label: "Website"
   image_url: https://images.hasgeek.com/embed/file/8d34b431d2ed460b83d0492004988a99
   bio: |
-    Gene Kogan is an artist and a programmer who is interested in generative systems, artificial intelligence, and software for creativity and self-expression. He is a collaborator within numerous open-source software projects, and leads workshops and demonstrations on topics at the intersection of code and art. Gene initiated and contributes to ml4a, a free book about machine learning for artists, activists, and citizen scientists. He regularly publishes video lectures, writings, and tutorials to facilitate a greater public understanding of the topic.
+    Gene Kogan is an artist and a programmer who is interested in generative systems, artificial intelligence, and software for creativity and self-expression. He is a collaborator within numerous [open-source](https://github.com/genekogan) software projects, and leads [workshops](http://genekogan.com/workshops/) and [talks](http://genekogan.com/cv/#talks) on topics at the intersection of code and art. Gene initiated and contributes to [ml4a](https://ml4a.github.io/), a free book about machine learning for artists, activists, and citizen scientists. He regularly publishes [video lectures](http://ml4a.github.io/classes/), writings, and tutorials to facilitate a greater public understanding of the topic.
 
 
 
@@ -51,7 +51,7 @@ overview:
     You should have some awareness of these technologies. Gene will review these for beginners. 
 
     ## Speaker Bio
-    **Gene Kogan** is an artist and a programmer who is interested in generative systems, artificial intelligence, and software for creativity and self-expression. He is a collaborator within numerous open-source software projects, and leads workshops and demonstrations on topics at the intersection of code and art. Gene initiated and contributes to ml4a, a free book about machine learning for artists, activists, and citizen scientists. He regularly publishes video lectures, writings, and tutorials to facilitate a greater public understanding of the topic.
+    **[Gene Kogan](http://genekogan.com/)** is an artist and a programmer who is interested in generative systems, artificial intelligence, and software for creativity and self-expression. He is a collaborator within numerous [open-source](https://github.com/genekogan) software projects, and leads [workshops](http://genekogan.com/workshops/) and [talks](http://genekogan.com/cv/#talks) on topics at the intersection of code and art. Gene initiated and contributes to [ml4a](https://ml4a.github.io/), a free book about machine learning for artists, activists, and citizen scientists. He regularly publishes [video lectures](http://ml4a.github.io/classes/), writings, and tutorials to facilitate a greater public understanding of the topic.
 
  
 ---
