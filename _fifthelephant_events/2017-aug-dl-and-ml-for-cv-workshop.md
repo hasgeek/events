@@ -1,12 +1,12 @@
 ---
 layout: workshop
 title: "Deep Learning and Machine Learning for Computer Vision"
-subtitle: "6 hour workshop"
-datelocation: "4 Nov 2017, Bangalore"
+subtitle: "Get a hands-on experience of using ML / DL for solving computer vision problems"
+datelocation: "4 Nov 2017, 10:00 AM to 5:00 PM, Innov8 Coworking, Bengaluru"
 city: Bangalore
 start_time: 2017-11-04
 end_time: 2017-11-04
-description: "The human body is one of the most complex machines on Earth. We are fascinated by how the Human Visual System works. How as a human, we see the world, store the visual information and learn from what we see and recognize patterns from previous experiences. The goal of the workshop is to help build an understanding of how to solve real world problems using Computer Vision with examples. We start from biological motivations for Computer Vision, developing intuitions to solve problems, converting the intuitions into the language of mathematics and finally developing code that represents the mathematics. With the help of Machine Learning and Deep learning, we are able to attain state-of-art performance in many Computer Vision problems. The workshop is meant for those who want to get get a hands-on experience of using ML / DL for solving Computer Vision problems."
+description: "Get a hands-on experience of using ML / DL for solving computer vision problems"
 boxoffice_item_collection: "6162bdc9-1af6-4921-9b65-ee1dd1da5536"
 
 instructors:

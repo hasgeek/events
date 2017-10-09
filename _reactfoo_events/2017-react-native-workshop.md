@@ -64,7 +64,7 @@ overview:
     Note: Android SDK setup is a mandate for linux/windows users. Please install the android sdk by following steps in the README file of out repo.⁠⁠
 
     ## Date and Time
-    17th September, from 1:45PM to 6PM (4 hours) at Thought Factory, Bangalore.
+    28th October, from 9:00AM to 1:15PM (4 hours) 
 
   right_content: |
     ## Course Content
