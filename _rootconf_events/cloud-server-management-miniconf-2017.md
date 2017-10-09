@@ -7,8 +7,9 @@ city: Elsewhere
 start_time: 2017-11-25
 end_time: 2017-12-09
 description: "Cloud server management brings with it as many challenges as it offers conveniences. It is time to unbundle questions on resource allocation, scaling, security, and more."
+boxoffice_item_collection: "416a6332-3d84-4986-b25e-d566eb7ab066"
 funnel:
-  url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-chennai-2017/"
+  url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-2017/"
   open: true
 overview:
   left_content: |
