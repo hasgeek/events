@@ -8,12 +8,16 @@ from flask import Flask
 from flask_lastuser import Lastuser
 from flask_lastuser.sqlalchemy import UserManager
 from flask_migrate import Migrate
+from jinja2 import StrictUndefined
 
 from ._version import __version__
 
 version = Version(__version__)
 app = Flask(__name__, instance_relative_config=True)
 lastuser = Lastuser()
+
+if app.debug:
+    app.jinja_env.undefined = StrictUndefined
 
 assets['hasweb.css'][version] = 'css/app.css'
 assets['bulma.css'][version] = 'css/main.scss'

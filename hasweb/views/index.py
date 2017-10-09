@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 from flask import abort, render_template
-from hasweb.models import Event
 from helpers import get_brand
 from .. import app
 from data import ALL_EVENTS
@@ -11,7 +10,7 @@ from data import ALL_EVENTS
 @get_brand
 def index(brand=None, brand_key=None):
     events = [event for event_key, event in ALL_EVENTS.iteritems() if brand_key in event]
-    return render_template('index.html', events=events)
+    return render_template('pages/index.html', events=events)
 
 
 @app.route('/<id>')
