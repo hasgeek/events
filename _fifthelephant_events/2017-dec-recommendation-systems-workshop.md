@@ -2,7 +2,7 @@
 layout: workshop
 title: "Introduction to Recommendation Systems"
 subtitle: "Workshop on learning how to build various types of recommendation system"
-datelocation: "16 December 2017, Bangalore"
+datelocation: "16 December 2017, 10:00 AM to 5:00 PM, IKP EDEN, Bengaluru"
 city: Bangalore
 start_time: 2017-12-16
 end_time: 2017-12-16
