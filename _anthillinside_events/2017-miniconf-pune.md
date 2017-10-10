@@ -41,7 +41,7 @@ overview:
 
 sponsor:
   blurb: |
-    Sponsor the event in cash or kind. Sponsor t-shirts, mugs, water bottles for one or all the events. Or set up a booth to talk to developers and decision-makers.
+    Sponsor the event in cash or kind. Sponsor t-shirts, mugs, water bottles, or set up a booth to talk to developers and decision-makers.
 
     Email [info@hasgeek.com](mailto:info@hasgeek.com)
 ---
