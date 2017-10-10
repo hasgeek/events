@@ -1,0 +1,50 @@
+{% extends "layouts/base.html.jinja2" %}
+{% block content %}
+<section class="hero is-medium is-primary is-bold">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+     {% if page %}
+      <h1 class="title">
+        {{ page.title }}
+      </h1>
+    {% endif %}
+      {% if page %}
+      <h2 class="subtitle">
+        {{ page.subtitle }}
+      </h2>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered is-multiline">
+{#      {% for event in all_events %}#}
+{#      <div class="column is-one-third">#}
+{#        {% include event_card.html event=event featured=event.featured %}#}
+{#      </div>#}
+{#      {% endfor %}#}
+    </div>
+
+  </div>
+</section>
+
+{% if past_events != "" %}
+<section class="section">
+  <div class="container">
+      <h1 class="title">Past Events</h1>
+      <hr>
+      <div class="columns is-centered is-multiline">
+{#        {% for event in past_events %}#}
+{#        <div class="column is-one-third">#}
+{#          {% include event_card.html event=event featured=event.featured %}#}
+{#        </div>#}
+{#        {% endfor %}#}
+      </div>
+  </div>
+</section>
+{% endif %}
+
+{% include "components/footer.html" %}
+{% endblock %}

@@ -34,41 +34,12 @@
 
     <link rel="manifest" href="{{ ctx.meta.manifest }}">
 
-    <link rel="stylesheet" href="{{ url_for('') }}">
-
-    {% if page.custom_css %}
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/{{ page.custom_css }}">
-    {% endif %}
-  {% include "components/" %}
-
-    {% if page.venue %}
-      {% if page.venue.mapbox %}
-      <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/mapbox-gl-0.39.1.css">
-      {% else %}
-      <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/leaflet.css">
-      {% endif %}
-    {% endif %}
-
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/static/css/jquery.sidr.2.2.1.min.css">
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 </head>
 <body>
-  {% include sidebar_site.html %}
 
-  {% include navbar_site.html %}
+{% block content %}{% endblock %}
 
-  {{ content }}
-
-  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery-3.2.1.min.js"></script>
-  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.sidr-2.2.1.min.js"></script>
-  <script src="{{ site.url }}{{ site.baseurl }}/js/mustache.min.js"></script>
-{% if page.venue %}
-  {% if page.venue.mapbox %}
-  <script src="{{ site.url }}{{ site.baseurl }}/js/mapbox-gl.0.39.1.min.js"></script>
-  {% else %}
-  <script src="{{ site.url }}{{ site.baseurl }}/js/leaflet.js"></script>
-  {% endif %}
-{% endif %}
 <script>
     window.Event = {};
 </script>
@@ -126,40 +97,6 @@
     $('#'+modalId).removeClass('is-active');
   }
 </script>
-{% if page.boxoffice_item_collection %}
-  {% include boxoffice_js.html %}
-{% endif %}
-
-{% if page.schedule %}
-  <script>
-    window.Event.schedule_url = "{{ page.schedule.json_url }}";
-    window.Event.schedule_type = "{{ page.schedule.type }}";
-  </script>
-  <script src="{{ site.url }}{{ site.baseurl }}/js/schedule.js"></script>
-{% endif %}
-
-{% if page.show_proposals %}
-  <script>
-    window.Event.proposal_url = "{{ page.show_proposals.url }}";
-  </script>
-  <script src="{{ site.url }}{{ site.baseurl }}/js/proposal.js"></script>
-{% endif %}
-
-{% include analytics.html ga_tracking_code=site.ga_tracking_code %}
-
-
-{% if site.service_worker == 'false' %}
-{% else %}
-<script type="text/javascript">
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('{{ site.url }}{{ site.baseurl }}/sw.js').then(function () {
-    // console.log('Service worker registered');
-    }).catch(function() {
-    // console.log('Service worker registration failed');
-  });
-};
-</script>
-{% endif %}
 
 </body>
 </html>

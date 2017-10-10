@@ -11,4 +11,4 @@ instance/testing.py
 .webassets-cache
 *.pyc
 .idea/
-
+/hasweb/static/main.css
