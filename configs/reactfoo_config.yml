@@ -4,6 +4,9 @@ description: "India's community of React.js and React Native developers"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://reactfoo.in" # the base hostname & protocol for your site, e.g. http://example.com
 id: reactfoo
+colors:
+  primary: "#549EAF"
+  accent: "#FAA51A"
 # Build settings
 markdown: kramdown
 gems:
