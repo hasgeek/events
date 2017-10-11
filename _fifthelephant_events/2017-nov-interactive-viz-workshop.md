@@ -1,12 +1,12 @@
 ---
 layout: workshop
 title: "Interactive Visualisation for Data Science"
-subtitle: "Workshop on learning the grammar of interactive graphics"
-datelocation: "26 November 2017, Bangalore"
+subtitle: "A beginner workshop on creating interactive data visualisations for data explorations & communications"
+datelocation: "18 Nov 2017, 10:00 AM to 1:00 PM, IKP EDEN, Bengaluru"
 city: Bangalore
-start_time: 2017-11-26
-end_time: 2017-11-26
-description: "Workshop on learning the grammar of interactive graphics"
+start_time: 2017-11-18
+end_time: 2017-11-18
+description: "A beginner workshop on creating interactive data visualisations for data explorations & communications"
 boxoffice_item_collection: '2f04fac0-3a0a-49ec-b04b-2c90e01491f4'
 
 instructors:
@@ -50,7 +50,7 @@ overview:
     ### Workshop Content
 
     #### 1: Grammar of Interactive Graphics (20 mins)
-    - Learn the four layers of abstraction 
+    - Learn the four layers of abstraction
     – Data Layer: data types and transformations
     – Visual Layer: variable mapping, marks, channels, scales, coordinate system, layouts
     – Annotation Layer: titles, axes, legends, grids, references, text
@@ -62,11 +62,11 @@ overview:
 
     #### 3: Create Static Vis (20 mins)
     - Visualise a multi-dimensional dataset
-    - Play with marks, channels, color, scales, and coordinates 
+    - Play with marks, channels, color, scales, and coordinates
     - Add labeling and annotation
 
     #### 4: Add Interaction layer (40 mins)
-    - Add interactive data-model manipulation 
+    - Add interactive data-model manipulation
     - Explore common interaction patterns: select, explore, reconfigure, encode, filter, drill-down
 
     #### 5: Create an Interactive Data-Vis (45 mins)

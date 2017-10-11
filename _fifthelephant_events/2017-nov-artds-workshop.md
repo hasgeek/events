@@ -2,11 +2,11 @@
 layout: workshop
 title: "Workshops: The Art of Data Science"
 subtitle: "Learn how to employ statistical and machine learning algorithms to solve real life problems"
-datelocation: "3-5 November 2017, Bangalore"
+datelocation: "3rd Nov: Workshop in R, 4th Nov: Workshop in Python, 5th Nov: Workshop in JavaScript, Bangalore"
 city: Bangalore
 start_time: 2017-11-03
-end_time: 2017-11-04
-description: "Learn how to employ statistical and machine learning algorithms to solve real life problems"
+end_time: 2017-11-05
+description: "An introduction to applying data science for solving business problems using the 'Frame - Acquire - Refine - Transform - Explore - Model - Insight' approach"
 boxoffice_item_collection: '41a5b90a-7070-4616-b085-c0d561751c16'
 
 instructors:
@@ -120,7 +120,7 @@ overview:
       - Summary e.g. show summary stats like mean
     - Basic statistics: variance, standard deviation, co-variance, correlation
 
-    ### 4. EXPLORE
+    ### 6. EXPLORE
     > *"I don't know, what I don't know"*
 
     - Why do visual exploration?
@@ -130,7 +130,7 @@ overview:
     - Explore multi-dimensional variable graphs
     - Creating new features from the data
 
-    ### 6. MODEL
+    ### 7. MODEL
     > *"All models are wrong, Some of them are useful"*
 
     - Introduction to Machine Learning
@@ -140,7 +140,7 @@ overview:
     - Prediction Problem - Regression & Classification
     - Model Family - Linear & Tress
 
-    ### 7. INSIGHT
+    ### 8. INSIGHT
     > *“The goal is to turn data into insight”*
 
     - Assessing Model Accuracy

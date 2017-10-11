@@ -1,11 +1,11 @@
 ---
 layout: workshop
-title: "React Native workshop"
+title: "React Native Beginners workshop"
 subtitle: "(iOS, Android, Windows Phone, Web, Desktop, Electron and even VR*)"
-datelocation: "28 Oct 2017, 1:30PM to 5:30PM, Bangalore"
+datelocation: "29 Oct 2017, 9:00AM to 1:15PM, Bangalore"
 city: Bangalore
-start_time: 2017-10-28
-end_time: 2017-10-28
+start_time: 2017-10-29
+end_time: 2017-10-29
 description: "Learn how to build native iOS and android app using React Native such that it can easily be extended to any platform such as Windows Phone, Web, Desktop, Electron and even VR*."
 boxoffice_item_collection: "41330df7-d462-455e-9804-212707f16f88"
 
@@ -64,7 +64,7 @@ overview:
     Note: Android SDK setup is a mandate for linux/windows users. Please install the android sdk by following steps in the README file of out repo.⁠⁠
 
     ## Date and Time
-    17th September, from 1:45PM to 6PM (4 hours) at Thought Factory, Bangalore.
+    29th October, from 9:00AM to 1:15PM (4 hours) 
 
   right_content: |
     ## Course Content
