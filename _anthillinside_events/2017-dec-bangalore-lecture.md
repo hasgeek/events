@@ -2,7 +2,7 @@
 layout: workshop
 title: "Public lecture on Decentralized AI by Gene Kogan"
 subtitle: "A talk on possibilities that lie at the intersection of artificial intelligence and blockchains"
-datelocation: "12 Dec 2017, 6 PM - 9 PM, BHIVE HSR Layout Sector 6, Bangalore"
+datelocation: "12 Dec 2017, 6 PM - 9 PM, NASSCOM - 10000 Startup Warehouse, Bangalore"
 city: Bangalore
 start_time: 2017-12-08
 end_time: 2017-12-08
@@ -10,14 +10,16 @@ description: "A talk on possibilities that lie at the intersection of artificial
 boxoffice_item_collection: '20563c8a-af8a-4c1f-80f7-0722e8aaf0cb'
 
 venue:
-  label: BHIVE Workspace, Bangalore
+  label: NASSCOM - 10000 Startup Warehouse, Bangalore
   address: |
-    BHIVE Workspace,
-    L-148, 5th Main Rd, Sector 6, 
-    HSR Layout, Bengaluru, Karnataka 560102
-  lat: 12.936681
-  lng: 77.690946
-  google_maps_url: https://goo.gl/maps/fEGy3MnRZRm
+    NASSCOM - 10000 Startup Warehouse,
+    Corporate Tower, Central Atrium,
+    Lower Ground Floor-DD3,
+    No.150, Diamond District,
+    HAL Airport Road, Karnataka 560102
+  lat: 12.9601185
+  lng: 77.6416455
+  google_maps_url: https://goo.gl/maps/KEuEANzv63A2
 speakers:
 - name: Gene Kogan
   byline: Researcher at Sourcetone, LLC
