@@ -9,6 +9,16 @@ end_time: 2017-10-29
 description: "Learn how to build native iOS and android app using React Native such that it can easily be extended to any platform such as Windows Phone, Web, Desktop, Electron and even VR*."
 boxoffice_item_collection: "41330df7-d462-455e-9804-212707f16f88"
 
+venue:
+  label: ThoughtFactory, Bangalore
+  address: |
+    ThoughtFactory,
+    Tower D, 2nd Floor,
+    Diamond District, Bengaluru, Karnataka 560102
+  lat: 12.9600035
+  lng: 77.640759
+  google_maps_url: https://goo.gl/maps/eaNceNnatu62
+
 instructors:
 - name: Atul R
   image_url: https://images.hasgeek.com/embed/file/2e98a43850f547c5ae468a9acb837dc5
