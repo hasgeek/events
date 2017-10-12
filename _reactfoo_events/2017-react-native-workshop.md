@@ -2,7 +2,7 @@
 layout: workshop
 title: "React Native Beginners workshop"
 subtitle: "(iOS, Android, Windows Phone, Web, Desktop, Electron and even VR*)"
-datelocation: "29 Oct 2017, 9:00AM to 1:15PM, Bangalore"
+datelocation: "29 Oct 2017, 9:00AM to 1:15PM, ThoughtFactory, Bangalore"
 city: Bangalore
 start_time: 2017-10-29
 end_time: 2017-10-29
