@@ -15,8 +15,8 @@ venue:
     ThoughtFactory,
     Tower D, 2nd Floor,
     Diamond District, Bengaluru, Karnataka 560102
-  lat: 12.9600035
-  lng: 77.640759
+  lat: 12.95921
+  lng: 77.64431
   google_maps_url: https://goo.gl/maps/eaNceNnatu62
 
 instructors:
