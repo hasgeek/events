@@ -17,8 +17,8 @@ venue:
     Lower Ground Floor-DD3,
     No.150, Diamond District,
     HAL Airport Road, Karnataka 560102
-  lat: 12.9601185
-  lng: 77.6416455
+  lat: 12.960094
+  lng: 77.643514
   google_maps_url: https://goo.gl/maps/KEuEANzv63A2
 speakers:
 - name: Gene Kogan
