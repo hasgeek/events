@@ -106,3 +106,26 @@
     primary: "#b22e40"
     primary_dark: "#921b3f"
     accent: "#921b3f"
+
+- name: reactfoo-pune
+  title: ReactFoo Pune
+  city: Pune
+  venue: To be announced
+  start_time: 2018-01-19
+  end_time: 2018-01-20
+  funnel: https://reactfoo.talkfunnel.com/2018-pune/
+  blurb: A conference on the lessons learned while implememting React and React Native.
+
+- name: anthillinside-pune
+  title: Anthill Inside Miniconf - Pune
+  city: Pune
+  venue: To be announced
+  start_time: 2017-11-18
+  end_time: 2017-11-18
+  funnel: https://anthillinside.talkfunnel.com/2017-miniconf-pune/
+  url: https://anthillinside.in/2017-miniconf-pune/
+  blurb: "A mini conference on Machine Learning, Deep Learning and Artificial Intelligence: concepts, applications and tools."
+  color:
+    primary: "#3f50a3"
+    primary_dark: "#213284"
+    accent: "#e76f45"
