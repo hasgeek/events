@@ -111,7 +111,6 @@
   title: ReactFoo Pune
   city: Pune
   venue: To be announced
-  google_maps_pin:
   start_time: 2018-01-19
   end_time: 2018-01-20
   funnel: https://reactfoo.talkfunnel.com/2018-pune/
@@ -121,7 +120,6 @@
   title: Anthill Inside Miniconf - Pune
   city: Pune
   venue: To be announced
-  google_maps_pin:
   start_time: 2017-11-18
   end_time: 2017-11-18
   funnel: https://anthillinside.talkfunnel.com/2017-miniconf-pune/
