@@ -43,7 +43,7 @@ class BrandConfig(object):
 
     def validate(self, id, name):
         if id == None or name == None:
-            raise ValueError("MapType needs an id and name")
+            raise ValueError("BrandConfig needs an id and name")
 
 
 

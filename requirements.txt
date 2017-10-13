@@ -6,3 +6,4 @@ git+https://github.com/hasgeek/flask-lastuser.git
 Flask-Migrate
 pyyaml
 behave
+icalendar

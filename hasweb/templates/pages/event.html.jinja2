@@ -1,0 +1,23 @@
+{% extends "layouts/base.html.jinja2" %}
+{% from "components/content_section.html.jinja2" import content_columns_markdown %}
+{% from "components/announcements_section.html.jinja2" import annoucements %}
+
+{% block content %}
+
+{% if event.overview %}
+<section class="section "id="overview">
+  <div class="container">
+      {{ content_columns_markdown(left_content=event.overview.left_content, right_content=event.overview.right_content, center_content=event.overview.center_content) }}
+  </div>
+</section>
+{% endif %}
+
+{% if event.announcements %}
+<section class="section "id="announcements">
+  <div class="container">
+    {{ annoucements(event.announcements) }}
+  </div>
+</section>
+{% endif %}
+
+{% endblock %}
