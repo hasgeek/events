@@ -2,10 +2,10 @@
 layout: event
 title: "Anthill Inside Miniconf - Pune"
 subtitle: "Machine Learning, Deep Learning and Artificial Intelligence: concepts, applications and tools."
-datelocation: "18 November 2017, Pune"
+datelocation: "24 November 2017, Pune"
 city: Pune
-start_time: 2017-11-18
-end_time: 2017-11-18
+start_time: 2017-11-24
+end_time: 2017-11-24
 description: "A miniconference on Machine Learning, Deep Learning and Artificial Intelligence: concepts, applications and tools."
 logo:
   image_url: /images/anthillinside-logo.png
