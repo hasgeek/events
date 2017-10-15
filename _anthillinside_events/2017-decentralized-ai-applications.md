@@ -2,7 +2,7 @@
 layout: workshop
 title: "Decentralized AI applications"
 subtitle: "A workshop about the intersection of AI with blockchains and smart contracts."
-datelocation: "17 Dec 2017, 10 AM - 4:30 PM, IKP EDEN, Bengaluru"
+datelocation: "17 Dec 2017, 10 AM - 4:30 PM, Bengaluru"
 city: Bangalore
 start_time: 2017-12-17
 end_time: 2017-12-17
