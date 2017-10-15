@@ -1,0 +1,365 @@
+{% import "components/cards.html.jinja2" as cards %}
+{% macro section(title=None, id=None) %}
+    <section class="section" {% if id %}id="{{ id }}"{% endif %}>
+        <div class="container">
+            {% if title %}
+                <div class="has-text-centered">
+                    <h1 class="title">{{ title }}</h1>
+                </div>
+            {% endif %}
+            {{ caller() }}
+        </div>
+    </section>
+{% endmacro %}
+
+
+
+{% macro announcements(announcements=[]) -%}
+    <div class="columns is-centered is-multiline">
+        {% for announcement in announcements %}
+            <div class="column is-4">
+                <div class="notification is-primary">
+                    <h3 class="title is-4">{{ announcement.title }}</h3>
+                    <div class="content">
+                        {{ announcement.text | markdown }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endmacro %}
+
+{% macro content_columns_markdown(left_content=None, center_content=None, right_content=None) -%}
+    <div class="columns">
+        {% if left_content %}
+            <div class="column">
+                <div class="content">
+                    {{ left_content | mdown }}
+                </div>
+            </div>
+        {% endif %}
+        {% if center_content %}
+            <div class="column">
+                <div class="content">
+                    {{ center_content | mdown }}
+                </div>
+            </div>
+        {% endif %}
+        {% if right_content %}
+            <div class="column">
+                <div class="content">
+                    {{ right_content | mdown }}
+                </div>
+            </div>
+        {% endif %}
+    </div>
+{%- endmacro %}
+
+
+{% macro related_events(events) %}
+    {% if events %}
+        <div class="has-text-centered">
+            <h1 class="title">What else is happening?</h1>
+            <h2 class="subtitle">You may also be interested in these related events</h2>
+            <br>
+        </div>
+
+        <div class="columns is-centered is-multiline">
+            {% for event in events %}
+                <div class="column is-4">
+                    {{ cards.event(event=event) }}
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endmacro %}
+
+
+{% macro featured_speakers(speakers=None) %}
+    <div class="columns is-centered is-multiline">
+        {% for speaker in speakers %}
+            <div class="column is-6">
+                {{ cards.featured_speaker(speaker=speaker) }}
+            </div>
+        {% endfor %}
+    </div>
+{% endmacro %}
+
+
+{% macro funnel(funnel=None) %}
+    <div class="has-text-centered">
+        <h1 class="title">Call for Proposals</h1>
+        <h2 class="subtitle">
+            {% if funnel.open == true %}
+                We are currently accepting talk proposal submissions
+            {% else %}
+                Proposal submissions are currently closed
+            {% endif %}
+        </h2>
+        <a class="button is-primary" href="{{ funnel.url }}" target="_blank">
+            {% if funnel.open == true %}
+                Propose a talk
+            {% else %}
+                View all proposals
+            {% endif %}</a>
+    </div>
+{% endmacro %}
+
+{% macro schedule(schedule=None) %}
+    <div class="schedule-table-container" id="event-schedule-table">
+        <p class="has-text-centered loadingtxt"><a class="button is-primary" href="{{ schedule.url }}"
+                                                   target="_blank">View Schedule</a></p>
+
+        {% raw %}
+        <script id="scheduletemplate" type="text/x-mustache-template">
+            <div class="has-text-centered"><h4 class="subtitle"><i class="fa fa-calendar"></i> {{date}}</h4></div>
+            <table class="schedule-table" id="{{tableid}}">
+                <thead>
+                <tr>
+                    <th class="time has-text-centered js-track">
+                        <div>Time</div>
+                    </th>
+                    {{#rooms}}
+                    {{#track}}
+                    <th class="track track{{track}} has-text-centered js-track" data-td="track-{{track}}">
+                        <div>{{shorttitle}}</div>
+                    </th>
+                    {{/track}}
+                    {{^track}}
+                    <th class="track track{{track}} has-text-centered tab-active js-track" data-td="track-{{track}}">
+                        <div>{{shorttitle}}</div>
+                    </th>
+                    {{/track}}
+                    {{/rooms}}
+                </tr>
+                </thead>
+                <tbody>
+                {{#slots}}
+                {{#issession}}
+                <tr>
+                    <td class="time" scope="row">
+                        <div class="time-icon"></div>
+                        <p class="time-text">{{slot}}</p>
+                    </td>
+                    {{#sessions}}
+                    {{#is_break}}
+                    {{#roomTitle}}
+                    {{#track}}
+                    <td class="track track-{{track}} break" rowspan={{rowspan}}>
+                        {{/track}}
+                        {{^track}}
+                    <td class="track track-{{track}} break tab-active" rowspan={{rowspan}}>
+                        {{/track}}
+                        <div class="schedule-talk">
+                            <h4 class="title">{{title}}</h4>
+                            <p class="duration">{{start}} - {{end}}</p>
+                            {{#description}}
+                            <div class="description-text">{{{description}}}</div>
+                            {{/description}}
+                        </div>
+                    </td>
+                    {{/roomTitle}}
+                    {{^roomTitle}}
+                    <td colspan="{{rooms.length}}" class="break tab-active" rowspan={{rowspan}}>
+                        <div class="schedule-talk">
+                            <h4 class="title">{{title}}</h4>
+                            <p class="duration">{{start}} - {{end}}</p>
+                            {{#description}}
+                            <div class="description-text">{{{description}}}</div>
+                            {{/description}}
+                        </div>
+                    </td>
+                    {{/roomTitle}}
+                    {{/is_break}}
+                    {{^is_break}}
+                    {{#track}}
+                    <td class="track track-{{track}}" rowspan={{rowspan}}>
+                        {{/track}}
+                        {{^track}}
+                    <td class="track track-{{track}} tab-active" rowspan={{rowspan}}>
+                        {{/track}}
+                        <div class="schedule-talk">
+                            <h4 class="title">
+                                {{#description}}
+                                <i class="fa fa-caret-right js-expand expand-icon"></i>
+                                {{/description}}
+                                {{#proposal_url}}
+                                <a href="{{proposal_url}}" target="_blank" class="title click-btn">{{title}}</a>
+                                {{/proposal_url}}
+                                {{^proposal_url}}
+                                <span class="title">{{title}}</span>
+                                {{/proposal_url}}
+                            </h4>
+                            {{#description}}
+                            <div class="description-text">{{{description}}}</div>
+                            {{/description}}
+                            {{#speaker}}
+                            <p class="speaker">{{speaker}}</p>
+                            {{/speaker}}
+                            {{#title}}
+                            <p class="duration">{{start}} - {{end}}</p>
+                            {{/title}}
+                            {{#roomTitle}}
+                            <p class="venue"><i class="fa fa-map-marker"></i> {{roomTitle}}</p>
+                            {{/roomTitle}}
+                        </div>
+                    </td>
+                    {{/is_break}}
+                    {{/sessions}}
+                </tr>
+                {{/issession}}
+                {{/slots}}
+                </tbody>
+            </table>
+        </script>
+        {% endraw %}
+    </div>
+{% endmacro %}
+
+{% macro tickets(tickets=None) %}
+    <div id="boxoffice-widget"><h2>Loading...</h2></div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            var boxofficeUrl = "https://boxoffice.hasgeek.com";
+
+            $.get({
+                url: boxofficeUrl + "/api/1/boxoffice.js",
+                crossDomain: true,
+                timeout: 8000,
+                retries: 5,
+                retryInterval: 8000,
+                success: function (data) {
+                    var boxofficeScript = document.createElement('script');
+                    boxofficeScript.innerHTML = data.script;
+                    document.getElementsByTagName('body')[0].appendChild(boxofficeScript);
+                    window.setTimeout(function () {
+                        window.Boxoffice.init({
+                            org: "hasgeek",
+                            itemCollection: "{{ tickets.boxoffice_item_collection }}",
+                            paymentDesc: "{{ tickets.title }}"
+                        });
+                    }, 1000);
+                },
+                error: function (response) {
+                    var ajaxLoad = this;
+                    ajaxLoad.retries -= 1;
+                    var errorMsg;
+                    if (response.readyState === 4) {
+                        errorMsg = "Server error, please try again later.";
+                        $('#boxoffice-widget p').html(errorMsg);
+                    }
+                    else if (response.readyState === 0) {
+                        if (ajaxLoad.retries < 0) {
+                            if (!navigator.onLine) {
+                                errorMsg = "Unable to connect. There is no network!";
+                                $('#boxoffice-widget p').html(errorMsg);
+                            }
+                            else {
+                                errorMsg = "<p>Unable to connect. If you are behind a firewall or using any script blocking extension (like Privacy Badger), please ensure your browser can load boxoffice.hasgeek.com, api.razorpay.com and checkout.razorpay.com .</p>";
+                                $('#boxoffice-widget p').html(errorMsg);
+                            }
+                        } else {
+                            setTimeout(function () {
+                                $.get(ajaxLoad);
+                            }, ajaxLoad.retryInterval);
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+
+{% endmacro %}
+
+{% macro accommodation(accommodation=None) %}
+    <div class="columns is-centered is-multiline">
+        {% for acco in accommodation.accommodations %}
+            <div class="column is-4">
+                {{ cards.accommodation(accommodation=acco) }}
+            </div>
+        {% endfor %}
+    </div>
+    <div class="has-text-centered">
+        <div class="content">
+            {{ accommodation.blurb | markdown }}
+        </div>
+    </div>
+{% endmacro %}
+
+{% macro venue(venue=None) %}
+    <div id="venue-map" class="embed-map" data-label="{{ venue.label }}"
+            {% if venue.mapbox %}
+         data-style="{{ venue.mapbox.style }}" data-accesstoken="{{ venue.mapbox.access_token }}"
+            {% else %}
+         data-markerlat="{{ venue.lat }}" data-markerlng="{{ venue.lng }}"
+            {% endif %}
+         style="height: 400px; width: 100%;">
+        <h2>Loading...</h2>
+    </div>
+    <div class="has-text-centered">
+        <br>
+        {% if venue.address %}
+            <div class="content">
+                {{ venue.address | markdown }}
+            </div>
+        {% endif %}
+        {% if venue.google_maps_url %}
+            <a class="button is-primary" href="{{ venue.google_maps_url }}" target="_blank">Directions</a>
+        {% endif %}
+    </div>
+{% endmacro %}
+
+{% macro sponsor(blurb=None, deck_url=None, sponsors=None) %}
+    <section class="section " id="sponsor">
+        <div class="container">
+            <div class="has-text-centered">
+                <h1 class="title">Sponsors</h1>
+                <h2 class="subtitle">{{ blurb | markdown }}</h2>
+                {% if deck_url %}
+                    <a class="button is-primary" href="{{ deck_url }}" target="_blank">Sponsorship
+                        Deck</a>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            {% if sponsors %}
+                {% for sponsor_type in sponsors %}
+
+                    {% if sponsor_type.size == 'l' %}
+                        {% set sponsor_column_size = 'is-6' %}
+                        {% set sponsor_height = '8rem' %}
+
+                        {% elif sponsor_type.size == 'm' %}
+                        {% set sponsor_column_size = 'is-4' %}
+                        {% set sponsor_height = '6rem' %}
+
+                        {% elif sponsor_type.size == 's' %}
+                        {% set sponsor_column_size = 'is-3' %}
+                        {% set sponsor_height = '5rem' %}
+
+                    {% else %}
+                        {% set sponsor_column_size = 'is-4' %}
+                        {% set sponsor_height = '6rem' %}
+                    {% endif %}
+
+                    <div class="columns is-centered">
+                        <div class="column is-4">
+                            <h3 class="title is-4">{{ sponsor_type.title }}</h3>
+                        </div>
+                        <div class="column is-8">
+                            <div class="columns is-multiline">
+                                {% for sponsor_s in sponsor_type.sponsors %}
+                                    {{ cards.sponsor(sponsor=sponsor_s) }}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </section>
+
+{% endmacro %}

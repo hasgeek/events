@@ -1,23 +1,87 @@
 {% extends "layouts/base.html.jinja2" %}
-{% from "components/content_section.html.jinja2" import content_columns_markdown %}
-{% from "components/announcements_section.html.jinja2" import annoucements %}
+{% import "components/sections.html.jinja2" as components %}
 
 {% block content %}
 
-{% if event.overview %}
-<section class="section "id="overview">
-  <div class="container">
-      {{ content_columns_markdown(left_content=event.overview.left_content, right_content=event.overview.right_content, center_content=event.overview.center_content) }}
-  </div>
-</section>
-{% endif %}
+    {% if event.overview %}
+        {% call components.section(id="overview") %}
+            {{ components.content_columns_markdown(
+                left_content=event.overview.left_content,
+                right_content=event.overview.right_content,
+                center_content=event.overview.center_content) | safe }}
+        {% endcall %}
+    {% endif %}
 
-{% if event.announcements %}
-<section class="section "id="announcements">
-  <div class="container">
-    {{ annoucements(event.announcements) }}
-  </div>
-</section>
-{% endif %}
+    {% if event.announcements %}
+        {% call components.section(id="announcements") %}
+            {{ components.announcements(event.announcements) | safe }}
+        {% endcall %}
+    {% endif %}
+
+    {#    {% if event.related_events %}#}
+    {#        {% call components.section(id="related_events") %}#}
+    {#            {{ components.related_events(events=event.related_events) }}#}
+    {#        {% endcall %}#}
+    {#    {% endif %}#}
+
+    {% if event.featured_speakers %}
+        {% call components.section(title="Featured Speakers", id="featured_speakers") %}
+            {{ components.featured_speakers(speakers=event.featured_speakers) }}
+        {% endcall %}
+    {% endif %}
+
+    {% if event.funnel %}
+        {% call components.section(id="funnel") %}
+            {{ components.funnel(funnel=event.funnel) }}
+        {% endcall %}
+    {% endif %}
+
+    {% if event.schedule %}
+        {% call components.section(title="Schedule", id="schedule") %}
+            {{ components.schedule(schedule=event.schedule) }}
+            {% block footer_scripts %}
+                {% if event.schedule %}
+            <script>
+                window.Event.schedule_url = "{{ event.schedule.json_url }}";
+                window.Event.schedule_type = "{{ event.schedule.type }}";
+            </script>
+                {% endif %}
+        {% endblock %}
+        {% endcall %}
+    {% endif %}
+
+    {% if event.boxoffice_item_collection %}
+        {% call components.section(title="Tickets", id="tickets") %}
+            {{ components.tickets(tickets=event) }}
+        {% endcall %}
+    {% endif %}
+
+    {% if event.accommodation %}
+        {% call components.section(title="Accomodation", id="accommodation") %}
+            {{ components.accommodation(accommodation=event.accommodation) }}
+        {% endcall %}
+    {% endif %}
+
+    {% if event.venue %}
+        {% call components.section(title="Venue", id="venue") %}
+            {{ components.venue(venue=event.venue) }}
+        {% endcall %}
+    {% endif %}
+
+{#    {% if event.sponsor %}#}
+{#        {% call components.section(title="Sponsor", id="sponsor") %}#}
+{#            {{ components.sponsor(blurb=event.sponsor.blurb, deck_url=event.sponsor.sponsorship_deck_url, sponsors=event.sponsor.sponsors) }}#}
+{#        {% endcall %}#}
+{#    {% endif %}#}
+
+
+    {% if event.footer %}
+        {% call components.section(id="footer") %}
+            {{ components.content_columns_markdown(
+                left_content=event.footer.left_content,
+                right_content=event.footer.right_content,
+                center_content=event.footer.center_content) }}
+        {% endcall %}
+    {% endif %}
 
 {% endblock %}

@@ -40,6 +40,10 @@
 
 {% block content %}{% endblock %}
 
+
+<script type="application/javascript" src="{{ url_for('static', filename='js/jquery-3.2.1.min.js') }}"></script>
+<script type="application/javascript" src="{{ url_for('static', filename='js/mustache.min.js') }}"></script>
+<script type="application/javascript" src="{{ url_for('static', filename='js/leaflet.js') }}"></script>
 <script>
     window.Event = {};
 </script>
@@ -78,12 +82,12 @@
       initLeaflets();
     {% endif %}
 
-    $('#sidebar').show();
-    $('.nav-toggle').sidr({
-      name: 'sidebar',
-      source: '#sidebar',
-      renaming: false
-    });
+{#    $('#sidebar').show();#}
+{#    $('.nav-toggle').sidr({#}
+{#      name: 'sidebar',#}
+{#      source: '#sidebar',#}
+{#      renaming: false#}
+{#    });#}
 
   })
 
@@ -97,6 +101,8 @@
     $('#'+modalId).removeClass('is-active');
   }
 </script>
+{% block footer_scripts %}{% endblock %}
 
+<script type="application/javascript" src="{{ url_for('static', filename='js/schedule.js') }}"></script>
 </body>
 </html>

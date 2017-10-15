@@ -1,0 +1,112 @@
+{% macro event(event=None) %}
+    <div class="card is-clickable" onclick="goToUrl('{{ event.url }}')" style="height:21rem; overflow: hidden;">
+        <div class="card-content">
+            <p class="title is-4">
+                {{ event.title }}
+            </p>
+            {% if event.datelocation %}
+                <p class="subtitle is-6">
+                    {{ event.datelocation }}
+                </p>
+            {% endif %}
+
+            {% if event.boxoffice_item_collection %}
+                {% if event.boxoffice_item_collection_sold_out == true %}
+                    <span class="tag is-danger">Tickets sold out</span>
+                {% else %}
+                    <span class="tag is-primary">Tickets now available</span>
+                {% endif %}
+            {% endif %}
+            {% if event.funnel %}
+                {% if event.funnel.open == true %}
+                    <span class="tag is-info">Call for Proposals are open</span>
+                {% endif %}
+            {% endif %}
+            <div class="content">
+                <p>{{ event.description | truncate(260, end="...") | markdown }}</p>
+            </div>
+        </div>
+    </div>
+{% endmacro %}
+
+{% macro featured_speaker(speaker=None) %}
+    <div class="card">
+        <div class="card-content">
+            <div class="columns is-mobile">
+                {% if speaker.image_url %}
+                    <div class="column is-3">
+                        <figure class="image is-1by1"
+                                style="background-image: url('{{ speaker.image_url }}'); background-size: cover; background-position: center;">
+                        </figure>
+                    </div>
+                {% endif %}
+                <div class="column">
+                    <h1 class="title is-5"><a href="{{ speaker.funnel_url }}"
+                                              target="_blank">{{ speaker.talk_title }}</a></h1>
+                    <h2 class="title is-6">{{ speaker.name }}</h2>
+                    <h2 class="subtitle is-6">{{ speaker.designation }}</h2>
+                    {% if speaker.website %}
+                        <a href="{{ speaker.website.url }}"
+                           target="_blank">{{ speaker.website.label }}</a>
+                    {% endif %}
+                </div>
+            </div>
+            {% if speaker.blurb %}
+                <div class="content">
+                    {{ speaker.blurb | markdown }}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+{% endmacro %}
+
+{% macro accommodation(accommodation=None) %}
+    <div class="card is-clickable has-text-centered" onclick="goToUrl('{{ accommodation.url }}')">
+        <div class="card-content">
+            <p class="title is-4">
+                {{ accommodation.title }}
+            </p>
+            <p class="subtitle is-6">
+                {{ accommodation.location }}
+            </p>
+            <p class="subtitle is-6">
+                {{ accommodation.distance }}
+            </p>
+        </div>
+    </div>
+{% endmacro %}
+
+{% macro sponsor(sponsor=None, id=None) %}
+    <div class="card is-clickable has-text-centered" style="cursor: pointer;"
+         onclick="showModal('sponsor-{{ id }}')">
+        <div class="card-content">
+            <div style="height: {{ sponsor_height }}; align-items:center; justify-content: center; display: flex;">
+                <figure class="image">
+                    <img src="{{ sponsor.logo_url }}" alt="{{ sponsor.title }}"
+                         style="max-height: {{ sponsor_height }};width: auto;display: block;">
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="sponsor-{{ id }}"
+         style="z-index:20;">
+        <div class="modal-background"
+             onclick="hideModal('sponsor-{{ id }}')"></div>
+        <div class="modal-content">
+            <div class="box">
+                <figure class="image">
+                    <img src="{{ sponsor.logo_url }}" alt="{{ sponsor.title }}"
+                         style="max-height: 60px;width: auto; margin: auto; padding-bottom: 20px;">
+                </figure>
+                <div class="has-text-centered" style="padding-bottom: 20px;">
+                    <p><a href="{{ sponsor.url }}" target="_blank">{{ sponsor.display_url }}</a></p>
+                </div>
+                <div class="content">
+                    {{ sponsor.blurb | markdown }}
+                </div>
+            </div>
+        </div>
+        <button class="modal-close is-large"
+                onclick="hideModal('sponsor-{{ id }}')"></button>
+    </div>
+{% endmacro %}
