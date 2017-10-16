@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshops: The Art of Data Science"
 subtitle: "Learn how to employ statistical and machine learning algorithms to solve real life problems"
-datelocation: "3rd Nov: Workshop in R, 4th Nov: Workshop in Python, 5th Nov: Workshop in JavaScript, Bangalore"
+datelocation: "3rd Nov: Workshop in R, 4th Nov: Workshop in Python, 5th Nov: Workshop in JavaScript | IKP Eden, Bangalore"
 city: Bangalore
 start_time: 2017-11-03
 end_time: 2017-11-05
