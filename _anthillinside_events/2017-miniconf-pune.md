@@ -38,11 +38,13 @@ overview:
     1. ML engineers who want to learn about concepts in maths, stats and strengthen foundations. 
     2. ML engineers wanting to learn from experiences and insights of others.
     3. Senior architects and decision-makers who want to quick run-through of concepts, implementation case studies, and overview of tools.
-    4. Masters and doctoral candidates who want to bridge the gap between academia and practice. 
-
+    4. Masters and doctoral candidates who want to bridge the gap between academia and practice.
+    
 sponsor:
   blurb: |
-    Sponsor the event in cash or kind. Sponsor t-shirts, mugs, water bottles, or set up a booth to talk to developers and decision-makers.
-
-    Email [info@hasgeek.com](mailto:info@hasgeek.com)
+    Sponsor for developer evangelism, community outreach, sales and hiring. 
+    <br>Download our sponsorship deck.
+  sponsorship_deck_url: 'http://hsgk.in/2gJIrmY'
+   <br>Reach out to us for customized options.
+   Email: [info@hasgeek.com](mailto:info@hasgeek.com)
 ---
