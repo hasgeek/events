@@ -394,3 +394,12 @@
   end_time: 2017-10-13 21:00
   url: https://www.facebook.com/events/895786890597881
   blurb: How differently do designers from a design background work when compared to folks from non-design backgrounds? Join us for an open discussion.
+
+- name: performance-scalability-fireside-chat
+  title: "Fireside chat: High performance and scalability"
+  city: Bangalore
+  venue: Go-Jek
+  start_time: 2017-10-27 19:00
+  end_time: 2017-10-27 20:30
+  url: https://www.facebook.com/events/983869095097210/
+  blurb: Tanmai,Co-Founder of Hasura, will be talking to Adrian Hornsby, Technical Evangelist at AWS about performance and scalablity. 
