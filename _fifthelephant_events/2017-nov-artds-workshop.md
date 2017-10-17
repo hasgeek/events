@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshops: The Art of Data Science"
 subtitle: "Learn how to employ statistical and machine learning algorithms to solve real life problems"
-datelocation: "3rd Nov: Workshop in R, 4th Nov: Workshop in Python, 5th Nov: Workshop in JavaScript, Bangalore"
+datelocation: "3rd Nov: Workshop in R, 4th Nov: Workshop in Python, 5th Nov: Workshop in JavaScript | IKP Eden, Bangalore"
 city: Bangalore
 start_time: 2017-11-03
 end_time: 2017-11-05
@@ -152,4 +152,13 @@ overview:
     - Explanation: Telling a story with data
     - Exploration: Building an interface for people to find stories
 
+venue:
+  label: IKP Eden, Bangalore
+  address: |
+    IKP EDEN, 16, Bhuvanappa Layout, 
+    Tavarekere Main Rd, Kaveri Layout, 
+    Suddagunte Palya, Bengaluru, Karnataka 560029.
+  lat: 12.934072
+  lng: 77.609869
+  google_maps_url: https://goo.gl/maps/GDgyezM1fz12
 ---
