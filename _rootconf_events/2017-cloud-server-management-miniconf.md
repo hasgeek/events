@@ -46,8 +46,10 @@ overview:
 
 sponsor:
   blurb: |
-    Sponsor the event in cash or kind. Sponsor t-shirts, mugs, water bottles for one or all the events. Or set up a booth to talk to developers and decision-makers.
-
-    Email [info@hasgeek.com](mailto:info@hasgeek.com)
+    Sponsor for developer evangelism, community outreach, sales and hiring. 
+    <br>Download our sponsorship deck.
+  sponsorship_deck_url: 'http://hsgk.in/2gJIrmY'
+   <br>Reach out to us for customized options.
+   Email: [info@hasgeek.com](mailto:info@hasgeek.com)
 
 ---
