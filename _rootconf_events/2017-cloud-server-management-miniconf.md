@@ -46,10 +46,9 @@ overview:
 
 sponsor:
   blurb: |
-    Sponsor for developer evangelism, community outreach, sales and hiring. 
-    <br>Download our sponsorship deck.
+    Sponsor for developer evangelism, community outreach, sales and hiring.
+
+    Download our sponsorship deck or reach out to us for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
   sponsorship_deck_url: 'http://hsgk.in/2gJIrmY'
-   <br>Reach out to us for customized options.
-   Email: [info@hasgeek.com](mailto:info@hasgeek.com)
 
 ---
