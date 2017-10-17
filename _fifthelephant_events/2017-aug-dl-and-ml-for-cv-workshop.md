@@ -86,4 +86,13 @@ overview:
     - Compare ML and DL (hands-on)
     - How to solve a CV problem by choosing the appropriate technique?
 
+venue:
+  label: Innov8 Coworking, Bangalore
+  address: |
+    Innov8 Coworking Space.
+    3, 20 Main Rd, Koramangala Industrial Layout, 
+    Koramangala, Bengaluru, Karnataka 560034.
+  lat: 12.934918
+  lng: 77.614097
+  google_maps_url: https://goo.gl/maps/1LkNE32KAMA2
 ---
