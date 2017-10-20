@@ -10,6 +10,7 @@ from flask_lastuser import Lastuser
 from flask_lastuser.sqlalchemy import UserManager
 from flask_migrate import Migrate
 from jinja2 import StrictUndefined
+from markdown import Markdown
 
 from ._version import __version__
 
@@ -25,9 +26,9 @@ assets['bulma.css'][version] = 'css/main.css'
 
 from . import models, views  # NOQA
 
-@baseframe.app_template_filter('mdown')
+@baseframe.app_template_filter('markdown_safe')
 def field_markdown(field):
-    html = markdown_convert_text(field)
+    html = Markdown(safe_mode=False).convert(field)
     return Markup(html)
 
 # Configure the app

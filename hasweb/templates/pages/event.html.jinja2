@@ -3,18 +3,21 @@
 
 {% block content %}
 
+
+    {{ components.event_header(event=event) }}
+
     {% if event.overview %}
         {% call components.section(id="overview") %}
             {{ components.content_columns_markdown(
                 left_content=event.overview.left_content,
                 right_content=event.overview.right_content,
-                center_content=event.overview.center_content) | safe }}
+                center_content=event.overview.center_content) }}
         {% endcall %}
     {% endif %}
 
     {% if event.announcements %}
         {% call components.section(id="announcements") %}
-            {{ components.announcements(event.announcements) | safe }}
+            {{ components.announcements(event.announcements) }}
         {% endcall %}
     {% endif %}
 
