@@ -1,3 +1,12 @@
+- name: Hacktoberfest
+  title: Chennai Hacktoberfest
+  city:  Chennai
+  venue: SoftwareAG
+  start_time: 2017-10-28 17:00
+  end_time: 2017-08-20 20:00
+  url: https://www.eventbrite.com/e/chennai-hacktoberfest-tickets-38846336438
+  blurb: Hacktoberfest is a partnership between Digital Ocean and GitHub, where we are celebrating open source software during the entire month of October, for the 4th year!
+
 - name: data-science-bootcamp-1
   title: Data Science Bootcamp
   city: Bangalore
