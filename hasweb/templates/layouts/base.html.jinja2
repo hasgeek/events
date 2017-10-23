@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" class="svg inlinesvg">
-  <head>
+<head>
     <title>{{ ctx.title }}</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <meta name="theme-color" content="{{ ctx.colors.primary }}"/>
     <meta name="description" content="{{ ctx.meta.description }}">
     <meta name="keywords" content="{{ ctx.meta.keywords }}">
-    <link rel="shortcut icon" href="{{ ctx.meta.favicon }}" />
+    <link rel="shortcut icon" href="{{ ctx.meta.favicon }}"/>
     {% if ctx.canonical %}
-    <link rel="canonical" href="{{ page.canonical }}" />
+        <link rel="canonical" href="{{ page.canonical }}"/>
     {% endif %}
 
     <meta property="og:url" content="{{ ctx.meta.og.url }}">
@@ -49,58 +50,59 @@
     window.Event = {};
 </script>
 <script>
-  $(document).ready( function() {
+    $(document).ready(function () {
 
-    var stickyNav = $(".nav-sticky");
-    var navHeight;
-    if (stickyNav.length > 0) {
-      stuck = "nav-stuck";
-      headerHeight = $(stickyNav[0]).offset().top;
-      nextSibling = stickyNav.parent().next()[0];
-      navHeight = stickyNav[0].clientHeight;
-      $(window).scroll(function() {
-        if( $(this).scrollTop() > headerHeight) {
-          stickyNav.parent().addClass(stuck);
-          nextSibling.style.marginTop = navHeight+"px";
-        } else {
-          stickyNav.parent().removeClass(stuck);
-          nextSibling.style.marginTop = 0;
+        var stickyNav = $(".nav-sticky");
+        var navHeight;
+        if (stickyNav.length > 0) {
+            stuck = "nav-stuck";
+            headerHeight = $(stickyNav[0]).offset().top;
+            nextSibling = stickyNav.parent().next()[0];
+            navHeight = stickyNav[0].clientHeight;
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > headerHeight) {
+                    stickyNav.parent().addClass(stuck);
+                    nextSibling.style.marginTop = navHeight + "px";
+                } else {
+                    stickyNav.parent().removeClass(stuck);
+                    nextSibling.style.marginTop = 0;
+                }
+            });
         }
-      });
-    }
-    $("a").click(function (e) {
-      var goto = $(this).attr('data-href');
-      if (goto) {
-        // Prevent a page reload when a link is pressed
-        e.preventDefault();
-        // Scroll to section
-        var offset_top = $(goto).offset().top - navHeight || 0;
-        $("body,html").stop(true,true).animate({scrollTop:offset_top},300)
-      }
+        $("a").click(function (e) {
+            var goto = $(this).attr('data-href');
+            if (goto) {
+                // Prevent a page reload when a link is pressed
+                e.preventDefault();
+                // Scroll to section
+                var offset_top = $(goto).offset().top - navHeight || 0;
+                $("body,html").stop(true, true).animate({scrollTop: offset_top}, 300)
+            }
+        });
+
+        {% block initial_js %}
+        {% endblock %}
+
+        {#    $('#sidebar').show();#}
+        {#    $('.nav-toggle').sidr({#}
+        {#      name: 'sidebar',#}
+        {#      source: '#sidebar',#}
+        {#      renaming: false#}
+        {#    });#}
+
     });
 
-    {% if event.venue %}
-      initLeaflets();
-    {% endif %}
+    function goToUrl(url) {
+        window.location.href = url;
+    }
 
-{#    $('#sidebar').show();#}
-{#    $('.nav-toggle').sidr({#}
-{#      name: 'sidebar',#}
-{#      source: '#sidebar',#}
-{#      renaming: false#}
-{#    });#}
+    function showModal(modalId) {
+        $('#' + modalId).addClass('is-active');
+    }
 
-  })
-
-  function goToUrl(url) {
-    window.location.href = url;
-  }
-  function showModal(modalId) {
-    $('#'+modalId).addClass('is-active');
-  }
-  function hideModal(modalId) {
-    $('#'+modalId).removeClass('is-active');
-  }
+    function hideModal(modalId) {
+        $('#' + modalId).removeClass('is-active');
+    }
 </script>
 {% block footer_scripts %}{% endblock %}
 

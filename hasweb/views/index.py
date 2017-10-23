@@ -3,10 +3,12 @@
 from flask import abort, render_template, jsonify
 from helpers import get_brand
 from .. import app
-from data import ALL_EVENTS
+from hasweb.models import Event
+from datetime import date
 
 ctx = {
     "title": "HasGeek",
+    "subtitle": "Events for geeks",
     "colors": {
         "primary": "#444444",
         "accent": "#888888"
@@ -40,25 +42,27 @@ ctx = {
 
 @app.route('/')
 @get_brand
-def index(brand=None, brand_key=None):
-    events = [event for event_key, event in ALL_EVENTS.iteritems() if brand_key in event_key]
-    return render_template('pages/index.html.jinja2', events=events, page=events[0], ctx=ctx)
+def index(brand=None, brand_id=None):
+    events = Event.get_all_events_by_brand_id(brand_id)
+    current_events = [event for event in events if event['start_time'] >= date.today()]
+    past_events = [event for event in events if event['start_time'] < date.today()]
+    return render_template('pages/index.html.jinja2', current_events=current_events, past_events=past_events, ctx=ctx)
 
 
 @app.route('/<id>')
 @get_brand
-def event_page(id, brand=None, brand_key=None):
-    print brand_key + id
-    event = next((event for event_key, event in ALL_EVENTS.iteritems() if brand_key + '_' + id == event_key), None)
+def event_page(id, brand=None, brand_id=None):
+    event = Event.get_by_event_id_and_brand_id(event_id=id, brand_id=brand_id)
     if event is None:
         return abort(404)
 
     return render_template("pages/event.html.jinja2", event=event, ctx=ctx)
 
+url_for('event_page', external=True)
 
 @app.route('/manifest.json')
 @get_brand
-def manifest_json(brand=None, brand_key=None):
+def manifest_json(brand=None, brand_id=None):
     manifest = {
         "name": "name",  # site name
         "short_name": "short_name",  # if the name is too long

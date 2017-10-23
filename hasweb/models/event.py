@@ -3,6 +3,7 @@
 from coaster.sqlalchemy import IdMixin
 from . import db
 import re
+from data import ALL_EVENTS, ALL_BRANDS
 
 __all__ = ['EventType', 'MapType', 'Speaker', 'Event']
 
@@ -137,7 +138,7 @@ class SponsorshipDeck(IdMixin, db.Model):
         self.url = url
 
 
-class Event(IdMixin, db.Model):
+class EventModel(IdMixin, db.Model):
     __tablename__ = 'event'
 
     title = db.Column(db.Unicode(80))
@@ -152,7 +153,7 @@ class Event(IdMixin, db.Model):
     ticket_config = db.relationship("TicketConfig", backref=db.backref("event", uselist=False))
 
 
-
+class Event(object):
     def __init__(self, type=None, title=None, subtitle=None, datelocation=None, city=None, start_time=None,
                  end_time=None, description=None, tickets=None, schedule=None, logo=None, funnel=None, subbanner=None,
                  venue=None, livestream=None, announcements=None, related_events=None, overview=None,
@@ -177,3 +178,24 @@ class Event(IdMixin, db.Model):
         self.overview = overview
         self.featured_speakers = featured_speakers
         self.sponsor = sponsor
+
+    @staticmethod
+    def get_by_event_id_and_brand_id(event_id=None, brand_id=None):
+        if event_id is None or brand_id is None:
+            return None
+        return next((event for event_key, event in ALL_EVENTS.iteritems() if brand_id + '_' + event_id == event_key), None)
+
+    @staticmethod
+    def get_all_events_by_brand_id(brand_id=None):
+        if brand_id is None:
+            return None
+        return [event for event_key, event in ALL_EVENTS.iteritems() if event_key.find(brand_id) == 0]
+
+    @staticmethod
+    def url_by_event_id_and_brand_id(event_id=None, brand_id=None):
+        if event_id is None or brand_id is None:
+            return None
+        event = next((event for event_key, event in ALL_EVENTS.iteritems() if brand_id + '_' + event_id == event_key), None)
+        if event is None and ALL_BRANDS.get(brand_id) is None:
+            return None
+        return [event for event_key, event in ALL_EVENTS.iteritems() if event_key.find(brand_id) == 0]

@@ -6,6 +6,8 @@
 
     {{ components.event_header(event=event) }}
 
+    {{ components.navbar(event=event) }}
+
     {% if event.overview %}
         {% call components.section(id="overview") %}
             {{ components.content_columns_markdown(
@@ -42,14 +44,6 @@
     {% if event.schedule %}
         {% call components.section(title="Schedule", id="schedule") %}
             {{ components.schedule(schedule=event.schedule) }}
-            {% block footer_scripts %}
-                {% if event.schedule %}
-            <script>
-                window.Event.schedule_url = "{{ event.schedule.json_url }}";
-                window.Event.schedule_type = "{{ event.schedule.type }}";
-            </script>
-                {% endif %}
-        {% endblock %}
         {% endcall %}
     {% endif %}
 
@@ -71,11 +65,11 @@
         {% endcall %}
     {% endif %}
 
-{#    {% if event.sponsor %}#}
-{#        {% call components.section(title="Sponsor", id="sponsor") %}#}
-{#            {{ components.sponsor(blurb=event.sponsor.blurb, deck_url=event.sponsor.sponsorship_deck_url, sponsors=event.sponsor.sponsors) }}#}
-{#        {% endcall %}#}
-{#    {% endif %}#}
+    {#    {% if event.sponsor %}#}
+    {#        {% call components.section(title="Sponsor", id="sponsor") %}#}
+    {#            {{ components.sponsor(blurb=event.sponsor.blurb, deck_url=event.sponsor.sponsorship_deck_url, sponsors=event.sponsor.sponsors) }}#}
+    {#        {% endcall %}#}
+    {#    {% endif %}#}
 
 
     {% if event.footer %}
@@ -87,4 +81,20 @@
         {% endcall %}
     {% endif %}
 
+    {% include "components/footer.html" %}
+
+{% endblock %}
+{% block footer_scripts %}
+    {% if event.schedule %}
+        <script>
+            window.Event.schedule_url = "{{ event.schedule.json_url }}";
+            window.Event.schedule_type = "{{ event.schedule.type }}";
+        </script>
+    {% endif %}
+{% endblock %}
+
+{% block initial_js %}
+    {% if event.venue %}
+        initLeaflets();
+    {% endif %}
 {% endblock %}
