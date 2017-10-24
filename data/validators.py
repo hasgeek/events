@@ -1,5 +1,6 @@
 import re
 from ruamel.yaml import YAML
+from data import Event
 
 color_regex = re.compile(r'^#(?:[0-9a-fA-F]{3}){1,2}$', re.IGNORECASE)
 
@@ -12,8 +13,8 @@ url_regex = re.compile(
     r'(?::\d+)?'  # optional port
     r'(?:/?|[/?]\S+)$', re.IGNORECASE)
 
-
 yaml = YAML(typ='safe')
+
 
 def valid_color(field, value, error):
     if not color_regex.match(value):
@@ -25,24 +26,31 @@ def valid_external_url(field, value, error):
         error(field, "Must be a valid URL")
 
 
-
-ALLOWED_EVENT_TYPES = yaml.load(open("./data/event-types.yml", "r"))
-
 ALLOWED_CITIES = yaml.load(open("./data/cities.yml", "r"))
 
 ALLOWED_TAGS = yaml.load(open("./data/tags.yml", "r"))
 
+title_schema = {
+    'type': 'string',
+    'maxlength': 80,
+    'required': True
+}
+
+subtitle_schema = {
+    'type': 'string',
+    'maxlength': 160,
+    'required': True
+}
+
+datelocation_schema = {
+    'type': 'string',
+    'maxlength': 80,
+    'required': True
+}
+
 brand_schema = {
-    'title': {
-        'type': 'string',
-        'maxlength': 80,
-        'required': True
-    },
-    'subtitle': {
-        'type': 'string',
-        'maxlength': 160,
-        'required': True
-    },
+    'title': title_schema,
+    'subtitle': subtitle_schema,
     'path': {
         'type': 'string',
         'required': True
@@ -103,25 +111,13 @@ brand_schema = {
 }
 
 event_schema = {
-    'layout': {
+    'type': {
         'type': 'string',
-        'allowed': ALLOWED_EVENT_TYPES
+        'allowed': Event.TYPES
     },
-    'title': {
-        'type': 'string',
-        'maxlength': 80,
-        'required': True
-    },
-    'subtitle': {
-        'type': 'string',
-        'maxlength': 160,
-        'required': True
-    },
-    'datelocation': {
-        'type': 'string',
-        'maxlength': 80,
-        'required': True
-    },
+    'title': title_schema,
+    'subtitle': subtitle_schema,
+    'datelocation': datelocation_schema,
     'city': {
         'type': 'string',
         'allowed': ALLOWED_CITIES

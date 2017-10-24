@@ -3,7 +3,7 @@
 from flask import abort, render_template, jsonify
 from helpers import get_brand
 from .. import app
-from hasweb.models import Event
+from data import Event
 from datetime import date
 
 ctx = {
@@ -44,8 +44,8 @@ ctx = {
 @get_brand
 def index(brand=None, brand_id=None):
     events = Event.get_all_events_by_brand_id(brand_id)
-    current_events = [event for event in events if event['start_time'] >= date.today()]
-    past_events = [event for event in events if event['start_time'] < date.today()]
+    current_events = [event for event_key, event in events.iteritems() if event.start_time >= date.today()]
+    past_events = [event for event_key, event in events.iteritems() if event.start_time < date.today()]
     return render_template('pages/index.html.jinja2', current_events=current_events, past_events=past_events, ctx=ctx)
 
 
@@ -58,7 +58,6 @@ def event_page(id, brand=None, brand_id=None):
 
     return render_template("pages/event.html.jinja2", event=event, ctx=ctx)
 
-url_for('event_page', external=True)
 
 @app.route('/manifest.json')
 @get_brand

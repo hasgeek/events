@@ -1,5 +1,5 @@
 ---
-layout: workshop
+type: workshop
 title: "Rootconf meetup at WalmartLabs"
 subtitle: "A meetup in Bangalore for everyone curious server less architecture."
 datelocation: "23 Sep 2017, 11 AM - 2 PM, WalmartLabs, Bangalore"

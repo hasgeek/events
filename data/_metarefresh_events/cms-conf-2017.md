@@ -1,5 +1,5 @@
 ---
-layout: event
+type: event
 title: CMS Conf 2017
 subtitle: "The future of digital media"
 datelocation: "1 Dec 2017, Bangalore"

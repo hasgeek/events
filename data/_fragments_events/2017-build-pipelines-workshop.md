@@ -1,5 +1,5 @@
 ---
-layout: workshop
+type: workshop
 title: "Automate Android, iOS and ReactNative build Pipelines using Fastlane"
 subtitle: "Learn how to automate tedious tasks like generating screenshots, dealing with provisioning profiles, and releasing your application."
 datelocation: "17 September 2017, 9:00AM to 1:15PM, Bangalore"

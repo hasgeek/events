@@ -1,5 +1,5 @@
 ---
-layout: workshop
+type: workshop
 title: "WebVR Workshop"
 subtitle: "Learn how to bring Virtual Reality to the Web with WebVR"
 datelocation: "17 September 2017, 9:30AM to 1:30PM, Bangalore"

@@ -1,5 +1,5 @@
 ---
-layout: workshop
+type: workshop
 title: "React Native workshop"
 subtitle: "(iOS, Android, Windows Phone, Web, Desktop, Electron and even VR*)"
 datelocation: "17 September 2017, 1:45PM to 6PM, Bangalore"

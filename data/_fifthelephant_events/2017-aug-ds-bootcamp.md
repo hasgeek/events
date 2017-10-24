@@ -1,5 +1,5 @@
 ---
-layout: workshop
+type: workshop
 canonical: http://amitkaps.com/dsbootcamp
 title: "Data Science Bootcamp"
 subtitle: "A five-day bootcamp on Data Science"

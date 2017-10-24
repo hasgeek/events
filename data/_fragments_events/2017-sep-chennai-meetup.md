@@ -1,5 +1,5 @@
 ---
-layout: workshop
+type: workshop
 title: "Fragments meetup in Chennai"
 subtitle: "A meetup in Chennai for everyone curious about the mobile ecosystem."
 datelocation: "2 Sep 2017, 10 AM - 1 PM, Chennai"

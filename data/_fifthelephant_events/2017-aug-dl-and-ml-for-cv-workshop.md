@@ -1,5 +1,5 @@
 ---
-layout: workshop
+type: workshop
 title: "Deep Learning and Machine Learning for Computer Vision"
 subtitle: "6 hour workshop"
 datelocation: "4 Nov 2017, Bangalore"

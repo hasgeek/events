@@ -1,5 +1,5 @@
 ---
-layout: workshop
+type: workshop
 title: "Hacknight at HasGeek"
 subtitle: "JavaScript hacknight at HasGeek House"
 datelocation: "9-10 Sep 2017, 5 PM - 8 AM, HasGeek House"

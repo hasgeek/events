@@ -1,5 +1,5 @@
 ---
-layout: workshop
+type: workshop
 title: "Workshop: Learning representations of text for NLP"
 subtitle: A conference on deep learning and artificial intelligence
 datelocation: "30 July 2017, Bangalore"

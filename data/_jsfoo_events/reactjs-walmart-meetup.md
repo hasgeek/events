@@ -1,5 +1,5 @@
 ---
-layout: workshop
+type: workshop
 title: "ReactJS Meetup Bangalore"
 subtitle: "A meetup for all React enthusiasts, in collaboration with the ReactJS Bangalore community."
 datelocation: "19 Aug 2017, 2 PM - 5 PM, WalmartLabs"

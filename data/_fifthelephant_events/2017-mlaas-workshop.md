@@ -1,5 +1,5 @@
 ---
-layout: workshop
+type: workshop
 title: "Workshop: Machine Learning as a Service"
 subtitle: "Learn how to build a seamless end-to-end data driven application"
 datelocation: "25-26 July 2017, Bangalore"

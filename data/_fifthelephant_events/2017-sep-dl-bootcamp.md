@@ -1,5 +1,5 @@
 ---
-layout: workshop
+type: workshop
 title: "Deep Learning Bootcamp"
 subtitle: "A two-day bootcamp on learning Deep Learning"
 datelocation: "9-16 Sep 2017, Bangalore"

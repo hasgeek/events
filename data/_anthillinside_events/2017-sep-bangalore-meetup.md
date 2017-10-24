@@ -1,5 +1,5 @@
 ---
-layout: workshop
+type: workshop
 title: "Meetup on the uses of computer vision in e-commerce"
 subtitle: "A meetup in Bangalore where we discuss some of the uses of computer vision in e-commerce"
 datelocation: "9 Sep 2017, 11 AM - 2 PM, WalmartLabs, Bangalore"

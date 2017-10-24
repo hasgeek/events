@@ -6,4 +6,3 @@ from hasweb import app
 db = SQLAlchemy(app)
 
 from .user import *
-from .event import *

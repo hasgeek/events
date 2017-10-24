@@ -2,7 +2,7 @@ anthillinside:
   title: Anthill Inside
   subtitle: "India's community of deep learning and artificial intelligence practitioners"
   path: "" # the subpath of your site, e.g. /blog
-  hostname: "anthillinside.in" # the base hostname of this site
+  hostname: "https://anthillinside.in" # the base hostname of this site
   seo:
     description: "India's community of deep learning and artificial intelligence practitioners"
   colors:
@@ -23,7 +23,7 @@ fifthelephant:
   seo:
     description: "India’s most renowned data science conference. Discuss the most cutting edge developments in the fields of machine learning, data science and technology that power data collection and analysis."
   path: "" # the subpath of your site, e.g. /blog
-  hostname: "fifthelephant.in" # the base hostname & protocol for your site, e.g. http://example.com
+  hostname: "https://fifthelephant.in" # the base hostname & protocol for your site, e.g. http://example.com
   colors:
     primary: "#498f94"
     accent: "#EC6015"
@@ -42,7 +42,7 @@ fragments:
   seo:
     description: "India's community of Android, iOS, and mobile web developers"
   path: "" # the subpath of your site, e.g. /blog
-  hostname: "fragments.in" # the base hostname & protocol for your site, e.g. http://example.com
+  hostname: "https://fragments.in" # the base hostname & protocol for your site, e.g. http://example.com
   colors:
     primary: "#1BAF82"
     accent: "#99CB54"
@@ -56,7 +56,7 @@ jsfoo:
   seo:
     description: "A community and conference on JavaScript"
   path: "" # the subpath of your site, e.g. /blog
-  hostname: "jsfoo.in" # the base hostname & protocol for your site, e.g. http://example.com
+  hostname: "https://jsfoo.in" # the base hostname & protocol for your site, e.g. http://example.com
   colors:
     primary: "#549EAF"
     accent: "#FAA51A"
@@ -73,7 +73,7 @@ metarefresh:
   seo:
     description: "A community and conference on the construction of user experience on the web."
   path: "" # the subpath of your site, e.g. /blog
-  hostname: "metarefresh.in" # the base hostname & protocol for your site, e.g. http://example.com
+  hostname: "https://metarefresh.in" # the base hostname & protocol for your site, e.g. http://example.com
   colors:
     primary: "#b22e40"
     accent: "#921b3f"
@@ -90,7 +90,7 @@ reactfoo:
   seo:
     description: "India's community of React.js and React Native developers"
   path: "" # the subpath of your site, e.g. /blog
-  hostname: "reactfoo.in" # the base hostname & protocol for your site, e.g. http://example.com
+  hostname: "https://reactfoo.in" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 rootconf:
@@ -99,4 +99,4 @@ rootconf:
   seo:
     description: "A community and conference on DevOps and cloud infrastructure"
   path: "" # the subpath of your site, e.g. /blog
-  hostname: "rootconf.in" # the base hostname & protocol for your site, e.g. http://example.com
+  hostname: "https://rootconf.in" # the base hostname & protocol for your site, e.g. http://example.com
