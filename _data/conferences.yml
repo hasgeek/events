@@ -129,3 +129,17 @@
     primary: "#3f50a3"
     primary_dark: "#213284"
     accent: "#e76f45"
+    
+- name: 50p-2018
+  title: 50p 2018
+  city: Bangalore
+  venue: To be announced
+  start_time: 2018-02-01
+  end_time: 2018-02-03
+  funnel: https://50p.talkfunnel.com/2018/
+  url: https://50p.in/2018/
+  blurb: "India’s first independent conference on payments and the payment ecosystem."
+  color:
+    primary: "#826995"
+    primary_dark: "#514F74"
+    accent: "#ECC378"
