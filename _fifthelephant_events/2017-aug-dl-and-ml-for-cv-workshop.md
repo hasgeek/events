@@ -2,7 +2,7 @@
 layout: workshop
 title: "Deep Learning and Machine Learning for Computer Vision"
 subtitle: "Get a hands-on experience of using ML / DL for solving computer vision problems"
-datelocation: "4 Nov 2017, 10:00 AM to 5:00 PM, Innov8 Coworking, Bengaluru"
+datelocation: "4 Nov 2017, 9:30 AM to 6:00 PM, Innov8 Coworking, Bengaluru"
 city: Bangalore
 start_time: 2017-11-04
 end_time: 2017-11-04
