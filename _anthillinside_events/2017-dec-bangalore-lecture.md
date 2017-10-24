@@ -20,7 +20,7 @@ venue:
   lat: 12.960094
   lng: 77.643514
   google_maps_url: https://goo.gl/maps/KEuEANzv63A2
- 
+
 speakers:
 - name: Gene Kogan
   byline: Researcher at Sourcetone, LLC
@@ -45,13 +45,13 @@ overview:
 
     If you are interested in
 
-    * Artificial Intelligence 
+    * Artificial Intelligence
     * Machine Learning
     * Deep Learning
     * Blockchains and cryptocurrencies
-    * Decentralization 
+    * Decentralization
 
-    You should have some awareness of these technologies. Gene will review these for beginners. 
+    You should have some awareness of these technologies. Gene will review these for beginners.
 
     ## Speaker Bio
     **[Gene Kogan](http://genekogan.com/)** is an artist and a programmer who is interested in generative systems, artificial intelligence, and software for creativity and self-expression. He is a collaborator within numerous [open-source](https://github.com/genekogan) software projects, and leads [workshops](http://genekogan.com/workshops/) and [talks](http://genekogan.com/cv/#talks) on topics at the intersection of code and art. Gene initiated and contributes to [ml4a](https://ml4a.github.io/), a free book about machine learning for artists, activists, and citizen scientists. He regularly publishes [video lectures](http://ml4a.github.io/classes/), writings, and tutorials to facilitate a greater public understanding of the topic.
@@ -62,10 +62,10 @@ sponsor:
 
     Download our sponsorship deck or reach out to us for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
   sponsorship_deck_url: 'http://hsgk.in/2gJIrmY'
-  
   sponsors:
-   - title: "Developer Relations Partner"
-      size: "l"
-      - aws  
- 
+  - title: "Developer Relations Partner"
+    size: "l"
+    sponsors:
+    - aws  
+
 ---

@@ -46,11 +46,11 @@ sponsor:
 
     Download our sponsorship deck or reach out to us for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
   sponsorship_deck_url: 'http://hsgk.in/2gJIrmY'
-
-sponsors:
-   - title: "Developer Relations Partner"
-     size: "l"
-     - aws    
+  sponsors:
+  - title: "Developer Relations Partner"
+    size: "l"
+    sponsors:
+    - aws    
 
 
 ---
