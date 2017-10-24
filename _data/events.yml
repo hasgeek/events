@@ -308,9 +308,9 @@
 - name: react-native-workshop-1
   title: React Native Beginners workshop
   city: Bangalore
-  venue: IKP Eden
-  start_time: 2017-10-28 09:00
-  end_time: 2017-10-28 13:15
+  venue: ThoughtFactory
+  start_time: 2017-10-29 09:00
+  end_time: 2017-10-29 13:15
   url: https://reactfoo.in/2017-react-native-workshop/
   blurb: Learn how to build native iOS and android app using React Native such that it can easily be extended to any platform such as Windows Phone, Web, Desktop, Electron and even VR*.
 
