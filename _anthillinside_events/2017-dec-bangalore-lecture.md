@@ -8,7 +8,6 @@ start_time: 2017-12-08
 end_time: 2017-12-08
 description: "A talk on possibilities that lie at the intersection of artificial intelligence and blockchains"
 boxoffice_item_collection: '20563c8a-af8a-4c1f-80f7-0722e8aaf0cb'
-
 venue:
   label: NASSCOM - 10000 Startup Warehouse, Bangalore
   address: |
@@ -20,7 +19,6 @@ venue:
   lat: 12.960094
   lng: 77.643514
   google_maps_url: https://goo.gl/maps/KEuEANzv63A2
-
 speakers:
 - name: Gene Kogan
   byline: Researcher at Sourcetone, LLC
