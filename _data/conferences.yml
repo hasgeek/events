@@ -144,7 +144,7 @@
     primary_dark: "#514F74"
     accent: "#ECC378"
 
-- name: Miniconf on Cloud Server Management
+- name: 2017-cloud-server-management-miniconf-chennai
   title: Miniconf on Cloud Server Management
   city: Chennai
   venue: To be announced
@@ -158,7 +158,7 @@
     primary_dark: "#514F74"
     accent: "#ECC378"
 
-- name: Miniconf on Cloud Server Management
+- name: 2017-cloud-server-management-miniconf-mumbai
   title: Miniconf on Cloud Server Management
   city: Mumbai
   venue: To be announced
@@ -172,9 +172,9 @@
     primary_dark: "#514F74"
     accent: "#ECC378"
 
-- name: Miniconf on Cloud Server Management
+- name: 2017-cloud-server-management-miniconf-delhi
   title: Miniconf on Cloud Server Management
-  city: Delhi
+  city: Delhi/NCR
   venue: To be announced
   start_time: 2017-12-09
   end_time: 2017-12-09
