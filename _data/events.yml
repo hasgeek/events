@@ -95,7 +95,7 @@
   start_time: 2017-07-08 11:00
   end_time: 2017-07-08 14:00
   url: https://fifthelephant.in/2017/pune-meetup
-  blurb: We're putting together a Fifth Elephant meetup in Pune on 8th July at Wingify office. We'll have one workshop followed by talks. If you're a data scientist, analyst, researcher or technologist working in the areas of machine learning and deep learning engineer in and around Pune, do attend!
+  blurb: We're putting together a Fifth Elephant meetup in Pune on 8th July at Wingify office. We'll have one workshop followed by talks. If you're a data scientist, analyst, researcher or technologist working in the areas of machine learning and learning engineer in and around Pune, do attend!
 
 - name: open-house-design-community
   title: Open house on design community
@@ -327,8 +327,8 @@
   title: Deep Learning and Machine Learning for Computer Vision
   city: Bangalore
   venue: Innov8
-  start_time: 2017-11-04 10:00
-  end_time: 2017-11-04 17:00
+  start_time: 2017-11-04 09:30
+  end_time: 2017-11-04 18:00
   url: https://fifthelephant.in/2017-aug-dl-and-ml-for-cv-workshop/
   blurb: Get a hands-on experience of using ML / DL for solving Computer Vision problems
 
