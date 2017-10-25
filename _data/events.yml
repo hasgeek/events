@@ -298,8 +298,8 @@
 
 - name: kilter-oct-fitness-festival
   title: "October Fitness Festival"
-  city: Bangalore
-  venue: online
+  city: Online
+  venue: Online
   start_time: 2017-10-01 00:00
   end_time: 2017-10-29 23:59
   url: https://blog.kilter.in
