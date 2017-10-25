@@ -26,12 +26,12 @@ def step_impl(context):
 
 @then('brands.yml must exist')
 def step_impl(context):
-    stream = open("data/brands.yml", "r")
+    stream = open("./configs/brands.yml", "r")
     brands = yaml.load(stream)
     assert isinstance(brands, dict), "brands.yml must be a dict"
     context.brands = brands
 
-    stream = open("data/cities.yml", "r")
+    stream = open("./configs/cities.yml", "r")
     context.cities = yaml.load(stream)
 
 

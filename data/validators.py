@@ -26,9 +26,9 @@ def valid_external_url(field, value, error):
         error(field, "Must be a valid URL")
 
 
-ALLOWED_CITIES = yaml.load(open("./data/cities.yml", "r"))
+ALLOWED_CITIES = yaml.load(open("./configs/cities.yml", "r"))
 
-ALLOWED_TAGS = yaml.load(open("./data/tags.yml", "r"))
+ALLOWED_TAGS = yaml.load(open("./configs/tags.yml", "r"))
 
 title_schema = {
     'type': 'string',

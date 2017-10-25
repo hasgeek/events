@@ -2,7 +2,7 @@
 
 from flask import abort, render_template, jsonify
 from helpers import get_brand
-from .. import app
+from .. import hg_app, event_app
 from data import Event
 from datetime import date
 
@@ -40,7 +40,11 @@ ctx = {
 }
 
 
-@app.route('/')
+@hg_app.route('/')
+def hg_index():
+    return "hello"
+
+@event_app.route('/')
 @get_brand
 def index(brand=None, brand_id=None):
     events = Event.get_all_events_by_brand_id(brand_id)
@@ -49,7 +53,7 @@ def index(brand=None, brand_id=None):
     return render_template('pages/index.html.jinja2', current_events=current_events, past_events=past_events, ctx=ctx)
 
 
-@app.route('/<id>')
+@event_app.route('/<id>')
 @get_brand
 def event_page(id, brand=None, brand_id=None):
     event = Event.get_by_event_id_and_brand_id(event_id=id, brand_id=brand_id)
@@ -59,7 +63,7 @@ def event_page(id, brand=None, brand_id=None):
     return render_template("pages/event.html.jinja2", event=event, ctx=ctx)
 
 
-@app.route('/manifest.json')
+@event_app.route('/manifest.json')
 @get_brand
 def manifest_json(brand=None, brand_id=None):
     manifest = {
@@ -93,7 +97,7 @@ def manifest_json(brand=None, brand_id=None):
     return jsonify(manifest)
 
 
-@app.route('/events.ics')
+@event_app.route('/events.ics')
 @get_brand
 def ical_feed(id, brand=None, brand_key=None):
     return ""

@@ -1,7 +1,7 @@
 from functools import wraps
 from flask import request, redirect, url_for, abort
 from data import ALL_BRANDS
-from hasweb import app
+from hasweb import event_app
 import IPython
 
 
@@ -19,8 +19,8 @@ def get_brand(f):
             temp_brand = None # If we don't find a brand
             temp_brand_key = None
             for brand_key, brand in ALL_BRANDS.iteritems():
-                if app.debug:
-                    if brand['hostname'][brand['hostname'].index('//'):brand['hostname'].rindex('.')] in request_host: # allow rootconf.dev style domains when in development
+                if event_app.debug:
+                    if brand['hostname'][brand['hostname'].index('://'):brand['hostname'].rindex('.')] in request_host: # allow rootconf.dev style domains when in development
                         temp_brand = brand
                         temp_brand_key = brand_key
                 else:

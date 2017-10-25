@@ -9,13 +9,13 @@ yaml = YAML(typ='safe')
 
 ALL_EVENTS = {}
 
-ALL_BRANDS = yaml.load(open("./data/brands.yml", "r"))
+ALL_BRANDS = yaml.load(open("./configs/brands.yml", "r"))
 
-ALLOWED_EVENT_TYPES = yaml.load(open("./data/event-types.yml", "r"))
+ALLOWED_EVENT_TYPES = yaml.load(open("./configs/event-types.yml", "r"))
 
-ALLOWED_CITIES = yaml.load(open("./data/cities.yml", "r"))
+ALLOWED_CITIES = yaml.load(open("./configs/cities.yml", "r"))
 
-ALLOWED_TAGS = yaml.load(open("./data/tags.yml", "r"))
+ALLOWED_TAGS = yaml.load(open("./configs/tags.yml", "r"))
 
 ALL_BRANDS_BY_HOSTNAME = {}
 

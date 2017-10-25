@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import sys
-from hasweb import app
+from hasweb import application
+from werkzeug.serving import run_simple
 
 try:
     port = int(sys.argv[1])
@@ -9,4 +10,5 @@ except (IndexError, ValueError):
 
 
 if __name__ == '__main__':
-    app.run('0.0.0.0', port=port, debug=True)
+    run_simple('0.0.0.0', port, application,
+               use_reloader=True, use_debugger=True, use_evalex=True)
