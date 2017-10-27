@@ -2,7 +2,7 @@
 layout: workshop
 title: "Angular PWA workshop"
 subtitle: "Learn how to build progressive web apps using Angular"
-datelocation: "11 November 2017, 10:00 AM to 1:15 PM, Bangalore"
+datelocation: "11 November 2017, 10:00 AM to 1:15 PM, HasGeek House, Bangalore"
 city: Bangalore
 start_time: 2017-11-11
 end_time: 2017-11-11
@@ -63,5 +63,14 @@ overview:
     * Nisheed Jagdeesh  -Manager SapientRazorfish
     * Kriti Aggarwal – SapientRazorfish
     * Ashish Jangid – SapientRazorfish
+venue:
+  label: HasGeek House, Bangalore
+  address: |
+    HasGeek House
+    2699, 19th Main, 5th Cross, HAL 2nd Stage,
+    Indiranagar, Bengaluru, Karnataka 560008.
+  lat: 12.961499
+  lng: 77.644307      
+  google_maps_url: https://goo.gl/maps/22MeDNNqFtE2
 
 ---
