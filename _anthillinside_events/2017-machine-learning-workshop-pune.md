@@ -1,7 +1,7 @@
 ---
 layout: workshop
-title: "Getting started with machine learning: tools, algorithms, concepts"
-subtitle: "Machine learning for beginners using Python"
+title: "Machine learning for beginners using Python"
+subtitle: "Getting started with machine learning: tools, algorithms, concepts"
 datelocation: "25 Nov 2017, 10 AM - 1:30 PM, Pune"
 city: Pune
 start_time: 2017-11-25
