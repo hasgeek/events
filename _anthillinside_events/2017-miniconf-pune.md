@@ -31,7 +31,7 @@ overview:
   right_content: |
     ### Hands-on workshops:
 
-    Hands-on workshops for 30-40 participants on 19 November will help in internalizing concepts, and practical aspects of working with tools. Workshop tickets have to be purchased separately. (Workshops will be announced shortly.)
+    Hands-on workshops for 30-40 participants on 25 November will help in internalizing concepts, and practical aspects of working with tools. Workshop tickets have to be purchased separately. (Workshops will be announced shortly.)
 
     ### Who should attend? Why should you attend?
 
