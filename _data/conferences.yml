@@ -129,7 +129,7 @@
     primary: "#3f50a3"
     primary_dark: "#213284"
     accent: "#e76f45"
-    
+
 - name: 50p-2018
   title: 50p 2018
   city: Bangalore
@@ -145,7 +145,7 @@
     accent: "#ECC378"
 
 - name: 2017-cloud-server-management-miniconf-chennai
-  title: Miniconf on Cloud Server Management
+  title: Miniconf on Cloud Server Management (Chennai)
   city: Chennai
   venue: To be announced
   start_time: 2017-11-25
@@ -159,27 +159,27 @@
     accent: "#ECC378"
 
 - name: 2017-cloud-server-management-miniconf-mumbai
-  title: Miniconf on Cloud Server Management
+  title: Miniconf on Cloud Server Management (Mumbai)
   city: Mumbai
   venue: To be announced
   start_time: 2017-12-08
   end_time: 2017-12-08
   funnel: https://rootconf.talkfunnel.com/cloud-server-management-miniconf-2017/
-  url: https://rootconf.in/2017-cloud-server-management-miniconf/
+  url: https://rootconf.in/2017-cloud-server-management-miniconf-mumbai/
   blurb: "Cloud server management brings with it as many challenges as it offers conveniences."
   color:
     primary: "#826995"
     primary_dark: "#514F74"
     accent: "#ECC378"
 
-- name: 2017-cloud-server-management-miniconf-delhi
-  title: Miniconf on Cloud Server Management
+- name: 2017-cloud-server-management-miniconf-delhi-ncr
+  title: Miniconf on Cloud Server Management (Delhi/NCR)
   city: Delhi/NCR
-  venue: To be announced
+  venue: Investopad
   start_time: 2017-12-09
   end_time: 2017-12-09
   funnel: https://rootconf.talkfunnel.com/cloud-server-management-miniconf-2017/
-  url: https://rootconf.in/2017-cloud-server-management-miniconf/
+  url: https://rootconf.in/2017-cloud-server-management-miniconf-delhi-ncr/
   blurb: "Cloud server management brings with it as many challenges as it offers conveniences."
   color:
     primary: "#826995"
