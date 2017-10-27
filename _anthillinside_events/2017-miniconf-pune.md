@@ -39,7 +39,8 @@ overview:
     2. ML engineers wanting to learn from experiences and insights of others.
     3. Senior architects and decision-makers who want to quick run-through of concepts, implementation case studies, and overview of tools.
     4. Masters and doctoral candidates who want to bridge the gap between academia and practice.
-
+related_events:
+- anthillinside-2017-machine-learning-workshop-pune
 sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach, sales and hiring.

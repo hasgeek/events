@@ -1,19 +1,19 @@
 ---
 layout: event
-title: "Miniconf on Cloud Server Management (Chennai)"
+title: "Miniconf on Cloud Server Management (Delhi/NCR)"
 subtitle: "Cloud server management brings with it as many challenges as it offers conveniences"
-datelocation: "25 Nov 2017, Chennai"
+datelocation: "9 Dec 2017, Investopad, Gurgaon"
 city: Elsewhere
-start_time: 2017-11-25
-end_time: 2017-11-25
+start_time: 2017-12-09
+end_time: 2017-12-09
 description: "Cloud server management brings with it as many challenges as it offers conveniences. It is time to unbundle questions on resource allocation, scaling, security, and more."
 boxoffice_item_collection: "416a6332-3d84-4986-b25e-d566eb7ab066"
 funnel:
   url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-2017/"
   open: true
 related_events:
+- rootconf-2017-cloud-server-management-miniconf
 - rootconf-2017-cloud-server-management-miniconf-mumbai
-- rootconf-2017-cloud-server-management-miniconf-delhi-ncr
 overview:
   left_content: |
     Cloud server management brings with it as many challenges as it offers conveniences. It is time to unbundle questions about:
@@ -44,9 +44,14 @@ overview:
     * Chennai – 25 November 2017.
     * Mumbai – 8 December 2017.
     * Gurgaon – 9 December 2017.
-
-    **Venues in each of these cities will be confirmed and announced soon.**
-
+venue:
+  label: Investopad, Gurgaon
+  address: |
+    Investopad,
+    18, Institutional Area, Sector 32, Gurgaon, Gurugram, Haryana 122001
+  lat: 28.444565
+  lng: 77.042905
+  google_maps_url: https://goo.gl/maps/yjwRBCPockP2
 sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach, sales and hiring.
@@ -58,5 +63,9 @@ sponsor:
     size: "l"
     sponsors:
     - aws
+  - title: "Venue and Outreach Partner"
+    size: "m"
+    sponsors:
+    - investopad
 
 ---

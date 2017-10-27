@@ -1,18 +1,18 @@
 ---
 layout: event
-title: "Miniconf on Cloud Server Management (Chennai)"
+title: "Miniconf on Cloud Server Management (Mumbai)"
 subtitle: "Cloud server management brings with it as many challenges as it offers conveniences"
-datelocation: "25 Nov 2017, Chennai"
+datelocation: "8 Dec 2017, Mumbai"
 city: Elsewhere
-start_time: 2017-11-25
-end_time: 2017-11-25
+start_time: 2017-12-08
+end_time: 2017-12-08
 description: "Cloud server management brings with it as many challenges as it offers conveniences. It is time to unbundle questions on resource allocation, scaling, security, and more."
 boxoffice_item_collection: "416a6332-3d84-4986-b25e-d566eb7ab066"
 funnel:
   url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-2017/"
   open: true
 related_events:
-- rootconf-2017-cloud-server-management-miniconf-mumbai
+- rootconf-2017-cloud-server-management-miniconf
 - rootconf-2017-cloud-server-management-miniconf-delhi-ncr
 overview:
   left_content: |
@@ -58,5 +58,4 @@ sponsor:
     size: "l"
     sponsors:
     - aws
-
 ---

@@ -178,17 +178,17 @@ equal-experts:
   display_url: www.equalexperts.com
   blurb: |
     Equal Experts is an award-winning agile software consultancy, specialising in simple software solutions for big business challenges. We use highly productive working methods to deliver innovative software for a wide range of public and private-sector clients.
-    
+
     We never compromise on expertise – our talented software consultants typically boast at least 8 years’ experience – but crucially,  our values are just as important to us. Our core engineering values are automation, continuous delivery, constant learning, responsible innovation and low ego, hands-on delivery.
     This respectful, grown-up approach delivers work that our teams and our clients can both be proud of – and it’s helped Equal Experts to be recognised on Glassdoor as an exceptional place to work.
 qube-cinema:
   title: "Qube Cinema"
-  logo_url: https://images.hasgeek.com/embed/file/3c0f6e3d0e31464ba62574a50afc4641 
+  logo_url: https://images.hasgeek.com/embed/file/3c0f6e3d0e31464ba62574a50afc4641
   url: http://www.qubecinema.com/
   display_url: www.qubecinema.com
   blurb: |
     Qube Cinema, Inc. is a provider of end-to- end digital cinema technology and solutions. The company draws on decades of experience in cinema and provides a seamless digital environment for exhibitors, filmmakers and post-production companies with DCI compliant products that are flexible, reliable and cost-effective.
-    
+
     Qube Cinema has been a leading provider of technology in the film, video and audio domains and has pioneered several technology revolutions over the last three decades. The company was instrumental in bringing computer-based digital non-linear editing to India with Avid Technology, transforming the industry and forever changing the way Indian film and television programs were edited. The company subsequently brought digital cinema sound to India with DTS and helped Indian cinema leapfrog a generation, form mono sound directly to digital.
     The Qube product line is well established globally, with about 7,000 installations across 48 countries so far and has digital cinema operations in 4,000 cinema screens across India which is almost 42% of Indian screens.
 
@@ -257,14 +257,14 @@ google:
     servers and added just a few more company dogs, our passion for building technology
     for everyone has stayed with us — from the dorm room, to the garage, and to this very
     day.
- 
+
 grab:
   title: "Grab"
   logo_url: https://images.hasgeek.com/embed/file/e3cb1c180f8c44e6a0ecd6d3711239ff
   url: https://grab.careers/
   display_url: grab.careers
   blurb: |
-    Grab is more than just the leading ride-hailing and mobile payments platform in Southeast Asia. 
+    Grab is more than just the leading ride-hailing and mobile payments platform in Southeast Asia.
 
     We use data and technology to improve everything from transportation to payments across a region of more than 620 million people. Working with governments, drivers, passengers, and the community, we aim to unlock the true potential of the region by solving problems that hinder progress.
 
@@ -307,7 +307,7 @@ practo:
   url: https://medium.com/practo-engineering
   display_url: medium.com/practo-engineering
   blurb: |
-    For millions of people, Practo is the trusted and familiar home where they know they’ll find a healing touch. Practo is the place that connects everything they need to take good care of themselves and their loved ones —assessing health issues, finding the right doctor, obtaining medicines, managing records securely and finding new ways to live a longer, healthier life. 
+    For millions of people, Practo is the trusted and familiar home where they know they’ll find a healing touch. Practo is the place that connects everything they need to take good care of themselves and their loved ones —assessing health issues, finding the right doctor, obtaining medicines, managing records securely and finding new ways to live a longer, healthier life.
     Healthcare providers use Practo because it is a trusted home for health for millions of people. Practo provides a definitive platform for them to build their presence, to grow their practice or business and to engage their patients in a way that was never possible before.
 
 dream11:
@@ -321,11 +321,17 @@ dream11:
     In 2017, Dream11 became the Official Fantasy Cricket Partner of Hero CPL T20 – one of the most exciting T20 tournaments in the world.
 
     Locate us: www.dream11.com
- 
+
 aws:
   title: "aws"
   logo_url: https://images.hasgeek.com/embed/file/eb9a5014c7814d1b92b345a6956706df
   url: https://aws.amazon.com/
   display_url: aws.amazon.com
   blurb: |
-  
+
+investopad:
+  title: "Investopad"
+  logo_url: "https://images.hasgeek.com/embed/file/1326fcdbf30f4e3aba873ec61b0b8b1c"
+  url: "https://www.investopad.com/"
+  display_url: "investopad.com"
+  blurb: |

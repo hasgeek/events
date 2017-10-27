@@ -17,10 +17,12 @@ speakers:
     label: harshadss.github.io/
   bio: |
     Harshad is the  head of data science at onlinesales.ai, an advertising technology startup based out of Pune. He has 7+ years of experience in data science and specialises in machine learning, R, and Python. He holds a master’s degree in operations research from IIT Bombay.
+related_events:
+- anthillinside-2017-miniconf-pune
 overview:
   left_content: |
     Learn machine learning basics by solving problems and developing an ML application in Python. Attendees will learn about Python data ecosystem APIs (Numpy, Pandas and scikit-learn)  algorithms, implementation practices, maths, and other APIs/tools. This is a beginner level workshop. Basic programming skills are required.
-    
+
     There are many ways to approach machine learning field. We can start with knowing the tools and the APIs and then gradually approach the underhood maths. Alternatively, we can start with maths and then APIs/tools can be learnt later. The workshop objective is to cover each aspect in some detail. The outline will be as follows,
 
       1. Introduction to Python data ecosystem: few hands on exercises on numpy and pandas to serve as warmup (~ 30 minutes)
@@ -36,7 +38,7 @@ overview:
 
       + Laptop (operating system of your choice), charged battery + charger.
       + Python installed on the laptop + IDE of your choice/termincal.
-        + No hard choice between python 2 Vs python 3. 
+        + No hard choice between python 2 Vs python 3.
       + Following libraries __MUST__ be installed.
         - Numpy
         - Scipy

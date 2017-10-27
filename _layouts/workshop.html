@@ -80,6 +80,14 @@ layout: base
 </section>
 {% endif %}
 
+{% if page.related_events %}
+<section class="section">
+  <div class="container">
+    {% include related_events_section.html %}
+  </div>
+</section>
+{% endif %}
+
 {% if page.boxoffice_item_collection %}
 <section class="section" id="tickets">
   <div class="container">
