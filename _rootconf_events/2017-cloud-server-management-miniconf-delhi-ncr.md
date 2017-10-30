@@ -64,7 +64,7 @@ sponsor:
     sponsors:
     - aws
   - title: "Venue and Outreach Partner"
-    size: "m"
+    size: "l"
     sponsors:
     - investopad
 
