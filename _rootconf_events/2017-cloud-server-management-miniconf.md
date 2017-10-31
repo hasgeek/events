@@ -2,7 +2,7 @@
 layout: event
 title: "Miniconf on Cloud Server Management (Chennai)"
 subtitle: "Cloud server management brings with it as many challenges as it offers conveniences"
-datelocation: "25 Nov 2017, Chennai"
+datelocation: "25 Nov 2017, IITM Research Park, Chennai"
 city: Elsewhere
 start_time: 2017-11-25
 end_time: 2017-11-25
@@ -46,6 +46,15 @@ overview:
     * Gurgaon – 9 December 2017.
 
     **Venues in each of these cities will be confirmed and announced soon.**
+
+venue:
+  label: IITM Research Park, Chennai
+  address: |
+    IIT MADRAS RESEARCH PARK
+    First Floor, Kanagam Road, Tharamani, Chennai 600 113
+  lat: 12.990189
+  lng: 80.241877
+  google_maps_url: https://goo.gl/maps/G9dA6VrrA1F2
 
 sponsor:
   blurb: |
