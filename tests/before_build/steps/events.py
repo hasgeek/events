@@ -1,8 +1,11 @@
 from behave import *
-import yaml
 import datetime
 import urllib2
 import re
+import os
+import fnmatch
+from ruamel.yaml import YAML
+from cerberus import Validator
 
 urlregex = re.compile(
     r'^(?:http)s?://' # http:// or https://
@@ -13,19 +16,309 @@ urlregex = re.compile(
     r'(?::\d+)?' # optional port
     r'(?:/?|[/?]\S+)$', re.IGNORECASE)
 
+color_regex = re.compile(r'^#(?:[0-9a-fA-F]{3}){1,2}$', re.IGNORECASE)
+
+url_regex = re.compile(
+    r'^(?:http)s?://'  # http:// or https://
+    r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+(?:[A-Z]{2,6}\.?|[A-Z0-9-]{2,}\.?)|'  # domain
+    r'localhost|'  # localhost...
+    r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|'  # ...or ipv4
+    r'\[?[A-F0-9]*:[A-F0-9:]+\]?)'  # ...or ipv6
+    r'(?::\d+)?'  # optional port
+    r'(?:/?|[/?]\S+)$', re.IGNORECASE)
+
+yaml = YAML(typ='safe')
+
+
+def valid_color(field, value, error):
+    if not color_regex.match(value):
+        error(field, "Must be a valid color")
+
+
+def valid_external_url(field, value, error):
+    if not url_regex.match(value):
+        error(field, "Must be a valid URL")
+
+
+ALLOWED_CITIES = yaml.load(open("./_data/cities.yml", "r"))
+
+title_schema = {
+    'type': 'string',
+    'maxlength': 80,
+    'required': True
+}
+
+subtitle_schema = {
+    'type': 'string',
+    'maxlength': 160,
+    'required': True
+}
+
+datelocation_schema = {
+    'type': 'string',
+    'required': True
+}
+
+featured_speakers_schema = {
+    'funnel_url': {
+        'validator': valid_external_url,
+        'required': False
+    },
+    'talk_title': {
+        'type': 'string',
+        'required': True
+    },
+    'name': {
+        'type': 'string',
+        'required': True
+    },
+    'image_url': {
+        'validator': valid_external_url,
+        'required': False
+    },
+    'website': {
+        'type': 'dict',
+        'schema': {
+            'label': {
+                'type': 'string',
+                'required': True
+            },
+            'url': {
+                'validator': valid_external_url,
+                'required': True
+            }
+        },
+        'required': False
+    },
+    'blurb': {
+        'type': 'string',
+        'required': False
+    },
+}
+
+event_schema = {
+    'layout': {
+        'type': 'string',
+        'allowed': ['event', 'workshop']
+    },
+    'title': title_schema,
+    'subtitle': subtitle_schema,
+    'datelocation': datelocation_schema,
+    'city': {
+        'type': 'string',
+        'allowed': ALLOWED_CITIES
+    },
+    'start_time': {
+        'type': 'date',
+        'required': True
+    },
+    'end_time': {
+        'type': 'date',
+        'required': True
+    },
+    'description': {
+        'type': 'string',
+        'required': True
+    },
+    'subbanner': {
+        'type': 'string',
+        'required': False
+    },
+    'funnel': {
+        'type': 'dict',
+        'required': False
+    },
+    'schedule': {
+        'type': 'dict',
+        'required': False
+    },
+    'logo': {
+        'type': 'dict',
+        'schema': {
+            'image_url': {
+                'type': 'string',
+                'required': True
+            },
+            'has_title': {
+                'type': 'boolean',
+                'required': False
+            }
+        },
+        'required': False
+    },
+    'venue': {
+        'type': 'dict',
+        'schema': {
+            'label': {
+                'type': 'string',
+                'required': True
+            },
+            'mapbox': {
+                'type': 'dict',
+                'required': False
+            },
+            'lat': {
+                'type': 'float',
+                'required': True
+            },
+            'lng': {
+                'type': 'float',
+                'required': True
+            },
+            'address': {
+                'type': 'string',
+                'required': False
+            },
+            'google_maps_url': {
+                'validator': valid_external_url,
+                'required': True
+            },
+        },
+        'required': False
+    },
+    'livestream': {
+        'type': 'list',
+        'schema': {
+            'title': {
+                'type': 'string',
+                'required': True
+            },
+            'youtube_url': {
+                'validator': valid_external_url,
+                'required': True
+            }
+        },
+        'required': False
+    },
+    'announcements': {
+        'type': 'list',
+        'schema': {
+            'title': {
+                'type': 'string',
+                'required': True
+            },
+            'text': {
+                'type': 'string',
+                'required': True
+            }
+        },
+        'required': False
+    },
+    'overview': {
+        'type': 'dict',
+        'schema': {
+            'left_content': {
+                'type': 'string',
+                'required': False
+            },
+            'center_content': {
+                'type': 'string',
+                'required': False
+            },
+            'right_content': {
+                'type': 'string',
+                'required': False
+            }
+        },
+        'required': False
+    },
+
+    'boxoffice_item_collection': {
+        'type': 'string',
+        'required': False
+    },
+
+    'speakers': {
+        'type': 'list',
+        'required': False
+    },
+
+    'footer': {
+        'type': 'dict',
+        'required': False
+    },
+
+    'accommodation': {
+        'type': 'dict',
+        'required': False
+    },
+
+    'instructors': {
+        'type': 'list',
+        'required': False
+    },
+
+    'sponsor': {
+        'type': 'dict',
+        'required': False
+    },
+
+    'funnels': {
+        'type': 'dict',
+        'schema': {
+            'space': {
+                'type': 'string',
+                'required': True
+            },
+            'id': {
+                'type': 'string',
+                'required': True
+            }
+        },
+        'required': False
+    },
+
+    'live': {
+        'type': 'list',
+        'required': False
+    },
+
+    'featured_speakers': {
+        'type': 'list',
+        'required': False
+    },
+
+    'related_events': {
+        'type': 'list',
+        'required': False,
+        'schema': featured_speakers_schema
+    },
+
+    'canonical': {
+        'type': 'string',
+        'required': False
+    }
+
+}
+
+
+
 @given('an event added')
 def step_impl(context):
 	pass
 
 @then('events.yml must exist')
 def step_impl(context):
-	stream = open("_data/events.yml", "r")
-	events = yaml.load(stream)
-	assert isinstance(events, list), "events.yml must be a list"
-	context.events = events
+    stream = open("_data/events.yml", "r")
+    events = yaml.load(stream)
+    assert isinstance(events, list), "events.yml must be a list"
+    context.events = events
+    stream = open("_data/cities.yml", "r")
+    context.cities = yaml.load(stream)
+    all_events = []
+    matches = []
+    for root, dirnames, filenames in os.walk('./'):
+        for filename in fnmatch.filter(filenames, '*.md'):
+            matches.append(os.path.join(root, filename))
 
-	stream = open("_data/cities.yml", "r")
-	context.cities = yaml.load(stream, Loader=yaml.BaseLoader)
+    for event_file in matches:
+        if "_events" in event_file:
+            stream = open(event_file, "r")
+
+            for event in yaml.load_all(stream):
+                if event is not None:
+                    all_events.append(event)
+    context.all_events = all_events
 
 @then('all mandatory event fields must exist')
 def step_impl(context):
@@ -57,3 +350,10 @@ def step_impl(context):
 
 		assert len(event.get('blurb')) <= 300 , "'blurb' value is more than 300 characters"
 		assert urlregex.match(event.get('url')), "'url' is not a valid URL"
+
+
+@then('all mandatory event page fields must exist')
+def step_impl(context):
+    v = Validator(event_schema)
+    for event in context.all_events:
+        assert v.validate(event), str(v.errors) + " in validating " + event['title']
