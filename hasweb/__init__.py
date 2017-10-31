@@ -52,6 +52,11 @@ assets['bulma.css'][version] = 'css/main.css'
 
 from . import models, views  # NOQA
 
+@baseframe.app_template_filter('markdown_safe')
+def field_markdown(field):
+    html = Markdown(safe_mode=False).convert(field)
+    return Markup(html)
+
 # Configure the app
 coaster.app.init_app(hg_app)
 coaster.app.init_app(event_app)
@@ -64,10 +69,7 @@ lastuser.init_app(event_app)
 lastuser.init_usermanager(UserManager(models.db, models.User))
 
 
-@baseframe.app_template_filter('markdown_safe')
-def field_markdown(field):
-    html = Markdown(safe_mode=False).convert(field)
-    return Markup(html)
+
 
 import data
 

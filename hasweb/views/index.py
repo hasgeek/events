@@ -3,7 +3,7 @@
 from flask import abort, render_template, jsonify
 from helpers import get_brand
 from .. import hg_app, event_app
-from data import Event
+from data import Event, ALL_BRANDS
 from datetime import date
 
 ctx = {
@@ -42,7 +42,7 @@ ctx = {
 
 @hg_app.route('/')
 def hg_index():
-    return "hello"
+    return ALL_BRANDS.get('fragments')['events'].get('2017').title
 
 @event_app.route('/')
 @get_brand
