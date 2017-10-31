@@ -2,7 +2,7 @@
 layout: workshop
 title: "Machine learning for beginners using Python"
 subtitle: "Getting started with machine learning: tools, algorithms, concepts"
-datelocation: "25 Nov 2017, 10 AM - 1:30 PM, Pune"
+datelocation: "25 Nov 2017, 10 AM - 1:30 PM, Wingify Pune"
 city: Pune
 start_time: 2017-11-25
 end_time: 2017-11-25
@@ -62,5 +62,13 @@ overview:
         + Variable assignments
       + In other words, you should have programmed at least few hundred lines in any mainstream programming language.
       + The implementation choice for this workshop will be Python.
-
+venue:
+  label: Wingify, Pune
+  address: |
+    Wingify,
+    402, 4th Floor, Zero One Building, 
+    Near Passport office, Mundhwa Road, Pune 411036
+  lat: 18.530485
+  lng: 73.913642
+  google_maps_url: https://goo.gl/maps/AHwjAxxytKE2
 ---
