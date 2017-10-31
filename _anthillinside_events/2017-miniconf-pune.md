@@ -39,6 +39,21 @@ overview:
     2. ML engineers wanting to learn from experiences and insights of others.
     3. Senior architects and decision-makers who want to quick run-through of concepts, implementation case studies, and overview of tools.
     4. Masters and doctoral candidates who want to bridge the gap between academia and practice.
+    
+    
+speakers:
+- name: Harshad Saykhedkar
+  title: "Bayesian methods in data analysis, an introduction"
+  byline: Head of data science, onlinesales.aih
+  image_url: 
+  bio:
+  
+- name: Vishal Gokhale
+  title: "(Not so) Straight (!) fun with Linear Regression"
+  byline: Data Scientist
+  image_url: 
+  bio:
+     
 related_events:
 - anthillinside-2017-machine-learning-workshop-pune
 sponsor:
