@@ -430,3 +430,12 @@
   end_time: 2017-11-30 23:59
   url: https://blog.kilter.in
   blurb: Boost your health by reducing excess sugars in your food and beverages. Learn lots and feel better. Articles, recipes, video and more on the Kilter blog. Join the community on Slack or WhatsApp.
+
+- name: conversational-ui-meetup
+  title: "Meetup: Conversational UI Bangalore"
+  city: Bangalore
+  venue: To be decided
+  start_time: 2017-11-18 14:00
+  end_time: 2017-11-18 17:00
+  url: https://www.meetup.com/Conversational-UI-Bangalore/events/244001239/
+  blurb: This will be our first meetup. We will start with sessions on the Basics of Conversational UI and then workshop on creating a Hello World App on Google Assistant
