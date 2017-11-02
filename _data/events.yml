@@ -439,3 +439,12 @@
   end_time: 2017-11-18 17:00
   url: https://www.meetup.com/Conversational-UI-Bangalore/events/244001239/
   blurb: This will be our first meetup. We will start with sessions on the Basics of Conversational UI and then workshop on creating a Hello World App on Google Assistant
+
+- name: open-house-data-science-in-js-amit-kapoor
+  title: "Open House: Data Science in Javascript"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-11-03 19:30
+  end_time: 2017-11-03 20:30
+  url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
+  blurb: Come to this Open House and lets talk about how you can start doing Data Wrangling, Data Visualisation, Statistics and Machine Learning and even Deep Learning in JS
