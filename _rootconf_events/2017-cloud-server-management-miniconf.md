@@ -47,12 +47,12 @@ overview:
 
     **Venues in each of these cities will be confirmed and announced soon.**
     
-speakers:
+featured_speakers:
 - name: Srinivasan Rangarajan
-  title: "The rocky road from monolithic to microservices architecture"
-  byline: Head of Engineering, Mad Street Den
+  talk_title: "The rocky road from monolithic to microservices architecture"
+  designation: Head of Engineering, Mad Street Den
   image_url: https://images.hasgeek.com/embed/file/59d4930ba52a43f7a56ae4e0d47b41f3
-  bio: Srini has been helping startups build scalable and distributed systems for the past 10+ years. Currently he is scaling AI to millions of retail consumers all over the world by making sure the Engineering team builds and delivers the best AI products at Mad Street Den.
+  blurb: Srini has been helping startups build scalable and distributed systems for the past 10+ years. Currently he is scaling AI to millions of retail consumers all over the world by making sure the Engineering team builds and delivers the best AI products at Mad Street Den.
   
 venue:
   label: IITM Research Park, Chennai

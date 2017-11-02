@@ -41,18 +41,20 @@ overview:
     4. Masters and doctoral candidates who want to bridge the gap between academia and practice.
     
     
-speakers:
+featured_speakers:
 - name: Harshad Saykhedkar
-  title: "Bayesian methods in data analysis, an introduction"
-  byline: Head of data science, onlinesales.aih
+  talk_title: "Bayesian methods in data analysis, an introduction"
+  funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/2-bayesian-methods-in-data-analysis-an-introduction
+  designation: Head of data science, onlinesales.aih
   image_url: 
-  bio:
+  blurb:
   
 - name: Vishal Gokhale
-  title: "(Not so) Straight (!) fun with Linear Regression"
-  byline: Data Scientist
+  talk_title: "(Not so) Straight (!) fun with Linear Regression"
+  funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/4-not-so-straight-fun-with-linear-regression
+  designation: Data Scientist
   image_url: 
-  bio:
+  blurb:
      
 related_events:
 - anthillinside-2017-machine-learning-workshop-pune
