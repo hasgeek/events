@@ -45,7 +45,7 @@ featured_speakers:
 - name: Harshad Saykhedkar
   talk_title: "Bayesian methods in data analysis, an introduction"
   funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/2-bayesian-methods-in-data-analysis-an-introduction
-  designation: Head of data science, onlinesales.aih
+  designation: Head of data science, onlinesales.ai
   image_url: 
   blurb:
   
@@ -53,6 +53,20 @@ featured_speakers:
   talk_title: "(Not so) Straight (!) fun with Linear Regression"
   funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/4-not-so-straight-fun-with-linear-regression
   designation: Data Scientist
+  image_url: 
+  blurb:
+  
+- name: Ajay Kelkar
+  talk_title: "TBD, on confluence of BI and ML/AI"
+  funnel_url: -- 
+  designation: Data Entrepreneur and co-founder, Hansa Equity
+  image_url: 
+  blurb:
+  
+- name: Saurabh Agarwal
+  talk_title: "Inference in Deep Neural Networks"
+  funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/5-inference-in-deep-neural-networks
+  designation: Machine Learning Engineer, MAD Street Den
   image_url: 
   blurb:
      
