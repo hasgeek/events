@@ -8,7 +8,7 @@ start_time: 2017-11-24
 end_time: 2017-11-24
 description: "A miniconference on Machine Learning, Deep Learning and Artificial Intelligence: concepts, applications and tools."
 logo:
-  image_url: /images/anthillinside-logo.png
+  image_url: /images/anthillinside-logo.svg
 funnel:
   url: "https://anthillinside.talkfunnel.com/2017-miniconf-pune/"
   open: true
@@ -62,14 +62,8 @@ featured_speakers:
   designation: Data Entrepreneur and co-founder, Hansa Equity
   image_url: 
   blurb:
-  
-- name: Saurabh Agarwal
-  talk_title: "Inference in Deep Neural Networks"
-  funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/5-inference-in-deep-neural-networks
-  designation: Machine Learning Engineer, MAD Street Den
-  image_url: 
-  blurb:
-     
+
+    
 related_events:
 - anthillinside-2017-machine-learning-workshop-pune
 sponsor:
