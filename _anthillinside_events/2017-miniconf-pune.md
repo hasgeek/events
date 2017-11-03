@@ -63,7 +63,7 @@ featured_speakers:
   image_url: 
   blurb:
   
- - name: Saurabh Agarwal
+- name: Saurabh Agarwal
   talk_title: "Inference in Deep Neural Networks"
   funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/5-inference-in-deep-neural-networks
   designation: Machine Learning Engineer, MAD Street Den
