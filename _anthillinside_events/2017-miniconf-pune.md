@@ -77,6 +77,10 @@ sponsor:
     size: "l"
     sponsors:
     - aws    
+  - title: "Payments Partner"
+    size: "m"
+    sponsors:
+    - razorpay    
 
 
 ---
