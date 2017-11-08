@@ -67,5 +67,11 @@ sponsor:
     size: "l"
     sponsors:
     - investopad
+  - title: "Payments Partner"
+    size: "m"
+    sponsors:
+    - razorpay    
+    
+    
 
 ---
