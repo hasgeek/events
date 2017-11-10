@@ -133,9 +133,9 @@
 - name: 50p-2018
   title: 50p 2018
   city: Bangalore
-  venue: To be announced
-  start_time: 2018-02-01
-  end_time: 2018-02-03
+  venue: NIMHANS, Bangalore
+  start_time: 2018-02-08
+  end_time: 2018-02-09
   funnel: https://50p.talkfunnel.com/2018/
   url: https://50p.in/2018/
   blurb: "India’s first independent conference on payments and the payment ecosystem."
