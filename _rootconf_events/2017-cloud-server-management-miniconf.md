@@ -54,6 +54,30 @@ featured_speakers:
   image_url: https://images.hasgeek.com/embed/file/59d4930ba52a43f7a56ae4e0d47b41f3
   blurb: Srini has been helping startups build scalable and distributed systems for the past 10+ years. Currently he is scaling AI to millions of retail consumers all over the world by making sure the Engineering team builds and delivers the best AI products at Mad Street Den.
   
+- name: Kalyanasundaram Somasundaram
+  talk_title: "The rocky road from monolithic to microservices architecture"
+  designation: Lead Devops Engineer, Media.net
+  image_url: https://images.hasgeek.com/embed/file/e5d42e8d838c47fbb97fb1e53ea1a443
+  blurb:  Kalyanasundaram works with Media.net as a Lead Devops Engineer.
+  
+- name: Kiran Darisi
+  talk_title: "Scaling zero to 150000 customers for Freshdesk"
+  designation: Co-founder and Director of Technical Operations at Freshworks
+  image_url: https://images.hasgeek.com/embed/file/531beacf5178463cbcd3ced76f1e0385
+  blurb: Kiran Darisi is a co-founder and the Director of Technical Operations at Freshworks, a B2B SaaS startup which provides refreshing business software for the world. He was previously a Member Technical Staff at ZOHO Corp. Kiran has been with Freshworks ever since it was Freshdesk, and has seen the technical operations scale from 0 to what it is today.
+  
+- name: Mohamed Imran K R 
+  talk_title: "Cloud Agnostic Webscale"
+  designation: CTO, E2E Networks
+  image_url: https://images.hasgeek.com/embed/file/ca35eb8cc7e0405db7f4dad8ca7b5cfa
+  blurb: Imran is the CTO at E2E Networks. He is responsible for running the cloud operations. He's a firm believer in Free and open source software.
+  
+- name: Narendran
+  talk_title: "Building and scaling a log analytics platform - a serverless approach"
+  designation: Product Engineer, Mad Street Den
+  image_url: https://images.hasgeek.com/embed/file/e2954970f5c44706ba65078fb2e37a80
+  blurb: Naren is a Product Engineer with specific focus on building robust backend and scalable systems. He works on open source projects in his spare time. He loves speaking at tech conferences and currently helping MadStreetDen in scaling their Artifical Intelligence products. In his 4 years of industry experience he’s worn plenty of hats- like the one of a Trainer, Embedded Engineer and Backend/Product Engineer and sometimes even helmets- when he’s out cycling. When he’s not stirring up code, you can find him whipping up a delicious gluten-free treat or travelling/cycling
+
 venue:
   label: IITM Research Park, Chennai
   address: |
