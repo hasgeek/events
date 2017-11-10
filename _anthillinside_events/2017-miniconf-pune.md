@@ -2,7 +2,7 @@
 layout: event
 title: "Anthill Inside Miniconf - Pune"
 subtitle: "Machine Learning, Deep Learning and Artificial Intelligence: concepts, applications and tools."
-datelocation: "24 November 2017, Pune"
+datelocation: "24 November 2017, Symbiosis School for Liberal Arts, Pune"
 city: Pune
 start_time: 2017-11-24
 end_time: 2017-11-24
@@ -79,6 +79,17 @@ featured_speakers:
     
 related_events:
 - anthillinside-2017-machine-learning-workshop-pune
+
+venue:
+  label: Symbiosis School for Liberal Arts, Pune
+  address: |
+    Symbiosis School for Liberal Arts,
+    2, S No. 227, Plot 11, 3rd Floor, Opp. Pune International Airport,
+    New Airport Rd, Mhada Colony, Sanjay Park, Pune, Maharashtra 411006.
+  lat: 18.575488
+  lng: 73.908894
+  google_maps_url: https://goo.gl/maps/62ys3Lm7Nus
+
 sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach, sales and hiring.
