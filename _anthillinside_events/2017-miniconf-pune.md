@@ -12,6 +12,11 @@ logo:
 funnel:
   url: "https://anthillinside.talkfunnel.com/2017-miniconf-pune/"
   open: true
+schedule:
+  url: "https://anthillinside.talkfunnel.com/2017-miniconf-pune/schedule"
+  json_url: "https://anthillinside.talkfunnel.com/2017-miniconf-pune/schedule/json"
+  type: "conference"
+
 boxoffice_item_collection: "4c802769-6687-471a-8c05-2b98aa49a9b4"
 overview:
   left_content: |
