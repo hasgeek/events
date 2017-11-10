@@ -31,6 +31,5 @@ overview:
       Pressing questions for discussion include: How secure are these services? What security standards are they adhering to? Who is holding them accountable for adherence to security standards? What can individuals do if there financial data is compromised? 
 
   50p is a conference for practitioners, by practitioners. Tell us about your journey with technology in payments,successes and failures in reaching out to new markets, innovative payment hacks for India, and new developments. We are all eyes and ears.
-
     **[Submit a talk to speak at 50p](https://50p.talkfunnel.com/2018/).**
 ---
