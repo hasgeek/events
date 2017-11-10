@@ -59,13 +59,13 @@ featured_speakers:
   blurb: Srini has been helping startups build scalable and distributed systems for the past 10+ years. Currently he is scaling AI to millions of retail consumers all over the world by making sure the Engineering team builds and delivers the best AI products at Mad Street Den.
   
 - name: Kalyanasundaram Somasundaram
-  talk_title: "The rocky road from monolithic to microservices architecture"
+  talk_title: "Media.net venturing to private cloud"
   designation: Lead Devops Engineer, Media.net
   image_url: https://images.hasgeek.com/embed/file/e5d42e8d838c47fbb97fb1e53ea1a443
   blurb:  Kalyanasundaram works with Media.net as a Lead Devops Engineer.
   
 - name: Kiran Darisi
-  talk_title: "Scaling zero to 150000 customers for Freshdesk"
+  talk_title: "Scaling zero to 1,50,000 customers for Freshdesk"
   designation: Co-founder and Director of Technical Operations at Freshworks
   image_url: https://images.hasgeek.com/embed/file/531beacf5178463cbcd3ced76f1e0385
   blurb: Kiran Darisi is a co-founder and the Director of Technical Operations at Freshworks, a B2B SaaS startup which provides refreshing business software for the world. He was previously a Member Technical Staff at ZOHO Corp. Kiran has been with Freshworks ever since it was Freshdesk, and has seen the technical operations scale from 0 to what it is today.
