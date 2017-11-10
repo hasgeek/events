@@ -59,7 +59,7 @@ featured_speakers:
 - name: Ajay Kelkar
   talk_title: "Analytics without paralysis!"
   funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/10-analytics-without-paralysis 
-  designation: Data Entrepreneur and co-founder, Hansa Equity
+  designation: Data Entrepreneur and co-founder, Hansa Cequity
   image_url: 
   blurb:
 
