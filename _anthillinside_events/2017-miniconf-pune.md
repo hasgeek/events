@@ -12,6 +12,19 @@ logo:
 funnel:
   url: "https://anthillinside.talkfunnel.com/2017-miniconf-pune/"
   open: true
+schedule:
+  url: "https://anthillinside.talkfunnel.com/2017-miniconf-pune/schedule"
+  json_url: "https://anthillinside.talkfunnel.com/2017-miniconf-pune/schedule/json"
+  type: "conference"
+venue:
+  label: Symbiosis School of Liberal Arts
+  address: |
+        
+    2, S No. 227, Plot 11, 3rd Floor Opp. Pune International Airport, New Airport Rd, Mhada Colony, Sanjay Park, Pune,    Maharashtra 411006.
+
+    Phone:
+
+  google_maps_url: https://goo.gl/maps/oqKrnfQEVd12
 boxoffice_item_collection: "4c802769-6687-471a-8c05-2b98aa49a9b4"
 overview:
   left_content: |
