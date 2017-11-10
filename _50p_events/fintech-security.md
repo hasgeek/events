@@ -28,9 +28,7 @@ overview:
       Presently, there is a regulatory gap for many of the fintech services and business models. The Reserve Bank of India has published consultation papers on Peer-to-Peer lending platforms as well as Account Aggregators, but comprehensive regulations, especially those surrounding minimum security practices, have yet to emerge – presenting a critical policy and research window. Furthermore, under Section 43A of the IT Act and its associated Rules, ‘body corporates’ are required to implement reasonably security procedures compliant with ISO27001 or a sectoral standard approved by the Central Government. However, currently such a sectoral standard is absent for the FinTech and Digital Payments space. 
       The growing prevalence of these fintech technologies and the criticality of security of the same to engender citizen trust, protect rights, and comprehensive national security posture demands debate and discussion. 
       On November 17th, the HasGeek in collaboration with the Centre for Internet and Society will be holding an Open House from 6pm - 8pm to discuss security practices in the fintech industry. 
-      Pressing questions for discussion include: How secure are these services? What security standards are they adhering to? Who is holding them accountable for adherence to security standards? What can individuals do if there financial data is compromised? 
-
+      Pressing questions for discussion include: How secure are these services? What security standards are they adhering to? Who is holding them accountable for adherence to security standards? What can individuals do if there financial data is compromised?
   50p is a conference for practitioners, by practitioners. Tell us about your journey with technology in payments,successes and failures in reaching out to new markets, innovative payment hacks for India, and new developments. We are all eyes and ears.
-
     **[Submit a talk to speak at 50p](https://50p.talkfunnel.com/2018/).**
 ---
