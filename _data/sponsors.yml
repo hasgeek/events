@@ -74,7 +74,7 @@ aerospike:
   url: http://www.aerospike.com/
   display_url: www.aerospike.com
   blurb: |
-    Aerospike is the high-performance NoSQL database that delivers predictable performance, higher up time and availability and lower TCO. Aerospike is purpose-built for the real-time transactional workloads that support mission-critical applications as part of a Digital Transformation. These workloads have the mandate to deliver informed and immediate decisions for industries like financial services, ad tech, and e-commerce. Aerospike’s unique combination of speed, scale, and reliability delivers 10x performance at 1/10th the cost compared to other databases. For more information, visit us on Facebook, Twitter or [aerospike.com](https://aerospike.com)
+     Aerospike is Real-time Mission Critical No SQL Database that is used in High Throughput Low Latency Use Cases. Very popular across industry verticals, is custom built to run in an in-memory mode or on Flash. It is the only database that can reliably handle the demands of systems of engagement: internet-scale data volumes, decisions at millisecond speeds – without adding complexity or unbearable costs to customer's operations.
 
 payu:
   title: "PayU"

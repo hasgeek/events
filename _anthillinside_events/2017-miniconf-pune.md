@@ -57,12 +57,25 @@ featured_speakers:
   blurb:
   
 - name: Ajay Kelkar
-  talk_title: "TBD, on confluence of BI and ML/AI"
-  funnel_url: -- 
-  designation: Data Entrepreneur and co-founder, Hansa Equity
+  talk_title: "Analytics without paralysis!"
+  funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/10-analytics-without-paralysis 
+  designation: Data Entrepreneur and co-founder, Hansa Cequity
   image_url: 
   blurb:
 
+- name: Saurabh Agarwal
+  talk_title: "Inference in Deep Neural Networks"
+  funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/5-inference-in-deep-neural-networks
+  designation: Machine learning engineer, MAD Street Den
+  image_url: 
+  blurb:
+  
+- name: Leelavati Narlikar
+  talk_title: "Machine Learning in Molecular Biology"
+  funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/9-machine-learning-in-molecular-biology
+  designation: Scientist, National Chemical Laboratory, Pune
+  image_url: 
+  blurb:  
     
 related_events:
 - anthillinside-2017-machine-learning-workshop-pune
