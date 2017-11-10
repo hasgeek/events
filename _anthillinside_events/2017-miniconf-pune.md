@@ -100,7 +100,12 @@ sponsor:
   - title: "Developer Relations Partner"
     size: "l"
     sponsors:
-    - aws    
+      - aws    
+
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+      - symbiosis
 
 
 ---
