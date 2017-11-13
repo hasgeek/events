@@ -19,7 +19,8 @@ speakers:
   bio: |
     Sameer is a mentor for Machine Learning Foundations course in Machine Learning Specialization on Coursera. He have 22 years of experience in software industry in companies like Microsoft, Symantec etc. across US and India. He holds 8 US patents issued in his name with a few more in the pipeline. He is an alumnus of IIT Bombay and Georgia Tech CS departments. He have taught ML 101 to over 100 students in his current company GS Lab where he work as a Principal Architect.
 
-
+related_events:
+- anthillinside-2017-miniconf-pune
 
 overview:
   left_content: |
@@ -66,8 +67,15 @@ overview:
     * Looping constructs like for loop, while
     * Variable assignments
 
-
-
+venue:
+  label: Helpshift, Pune
+  address: |
+    Wingify,
+    Bldg #A3, Office #D-102, E-Space IT Park,  
+    Vadgaon Sheri, Pune, Maharashtra 411014
+  lat: 18.561493
+  lng: 73.921326
+  google_maps_url: https://goo.gl/maps/VhGiQ2GmCu12
 
 
 ---
