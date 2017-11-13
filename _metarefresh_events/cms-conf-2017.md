@@ -2,14 +2,14 @@
 layout: event
 title: CMS Conf 2017
 subtitle: "The future of digital media"
-datelocation: "1 Dec 2017, Bangalore"
+datelocation: "Postponed till further notice, dates are tentative"
 city: Bangalore
-start_time: 2017-12-01
-end_time: 2017-12-01
+start_time: 2018-02-01
+end_time: 2018-02-01
 description: "The core focus of the Content Management Systems (CMS) conf is understanding CMS workflows – why does your workflow necessitate either building a custom CMS or using an existing CMS."
 funnel:
   url: "https://metarefresh.talkfunnel.com/cms-conf-2017/"
-  open: true
+  open: close
 related_events:
 - metarefresh-2017
 overview:
