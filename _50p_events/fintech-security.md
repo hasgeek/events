@@ -10,7 +10,7 @@ description: "An Open House in collaboration with the Center for Internet and So
 logo:
   image_url: /images/50p-logo.png
   has_title: true
-boxoffice_item_collection: "f50a8f15-2fe0-426c-bbce-3b9b9afcc556"
+boxoffice_item_collection: "3f329790-1a3a-4a92-ba8b-668e88dc0fb1"
 venue:
   label: HasGeek House
   lat: 12.9615312
