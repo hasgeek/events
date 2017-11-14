@@ -45,7 +45,14 @@ overview:
     * Mumbai – 8 December 2017.
     * Gurgaon – 9 December 2017.
 
-    **Venues in each of these cities will be confirmed and announced soon.**
+venue:
+  label: Amazon Internet Services, Mumbai
+  address: |
+    Amazon Internet Services,
+    L&T Business Park, Gate Number 5, Ground Floor, Powai - 400072
+  lat: 19.124467
+  lng: 72.893415
+  google_maps_url: https://goo.gl/maps/yRUwm9o6ocT2
 
 sponsor:
   blurb: |
