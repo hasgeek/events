@@ -1,12 +1,12 @@
 ---
 layout: workshop
 title: "Leapfrog in Deep Learning"
-subtitle: "An introductory workshop on Machine Learning and Deep Learning"
+subtitle: "An introductory workshop on machine learning and deep learning"
 datelocation: "25 Nov 2017, 09:00 AM - 2:15 PM, Pune"
 city: Pune
 start_time: 2017-11-25
 end_time: 2017-11-25
-description: "An introductory workshop on Machine Learning and Deep Learning"
+description: "An introductory workshop on machine learning and deep learning"
 boxoffice_item_collection: '5b39fd23-73cb-458a-bf3b-8491f369c236'
 
 speakers:
