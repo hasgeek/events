@@ -95,6 +95,11 @@ overview:
       * scikit-learn
     * It won’t be possible to provide installation support at the time of workshop. So all requirements should be pre-installed. Without the installations, you won’t get anything out of the workshop.
 
+related_events:
+- anthillinside-miniconf-pune
+
+- anthillinside-2017-nov-leapfrog-in-deep-learning-workshop
+
 venue:
   label: Wingify, Pune
   address: |
