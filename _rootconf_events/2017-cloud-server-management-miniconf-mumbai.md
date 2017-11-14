@@ -2,7 +2,7 @@
 layout: event
 title: "Miniconf on Cloud Server Management (Mumbai)"
 subtitle: "Cloud server management brings with it as many challenges as it offers conveniences"
-datelocation: "8 Dec 2017, Mumbai"
+datelocation: "8 Dec 2017, Amazon Internet Services, Mumbai"
 city: Elsewhere
 start_time: 2017-12-08
 end_time: 2017-12-08
