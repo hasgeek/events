@@ -67,6 +67,11 @@ overview:
     * Looping constructs like for loop, while
     * Variable assignments
 
+related_events:
+- anthillinside-miniconf-pune
+
+- anthillinside-2017-nov-data-science-from-scratch
+
 venue:
   label: Helpshift, Pune
   address: |
