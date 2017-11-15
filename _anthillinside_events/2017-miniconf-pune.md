@@ -1,12 +1,12 @@
 ---
 layout: event
 title: "Anthill Inside Miniconf - Pune"
-subtitle: "Machine Learning, Deep Learning and Artificial Intelligence: concepts, applications and tools."
+subtitle: "On Machine Learning, Deep Learning and Artificial Intelligence: concepts and applications and tools."
 datelocation: "24 November 2017, Symbiosis School for Liberal Arts, Pune"
 city: Pune
 start_time: 2017-11-24
 end_time: 2017-11-24
-description: "A miniconference on Machine Learning, Deep Learning and Artificial Intelligence: concepts, applications and tools."
+description: "A mini conference on Machine Learning and Deep Learning concepts, and their applications."
 logo:
   image_url: /images/anthillinside-logo.svg
 schedule:
@@ -17,30 +17,40 @@ schedule:
 boxoffice_item_collection: "4c802769-6687-471a-8c05-2b98aa49a9b4"
 overview:
   left_content: |
-    When it comes to Machine Learning (ML), Deep Learning (DL) and Artificial Intelligence (AI), three aspects are crucial:
 
-    1. Clarity of fundamental concepts.
-    2. Insights and nuances when applying concepts to solve real-world problems.
-    3. Knowledge of tools for automating ML and DL.
+    Anthill Inside offers to bridge the gap between concepts and latest research in ML, DL and AI, with realities on the ground. The Pune edition covers four broad areas: 
 
-    Anthill Inside Miniconf will provide understanding on each of these fronts.
+    1. How to integrate analytics into the fabric of a company. 
+    2. Introduction to some concepts in math, NLP and ML. 
+    3. Real-life application of these concepts in molecular biology and advertising. 
+    4. Evaluation of hardware, cloud and related infrastructure in training ML models and DL networks.  
 
-    This miniconf is a full day event consisting of:
+    ### Target audience
 
-    * 3-4 talks each, on concepts, applications and tools.
-    * Birds of Feather (BOF) sessions on focussed topics.
-
+    1.	Engineers who want to learn concepts in maths, ML and DL. 
+    2.	Engineers who are building data pipelines and mining data in real-time.  
+    3.	Architects and decision-makers who want to implement analytics in their companies. 
+    4.	Masters and doctoral candidates who want to understand real-world developments and how concepts are being applied. 
+  
   right_content: |
+
     ### Hands-on workshops:
 
-    Hands-on workshops for 30-40 participants on 25 November will help in internalizing concepts, and practical aspects of working with tools. Workshop tickets have to be purchased separately. (Workshops will be announced shortly.)
+    1.  Data Science from Scratch 
+    In this six-hour immersive workshop, participants will learn fundamental concepts in math, and take a dip into the data science ocean. 
+    Date: 25 November 2017
+    Time: 10:00 AM - 5:15 PM
+    Venue: Wingify, 402, 4th Floor, Zero One Building, Near Passport office, Mundhwa Road, Pune - 411036.
+    Current ticket price: Rs. 2500
+    More details here: https://anthillinside.in/2017-nov-data-science-from-scratch/
 
-    ### Who should attend? Why should you attend?
-
-    1. ML engineers who want to learn about concepts in maths, stats and strengthen foundations.
-    2. ML engineers wanting to learn from experiences and insights of others.
-    3. Senior architects and decision-makers who want to quick run-through of concepts, implementation case studies, and overview of tools.
-    4. Masters and doctoral candidates who want to bridge the gap between academia and practice.
+    2. Leapfrog with Deep Learning 
+    Learn how to write neural network algorithm from scratch.
+    Date: 25 November 2017
+    Time: 9:00 AM - 2:15 PM
+    Venue: Helpshift, Bldg #A3, Office #D-102, E-Space IT Park, Vadgaon Sheri, Pune - 411014.
+    Current ticket price: Rs. 2500
+    More details here: https://anthillinside.in/2017-nov-leapfrog-in-deep-learning-workshop/
     
     
 featured_speakers:
