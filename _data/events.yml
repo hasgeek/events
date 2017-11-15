@@ -467,6 +467,24 @@
   url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
   blurb: Meta Refresh is hosting Souvik Basu for an Open House to discuss more about fundamentals and design aspects of conversational UI.
   
+- name: data-science-from-scratch
+  title: "Data Science from Scratch"
+  city: Pune
+  venue: Wingify Office
+  start_time: 2017-11-25 10:00
+  end_time: 2017-11-25 17:15
+  url: https://anthillinside.in/2017-nov-data-science-from-scratch/
+  blurb: Learn fundamental math and take a first dip in the data science ocean in a day-long immersive workshop
+
+- name: leapfrog-in-deep-learning-workshop
+  title: "Leapfrog in Deep Learning"
+  city: Pune
+  venue: Helpshift Office
+  start_time: 2017-11-25 09:00
+  end_time: 2017-11-25 14:15
+  url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
+  blurb: An introductory workshop on machine learning and deep learning
+
 - name: open-house-applications-of-or-ds
   title: "Open House #88: Applications of Operations Research & Data Science in e-commerce"
   city: Bangalore

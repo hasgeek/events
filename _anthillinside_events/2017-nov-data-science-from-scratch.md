@@ -1,12 +1,12 @@
 ---
 layout: workshop
 title: "Data Science from Scratch"
-subtitle: "Learn fundamental Math and take a first dip in the Data Science Ocean in a day-long immersive workshop"
+subtitle: "Learn fundamental math and take a first dip in the data science ocean in a day-long immersive workshop"
 datelocation: "25 Nov 2017, 10 AM - 5:15 PM, Wingify Pune"
 city: Pune
 start_time: 2017-11-25
 end_time: 2017-11-25
-description: "Learn fundamental Math and take a first dip in the Data Science Ocean in a day-long immersive workshop"
+description: "Learn fundamental math and take a first dip in the data science ocean in a day-long immersive workshop"
 boxoffice_item_collection: 477d93bc-69e4-4a6c-9704-ddc496ba6486
 speakers:
 - name: Harshad Saykhedkar
@@ -25,9 +25,6 @@ speakers:
     Vishal is a programmer with an odd love for maths. He enjoy simplifying heavy math protein into more absorbable amino acids, only to be assimilated into plump biceps of confidence, to be flexed when the situation demands. He want to infect people with the addictive epiphanies from solving math problems.
 
     and btw, he have been working as a programmer on Data Science projects for the last 6+ years and as a programmer for last 13+ years.
-
-related_events:
-- anthillinside-2017-miniconf-pune
 
 overview:
   left_content: |
@@ -94,6 +91,11 @@ overview:
       * Pandas
       * scikit-learn
     * It won’t be possible to provide installation support at the time of workshop. So all requirements should be pre-installed. Without the installations, you won’t get anything out of the workshop.
+
+related_events:
+- anthillinside-miniconf-pune
+
+- anthillinside-2017-nov-leapfrog-in-deep-learning-workshop
 
 venue:
   label: Wingify, Pune
