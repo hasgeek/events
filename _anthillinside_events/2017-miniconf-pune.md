@@ -17,39 +17,40 @@ schedule:
 boxoffice_item_collection: "4c802769-6687-471a-8c05-2b98aa49a9b4"
 overview:
   left_content: |
+
     Anthill Inside offers to bridge the gap between concepts and latest research in ML, DL and AI, with realities on the ground. The Pune edition covers four broad areas: 
 
-1. How to integrate analytics into the fabric of a company. 
-2. Introduction to some concepts in math, NLP and ML. 
-3. Real-life application of these concepts in molecular biology and advertising. 
-4. Evaluation of hardware, cloud and related infrastructure in training ML models and DL networks.  
+    1. How to integrate analytics into the fabric of a company. 
+    2. Introduction to some concepts in math, NLP and ML. 
+    3. Real-life application of these concepts in molecular biology and advertising. 
+    4. Evaluation of hardware, cloud and related infrastructure in training ML models and DL networks.  
 
-  left_content: |
-  ### Target audience
+    ### Target audience
 
-  1.	Engineers who want to learn concepts in maths, ML and DL. 
-	2.	Engineers who are building data pipelines and mining data in real-time.  
-	3.	Architects and decision-makers who want to implement analytics in their companies. 
-	4.	Masters and doctoral candidates who want to understand real-world developments and how concepts are being applied. 
+    1.	Engineers who want to learn concepts in maths, ML and DL. 
+    2.	Engineers who are building data pipelines and mining data in real-time.  
+    3.	Architects and decision-makers who want to implement analytics in their companies. 
+    4.	Masters and doctoral candidates who want to understand real-world developments and how concepts are being applied. 
   
   right_content: |
+
     ### Hands-on workshops:
 
-  1.  Data Science from Scratch 
-In this six-hour immersive workshop, participants will learn fundamental concepts in math, and take a dip into the data science ocean. 
-Date: 25 November 2017
-Time: 10:00 AM - 5:15 PM
-Venue: Wingify, 402, 4th Floor, Zero One Building, Near Passport office, Mundhwa Road, Pune - 411036.
-Current ticket price: Rs. 2500
-More details here: https://anthillinside.in/2017-nov-data-science-from-scratch/
+    1.  Data Science from Scratch 
+    In this six-hour immersive workshop, participants will learn fundamental concepts in math, and take a dip into the data science ocean. 
+    Date: 25 November 2017
+    Time: 10:00 AM - 5:15 PM
+    Venue: Wingify, 402, 4th Floor, Zero One Building, Near Passport office, Mundhwa Road, Pune - 411036.
+    Current ticket price: Rs. 2500
+    More details here: https://anthillinside.in/2017-nov-data-science-from-scratch/
 
-2. Leapfrog with Deep Learning 
-Learn how to write neural network algorithm from scratch.
-Date: 25 November 2017
-Time: 9:00 AM - 2:15 PM
-Venue: Helpshift, Bldg #A3, Office #D-102, E-Space IT Park, Vadgaon Sheri, Pune - 411014.
-Current ticket price: Rs. 2500
-More details here: https://anthillinside.in/2017-nov-leapfrog-in-deep-learning-workshop/
+    2. Leapfrog with Deep Learning 
+    Learn how to write neural network algorithm from scratch.
+    Date: 25 November 2017
+    Time: 9:00 AM - 2:15 PM
+    Venue: Helpshift, Bldg #A3, Office #D-102, E-Space IT Park, Vadgaon Sheri, Pune - 411014.
+    Current ticket price: Rs. 2500
+    More details here: https://anthillinside.in/2017-nov-leapfrog-in-deep-learning-workshop/
     
     
 featured_speakers:
