@@ -26,9 +26,6 @@ speakers:
 
     and btw, he have been working as a programmer on Data Science projects for the last 6+ years and as a programmer for last 13+ years.
 
-related_events:
-- anthillinside-2017-miniconf-pune
-
 overview:
   left_content: |
     Many beginners intrigued by Data Science/ML/AI behold it in the awe and fear reserved for a hairy monster. Most of it originates in the fear of math, not to mention the overwhelming variety of buzzwords flying past in all directions.
