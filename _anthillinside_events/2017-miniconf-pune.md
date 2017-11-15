@@ -9,9 +9,6 @@ end_time: 2017-11-24
 description: "A miniconference on Machine Learning, Deep Learning and Artificial Intelligence: concepts, applications and tools."
 logo:
   image_url: /images/anthillinside-logo.svg
-funnel:
-  url: "https://anthillinside.talkfunnel.com/2017-miniconf-pune/"
-  open: true
 schedule:
   url: "https://anthillinside.talkfunnel.com/2017-miniconf-pune/schedule"
   json_url: "https://anthillinside.talkfunnel.com/2017-miniconf-pune/schedule/json"
@@ -83,7 +80,9 @@ featured_speakers:
   blurb:  
     
 related_events:
-- anthillinside-2017-machine-learning-workshop-pune
+- anthillinside-2017-nov-data-science-from-scratch
+
+- anthillinside-2017-nov-leapfrog-in-deep-learning-workshop
 
 venue:
   label: Symbiosis School for Liberal Arts, Pune
