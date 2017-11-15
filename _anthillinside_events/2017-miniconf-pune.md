@@ -81,8 +81,8 @@ featured_speakers:
     
 related_events:
 - anthillinside-2017-nov-data-science-from-scratch
-
 - anthillinside-2017-nov-leapfrog-in-deep-learning-workshop
+- anthillinside-2017-dec-bangalore-lecture
 
 venue:
   label: Symbiosis School for Liberal Arts, Pune
