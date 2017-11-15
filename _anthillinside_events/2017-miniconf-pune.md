@@ -36,21 +36,23 @@ overview:
 
     ### Hands-on workshops:
 
-    1.  Data Science from Scratch 
-    In this six-hour immersive workshop, participants will learn fundamental concepts in math, and take a dip into the data science ocean. 
-    Date: 25 November 2017
-    Time: 10:00 AM - 5:15 PM
-    Venue: Wingify, 402, 4th Floor, Zero One Building, Near Passport office, Mundhwa Road, Pune - 411036.
-    Current ticket price: Rs. 2500
-    More details here: https://anthillinside.in/2017-nov-data-science-from-scratch/
+      **Data Science from Scratch**
+      
+      In this six-hour immersive workshop, participants will learn fundamental concepts in math, and take a dip into the data science ocean.
+      - Date: 25 November 2017
+      - Time: 10:00 AM - 5:15 PM
+      - Venue: Wingify, 402, 4th Floor, Zero One Building, Near Passport office, Mundhwa Road, Pune - 411036.
+      - Current ticket price: Rs. 2500
+      - More details here: [https://anthillinside.in/2017-nov-data-science-from-scratch/](https://anthillinside.in/2017-nov-data-science-from-scratch/)
 
-    2. Leapfrog with Deep Learning 
-    Learn how to write neural network algorithm from scratch.
-    Date: 25 November 2017
-    Time: 9:00 AM - 2:15 PM
-    Venue: Helpshift, Bldg #A3, Office #D-102, E-Space IT Park, Vadgaon Sheri, Pune - 411014.
-    Current ticket price: Rs. 2500
-    More details here: https://anthillinside.in/2017-nov-leapfrog-in-deep-learning-workshop/
+      **Leapfrog with Deep Learning**
+
+      Learn how to write neural network algorithm from scratch.
+      - Date: 25 November 2017
+      - Time: 9:00 AM - 2:15 PM
+      - Venue: Helpshift, Bldg #A3, Office #D-102, E-Space IT Park, Vadgaon Sheri, Pune - 411014.
+      - Current ticket price: Rs. 2500
+      - More details here: [https://anthillinside.in/2017-nov-leapfrog-in-deep-learning-workshop/](https://anthillinside.in/2017-nov-leapfrog-in-deep-learning-workshop/)
     
     
 featured_speakers:
