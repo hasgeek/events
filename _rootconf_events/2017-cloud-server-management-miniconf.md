@@ -26,17 +26,26 @@ overview:
     2. Scaling: how best to utilize capacity in the present, and factors involved in planning for the future.
     3. Security: which scenarios must you plan for, and how best to secure your data, applications and systems?
 
-    Each miniconf is a full day event consisting of:
+    Here's what you can expect at the miniconf:
 
-    * 4-5 talks.
-    * Birds of Feather (BOF) sessions.
-    * 3-hour workshop on configuration management.
+    * 3-hour workshop on Ansible, led by Ramakrishna Reddy of Red Hat. This workshop will help you get started with Ansible.
+    * Talks on alternatives to scaling infrastructure with private cloud and cloud agnostic approaches.
+    * Discussions on scaling, microservices and severless architecture.
+    * Demos which will help you optimize costs and infrastructure with AWS
+    
+    Each talk will be delivered by CTOs and practising architects working on the roadmap to scaling infrastructure in their
+    companies – Media.net, Freshworks, Indix and Mad Street Den. Look forward to real-world insights and war stories from
+    their experiences. This is also an exclusive opportunity for you to network with them. 
+    
+    Icing on the cake- **every participant will receive $100 worth AWS credits at the end of the event. Your ticket just got
+    more valuable!**
 
   right_content: |
     ### Who should attend?
-    * DevOps engineers.
-    * Senior architects.
-    * VPs of engineering in mid-sized and large organizations.
+    * Open source and Python developers who are getting started with DevOps.
+    * Practising DevOps programmers.
+    * Programmers seeking hands-on training on infrastructure management and virtualization.
+    * Architects who want to participate in the community, and discuss their approaches.
 
     ### Why should you attend?
 
@@ -56,7 +65,9 @@ featured_speakers:
   talk_title: "The rocky road from monolithic to microservices architecture"
   designation: Head of Engineering, Mad Street Den
   image_url: https://images.hasgeek.com/embed/file/59d4930ba52a43f7a56ae4e0d47b41f3
-  blurb: Srini has been helping startups build scalable and distributed systems for the past 10+ years. Currently he is scaling AI to millions of retail consumers all over the world by making sure the Engineering team builds and delivers the best AI products at Mad Street Den.
+  blurb: Srini has been helping startups build scalable and distributed systems for the past 10+ years. Currently he is
+  scaling AI to millions of retail consumers all over the world by making sure the Engineering team builds and delivers the
+  best AI products at Mad Street Den.
   
 - name: Kalyanasundaram Somasundaram
   talk_title: "Media.net venturing to private cloud"
@@ -68,19 +79,41 @@ featured_speakers:
   talk_title: "Scaling zero to 1,50,000 customers for Freshdesk"
   designation: Co-founder and Director of Technical Operations at Freshworks
   image_url: https://images.hasgeek.com/embed/file/531beacf5178463cbcd3ced76f1e0385
-  blurb: Kiran Darisi is a co-founder and the Director of Technical Operations at Freshworks, a B2B SaaS startup which provides refreshing business software for the world. He was previously a Member Technical Staff at ZOHO Corp. Kiran has been with Freshworks ever since it was Freshdesk, and has seen the technical operations scale from 0 to what it is today.
+  blurb: Kiran Darisi is a co-founder and the Director of Technical Operations at Freshworks, a B2B SaaS startup which
+  provides refreshing business software for the world. He was previously a Member Technical Staff at ZOHO Corp. Kiran has been
+  with Freshworks ever since it was Freshdesk, and has seen the technical operations scale from 0 to what it is today.
   
 - name: Mohamed Imran K R 
   talk_title: "Cloud Agnostic Webscale"
   designation: CTO, E2E Networks
   image_url: https://images.hasgeek.com/embed/file/ca35eb8cc7e0405db7f4dad8ca7b5cfa
-  blurb: Imran is the CTO at E2E Networks. He is responsible for running the cloud operations. He's a firm believer in Free and open source software.
+  blurb: Imran is the CTO at E2E Networks. He is responsible for running the cloud operations. He's a firm believer in Free
+  and open source software.
   
 - name: Narendran
   talk_title: "Building and scaling a log analytics platform - a serverless approach"
   designation: Product Engineer, Mad Street Den
   image_url: https://images.hasgeek.com/embed/file/e2954970f5c44706ba65078fb2e37a80
-  blurb: Naren is a Product Engineer with specific focus on building robust backend and scalable systems. He works on open source projects in his spare time. He loves speaking at tech conferences and currently helping MadStreetDen in scaling their Artifical Intelligence products. In his 4 years of industry experience he’s worn plenty of hats- like the one of a Trainer, Embedded Engineer and Backend/Product Engineer and sometimes even helmets- when he’s out cycling. When he’s not stirring up code, you can find him whipping up a delicious gluten-free treat or travelling/cycling
+  blurb: Naren is a Product Engineer with specific focus on building robust backend and scalable systems. He works on open
+  source projects in his spare time. He loves speaking at tech conferences and currently helping MadStreetDen in scaling their
+  Artifical Intelligence products. In his 4 years of industry experience he’s worn plenty of hats- like the one of a Trainer,
+  Embedded Engineer and Backend/Product Engineer and sometimes even helmets- when he’s out cycling. When he’s not stirring up
+  code, you can find him whipping up a delicious gluten-free treat or travelling/cycling.
+  
+- name: Aayush Kumar 
+  talk_title: "PLUTUS: Tool for monitoring and alerting of costs incurred on AWS"
+  designation: Infrastructure and DevOps Engineer, Indix
+  image_url: https://images.hasgeek.com/embed/file/e7ce1d21e59d4a12b46357557eb64c89
+  blurb: Aayush Kumar works as an Infrastructure and DevOps Engineer at Indix. He focuses on automating the unautomated and is
+  always curious to understand systems if not contribute to it.
+
+- name: Ashwanth Kumar
+  talk_title: "Lessons scaling operations to everyone @indix"
+  designation: Principal Software Engineer, Indix
+  image_url: https://images.hasgeek.com/embed/file/42ea5f8e5e664aa7af252f85aa1bf32e
+  blurb: Ashwanth Kumar is a Principal Software Engineer working in Data Ingestion Team @indix. While he’s not fiddling with
+  distributed Systems and data. He contributes to Open Source and helps organises meetups and tech events in the City. He
+  writes Scala at work and Go at home.
 
 venue:
   label: IITM Research Park, Chennai
