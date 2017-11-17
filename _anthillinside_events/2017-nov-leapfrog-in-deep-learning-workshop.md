@@ -72,9 +72,13 @@ related_events:
 venue:
   label: Helpshift, Pune
   address: |
-    Wingify,
-    Bldg #A3, Office #D-102, E-Space IT Park,  
-    Vadgaon Sheri, Pune, Maharashtra 411014
+    Helpshift
+    A1 Building 6th Floor
+    ESpace IT Park
+    WadgaonSheri - Nagar raod
+    Opp Four Point Sheraton Hotel
+    Near Inorbit Mall
+    Pune - 411014
   lat: 18.561493
   lng: 73.921326
   google_maps_url: https://goo.gl/maps/VhGiQ2GmCu12
