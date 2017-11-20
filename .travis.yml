@@ -61,6 +61,7 @@ deploy:
 addons:
   ssh_known_hosts: e2e.hasgeek.com
 notifications:
+  email: false
   slack:
-    rooms:
-      secure: z3zJ8C/2vm/0OUoDMt7QBgn/+1d0GBLrhrUbOg1SZ/xAWf7T53aMcSNqMwhxD5jxs7UT83sK871YkQJB3xfx59t4GkB+MHimChgdorF3DFC/X+wdx57TEfzTV5qPTZI+YIUzxOxhejUcnzHZbgumv0fLkM/g7assRg66Eoq2Nppsh0q1uTx1g46kQA2zaETF27KrQfOo0R57PVTaR1TAUSDx5/s6MbnW4mF/sWLkCF8sk5gzuo2yJgltqT91+j2CBD4M+c7O/XqlhLtvT+g6SVrwvHISWP5xZUxr4giuly/F9AdewOFvLMhU0RWtsL3DNHO7LY/OuuHN3gdYTgq8NhzJfcEOIBex9QPGZRFXH4pSSlZtrDEwP/1tnaUEtaccRqlWVHSEfJ1mPffmSs+Ym3g/rN+09MyU8kEAZMMuv1+GJLPg84siHRj/oo2o9rR7iS3tsmYoofTu2S4eoN7Dt0rKsYtBWxtTD4kQGu7gHRxs0Xj54OtobaDnX5tU8i4RRa7sAZBD6wLsfGEYSbSk8ueVQEomZt3Ol1oFGzVtlJ/OHMOMtMsEHkrNcSebd9s3b9sNRjDuEAPc+S30NQQx5rjHzU8FVa9OKqcycRn9sVv250YUUbf4tkOsKE79FYOFuCeX2bVCWq8Vzwn+xRrggskx/SocP5wcKV36iQeMjlI=
+    - hasgeek:HDCoMDj3T4ICB59qFFVorCG8
+    - friendsofhasgeek:3bLViYSzhfaThJovFYCVD3fX
