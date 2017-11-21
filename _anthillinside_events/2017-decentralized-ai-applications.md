@@ -25,50 +25,50 @@ overview:
   center_content: |
     This workshop is a follow-up to the talk ["Decentralized AI" by Gene Kogan on December 12](https://anthillinside.in/2017-dec-bangalore-lecture/), which is about the intersection of artificial intelligence with decentralization technologies such as blockchains and smart contracts. Primary sub-topics include blockchain mechanics and cryptography, federated learning, and security considerations. Relevant platforms will be introduced. The tentative syllabus is as follows:
 
-    #### cryptography prerequisites
+    #### Cryptography prerequisites
     
-    * public key cryptography
-    * hashing and proof-of-work
-    * smart contracts
-    * TUTORIAL: digital signatures
+    * Public key cryptography
+    * Hashing and proof-of-work
+    * Smart contracts
+    * TUTORIAL: Digital signatures
 
-    #### blockchains
+    #### Blockchains
 
-    * how blockchains work
+    * How blockchains work
       * Bitcoin protocol
-      * TUTORIAL: proof-of-work on simple blockchain
-    * survey of cryptocurrencies
-    * second-generation blockchain applications
+      * TUTORIAL: Proof-of-work on simple blockchain
+    * Survey of cryptocurrencies
+    * Second-generation blockchain applications
       * Namecoins, colored coins, smart properties, tokens
-      * distributed data, BigchainDB
-    * deconstructing blockchains
-      * blockchain as a state-transition system
+      * Distributed data, BigchainDB
+    * Deconstructing blockchains
+      * Blockchain as a state-transition system
       * Ethereum
-    * decentralized autonomous organizations (DAO)
+    * Decentralized autonomous organizations (DAO)
 
-    #### machine learning
+    #### Machine learning
 
-    * deep learning
-      * applications to computer vision, natural language processing
-      * TUTORIAL: basic image classifier in Keras
-    * problems with centralized machine learning
-      * data security and surveillance
-      * problems with economic model
-    * federated learning
-    * security issues with federated learning
-      * differential privacy
-    * why are blockchains relevant to machine learning?
+    * Deep learning
+      * Applications to computer vision, natural language processing
+      * TUTORIAL: Basic image classifier in Keras
+    * Problems with centralized machine learning
+      * Data security and surveillance
+      * Problems with economic model
+    * Federated learning
+    * Security issues with federated learning
+      * Differential privacy
+    * Why are blockchains relevant to machine learning?
 
-    #### blockchains + machine learning
+    #### Blockchains + machine learning
 
-    * federated learning on a blockchain
+    * Federated learning on a blockchain
       * Openmined
     * AI + DAOs
-    * impact of AI on decentralized applications
-      * asset management + "sharing economy"
-      * data markets and exchanges
-      * mutual funds, insurance, co-ops
-    * dangers of AI DAOs
+    * Impact of AI on decentralized applications
+      * Asset management + "sharing economy"
+      * Data markets and exchanges
+      * Mutual funds, insurance, co-ops
+    * Dangers of AI DAOs
     * Art DAOs
 
 

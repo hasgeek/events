@@ -128,4 +128,8 @@ sponsor:
     sponsors:
       - razorpay    
 
+  - title: "Community Partner"
+    size: "m"
+    sponsors:
+      - reserved-bit 
 ---

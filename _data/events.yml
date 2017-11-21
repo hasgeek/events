@@ -411,7 +411,7 @@
   start_time: 2017-10-27 19:00
   end_time: 2017-10-27 20:30
   url: https://www.facebook.com/events/983869095097210/
-  blurb: Tanmai,Co-Founder of Hasura, will be talking to Adrian Hornsby, Technical Evangelist at AWS about performance and scalablity. 
+  blurb: Tanmai,Co-Founder of Hasura, will be talking to Adrian Hornsby, Technical Evangelist at AWS about performance and scalablity.
 
 - name: open-house-newspace-india-goel
   title: "Open House: NewSpace India's Stellar Voices"
@@ -420,7 +420,7 @@
   start_time: 2017-10-27 19:00
   end_time: 2017-10-27 21:0
   url: https://www.facebook.com/events/2035236650028986/
-  blurb: Dr. PS Goel is retired from ISRO where he served as the director of the satellite system. He is currently Chairman of Recruitment and Assessment Centre at DRDO. 
+  blurb: Dr. PS Goel is retired from ISRO where he served as the director of the satellite system. He is currently Chairman of Recruitment and Assessment Centre at DRDO.
 
 - name: kilter-no-sugar-november
   title: "Kilter's No Sugar November"
@@ -440,6 +440,15 @@
   url: https://www.meetup.com/Conversational-UI-Bangalore/events/244001239/
   blurb: This will be our first meetup. We will start with sessions on the Basics of Conversational UI and then workshop on creating a Hello World App on Google Assistant
 
+- name: rust-workshop-chennai
+  title: "Workshop: Let's work on Rust"
+  city: Chennai
+  venue: To be decided
+  start_time: 2017-12-16 10:30
+  end_time: 2017-12-16 18:00
+  url: https://www.meetup.com/mad-rs/events/245248866/
+  blurb: An introductory workshop to get folks into Rust.
+
 - name: open-house-data-science-in-js-amit-kapoor
   title: "Open House: Data Science in Javascript"
   city: Bangalore
@@ -457,7 +466,7 @@
   end_time: 2017-11-17 22:30
   url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
   blurb: 50p, along with the Centre for Internet and Society (CIS) will be hosting an Open House to discuss security practices in the fintech industry.
-  
+
 - name: open-house-conversational-ui
   title: "Open House #85: Conversational UI"
   city: Bangalore
@@ -466,7 +475,7 @@
   end_time: 2017-11-10 22:00
   url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
   blurb: Meta Refresh is hosting Souvik Basu for an Open House to discuss more about fundamentals and design aspects of conversational UI.
-  
+
 - name: data-science-from-scratch
   title: "Data Science from Scratch"
   city: Pune
@@ -493,3 +502,12 @@
   end_time: 2017-12-01 22:30
   url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
   blurb: Different algorithms that can impact and help make intuitive decisions on customer satisfaction and retainment using operations research and data science to tackle deliveries of products in e-commerce.
+
+- name: open-house-fundamentals-of-crypto-economics
+  title: "Open House #89: Fundamentals of Cryptoeconomics"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-12-08 18:30
+  end_time: 2017-12-08 22:30
+  url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
+  blurb: Learn the fundamentals of Cryptoeconomics and how to design and incentivize tokens for an ICO.
