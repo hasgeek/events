@@ -118,6 +118,14 @@ layout: base
 </section>
 {% endif %}
 
+{% if page.proposed_speakers %}
+<section class="section "id="proposed_speakers">
+  <div class="container">
+  {% include proposed_speakers_section.html speakers=page.proposed_speakers %}
+  </div>
+</section>
+{% endif %}
+
 {% if page.funnel %}
 <section class="section" id="speak">
   <div class="container">
