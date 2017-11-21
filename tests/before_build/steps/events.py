@@ -96,6 +96,43 @@ featured_speakers_schema = {
     },
 }
 
+proposed_speakers_schema = {
+    'funnel_url': {
+        'validator': valid_external_url,
+        'required': False
+    },
+    'talk_title': {
+        'type': 'string',
+        'required': True
+    },
+    'name': {
+        'type': 'string',
+        'required': True
+    },
+    'image_url': {
+        'validator': valid_external_url,
+        'required': False
+    },
+    'website': {
+        'type': 'dict',
+        'schema': {
+            'label': {
+                'type': 'string',
+                'required': True
+            },
+            'url': {
+                'validator': valid_external_url,
+                'required': True
+            }
+        },
+        'required': False
+    },
+    'blurb': {
+        'type': 'string',
+        'required': False
+    },
+}
+
 event_schema = {
     'layout': {
         'type': 'string',
@@ -274,6 +311,11 @@ event_schema = {
     },
 
     'featured_speakers': {
+        'type': 'list',
+        'required': False
+    },
+
+    'proposed_speakers': {
         'type': 'list',
         'required': False
     },

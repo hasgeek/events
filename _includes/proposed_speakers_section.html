@@ -1,0 +1,38 @@
+<div class="has-text-centered">
+  <h3 class="title">Proposals</h3>
+  <br>
+</div>
+<div class="columns is-centered is-multiline">
+  {% if include.instructors %}
+    {% assign speakers = include.instructors %}
+  {% else %}
+    {% assign speakers = include.speakers %}
+  {% endif %}
+  {% for speaker in speakers %}
+  <div class="column is-6">
+    <div class="card">
+      <div class="card-content">
+        <div class="columns is-mobile">
+          {% if speaker.image_url %}
+          <div class="column is-3">
+            <figure class="image is-1by1" style="background-image: url('{{ speaker.image_url }}'); background-size: cover; background-position: center;">
+            </figure>
+          </div>
+          {% endif %}
+          <div class="column">
+            <h1 class="title is-5"><a href="{{ speaker.funnel_url }}" target="_blank">{{ speaker.talk_title }}</a></h1>
+            <h2 class="title is-6">{{ speaker.name }}</h2>
+            <h2 class="subtitle is-6">{{ speaker.designation }}</p>
+            {% if speaker.website %}
+              <a href="{{ speaker.website.url }}" target="_blank">{{ speaker.website.label }}</a>
+            {% endif %}
+          </div>
+        </div>
+        <div class="content">
+          {{ speaker.blurb | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
