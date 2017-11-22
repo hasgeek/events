@@ -511,3 +511,23 @@
   end_time: 2017-12-08 22:30
   url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
   blurb: Learn the fundamentals of Cryptoeconomics and how to design and incentivize tokens for an ICO.
+  
+ - name: open-house-visual-linear-algebra
+  title: "Open House #87: Visual Linear Algebra"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-11-24 19:30
+  end_time: 2017-11-24 22:30
+  url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
+  blurb: Learning the math behind Machine Learning and Deep Learning Algorithms requires a good solid understanding of Linear Algebra. In this open sessions, we will aim to understand the essence of Linear Algebra in an interactive and visual way.
+  
+ - name: vue-js-meetup
+  title: "VueBLR #4 - The future of Vue.js"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-11-25 14:00
+  end_time: 2017-11-25 16:00
+  url: https://opencollective.com/vue-bangalore/events/meetup-4-the-future-of-vuejs-8863ev
+  blurb: Join Vue.js enthusiasts and VueBLR to discuss the future of Vue.js. There will be taks on the internals of Vue, testing Vue components and a show & tell session, where you can show off anything you built with Vue.js
+  
+  
