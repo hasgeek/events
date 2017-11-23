@@ -125,6 +125,10 @@ sponsor:
     size: "m"
     sponsors:
     - razorpay    
+  - title: "Community Partner"
+    size: "m"
+    sponsors:
+    - smartadvisor    
     
 
 ---
