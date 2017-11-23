@@ -79,13 +79,13 @@
   funnel: https://reactfoo.talkfunnel.com/2017/
   blurb: Our new conference on the state of React in India. We’ll have more news on this in the coming weeks.
 
-- name: metarefresh-2017
-  title: Meta Refresh 2017
+- name: metarefresh-2018
+  title: Meta Refresh 2018
   city: Bangalore
   venue: NIMHANS Convention Centre, Dairy Circle
   google_maps_pin: https://goo.gl/maps/guzuU8H37Zy
-  start_time: 2017-11-30
-  end_time: 2017-11-30
+  start_time: 2019-01-01
+  end_time: 2019-01-01
   funnel: https://metarefresh.in/2017/
   blurb: On interaction design and CSS from product and business standpoints.
   color:
@@ -93,13 +93,13 @@
     primary_dark: "#921b3f"
     accent: "#921b3f"
 
-- name: cmsconf-2017
-  title: CMS conf 2017
+- name: cmsconf-2018
+  title: CMS conf 2018
   city: Bangalore
   venue: NIMHANS Convention Centre, Dairy Circle
   google_maps_pin: https://goo.gl/maps/guzuU8H37Zy
-  start_time: 2017-12-01
-  end_time: 2017-12-01
+  start_time: 2019-01-01
+  end_time: 2019-01-01
   funnel: https://metarefresh.in/cms-conf-2017/
   blurb: CMS conf discusses engineering challenges and business decisions underlying the choice of Content Management Systems (CMS).
   color:
