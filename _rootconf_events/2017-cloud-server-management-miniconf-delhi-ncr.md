@@ -2,10 +2,10 @@
 layout: event
 title: "Miniconf on Cloud Server Management (Delhi/NCR)"
 subtitle: "Cloud server management brings with it as many challenges as it offers conveniences"
-datelocation: "9 Dec 2017, Investopad, Gurgaon"
+datelocation: "20 Jan 2018, Investopad, Gurgaon"
 city: Elsewhere
-start_time: 2017-12-09
-end_time: 2017-12-09
+start_time: 2018-01-20
+end_time: 2018-01-20
 description: "Cloud server management brings with it as many challenges as it offers conveniences. It is time to unbundle questions on resource allocation, scaling, security, and more."
 boxoffice_item_collection: "416a6332-3d84-4986-b25e-d566eb7ab066"
 funnel:
@@ -43,7 +43,7 @@ overview:
     ### When:
     * Chennai – 25 November 2017.
     * Mumbai – 8 December 2017.
-    * Gurgaon – 9 December 2017.
+    * Gurgaon – 20 January 2017.
 venue:
   label: Investopad, Gurgaon
   address: |
