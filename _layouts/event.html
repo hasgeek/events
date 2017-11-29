@@ -118,6 +118,14 @@ layout: base
 </section>
 {% endif %}
 
+{% if page.discussions %}
+<section class="section "id="dicussions">
+  <div class="container">
+  {% include discussions.html speakers=page.discussions %}
+  </div>
+</section>
+{% endif %}
+
 {% if page.proposed_speakers %}
 <section class="section "id="proposed_speakers">
   <div class="container">
