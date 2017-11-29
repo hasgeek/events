@@ -529,3 +529,21 @@
   end_time: 2017-11-25 16:00
   url: https://opencollective.com/vue-bangalore/events/meetup-4-the-future-of-vuejs-8863ev
   blurb: Join Vue.js enthusiasts and VueBLR to discuss the future of Vue.js. There will be talks on the internals of Vue, testing Vue components and a show & tell session, where you can show off anything you built with Vue.js
+
+- name: public-lecture-on-decentralized-ai-by-gene-kogan
+  title: "Public lecture on Decentralized AI by Gene Kogan"
+  city: Bangalore
+  venue: NASSCOM 10000 Startup Warehouse
+  start_time: 2017-12-12 18:00
+  end_time: 2017-12-12 21:00
+  url: https://anthillinside.in/2017-dec-bangalore-lecture/
+  blurb: A talk on possibilities that lie at the intersection of artificial intelligence and blockchains
+
+- name: decentralized-ai-applications
+  title: "Workshop: Decentralized AI applications"
+  city: Bangalore
+  venue: To be decided
+  start_time: 2017-12-17 10:00
+  end_time: 2017-12-17 16:30
+  url: https://anthillinside.in/2017-decentralized-ai-applications/
+  blurb: A workshop about the intersection of AI with blockchains and smart contracts.
