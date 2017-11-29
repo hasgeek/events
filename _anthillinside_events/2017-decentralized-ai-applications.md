@@ -2,7 +2,7 @@
 layout: workshop
 title: "Decentralized AI applications"
 subtitle: "A workshop about the intersection of AI with blockchains and smart contracts."
-datelocation: "17 Dec 2017, 10 AM - 4:30 PM, Bengaluru"
+datelocation: "17 Dec 2017, 10 AM - 4:30 PM, ThoughtFactory, Bengaluru"
 city: Bangalore
 start_time: 2017-12-17
 end_time: 2017-12-17
@@ -71,5 +71,13 @@ overview:
     * Dangers of AI DAOs
     * Art DAOs
 
-
+venue:
+  label: Thought Factory, Bangalore
+  lat: 12.95921
+  lng: 77.64431
+  address: |
+    Tower D, 2nd Floor, Diamond District
+    Old Airport Road, ISRO Colony, Domlur
+    Bengaluru, Karnataka 560008
+  google_maps_url: https://goo.gl/maps/oUnA1JB9paF2
 ---
