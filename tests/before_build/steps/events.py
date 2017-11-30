@@ -357,6 +357,11 @@ event_schema = {
         'required': False
     },
 
+    'discussions': {
+        'type': 'list',
+        'required': False
+    },
+
     'related_events': {
         'type': 'list',
         'required': False,
