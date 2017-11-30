@@ -47,7 +47,7 @@ overview:
     ### When:
     * Chennai – 25 November 2017.
     * Mumbai – 8 December 2017.
-    * Gurgaon – 9 December 2017.
+    * Gurgaon – 20 January 2018.
 
 venue:
   label: Amazon Internet Services, Mumbai
