@@ -56,7 +56,7 @@ overview:
     ### When:
     * Chennai – IIT Madras, 25 November 2017.
     * Mumbai – Amazon Internet Services, 8 December 2017.
-    * Gurgaon – Investopad, 9 December 2017.
+    * Gurgaon – Investopad, 20 January 2018.
     
 featured_speakers:
 - name: Srinivasan Rangarajan
@@ -125,6 +125,10 @@ sponsor:
     size: "m"
     sponsors:
     - razorpay    
+  - title: "Community Partner"
+    size: "m"
+    sponsors:
+    - smartadvisor    
     
 
 ---

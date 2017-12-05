@@ -113,6 +113,11 @@ sponsor:
     Download our sponsorship deck or reach out to us for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
   sponsorship_deck_url: 'http://hsgk.in/2gJIrmY'
   sponsors:
+  - title: "Bronze Sponsor"
+    size: "l"
+    sponsors:
+      - dream11
+      
   - title: "Developer Relations Partner"
     size: "l"
     sponsors:
