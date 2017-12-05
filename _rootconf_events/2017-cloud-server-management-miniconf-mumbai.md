@@ -71,12 +71,6 @@ featured_speakers:
   image_url: https://images.hasgeek.com/embed/file/9f21533225c347599ff31e0c02ad9096
   blurb: Francis Pereira is a Systems Engineer, who has been building, managing and scaling web infrastructure for the past eight years. From Burrp, Askme to CleverTap now. Always looking for ways to keep things simple with automation so he is not required to be around(TM)
 
-- name: Madhusudan Shekar
-  talk_title: "Debugging your Serverless application"
-  designation: Principal Technical Evangelist, Amazon Internet Services Private Limited
-  image_url: https://images.hasgeek.com/embed/file/9bc76c27019a44c0864e65c751a32962
-  blurb: Madhusudan has over 20 years of experience in developing large scale systems for telecommunications, media, automotive and financial services industries. He loves to talk about building a connected-intelligent enterprise and enabling great customer experiences through smart technologies. Prior to AWS he built the fleet management system TATA Fleetman for automotive OEM TATA Motors and built the third party API gateway for enterprise smart payment systems at Ezetap. He is an active speaker at several events and runs innovation and devops workshops for large enterprise
-  
 - name: Mohamed Imran K R 
   talk_title: "Cloud Agnostic Webscale"
   designation: CTO, E2E Networks
