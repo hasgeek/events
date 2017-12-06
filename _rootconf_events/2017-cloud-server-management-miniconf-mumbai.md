@@ -96,13 +96,16 @@ featured_speakers:
   blurb: I’ve worked with AWS and Google Cloud for the past 3 years and developed various strategies, to minimise manual interruption on managing cloud infrastructure. WebEngage, where I currently work, handles communication and engagement of > 45 million users. Having this scale on several microservices and calculating how much each micro-service is costing us, to find out ROI, made me experienced in understanding the requirements and nearly automate the resource allocation.
   
 venue:
-  label: Amazon Internet Services, Mumbai
+  label: Endurance International Group, Mumbai
   address: |
-    Amazon Internet Services,
-    L&T Business Park, Gate Number 5, Ground Floor, Powai - 400072
-  lat: 19.124467
-  lng: 72.893415
-  google_maps_url: https://goo.gl/maps/yRUwm9o6ocT2
+    Endurance International group of companies,
+    Unit no 5, 501, 5th floor, IT building 3, NESCO IT Park, 
+    Nesco complex, Western express highway, 
+    Goregoan (East), Mumbai - 400063
+
+  lat: 19.152354
+  lng: 72.785730
+  google_maps_url: https://goo.gl/maps/rS7J76NE5Ny
 
 sponsor:
   blurb: |
