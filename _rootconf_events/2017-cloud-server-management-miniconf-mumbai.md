@@ -121,7 +121,7 @@ sponsor:
     size: "l"
     sponsors:
     - endurance
-- title: "Payments Partner"
+  - title: "Payments Partner"
     size: "m"
     sponsors:
     - razorpay    
