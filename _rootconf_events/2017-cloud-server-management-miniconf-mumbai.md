@@ -2,7 +2,7 @@
 layout: event
 title: "Miniconf on Cloud Server Management (Mumbai)"
 subtitle: "Cloud server management brings with it as many challenges as it offers conveniences"
-datelocation: "8 Dec 2017, Amazon Internet Services, Mumbai"
+datelocation: "8 Dec 2017, Endurance International Group, Mumbai"
 city: Elsewhere
 start_time: 2017-12-08
 end_time: 2017-12-08
@@ -102,9 +102,8 @@ venue:
     Unit no 5, 501, 5th floor, IT building 3, NESCO IT Park, 
     Nesco complex, Western express highway, 
     Goregoan (East), Mumbai - 400063
-
-  lat: 19.152354
-  lng: 72.785730
+  lat: 19.152355
+  lng: 72.855768
   google_maps_url: https://goo.gl/maps/rS7J76NE5Ny
 
 sponsor:
@@ -118,7 +117,11 @@ sponsor:
     size: "l"
     sponsors:
     - aws
-  - title: "Payments Partner"
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - endurance
+- title: "Payments Partner"
     size: "m"
     sponsors:
     - razorpay    
