@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Public lecture on Decentralized AI by Gene Kogan"
+title: "Lecture on Decentralized AI by Gene Kogan"
 subtitle: "A talk on possibilities that lie at the intersection of artificial intelligence and blockchains"
 datelocation: "12 Dec 2017, 6 PM - 9 PM, NASSCOM - 10000 Startup Warehouse, Bangalore"
 city: Bangalore
