@@ -18,6 +18,8 @@ cp .gitignore _site/$1
 
 cd _site/$1
 
+
+npm install --global gulp-cli
 npm install
 
 npm link lru-cache
