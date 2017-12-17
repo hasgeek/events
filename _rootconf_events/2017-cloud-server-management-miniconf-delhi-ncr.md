@@ -46,7 +46,7 @@ overview:
     * Gurgaon – 20 January 2018.
     
 featured_speakers:
-- name: Prateek Gupte
+- name: Mohamed Imran K R
   talk_title: "Cloud Agnostic Webscale"
   designation: CTO, E2E Networks
   image_url: https://images.hasgeek.com/embed/file/ca35eb8cc7e0405db7f4dad8ca7b5cfa
