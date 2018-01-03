@@ -26,7 +26,7 @@ overview:
 
     * 4-5 talks.
     * Panel discussion on resource scaling and cost optimisation for scaling orgs/infrastructure.
-    * 3-hour workshop onSetting up a CI/CD pipeline with Jenkins.
+    * 3-hour workshop on setting up a CI/CD pipeline with Jenkins.
 
   right_content: |
     ### Who should attend?
