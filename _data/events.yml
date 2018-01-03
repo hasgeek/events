@@ -567,10 +567,10 @@
   blurb: The Airtel Payments Bank fraud was possible because of how the technology of the Aadhaar ecosystem was designed. Please join us for an open house discussion on how the technology works, and why this case won't be the last instance.
   
 - name: geekup-diptanu 
-title: "Geekup! with Diptanu Choudhury on cluster schedulers" 
-city: Bangalore 
-venue: HasGeek house 
-start_time: 2018-01-04 17:00 
-end_time: 2018-01-04 19:00 
-url: https://www.facebook.com/events/963423563816574/ 
-blurb: Tomorrow, 4 January, Rootconf has organized a Geekup with Diptanu on his upcoming paper about failure and reliability strategies of cluster schedulers such as Mesos and Nomad.
+  title: "Geekup! with Diptanu Choudhury on cluster schedulers" 
+  city: Bangalore 
+  venue: HasGeek house 
+  start_time: 2018-01-04 17:00 
+  end_time: 2018-01-04 19:00 
+  url: https://www.facebook.com/events/963423563816574/ 
+  blurb: Tomorrow, 4 January, Rootconf has organized a Geekup with Diptanu on his upcoming paper about failure and reliability strategies of cluster schedulers such as Mesos and Nomad.
