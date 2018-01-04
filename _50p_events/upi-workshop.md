@@ -6,7 +6,7 @@ datelocation: "9 Feb 2018, 10 AM - 2 PM, NIMHANS Convention Center, Bangalore"
 city: Bangalore
 start_time: 2018-02-08
 end_time: 2018-02-09
-description: "You’ve worked hard to create an awesome experience for your customers in your app, but you know that the payment experience is sub-optimal. It’s time to change that. Learn how to integrate UPI into your app in this hands-on workshop"
+description: "You’ve worked hard to create an awesome experience for your customers in your app, but you know that the payment experience is sub-optimal. It’s time to change that. Learn how to integrated with UPI into your app in this hands-on workshop"
 
 venue:
   label: NIMHANS Convention Center, Bangalore
@@ -27,7 +27,7 @@ speakers:
 
 overview:
   left_content: |
-    With UPI, you can now reduce friction in the payments process where it (almost) looks invisible. In this workshop, we show you how. The workshop will cover the usage of UPI APIs to participants. The Juspay wrapper will be used as an example to run through the workflows in integrating UPI into the app.
+    With UPI, you can now reduce friction in the payments process where it (almost) looks invisible. In this workshop, we show you how.
 
     If you'd like to get a sense of the applications of computer vision in e-commerce and interact with practitioners from the industry, this is a great place to be. RSVP now to reserve your spot!
 
