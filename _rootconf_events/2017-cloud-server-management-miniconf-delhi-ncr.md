@@ -12,9 +12,9 @@ funnel:
   url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-2017/"
   open: false
 schedule:
-  url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-new-delhi-2017/schedule"
+  url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-new-delhi-2017/schedule"
   json_url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-new-delhi-2017/schedule/json"
-  type: "conference"
+  type: "conference"
 related_events:
 - rootconf-2017-cloud-server-management-miniconf
 - rootconf-2017-cloud-server-management-miniconf-mumbai
