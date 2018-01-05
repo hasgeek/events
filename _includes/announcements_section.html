@@ -1,9 +1,9 @@
 <div class="columns is-centered is-multiline">
   {% for announcement in include.announcements %}
   <div class="column is-4">
-    <div class="notification is-primary">
-      <h3 class="title is-4">{{ announcement.title }}</h3>
-      <div class="content">
+    <div class="is-secondary">
+      <h3 class="title is-4 has-text-centered">{{ announcement.title }}</h3>
+      <div class="content has-text-centered">
         {{ announcement.text | markdownify }}
       </div>
     </div>
