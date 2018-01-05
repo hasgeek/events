@@ -10,7 +10,11 @@ description: "Cloud server management brings with it as many challenges as it of
 boxoffice_item_collection: "416a6332-3d84-4986-b25e-d566eb7ab066"
 funnel:
   url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-2017/"
-  open: true
+  open: false
+schedule:
+  url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-new-delhi-2017/schedule"
+  json_url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-new-delhi-2017/schedule/json"
+  type: "conference"
 related_events:
 - rootconf-2017-cloud-server-management-miniconf
 - rootconf-2017-cloud-server-management-miniconf-mumbai
