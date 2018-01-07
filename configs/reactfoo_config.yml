@@ -7,6 +7,7 @@ id: reactfoo
 colors:
   primary: "#549EAF"
   accent: "#FAA51A"
+ga_tracking_code: UA-19123154-39
 # Build settings
 markdown: kramdown
 gems:
