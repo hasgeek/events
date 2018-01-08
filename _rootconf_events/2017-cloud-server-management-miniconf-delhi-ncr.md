@@ -10,7 +10,11 @@ description: "Cloud server management brings with it as many challenges as it of
 boxoffice_item_collection: "416a6332-3d84-4986-b25e-d566eb7ab066"
 funnel:
   url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-2017/"
-  open: true
+  open: false
+schedule:
+  url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-new-delhi-2017/schedule"
+  json_url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-new-delhi-2017/schedule/json"
+  type: "conference"
 related_events:
 - rootconf-2017-cloud-server-management-miniconf
 - rootconf-2017-cloud-server-management-miniconf-mumbai
@@ -25,14 +29,15 @@ overview:
     Each miniconf is a full day event consisting of:
 
     * 4-5 talks.
-    * Birds of Feather (BOF) sessions.
-    * 3-hour workshop on configuration management.
+    * Panel discussion on resource scaling and cost optimisation for scaling orgs/infrastructure.
+    * 3-hour workshop on setting up a CI/CD pipeline with Jenkins.
 
   right_content: |
     ### Who should attend?
-    * DevOps engineers.
-    * Senior architects.
-    * VPs of engineering in mid-sized and large organizations.
+    * Open source and Python developers who are getting started with DevOps.
+    * Practising DevOps programmers.
+    * Programmers seeking hands-on training on infrastructure management and virtualization.
+    * Architects who want to participate in the community, and discuss their approaches.
 
     ### Why should you attend?
 
@@ -51,6 +56,30 @@ featured_speakers:
   designation: CTO, E2E Networks
   image_url: https://images.hasgeek.com/embed/file/ca35eb8cc7e0405db7f4dad8ca7b5cfa
   blurb: Imran is the CTO at E2E Networks. He is responsible for running the cloud operations. He's a firm believer in Free and open source software.
+  
+- name: Prateek Gupte
+  talk_title: "Continuous Integration at Haptik : Our Journey to Hourly Releases"
+  designation: Director of Engineering, Haptik
+  image_url: https://images.hasgeek.com/embed/file/40e795d30c374c48a59f36213a441bc7
+  blurb: Prateek Gupte is currently the Director of Engineering at Haptik, India’s first conversational commerce platform. He has held engineering leadership positions at his previous startups - BYOF Studios and Code Red, and has built technology solutions for a variety of domains such as gaming, healthcare, pricing solutions and artificial intelligence.
+  
+- name: Kashif Razzaqui
+  talk_title: "Kayako's Immutable Infrastructure on AWS using Hashicorp"
+  designation: Director of Engineering, Kayako
+  image_url: https://images.hasgeek.com/embed/file/93dcb54fe5274e508dc41b2d664432d9
+  blurb: Kashif Razzaqui is currently the Director of Engineering at Kayako.
+  
+- name: Vivek Sridhar
+  talk_title: "Auto-remediation at scale using watchers"
+  designation: Developer Advocate, DigitalOcean
+  image_url: https://images.hasgeek.com/embed/file/d2cae9dfe57a4f9e8b98d703d649dd23
+  blurb: Vivek is a tech enthusiast with over 11 years experience in the Software Industry. He is currently working as a Developer Advocate with DigitalOcean and has been a Technology Advisor to several tech startups. Previously he was Head of DevOps & QA at Blackbuck and was a DevOps Solution Architect at HCL (Australia) in client engagement and pre-sales roles. Vivek started his career with IBM Rational (INDIA Software Labs) and is passionate about working with software developer communities.
+
+- name: Vinod Unny
+  talk_title: "Business Data Analysis using Power BI by integrating On-Prem Data with Cloud Services"
+  designation: Director & Senior Technology Consultant, Enterprise InfoTech
+  image_url: https://images.hasgeek.com/embed/file/a55137856efb4d72a8b9a4f94d1780cf
+  blurb: Vinod has been running a technology consulting company since 1998 working on many different platforms and happen to be a Microsoft Regional Director - an honorary title given by Microsoft to people outside the organization whom they consider as experts in the field. He's consulted for corporates, educational institutes, govt and defence organizations and provided technical trainings in multiple topics.
   
 venue:
   label: Investopad, Gurgaon
