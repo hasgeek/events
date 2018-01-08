@@ -13,13 +13,6 @@ $(document).ready(function() {
       var boxofficeScript = document.createElement('script');
       boxofficeScript.innerHTML = data.script;
       document.getElementsByTagName('body')[0].appendChild(boxofficeScript);
-      window.setTimeout(function() {
-        window.Boxoffice.init({
-          org: "hasgeek",
-          itemCollection: "{{ page.boxoffice_item_collection }}",
-          paymentDesc: "{{ page.title }}"
-        });
-      }, 1000);
     },
     error: function(response) {
       var ajaxLoad = this;
@@ -47,5 +40,13 @@ $(document).ready(function() {
       }
     }
   });
+
+  window.addEventListener('boxofficeScript-load', function (e) {
+    window.Boxoffice.init({
+      org: "hasgeek",
+      itemCollection: "{{ page.boxoffice_item_collection }}",
+      paymentDesc: "{{ page.title }}"
+    });
+  }, false);
 });
 </script>

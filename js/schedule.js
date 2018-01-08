@@ -304,9 +304,9 @@ $(document).ready( function() {
     $.ajax({
       type: 'GET',
       dataType: 'json',
-      url: window.Event.schedule_url,
+      url: window.EventDetails.schedule_url,
       success: function(data) {
-        parseJson(data, window.Event.schedule_type, '#event-schedule-table');
+        parseJson(data, window.EventDetails.schedule_type, '#event-schedule-table');
       }
     });//eof ajax call
   }
