@@ -41,7 +41,7 @@ $(document).ready(function() {
     }
   });
 
-  window.addEventListener('boxofficeScript-load', function (e) {
+  window.addEventListener('onBoxofficeInit', function (e) {
     window.Boxoffice.init({
       org: "hasgeek",
       itemCollection: "{{ page.boxoffice_item_collection }}",
