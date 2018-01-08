@@ -30,7 +30,6 @@ overview:
     With UPI, you can now reduce friction in the payments process where it (almost) looks invisible. In this workshop, we show you how. The workshop will cover the usage of UPI APIs to participants. The Juspay wrapper will be used as an example to run through the workflows in integrating UPI into the app.
 
     If you'd like to get a sense of the applications of computer vision in e-commerce and interact with practitioners from the industry, this is a great place to be. RSVP now to reserve your spot!
-
   right_content: |
     ### Content Outline
      - What is UPI
