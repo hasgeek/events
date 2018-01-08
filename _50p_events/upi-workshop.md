@@ -33,20 +33,20 @@ overview:
 
   right_content: |
     ### Content Outline
-     •	What is UPI
-        •UPI Payments Flow
-	•Deep dive into UPI API Suite
-	•Merchant Payments
-	•Intent
-	•WebCollect
-	•SDK
-	•Your own handle
-	•Deep dive into each of other different options available for you to integrate UPI
-	•Work from product spec to fully working UPI implementation. (With hands on help from the Juspay team)
-	•Plugging UPI into your stack
-	•Designing flows
-	•Integrating APIs
-	•Show and tell of what was built + Q&A + tips
+     - What is UPI
+        - UPI Payments Flow
+	- Deep dive into UPI API Suite
+	- Merchant Payments
+	- Intent
+	- WebCollect
+	- SDK
+	- Your own handle
+	- Deep dive into each of other different options available for you to integrate UPI
+	- Work from product spec to fully working UPI implementation. (With hands on help from the Juspay team)
+	- Plugging UPI into your stack
+	- Designing flows
+	- Integrating APIs
+	- Show and tell of what was built + Q&A + tips
 
 
 ---
