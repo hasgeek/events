@@ -204,7 +204,7 @@
 
 {% if site.blog_feed_url %}
 <script src="{{ site.url }}{{ site.baseurl }}/js/ractive.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/js/feednami-client-v1.1.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/feednami-client-v1.0.1.js"></script>
 <script id="entries" type="text/ractive">
 {% raw %}
 {{#content}}
@@ -248,18 +248,21 @@
     return d.toDateString();
   }
 
-  feednami.setPublicApiKey('27e9bf43bffd7b67277ff3639b85da428fac21bb4997f1964d4234c237c5e993');
   var url = '{{ site.blog_feed_url }}';
   var blog = [];
-  feednami.load(url).then(function(feed) {
-      console.log(feed)
-      for (var i = 0; i < 6; i++) {
-        var entry = feed.entries[i]
-        var description = entry.description.replace(/<\/?[^>]+(>|$)/g, "").slice(0, 300) + '...';
-        blog.push({ "title": entry.title, "author": entry.author, "description": description, "link": entry.link, "date": getDateString(entry.pubDate) });
-      }
-      parseBlog(blog, '#blog-feed', '#entries')
-    })
+  feednami.load(url, function(feed) {
+    if (feed.error !== null) {
+      console.log(feed);
+      return;
+    }
+
+    for (var i = 0; i < 6; i++) {
+      var entry = feed.feed.entries[i]
+      var description = entry.description.replace(/<\/?[^>]+(>|$)/g, "").slice(0, 300) + '...';
+      blog.push({ "title": entry.title, "author": entry.author, "description": description, "link": entry.link, "date": getDateString(entry.pubDate) });
+    }
+    parseBlog(blog, '#blog-feed', '#entries')
+  })
 </script>
 {% endif %}
 
