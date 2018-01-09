@@ -35,6 +35,9 @@ sass_dir: _sass
 liquid:
   error_mode: strict
 
+blog_feed_url: https://blog.50p.in/feed
+blog_url: https://blog.50p.in
+
 collections:
   50p_events:
     type: event
