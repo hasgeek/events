@@ -133,6 +133,17 @@ proposed_speakers_schema = {
     },
 }
 
+flickr_album_schema = {
+    'title': {
+        'type': 'string',
+        'required': False
+    },
+    'album_url': {
+        'validator': valid_external_url,
+        'required': True
+    }
+}
+
 discussions_schema = {
     'funnel_url': {
         'validator': valid_external_url,
@@ -354,6 +365,21 @@ event_schema = {
 
     'proposed_speakers': {
         'type': 'list',
+        'required': False
+    },
+
+    'flickr_album': {
+        'type': 'dict',
+        'schema': {
+            'title': {
+                'type': 'string',
+                'required': False
+            },
+            'album_url': {
+                'type': 'string',
+                'required': True
+            }
+        },
         'required': False
     },
 
