@@ -30,6 +30,20 @@ layout: base
   </div>
 </section>
 
+{% if site.blog_feed_url %}
+<section class="section">
+  <div class="container">
+    <h1 class="title">Blog posts</h1>
+    <hr>
+    <div class="columns is-centered is-multiline" id="blog-feed">
+    </div>
+    <div class="columns is-centered">
+      <a href="{{ site.blog_url }}" class="button btn-shadow" target="_blank">Read more on 50p blog</a>
+    </div>
+  </div>
+</section>
+{% endif %}
+
 {% include assign_past_events.html %}
 {% if past_events != "" %}
 <section class="section">
