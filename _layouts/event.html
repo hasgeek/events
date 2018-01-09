@@ -40,6 +40,9 @@ layout: base
         {% if page.boxoffice_item_collection %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#tickets">Tickets</a>
         {% endif %}
+        {% if site.blog_feed_url %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#blog">Blog</a>
+        {% endif %}
         {% if page.accommodation %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#accommodation">Accommodation</a>
         {% endif %}
@@ -67,6 +70,9 @@ layout: base
         {% endif %}
         {% if page.boxoffice_item_collection %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#tickets">Tickets</a>
+        {% endif %}
+        {% if site.blog_feed_url %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#blog">Blog</a>
         {% endif %}
         {% if page.accommodation %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#accommodation">Accommodation</a>
@@ -170,6 +176,18 @@ layout: base
 <section class="section" id="tickets">
   <div class="container">
     {% include boxoffice_tickets_section.html %}
+  </div>
+</section>
+{% endif %}
+
+{% if site.blog_feed_url %}
+<section class="section" id="blog">
+  <div class="container">
+    <div class="has-text-centered">
+      <h1 class="title">Blog Posts</h1>
+    </div>
+    <hr>
+     {% include blog_section.html %}
   </div>
 </section>
 {% endif %}
