@@ -248,7 +248,7 @@
     return d.toDateString();
   }
 
-  feednami.setPublicApiKey('27e9bf43bffd7b67277ff3639b85da428fac21bb4997f1964d4234c237c5e993');
+  feednami.setPublicApiKey('{{site.feednami_api_key}}');
   var url = '{{ site.blog_feed_url }}';
   var blog = [];
   feednami.load(url).then(function(feed) {
