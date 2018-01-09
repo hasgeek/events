@@ -30,14 +30,22 @@ overview:
     With UPI, you can now reduce friction in the payments process where it (almost) looks invisible. In this workshop, we show you how. The workshop will cover the usage of UPI APIs to participants. The Juspay wrapper will be used as an example to run through the workflows in integrating UPI into the app.
 
     If you'd like to get a sense of the applications of computer vision in e-commerce and interact with practitioners from the industry, this is a great place to be. RSVP now to reserve your spot!
-
   right_content: |
     ### Content Outline
-     - Talk + Q&A on how what is UPI, how it works and what you can do with it. Deep dive into the APIs, best practices.
-     - Work from product spec to fully working UPI implementation.
-     - Plugging UPI into your stack 
-     - Designing flows
-     - Integrating APIs
-     - Show and tell of what was built + Q&A + tips
+      - What is UPI
+      - UPI Payments Flow
+      - Deep dive into UPI API Suite
+      - Merchant Payments
+      - Intent
+      - WebCollect
+      - SDK
+      - Your own handle
+      - Deep dive into each of other different options available for you to integrate UPI
+      - Work from product spec to fully working UPI implementation. (With hands on help from the Juspay team)
+      - Plugging UPI into your stack
+      - Designing flows
+      - Integrating APIs
+      - Show and tell of what was built + Q&A + tips
+
 
 ---
