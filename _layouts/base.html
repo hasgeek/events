@@ -251,8 +251,7 @@
       console.log(feed)
       for (var i = 0; i < 3; i++) {
         var entry = feed.entries[i]
-        var description = entry.description.replace(/<img[^>]*>/g, "");
-        description = description.replace(/<\/?[^>]+(>|$)/g, "").slice(0, 300) + '...';
+        var description = entry.description.replace(/<\/?[^>]+(>|$)/g, "").slice(0, 300) + '...';
         blog.push({ "title": entry.title, "author": entry.author, "description": description, "link": entry.link, "date": getDateString(entry.pubDate) });
       }
       parseBlog(blog, '#blog-feed', '#entries')
