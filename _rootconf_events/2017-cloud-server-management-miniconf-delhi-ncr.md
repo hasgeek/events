@@ -108,7 +108,7 @@ sponsor:
     size: "m"
     sponsors:
     - razorpay    
-  - title: "Cummunity Partners"
+  - title: "Community Partners"
     size: "m"
     sponsors:
     - payu    
