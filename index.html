@@ -1,5 +1,12 @@
 ---
 layout: base
+blog:
+  feed_url: https://blog.50p.in/feed
+  url: https://blog.50p.in
+mailchimp:
+  url: https://hasgeek.us2.list-manage.com/subscribe/post?u=c84c1486d2d6a025417c5d146&id=2a559e5d8e
+  u: c84c1486d2d6a025417c5d146 # ---------------------------^^^^^^^^^^^^^^^^^^^^^^^^^
+  id: 2a559e5d8e # ----------------------------------------------------------------------^^^^^^^^^^
 ---
 <section class="hero is-medium is-primary is-bold">
   <div class="hero-body">
@@ -30,7 +37,7 @@ layout: base
   </div>
 </section>
 
-{% if site.blog_feed_url %}
+{% if page.blog.feed_url %}
 <section class="section">
   <div class="container">
     <h1 class="title">Blog posts</h1>

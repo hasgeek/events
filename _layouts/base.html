@@ -202,67 +202,6 @@
   <script src="{{ site.url }}{{ site.baseurl }}/js/proposal.js"></script>
 {% endif %}
 
-{% if site.blog_feed_url %}
-  <script src="{{ site.url }}{{ site.baseurl }}/js/ractive.min.js"></script>
-  <script src="{{ site.url }}{{ site.baseurl }}/js/feednami-client-v1.1.js"></script>
-  <script id="entries" type="text/ractive">
-  {% raw %}
-  {{#content}}
-  <div class="column is-one-third">
-  <div class="card is-clickable" onclick="goToUrlNewTab('{{ link }}')" style="height:21rem; overflow: hidden;">
-    <div class="card-content">
-      <p class="title is-4">
-        {{ title }}
-      </p>
-      <p class="subtitle is-6" style="padding-top:4px">
-        {{ date }}
-      </p>
-      <div class="content">
-        <p>{{ description }}</p>
-        <p></p>
-      </div>
-    </div>
-  </div>
-  </div>
-  {{/content}}
-  {% endraw %}
-  </script>
-  <script>
-    var parseBlog = function(data, wrapper, template) {
-      var blogpost_ractive = new Ractive({
-        el: wrapper,
-        template: template,
-        data: {
-          content: data
-        },
-        oncomplete: function () {}
-      });
-    };
-
-    var getDateString = function (dateStr) {
-      var year = parseInt(dateStr.substr(0, 4), 10);
-      var month = parseInt(dateStr.substr(5, 2), 10) - 1;
-      var day = parseInt(dateStr.substr(8, 2), 10);
-      var d = new Date();
-      d.setFullYear(year, month, day);
-      return d.toDateString();
-    }
-
-    feednami.setPublicApiKey('{{site.feednami_api_key}}');
-    var url = '{{ site.blog_feed_url }}';
-    var blog = [];
-    feednami.load(url).then(function(feed) {
-        console.log(feed)
-        for (var i = 0; i < 6; i++) {
-          var entry = feed.entries[i]
-          var description = entry.description.replace(/<\/?[^>]+(>|$)/g, "").slice(0, 300) + '...';
-          blog.push({ "title": entry.title, "author": entry.author, "description": description, "link": entry.link, "date": getDateString(entry.pubDate) });
-        }
-        parseBlog(blog, '#blog-feed', '#entries')
-      })
-  </script>
-{% endif %}
-
 {% include analytics.html ga_tracking_code=site.ga_tracking_code %}
 
 

@@ -40,7 +40,7 @@ layout: base
         {% if page.boxoffice_item_collection %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#tickets">Tickets</a>
         {% endif %}
-        {% if site.blog_feed_url %}
+        {% if page.blog.feed_url %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#blog">Blog</a>
         {% endif %}
         {% if page.accommodation %}
@@ -71,7 +71,7 @@ layout: base
         {% if page.boxoffice_item_collection %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#tickets">Tickets</a>
         {% endif %}
-        {% if site.blog_feed_url %}
+        {% if page.blog.feed_url %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#blog">Blog</a>
         {% endif %}
         {% if page.accommodation %}
@@ -180,7 +180,7 @@ layout: base
 </section>
 {% endif %}
 
-{% if site.blog_feed_url %}
+{% if page.blog.feed_url %}
 <section class="section" id="blog">
   <div class="container">
     <div class="has-text-centered">
