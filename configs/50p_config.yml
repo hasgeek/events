@@ -38,7 +38,10 @@ liquid:
 blog_feed_url: https://blog.50p.in/feed
 blog_url: https://blog.50p.in
 feednami_api_key: 598766132c481ecb9c89b120994d020aaf997d2a123f1e7acd11d1449bc4fd63
+
 mailchimp_url: https://hasgeek.us2.list-manage.com/subscribe/post?u=c84c1486d2d6a025417c5d146&id=2a559e5d8e
+mailchimp_u: c84c1486d2d6a025417c5d146 # ---------------------------^^^^^^^^^^^^^^^^^^^^^^^^^
+mailchimp_id: 2a559e5d8e # ----------------------------------------------------------------------^^^^^^^^^^
 
 collections:
   50p_events:
