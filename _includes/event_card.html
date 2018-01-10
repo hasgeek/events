@@ -4,7 +4,7 @@
   {% assign event_url = include.event.url | absolute_url %}
 {% endif %}
 
-<div class="card is-clickable" onclick="goToUrl('{{ event_url }}')" style="height:21rem; overflow: hidden;">
+<div class="card is-clickable" onclick="goToUrl('{{ event_url }}')" style="height:21rem; overflow: hidden;"data-href="{{ event_url }}" data-label="view {{ include.event.title }}">
   <div class="card-content">
     <p class="title is-4">
       {{ include.event.title }}
