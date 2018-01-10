@@ -231,6 +231,38 @@ event_schema = {
         },
         'required': False
     },
+    'blog': {
+        'type': 'dict',
+        'schema': {
+            'feed_url': {
+                'type': 'string',
+                'required': True
+            },
+            'url': {
+                'type': 'string',
+                'required': True
+            }
+        },
+        'required': False
+    },
+    'mailchimp': {
+        'type': 'dict',
+        'schema': {
+            'url': {
+                'type': 'string',
+                'required': True
+            },
+            'u': {
+                'type': 'string',
+                'required': True
+            },
+            'id': {
+                'type': 'string',
+                'required': True
+            }
+        },
+        'required': False
+    },
     'venue': {
         'type': 'dict',
         'schema': {
