@@ -5,6 +5,25 @@ hr {
   background-color: lighten($grey-lighter, 5);
 }
 
+.bg-light{
+    background-color: #F9FAFC;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .button,
 .input,
 .pagination-ellipsis,
@@ -187,8 +206,8 @@ iframe {
 }
 
 .card {
-  box-shadow: $shadow;
-
+  /* box-shadow: $shadow; */
+    border-radius: 2px;
   .card-header {
     box-shadow: none;
   }
@@ -388,4 +407,15 @@ iframe {
       color: $link-hover;
     }
   }
+}
+
+a{
+    color: #4A90E2;
+    &:hover{
+        color: #2F79CF;
+    }
+}
+
+.scroll-horizontal{
+    overflow: scroll;
 }
