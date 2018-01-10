@@ -43,7 +43,7 @@
   {% raw %}
   {{#content}}
   <div class="column is-one-third">
-  <div class="card is-clickable" onclick="goToUrlNewTab('{{ link }}')" style="height:21rem; overflow: hidden;">
+  <div class="card is-clickable" onclick="goToUrlNewTab('{{ link }}')" style="height:21rem; overflow: hidden;" data-href="{{ link }}" data-label="view {{ title }}">
     <div class="card-content">
       <p class="title is-4">
         {{ title }}

@@ -44,7 +44,7 @@
                     {% assign sponsor = site.data.sponsors[sponsor_s] %}
                     {% endif %}
                     <div class="column {{ sponsor_column_size }}">
-                      <div class="card is-clickable has-text-centered" style="cursor: pointer;" onclick="showModal('sponsor-{{ sponsor_type.title | slugify }}-{{ sponsor.title | slugify }}')">
+                      <div class="card is-clickable has-text-centered" style="cursor: pointer;" onclick="showModal('sponsor-{{ sponsor_type.title | slugify }}-{{ sponsor.title | slugify }}')" data-href="view {{ sponsor.title}}" data-label="open Modal">
                         <div class="card-content">
                           <div style="height: {{ sponsor_height }}; align-items:center; justify-content: center; display: flex;">
                             <figure class="image">
