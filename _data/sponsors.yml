@@ -395,3 +395,12 @@ bonzai:
      Bonzai’s self-serve platform allows marketers, agencies and publishers to create, distribute and optimise data-driven experiences, at scale. 
      The Bonzai platform, leveraged by top Fortune 500 brands, enables the creation of programmatic, display, video and native creatives. Bonzai is headquartered in Singapore, with offices in Sydney and Pune, India. 
      For more information visit www.bonzai.co
+
+hasura:
+  title: "Hasura"
+  logo_url: https://images.hasgeek.com/embed/file/397db5a0dd264ed8bcf0d0c928e8ceaf
+  url: https://hasura.io/
+  display_url: www.hasura.io
+  blurb: |
+     Hasura is a platform for developers to build powerful applications fast. Hasura comes powered with APIs for data, auth, files on Postgres and a git push to deploy set up for custom APIs.
+     The  quickstarts on Hasura Hub are one of the fastest ways to get up and running with a stack of your choice (in under 5 minutes). These quickstarts are wired up stacks - for instance the React project comes wired up backend APIs (for data, auth, and files) and a node-express microservice for custom APIs, on a Kubernetes & docker substrate.
