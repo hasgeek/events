@@ -246,13 +246,3 @@
     primary: "#549eaf"
     primary_dark: "#2e3661"
     accent: "#faa51a"
-
-- name: fragments-2018
-  title: Fragments 2018
-  city: Bangalore
-  venue: To be announced.
-  Dates - To be announced.
-  url: https://fragments.in/2018/
-  funnel: https://fragments.talkfunnel.com/2018/
-  blurb: Piece together the future of mobile development.
-
