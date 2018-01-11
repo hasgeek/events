@@ -111,6 +111,8 @@ sponsor:
   - title: "Community Partners"
     size: "m"
     sponsors:
-    - payu    
+    - payu
+    - medianama
+    - knowlarity
     
 ---
