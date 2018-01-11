@@ -20,7 +20,7 @@
           </div>
           {% endif %}
           <div class="column">
-            <h1 class="title is-5"><a href="{{ speaker.funnel_url }}" target="_blank">{{ speaker.talk_title }}</a></h1>
+            <h1 class="title is-5"><a href="{{ speaker.funnel_url }}" target="_blank" class="click" data-label="view {{ speaker.talk_title }}">{{ speaker.talk_title }}</a></h1>
             <h2 class="title is-6">{{ speaker.name }}</h2>
             <h2 class="subtitle is-6">{{ speaker.designation }}</p>
             {% if speaker.website %}

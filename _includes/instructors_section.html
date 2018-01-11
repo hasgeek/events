@@ -10,7 +10,7 @@
   {% endif %}
   {% for instructor in instructors %}
   <div class="column is-3">
-    <div class="card is-clickable" onclick="showModal('instructor-{{ instructor.name | slugify }}')">
+    <div class="card is-clickable" onclick="showModal('instructor-{{ instructor.name | slugify }}')" data-href="view {{ instructor.name }}" data-label="open Modal">
       <div class="card-content">
         <div class="media">
           {% if instructor.image_url %}
