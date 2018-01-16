@@ -2,7 +2,7 @@
 layout: event
 title: "Mumbai Tor meet-up and User Testing session"
 subtitle: "On privacy and security"
-datelocation: "20 Jan 2018, Mumbai. Venue: TBA"
+datelocation: "20 Jan 2018, Only Much Louder (OML), 242 B, New Mahalaxmi Silk Mills, Mathurdas Mills Compound, N.M Joshi Marg, Lower Parel, Mumbai"
 city: Mumbai
 start_time: 2018-01-20
 end_time: 2018-01-20
