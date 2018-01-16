@@ -180,6 +180,14 @@ layout: base
 </section>
 {% endif %}
 
+{% if page.rsvp %}
+<section class="section" id="tickets">
+  <div class="container">
+    {% include rsvp.html rsvp=page.rsvp %}
+  </div>
+</section>
+{% endif %}
+
 {% if page.blog.feed_url %}
 <section class="section" id="blog">
   <div class="container">
