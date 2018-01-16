@@ -11,8 +11,10 @@ boxoffice_item_collection: "080954e0-e6be-491a-b3e2-c646bd39a393"
 
 overview:
   center_content: |
-    Tor is free software for enabling anonymous communication. The name is derived from an acronym for the original software project name "The Onion Router". On 20 January 2018, Tor researchers – Sukhbir Singh, Antonela Debiasi and Isabela Bagueros – will be in Mumbai, takking about:
+    Tor is free software for enabling anonymous communication. The name is derived from an acronym for the original software project name "The Onion Router". 
+    On 20 January 2018, Tor researchers – Sukhbir Singh, Antonela Debiasi and Isabela Bagueros – will be in Mumbai, speaking about:
     1. User research practices at Tor. 
     2. Demonstrating new features on Tor. 
     3. Testing new features with users who are familiar and new to Tor. 
+    Register for the event to confirm your participation. Lunch and tea/coffee will be provided to all attendees. 
 ---
