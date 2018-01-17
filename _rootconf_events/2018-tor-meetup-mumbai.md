@@ -2,7 +2,7 @@
 layout: event
 title: "Mumbai Tor meet-up and User Testing session"
 subtitle: "On privacy and security"
-datelocation: "20 Jan 2018, Only Much Louder (OML), Mumbai"
+datelocation: "20 Jan 2018, 12 PM – 3:30 PM, Only Much Louder (OML), Mumbai"
 city: Mumbai
 start_time: 2018-01-20
 end_time: 2018-01-20
