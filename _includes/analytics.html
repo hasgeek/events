@@ -6,4 +6,37 @@
 
   ga('create', '{{ include.ga_tracking_code }}', 'auto');
   ga('send', 'pageview');
+
+  $(document).ready( function() {
+
+    EventDetails.sendGA = function (category, action, label) {
+      if (typeof ga !== "undefined") {
+        ga('send', { hitType: 'event', eventCategory: category, eventAction: action, eventLabel: label});
+      }
+    };
+
+    // Function that tracks a click button in Google Analytics.
+    $('.button').click(function(event) {
+      var target = $(this).attr('href');
+      var action = $(this).html();
+      EventDetails.sendGA('click', action, target);
+    });
+
+    $('.is-clickable').click(function(event) {
+      var target = $(this).data('href');
+      var action = $(this).data('label');
+      EventDetails.sendGA('click', action, target);
+    });
+
+    $('.click').click(function(event) {
+      var target = $(this).attr('href');
+      var action = $(this).data('label');
+      EventDetails.sendGA('click', action, target);
+    });
+
+    $('#mc-embedded-subscribe').click(function(event) {
+      EventDetails.sendGA('event_page_blog', 'subscribe', '');
+    });
+
+  });
 </script>

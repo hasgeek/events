@@ -40,6 +40,9 @@ layout: base
         {% if page.boxoffice_item_collection %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#tickets">Tickets</a>
         {% endif %}
+        {% if page.blog.feed_url %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#blog">Blog</a>
+        {% endif %}
         {% if page.accommodation %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#accommodation">Accommodation</a>
         {% endif %}
@@ -68,6 +71,9 @@ layout: base
         {% if page.boxoffice_item_collection %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#tickets">Tickets</a>
         {% endif %}
+        {% if page.blog.feed_url %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#blog">Blog</a>
+        {% endif %}
         {% if page.accommodation %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#accommodation">Accommodation</a>
         {% endif %}
@@ -91,7 +97,7 @@ layout: base
   <div class="container">
     {% include content_section.html left=page.overview.left_content right=page.overview.right_content center=page.overview.center_content %}
   </div>
-</section>
+</section><hr>
 {% endif %}
 
 {% if page.announcements %}
@@ -99,7 +105,7 @@ layout: base
   <div class="container">
     {% include announcements_section.html announcements=page.announcements %}
   </div>
-</section>
+</section><hr>
 {% endif %}
 
 {% if page.related_events %}
@@ -107,7 +113,7 @@ layout: base
   <div class="container">
     {% include related_events_section.html %}
   </div>
-</section>
+</section><hr>
 {% endif %}
 
 {% if page.featured_speakers %}
@@ -115,7 +121,15 @@ layout: base
   <div class="container">
   {% include featured_speakers_section.html speakers=page.featured_speakers %}
   </div>
-</section>
+</section><hr>
+{% endif %}
+
+{% if page.flickr_album %}
+<section class="section" id="flickr-album">
+  <div class="container">
+    {% include flickr_album.html title=page.flickr_album.title album_url=page.flickr_album.album_url %}
+  </div>
+</section><hr>
 {% endif %}
 
 {% if page.discussions %}
@@ -166,6 +180,26 @@ layout: base
 </section>
 {% endif %}
 
+{% if page.rsvp %}
+<section class="section" id="tickets">
+  <div class="container">
+    {% include rsvp.html rsvp=page.rsvp %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.blog.feed_url %}
+<section class="section" id="blog">
+  <div class="container">
+    <div class="has-text-centered">
+      <h1 class="title">Blog Posts</h1>
+    </div>
+    <hr>
+     {% include blog_section.html %}
+  </div>
+</section>
+{% endif %}
+
 {% if page.accommodation %}
 <section class="section" id="accommodation">
   <div class="container">
@@ -208,5 +242,6 @@ layout: base
   </div>
 </section>
 {% endif %}
+
 
 {% include footer.html %}

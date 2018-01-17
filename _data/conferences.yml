@@ -186,3 +186,63 @@
     primary: "#826995"
     primary_dark: "#514F74"
     accent: "#ECC378"
+
+- name: rootconf-2018
+  title: Rootconf 2018
+  city: Bangalore
+  venue: NIMHANS Convention Center
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2018-05-11
+  end_time: 2018-05-12
+  url: https://rootconf.in/2018/
+  funnel: https://rootconf.talkfunnel.com/2018/
+  blurb: India's principal conference on devops and infrastucture.
+  color:
+    primary: "#826995"
+    primary_dark: "#514F74"
+    accent: "#ECC378"
+
+- name: fifthelephant-2018
+  title: The Fifth Elephant 2018
+  city: Bangalore
+  venue: NIMHANS Convention Center
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2018-07-26
+  end_time: 2018-07-27
+  url: https://fifthelephant.in/2018/
+  funnel: https://fifthelephant.talkfunnel.com/2018/
+  blurb: The seventh edition of India's best conference on big data and machine learning.
+  color:
+    primary: "#68bec1"
+    primary_dark: "#498f94"
+    accent: "#ec5f13"
+
+- name: anthillinside-2018
+  title: Anthill Inside 2018
+  city: Bangalore
+  venue: NIMHANS Convention Center
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2018-07-25
+  end_time: 2018-07-25
+  url: https://anthillinside.in/2018/
+  funnel: https://anthillinside.talkfunnel.com/2018/
+  blurb: A conference on deep learning and artificial intelligence.
+  color:
+    primary: "#3f50a3"
+    primary_dark: "#213284"
+    accent: "#e76f45"
+
+- name: jsfoo-2018
+  title: JSFoo 2018
+  city: Bangalore
+  venue: NIMHANS Convention Center
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2018-09-13
+  end_time: 2018-09-14
+  url: https://jsfoo.in/2018/
+  funnel: https://jsfoo.talkfunnel.com/2018/
+  blurb: The eighth edition of India’s first JavaScript conference.
+  color:
+    primary: "#549eaf"
+    primary_dark: "#2e3661"
+    accent: "#faa51a"

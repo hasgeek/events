@@ -123,7 +123,7 @@
   {% endif %}
 {% endif %}
 <script>
-    window.Event = {};
+    window.EventDetails = {};
 </script>
 <script>
   $(document).ready( function() {
@@ -172,6 +172,10 @@
   function goToUrl(url) {
     window.location.href = url;
   }
+  function goToUrlNewTab(url) {
+    var win = window.open(url, '_blank');
+    win.focus();
+  }
   function showModal(modalId) {
     $('#'+modalId).addClass('is-active');
   }
@@ -185,15 +189,15 @@
 
 {% if page.schedule %}
   <script>
-    window.Event.schedule_url = "{{ page.schedule.json_url }}";
-    window.Event.schedule_type = "{{ page.schedule.type }}";
+    window.EventDetails.schedule_url = "{{ page.schedule.json_url }}";
+    window.EventDetails.schedule_type = "{{ page.schedule.type }}";
   </script>
   <script src="{{ site.url }}{{ site.baseurl }}/js/schedule.js"></script>
 {% endif %}
 
 {% if page.show_proposals %}
   <script>
-    window.Event.proposal_url = "{{ page.show_proposals.url }}";
+    window.EventDetails.proposal_url = "{{ page.show_proposals.url }}";
   </script>
   <script src="{{ site.url }}{{ site.baseurl }}/js/proposal.js"></script>
 {% endif %}

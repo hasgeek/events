@@ -133,6 +133,17 @@ proposed_speakers_schema = {
     },
 }
 
+flickr_album_schema = {
+    'title': {
+        'type': 'string',
+        'required': False
+    },
+    'album_url': {
+        'validator': valid_external_url,
+        'required': True
+    }
+}
+
 discussions_schema = {
     'funnel_url': {
         'validator': valid_external_url,
@@ -220,6 +231,38 @@ event_schema = {
         },
         'required': False
     },
+    'blog': {
+        'type': 'dict',
+        'schema': {
+            'feed_url': {
+                'type': 'string',
+                'required': True
+            },
+            'url': {
+                'type': 'string',
+                'required': True
+            }
+        },
+        'required': False
+    },
+    'mailchimp': {
+        'type': 'dict',
+        'schema': {
+            'url': {
+                'type': 'string',
+                'required': True
+            },
+            'u': {
+                'type': 'string',
+                'required': True
+            },
+            'id': {
+                'type': 'string',
+                'required': True
+            }
+        },
+        'required': False
+    },
     'venue': {
         'type': 'dict',
         'schema': {
@@ -302,6 +345,11 @@ event_schema = {
         'required': False
     },
 
+    'rsvp': {
+        'type': 'string',
+        'required': False
+    },
+
     'speakers': {
         'type': 'list',
         'required': False
@@ -354,6 +402,21 @@ event_schema = {
 
     'proposed_speakers': {
         'type': 'list',
+        'required': False
+    },
+
+    'flickr_album': {
+        'type': 'dict',
+        'schema': {
+            'title': {
+                'type': 'string',
+                'required': False
+            },
+            'album_url': {
+                'type': 'string',
+                'required': True
+            }
+        },
         'required': False
     },
 

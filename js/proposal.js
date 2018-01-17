@@ -13,7 +13,7 @@ $(document).ready( function() {
     $.ajax({
       type: 'GET',
       dataType: 'jsonp',
-      url: window.Event.proposal_url,
+      url: window.EventDetails.proposal_url,
       success: function(data) {
         $("#funnel-proposals p.loadingtxt").hide();
         var proposalsTemplate = $('#proposals-wrapper').html();

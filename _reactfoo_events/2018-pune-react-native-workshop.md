@@ -8,6 +8,16 @@ start_time: 2018-01-20
 end_time: 2018-01-20
 description: "Learn React Native by building a crypto currencies app"
 
+venue:
+  label: Wingify, Pune
+  address: |
+    Wingify,
+    402, 4th Floor, Zero One Building, 
+    Near Passport office, Mundhwa Road, Pune 411036
+  lat: 18.530485
+  lng: 73.913642
+  google_maps_url: https://goo.gl/maps/AHwjAxxytKE2
+  
 boxoffice_item_collection: "2cf1627e-208f-4db4-8df6-590dc3454bbd"
 
 instructors:
