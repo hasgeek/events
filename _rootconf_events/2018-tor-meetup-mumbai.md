@@ -2,12 +2,21 @@
 layout: event
 title: "Mumbai Tor meet-up and User Testing session"
 subtitle: "On privacy and security"
-datelocation: "20 Jan 2018, Only Much Louder (OML), 242 B, New Mahalaxmi Silk Mills, Mathurdas Mills Compound, N.M Joshi Marg, Lower Parel, Mumbai"
+datelocation: "20 Jan 2018, Only Much Louder (OML), Mumbai"
 city: Mumbai
 start_time: 2018-01-20
 end_time: 2018-01-20
 description: "A session on user research practices at Tor, and testing new features."
 boxoffice_item_collection: "080954e0-e6be-491a-b3e2-c646bd39a393"
+
+venue:
+  label: Only Much Louder (OML), Mumbai
+  address: |
+    Only Much Louder (OML)
+    242 B, New Mahalaxmi Silk Mills, Mathurdas Mills Compound, N.M Joshi Marg, Lower Parel, Mumbai, Maharashtra 400013
+  lat: 19.000556
+  lng: 72.830249
+  google_maps_url: https://goo.gl/maps/XPUnJNakMc52
 
 overview:
   center_content: |
