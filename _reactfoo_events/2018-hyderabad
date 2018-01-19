@@ -1,0 +1,53 @@
+---
+layout: event
+title: "ReactFoo Hyderabad"
+subtitle: "On lessons learned while implementing React and React Native"
+datelocation: "17 March 2018, Venue to be announced, Hyderabad"
+city: Hyderabad
+start_time: 2018-03-17
+end_time: 2018-03-17
+description: "A conference on the lessons learned while implementing React and React Native."
+boxoffice_item_collection: "40478e84-e34a-4a25-8743-fee4ba1afcaa"
+overview:
+  left_content: |
+    After a successful first edition in Bangalore & Pune, ReactFoo travels to Hyderabad. ReactFoo Hyderabad will focus on the following topics:
+
+    1. Success and failure stories of implementing React and React Native for your use-case.
+    2. Lessons learned in shifting codebase from older frameworks to React.
+    3. Comparative advantages of React and other JS frameworks.
+    4. Comparative advantages of React Native in working on mobile applications.
+    5. Security concerns.
+
+    **ReactFoo Hyderabad is an event for practitioners, by practitioners.**
+
+    ReactFoo Hyderabad is a two-day event with:
+    
+    * Single track of talks and Birds of a Feather (BOF) sessions on first day.
+    * Hands-on workshops (limited seats) on second day.
+    
+
+    30-40 participants will be admitted to each workshop. **Workshop tickets have to be purchased separately.** Workshops will be announced shortly.
+
+  right_content: |
+    ### Who should attend?
+
+    * Engineers looking to learn from case studies of other practitioners.
+    * Decision-makers considering the pros and cons of switching to React.
+    * Cross-platform mobile developers and React Native enthusiasts.
+
+    ### Why you should attend?
+
+    * To learn from and network with peers from the industry.
+    * To gain insights from case studies of practical implementation, and evaluate ReactJS and React Native for your work.
+    * To program better with React and React Native.
+    
+sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, sales and hiring.
+
+    Download our sponsorship deck or reach out to us for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
+  sponsorship_deck_url: 'http://hsgk.in/2gJIrmY'
+
+---
+
+
