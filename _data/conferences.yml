@@ -246,3 +246,13 @@
     primary: "#549eaf"
     primary_dark: "#2e3661"
     accent: "#faa51a"
+
+- name: reactfoo-hyderabad
+  title: ReactFoo Hyderabad
+  city: Hyderabad
+  venue: To be announced
+  start_time: 2018-03-17
+  end_time: 2018-03-17
+  funnel: 
+  url: https://reactfoo.in/2018-hyderabad/
+  blurb: A conference on the lessons learned while implememting React and React Native.
