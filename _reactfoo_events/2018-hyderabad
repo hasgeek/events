@@ -2,16 +2,12 @@
 layout: event
 title: "ReactFoo Hyderabad"
 subtitle: "On lessons learned while implementing React and React Native"
-datelocation: "17 March 2018, Hyderabad"
-city: Pune
+datelocation: "17 March 2018, Venue to be announced, Hyderabad"
+city: Hyderabad
 start_time: 2018-03-17
 end_time: 2018-03-17
 description: "A conference on the lessons learned while implementing React and React Native."
-schedule:
-  url: "https://reactfoo.talkfunnel.com/2018-pune/schedule"
-  json_url: "https://reactfoo.talkfunnel.com/2018-pune/schedule/json"
-  type: "conference"
-  
+boxoffice_item_collection: "40478e84-e34a-4a25-8743-fee4ba1afcaa"
 overview:
   left_content: |
     After a successful first edition in Bangalore & Pune, ReactFoo travels to Hyderabad. ReactFoo Hyderabad will focus on the following topics:
