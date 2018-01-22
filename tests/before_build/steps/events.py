@@ -144,6 +144,24 @@ flickr_album_schema = {
     }
 }
 
+banner_schema = {
+    'image_url': {
+        'validator': valid_external_url,
+        'required': False
+    }
+}
+
+featured_video_schema = {
+    'title': {
+        'type': 'string',
+        'required': False
+    },
+    'youtube_embed': {
+        'validator': valid_external_url,
+        'required': False
+    }
+}
+
 discussions_schema = {
     'funnel_url': {
         'validator': valid_external_url,
@@ -235,26 +253,26 @@ event_schema = {
         'type': 'dict',
         'schema': {
             'image_url': {
-            'type': 'string',
-            'required': False
+                'type': 'string',
+                'required': False
             }
-        }
-    }
-
+        },
+        'required': False
+    },
     'youtube_url': {
         'type': 'dict',
         'schema': {
             'title': {
-            'type': 'string',
-            'required': False
-            }
-            'schema': {
-                'youtube_embed': {
                 'type': 'string',
                 'required': False
             }
-        }
-    }
+            'youtube_embed': {
+                'type': 'string',
+                'required': False
+            }
+        },
+        'required': False
+    },
 
     'blog': {
         'type': 'dict',
