@@ -231,6 +231,31 @@ event_schema = {
         },
         'required': False
     },
+    'banner': {
+        'type': 'dict',
+        'schema': {
+            'image_url': {
+            'type': 'string',
+            'required': False
+            }
+        }
+    }
+
+    'youtube_url': {
+        'type': 'dict',
+        'schema': {
+            'title': {
+            'type': 'string',
+            'required': False
+            }
+            'schema': {
+                'youtube_embed': {
+                'type': 'string',
+                'required': False
+            }
+        }
+    }
+
     'blog': {
         'type': 'dict',
         'schema': {
