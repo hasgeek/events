@@ -345,6 +345,11 @@ event_schema = {
         'required': False
     },
 
+    'rsvp': {
+        'type': 'string',
+        'required': False
+    },
+
     'speakers': {
         'type': 'list',
         'required': False

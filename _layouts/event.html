@@ -187,6 +187,14 @@ layout: base
 </section><hr>
 {% endif %}
 
+{% if page.rsvp %}
+<section class="section" id="tickets">
+  <div class="container">
+    {% include rsvp.html rsvp=page.rsvp %}
+  </div>
+</section>
+{% endif %}
+
 {% if page.blog.feed_url %}
 <section class="section bg-light scroll-horizontal" id="blog">
   <div class="container">

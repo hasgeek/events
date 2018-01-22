@@ -398,9 +398,32 @@ bonzai:
 
 hasura:
   title: "Hasura"
-  logo_url: https://images.hasgeek.com/embed/file/397db5a0dd264ed8bcf0d0c928e8ceaf
+  logo_url: https://images.hasgeek.com/embed/file/d18d13e55de04fc1a84d21bb45d38f12
   url: https://hasura.io/
   display_url: www.hasura.io
   blurb: |
      Hasura is a platform for developers to build powerful applications fast. Hasura comes powered with APIs for data, auth, files on Postgres and a git push to deploy set up for custom APIs.
      The  quickstarts on Hasura Hub are one of the fastest ways to get up and running with a stack of your choice (in under 5 minutes). These quickstarts are wired up stacks - for instance the React project comes wired up backend APIs (for data, auth, and files) and a node-express microservice for custom APIs, on a Kubernetes & docker substrate.
+
+medianama:
+  title: "Medianama"
+  logo_url: https://images.hasgeek.com/embed/file/b11377b4f42d4898bce92c4dd38004a6
+  url: https://www.medianama.com/
+  display_url: www.medianama.com
+  blurb: |
+     MediaNama is the premier source of information and analysis on Digital and Telecom businesses in India, providing news, opinion and analysis on new launches, Mergers & Acquisitions, Venture Capital Funding, Industry Research, Joint Ventures and other business developments related to Internet and Mobile communities, and content including music, gaming, video and more.
+     With a keen eye on digital content and services, and their carriage and monetization across platforms, MediaNama is also focused on issues that have an impact on the digital ecosystem in India, so that it remains open, fair and competitive.
+
+knowlarity:
+  title: "Knowlarity"
+  logo_url: https://images.hasgeek.com/embed/file/1593a1a999fb4836847d09d2ff5900d0
+  url: https://www.knowlarity.com/
+  display_url: www.knowlarity.com
+  blurb: |
+
+wingify:
+  title: "Wingify"
+  logo_url: https://images.hasgeek.com/embed/file/fe6d26bc7afd4b2fa844cebc97cdbaf1
+  url: https://wingify.com/
+  display_url: www.wingify.com
+  blurb: |
