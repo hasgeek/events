@@ -25,6 +25,9 @@ layout: base
           <span></span>
           <span></span>
         </span>
+        {% if page.boxoffice_item_collection %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#tickets"><span class="button is-success">Buy Tickets</span></a>
+        {% endif %}
         {% if page.overview %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#overview" style="z-index:10;">Overview</a>
         {% endif %}
@@ -36,9 +39,6 @@ layout: base
         {% endif %}
         {% if page.schedule %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#schedule">Schedule</a>
-        {% endif %}
-        {% if page.boxoffice_item_collection %}
-        <a class="nav-item is-tab is-hidden-tablet" data-href="#tickets">Tickets</a>
         {% endif %}
         {% if page.blog.feed_url %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#blog">Blog</a>
@@ -68,9 +68,6 @@ layout: base
         {% if page.schedule %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#schedule">Schedule</a>
         {% endif %}
-        {% if page.boxoffice_item_collection %}
-        <a class="nav-item is-tab is-hidden-mobile" data-href="#tickets">Tickets</a>
-        {% endif %}
         {% if page.blog.feed_url %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#blog">Blog</a>
         {% endif %}
@@ -85,6 +82,9 @@ layout: base
         {% endif %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#hasgeek">About HasGeek</a>
         <a class="nav-item is-tab is-hidden-mobile" href="{{ site.url }}{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
+        {% if page.boxoffice_item_collection %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#tickets"><span class="button is-success">Buy Tickets</span></a>
+        {% endif %}
       </div>
       <div class="nav-right">
       </div>
@@ -93,15 +93,15 @@ layout: base
 </div>
 
 {% if page.overview %}
-<section class="section "id="overview">
-  <div class="container">
+<section class="section bg-light" id="overview">
+  <div class="container font-light">
     {% include content_section.html left=page.overview.left_content right=page.overview.right_content center=page.overview.center_content %}
   </div>
 </section><hr>
 {% endif %}
 
 {% if page.announcements %}
-<section class="section "id="announcements">
+<section class="section bg-light" id="announcements">
   <div class="container">
     {% include announcements_section.html announcements=page.announcements %}
   </div>
@@ -109,7 +109,7 @@ layout: base
 {% endif %}
 
 {% if page.related_events %}
-<section class="section">
+<section class="section bg-light">
   <div class="container">
     {% include related_events_section.html %}
   </div>
@@ -117,7 +117,7 @@ layout: base
 {% endif %}
 
 {% if page.featured_speakers %}
-<section class="section "id="featured_speakers">
+<section class="section has-featured-speakers scroll-horizontal  bg-light"id="featured_speakers">
   <div class="container">
   {% include featured_speakers_section.html speakers=page.featured_speakers %}
   </div>
@@ -125,7 +125,7 @@ layout: base
 {% endif %}
 
 {% if page.flickr_album %}
-<section class="section" id="flickr-album">
+<section class="section bg-light" id="flickr-album">
   <div class="container">
     {% include flickr_album.html title=page.flickr_album.title album_url=page.flickr_album.album_url %}
   </div>
@@ -133,51 +133,59 @@ layout: base
 {% endif %}
 
 {% if page.discussions %}
-<section class="section "id="dicussions">
+<section class="section bg-light scroll-horizontal"id="dicussions">
   <div class="container">
   {% include discussions.html speakers=page.discussions %}
   </div>
-</section>
+</section><hr>
 {% endif %}
 
 {% if page.proposed_speakers %}
-<section class="section "id="proposed_speakers">
+<section class="section bg-light"id="proposed_speakers">
   <div class="container">
   {% include proposed_speakers_section.html speakers=page.proposed_speakers %}
   </div>
-</section>
+</section><hr>
 {% endif %}
 
 {% if page.funnel %}
-<section class="section" id="speak">
+<section class="section bg-light" id="speak">
   <div class="container">
   {% include proposal_section.html %}
   </div>
-</section>
+</section><hr>
+{% endif %}
+
+{% if page.youtube_url %}
+<section class="section bg-light" id="">
+  <div class="container">
+  {% include featured_video.html title=page.youtube_url.title youtube_embed=page.youtube_url.youtube_embed %}
+  </div>
+</section><hr>
 {% endif %}
 
 {% if page.show_proposals %}
-<section class="section" id="proposals">
+<section class="section bg-light" id="proposals">
   <div class="container">
     {% include submitted_proposal.html %}
   </div>
-</section>
+</section><hr>
 {% endif %}
 
 {% if page.schedule %}
-<section class="section" id="schedule">
+<section class="section bg-light" id="schedule">
   <div class="container">
     {% include schedule_section.html %}
   </div>
-</section>
+</section><hr>
 {% endif %}
 
 {% if page.boxoffice_item_collection %}
-<section class="section" id="tickets">
+<section class="section bg-light" id="tickets">
   <div class="container">
     {% include boxoffice_tickets_section.html %}
   </div>
-</section>
+</section><hr>
 {% endif %}
 
 {% if page.rsvp %}
@@ -189,39 +197,35 @@ layout: base
 {% endif %}
 
 {% if page.blog.feed_url %}
-<section class="section" id="blog">
+<section class="section bg-light scroll-horizontal" id="blog">
   <div class="container">
-    <div class="has-text-centered">
-      <h1 class="title">Blog Posts</h1>
-    </div>
-    <hr>
      {% include blog_section.html %}
   </div>
 </section>
 {% endif %}
 
 {% if page.accommodation %}
-<section class="section" id="accommodation">
+<section class="section bg-light" id="accommodation">
   <div class="container">
     {% include accommodation_section.html accommodation=page.accommodation %}
   </div>
-</section>
+</section><hr>
 {% endif %}
 
 {% if page.venue %}
-<section class="section" id="venue">
+<section class="section bg-light" id="venue">
   <div class="container">
     {% include venue_section.html venue=page.venue %}
   </div>
-</section>
+</section><hr>
 {% endif %}
 
 {% if page.archive %}
-<section class="section" id="archive">
+<section class="section bg-light" id="archive">
   <div class="container">
   {% include archive_section.html photos_url=page.archive.photos_url videos_url=page.archive.videos_url %}
   </div>
-</section>
+</section><hr>
 {% endif %}
 
 {% if page.sponsor.blurb %}
