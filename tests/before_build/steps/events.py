@@ -145,10 +145,8 @@ flickr_album_schema = {
 }
 
 banner_schema = {
-    'image_url': {
-        'validator': valid_external_url,
-        'required': False
-    }
+    'validator': valid_external_url,
+    'required': False
 }
 
 youtube_url_schema = {
@@ -158,7 +156,7 @@ youtube_url_schema = {
     },
     'youtube_embed': {
         'validator': valid_external_url,
-        'required': False
+        'required': True
     }
 }
 
@@ -250,13 +248,7 @@ event_schema = {
         'required': False
     },
     'banner': {
-        'type': 'dict',
-        'schema': {
-            'image_url': {
-                'type': 'string',
-                'required': False
-            }
-        },
+        'type': 'string',
         'required': False
     },
     'youtube_url': {
@@ -268,7 +260,7 @@ event_schema = {
             },
             'youtube_embed': {
                 'type': 'string',
-                'required': False
+                'required': True
             }
         },
         'required': False
