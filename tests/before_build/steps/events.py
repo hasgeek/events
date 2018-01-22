@@ -151,7 +151,7 @@ banner_schema = {
     }
 }
 
-featured_video_schema = {
+youtube_url_schema = {
     'title': {
         'type': 'string',
         'required': False
