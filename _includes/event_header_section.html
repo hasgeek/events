@@ -1,6 +1,10 @@
 {% if include.event.logo %}
 <section class="hero is-halfheight is-bold">
+{% if include.event.banner %}
+  <div class="hero-body" style="background-image: url('{{ page.banner.image_url }}'); background-size:cover;">
+{% else %}
   <div class="hero-body">
+{% endif %}
     <div class="container has-text-centered">
       <figure class="image is-centered">
         {% if include.event.logo.image_url contains "://" %}
@@ -8,7 +12,7 @@
         {% else %}
           {% assign logo_url = include.event.logo.image_url | absolute_url %}
         {% endif %}
-        <img src="{{ logo_url }}" style="max-height: {% if include.event.logo.has_title %}16{% else %}12{% endif %}rem;width: auto; display: inline-block;">
+        <img src="{{ logo_url }}" style="max-height: {% if include.event.logo.has_title %}16{% else %}12{% endif %}rem;width:  {% if include.event.banner %}250px{% else %}auto{% endif %}; display: inline-block;">
       </figure>
       {% if include.event.logo.has_title %}
       {% else %}
@@ -17,11 +21,11 @@
       </h1>
       {% endif %}
       {% if include.event.subtitle %}
-      <h2 class="subtitle">
+      <h2 class="subtitle" style="color: {% if include.event.banner %}#ffffff{% else %}#000000{% endif %}; font-size: {% if include.event.banner %}2{% else %}1.25{% endif %}rem; font-weight: {% if include.event.banner %}400{% else %}300{% endif %};">
         {{ include.event.subtitle }}
       </h2>
       {% endif %}
-      <h3 class="subtitle is-6">{{ include.event.datelocation }}</h3>
+      <h3 class="subtitle is-6" style="color: {% if include.event.banner %}#ffffff{% else %}#000000{% endif %}; font-size: {% if include.event.banner %}1.25{% else %}1{% endif %}rem;">{{ include.event.datelocation }}</h3>
 
       {% assign event_d = event.end_time | date: '%Y%m%d' | plus: 0 %}
       {% assign site_d = site.time | date: '%Y%m%d' | plus: 0 %}
@@ -32,7 +36,7 @@
             {% if include.event.boxoffice_item_collection_sold_out == true %}
             <a class="button is-primary" data-href="#tickets" disabled>Buy Tickets(sold out)</a>
             {% else %}
-            <a class="button is-primary" data-href="#tickets">Buy Tickets</a>
+            <a class="button is-success" data-href="#tickets">Buy Tickets</a>
             {% endif %}
           {% endif %}
         {% endif %}

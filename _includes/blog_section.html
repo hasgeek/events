@@ -1,8 +1,5 @@
 <div class="columns is-centered is-multiline" id="blog-feed">
 </div>
-<div class="columns is-centered">
-    <a href="{{ page.blog.url }}" class="button is-primary" target="_blank">Read more on 50p blog</a>
-</div>
 
 {% if page.mailchimp.url %}
     <!-- Begin MailChimp Signup Form -->
@@ -40,16 +37,39 @@
 <script src="{{ site.url }}{{ site.baseurl }}/js/ractive.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/js/feednami-client-v1.1.js"></script>
 <script id="entries" type="text/ractive">
+
+<!-- <div class="has-text-centered">
+    <h3 class="title"><a href="{{ page.blog.url }}" target="_blank">Latest BLog Posts</a></h3><br>
+</div> -->
+<div class="has-text-centered">
+    <h3 class="title">Latest BLog Posts</h3><br>
+</div>
+  <div class="columns">
   {% raw %}
   {{#content}}
-  <div class="column is-one-third">
+    <div class="column is-3">
+      <article class="tile is-child notification" onclick="goToUrlNewTab('{{ link }}')" style="height:21rem; overflow: hidden;" data-href="{{ link }}" data-label="view {{ title }}">
+        <p><small>{{ date }}</small></p>
+        <h1 class="title is-4"><strong><a href="" target="_blank" class="click link-unstyled">{{ title }}</a></strong></h1>
+        <!-- <figure class="image is-4by4">
+          <img src="" height="200px">
+        </figure>
+        <br>-->
+          <p class="">{{ description }}</p>
+        </article>
+    </div>
+      {{/content}}
+  {% endraw %}
+  </div>
+
+  <!-- <div class="column is-one-third">
   <div class="card is-clickable" onclick="goToUrlNewTab('{{ link }}')" style="height:21rem; overflow: hidden;" data-href="{{ link }}" data-label="view {{ title }}">
     <div class="card-content">
+    <p class="subtitle is-6" style="padding-top:4px">
+        {{ date }}
+      </p>
       <p class="title is-4">
         {{ title }}
-      </p>
-      <p class="subtitle is-6" style="padding-top:4px">
-        {{ date }}
       </p>
       <div class="content">
         <p>{{ description }}</p>
@@ -57,9 +77,7 @@
       </div>
     </div>
   </div>
-  </div>
-  {{/content}}
-  {% endraw %}
+  </div> -->
   </script>
 <script>
     var parseBlog = function (data, wrapper, template) {

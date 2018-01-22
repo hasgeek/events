@@ -243,7 +243,7 @@ iframe {
 }
 
 .notification {
-  box-shadow: $shadow;
+  box-shadow: 0 2px 13px 0 rgba(132,146,166,0.33);
 }
 
 .notification {
@@ -417,5 +417,15 @@ a{
 }
 
 .scroll-horizontal{
-    overflow: scroll;
+    overflow: auto;
 }
+
+.link-unstyled{
+  text-decoration: none;
+}
+
+.font-light{
+  color: #8492A6;
+}
+
+

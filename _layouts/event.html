@@ -93,15 +93,15 @@ layout: base
 </div>
 
 {% if page.overview %}
-<section class="section bg-light"id="overview">
-  <div class="container">
+<section class="section bg-light" id="overview">
+  <div class="container font-light">
     {% include content_section.html left=page.overview.left_content right=page.overview.right_content center=page.overview.center_content %}
   </div>
 </section><hr>
 {% endif %}
 
 {% if page.announcements %}
-<section class="section bg-light"id="announcements">
+<section class="section bg-light" id="announcements">
   <div class="container">
     {% include announcements_section.html announcements=page.announcements %}
   </div>
@@ -117,7 +117,7 @@ layout: base
 {% endif %}
 
 {% if page.featured_speakers %}
-<section class="section bg-light"id="featured_speakers">
+<section class="section has-featured-speakers scroll-horizontal  bg-light"id="featured_speakers">
   <div class="container">
   {% include featured_speakers_section.html speakers=page.featured_speakers %}
   </div>
@@ -133,7 +133,7 @@ layout: base
 {% endif %}
 
 {% if page.discussions %}
-<section class="section bg-light"id="dicussions">
+<section class="section bg-light scroll-horizontal"id="dicussions">
   <div class="container">
   {% include discussions.html speakers=page.discussions %}
   </div>
@@ -156,9 +156,10 @@ layout: base
 </section><hr>
 {% endif %}
 
-<section class="section bg-light" id="speak">
+<section class="section bg-light" id="">
   <div class="container">
   {% include featured_video.html %}
+  {% include featured_video.html title=page.youtube_url.title youtube_embed=page.youtube_url.youtube_embed %}
   </div>
 </section><hr>
 
@@ -187,12 +188,8 @@ layout: base
 {% endif %}
 
 {% if page.blog.feed_url %}
-<section class="section bg-light" id="blog">
+<section class="section bg-light scroll-horizontal" id="blog">
   <div class="container">
-    <div class="has-text-centered">
-      <h1 class="title">Blog Posts</h1>
-    </div>
-    <hr>
      {% include blog_section.html %}
   </div>
 </section>
