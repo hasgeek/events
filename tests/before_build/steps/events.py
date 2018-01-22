@@ -265,7 +265,7 @@ event_schema = {
             'title': {
                 'type': 'string',
                 'required': False
-            }
+            },
             'youtube_embed': {
                 'type': 'string',
                 'required': False
