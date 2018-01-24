@@ -9,11 +9,13 @@
       var outreachScript = document.createElement('script');
       outreachScript.innerHTML = data.script;
       document.getElementsByTagName('body')[0].appendChild(outreachScript);
-      window.outreach_widget.init({
-        orgName: 'hasgeek',
-        itemCollection: '{{ page.outreach_item_collection }}',
-        eventName: '{{ page.title }}'
-      });
+      window.setTimeout(function() {
+        window.outreach_widget.init({
+          orgName: 'hasgeek',
+          itemCollection: '{{ page.outreach_item_collection }}',
+          eventName: '{{ page.title }}'
+        });
+      }, 1000);
 
     }).fail(function(response) {
       var error_msg;
