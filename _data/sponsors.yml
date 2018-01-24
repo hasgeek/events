@@ -83,13 +83,11 @@ aerospike:
 payu:
   title: "PayU"
   logo_url: https://images.hasgeek.com/embed/file/397db5a0dd264ed8bcf0d0c928e8ceaf
-  url: https://www.payumoney.com/
+  url: https://goo.gl/d3vXh3
   display_url: www.payumoney.com
   blurb: |
     PayU uses its payments heritage and expertise to deliver financial services in emerging markets. Our local operations in Asia, Central and Eastern Europe, Latin America, the Middle East and Africa enable us to be experts in these countries and provide the best solutions for the local market.
-
     PayU is the leading online payment service provider in 16 high growth markets, dedicated to creating a fast, simple and efficient payment process for merchants and buyers. Our 250+ payment methods and PCI certified platforms are designed to meet every consumer’s needs.
-
     The markets in which PayU operates represent a potential consumer base of nearly 2.3 billion people and a huge growth potential for merchants. PayU has more than 1,800 payment specialists based in these local markets supporting PayU’s 200,000+ merchants and the millions of consumers making online payments.
 
 qubole:
