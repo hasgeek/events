@@ -7,7 +7,7 @@ city: Bangalore
 start_time: 2018-05-11
 end_time: 2018-05-12
 description: "Rootconf is India’s principal conference where systems and operations engineers share real world knowledge about building reliable systems."
-outreach_item_collection: "f2668bcf-d8ca-11e6-9de9-d3cd37d49eb2"
+outreach_item_collection: "0b37a0b6-050d-41c5-8ece-59f9ebee5567"
 highlights:
   left_content: |
     ### Rootconf is where systems and operations engineers share real world knowledge about building reliable systems.
