@@ -200,7 +200,7 @@ discussions_schema = {
 event_schema = {
     'layout': {
         'type': 'string',
-        'allowed': ['event', 'workshop']
+        'allowed': ['event', 'workshop', 'sponsorship']
     },
     'title': title_schema,
     'subtitle': subtitle_schema,
@@ -375,7 +375,31 @@ event_schema = {
         'required': False
     },
 
+    'highlights': {
+        'type': 'dict',
+        'schema': {
+            'left_content': {
+                'type': 'string',
+                'required': False
+            },
+            'center_content': {
+                'type': 'string',
+                'required': False
+            },
+            'right_content': {
+                'type': 'string',
+                'required': False
+            }
+        },
+        'required': False
+    },
+
     'boxoffice_item_collection': {
+        'type': 'string',
+        'required': False
+    },
+
+    'outreach_item_collection': {
         'type': 'string',
         'required': False
     },
@@ -452,6 +476,11 @@ event_schema = {
                 'required': True
             }
         },
+        'required': False
+    },
+
+    'testimonials': {
+        'type': 'list',
         'required': False
     },
 
