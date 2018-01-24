@@ -1,0 +1,27 @@
+#outreach-widget .outreach-button-action {
+  background: $primary;
+  border-color: #a64508;
+  color: #fff;
+  border-width: 0 0 3px;
+}
+#outreach-widget .outreach-button-info {
+  background-color: $primary;
+  border-color: #ADADAD;
+  color: #333;
+  border-width: 1px 1px 3px;
+}
+.category-heading {
+  font-size: 1.650rem;
+  line-height: 1.30;
+  font-weight: 500;
+  margin-top: 1.00rem!important;
+  margin-bottom: 0!important;
+  padding: 0 15px;
+}
+.category-description {
+  margin: 0;
+}
+#outreach-widget .ticket-description {
+  font-size: .800rem;
+  line-height: 1.60;
+}

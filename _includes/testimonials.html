@@ -1,0 +1,13 @@
+<div class="has-text-centered">
+  <h3 class="title">Testimonials</h3><br>
+</div>
+{% assign testimonials = include.testimonials %}
+{% for testimonial in testimonials  %}
+<div class="speech-bubble">
+  <blockquote class="rectangle-speech-border">
+    {{ testimonial.blurb|safe }}
+  </blockquote>
+  <p class="attendee blue nospace">{{ testimonial.name|safe }}</p>
+  <p class="attendee blue nospace">{{ testimonial.designation|safe }}</p>
+</div>
+{% endfor %}
