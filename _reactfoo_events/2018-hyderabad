@@ -1,12 +1,12 @@
 ---
 layout: event
 title: "ReactFoo Hyderabad"
-subtitle: "On React, alternatives to React, ReactNative and front-end engineering."
+subtitle: "On React, alternatives to React, React Native and front-end engineering."
 datelocation: "17 March 2018, Venue TBA, Hyderabad"
 city: Hyderabad
 start_time: 2018-03-17
 end_time: 2018-03-17
-description: "A conference on React, alternatives to React, ReactNative and front-end engineering."
+description: "A conference on React, alternatives to React, React Native and front-end engineering."
 boxoffice_item_collection: "40478e84-e34a-4a25-8743-fee4ba1afcaa"
 funnel:
   url: "https://reactfoo.talkfunnel.com/2018-hyd/"
@@ -18,7 +18,7 @@ overview:
     1. Success and failure stories of implementing React and React Native for your use-case.
     2. Your experiences with alternatives to React – such as Angular, Vue and other frameworks – why these worked / did not work for your use-case. 
     3. Front-end architecture patterns and approaches with React.
-    4. Mobile engineering with ReactNative or alternatives. 
+    4. Mobile engineering with React Native or alternatives. 
 
 
     **ReactFoo Hyderabad is an event for JavaScript and front-end engineers, cross-platform developers.**
@@ -31,7 +31,7 @@ overview:
     ### Who should attend?
 
     * Front-end engineers and JS engineers.
-    * Decision-makers considering the pros and cons of switching to React and ReactNative.
+    * Decision-makers considering the pros and cons of switching to React and React Native.
     * Cross-platform mobile developers and React Native enthusiasts.
 
     ### Why you should attend?
