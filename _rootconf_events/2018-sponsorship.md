@@ -27,7 +27,6 @@ highlights:
 testimonials:
 - name: "Regunath B on The Fifth Elephant 2016"
   blurb: "The logistics of the conference itself - wifi, videos, communication etc is as good as it gets. Kudos to your guys for running such a high quality data conference overall."
-  name: "Regunath B on The Fifth Elephant 2016"
   designation: "Principal Architect at Flipkart.com"
 - name: "Aparna Sridhar on droidconIN 2016"
   blurb: "The conference was wonderfully organised, the attendees and speakers were a joy to interactwith and we were very happy in partnering with HasGeek."
@@ -37,7 +36,6 @@ testimonials:
   designation: "Founder and CEO, Mad Street Den"
 - name: "Dhatri Misra on droidconIN 2016"
   blurb: "Droidcon was a great experience, with so many developers to learn from and meet. Conferenceslike these give you so many perspectives to look at. The most awaited part for me at the Droidcon was the Women In Tech panel discussion. We need to get more women talking about the challenges they face and how they overcome it.The conference had the Child care facility. You need to be very sensitive to think of something that is so important to parents attending the conference."
-  name: "Dhatri Misra on droidconIN 2016"
   designation: "Developer Evangelist, PayU"
 venue:
   label: NIMHANS Convention Centre, Bangalore
