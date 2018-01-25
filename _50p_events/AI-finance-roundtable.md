@@ -10,15 +10,15 @@ description: "A roundtable in collaboration with the Center for Internet and Soc
 logo:
   image_url: /images/50p-logo.png
   has_title: true
-- boxoffice_item_collection: "3f329790-1a3a-4a92-ba8b-668e88dc0fb1"
+
 venue:
   label: The Energy and Resources Institute (TERI)
-    address: |
-    The Energy and Resources Institute (TERI),
-    4th Main Road, Domlur II Stage, Domlur Bengaluru, Karnataka 560071
   lat: 12.963497
   lng: 77.638086
   google_maps_url: https://goo.gl/maps/Q3RnieHQhSF2
+  address: |
+    The Energy and Resources Institute (TERI),
+    4th Main Road, Domlur II Stage, Domlur Bengaluru, Karnataka 560071
 announcements:
 - title: Take the 50p survey!
   text: |
@@ -33,22 +33,22 @@ overview:
       While these sectors are no strangers to the use of big data analytics and similar technologies in aiding with fnancial decision making and daily operations, the deployment of technologies such as machine learning and natural language processing is still very new. Due to the nascent nature of this phenomenon, little is known about the details of their implications for both producers and consumers. Furthermore, concerns regarding data ownership, liability, and consumer rights have all been raised in light of AI adoption. This roundtable will present us with an opportunity to discuss such issues and begin to fll this knowledge gap. 
       **[RSVP for this event to pranav@cis-india.org](mailto:pranav@cis-india.org).**
   right_content: |
-  ##AGENDA
-  -----
-  *2:00 - 2:10 Introduction*
-  *2:10 - 2:30 Presentation: State of AI and Banking in India*
-  - How and where is AI being implemented in the banking/fnance industry  in India?
-  *2:30 - 3:30 Discussion: Impact of AI in Banking in India*
-  - What have been signifcant developments, companies, products, and services with respect to the use of AI in banking? 
-  - Who are the key actors in the government with respect to regulating the use of AI in the banking/fnance industry? Are there existing regulations that are applicable to the development and use of AI? 
-  - What has been the impact of AI on the banking/fnance industry in India? What has been the reaction of consumers?
-  - Identifying key actors in the AI and banking ecosystem in India
-  *3:30 - 4:30 Discussion: Challenges and Steps Ahead*
-  - What regulatory structures, institutions, and norms are needed to govern data security in AI-driven banking industry? Are new checks and balances needed to protect linked sensitive fnancial data?
-  - How are investments informing the direction of AI development and implementation in the Indian banking sector? What incentives are needed to drive the growth of domestic AI companies, in fnancial sector and otherwise?
-  - How can the rights of consumers, particularly the digitally marginalised, be protected in a AI-driven banking system (differentiated products and services, consent and notice, informational privacy)? What steps are being taken by Indian companies to educate and empower digital banking customers?
-  *4:30 - 5:00 Final Remarks*
-  - What have we not discussed?
-  - What should we be prioritising?
-  - What should we be preparing for (technology and industry policies)?
+    ##AGENDA
+    -----
+    *2:00 - 2:10 Introduction*
+    *2:10 - 2:30 Presentation: State of AI and Banking in India*
+    - How and where is AI being implemented in the banking/fnance industry  in India?
+    *2:30 - 3:30 Discussion: Impact of AI in Banking in India*
+    - What have been signifcant developments, companies, products, and services with respect to the use of AI in banking? 
+    - Who are the key actors in the government with respect to regulating the use of AI in the banking/fnance industry? Are there existing regulations that are applicable to the development and use of AI? 
+    - What has been the impact of AI on the banking/fnance industry in India? What has been the reaction of consumers?
+    - Identifying key actors in the AI and banking ecosystem in India
+    *3:30 - 4:30 Discussion: Challenges and Steps Ahead*
+    - What regulatory structures, institutions, and norms are needed to govern data security in AI-driven banking industry? Are new checks and balances needed to protect linked sensitive fnancial data?
+    - How are investments informing the direction of AI development and implementation in the Indian banking sector? What incentives are needed to drive the growth of domestic AI companies, in fnancial sector and otherwise?
+    - How can the rights of consumers, particularly the digitally marginalised, be protected in a AI-driven banking system (differentiated products and services, consent and notice, informational privacy)? What steps are being taken by Indian companies to educate and empower digital banking customers?
+    *4:30 - 5:00 Final Remarks*
+    - What have we not discussed?
+    - What should we be prioritising?
+    - What should we be preparing for (technology and industry policies)?
 ---
