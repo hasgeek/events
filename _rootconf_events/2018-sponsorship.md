@@ -1,6 +1,6 @@
 ---
 layout: sponsorship
-title: Rootconf 2018
+title: Rootconf 2018 Sponsorships
 subtitle: "India's principal conference on devops and infrastructure"
 datelocation: "11-12 May 2018, Bangalore"
 city: Bangalore
