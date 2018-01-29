@@ -479,6 +479,21 @@ event_schema = {
         'required': False
     },
 
+    'photo_album': {
+        'type': 'dict',
+        'schema': {
+            'title': {
+                'type': 'string',
+                'required': False
+            },
+            'album_url': {
+                'type': 'string',
+                'required': True
+            }
+        },
+        'required': False
+    },
+
     'testimonials': {
         'type': 'list',
         'required': False

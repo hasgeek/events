@@ -30,7 +30,10 @@
     <!--End mc_embed_signup-->
 {% endif %}
 
-<script src="{{ site.url }}{{ site.baseurl }}/js/ractive.min.js"></script>
+<script type="text/javascript">
+  if (typeof Ractive === 'undefined')
+    document.write('<script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/js/ractive.min.js"><\/script>');
+</script>
 <script src="{{ site.url }}{{ site.baseurl }}/js/feednami-client-v1.1.js"></script>
 <script id="entries" type="text/ractive">
 
