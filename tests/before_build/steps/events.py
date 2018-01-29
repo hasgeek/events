@@ -486,8 +486,8 @@ event_schema = {
                 'type': 'string',
                 'required': False
             },
-            'album_url': {
-                'type': 'string',
+            'photos': {
+                'type': 'list',
                 'required': True
             }
         },
