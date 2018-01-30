@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Workshop: Building with blockchain and Introduction to smart contracts"
+title: "Blockchain workshop"
 subtitle: "Learn how to build applications and services using the blockchain and start working with smart contracts to get your applications up and running!"
 datelocation: "8 Feb 2018, Bangalore"
 city: Bangalore
