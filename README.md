@@ -7,7 +7,6 @@ A database of tech events in India.
 (This is subject to change)
 
 * Developer-focused events in India
-* Must have free entry/registration
 
 
 ## How do add my event?

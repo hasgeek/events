@@ -115,6 +115,7 @@
   <script src="{{ site.url }}{{ site.baseurl }}/js/jquery-3.2.1.min.js"></script>
   <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.sidr-2.2.1.min.js"></script>
   <script src="{{ site.url }}{{ site.baseurl }}/js/mustache.min.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/siema.min.js"></script>
 {% if page.venue %}
   {% if page.venue.mapbox %}
   <script src="{{ site.url }}{{ site.baseurl }}/js/mapbox-gl.0.39.1.min.js"></script>
@@ -122,12 +123,20 @@
   <script src="{{ site.url }}{{ site.baseurl }}/js/leaflet.js"></script>
   {% endif %}
 {% endif %}
-{% if page.outreach_item_collection %}
-  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.mobile.custom.min.js"></script>
-  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.mousewheel.js"></script>
-{% endif %}
 <script>
     window.EventDetails = {};
+    // carousel
+    const mySiema = new Siema({
+      perPage: {
+        768: 2,
+        1024: 3,
+      },
+    });
+    const prev = document.querySelector('#carousel-prev');
+    const next = document.querySelector('#carousel-next');
+
+prev.addEventListener('click', () => mySiema.prev());
+next.addEventListener('click', () => mySiema.next());
 </script>
 <script>
   $(document).ready( function() {
