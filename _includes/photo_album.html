@@ -1,0 +1,13 @@
+<div class="has-text-centered">
+  <h3 class="title">
+    {{ include.title }}
+  </h3>
+  {% assign photos = include.photos %}
+  <div class="siema">
+  	{% for photo in photos %}
+  		<div class="carousel-wrapper"><img src="{{ photo.url }}"></div>
+  	{% endfor %}
+  </div>
+  <a id="carousel-prev" class="title is-5"><i class="fa fa-arrow-circle-left"></i></a>
+  <a id="carousel-next" class="title is-5"><i class="fa fa-arrow-circle-right"></i></a>
+</div>

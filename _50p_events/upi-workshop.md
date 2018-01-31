@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Workshop: UPI enable your app in minutes"
+title: "UPI workshop"
 subtitle: "Add payments through UPI to your app or service!"
 datelocation: "9 Feb 2018, 10 AM - 2 PM, NIMHANS Convention Center, Bangalore"
 city: Bangalore
