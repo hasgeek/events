@@ -7,7 +7,7 @@ city: Bangalore
 start_time: 2018-02-08
 end_time: 2018-02-09
 description: "Learn how to build applications and services using the blockchain and start working with smart contracts to get your applications up and running!"
-
+boxoffice_item_collection: '685e9db7-b62d-4137-895f-f734dc216c4d'
 overview:
   left_content: |
     While blockchain is all the rage right now, there is a process to go from your idea to actually implementing something on it. Learn about how to you can build your Distributed application using the blockchain. You will learn about what the blockchain is and about ethereum. You will also learn how to interact with the blockchain via smart contracts and how we can program them using Solidity.
