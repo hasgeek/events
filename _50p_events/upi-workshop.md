@@ -7,7 +7,7 @@ city: Bangalore
 start_time: 2018-02-08
 end_time: 2018-02-09
 description: "You’ve worked hard to create an awesome experience for your customers in your app, but you know that the payment experience is sub-optimal. It’s time to change that. Learn how to integrate UPI into your app in this hands-on workshop"
-
+boxoffice_item_collection: '685e9db7-b62d-4137-895f-f734dc216c4d'
 venue:
   label: NIMHANS Convention Center, Bangalore
   address: |
