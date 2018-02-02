@@ -95,13 +95,13 @@
 
 - name: cmsconf-2018
   title: CMS conf 2018
-  city: Bangalore
-  venue: NIMHANS Convention Centre, Dairy Circle
-  google_maps_pin: https://goo.gl/maps/guzuU8H37Zy
-  start_time: 2019-01-01
-  end_time: 2019-01-01
-  funnel: https://metarefresh.in/cms-conf-2017/
-  blurb: CMS conf discusses engineering challenges and business decisions underlying the choice of Content Management Systems (CMS).
+  city: Pune
+  venue: The Westin Pune Koregaon Park
+  google_maps_pin: https://goo.gl/maps/9ZxZfpH1do72
+  start_time: 2019-03-14
+  end_time: 2019-03-14
+  funnel: https://poweredbycms.in/
+  blurb: A conference centered around the practice of Content Management Systems.
   color:
     primary: "#b22e40"
     primary_dark: "#921b3f"
