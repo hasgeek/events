@@ -349,6 +349,10 @@ event_schema = {
                 'type': 'string',
                 'required': True
             },
+            'icon':{
+                'validator': valid_external_url,
+                'required': True
+            }
             'text': {
                 'type': 'string',
                 'required': True
