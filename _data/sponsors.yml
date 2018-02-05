@@ -462,4 +462,10 @@ cleartrip:
   url: https://www.cleartrip.com/jobs/
   display_url: www.cleartrip.com
   blurb: |
-  
+
+numa:
+  title: "NUMA"
+  logo_url: https://images.hasgeek.com/embed/file/34e96a9009b34ad8957490371abd9579
+  url: https://bengaluru.numa.co/
+  display_url: www.bengaluru.numa.co
+  blurb: |
