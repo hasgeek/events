@@ -469,3 +469,14 @@ numa:
   url: https://bengaluru.numa.co/
   display_url: bengaluru.numa.co
   blurb: |
+
+mysql:
+  title: "MySql"
+  logo_url: https://images.hasgeek.com/embed/file/b522d87c766a43739982ae8b434495bb
+  url: https://www.mysql.com/
+  display_url: www.mysql.com
+  blurb: |
+    MySQL is the world's most popular open source database. With its proven performance, reliability and ease-of-use, MySQL has become the leading database choice for web-based applications, used by high profile web properties including Facebook, Twitter, YouTube, Yahoo! and many more. Additionally, it is an extremely popular choice as embedded database, distributed by over 3,000 ISVs & OEMs. To organisations in need of an open source, ACID-compliant transactional database delivering real-time in-memory performance and 99.999 percent availability, Oracle offers MySQL Cluster.
+    MySQL Enterprise Edition is a commercial offering comprised of the MySQL database with security, encryption, auditing, high availability and scalability extensions, online backup, monitoring, management, and visual database design and SQL development tools. MySQL Enterprise Edition is backed by Oracle Premier support for organisations delivering highly available, business critical applications and services.
+    Oracle MySQL Cloud Service delivers a secure, cost-effective and enterprise-grade MySQL database service. Built on MySQL Enterprise Edition and powered by the Oracle Cloud, it provides a simple, automated, integrated and enterprise ready MySQL cloud service, enabling organisations to increase business agility and reduce costs.
+    Oracle drives MySQL innovation, constantly improving MySQL solutions and delivering new capabilities to power next generation web, cloud, mobile and embedded applications.
