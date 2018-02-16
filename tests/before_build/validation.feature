@@ -10,3 +10,15 @@ Feature: Validating data
 	Then conferences.yml must exist
 	Then all mandatory conference fields must exist
 	Then all conference fields must be the right type and length
+	Scenario: Events exist in respective folders
+	Given event files exist
+		| event         |
+		| 50p           |
+		| anthillinside |
+		| fifthelephant |
+		| fragments     |
+		| jsfoo         |
+		| metarefresh   |
+		| reactfoo      |
+		| rootconf      |
+	Then all files should have .md extension

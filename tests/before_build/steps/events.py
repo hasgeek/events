@@ -587,3 +587,20 @@ def step_impl(context):
     v = Validator(event_schema)
     for event in context.all_events:
         assert v.validate(event), str(v.errors) + " in validating " + event['title']
+
+@given('event files exist')
+def step_impl(context):
+    folder_list = getattr(context, "folder_list", None)
+    if not folder_list:
+        context.folder_list = []
+    for row in context.table:
+        events_folder = "_" + row['event'] + "_events"
+        context.folder_list.append(events_folder)
+    pass
+
+@then('all files should have .md extension')
+def step_impl(context):
+    print(context)
+    for event_folder in context.folder_list:
+        for filename in os.listdir(event_folder):
+            assert filename.endswith(".md"), filename + " should end with .md"
