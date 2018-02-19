@@ -637,4 +637,13 @@
   start_time: 2018-02-16 18:00
   end_time: 2018-02-16 19:30 
   url: https://goo.gl/qUXnpB
-  blurb: Please join us for a discussion on improving urban governance in Karnataka.  
+  blurb: Please join us for a discussion on improving urban governance in Karnataka.
+
+- name: 2018-feb-hacknight
+  title: "Node.js Hacknight at HasGeek" 
+  city: Bangalore
+  venue: HasGeek House, Bengaluru
+  start_time: 2018-02-24 17:00
+  end_time: 2018-02-25 10:00 
+  url: https://jsfoo.in/2018-feb-hacknight/
+  blurb: Hack on Node.js at HasGeek on 24-25 Feb from 5 pm. Food and snacks on us. Limited seats, sign up now!
