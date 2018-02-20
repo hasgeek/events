@@ -35,7 +35,18 @@ featured_speakers:
   talk_title: Mentor
   designation: Core contributor, Vue.js
   funnel_url: https://www.linkedin.com/in/rahulkadyan/
-  image_url: https://images.hasgeek.com/embed/file/65e2503fdc564bbd8d2825a963a95bac?size=150x150
+  image_url: https://images.hasgeek.com/embed/file/65e2503fdc564bbd8d2825a963a95bac?size=200x200
+- name: Karthik V
+  talk_title: Mentor
+  designation: Application Engineer, Hasura
+  funnel_url: https://twitter.com/k_rthik1991
+  image_url: https://images.hasgeek.com/embed/file/1b821ead6ff748b2a5acf3123a9efea6?size=200x200
+- name: Rishichandra Wawhal
+  talk_title: Mentor
+  designation: Engineer, Hasura
+  funnel_url: https://twitter.com/_rishichandra
+  image_url: https://images.hasgeek.com/embed/file/b89fa4adf6d34225a78913e591f0ebeb?size=200x200
+
 rsvp: |
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSckaCjiZIZi70JhCObQnihE4KhDPVLvhAonFkOKnLUjmNfiSA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
@@ -47,4 +58,9 @@ sponsor:
     size: "l"
     sponsors:
     - circles.life
+  - title: "Outreach Partners"
+    size: "s"
+    sponsors:
+    - payu
+    - hasura
 ---
