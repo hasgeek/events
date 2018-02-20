@@ -2,7 +2,7 @@
 layout: workshop
 title: "Deep Learning Bootcamp"
 subtitle: "Getting started with deep learning for image and text"
-datelocation: "10-11 Mar 2018, Bangalore"
+datelocation: "10-11 Mar 2018, IKP EDEN, Bangalore"
 city: Bangalore
 start_time: 2018-03-10
 end_time: 2018-03-11
@@ -26,6 +26,16 @@ instructors:
   byline: Senior Data Scientist
   bio: |
     **Bargava** is a practicing Data Scientist. He has 14 years of experience delivering business analytics solutions to Investment Banks, Entertainment Studios and High-Tech companies. He has given talks and conducted workshops on Data Science, Machine Learning, Deep Learning and Optimization in Python and R. He has a Masters in Statistics from University of Maryland, College Park, USA. He is an ardent NBA fan. You can tweet to him at @bargava.
+
+venue:
+  label: IKP EDEN, Bangalore
+  address: |
+    IKP EDEN, 16, Bhuvanappa Layout, 
+    Tavarekere Main Rd, Kaveri Layout, 
+    Suddagunte Palya, Bengaluru, Karnataka 560029.
+  lat: 12.934072
+  lng: 77.609869
+  google_maps_url: https://goo.gl/maps/GDgyezM1fz12
 
 overview:
   left_content: |
