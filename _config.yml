@@ -6,7 +6,7 @@ url: "https://hasgeek.github.io" # the base hostname & protocol for your site, e
 id: hasgeek
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
