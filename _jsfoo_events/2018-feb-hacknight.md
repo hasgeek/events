@@ -40,7 +40,7 @@ featured_speakers:
   talk_title: Mentor
   designation: Application Engineer, Hasura
   funnel_url: https://twitter.com/k_rthik1991
-  image_url: https://images.hasgeek.com/embed/file/1b821ead6ff748b2a5acf3123a9efea6?size=200x200
+  image_url: https://images.hasgeek.com/embed/file/e38b774566d04d3aa6d8a4102751c0d5?size=200x200
 - name: Rishichandra Wawhal
   talk_title: Mentor
   designation: Engineer, Hasura
