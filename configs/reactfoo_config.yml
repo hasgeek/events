@@ -10,7 +10,7 @@ colors:
 ga_tracking_code: UA-19123154-39
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile

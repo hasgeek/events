@@ -6,7 +6,7 @@ url: "https://rootconf.in" # the base hostname & protocol for your site, e.g. ht
 id: rootconf
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile

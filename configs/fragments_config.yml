@@ -14,7 +14,7 @@ service_worker: true
 id: fragments
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
