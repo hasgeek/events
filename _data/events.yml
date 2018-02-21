@@ -647,3 +647,12 @@
   end_time: 2018-02-25 10:00 
   url: https://jsfoo.in/2018-feb-hacknight/
   blurb: Hack on Node.js at HasGeek on 24-25 Feb from 5 pm. Food and snacks on us. Limited seats, sign up now!
+
+- name: symposium-on-computational-gastronomy
+  title: "Symposium on Computational Gastronomy"
+  city: Delhi/NCR
+  venue: IIIT-Delhi	
+  start_time: 2018-03-17 09:00
+  end_time: 2018-03-17 18:30
+  url: https://www.iiitd.ac.in/webstory/gastrosym2018
+  blurb: A one day Symposium on the emerging theme of ‘Computational Gastronomy’, the data science of food, flavors and health. Conducted by the Complex Systems Laboratory, Center for Computational Biology, IIIT-Delhi. Organizer: Ganesh Bagler #GastroSym2018
