@@ -505,3 +505,13 @@ geekyants:
   display_url: https://geekyants.com
   blurb: |
     GeekyAnts is a product studio with a colony of expert developers that are always excited to create crazy apps. If you haven't heard about us then you probably know our products such as NativeBase and BuilderX. NativeBase is an open source UI components library and BuilderX is our new design tool that can write React Native code for you! We have developers skilled in technologies such as React, React Native, Angular 1.x/2/4, Laravel, NodeJS and many more! What sets us apart from others is that we are always ready to take up new challenges and try out new things in order to achieve our goals. We were one of the first to experiment with Google's Flutter.
+
+twgocd:
+  title: "GoCD"
+  logo_url: https://images.hasgeek.com/embed/file/541e2da8fdc247d2ac0f65cb7662f0d9
+  url: https://www.thoughtworks.com/go/
+  display_url: www.thoughtworks.com/go/
+  blurb: |
+    GoCD is an on-premise, open source, continuous delivery tool to help you get better visibility into and control of your teams’ deployments. 
+    With GoCD’s comprehensive pipeline modeling, you can model complex workflows for multiple teams with ease. GoCD’s Value Stream Map lets you track a change from commit to deploy at a glance. 
+    Say goodbye to deployment panic and hello to consistent, predictable deliveries. Enterprise add-ons and professional support available from ThoughtWorks.
