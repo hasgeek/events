@@ -480,6 +480,7 @@ mysql:
     MySQL Enterprise Edition is a commercial offering comprised of the MySQL database with security, encryption, auditing, high availability and scalability extensions, online backup, monitoring, management, and visual database design and SQL development tools. MySQL Enterprise Edition is backed by Oracle Premier support for organisations delivering highly available, business critical applications and services.
     Oracle MySQL Cloud Service delivers a secure, cost-effective and enterprise-grade MySQL database service. Built on MySQL Enterprise Edition and powered by the Oracle Cloud, it provides a simple, automated, integrated and enterprise ready MySQL cloud service, enabling organisations to increase business agility and reduce costs.
     Oracle drives MySQL innovation, constantly improving MySQL solutions and delivering new capabilities to power next generation web, cloud, mobile and embedded applications.
+
 trustingsocial:
   title: "Trusting Social"
   logo_url: https://images.hasgeek.com/embed/file/b8cf4d930b3c4b3ea2db77ee511bdbd9
@@ -496,3 +497,11 @@ circles.life:
   url: https://circles.life
   display_url: https://circles.life
   blurb: |
+
+geekyants:
+  title: "GeekyAnts"
+  logo_url: https://images.hasgeek.com/embed/file/c8678cdc1a3548f0bd0164e2c33e007e
+  url: https://geekyants.com
+  display_url: https://geekyants.com
+  blurb: |
+    GeekyAnts is a product studio with a colony of expert developers that are always excited to create crazy apps. If you haven't heard about us then you probably know our products such as NativeBase and BuilderX. NativeBase is an open source UI components library and BuilderX is our new design tool that can write React Native code for you! We have developers skilled in technologies such as React, React Native, Angular 1.x/2/4, Laravel, NodeJS and many more! What sets us apart from others is that we are always ready to take up new challenges and try out new things in order to achieve our goals. We were one of the first to experiment with Google's Flutter.
