@@ -8,9 +8,6 @@ start_time: 2018-03-17
 end_time: 2018-03-17
 description: "A conference on React, alternatives to React, React Native and front-end engineering."
 boxoffice_item_collection: "40478e84-e34a-4a25-8743-fee4ba1afcaa"
-funnel:
-  url: "https://reactfoo.talkfunnel.com/2018-hyd/"
-  open: true
 overview:
   left_content: |
     After successful editions in Bangalore and Pune, ReactFoo travels to Hyderabad. The Hyderabad edition will focus on the following topics:
