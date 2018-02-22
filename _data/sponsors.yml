@@ -509,8 +509,8 @@ geekyants:
 twgocd:
   title: "GoCD"
   logo_url: https://images.hasgeek.com/embed/file/541e2da8fdc247d2ac0f65cb7662f0d9
-  url: https://www.thoughtworks.com/go/
-  display_url: www.thoughtworks.com/go/
+  url: https://www.gocd.org/
+  display_url: www.gocd.org/
   blurb: |
     GoCD is an on-premise, open source, continuous delivery tool to help you get better visibility into and control of your teams’ deployments. 
     With GoCD’s comprehensive pipeline modeling, you can model complex workflows for multiple teams with ease. GoCD’s Value Stream Map lets you track a change from commit to deploy at a glance. 
