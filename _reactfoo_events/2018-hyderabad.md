@@ -15,7 +15,8 @@ schedule:
 boxoffice_item_collection: "40478e84-e34a-4a25-8743-fee4ba1afcaa"
 funnel:
   url: "https://reactfoo.talkfunnel.com/2018-hyd/"
-  open: true
+  open: false
+  
 overview:
   left_content: |
     After successful editions in Bangalore and Pune, ReactFoo travels to Hyderabad. The Hyderabad edition will focus on the following topics:
