@@ -2,7 +2,7 @@
 layout: event
 title: "ReactFoo Hyderabad"
 subtitle: "On React, alternatives to React, React Native and front-end engineering."
-datelocation: "17 March 2018, Venue TBA, Hyderabad"
+datelocation: "17 March 2018, T-Hub Building, Hyderabad"
 city: Hyderabad
 start_time: 2018-03-17
 end_time: 2018-03-17
@@ -11,6 +11,14 @@ schedule:
   url: "https://reactfoo.talkfunnel.com/2018-hyd/schedule"
   json_url: "https://reactfoo.talkfunnel.com/2018-hyd/schedule/json"
   type: "conference"
+
+venue:
+  label: T-Hub Building, Hyderabad
+  address: |
+    T-Hub Building, IIIT-H Campus, Gachibowli, Hyderabad, Telangana 500032
+  lat: 17.445659
+  lng: 78.348779
+  google_maps_url: https://goo.gl/maps/FX3e2EaepUo
 
 boxoffice_item_collection: "40478e84-e34a-4a25-8743-fee4ba1afcaa"
 funnel:
