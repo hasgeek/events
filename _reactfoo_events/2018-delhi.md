@@ -3,7 +3,7 @@ layout: event
 title: "ReactFoo Delhi"
 subtitle: "On React, alternatives to React, React Native and front-end engineering."
 datelocation: "18 August 2018, Venue TBA, Delhi"
-city: Delhi
+city: Delhi/NCR
 start_time: 2018-08-18
 end_time: 2018-08-18
 description: "A conference on React, alternatives to React, React Native and front-end engineering."
