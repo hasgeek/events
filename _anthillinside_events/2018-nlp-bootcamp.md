@@ -16,15 +16,15 @@ instructors:
     url: https://www.linkedin.com/in/anuj-gupta-15585792/
     label: Linkedin
   bio: |
-    **Anuj Gupta** is a senior ML researcher at Freshdesk; working in the area NLP, Machine Learning, Deep learning. Earlier he was heading ML efforts at Airwoot(Now acquired by Freshdesk). He dropped out of Phd in ML to work with startups. He graduated from IIIT H with specialization in theoretical comp science. He has given tech talks at prestigious forums like PyData DC, The Fifth Elephant, ICDCN, PODC, IIT Delhi, IIIT Hyderabad and special interest groups like DLBLR.
+    **Anuj** is a seasoned ML researcher; working in the area NLP, Machine Learning, Deep learning. Currently he is heading ML/DL efforts for Huawei India R&D. Prior to this he was heading ML efforts at Freshworks and Airwoot(Now acquired by Freshdesk). He dropped out of Phd in ML to work with startups. He graduated from IIIT H with specialization in theoretical comp science. He has authored a bunch of research publications and patents. He is a regular speaker at prestigious forums like PyData, Anthill, The Fifth Elephant, NVidia Dev conf, conferences in distributed algorithms. He is also co-organizer of special interest groups like DLBLR. You can find more about him on [Linkedin](https://www.linkedin.com/in/anuj-gupta-15585792/).
 - name: Satyam Saxena
-  byline: ML researcher at Freshdesk
+  byline: Applied Scientist - Machine Learning, Amazon
   image_url: https://images.hasgeek.com/embed/file/4727b3dd37aa4880a7d87f03056f7727
   website:
     url: https://www.linkedin.com/in/sam-iitj/
     label: Linkedin
   bio: |
-    **Satyam Saxena** is a ML researcher at Freshdesk. An IIT alumnus, his interest lie in NLP, Machine Learning, Deep Learning. Prior to this, he was a part of ML group Cisco. He was a visiting researcher at Vision Labs in IIIT Hyd where he used computer vision and deep learning to build applications to assisting visually impaired people. He presented some of this work at ICAT 2014, Turkey.
+    **Satyam** is a ML scientist working in the area of Deep learning, NLP and Machine Learning. Currently, he is leading various efforts in the area of machine learning and analytics at Amazon. Prior to this he was a ML researcher at Freshdesk, before which he was also part of the core ML group at Cisco Security. He was also a visiting researcher at Vision Labs in IIIT Hyd where he used computer vision and deep learning to build applications to assisting visually impaired people. He presented some of this work at ICAT 2014, Turkey.
 overview:
   left_content: |
     Think of your favorite NLP application that you wish to build - sentiment analysis, named entity recognition, machine translation, information extraction, summarization, recommender system, to name a few. A key step towards achieving any of the above task is - using the right set of techniques to represent text in a form that machine can easily understand.
