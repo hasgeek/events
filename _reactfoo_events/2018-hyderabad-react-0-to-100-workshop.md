@@ -2,19 +2,19 @@
 layout: workshop
 title: "Workshop: React 0 to 100 in a day"
 subtitle: "Learn React and start implementing reusable, interactive and stateful UI components"
-datelocation: "18 March 2018, T-Hub, Hyderabad"
+datelocation: "18 March 2018, 91springboard, Hyderabad"
 city: Hyderabad
 start_time: 2018-03-18
 end_time: 2018-03-18
 description: "This workshop starts with understanding the basic internals of React before exploring how to \"think in React\", best practices and solutions to real problems that you will experience while building an application."
 boxoffice_item_collection: "c1c9be83-866c-4a21-9757-722df42d9534"
 venue:
-  label: T-Hub Building, Hyderabad
+  label: 91springboard, Hyderabad
   address: |
-    T-Hub Building, IIIT-H Campus, Gachibowli, Hyderabad, Telangana 500032
-  lat: 17.445659
-  lng: 78.348779
-  google_maps_url: https://goo.gl/maps/FX3e2EaepUo
+    Plot no. 44, Kavuri Hills, Phase 1, Behind Hotel Jubilee Ridge, Hyderabad, Telangana 500033
+  lat: 17.4407097
+  lng: 78.398325
+  google_maps_url: https://goo.gl/maps/8NF98rCCxRq
 instructors:
 - name: Siddharth Kshetrapal
   image_url: https://images.hasgeek.com/embed/file/7fe30292d3124a719f7cf163c1fff962
