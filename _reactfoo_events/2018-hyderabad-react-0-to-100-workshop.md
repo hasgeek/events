@@ -8,6 +8,13 @@ start_time: 2018-03-18
 end_time: 2018-03-18
 description: "This workshop starts with understanding the basic internals of React before exploring how to \"think in React\", best practices and solutions to real problems that you will experience while building an application."
 boxoffice_item_collection: "c1c9be83-866c-4a21-9757-722df42d9534"
+venue:
+  label: T-Hub Building, Hyderabad
+  address: |
+    T-Hub Building, IIIT-H Campus, Gachibowli, Hyderabad, Telangana 500032
+  lat: 17.445659
+  lng: 78.348779
+  google_maps_url: https://goo.gl/maps/FX3e2EaepUo
 instructors:
 - name: Siddharth Kshetrapal
   image_url: https://images.hasgeek.com/embed/file/7fe30292d3124a719f7cf163c1fff962
