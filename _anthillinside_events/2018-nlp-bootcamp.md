@@ -10,13 +10,13 @@ description: "Learn and implement an end-to-end deep learning models for natural
 boxoffice_item_collection: '761d606f-7c46-4926-b920-1386824de2e7'
 instructors:
 - name: Anuj Gupta
-  byline: ML researcher at Freshdesk
+  byline: Director - Machine Learning, Huawei Technologies
   image_url: https://images.hasgeek.com/embed/file/a524455ee6b34301aaaa4faa31a2564a
   website:
     url: https://www.linkedin.com/in/anuj-gupta-15585792/
     label: Linkedin
   bio: |
-    **Anuj** is a seasoned ML researcher; working in the area NLP, Machine Learning, Deep learning. Currently he is heading ML/DL efforts for Huawei India R&D. Prior to this he was heading ML efforts at Freshworks and Airwoot(Now acquired by Freshdesk). He dropped out of Phd in ML to work with startups. He graduated from IIIT H with specialization in theoretical comp science. He has authored a bunch of research publications and patents. He is a regular speaker at prestigious forums like PyData, Anthill, The Fifth Elephant, NVidia Dev conf, conferences in distributed algorithms. He is also co-organizer of special interest groups like DLBLR. You can find more about him on [Linkedin](https://www.linkedin.com/in/anuj-gupta-15585792/).
+    **Anuj** is a seasoned ML researcher; working in the area NLP, Machine Learning, Deep learning. Currently he is heading ML/DL efforts for Huawei India R&D. Prior to this he was heading ML efforts at Freshworks and Airwoot(Now acquired by Freshdesk). He dropped out of Phd in ML to work with startups. He graduated from IIIT H with specialization in theoretical comp science. He has authored a bunch of research publications and patents. He is a regular speaker at prestigious forums like PyData, Anthill, The Fifth Elephant, NVidia Dev conf, conferences in distributed algorithms. He is also co-organizer of special interest groups like DLBLR.
 - name: Satyam Saxena
   byline: Applied Scientist - Machine Learning, Amazon
   image_url: https://images.hasgeek.com/embed/file/4727b3dd37aa4880a7d87f03056f7727
