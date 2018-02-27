@@ -256,3 +256,23 @@
   funnel: https://reactfoo.talkfunnel.com/2018-hyd/
   url: https://reactfoo.in/2018-hyderabad/
   blurb: A conference on the lessons learned while implememting React and React Native.
+
+- name: reactfoo-mumbai
+  title: ReactFoo Mumbai
+  city: Mumbai
+  venue: To be announced
+  start_time: 2018-05-26
+  end_time: 2018-05-26
+  funnel: https://reactfoo.talkfunnel.com/2018-mumbai/
+  url: https://reactfoo.in/2018-mumbai/
+  blurb: A conference on the lessons learned while implememting React and React Native.
+
+- name: reactfoo-delhi
+  title: ReactFoo Delhi
+  city: Delhi/NCR
+  venue: To be announced
+  start_time: 2018-08-18
+  end_time: 2018-08-18
+  funnel: https://reactfoo.talkfunnel.com/2018-delhi/
+  url: https://reactfoo.in/2018-delhi/
+  blurb: A conference on the lessons learned while implememting React and React Native.
