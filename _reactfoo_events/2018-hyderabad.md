@@ -69,4 +69,9 @@ sponsor:
     sponsors:
     - hasura
 
+  - title: "Venue Partner"
+    size: "m"
+    sponsors:
+    - t-hub
+
 ---
