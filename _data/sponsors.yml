@@ -515,3 +515,12 @@ twgocd:
     GoCD is an on-premise, open source, continuous delivery tool to help you get better visibility into and control of your teams’ deployments. 
     With GoCD’s comprehensive pipeline modeling, you can model complex workflows for multiple teams with ease. GoCD’s Value Stream Map lets you track a change from commit to deploy at a glance. 
     Say goodbye to deployment panic and hello to consistent, predictable deliveries. Enterprise add-ons and professional support available from ThoughtWorks.
+
+t-hub:
+  title: "T-Hub"
+  logo_url: https://images.hasgeek.com/embed/file/91c1b600b908419a9e34112e332ce649
+  url: https://t-hub.co/
+  display_url: www.t-hub.co/
+  blurb: |
+    T-Hub is a unique public/private partnership between the government of Telangana, 3 of India’s premier academic institutes (IIIT-H, ISB & NALSAR) and key private sector leaders. 
+    It stands at the intersection of the start-up, academic, corporate, research and government sectors.
