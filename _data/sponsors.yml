@@ -524,3 +524,14 @@ t-hub:
   blurb: |
     T-Hub is a unique public/private partnership between the government of Telangana, 3 of India’s premier academic institutes (IIIT-H, ISB & NALSAR) and key private sector leaders. 
     It stands at the intersection of the start-up, academic, corporate, research and government sectors.
+
+myjs-hyd:
+  title: "MyJS"
+  logo_url: https://images.hasgeek.com/embed/file/4969ccab8a95446682607bd50e28ff93
+  url: https://www.myjs.in/
+  display_url: www.myjs.in
+  blurb: |
+     A community is like a ship; everyone ought to be prepared to take the helm.
+     Hyderabad MEAN Stack & LoopBack Developers is India's one of the leading communities for JS Geeks. 
+     Today the community is developing in Hyderabad and later the community shall extend beyond this city. 
+     We're a forward looking community to explore and strengthen JS ecosystem. We explore multiple technologies surrounding Javascript.
