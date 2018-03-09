@@ -7,7 +7,7 @@ city: Hyderabad
 start_time: 2018-03-18
 end_time: 2018-03-18
 description: "This workshop starts with understanding the basic internals of React before exploring how to \"think in React\", best practices and solutions to real problems that you will experience while building an application."
-boxoffice_item_collection: "c1c9be83-866c-4a21-9757-722df42d9534"
+boxoffice_item_collection: "40478e84-e34a-4a25-8743-fee4ba1afcaa"
 venue:
   label: 91springboard, Hyderabad
   address: |
