@@ -13,12 +13,6 @@ script:
 - behave tests/after_build
 - echo "If the build fails, scroll up to look for failed test cases"
 deploy:
-- provider: pages
-  skip_cleanup: false
-  github_token: "$GITHUB_TOKEN"
-  target_branch: gh-pages
-  on:
-    branch: master
 - provider: script
   script: deploy/deploy.sh fragments
   skip_cleanup: true
@@ -59,6 +53,12 @@ deploy:
   skip_cleanup: true
   on:
     branch: master
+#- provider: pages
+#  skip_cleanup: false
+#  github_token: "$GITHUB_TOKEN"
+#  target_branch: gh-pages
+#  on:
+#    branch: master
 addons:
   ssh_known_hosts: e2e.hasgeek.com
 notifications:
