@@ -2,10 +2,10 @@
 layout: workshop
 title: "Workshop: GraphQL & Apollo"
 subtitle: "Learn how to build apps with React, GraphQL and Apollo."
-datelocation: "March 2018, Hyderabad"
+datelocation: "April 2018, Hyderabad"
 city: Hyderabad
-start_time: 2018-03-18
-end_time: 2018-03-18
+start_time: 2018-04-18
+end_time: 2018-04-18
 description: "In this workshop, you will learn how to build apps with React, GraphQL and Apollo. Various concepts of GraphQL and Apollo will be covered while building a simple e-commerce app."
 boxoffice_item_collection: "5ec34786-b26e-4358-9a3b-b96e359979dc"
 
