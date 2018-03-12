@@ -70,8 +70,14 @@ sponsor:
     - hasura
 
   - title: "Venue Partner"
-    size: "m"
+    size: "l"
     sponsors:
     - t-hub
+    
+  - title: "Community Partner"
+    size: "l"
+    sponsors:
+    - myjs-hyd
+
 
 ---
