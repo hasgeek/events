@@ -665,3 +665,13 @@
   end_time: 2018-03-11 13:00
   url: https://www.meetup.com/Girls-Who-Javascript/events/248084970/
   blurb: A meetup for women who write JavaScript (or who want to learn JavaScript). Come discuss your work, interests, and ideas!
+
+- name: graphql-appolo-workshop-blr
+  title: "Workshop: GraphQL & Apollo"
+  city: Bangalore
+  venue: HasGeek House, Bengaluru
+  start_time: 2018-03-25 09:00
+  end_time: 2018-03-25 13:00
+  url: https://reactfoo.in/2018-graphql-apollo-workshop-blr/
+  blurb: Learn how to build apps with React, GraphQL and Apollo.
+  
