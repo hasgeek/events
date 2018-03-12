@@ -79,5 +79,9 @@ sponsor:
     sponsors:
     - myjs-hyd
 
+  - title: "Community Partner"
+    size: "l"
+    sponsors:
+    - startuphyd
 
 ---
