@@ -675,3 +675,11 @@
   url: https://reactfoo.in/2018-graphql-apollo-workshop-blr/
   blurb: Learn how to build apps with React, GraphQL and Apollo.
   
+- name: 2018-selenium-conf-india
+  title: "Selenium Conference India 2018"
+  city: Bangalore
+  venue: Lalit Ashok, High Grounds, Bengaluru 
+  start_time: 2018-06-28 9:00
+  end_time: 2018-06-30 17:30
+  url: https://2018.seleniumconf.in/
+  blurb: A conference that brings together Selenium developers & enthusiasts from around the world to share ideas, socialize, and work together on advancing the present and future of Selenium. The Call for proposals are closing soon.
