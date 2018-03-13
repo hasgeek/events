@@ -78,6 +78,6 @@ sponsor:
     size: "l"
     sponsors:
     - myjs-hyd
-
+    - startuphyd
 
 ---
