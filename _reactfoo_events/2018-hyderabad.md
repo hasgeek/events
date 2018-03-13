@@ -79,12 +79,6 @@ sponsor:
     sponsors:
     - myjs-hyd
     - startuphyd
-
-  - title: "Community Partner"
-    size: "l"
-    sponsors:
-    - myjs-hyd
-    - startuphyd
     - 91springboard
 
 ---
