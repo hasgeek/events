@@ -63,6 +63,7 @@ sponsor:
     size: "l"
     sponsors:
     - bigbinary
+    - joveo
     
   - title: "Developer Evangelism Sponsor"
     size: "l"
