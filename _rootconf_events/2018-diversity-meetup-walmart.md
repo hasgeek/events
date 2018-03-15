@@ -36,9 +36,9 @@ overview:
      2. Authority is distributed across men, women and persons of non-binary genders rather than being concentrated in one gender.
      3. Workplaces are safe because individuals can approach authorities and management on sensitive matters without fear of being ridiculed. 
 
-     If these issues interest you, join us for an event on diversity @WalmartLabs, on 7 April 2018.
+      If these issues interest you, join us for an event on diversity @WalmartLabs, on 7 April 2018.
      
-The event is divided into two segments:
+      The event is divided into two segments:
       1. Leena SN and Pooja Shah will talk about how they got involved in developer communities, and started speaking about their work in different forums including conferences, meetups, on Twitter and blogs. By narrating these journeys, Leena and Pooja will outline how their authority has evolved – in the community and at their workplaces – and the impact this has made on their psychological and professional lives. Zainab Bawa, CEO of HasGeek, will conduct a chat with them after their presentations, along with audience participation.      
       2. In the second part of the event, we will have a presentation on how to make workplaces psychologically safe for women and persons of non-binary genders. The speaker for this session is to be confirmed.
 
