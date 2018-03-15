@@ -2,10 +2,10 @@
 layout: workshop
 title: "Inclusiveness and diversity meetup, @WalmartLabs"
 subtitle: "Giving voice to our work; making work spaces safe and inclusive."
-datelocation: "07 April 2018, 11 AM - 12-45 PM followed by Lunch, @WalmartLabs, Bangalore"
+datelocation: "07 April 2018, 11:00 AM-12:45 PM followed by lunch, @WalmartLabs, Bangalore"
 city: Bangalore
-start_time: 2017-04-07
-end_time: 2017-04-07
+start_time: 2018-04-07
+end_time: 2018-04-07
 description: "Giving voice to our work; making work spaces safe and inclusive."
 venue:
   label: WalmartLabs, Bangalore
@@ -40,18 +40,13 @@ overview:
 
   right_content: |
       The event is divided into two segments:
-      i) Leena SN and Pooja Shah will talk about how they got involved in developer communities, and started speaking about their work in different forums including conferences, meetups, on Twitter and blogs. 
-      By narrating these journeys, Leena and Pooja will outline how their authority has evolved – in the community and at their workplaces – and the impact this has made on their psychological and professional lives. 
-      Zainab Bawa, CEO of HasGeek, will conduct a chat with them after their presentations, along with audience participation.
+      1. Leena SN and Pooja Shah will talk about how they got involved in developer communities, and started speaking about their work in different forums including conferences, meetups, on Twitter and blogs. By narrating these journeys, Leena and Pooja will outline how their authority has evolved – in the community and at their workplaces – and the impact this has made on their psychological and professional lives. Zainab Bawa, CEO of HasGeek, will conduct a chat with them after their presentations, along with audience participation.      
+      2. In the second part of the event, we will have a presentation on how to make workplaces psychologically safe for women and persons of non-binary genders. The speaker for this session is to be confirmed.
       
-      ii) In the second part of the event, we will have a presentation on how to make workplaces psychologically safe for women and persons of non-binary genders. The speaker for this session is to be confirmed.  
-     
 sponsor:
-  blurb: |
-
+  sponsors:
+  - title: "Sponsored By"
+    size: "l"
     sponsors:
-    - title: "Sponsored By"
-      size: "l"
-      sponsors:
-      - walmartlabs     
+    - walmartlabs     
 ---
