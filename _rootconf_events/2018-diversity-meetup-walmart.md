@@ -44,6 +44,10 @@ overview:
       2. In the second part of the event, we will have a presentation on how to make workplaces psychologically safe for women and persons of non-binary genders. The speaker for this session is to be confirmed.
       
 sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, sales and hiring.
+
+    Write to us for the sponsorship deck or for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
   sponsors:
   - title: "Sponsored By"
     size: "l"
