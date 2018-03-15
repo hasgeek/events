@@ -81,5 +81,6 @@ sponsor:
     - myjs-hyd
     - startuphyd
     - 91springboard
+    - soal
 
 ---
