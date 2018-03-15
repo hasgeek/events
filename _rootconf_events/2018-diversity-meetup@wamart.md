@@ -40,12 +40,11 @@ overview:
 
   right_content: |
       The event is divided into two segments:
-
       i) Leena SN and Pooja Shah will talk about how they got involved in developer communities, and started speaking about their work in different forums including conferences, meetups, on Twitter and blogs. 
-         By narrating these journeys, Leena and Pooja will outline how their authority has evolved – in the community and at their workplaces – and the impact this has made on their psychological and professional lives. 
-         Zainab Bawa, CEO of HasGeek, will conduct a chat with them after their presentations, along with audience participation.
-         
-     ii) In the second part of the event, we will have a presentation on how to make workplaces psychologically safe for women and persons of non-binary genders. The speaker for this session is to be confirmed.  
+      By narrating these journeys, Leena and Pooja will outline how their authority has evolved – in the community and at their workplaces – and the impact this has made on their psychological and professional lives. 
+      Zainab Bawa, CEO of HasGeek, will conduct a chat with them after their presentations, along with audience participation.
+      
+      ii) In the second part of the event, we will have a presentation on how to make workplaces psychologically safe for women and persons of non-binary genders. The speaker for this session is to be confirmed.  
      
 sponsor:
   blurb: |
