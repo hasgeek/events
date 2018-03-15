@@ -45,6 +45,10 @@ overview:
     **5:30 - 7:00 Lecture by Zooko Wilcox followed by Q&A**
 
 sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, sales and hiring.
+
+    Write to us for the sponsorship deck or for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
   sponsors:
   - title: "Community Sponsor"
     size: "l"
