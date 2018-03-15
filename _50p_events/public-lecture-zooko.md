@@ -44,9 +44,11 @@ overview:
 
     **5:30 - 7:00 Lecture by Zooko Wilcox followed by Q&A**
 
-sponsors:
+sponsor:
+  sponsors:
   - title: "Community Sponsor"
     size: "l"
     sponsors:
     - sequoia
+
 ---
