@@ -25,14 +25,14 @@ venue:
 announcements:
 - title: Take the 50p survey!
   text: |
-    Did you attend 50p in 2017? Interested in attending this edition? Confused by all the payments conferences? [Help improve 50p](https://goo.gl/forms/rYcnQGvvFVXvHeTx1)
+    Did you attend 50p in 2018? Interested in attending this edition? Confused by all the payments conferences? [Help improve 50p](https://goo.gl/forms/rYcnQGvvFVXvHeTx1)
 - title: Submit a flash talk!
   text: |
     Want to present your work at the lecture? We have slots for 5 min flash talks at the event. Flash talks need to be technical and cannot contain any marketing or hiring pitches. [Submit here](https://goo.gl/forms/2h7UvbHBYLNnDHq82)
 
 overview:
   left_content: |
-      Blockchain and cryptocurrenices promise a future of decentralization, but privacy remains a question. Popular cryptocurrencies are not as secure or private as you think. Come, learn about the importance of privacy and decentralisation of cryptocurrencies, and on the journey of Zcash.
+      Blockchain and cryptocurrencies promise a future of decentralization, but privacy remains a question. Popular cryptocurrencies are not as secure or private as you think. Come, learn about the importance of privacy and decentralisation of cryptocurrencies, and on the journey of Zcash.
       
       Zooko has more than 20 years of experience in open, decentralized systems, cryptography and information security, and startups. He is recognized for his work on DigiCash, Mojo Nation, ZRTP, “Zooko's Triangle”, Tahoe-LAFS, BLAKE2, and SPHINCS. He is also the Founder of Least Authority. He sometimes blogs about health science. He tweets a lot.
   right_content: |
