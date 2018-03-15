@@ -683,3 +683,12 @@
   end_time: 2018-06-30 17:30
   url: https://2018.seleniumconf.in/
   blurb: A conference that brings together Selenium developers & enthusiasts from around the world to share ideas, socialize, and work together on advancing the present and future of Selenium. The Call for proposals are closing soon.
+
+- name: public-lecture-zooko
+  title: "Public lecture by Zooko Wilcox"
+  city: Bangalore
+  venue: Mother Tekla Auditorium, Bangalore
+  start_time: 2018-03-28 17:00
+  end_time: 2018-03-28 19:00
+  url: https://50p.in/public-lecture-zooko/
+  blurb: A talk on cryptocurrencies, blockchain and the importance of privacy.
