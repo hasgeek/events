@@ -1,3 +1,12 @@
+- name: Open Tech Hackathon
+  title: Open Tech Hackathon Mumbai
+  city:  Mumbai
+  venue: Bitstreet
+  start_time: 2018-03-17 09:00
+  end_time: 2018-03-18 15:00
+  url: https://www.hackerbay.co/h/opentech
+  blurb: Hiring for 50 open positions at BITSTREET, the goal of the hackathon is to solve problems faced by the BITSTREET using the available technologies and the winners get on spot offer letter from BITSTREET.
+
 - name: Hacktoberfest
   title: Chennai Hacktoberfest
   city:  Chennai
