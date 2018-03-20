@@ -14,6 +14,11 @@ logo:
 
 boxoffice_item_collection: "08c6e340-9b28-40b2-9156-6e7718e6164d"
 
+featured_speakers:
+- name: Zooko Wilcox
+  designation: Founder and CEO, Zcash
+  image_url: https://images.hasgeek.com/embed/file/6e1cc33bdb0e4fdeb863df6c4619ee51?size=640x480
+
 venue:
   label: Mother Tekla Auditorium
   lat: 12.969374
