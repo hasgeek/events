@@ -702,3 +702,12 @@
   url: https://rootconf.in/2018-diversity-meetup-walmart/
   blurb: Giving voice to our work; making work spaces safe and inclusive.  
   
+- name: Koffee-with-Kubernetes@Hasura
+  title: "Meetup: Koffee with Kubernetes"
+  city: Bangalore
+  venue: Hasura Technologies, Bangalore
+  start_time: 2018-03-22 18:00
+  end_time: 2018-03-22 20:00
+  url: https://www.meetup.com/Kubernetes-for-Application-Developers/
+  blurb: Demos, talks and discussions for application developers running or planning to run Kubernetes in production. Come and learn, explore different use cases, show off your k8s pipeline, discuss the problems you're facing or help the rest of the community!
+
