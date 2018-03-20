@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: GraphQL & Apollo"
 subtitle: "Learn how to build apps with React, GraphQL and Apollo."
-datelocation: "7 April 2018, Bangalore"
+datelocation: "9:00 AM to 1:00 PM, 7 April 2018, Bangalore"
 city: Hyderabad
 start_time: 2018-04-07
 end_time: 2018-04-07
