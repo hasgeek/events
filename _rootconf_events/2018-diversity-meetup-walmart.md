@@ -27,7 +27,7 @@ speakers:
   byline: Lead Automation Engineer, MoEngage
   image_url: https://images.hasgeek.com/embed/file/7cc1cc3d575043c2ae2edfdb6b9aca39
   bio: |
-    Pooja is an open source enthusiast and has been speaking at conferences worldwide. She spoke about the “Alice the Bot”created for improving alert management at Rootconf 2017: http://hsgk.in/2DqMzRk.
+    Pooja is an open source enthusiast and has been speaking at conferences worldwide. She spoke about the “Alice the Bot” created for improving alert management at Rootconf 2017: http://hsgk.in/2DqMzRk.
 
 overview:
   left_content: |
