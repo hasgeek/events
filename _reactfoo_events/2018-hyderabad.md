@@ -19,8 +19,6 @@ venue:
   lat: 17.445659
   lng: 78.348779
   google_maps_url: https://goo.gl/maps/FX3e2EaepUo
-
-boxoffice_item_collection: "40478e84-e34a-4a25-8743-fee4ba1afcaa"
 funnel:
   url: "https://reactfoo.talkfunnel.com/2018-hyd/"
   open: false
