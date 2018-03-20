@@ -96,12 +96,13 @@
 - name: cmsconf-2018
   title: ^CMS CONF 2018
   city: Pune
-  venue: The Westin Pune Koregaon Park
-  google_maps_pin: https://goo.gl/maps/9ZxZfpH1do72
+  venue: MCCIA, ICC Trade Tower, Pune
+  google_maps_pin: https://goo.gl/maps/Ufz6NCHKe9x
   start_time: 2018-03-23
   end_time: 2018-03-23
   funnel: https://poweredbycms.in/
-  blurb: A conference centered around the practice of Content Management Systems presented by AmiWorks & HasGeek.
+  url: https://poweredbycms.in/tickets/
+  blurb: A conference centered around the practice of Content Management Systems presented by AmiWorks & In association with HasGeek.
   color:
     primary: "#b22e40"
     primary_dark: "#921b3f"
