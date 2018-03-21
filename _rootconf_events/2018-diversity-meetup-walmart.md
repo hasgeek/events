@@ -18,7 +18,7 @@ venue:
 
 speakers:
 - name: "Leena S N"
-  byline: CTO & Programmer at Good Karma
+  byline: CTO/Programmer at Good Karma
   image_url: https://images.hasgeek.com/embed/file/52c168027aa14ae88bbb885aba40f745
   bio: |
     Leena is a pragmatic and passionate programmer, lean thinker, eXtreme Programming evangelist, hooked into Continuous Delivery, Leena is mother of two lovely angels.
