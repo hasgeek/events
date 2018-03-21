@@ -1,3 +1,12 @@
+- name: DevHack 2018
+  title: DevHack 2018: A hackathon by Axis Bank
+  city:  Bangalore
+  venue: Online
+  start_time: 2018-03-12 09:00
+  end_time: 2018-03-31 23:59
+  url: https://www.axisbank.com/thoughtfactory/hackathon.html
+  blurb: Build brilliant solutions for #Bankingtech sector at #DevHack2018 ,the one-of-its-kind hackathon by Thought Factory & Zone Startups & takeaway cash prizes, PoC opportunities and much more with Axis Bank.\nProblem statements: Live photo detection, Voice Authentication
+
 - name: Hacktoberfest
   title: Chennai Hacktoberfest
   city:  Chennai
