@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Diversity meetup @WalmartLabs"
+title: "Diversity meetup at Walmart Labs"
 subtitle: "Giving voice to our work; making work spaces safe and inclusive."
 datelocation: "07 April 2018, 11:00 AM-12:45 PM followed by lunch, @WalmartLabs, Bangalore"
 city: Bangalore
