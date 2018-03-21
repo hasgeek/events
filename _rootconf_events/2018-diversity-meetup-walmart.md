@@ -37,17 +37,17 @@ speakers:
     
 overview:
   left_content: |
-     Diversity has at least two connotations:
-     1. Individuals of different genders are proportionately visible at workplaces and outside. By visibility, we mean,  that authority is distributed across men, women and persons of non-binary genders rather than being concentrated in one gender.
-     2. Workplaces are safe because individuals can approach authorities and management on sensitive matters without fear of their concerns not being heard.
+    Diversity has at least two connotations:
+    1. Individuals of different genders are proportionately visible at workplaces and outside. By visibility, we mean,  that authority is distributed across men, women and persons of non-binary genders rather than being concentrated in one gender.
+    2. Workplaces are safe because individuals can approach authorities and management on sensitive matters without fear of their concerns not being heard.
      
-If these issues interest you, join us for an event on diversity @WalmartLabs, on 7 April 2018.
+    If these issues interest you, join us for an event on diversity @WalmartLabs, on 7 April 2018.
 
-      The event is divided into two parts:
-      1. Leena SN and Pooja Shah will talk about how they got involved in developer communities, and started speaking about their work in different forums including conferences, meetups, on Twitter and blogs. By narrating these journeys, Leena and Pooja will outline how their authority has evolved – in the community and at their workplaces – and the impact this has made on their psychological and professional lives.
-      At the end of their presentations, we will have a Q&A session involving participants.
+    The event is divided into two parts:
+    1. Leena SN and Pooja Shah will talk about how they got involved in developer communities, and started speaking about their work in different forums including conferences, meetups, on Twitter and blogs. By narrating these journeys, Leena and Pooja will outline how their authority has evolved – in the community and at their workplaces – and the impact this has made on their psychological and professional lives.
+    At the end of their presentations, we will have a Q&A session involving participants.
 
-      2. Seema Singh will talk about the intentions behind NestAway’s policy to hire persons of non-binary gender as part of their workforce. She will speak about how NestAway made this policy part of its charter. Incorporating this policy involved preparation and organizing the team for a pilot. Seema will tell us how the initial steps were planned and executed.
+    2. Seema Singh will talk about the intentions behind NestAway’s policy to hire persons of non-binary gender as part of their workforce. She will speak about how NestAway made this policy part of its charter. Incorporating this policy involved preparation and organizing the team for a pilot. Seema will tell us how the initial steps were planned and executed.
       
   right_content: |
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf19KOzrKrj6m_uUoThubKM4Sl7e9z55-q6sOuWUQ3VgRBZUA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; height:45rem;">Loading...</iframe>
