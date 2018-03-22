@@ -77,7 +77,8 @@ overview:
       - What are the specific ways in which developers or technical folks can contribute to Z-Cash?
       - How can they build applications on top of the protocol?
       - Examples of apps/projects which look promising.
-      - How can entrepreneurs/product owners integrate Z-Cash/zk-snarks. - What are the benefits that this brings?
+      - How can entrepreneurs/product owners integrate Z-Cash/zk-snarks.
+      - What are the benefits that this brings?
     - Critical resources for developers
     - Q&A
 
