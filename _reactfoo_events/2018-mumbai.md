@@ -2,11 +2,19 @@
 layout: event
 title: "ReactFoo Mumbai"
 subtitle: "On React, alternatives to React, React Native and front-end engineering."
-datelocation: "26 May 2018, Venue TBA, Mumbai"
+datelocation: "26 May 2018, ISDI ACE, Mumbai"
 city: Mumbai
 start_time: 2018-05-26
 end_time: 2018-05-26
 description: "A conference on React, alternatives to React, React Native and front-end engineering."
+
+venue:
+  label: ISDI ACE, Dice Districts, Mumbai
+  address: |
+    Dice Districts, Colab Area, 7th Floor, ISDI ACE, Tower 2B, 841, Senapati Bapat Pawar Marg, BDD Chawl, Lower Parel, Mumbai, Maharashtra - 400013.
+  lat: 19.007142
+  lng: 72.833581
+  google_maps_url: https://goo.gl/maps/wds7WB44b3x
 
 boxoffice_item_collection: "066a9093-6995-434c-8cf9-91c3a5769759"
 funnel:
@@ -48,4 +56,10 @@ sponsor:
 
     Download our sponsorship deck or reach out to us for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
   sponsorship_deck_url: 'http://hsgk.in/reactfoo2018sponsor'
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - isdi
+
 ---
