@@ -44,13 +44,23 @@ overview:
       Note: This meetup is for technologists, developers, policymakers and entrepreneurs to understand the vision and utility around Zcash and zk-snarks), and how they can benefit and contribute to the projects. Discussions around ICOs or cryptocurrency valuations will not be allowed.
   
   right_content: |
-    ## AGENDA
+    ## Agenda
 
     **5:00 - 5:20 Flash talks by audience**
 
     **5:20 - 5:30 Networking break**
 
     **5:30 - 7:00 Lecture by Zooko Wilcox followed by Q&A**
+    
+    ## Presentation flow
+    
+    - What are blockchains and why do they matter?
+    - Brief introduction to BTC, the original promise of privacy, and why BTC in practice offers (ever-diminishing) plausible deniability and not in fact true privacy
+    - Approaches to privacy on blockchains leading up to an intro to Zk-snarks/zero knowledge protocols and the genesis of Z-Cash
+    - Z-Cash: a) origins and design, b) technical and adoption achievements to date, c) future roadmap, d) how did you build the community and how does Z-Cash support its developer community on an on-going basis
+    - Coup de Grace: What are the specific ways in which developers or technical folks can contribute to Z-Cash? How can they build applications on top of the protocol? Can you give examples of apps/projects you would like to see fructify? How can entrepreneurs/product owners integrate Z-Cash/zk-snarks. What are the benefits that this brings?
+    - Is there anything that's critical for a developer that is not on github or the website that you would like to share?
+    - Q&A
 
 sponsor:
   blurb: |
@@ -62,5 +72,8 @@ sponsor:
     size: "l"
     sponsors:
     - sequoia
-
+  - title: "Community Partner"
+    size: "l"
+    sponsors:
+    - zenprivex
 ---
