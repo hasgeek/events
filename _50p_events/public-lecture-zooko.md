@@ -16,8 +16,13 @@ boxoffice_item_collection: "08c6e340-9b28-40b2-9156-6e7718e6164d"
 
 featured_speakers:
 - name: Zooko Wilcox
+  talk_title: Blockchain, encryption and Zcash
   designation: Founder and CEO, Zcash
   image_url: https://images.hasgeek.com/embed/file/6e1cc33bdb0e4fdeb863df6c4619ee51?size=640x480
+- name: Opinder Preet Singh
+  talk_title: Future of Crime Reporting using zkSNARKS
+  designation: CEO & CoFounder (ZTips)
+  image_url: https://images.hasgeek.com/embed/file/25f8527e4e26490a9d566c94ee5721da
 
 venue:
   label: Mother Tekla Auditorium
@@ -37,29 +42,43 @@ announcements:
 
 overview:
   left_content: |
-      Blockchain technology and Cryptocurrencies were born out of the financial crisis in 2008 promising a future without banks or intermediaries. Fast forward 10 years and we are looking at an exciting technology which can upend not just banking but can improve the processes around everything that involves a central trusted authority. This technology expects a strong background in engineering, cryptography and also soft skills like behavioural economics. 
-      
+      Blockchain technology and Cryptocurrencies were born out of the financial crisis in 2008 promising a future without banks or intermediaries. Fast forward 10 years and we are looking at an exciting technology which can upend not just banking but can improve the processes around everything that involves a central trusted authority. This technology expects a strong background in engineering, cryptography and also soft skills like behavioural economics.
+
       Come, meet Zooko and talk about blockchain, encryption, permission-less innovation, and freedom. Zooko has more than 20 years of experience in open, decentralized systems, cryptography and information security, and startups. He is recognized for his work on DigiCash, Mojo Nation, ZRTP, “Zooko's Triangle”, Tahoe-LAFS, BLAKE2, and SPHINCS. He is also the Founder of Least Authority. He sometimes blogs about health science. He tweets a lot.
-      
+
       Note: This meetup is for technologists, developers, policymakers and entrepreneurs to understand the vision and utility around Zcash and zk-snarks), and how they can benefit and contribute to the projects. Discussions around ICOs or cryptocurrency valuations will not be allowed.
-  
+
   right_content: |
     ## Agenda
 
-    **5:00 - 5:20 Flash talks by audience**
+    **5:00 - 5:20 Flash talks**
 
     **5:20 - 5:30 Networking break**
 
-    **5:30 - 7:00 Lecture by Zooko Wilcox followed by Q&A**
-    
+    **5:30 - 5:35 Introduction to HasGeek and Zooko by Kiran Jonnalagadda**
+
+    **5:35 - 7:00 Lecture by Zooko Wilcox followed by Q&A**
+
     ## Presentation flow
-    
+
     - What are blockchains and why do they matter?
-    - Brief introduction to BTC, the original promise of privacy, and why BTC in practice offers (ever-diminishing) plausible deniability and not in fact true privacy
-    - Approaches to privacy on blockchains leading up to an intro to Zk-snarks/zero knowledge protocols and the genesis of Z-Cash
-    - Z-Cash: a) origins and design, b) technical and adoption achievements to date, c) future roadmap, d) how did you build the community and how does Z-Cash support its developer community on an on-going basis
-    - Coup de Grace: What are the specific ways in which developers or technical folks can contribute to Z-Cash? How can they build applications on top of the protocol? Can you give examples of apps/projects you would like to see fructify? How can entrepreneurs/product owners integrate Z-Cash/zk-snarks. What are the benefits that this brings?
-    - Is there anything that's critical for a developer that is not on github or the website that you would like to share?
+    - BTC
+      - brief introduction
+      - the original promise of privacy and current implementation
+    - Approaches to privacy on blockchains
+      - intro to Zk-snarks/zero knowledge protocols
+      - genesis of Z-Cash
+    - Z-Cash:
+      - origins and design
+      - technical and adoption achievements to date
+      - future roadmap
+      - community building and supporting developers
+    - Coup de Grace:
+      - What are the specific ways in which developers or technical folks can contribute to Z-Cash?
+      - How can they build applications on top of the protocol?
+      - Examples of apps/projects which look promising.
+      - How can entrepreneurs/product owners integrate Z-Cash/zk-snarks. - What are the benefits that this brings?
+    - Critical resources for developers
     - Q&A
 
 sponsor:
