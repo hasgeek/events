@@ -728,3 +728,12 @@
   end_time: 2018-05-20 17:00
   url: https://anthillinside.in/2018-nlp-bootcamp/
   blurb: Learn and implement an end-to-end deep learning models for natural language processing.
+  
+- name: Gitkube-Webinar@Hasura
+  title: "Open Source Demo: Gitkube - Deploy to Kubernetes using git push"
+  city: Global
+  venue: Online
+  start_time: 2018-03-28 22:00
+  end_time: 2018-03-28 23:00
+  url: https://zoom.us/meeting/register/327b2f6fc966bb3fc5b9141539e44ee6
+  blurb: A live-coding demo using GitKube to build and deploy Docker images to Kubernetes with a simple git push. 
