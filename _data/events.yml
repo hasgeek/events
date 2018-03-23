@@ -715,8 +715,8 @@
   title: "Meetup: Koffee with Kubernetes"
   city: Bangalore
   venue: Hasura Technologies, Bangalore
-  start_time: 2018-03-22 18:00
-  end_time: 2018-03-22 20:00
+  start_time: 2018-03-29 18:00
+  end_time: 2018-03-29 20:00
   url: https://www.meetup.com/Kubernetes-for-Application-Developers/
   blurb: Demos, talks and discussions for application developers running or planning to run Kubernetes in production. Come and learn, explore different use cases, show off your k8s pipeline, discuss the problems you're facing or help the rest of the community!
   
@@ -728,3 +728,13 @@
   end_time: 2018-05-20 17:00
   url: https://anthillinside.in/2018-nlp-bootcamp/
   blurb: Learn and implement an end-to-end deep learning models for natural language processing.
+  
+- name: GitkubeWebinar@Hasura
+  title: "Open Source Demo: Gitkube - Deploy to Kubernetes using git push"
+  city: Bangalore
+  venue: Online
+  start_time: 2018-03-28 22:00
+  end_time: 2018-03-28 23:00
+  url: https://zoom.us/meeting/register/327b2f6fc966bb3fc5b9141539e44ee6
+  blurb: A live-coding demo using GitKube to build and deploy Docker images to Kubernetes with a simple git push. 
+
