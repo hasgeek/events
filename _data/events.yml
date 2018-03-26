@@ -638,7 +638,7 @@
   end_time: 2018-03-11 17:00 
   url: https://fifthelephant.in/2018-mar-dl-bootcamp/
   blurb: Learn theory and practical concepts of building a deep learning solution in the space of computer vision and natural language processing.
-  
+
 - name: vidhi-bengaluru-book-launch
   title: "Vidhi Bengaluru Book Launch on Legal Reforms" 
   city: Bangalore
@@ -656,7 +656,7 @@
   end_time: 2018-02-25 10:00 
   url: https://jsfoo.in/2018-feb-hacknight/
   blurb: Hack on Node.js at HasGeek on 24-25 Feb from 5 pm. Food and snacks on us. Limited seats, sign up now!
-  
+
 - name: symposium-on-computational-gastronomy
   title: "Symposium on Computational Gastronomy"
   city: Delhi/NCR
@@ -665,7 +665,7 @@
   end_time: 2018-03-17 18:30
   url: https://www.iiitd.ac.in/webstory/gastrosym2018
   blurb: A one day Symposium on the emerging theme of Computational Gastronomy - the data science of food, flavors and health. Conducted by the Complex Systems Laboratory, Center for Computational Biology, IIIT-Delhi. Organizer - Dr. Ganesh Bagler.
-  
+
 - name: girls-who-javascript
   title: "Girls Who JavaScript"
   city: Bangalore
@@ -683,7 +683,7 @@
   end_time: 2018-04-07 13:00
   url: https://reactfoo.in/2018-graphql-apollo-workshop-blr/
   blurb: Learn how to build apps with React, GraphQL and Apollo.
-  
+
 - name: 2018-selenium-conf-india
   title: "Selenium Conference India 2018"
   city: Bangalore
@@ -701,7 +701,7 @@
   end_time: 2018-03-28 19:00
   url: https://50p.in/public-lecture-zooko/
   blurb: A talk on cryptocurrencies, blockchain and the importance of privacy.
-  
+
 - name: diversity-meetup-@Walmartlabs
   title: "Inclusiveness and diversity meetup, @WalmartLabs"
   city: Bangalore
@@ -710,13 +710,13 @@
   end_time: 2018-04-07 12:45
   url: https://rootconf.in/2018-diversity-meetup-walmart/
   blurb: Giving voice to our work; making work spaces safe and inclusive.  
-  
+
 - name: Koffee-with-Kubernetes@Hasura
   title: "Meetup: Koffee with Kubernetes"
   city: Bangalore
   venue: Hasura Technologies, Bangalore
-  start_time: 2018-03-22 18:00
-  end_time: 2018-03-22 20:00
+  start_time: 2018-03-29 18:00
+  end_time: 2018-03-29 20:00
   url: https://www.meetup.com/Kubernetes-for-Application-Developers/
   blurb: Demos, talks and discussions for application developers running or planning to run Kubernetes in production. Come and learn, explore different use cases, show off your k8s pipeline, discuss the problems you're facing or help the rest of the community!
   
@@ -728,3 +728,21 @@
   end_time: 2018-05-20 17:00
   url: https://anthillinside.in/2018-nlp-bootcamp/
   blurb: Learn and implement an end-to-end deep learning models for natural language processing.
+  
+- name: GitkubeWebinar@Hasura
+  title: "Open Source Demo: Gitkube - Deploy to Kubernetes using git push"
+  city: Bangalore
+  venue: Online
+  start_time: 2018-03-28 22:00
+  end_time: 2018-03-28 23:00
+  url: https://zoom.us/meeting/register/327b2f6fc966bb3fc5b9141539e44ee6
+  blurb: A live-coding demo using GitKube to build and deploy Docker images to Kubernetes with a simple git push. 
+
+- name: girls-who-javascript
+  title: "Girls Who JavaScript Meetup #6"
+  city: Bangalore
+  venue: Treebo Hotels, Bommanahalli, Bangalore
+  start_time: 2018-05-06 11:00
+  end_time: 2018-05-06 13:00
+  url: https://www.meetup.com/Girls-Who-Javascript/events/248947763/
+  blurb: A meetup for women who write JavaScript (or who want to learn JavaScript). Come discuss your work, interests, and ideas!
