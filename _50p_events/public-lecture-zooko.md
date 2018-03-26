@@ -96,7 +96,7 @@ sponsor:
     size: "l"
     sponsors:
     - zenprivex
-   - title: "Outreach Partner"
+  - title: "Outreach Partner"
     size: "l"
     sponsors:
     - incrypt
