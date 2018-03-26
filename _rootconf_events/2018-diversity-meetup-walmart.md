@@ -31,7 +31,7 @@ speakers:
 
 - name: "Seema Singh"
   byline: Chief Human Resources Officer at NestAway Technologies Pvt Ltd
-  image_url: https://images.hasgeek.com/embed/file/f53c1501c5f44346bd6af7c24fc9e063
+  image_url: https://images.hasgeek.com/embed/file/732c8d57aba64bd4a7ab37ffb03ff6c6
   bio: |
     Seema has earlier worked as vice-president and global head of people operations at InMobi. Prior to InMobi, led HR for Amazon in India.
     
