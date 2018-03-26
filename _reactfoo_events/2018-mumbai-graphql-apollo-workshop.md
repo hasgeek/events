@@ -2,12 +2,12 @@
 layout: workshop
 title: "Workshop: GraphQL & Apollo"
 subtitle: "Learn how to build apps with React, GraphQL and Apollo."
-datelocation: "April 2018, Hyderabad"
-city: Hyderabad
-start_time: 2018-04-18
-end_time: 2018-04-18
+datelocation: "27 May 2018, Mumbai"
+city: Mumbai
+start_time: 2018-05-27
+end_time: 2018-05-27
 description: "In this workshop, you will learn how to build apps with React, GraphQL and Apollo. Various concepts of GraphQL and Apollo will be covered while building a simple e-commerce app."
-boxoffice_item_collection: "5ec34786-b26e-4358-9a3b-b96e359979dc"
+boxoffice_item_collection: "066a9093-6995-434c-8cf9-91c3a5769759"
 
 instructors:
 - name: Kiran Abburi
