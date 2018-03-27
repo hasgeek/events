@@ -27,14 +27,20 @@ venue:
   lng: 77.609869
   google_maps_url: https://goo.gl/maps/GDgyezM1fz12
 
-
 related_events:
-- workshop-machine-learning-with-amazon-sagemaker-delhi
+- name: workshop-machine-learning-with-amazon-sagemaker-delhi
+  title: "Workshop: Machine Learning with Amazon SageMaker - Delhi/NCR"
+  city: Delhi/NCR
+  venue: Amazon Internet Services, Delhi
+  start_time: 2018-04-06 10:00
+  end_time: 2018-04-06 16:15
+  url: https://fifthelephant.in/2018-sagemaker-workshop-delhi/
+  blurb: Building, training and deploying machine learning models efficiently and at scale.
+
 - workshop-machine-learning-with-amazon-sagemaker-mumbai
 - workshop-machine-learning-with-amazon-sagemaker-pune
 - workshop-machine-learning-with-amazon-sagemaker-chennai
 - workshop-machine-learning-with-amazon-sagemaker-hyderbad
-
 
 overview:
   left_content: |
