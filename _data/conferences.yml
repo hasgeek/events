@@ -193,8 +193,8 @@
   city: Bangalore
   venue: NIMHANS Convention Center
   google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
-  start_time: 2018-05-11
-  end_time: 2018-05-12
+  start_time: 2018-05-10
+  end_time: 2018-05-11
   url: https://rootconf.in/2018/
   funnel: https://rootconf.talkfunnel.com/2018/
   blurb: India's principal conference on devops and infrastucture.
