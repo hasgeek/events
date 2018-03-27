@@ -7,7 +7,7 @@ city: Bangalore
 start_time: 2018-04-04
 end_time: 2018-04-04
 description: "Building, training and deploying machine learning models efficiently and at scale"
-boxoffice_item_collection: "0acc1ab4-a1df-4e6c-a361-f7375e6ddc6f"
+boxoffice_item_collection: "eef8cf60-2cd7-4f3d-b567-56af1e5a63da"
 
 instructors:
 - name: Atanu Roy
@@ -58,6 +58,16 @@ overview:
     - Participants should carry own laptop.
     - Participants should be familiar with AI / ML / DL and need to be hands-on practitioners.
 
+sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, sales and hiring.
+
+    Write to us for the sponsorship deck or for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
+  sponsors:
+  - title: "Sponsored By"
+    size: "l"
+    sponsors:
+    - aws     
 
 
 ---
