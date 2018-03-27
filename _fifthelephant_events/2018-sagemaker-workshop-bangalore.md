@@ -16,6 +16,12 @@ instructors:
   bio: |
     **Atanu** is a AI Specialist Solutions Architect at Amazon India.
 
+related_events:
+- workshop-machine-learning-with-amazon-sagemaker-delhi
+- workshop-machine-learning-with-amazon-sagemaker-mumbai
+- workshop-machine-learning-with-amazon-sagemaker-pune
+- workshop-machine-learning-with-amazon-sagemaker-chennai
+- workshop-machine-learning-with-amazon-sagemaker-hyderbad
 
 overview:
   left_content: |
