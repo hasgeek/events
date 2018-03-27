@@ -22,6 +22,12 @@ instructors:
   bio: |
     **Aniruddha** is a Solutions Architect at Amazon India.
 
+related_events:
+- workshop-machine-learning-with-amazon-sagemaker-delhi
+- workshop-machine-learning-with-amazon-sagemaker-blr
+- workshop-machine-learning-with-amazon-sagemaker-pune
+- workshop-machine-learning-with-amazon-sagemaker-chennai
+- workshop-machine-learning-with-amazon-sagemaker-hyderbad
 
 overview:
   left_content: |
@@ -64,6 +70,14 @@ overview:
     - Participants should carry own laptop.
     - Participants should be familiar with AI / ML / DL and need to be hands-on practitioners.
 
+venue:
+  label: Amazon Internet Services Pvt Ltd, Mumbai
+  address: |
+    Amazon Internet Services Pvt Ltd, Ground Floor, Tower A, L&T Business Park, Gate #5, Saki Vihar Road, Mumbai - 400072.
+  lat: 19.124133
+  lng: 72.893294
+  google_maps_url: https://goo.gl/maps/4fVi66Ss5Qy
+  
 sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach, sales and hiring.
