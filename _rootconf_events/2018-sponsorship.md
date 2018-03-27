@@ -2,10 +2,10 @@
 layout: sponsorship
 title: Rootconf 2018 Sponsorships
 subtitle: "India's principal conference on devops and infrastructure"
-datelocation: "11-12 May 2018, Bangalore"
+datelocation: "10-11 May 2018, Bangalore"
 city: Bangalore
-start_time: 2018-05-11
-end_time: 2018-05-12
+start_time: 2018-05-10
+end_time: 2018-05-11
 description: "Rootconf is India’s principal conference where systems and operations engineers share real world knowledge about building reliable systems."
 outreach_item_collection: "0b37a0b6-050d-41c5-8ece-59f9ebee5567"
 highlights:
