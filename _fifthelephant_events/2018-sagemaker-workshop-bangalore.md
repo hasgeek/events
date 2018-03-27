@@ -15,6 +15,7 @@ instructors:
   byline: AI Specialist Solutions Architect
   bio: |
     **Atanu** is a AI Specialist Solutions Architect at Amazon India.
+
     
 venue:
   label: IKP Eden, Bangalore
@@ -25,6 +26,15 @@ venue:
   lat: 12.934072
   lng: 77.609869
   google_maps_url: https://goo.gl/maps/GDgyezM1fz12
+
+
+related_events:
+- workshop-machine-learning-with-amazon-sagemaker-delhi
+- workshop-machine-learning-with-amazon-sagemaker-mumbai
+- workshop-machine-learning-with-amazon-sagemaker-pune
+- workshop-machine-learning-with-amazon-sagemaker-chennai
+- workshop-machine-learning-with-amazon-sagemaker-hyderbad
+
 
 overview:
   left_content: |
