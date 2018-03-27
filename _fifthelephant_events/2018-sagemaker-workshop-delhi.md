@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: Machine Learning with Amazon SageMaker"
 subtitle: "Building, training and deploying machine learning models efficiently and at scale"
-datelocation: "06 April 2018, Amazon Internet Services, Delhi/NCR"
+datelocation: "06 April 2018, Amazon Internet Services Pvt Ltd, Delhi/NCR"
 city: Delhi/NCR
 start_time: 2018-04-06
 end_time: 2018-04-06
@@ -57,6 +57,13 @@ overview:
     - Participants should have an AWS Account with admin privileges in IAM and EC2 limit for P2 instances increased to 2 in AWS Region North Virginia (us-east-1). Check out [this](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html) doc to know more about how to increase EC2 limits. All participants will be provided AWS Credits for the workshop
     - Participants should carry own laptop.
     - Participants should be familiar with AI / ML / DL and need to be hands-on practitioners.
+venue:
+  label: Amazon Internet Services Pvt Ltd, New Delhi
+  address: |
+    Amazon Internet Services Pvt Ltd, 5th Floor, Salcon Ras Vilas, Plot no D1, Near Select City Walk, Saket, New Delhi – 110017.
+  lat: 28.528220
+  lng: 77.219837
+  google_maps_url: https://goo.gl/maps/Tba1qSmsfe82
 
 sponsor:
   blurb: |
