@@ -2,8 +2,8 @@
 layout: workshop
 title: "Workshop: Machine Learning with Amazon SageMaker"
 subtitle: "Building, training and deploying machine learning models efficiently and at scale"
-datelocation: "06 April 2018, Amazon Internet Services, Delhi"
-city: New Delhi
+datelocation: "06 April 2018, Amazon Internet Services, Delhi/NCR"
+city: Delhi/NCR
 start_time: 2018-04-06
 end_time: 2018-04-06
 description: "Building, training and deploying machine learning models efficiently and at scale"
