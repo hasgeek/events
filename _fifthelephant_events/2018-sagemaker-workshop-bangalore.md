@@ -15,7 +15,16 @@ instructors:
   byline: AI Specialist Solutions Architect
   bio: |
     **Atanu** is a AI Specialist Solutions Architect at Amazon India.
-
+    
+venue:
+  label: IKP Eden, Bangalore
+  address: |
+    IKP EDEN, 16, Bhuvanappa Layout, 
+    Tavarekere Main Rd, Kaveri Layout, 
+    Suddagunte Palya, Bengaluru, Karnataka 560029.
+  lat: 12.934072
+  lng: 77.609869
+  google_maps_url: https://goo.gl/maps/GDgyezM1fz12
 
 overview:
   left_content: |
