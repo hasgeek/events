@@ -24,51 +24,12 @@ instructors:
     **Praveen** is a Solutions Architect at Amazon India.
 
 related_events:
-- name: workshop-machine-learning-with-amazon-sagemaker-blr
-  title: "Workshop: Machine Learning with Amazon SageMaker - Bangalore"
-  city: Bangalore
-  venue: IKP Eden, Bangalore
-  start_time: 2018-04-04 10:00
-  end_time: 2018-04-04 16:15
-  url: https://fifthelephant.in/2018-sagemaker-workshop-bangalore/
-  blurb: Building, training and deploying machine learning models efficiently and at scale.
-
-- name: workshop-machine-learning-with-amazon-sagemaker-delhi
-  title: "Workshop: Machine Learning with Amazon SageMaker - Delhi/NCR"
-  city: Delhi/NCR
-  venue: Amazon Internet Services, Delhi
-  start_time: 2018-04-06 10:00
-  end_time: 2018-04-06 16:15
-  url: https://fifthelephant.in/2018-sagemaker-workshop-delhi/
-  blurb: Building, training and deploying machine learning models efficiently and at scale.
-
-- name: workshop-machine-learning-with-amazon-sagemaker-mumbai
-  title: "Workshop: Machine Learning with Amazon SageMaker - Mumbai"
-  city: Mumbai
-  venue: Amazon Internet Services, Mumbai
-  start_time: 2018-04-13 10:00
-  end_time: 2018-04-13 16:15
-  url: https://fifthelephant.in/2018-sagemaker-workshop-mumbai/
-  blurb: Building, training and deploying machine learning models efficiently and at scale. 
-
-- name: workshop-machine-learning-with-amazon-sagemaker-pune
-  title: "Workshop: Machine Learning with Amazon SageMaker - Pune"
-  city: Pune
-  venue: Venue TBA, Pune
-  start_time: 2018-04-20 10:00
-  end_time: 2018-04-20 16:15
-  url: https://fifthelephant.in/2018-sagemaker-workshop-pune/
-  blurb: Building, training and deploying machine learning models efficiently and at scale.
-  
-- name: workshop-machine-learning-with-amazon-sagemaker-hyderabad
-  title: "Workshop: Machine Learning with Amazon SageMaker - Hyderabad"
-  city: Hyderabad
-  venue: Venue TBA, Hyderabad
-  start_time: 2018-05-03 10:00
-  end_time: 2018-05-03 16:15
-  url: https://fifthelephant.in/2018-sagemaker-workshop-hyderabad/
-  blurb: Building, training and deploying machine learning models efficiently and at scale.
-
+- fifthelephant-2018-sagemaker-workshop-bangalore
+- fifthelephant-2018-sagemaker-workshop-delhi
+- fifthelephant-2018-sagemaker-workshop-hyderabad
+- fifthelephant-2018-sagemaker-workshop-mumbai
+- fifthelephant-2018-sagemaker-workshop-pune
+- 
 overview:
   left_content: |
     In this workshop, you will learn how to use Amazon SageMaker to build, train and host machine learning models. Going through a number of Jupyter notebooks, you will first learn how to use built-in algorithms to perform complex tasks like image classification or clustering. Then, trainers will teach you how you can bring your own Tensorflow or Apache MXNet script to train deep learning models. Finally, you will deploy your models to SageMaker-managed infrastructure and use them to predict new samples.
