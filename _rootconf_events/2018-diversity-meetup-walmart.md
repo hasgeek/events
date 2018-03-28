@@ -44,7 +44,7 @@ overview:
     If these issues interest you, join us for an event on diversity @WalmartLabs, on 7 April 2018.
 
     The event is divided into two parts:
-    1. Leena SN and Pooja Shah will talk about how they got involved in developer communities, and started speaking about their work in different forums including conferences, meetups, on Twitter and blogs. By narrating these journeys, Leena and Pooja will outline how their authority has evolved – in the community and at their workplaces – and the impact this has made on their psychological and professional lives.
+    1. Leena SN and Pooja Shah will talk about how they got involved in developer communities, and started speaking about their work in different forums including conferences, meetups, on Twitter and blogs. By narrating these journeys, Leena and Pooja will outline how their authority has evolved – in the community and at their workplaces – and the impact this has made on their personal and professional lives.
     At the end of their presentations, we will have a Q&A session involving participants.
 
     2. Seema Singh will talk about the intentions behind NestAway’s policy to hire persons of non-binary gender as part of their workforce. She will speak about how NestAway made this policy part of its charter. Incorporating this policy involved preparation and organizing the team for a pilot. Seema will tell us how the initial steps were planned and executed.
