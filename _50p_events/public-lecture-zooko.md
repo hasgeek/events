@@ -23,6 +23,9 @@ featured_speakers:
   talk_title: Future of Crime Reporting using zkSNARKS
   designation: CEO & CoFounder (ZTips)
   image_url: https://images.hasgeek.com/embed/file/25f8527e4e26490a9d566c94ee5721da
+- name: Tanvi Ratna
+  talk_title: Blockchain roadmap of the Government of Karnataka
+  designation: Government of Karnataka
 
 venue:
   label: Mother Tekla Auditorium
