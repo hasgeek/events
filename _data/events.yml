@@ -1,3 +1,12 @@
+- name: Advanced React Workshop
+  title: Advanced React Workshop by Reactjs Bangalore
+  city: Bangalore
+  venue: reliance jio infocomm, Ashok Nagar
+  start_time: 2018-03-31 15:00
+  end_time: 2018-03-31 18:00
+  url: https://www.meetup.com/ReactJS-Bangalore/events/248148010/
+  blurb: "This is a hands on workshop that covers intermediate and advanced concepts of React. Covers topics like higher order components, server side rendering, performance optimisations"
+
 - name: DevHack 2018
   title: "DevHack 2018: A hackathon by Axis Bank"
   city:  Bangalore
