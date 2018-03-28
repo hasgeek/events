@@ -29,7 +29,7 @@ related_events:
 - fifthelephant-2018-sagemaker-workshop-hyderabad
 - fifthelephant-2018-sagemaker-workshop-mumbai
 - fifthelephant-2018-sagemaker-workshop-pune
-- 
+
 overview:
   left_content: |
     In this workshop, you will learn how to use Amazon SageMaker to build, train and host machine learning models. Going through a number of Jupyter notebooks, you will first learn how to use built-in algorithms to perform complex tasks like image classification or clustering. Then, trainers will teach you how you can bring your own Tensorflow or Apache MXNet script to train deep learning models. Finally, you will deploy your models to SageMaker-managed infrastructure and use them to predict new samples.
