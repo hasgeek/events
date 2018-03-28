@@ -28,50 +28,11 @@ venue:
   google_maps_url: https://goo.gl/maps/GDgyezM1fz12
 
 related_events:
-- name: workshop-machine-learning-with-amazon-sagemaker-delhi
-  title: "Workshop: Machine Learning with Amazon SageMaker - Delhi/NCR"
-  city: Delhi/NCR
-  venue: Amazon Internet Services, Delhi
-  start_time: 2018-04-06 10:00
-  end_time: 2018-04-06 16:15
-  url: https://fifthelephant.in/2018-sagemaker-workshop-delhi/
-  blurb: Building, training and deploying machine learning models efficiently and at scale.
-  
-- name: workshop-machine-learning-with-amazon-sagemaker-mumbai
-  title: "Workshop: Machine Learning with Amazon SageMaker - Mumbai"
-  city: Mumbai
-  venue: Amazon Internet Services, Mumbai
-  start_time: 2018-04-13 10:00
-  end_time: 2018-04-13 16:15
-  url: https://fifthelephant.in/2018-sagemaker-workshop-mumbai/
-  blurb: Building, training and deploying machine learning models efficiently and at scale. 
-
-- name: workshop-machine-learning-with-amazon-sagemaker-pune
-  title: "Workshop: Machine Learning with Amazon SageMaker - Pune"
-  city: Pune
-  venue: Venue TBA, Pune
-  start_time: 2018-04-20 10:00
-  end_time: 2018-04-20 16:15
-  url: https://fifthelephant.in/2018-sagemaker-workshop-pune/
-  blurb: Building, training and deploying machine learning models efficiently and at scale.
-
-- name: workshop-machine-learning-with-amazon-sagemaker-chennai
-  title: "Workshop: Machine Learning with Amazon SageMaker - Chennai"
-  city: Chennai
-  venue: Venue TBA, Chennai
-  start_time: 2018-04-27 10:00
-  end_time: 2018-04-27 16:15
-  url: https://fifthelephant.in/2018-sagemaker-workshop-chennai/
-  blurb: Building, training and deploying machine learning models efficiently and at scale.
-  
-- name: workshop-machine-learning-with-amazon-sagemaker-hyderabad
-  title: "Workshop: Machine Learning with Amazon SageMaker - Hyderabad"
-  city: Hyderabad
-  venue: Venue TBA, Hyderabad
-  start_time: 2018-05-03 10:00
-  end_time: 2018-05-03 16:15
-  url: https://fifthelephant.in/2018-sagemaker-workshop-hyderabad/
-  blurb: Building, training and deploying machine learning models efficiently and at scale.
+- fifthelephant-2018-sagemaker-workshop-chennai
+- fifthelephant-2018-sagemaker-workshop-delhi
+- fifthelephant-2018-sagemaker-workshop-hyderabad
+- fifthelephant-2018-sagemaker-workshop-mumbai
+- fifthelephant-2018-sagemaker-workshop-pune
   
 overview:
   left_content: |
