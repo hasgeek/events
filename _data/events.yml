@@ -810,3 +810,11 @@
   url: https://fifthelephant.in/2018-sagemaker-workshop-hyderabad/
   blurb: Building, training and deploying machine learning models efficiently and at scale.
   
+- name: geekabyte-reactjs-workshop-mumbai
+  title: "Geekabyte: Starter Byte Zero to Hero in React"
+  city: Mumbai
+  venue: Of10, Powai
+  start_time: 2018-04-21 09:00
+  end_time: 2018-04-21 18:00
+  url: http://www.geekabyte.tech/
+  blurb: Learn React & React core concepts from experts Manjula Dube, Vihang Patel.
