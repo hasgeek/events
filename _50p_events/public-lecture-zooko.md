@@ -12,7 +12,9 @@ logo:
   image_url: /images/50p-logo.png
   has_title: true
 
-boxoffice_item_collection: "08c6e340-9b28-40b2-9156-6e7718e6164d"
+youtube_url:
+    title: "Watch the lecture online"
+    youtube_embed: "https://youtu.be/5SlOzglBEj0"
 
 featured_speakers:
 - name: Zooko Wilcox
