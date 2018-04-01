@@ -2,12 +2,20 @@
 layout: workshop
 title: "Workshop: Machine Learning with Amazon SageMaker"
 subtitle: "Building, training and deploying machine learning models efficiently and at scale"
-datelocation: "03 May 2018, Venue TBA, Hyderabad"
+datelocation: "03 May 2018, ThoughtWorks Technologies Pvt Ltd, Hyderabad"
 city: Hyderabad
 start_time: 2018-05-03
 end_time: 2018-05-03
 description: "Building, training and deploying machine learning models efficiently and at scale"
 boxoffice_item_collection: "5498c380-db04-404c-97c4-20a2b2da2537"
+
+venue:
+  label: ThoughtWorks Technologies Pvt Ltd, Hyderabad
+  address: |
+    ThoughtWorks Technologies Pvt Ltd, 3rd Floor, Apurupa Silpi, Beside H.P. Petrol Bunk, KFC Building, Rajiv Gandhi Nagar, Gachibowli, Hyderabad, Telangana - 32
+  lat: 17.442839
+  lng: 78.357264
+  google_maps_url: https://goo.gl/maps/thJvJgk5UcC2
 
 instructors:
 - name: Raj Chilakapati
