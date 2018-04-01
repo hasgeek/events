@@ -42,36 +42,31 @@ overview:
 
 
     #### Stage 1
-
-    Technically, it's possible to write a React app without the latest version of JavaScript, but it won't be easy. We'll learn the good parts that make it easier to write maintainable code with React. Let's also find the reason behind React's popularity, what makes it so good?
+    Technically, it’s possible to write a React app without the latest version of JavaScript, but it won’t be easy. We’ll learn the good parts that make it easier to write maintainable code with React. Let’s also find the reason behind React’s popularity, what makes it so good?
 
     - ES6
     - Fundamental concepts of React
     - Virtual DOM
 
     #### Stage 2
-
-    Learning the methods of React is important, but useless without learning how to "think in React". Let's understand the patterns that make your components extremely reusable and your application more declarative.
+    Learning the methods of React is important, but useless without learning how to “think in React”. Let’s understand the patterns that make your components extremely reusable and your application more declarative.
 
     - Thinking in React
     - Stateless components + JSX
     - Props
-    - Styling
-    - CSS-in-JS
-
-    #### Stage 3
-
-    Let's take things to the next level and explore how to build real world applications that handle state and deal with data. If you have heard of state management libraries like redux or mobx, you'll learn how and more importantly when to use them to get the maximum benefit.
-
+    - State 
     - Stateful components
     - Lifecycle methods
-    - Data fetching
-    - State management
+
+    #### Stage 3
+    Next we introduce you to routing, and explain how you can use React Router to add links to additional pages in your app.
+    
+    - React router
 
     #### Stage 4
+    Let’s take things to the next level and explore how to build real world applications that handle state and deal with data. If you have heard of state management libraries like redux  you’ll learn how and more importantly when to use them to get the maximum benefit.
 
-    Wrap things up with making your application maintainable and future proof with testing. This is also where we explore potential performance bottlenecks that infest React applications.
-
-    - Testing
-    - Performance
+    - Making a API call
+    - State management
+    - Redux Dev Tools
 ---
