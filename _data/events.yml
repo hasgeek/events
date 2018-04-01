@@ -818,3 +818,12 @@
   end_time: 2018-04-21 18:00
   url: http://www.geekabyte.tech/
   blurb: Learn React & React core concepts from experts Manjula Dube, Vihang Patel.
+
+- name: vue-blr-april
+  title: "VueBLR #7 - Building Mobile Apps"
+  city: Bangalore
+  venue: HasGeek office, Indira Nagar
+  start_time: 2018-04-28 14:00
+  end_time: 2018-04-28 17:00
+  url: https://www.meetup.com/vue-bangalore
+  blurb: Learn to build native applications using Vue.
