@@ -625,4 +625,15 @@ postman:
     Postman is the only complete API development environment, used by nearly 5 million developers and 100,000 companies worldwide. 
     Postman's elegant, flexible interface supports developers to build connected software via APIs — quickly, easily and accurately. Postman has features to support every stage of API development, and benefits developers working for small businesses as well as industry-leading enterprises. 
     The company has two offices: San Francisco, Postman's headquarters, and Bangalore, where the company was founded. Postman is privately held, with funding from Nexus Venture Partners.
-
+  
+freebsd:
+  title: "Free BSD"
+  logo_url: https://images.hasgeek.com/embed/file/e5a2cb55e43b42e7a324c146312056cd
+  url: https://www.freebsdfoundation.org/
+  display_url: www.freebsdfoundation.org
+  blurb: |
+    The FreeBSD Foundation is a 501(c)(3), US based, non-profit organization dedicated to supporting and promoting the FreeBSD Project and community worldwide. 
+    Funding comes from individual and corporate donations and is used to fund and manage development projects, sponsor conferences and developer summits, and provide travel grants to FreeBSD developers. 
+    In addition, the Foundation purchases hardware to improve and maintain FreeBSD infrastructure and publishes FreeBSD white papers and marketing material to promote, educate, and advocate for the FreeBSD Project around the world. 
+    The Foundation also represents the FreeBSD Project in executing contracts, license agreements, and other legal arrangements that require a recognised legal entity and facilitates company visits to help collaboration efforts with the Project.
+  
