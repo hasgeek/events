@@ -617,7 +617,7 @@ avi:
   blurb: |
 
 postman:
-    title: "Postman"
+  title: "Postman"
   logo_url: https://images.hasgeek.com/embed/file/bc2075ad9e244757b6472f18605261e0
   url: https://www.getpostman.com/
   display_url: www.getpostman.com
