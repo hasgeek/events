@@ -26,8 +26,6 @@ overview:
 
     During the workshop, the participants will understand the key concepts behind RESTful APIs, critically examine some of the popular APIs, design an API from scratch and see how APIs evolve. We’ll also take couple of popular APIs, rip them apart and design a better version of them. Partipants will be divided into smaller groups to allow discussions and most of the time is spent in thinking about the APIs and discussions.
 
-    Learn React the right way from the industry experts.
-
     # Links
 
     Slides: [https://www.slideshare.net/anandology/designing-restful-apis](https://www.slideshare.net/anandology/designing-restful-apis){:target="_blank"}
