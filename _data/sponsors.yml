@@ -615,4 +615,14 @@ avi:
   url: https://avinetworks.com/
   display_url: www.avinetworks.com
   blurb: |
-  
+
+postman:
+    title: "Postman"
+  logo_url: https://images.hasgeek.com/embed/file/bc2075ad9e244757b6472f18605261e0
+  url: https://www.getpostman.com/
+  display_url: www.getpostman.com
+  blurb: |
+    Postman is the only complete API development environment, used by nearly 5 million developers and 100,000 companies worldwide. 
+    Postman's elegant, flexible interface supports developers to build connected software via APIs — quickly, easily and accurately. Postman has features to support every stage of API development, and benefits developers working for small businesses as well as industry-leading enterprises. 
+    The company has two offices: San Francisco, Postman's headquarters, and Bangalore, where the company was founded. Postman is privately held, with funding from Nexus Venture Partners.
+
