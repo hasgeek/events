@@ -26,12 +26,12 @@ overview:
   left_content: |
     Software always stays longer in the field than intended. It usually gets deployed and used in places where the developers did not anticipate because of revenue pressures. The classical product management problem is to maximize features that maximize revenue. Security hardening is a mostly an afterthought, if at all. And lifecycle costs are never factored in. Security issues and the cost that it brings towards the end of the life cycle, sometimes far outweighs the entire revenue stream. While this fact is known, it is not widely practiced.
 
-In this round table gathering, Anand V will talk about the modelling that needs to be typically done to factor security costs while maintaining legacy code, and the framework for thinking about these costs.
+    In this round table gathering, Anand V will talk about the modelling that needs to be typically done to factor security costs while maintaining legacy code, and the framework for thinking about these costs.
 
-Key outcomes from this round-table: 
+    Key outcomes from this round-table: 
 
-1. Learn how to model costs of security in maintaining legacy code.
-2. Take away a framework for thinking how to factor security costs.  
+    1. Learn how to model costs of security in maintaining legacy code.
+    2. Take away a framework for thinking how to factor security costs.  
 
   right_content: |
     ## Format
