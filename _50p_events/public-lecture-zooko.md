@@ -14,7 +14,7 @@ logo:
 
 youtube_url:
     title: "Watch the lecture online"
-    youtube_embed: "https://youtu.be/5SlOzglBEj0"
+    youtube_embed: "https://youtube.com/watch?v=5SlOzglBEj0"
 
 featured_speakers:
 - name: Zooko Wilcox

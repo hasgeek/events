@@ -836,3 +836,12 @@
   end_time: 2018-04-28 18:00
   url: https://reactfoo.in/2018-pune-react-0-to-100/
   blurb: Learn React and start implementing reusable, interactive and stateful UI components.
+
+- name: legacy-code-open-house
+  title: "Modelling costs of security issues in legacy code"
+  city: Bangalore
+  venue: HasGeek House, Bangalore
+  start_time: 2018-04-20 17:00
+  end_time: 2018-04-20 19:00
+  url: https://rootconf.in/legacy-code-open-house/
+  blurb: Learn more about legacy code and the costs associated with it.
