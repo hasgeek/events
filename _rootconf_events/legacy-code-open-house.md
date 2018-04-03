@@ -19,6 +19,7 @@ venue:
 
 speakers:
 - name: "Anand Venkatanarayanan"
+  image_url: https://images.hasgeek.com/embed/file/5d467c4f42954284a2e6aeb86db09088
   bio: |
     Anand V stumbled upon into Application security 3 years back, after a career of 17 years spanning Data security, Linux device drivers, Linux Multipath drivers, JIT compilers for GPU programming and Network device drivers. He also spent 2 years in option trading, while managing outsourcing contracts with service providers, which gave him the capital for a decent life. In another life, he knew about stocks and bonds, before he completed engineering and hence believes that finance is more difficult to comprehend than taxation.
   
