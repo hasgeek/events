@@ -827,3 +827,12 @@
   end_time: 2018-04-28 17:00
   url: https://www.meetup.com/vue-bangalore
   blurb: Learn to build native applications using Vue.
+
+- name: workshop-react-0to100-pune
+  title: "Workshop: React 0 to 100 in a day"
+  city: Pune
+  venue: Pune
+  start_time: 2018-04-28 09:00
+  end_time: 2018-04-28 18:00
+  url: https://reactfoo.in/2018-pune-react-0-to-100/
+  blurb: Learn React and start implementing reusable, interactive and stateful UI components.
