@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: workshop
 title: "Open House on modelling costs of security issues in legacy code"
 subtitle: "Learn more about legacy code and the costs associated with it."
 datelocation: "20 April 2018, 05:00 PM-07:00 PM, HasGeek House, Bangalore"
@@ -37,7 +37,9 @@ overview:
   right_content: |
     ## Format
     Anand will speak for 40 minutes, following which, participants can share their use cases and discuss how they can develop modelling frameworks that suit their needs.
+    
     Time: 5 PM - 7 PM 
+    
     Venue: HasGeek House, #2699, 19th Main, 5th Cross, Indiranagar HAL 2nd Stage, Bangalore - 560008
 
 ---
