@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: workshop
 title: "Open House on modelling costs of security issues in legacy code"
 subtitle: "Learn more about legacy code and the costs associated with it."
 datelocation: "20 April 2018, 05:00 PM-07:00 PM, HasGeek House, Bangalore"
@@ -19,6 +19,7 @@ venue:
 
 speakers:
 - name: "Anand Venkatanarayanan"
+  image_url: https://images.hasgeek.com/embed/file/5d467c4f42954284a2e6aeb86db09088
   bio: |
     Anand V stumbled upon into Application security 3 years back, after a career of 17 years spanning Data security, Linux device drivers, Linux Multipath drivers, JIT compilers for GPU programming and Network device drivers. He also spent 2 years in option trading, while managing outsourcing contracts with service providers, which gave him the capital for a decent life. In another life, he knew about stocks and bonds, before he completed engineering and hence believes that finance is more difficult to comprehend than taxation.
   
@@ -36,7 +37,9 @@ overview:
   right_content: |
     ## Format
     Anand will speak for 40 minutes, following which, participants can share their use cases and discuss how they can develop modelling frameworks that suit their needs.
+    
     Time: 5 PM - 7 PM 
+    
     Venue: HasGeek House, #2699, 19th Main, 5th Cross, Indiranagar HAL 2nd Stage, Bangalore - 560008
 
 ---
