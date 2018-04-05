@@ -2,12 +2,20 @@
 layout: workshop
 title: "Workshop: Machine Learning with Amazon SageMaker"
 subtitle: "Building, training and deploying machine learning models efficiently and at scale"
-datelocation: "27 April 2018, Venue TBA, Chennai"
+datelocation: "27 April 2018, Freshworks, Chennai"
 city: Chennai
 start_time: 2018-04-27
 end_time: 2018-04-27
 description: "Building, training and deploying machine learning models efficiently and at scale"
 boxoffice_item_collection: "040af98d-03e8-459b-8def-34429ce836ff"
+
+venue:
+  label: Freshworks, Chennai
+  address: |
+    Freshworks, SP Infocity, Block B, 40 MGR Road, Chennai-600096.
+  lat: 12.969535
+  lng: 80.243760
+  google_maps_url: https://goo.gl/maps/AQktgSZWLRU2
 
 instructors:
 - name: Madhusudan Shekar
