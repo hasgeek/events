@@ -23,7 +23,6 @@ instructors:
     **Aniruddha** is a Solutions Architect at Amazon India.
 
 related_events:
-- fifthelephant-2018-sagemaker-workshop-bangalore
 - fifthelephant-2018-sagemaker-workshop-chennai
 - fifthelephant-2018-sagemaker-workshop-delhi
 - fifthelephant-2018-sagemaker-workshop-hyderabad
