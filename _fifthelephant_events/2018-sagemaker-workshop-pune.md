@@ -2,12 +2,20 @@
 layout: workshop
 title: "Workshop: Machine Learning with Amazon SageMaker"
 subtitle: "Building, training and deploying machine learning models efficiently and at scale"
-datelocation: "20 April 2018, Venue TBA, Pune"
+datelocation: "20 April 2018, Thoughtworks, Pune."
 city: Pune
 start_time: 2018-04-20
 end_time: 2018-04-20
 description: "Building, training and deploying machine learning models efficiently and at scale"
 boxoffice_item_collection: "989e6df7-8a75-47a6-9275-036f659cf110"
+
+venue:
+  label: Thoughtworks, Pune.
+  address: |
+    Thoughtworks, Ranade Shala, 6th Floor, Binarius Building, Deepak Complex, National Games Road, Beside Sales Tax Office, Shastrinagar, Yerawada, Pune, Maharashtra 411006.
+  lat: 18.555971
+  lng: 73.891900
+  google_maps_url: https://goo.gl/maps/mid1UtnuLfu
 
 instructors:
 - name: Rahul Shringarpure
