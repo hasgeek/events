@@ -12,7 +12,7 @@ boxoffice_item_collection: "989e6df7-8a75-47a6-9275-036f659cf110"
 venue:
   label: Thoughtworks, Pune.
   address: |
-    Thoughtworks, 6th Floor, Binarius Building, Deepak Complex, National Games Road, Beside Sales Tax Office, Shastrinagar, Yerawada, Pune, Maharashtra 411006.
+    Thoughtworks, Ranade Shala, 6th Floor, Binarius Building, Deepak Complex, National Games Road, Beside Sales Tax Office, Shastrinagar, Yerawada, Pune, Maharashtra 411006.
   lat: 18.555971
   lng: 73.891900
   google_maps_url: https://goo.gl/maps/mid1UtnuLfu
