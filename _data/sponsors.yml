@@ -636,4 +636,15 @@ freebsd:
     Funding comes from individual and corporate donations and is used to fund and manage development projects, sponsor conferences and developer summits, and provide travel grants to FreeBSD developers. 
     In addition, the Foundation purchases hardware to improve and maintain FreeBSD infrastructure and publishes FreeBSD white papers and marketing material to promote, educate, and advocate for the FreeBSD Project around the world. 
     The Foundation also represents the FreeBSD Project in executing contracts, license agreements, and other legal arrangements that require a recognised legal entity and facilitates company visits to help collaboration efforts with the Project.
-  
+
+do:
+  title: "Digital Ocean"
+  logo_url: https://images.hasgeek.com/embed/file/19d4ca66714149189ea24fa290ab4efa
+  url: https://www.digitalocean.com/
+  display_url: digitalocean.com
+  blurb: |
+    DigitalOcean is a cloud platform company focused on simplifying the complexities of infrastructure for software developers. 
+    DigitalOcean has become the second largest and fastest growing cloud computing platform in the total number of public facing apps and websites, according to Netcraft.com. 
+    The company has raised $123 million in funding from Andreessen Horowitz, Access Industries, IA Ventures, CrunchFund and Techstars. The company is headquartered in New York City with datacenter regions throughout the world including one in Bangalore (India). 
+    For more information, visit www.digitalocean.com or follow @digitalocean.
+    
