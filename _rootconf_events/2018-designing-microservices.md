@@ -1,7 +1,7 @@
 ---
 layout: workshop
 title: "Workshop: Designing Microservices"
-subtitle: "Learn to desin application as microservices by understanding price and benefits of your investment"
+subtitle: "Hands-on workshop to deep-dive into the world of microservices"
 datelocation: "5 May 2018, Bangalore"
 city: Bangalore
 start_time: 2018-05-05
