@@ -845,3 +845,12 @@
   end_time: 2018-04-20 19:00
   url: https://rootconf.in/legacy-code-open-house/
   blurb: Learn more about legacy code and the costs associated with it.
+  
+- name: docker-meetup-walmartlabs
+  title: "Docker meetup at WalmartLabs"
+  city: Bangalore
+  venue: WalmartLabs, Bangalore
+  start_time: 2018-04-28 09:30
+  end_time: 2018-04-28 13:00
+  url: https://rootconf.in/2018-docker-meetup-walmartlabs/
+  blurb: A hands-on workshop on Docker.
