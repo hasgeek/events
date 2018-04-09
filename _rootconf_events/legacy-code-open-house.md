@@ -13,8 +13,8 @@ venue:
   address: |
     HasGeek House,
     #2699, 19th Main, 5th Cross, HAL 2nd Stage, Indira Nagar, Bengaluru, Karnataka 560103, India
-  lat: 12.936681
-  lng: 77.690946
+  lat: 12.9615312
+  lng: 77.6443048
   google_maps_url: https://goo.gl/maps/zcNxsSAykgF2
 
 speakers:
