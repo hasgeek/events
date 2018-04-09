@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: Machine Learning with Amazon SageMaker"
 subtitle: "Building, training and deploying machine learning models efficiently and at scale"
-datelocation: "03 May 2018, ThoughtWorks Technologies Pvt Ltd, Hyderabad"
+datelocation: "03 May 2018, ThoughtWorks, Hyderabad"
 city: Hyderabad
 start_time: 2018-05-03
 end_time: 2018-05-03
