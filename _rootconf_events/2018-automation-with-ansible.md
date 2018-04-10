@@ -1,12 +1,12 @@
 ---
 layout: workshop
-title: "Workshop: Automation with Ansible"
-subtitle: ""
+title: "Workshop: Automation with Ansible - 101"
+subtitle: "Get deep-dive Hands-On experience in developing Ansible playbooks."
 datelocation: "9 May 2018, Bangalore"
 city: Bangalore
 start_time: 2018-05-09
 end_time: 2018-05-09
-description: ""
+description: "Ansible is software that automates software provisioning, configuration management, and application deployment. Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on remote systems."
 boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
 
 instructors:
