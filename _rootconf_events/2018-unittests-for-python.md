@@ -1,7 +1,7 @@
 ---
 layout: workshop
-title: "Workshop: Is your nose up running UnitTests for your python base?"
-subtitle: ""
+title: "Workshop: UnitTests for your python base."
+subtitle: "Automate UnitTests using nose as you build code together at this workshop."
 datelocation: "20 May 2018, Bangalore"
 city: Bangalore
 start_time: 2018-05-20
