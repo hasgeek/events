@@ -1,12 +1,12 @@
 ---
 layout: workshop
 title: "Workshop: Kubernetes 201"
-subtitle: ""
+subtitle: "Upskill with advance topics of Kubernetes."
 datelocation: "13 May 2018, Bangalore"
 city: Bangalore
 start_time: 2018-05-13
 end_time: 2018-05-13
-description: ""
+description: "In 2017, Kubernetes had emerged as default choice of Container Orchestration. This workshop will look at some of the advance topics of Kubernetes like RBAC, Ingress, Storage management, Monitoring etc. "
 boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
 
 instructors:
