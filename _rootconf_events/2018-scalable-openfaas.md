@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Workshop: Design and implement a scalable application using OpenFaaS with Docker and Kubernetes"
+title: "Workshop: Design and implement a scalable application using OpenFaaS"
 subtitle: ""
 datelocation: "19 May 2018, Bangalore"
 city: Bangalore
