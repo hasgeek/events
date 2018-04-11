@@ -30,11 +30,6 @@ overview:
     - Basic Linux Administrator Skills
     - Open mind and spirit to learn.
 
-    # Links:
-
-    Slides: [https://www.slideshare.net/RahulBajaj94/ansible-92287889](https://www.slideshare.net/RahulBajaj94/ansible-92287889){:target="_blank"}
-
-
   right_content: |
     # Outline:
 
