@@ -647,4 +647,15 @@ do:
     DigitalOcean has become the second largest and fastest growing cloud computing platform in the total number of public facing apps and websites, according to Netcraft.com. 
     The company has raised $123 million in funding from Andreessen Horowitz, Access Industries, IA Ventures, CrunchFund and Techstars. The company is headquartered in New York City with datacenter regions throughout the world including one in Bangalore (India). 
     For more information, visit www.digitalocean.com or follow @digitalocean.
-    
+
+elastic:
+  title: "Elastic"
+  logo_url: https://images.hasgeek.com/embed/file/4c5239f64f2f4f7995d1a50a4ec6aa69
+  url: https://www.elastic.co/
+  display_url: www.elastic.co
+  blurb: |
+    Elastic builds software to make data usable in real time and at scale for search, logging, security, and analytics use cases. 
+    Founded in 2012, the company develops the open source Elastic Stack (Elasticsearch, Kibana, Beats, and Logstash), X-Pack (commercial features), and Elastic Cloud (a SaaS offering). To date, there have been more than 225 million cumulative downloads. 
+    The Elastic community is 100,000 members strong. Thousands of organizations including Cisco, eBay, Goldman Sachs, NASA, Microsoft, Mayo Clinic, The New York Times, Wikipedia, and Verizon use Elastic to power mission-critical systems. Backed by Benchmark Capital, Index Ventures, and NEA with more than $100 million in funding, Elastic has a distributed workforce with more than 800 employees in 30 countries. 
+    Learn more at elastic.co.
+
