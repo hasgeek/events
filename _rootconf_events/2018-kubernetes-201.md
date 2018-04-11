@@ -11,7 +11,7 @@ boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
 
 instructors:
 - name: Neependra Khare
-  image_url: 
+  image_url: https://images.hasgeek.com/embed/file/19638cb43e4148489bb63fcaa3065836
   website: 
     url: https://twitter.com/neependra
     label: Twitter
