@@ -1,22 +1,13 @@
 ---
 layout: workshop
-title: "Docker meetup at Walmart Labs"
+title: "Docker meetup"
 subtitle: "A hands-on workshop on Docker"
-datelocation: "28 April 2018, 09:30 AM-1:00 PM followed by lunch, @WalmartLabs, Bangalore"
+datelocation: "28 April 2018, 09:30 AM-1:00 PM, Venue TBA, Bangalore"
 city: Bangalore
 start_time: 2018-04-28
 end_time: 2018-04-28
 description: "A hands-on workshop on Docker"
 boxoffice_item_collection: "4ddfce95-efb8-49c6-b5d5-46acac05b6c4"
-
-venue:
-  label: WalmartLabs, Bangalore
-  address: |
-    Walmart Labs,
-    Salarpuria Aura, BLOCK A, 1st Floor, Marathahalli - Sarjapur Outer Ring Rd, Kaverappa Layout, Kadubeesanahalli, Bengaluru, Karnataka 560103, India
-  lat: 12.936681
-  lng: 77.690946
-  google_maps_url: https://goo.gl/maps/fEGy3MnRZRm
 
 instructors:
 - name: Elton Stoneman 
