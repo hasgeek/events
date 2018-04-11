@@ -66,4 +66,9 @@ sponsor:
     sponsors:
     - isdi
 
+  - title: "T-shirt Sponsor"
+    size: "l"
+    sponsors:
+    - bigbinary
+
 ---
