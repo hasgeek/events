@@ -1,3 +1,12 @@
+- name: CTOTALK by OrangeScape
+  title: "Bigbasket's Tech Stack: Learning from the trenches of Scaling-up"
+  city:  Chennai
+  venue: OrangeScape Technologies, Chennai
+  start_time: 2018-04-28 11:00 
+  end_time: 2018-04-28 13:00
+  url: https://in.explara.com/e/cto-talk-by-orangescape
+  blurb: "CTOTalk is a platform for open dialogue and deep-learning where Chieftains of Technology Organizations (CTOs) from well-known companies come to share their successes and challenges with peers. For this edition we have Pramod Jajoo, Ex-CTO - Bigbasket & Partner - Kalaari Capital as Guest Speaker."
+
 - name: Advanced React Workshop
   title: Advanced React Workshop by Reactjs Bangalore
   city: Bangalore
