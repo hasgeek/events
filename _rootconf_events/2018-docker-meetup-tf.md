@@ -2,12 +2,22 @@
 layout: workshop
 title: "Docker meetup"
 subtitle: "A hands-on workshop on Docker"
-datelocation: "28 April 2018, 09:30 AM-1:00 PM, Venue TBA, Bangalore"
+datelocation: "28 April 2018, 09:30 AM-1:00 PM, ThoughtFactory, Bangalore"
 city: Bangalore
 start_time: 2018-04-28
 end_time: 2018-04-28
 description: "A hands-on workshop on Docker"
 boxoffice_item_collection: "4ddfce95-efb8-49c6-b5d5-46acac05b6c4"
+
+venue:
+  label: ThoughtFactory, Bangalore
+  address: |
+    ThoughtFactory,
+    Tower D, 2nd Floor,
+    Diamond District, Bengaluru, Karnataka 560102
+  lat: 12.95921
+  lng: 77.64431
+  google_maps_url: https://goo.gl/maps/eaNceNnatu62
 
 instructors:
 - name: Elton Stoneman 
