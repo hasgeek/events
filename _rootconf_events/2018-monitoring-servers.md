@@ -11,7 +11,7 @@ boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
 
 instructors:
 - name: Vasu Adari
-  image_url: 
+  image_url: https://images.hasgeek.com/embed/file/4967392ef30b46739f465430197a0ec6
   website:
     url: https://github.com/vasuadari
     label: Github

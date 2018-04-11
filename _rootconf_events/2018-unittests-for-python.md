@@ -11,7 +11,7 @@ boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
 
 instructors:
 - name: Pooja Shah 
-  image_url: 
+  image_url: https://images.hasgeek.com/embed/file/7cc1cc3d575043c2ae2edfdb6b9aca39
   website:
     url: https://p00j4.github.io/
     label: Github

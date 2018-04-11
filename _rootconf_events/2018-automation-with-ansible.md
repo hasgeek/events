@@ -11,7 +11,7 @@ boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
 
 instructors:
 - name: Rahul Bajaj
-  image_url: 
+  image_url: https://images.hasgeek.com/embed/file/73f16962cf0b49f285fddd5da4141bbe
   website:
     url: https://github.com/rahulbajaj0509
     label: Github 
