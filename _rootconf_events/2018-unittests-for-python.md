@@ -59,7 +59,7 @@ overview:
     - Please bring you own laptop with python 2.7 or above installed
     - Detailed setup instructions will be emailed a week before the workshop day
 
-    # links
+    # Links
 
     Slides: [https://www.slideshare.net/secret/qI09RrNQ86pf0P](https://www.slideshare.net/secret/qI09RrNQ86pf0P){:target="_blank"} <br>
     Github: [https://github.com/p00j4/unittest_with_nose](https://github.com/p00j4/unittest_with_nose){:target="_blank"}
