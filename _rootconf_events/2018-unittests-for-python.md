@@ -6,7 +6,8 @@ datelocation: "20 May 2018, Bangalore"
 city: Bangalore
 start_time: 2018-05-20
 end_time: 2018-05-20
-description: ""
+description: "This workshop is aimed at people who would like to improve their development skills by practially learning to write professional quality code.
+Modifying production code without unit test cases is similar to walking through a field of landmines and writing and maintaining good unit tests can be real hard work, hence is this workshop, where instead of just covering the syntax, we will introduce most of tips and tricks to write good UnitTests with ease as we build the code together."
 boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
 
 instructors:
@@ -22,7 +23,7 @@ instructors:
     With the help of some of her loving friends, she now has a special colleague named [alice](https://p00j4.github.io/#alice){:target="_blank"}, a talking bot she has created to help herself in work & gain her free time to play Pokemon 
 
 - name: Akshay Goel 
-  image_url: 
+  image_url: https://images.hasgeek.com/embed/file/58ed12fd14694440b1357cde05ea9957
   website:
     url: https://www.linkedin.com/in/akshay58538/
     label: Linkedin
@@ -34,16 +35,29 @@ overview:
   left_content: |
 
     # Abstract
-    Are you new to unit testing? TDD looks like a buzz word? <br><br>
-    Or do you feel like you know the syntax, but would like to understand new idioms and where to use them? <br><br>
-    Want to watch an experienced TDD developer create code from nothing? <br><br>
-    Instead of just covering the syntax, we will introduce most of UnitTests using nose as we build code together. <br><br>
+    Are you new to unit testing? <br>
+    This workshop is aimed at people who would like to improve their development skills by practially learning to write professional quality code. <br>
+    Modifying production code without unit test cases is similar to walking through a field of landmines and writing and maintaining good unit tests can be real hard work, hence is this workshop, where instead of just covering the syntax, we will introduce most of tips and tricks to write good UnitTests with ease as we build the code together.
+
+    # Why Attend?
+
+    This workshop will help you to adopt unit testing if:
+
+    - You spend a lot of non-billable hours fixing bugs
+    - You and your team have adopted unit tests, but now you feel that
+      - The tests are slowing you down
+      - Having practical, good coverage is real hard
+    - You want to adopt unit testing and would like to avoid common pitfalls
+    - Your application is huge and developers cannot modify it fast enough.
+
+    # Who Should Attend?
+    Anyone who wants to write safer code Eg. Developers using Python and would like to learn how to avoid introducing mistakes in their software.
 
     # Requirements
-
-    - Basic knowledge of coding in Python is required, understanding web RestAPI is a plus. <br><br>
-    - Please bring you own laptop with python 2.7 or above installed <br><br>
-    - Detailed setup instructions will be emailed a week before the workshop day <br><br>
+    
+    - Should be familiar with basic coding with Python.
+    - Please bring you own laptop with python 2.7 or above installed
+    - Detailed setup instructions will be emailed a week before the workshop day
 
     # links
 
@@ -55,30 +69,37 @@ overview:
     # Outline
 
     Each section goes with understanding and implementing each one hands-on.
+
+    #### Introduction
+    - Why unit tests, what is it and why should I care ? 10 m
+    - Getting Started 40 m
+      - Setup checks
+      - Unit Testing basics
+      - Writing Simple Unit Tests
+      - Organising with setup and teardown
     
-    - Introduction
-
-        - Why unit tests, what is it and why should I care ? 10 m
-        - Getting started [setup] 10 m
-        - Writing Tests: basics [ usage of unittests library ] 20 m
-
-    - Coverage
-
-        - How to cover most of the code with ease & speed up development & execution
-        - Parameterise 10 m
-        - Mock & various ways of using patch 20 m
-        - Mock with Autospec and SideEffect 20 m - Control test run using nose 20 m
-        - Run specific test function
-        - Coverage html
-        - Speed up more with multi process
-        - Test Reporting : beautiful readable reports 20 m
-
-    - Dont’s 10 m
-
-        - Will work on few frequent typical mistakes which usually we do & tricks on how to avoid them
-
-    - Q & A 30 m
-
-        - We together will work on remaining problems
+    #### Coverage
+    - How to cover most of the code with ease & speed up development & execution
+    - Parameterise 10 m
+    - Isolating Dependencies with Mocks
+      - Mock & various ways of using patch 20 m
+      - Mock with Autospec and SideEffect 20 m
+    - Managing test Execution 20 m
+    - Run specific tests
+    - Re-run only failed tests
+    - Speed up more with multi process
+    - Are these tests bringing value 20 m
+    - Test Reports
+    - Coverage Reports
+    
+    #### Next Pointers and Resources 10 m
+    
+    #### What Unit Testing is Not 10 m
+    
+    #### Dont’s 10 m
+    - Will work on few frequent typical mistakes which usually we do & tricks on how to avoid them
+    
+    #### Q & A 30 m
+    - We together will work on your problems annd queries
 
 ---
