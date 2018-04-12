@@ -1,13 +1,12 @@
 ---
 layout: workshop
-title: "Workshop: UnitTests for your python base."
+title: "Workshop: UnitTests for your python base"
 subtitle: "Automate UnitTests using nose as you build code together at this workshop."
 datelocation: "20 May 2018, Bangalore"
 city: Bangalore
 start_time: 2018-05-20
 end_time: 2018-05-20
-description: "This workshop is aimed at people who would like to improve their development skills by practially learning to write professional quality code.
-Modifying production code without unit test cases is similar to walking through a field of landmines and writing and maintaining good unit tests can be real hard work, hence is this workshop, where instead of just covering the syntax, we will introduce most of tips and tricks to write good UnitTests with ease as we build the code together."
+description: "This workshop is aimed at people who would like to improve their development skills by practially learning to write professional quality code"
 boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
 
 instructors:
@@ -20,8 +19,7 @@ instructors:
   bio: |
     Pooja is an automation nerd and open source enthusiast. She loves brainstorming and implementing crazy ideas to figure out ways to improve the product quality. Having a blend of dev, qa & devops mindset, she strives to bridge the gaps between all the teams to attain the best results. Driven by curiosity to learn & share new things every day, she [pens](https://p00j4.github.io/){:target="_blank"} them, open-source, record tutorials and talk about them at relevant conferences, some of the glimpses can be found on [youtube](https://www.youtube.com/c/PoojaShahQAgirl){:target="_blank"} as well.
 
-    With the help of some of her loving friends, she now has a special colleague named [alice](https://p00j4.github.io/#alice){:target="_blank"}, a talking bot she has created to help herself in work & gain her free time to play Pokemon 
-
+    With the help of some of her loving friends, she now has a special colleague named [alice](https://p00j4.github.io/#alice){:target="_blank"}, a talking bot she has created to help herself in work & gain her free time to play Pokemon
 - name: Akshay Goel 
   image_url: https://images.hasgeek.com/embed/file/58ed12fd14694440b1357cde05ea9957
   website:
