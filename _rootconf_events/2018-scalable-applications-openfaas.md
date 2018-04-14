@@ -11,7 +11,7 @@ boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
 
 instructors:
 - name: Vivek Sridhar
-  image_url: 
+  image_url: https://images.hasgeek.com/embed/file/830a6dac0c8d49589783c95d1d27c837
   website:
     url: 
     label: 
