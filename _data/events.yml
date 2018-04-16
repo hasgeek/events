@@ -862,3 +862,12 @@
   end_time: 2018-04-28 13:00
   url: https://rootconf.in/2018-docker-meetup-walmartlabs/
   blurb: A hands-on workshop on Docker.
+
+- name: vuejs-0-1-js-ts
+  title: "VueJS: 0 to 1 in Javascript and Typescript"
+  city: Bangalore
+  venue: Practo Office, JP Nagar
+  start_time: 2018-04-29 12:00
+  end_time: 2018-04-29 17:00
+  url: https://in.explara.com/e/vuejs-0-to-1-in-javascript--typescript
+  blurb: "Learn to build VueJS single-page apps, from scratch, to production level, using Javascript and Typescript"
