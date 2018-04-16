@@ -1,30 +1,3 @@
-- name: CTOTALK by OrangeScape
-  title: "Bigbasket's Tech Stack: Learning from the trenches of Scaling-up"
-  city:  Chennai
-  venue: OrangeScape Technologies, Chennai
-  start_time: 2018-04-28 11:00 
-  end_time: 2018-04-28 13:00
-  url: https://in.explara.com/e/cto-talk-by-orangescape
-  blurb: "CTOTalk is a platform for open dialogue and deep-learning where Chieftains of Technology Organizations (CTOs) from well-known companies come to share their successes and challenges with peers. For this edition we have Pramod Jajoo, Ex-CTO - Bigbasket & Partner - Kalaari Capital as Guest Speaker."
-
-- name: Advanced React Workshop
-  title: Advanced React Workshop by Reactjs Bangalore
-  city: Bangalore
-  venue: reliance jio infocomm, Ashok Nagar
-  start_time: 2018-03-31 15:00
-  end_time: 2018-03-31 18:00
-  url: https://www.meetup.com/ReactJS-Bangalore/events/248148010/
-  blurb: "This is a hands on workshop that covers intermediate and advanced concepts of React. Covers topics like higher order components, server side rendering, performance optimisations"
-
-- name: DevHack 2018
-  title: "DevHack 2018: A hackathon by Axis Bank"
-  city:  Bangalore
-  venue: Online
-  start_time: 2018-03-12 09:00
-  end_time: 2018-03-31 23:59
-  url: https://www.axisbank.com/thoughtfactory/hackathon.html
-  blurb: "Build brilliant solutions for #Bankingtech sector at #DevHack2018 ,the one-of-its-kind hackathon by Thought Factory & Zone Startups & takeaway cash prizes, PoC opportunities and much more with Axis Bank. Problem statements: Live photo detection, Voice Authentication"
-
 - name: Hacktoberfest
   title: Chennai Hacktoberfest
   city:  Chennai
@@ -68,7 +41,7 @@
   start_time: 2017-06-02 19:00
   end_time: 2017-06-02 21:00
   url: https://www.facebook.com/events/1694671104175474/
-  blurb: In an era where AI and virtual reality would be the next big truth, how do we make sure that this future is inclusive and reflective of everyone's realities? Joining us on Friday to talk more about this is Jasmine from Hidden Pockets.
+  blurb: "In an era where AI and virtual reality would be the next big truth, how do we make sure that this future is inclusive and reflective of everyone's realities? Joining us on Friday to talk more about this is Jasmine from Hidden Pockets."
 
 - name: open-house-engineering-design
   title: Open House on engineering for good design
@@ -113,7 +86,7 @@
   start_time: 2017-06-30 19:00
   end_time: 2017-06-30 20:00
   url: https://www.facebook.com/events/1149033318533901/
-  blurb: This Friday, we're putting together a meetup to discuss a paper with Lakshman Prasad. You can find more details about the paper and the topic on the event page.
+  blurb: "This Friday, we're putting together a meetup to discuss a paper with Lakshman Prasad. You can find more details about the paper and the topic on the event page."
 
 - name: fifthel-pune-meetup
   title: The Fifth Elephant Pune meetup
@@ -149,7 +122,7 @@
   start_time: 2017-07-15 11:00
   end_time: 2017-07-15 14:00
   url: https://fifthelephant.in/2017/bangalore-meetup
-  blurb: On Saturday, 15th July, we're putting together a meetup on trends in machine learning and artificial intelligence in e-commerce.
+  blurb: "On Saturday, 15th July, we're putting together a meetup on trends in machine learning and artificial intelligence in e-commerce."
 
 - name: perf-testing-meetup
   title: Performance testing at cloud scale meetup
@@ -158,7 +131,7 @@
   start_time: 2017-07-19 18:00
   end_time: 2017-07-19 20:00
   url: https://rootconf.in/2017/perf-testing-meetup
-  blurb: On 19th July, we’re putting together a meetup at CA technologies on ‘Performance testing at cloud scale'. If you work on DevOps, cloud, automation, testing etc. this is a great opportunity for you to meet people working in this domain.
+  blurb: "On 19th July, we’re putting together a meetup at CA technologies on ‘Performance testing at cloud scale'. If you work on DevOps, cloud, automation, testing etc. this is a great opportunity for you to meet people working in this domain."
 
 - name: hackgsf-bangalore-2017
   title: HackGSF 2017, Bangalore
@@ -312,7 +285,7 @@
   start_time: 2017-10-14 11:00
   end_time: 2017-10-14 14:00
   url: https://jsfoo.in/2017-oct-enterprise-walmart-meetup/
-  blurb: On 14th October, we’re putting together a meetup on JavaScript in the enterprise world. We'll have 2 talks followed by a panel discussion on topics like hiring JS, adopting and adapting with new JS frameworks, impact of browser changes etc. RSVP now to attend!
+  blurb: "On 14th October, we’re putting together a meetup on JavaScript in the enterprise world. We'll have 2 talks followed by a panel discussion on topics like hiring JS, adopting and adapting with new JS frameworks, impact of browser changes etc. RSVP now to attend!"
 
 - name: open-house-icos
   title: "ICOs, investing in cryptocurrencies, Segwit 101 and, scaling challenges"
@@ -411,7 +384,7 @@
   start_time: 2017-10-08 15:00
   end_time: 2017-10-08 16:00
   url: https://www.facebook.com/events/308613639615900/
-  blurb: We're partnering with InOut to put together a meetup on the applications of blockchain & business trends. For this meetup, we'll have the amazing folks from Gnosis & ConsenSys.
+  blurb: "We're partnering with InOut to put together a meetup on the applications of blockchain & business trends. For this meetup, we'll have the amazing folks from Gnosis & ConsenSys."
 
 - name: right-to-information-right-to-knowledge
   title: "The Right to Information, The Right to Knowledge"
@@ -522,7 +495,7 @@
   blurb: An introductory workshop on machine learning and deep learning
 
 - name: open-house-applications-of-or-ds
-  title: "Open House #88: Applications of Operations Research & Data Science in e-commerce"
+  title: Open House #88: Applications of Operations Research & Data Science in e-commerce
   city: Bangalore
   venue: HasGeek house
   start_time: 2017-12-01 18:30
@@ -538,7 +511,7 @@
   end_time: 2017-12-08 22:30
   url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
   blurb: Learn the fundamentals of Cryptoeconomics and how to design and incentivize tokens for an ICO.
-  
+
 - name: open-house-visual-linear-algebra
   title: "Open House #87: Visual Linear Algebra"
   city: Bangalore
@@ -547,7 +520,7 @@
   end_time: 2017-11-24 22:30
   url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
   blurb: Learning the math behind Machine Learning and Deep Learning Algorithms requires a good solid understanding of Linear Algebra. In this open sessions, we will aim to understand the essence of Linear Algebra in an interactive and visual way.
-  
+
 - name: vue-js-meetup
   title: "VueBLR #4 - The future of Vue.js"
   city: Bangalore
@@ -591,8 +564,8 @@
   start_time: 2017-12-22 18:00
   end_time: 2017-12-22 21:00
   url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
-  blurb: The Airtel Payments Bank fraud was possible because of how the technology of the Aadhaar ecosystem was designed. Please join us for an open house discussion on how the technology works, and why this case won't be the last instance.
-  
+  blurb: "The Airtel Payments Bank fraud was possible because of how the technology of the Aadhaar ecosystem was designed. Please join us for an open house discussion on how the technology works, and why this case won't be the last instance."
+
 - name: geekup-diptanu 
   title: "Geekup! with Diptanu Choudhury on cluster schedulers" 
   city: Bangalore 
@@ -619,7 +592,7 @@
   end_time: 2018-01-12 20:30 
   url: https://www.facebook.com/events/564541860551924/ 
   blurb: From the Open Session we can expect to hear some stories of the people of the river basin, the everyday life and some insights into how climate change and increased human activities are changing local landscapes, making it more challenging in everyday life.
-  
+
 - name: tor-meetup-and-user-testing-session
   title: "Tor meet-up and user testing session" 
   city: Mumbai
@@ -637,7 +610,7 @@
   end_time: 2018-02-07 17:00 
   url: https://50p.in/AI-finance-roundtable/
   blurb: The Centre for Internet and Society, with HasGeek and the 50p Conference, hosts a roundtable on AI and Finance in India about trajectories of artificial intelligence across sub-sectors of banking in India and emergent regulatory and public policy concerns.
-  
+
 - name: mumbai-javascript-meetup
   title: "First Javascript Meetup of 2018" 
   city: Mumbai
@@ -645,8 +618,7 @@
   start_time: 2018-02-17 10:30
   end_time: 2018-02-17 14:30 
   url: https://www.meetup.com/Mumbai-JavaScript-Meetup/events/247306128/
-  blurb: We have awesome speakers, who'll make tech jargons easy for you to understand.
-
+  blurb: "We have awesome speakers, who'll make tech jargons easy for you to understand."
 
 - name: bangalore-dl-bootcamp-2
   title: "Deep Learning Bootcamp" 
@@ -705,7 +677,7 @@
 - name: 2018-selenium-conf-india
   title: "Selenium Conference India 2018"
   city: Bangalore
-  venue: Lalit Ashok, High Grounds, Bengaluru 
+  venue: Lalit Ashok, High Grounds, Bengaluru
   start_time: 2018-06-28 9:00
   end_time: 2018-06-30 17:30
   url: https://2018.seleniumconf.in/
@@ -736,8 +708,26 @@
   start_time: 2018-03-29 18:00
   end_time: 2018-03-29 20:00
   url: https://www.meetup.com/Kubernetes-for-Application-Developers/
-  blurb: Demos, talks and discussions for application developers running or planning to run Kubernetes in production. Come and learn, explore different use cases, show off your k8s pipeline, discuss the problems you're facing or help the rest of the community!
-  
+  blurb: "Demos, talks and discussions for application developers running or planning to run Kubernetes in production. Come and learn, explore different use cases, show off your k8s pipeline, discuss the problems you're facing or help the rest of the community!"
+
+- name: Advanced React Workshop
+  title: Advanced React Workshop by Reactjs Bangalore
+  city: Bangalore
+  venue: reliance jio infocomm, Ashok Nagar
+  start_time: 2018-03-31 15:00
+  end_time: 2018-03-31 18:00
+  url: https://www.meetup.com/ReactJS-Bangalore/events/248148010/
+  blurb: "This is a hands on workshop that covers intermediate and advanced concepts of React. Covers topics like higher order components, server side rendering, performance optimisations"
+
+- name: DevHack 2018
+  title: "DevHack 2018: A hackathon by Axis Bank"
+  city:  Bangalore
+  venue: Online
+  start_time: 2018-03-12 09:00
+  end_time: 2018-03-31 23:59
+  url: https://www.axisbank.com/thoughtfactory/hackathon.html
+  blurb: "Build brilliant solutions for #Bankingtech sector at #DevHack2018 ,the one-of-its-kind hackathon by Thought Factory & Zone Startups & takeaway cash prizes, PoC opportunities and much more with Axis Bank. Problem statements: Live photo detection, Voice Authentication"
+
 - name: learning-nlp-bootcamp-may-2018
   title: "Bootcamp: Learning representations of text for NLP"
   city: Bangalore
@@ -746,7 +736,7 @@
   end_time: 2018-05-20 17:00
   url: https://anthillinside.in/2018-nlp-bootcamp/
   blurb: Learn and implement an end-to-end deep learning models for natural language processing.
-  
+
 - name: GitkubeWebinar@Hasura
   title: "Open Source Demo: Gitkube - Deploy to Kubernetes using git push"
   city: Bangalore
@@ -790,7 +780,7 @@
   start_time: 2018-04-13 10:00
   end_time: 2018-04-13 16:15
   url: https://fifthelephant.in/2018-sagemaker-workshop-mumbai/
-  blurb: Building, training and deploying machine learning models efficiently and at scale. 
+  blurb: Building, training and deploying machine learning models efficiently and at scale.
 
 - name: workshop-machine-learning-with-amazon-sagemaker-pune
   title: "Workshop: Machine Learning with Amazon SageMaker - Pune"
@@ -809,7 +799,7 @@
   end_time: 2018-04-27 16:15
   url: https://fifthelephant.in/2018-sagemaker-workshop-chennai/
   blurb: Building, training and deploying machine learning models efficiently and at scale.
-  
+
 - name: workshop-machine-learning-with-amazon-sagemaker-hyderabad
   title: "Workshop: Machine Learning with Amazon SageMaker - Hyderabad"
   city: Hyderabad
@@ -818,7 +808,16 @@
   end_time: 2018-05-03 16:15
   url: https://fifthelephant.in/2018-sagemaker-workshop-hyderabad/
   blurb: Building, training and deploying machine learning models efficiently and at scale.
-  
+
+- name: CTOTALK by OrangeScape
+  title: "Bigbasket's Tech Stack: Learning from the trenches of Scaling-up"
+  city:  Chennai
+  venue: OrangeScape Technologies, Chennai
+  start_time: 2018-04-28 11:00 
+  end_time: 2018-04-28 13:00
+  url: https://in.explara.com/e/cto-talk-by-orangescape
+  blurb: "CTOTalk is a platform for open dialogue and deep-learning where Chieftains of Technology Organizations (CTOs) from well-known companies come to share their successes and challenges with peers. For this edition we have Pramod Jajoo, Ex-CTO - Bigbasket & Partner - Kalaari Capital as Guest Speaker."
+
 - name: geekabyte-reactjs-workshop-mumbai
   title: "Geekabyte: Starter Byte Zero to Hero in React"
   city: Mumbai
@@ -854,7 +853,7 @@
   end_time: 2018-04-20 19:00
   url: https://rootconf.in/legacy-code-open-house/
   blurb: Learn more about legacy code and the costs associated with it.
-  
+
 - name: docker-meetup-walmartlabs
   title: "Docker meetup at WalmartLabs"
   city: Bangalore
