@@ -669,3 +669,10 @@ dhn:
     Web hosting and data center industry has an extensive information pool that needs to be shared to benefit the industry at large, but the knowledge flow is uneven due to the unavailability of quality online resources, specific to the niche.
     We fill this gap by providing a comprehensive information portal that promotes knowledge sharing and interaction between the industry members via news, informative articles, infographics, CXOs interviews, industry events’ reports and more.
     If you are a developer, programmer, web professional, designer, system administrator, reseller or a knowledge seeking IT enthusiast, then DHN is your one stop destination to stay updated about the latest industry trends.
+
+mydbops:
+  title: "MyDBOPS"
+  logo_url: https://images.hasgeek.com/embed/file/21f236217d704e93b16329899e6ad861
+  url: http://mydbops.com/
+  display_url: mydbops.com
+  blurb: |
