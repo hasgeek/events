@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Workshop: UnitTests for your python base"
+title: "Workshop: Writing unit tests: It's now or never!"
 subtitle: "Automate UnitTests using nose as you build code together at this workshop."
 datelocation: "20 May 2018, Bangalore"
 city: Bangalore
