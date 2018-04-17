@@ -47,6 +47,8 @@ overview:
 
     ### User Mapping
     Different people are at different levels in their security journey. The best person to answer the question which map is appropriate for you is you. Choose the one of the three listed here to get going.
+  
+    ![How to pick your pitstop](https://images.hasgeek.com/embed/file/7087f29c9f2d4b0397e16f880741afbb){:class="img-responsive"}
 
     | Roles & Responsibilities | Benefits | Recommended pitstops |
     | :----------------------- | :------- | :------------------- |
