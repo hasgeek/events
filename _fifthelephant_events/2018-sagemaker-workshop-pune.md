@@ -73,10 +73,10 @@ overview:
 
 
     ## Pre-requisites
-
-    - Participants should have an AWS Account with admin privileges in IAM and EC2 limit for P2 instances increased to 2 in AWS Region North Virginia (us-east-1). Check out [this](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html) doc to know more about how to increase EC2 limits. All participants will be provided AWS Credits for the workshop
     - Participants should carry own laptop.
-    - Participants should be familiar with AI / ML / DL and need to be hands-on practitioners.
+    - To participate in hands-on sessions, **you need to have an AWS account**. If you don’t have, please create one. You will be required to share credit card details to validate your identity. Please do create an account now as it take sometimes few hours to validate. We will be giving every participant 100$ credit for this workshop. At the end of  the workshop, you should terminate all Sagemaker resources created for the workshop (notebook instance, inference endpoints etc.) and delete all workshop related data from S3 to avoid unnecessary AWS Billing.
+    - There is a hands-on session in which you will be doing DNN training with GPUs. To follow this session, **participants should have an AWS Account with admin privileges in IAM and EC2 limit for p2.xlarge instances increased to 2 in AWS Region North Virginia (us-east-1)**. You can mention “to train Resnet model with Tensorflow on 2 p2.xlarge instances” as usecase in the form. Check out [this](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html) doc to know more about how to increase EC2 limits. All participants will be provided AWS Credits for the workshop. It usually takes 24 hours to validate. So please do this asap.
+    - Participants should be familiar with AI / ML / DL and need to be hands-on practitioners. 
 
 sponsor:
   blurb: |
