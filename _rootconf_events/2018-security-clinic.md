@@ -55,4 +55,21 @@ overview:
     | New to security | As a beginner, get started here |  - Application Security <br/>  - Network security | 
     | Security Execution in a technical role | You already understand parts of the challenge, now get a structure |  - Application Security <br/> - Network security <br/> - Threat modelling <br/> - Security Architecture reviews |
     | Security project management | Your job is tough but these pit stops will give you the common language to manage | - Threat modelling <br/> - Security Architecture reviews <br/> - Governance, Risk and Compliance |    
+
+    # Sign up!
+
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeuEswOfdHiI2dgE46LDQPqdO_C5pHE7OW7KbmhuHvY6_8VMA/viewform?usp=sf_link" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; height:45rem;">Loading...</iframe>
+
+sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, networking with IT managers and decision-makers, and hiring.
+    
+    Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com)
+  sponsorship_deck_url: 'http://hsgk.in/rootconf2018sponsor'
+  sponsors:
+  - title: ""
+    size: "l"
+    sponsors:
+    - appsecco
+
 ---
