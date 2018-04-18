@@ -48,17 +48,30 @@ overview:
     ### User Mapping
     Different people are at different levels in their security journey. The best person to answer the question which map is appropriate for you is you. Choose the one of the three listed here to get going.
 
-    ![How to pick your pitstop](https://images.hasgeek.com/embed/file/ea1dc71504094c34b63d34d9aa677387){:class="img-responsive"}
+    ![How to pick your pitstop](https://images.hasgeek.com/embed/file/7087f29c9f2d4b0397e16f880741afbb){:class="img-responsive"}
 
     | Roles & Responsibilities | Benefits | Recommended pitstops |
     | :----------------------- | :------- | :------------------- |
     | New to security | As a beginner, get started here |  - Application Security <br/>  - Network security |
     | Security Execution in a technical role | You already understand parts of the challenge, now get a structure |  - Application Security <br/> - Network security <br/> - Threat modelling <br/> - Security Architecture reviews |
-    | Security project management | Your job is tough but these pit stops will give you the common language to manage | - Threat modelling <br/> - Security Architecture reviews <br/> - Governance, Risk and Compliance |
+    | Security project management | Your job is tough but these pit stops will give you the common language to manage | - Threat modelling <br/> - Security Architecture reviews <br/> - Governance, Risk and Compliance |    
 
     # Sign up!
+    Note: You will need to purchase a ticket which gives you access to the conference. The security clinic is included in the ticket bundles.
 
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeuEswOfdHiI2dgE46LDQPqdO_C5pHE7OW7KbmhuHvY6_8VMA/viewform?usp=sf_link" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; height:45rem;">Loading...</iframe>
+
+related_events:
+  - rootconf-legacy-code-open-house
+  - rootconf-2018-docker-meetup-tf
+  - rootconf-2018-designing-microservices
+  - rootconf-2018-designing-restful-apis
+  - rootconf-2018-automation-with-ansible
+  - rootconf-2018-security-clinic
+  - rootconf-2018-kubernetes-201
+  - rootconf-2018-monitoring-servers
+  - rootconf-2018-scalable-applications-openfaas
+  - rootconf-2018-unittests-for-python
 
 sponsor:
   blurb: |
