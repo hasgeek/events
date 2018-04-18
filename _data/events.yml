@@ -860,7 +860,7 @@
   venue: WalmartLabs, Bangalore
   start_time: 2018-04-28 09:30
   end_time: 2018-04-28 13:00
-  url: https://rootconf.in/2018-docker-meetup-walmartlabs/
+  url: https://rootconf.in/2018-docker-meetup-tf/
   blurb: A hands-on workshop on Docker.
 
 - name: vuejs-0-1-js-ts
