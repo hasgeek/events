@@ -5,6 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rootconf.in" # the base hostname & protocol for your site, e.g. http://example.com
 id: rootconf
 ga_tracking_code: UA-19123154-21
+twitter_tracking_code: nzdrl
 # Build settings
 markdown: kramdown
 plugins:
