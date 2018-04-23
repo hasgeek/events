@@ -6,6 +6,7 @@ url: "https://rootconf.in" # the base hostname & protocol for your site, e.g. ht
 id: rootconf
 ga_tracking_code: UA-19123154-21
 twitter_tracking_code: nzdrl
+fb_tracking_code: 939847969521385
 # Build settings
 markdown: kramdown
 plugins:
