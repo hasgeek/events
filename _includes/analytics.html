@@ -74,14 +74,14 @@
 
 <script>
 $(document).ready( function() {
-  $( document ).on( "boxofficeTicketingEvents", function( event, userAction, label, value ) {
-
+  $(document).on( "boxofficeTicketingEvents", function(event, userAction, label, value) {
+    
     if (typeof ga !== "undefined") {
       ga('send', { hitType: 'event', eventCategory: 'ticketing', eventAction: userAction, eventLabel: label, eventValue: value});
     }
 
     if (typeof fbq !== "undefined") {
-      if (userAction == 'add ticket') {
+      if (userAction == 'add ticket' || userAction == 'First interaction') {
         fbq('track', 'AddToCart');
       } else if (userAction == 'checkout') {
         fbq('track', 'InitiateCheckout');
