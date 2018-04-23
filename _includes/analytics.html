@@ -75,20 +75,25 @@
 <script>
 $(document).ready( function() {
   $( document ).on( "boxofficeTicketingEvents", function( event, userAction, label, value ) {
+
     if (typeof ga !== "undefined") {
       ga('send', { hitType: 'event', eventCategory: 'ticketing', eventAction: userAction, eventLabel: label, eventValue: value});
     }
-    if (userAction == 'add ticket') {
-      fbq('track', 'AddToCart');
-    } else if (userAction == 'checkout') {
-      fbq('track', 'InitiateCheckout');
-    } else if (userAction == 'order creation') {
-      fbq('track', 'AddPaymentInfo');
-    } else if(userAction == 'capture payment') {
-      fbq('track', 'Purchase', {value: value, currency: 'INR'});
-    } else if(userAction == 'booking complete') {
-      fbq('track', 'CompleteRegistration');
+
+    if (typeof fbq !== "undefined") {
+      if (userAction == 'add ticket') {
+        fbq('track', 'AddToCart');
+      } else if (userAction == 'checkout') {
+        fbq('track', 'InitiateCheckout');
+      } else if (userAction == 'order creation') {
+        fbq('track', 'AddPaymentInfo');
+      } else if(userAction == 'capture payment') {
+        fbq('track', 'Purchase', {value: value, currency: 'INR'});
+      } else if(userAction == 'booking complete') {
+        fbq('track', 'CompleteRegistration');
+      }
     }
+
   });
 });
 </script>
