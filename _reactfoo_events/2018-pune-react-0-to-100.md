@@ -2,12 +2,20 @@
 layout: workshop
 title: "Workshop: React 0 to 100 in a day"
 subtitle: "Learn React and start implementing reusable, interactive and stateful UI components"
-datelocation: "28 April 2018, Pune"
+datelocation: "28 April 2018, ThoughtWorks, Pune"
 city: Pune
 start_time: 2018-04-28
 end_time: 2018-04-28
 description: "This workshop starts with understanding the basic internals of React before exploring how to \"think in React\", best practices and solutions to real problems that you will experience while building an application."
 boxoffice_item_collection: "b3d82b14-e63d-4b42-ba9c-cd10227a6bf4"
+
+venue:
+  label: Thoughtworks, Pune.
+  address: |
+    Thoughtworks, 6th Floor, Binarius Building, Deepak Complex, National Games Road, Beside Sales Tax Office, Shastrinagar, Yerawada, Pune, Maharashtra 411006.
+  lat: 18.555971
+  lng: 73.891900
+  google_maps_url: https://goo.gl/maps/mid1UtnuLfu
 
 instructors:
 - name: Manjula Dube
