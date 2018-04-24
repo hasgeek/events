@@ -30,6 +30,15 @@ instructors:
   bio: |
     Akshay is a programming standards enthusiast and he comes with a strong background in Python and Java building various systems for scale earlier for Paypal and now MoEngage. He tries to make writing production-grade code as easy as a breeze for anyone and everyone. As Technical Architect at MoEngage, making systems (distributed obviously) dance to his tune is something he enjoys. Some of his major contributions have been building an in-memory cache, a python-based structural/contextual log writer, an ORM to build Structured/Unstructured Objects and saving them to any downstream database etc. Outside of work, he enjoys food and listening to music. He plays badminton regularly and loves competing there. 
 
+related_events:
+- rootconf-2018
+- rootconf-2018-designing-microservices
+- rootconf-2018-designing-restful-apis
+- rootconf-2018-automation-with-ansible
+- rootconf-2018-kubernetes-201
+- rootconf-2018-monitoring-servers
+- rootconf-2018-scalable-applications-openfaas
+
 overview:
   left_content: |
 
