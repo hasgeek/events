@@ -24,7 +24,13 @@ schedule:
   url: "https://reactfoo.talkfunnel.com/2018-mumbai/schedule"
   json_url: "https://reactfoo.talkfunnel.com/2018-mumbai/schedule/json"
   type: "conference"
-  
+
+related_events:
+- reactfoo-2018-pune-react-0-to-100
+- reactfoo-2018-mumbai-graphql-apollo-workshop
+- reactfoo-2018-delhi
+
+
 overview:
   left_content: |
     After successful editions in Bangalore and Pune, ReactFoo travels to other cities like Hyderabad, Mumbai and Delhi. The Mumbai edition will focus on the following topics:
