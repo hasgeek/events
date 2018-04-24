@@ -18,6 +18,16 @@ instructors:
   byline: Associate Software Engineer, Red Hat.
   bio: |
     Rahul is a part of the official foreman organization. He contributes mostly to the Foreman project and is a ‘Red Hat Certified Specialist in Configuration Management’. He is also the organizer of Foreman Pune Meetups. 
+
+related_events:
+- rootconf-2018
+- rootconf-2018-designing-microservices
+- rootconf-2018-designing-restful-apis
+- rootconf-2018-kubernetes-201
+- rootconf-2018-monitoring-servers
+- rootconf-2018-scalable-applications-openfaas
+- rootconf-2018-unittests-for-python
+
 overview:
   left_content: |
 
