@@ -7,6 +7,8 @@ colors:
   primary: "#549EAF"
   accent: "#FAA51A"
 ga_tracking_code: UA-19123154-15
+twitter_tracking_code: nzdrl
+fb_tracking_code: 939847969521385
 icons:
   touch:
   - src: "images/touch/jsfoo-icon-300.png"

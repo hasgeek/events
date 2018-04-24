@@ -7,6 +7,8 @@ colors:
   primary: "#b22e40"
   accent: "#921b3f"
 ga_tracking_code: UA-19123154-19
+twitter_tracking_code: nzdrl
+fb_tracking_code: 939847969521385
 icons:
   touch:
   - src: "images/touch/metarefresh-icon-192.png"

@@ -10,6 +10,8 @@ meta:
   image: "images/meta/fragments.png"
 id: fragments
 ga_tracking_code: UA-19123154-37
+twitter_tracking_code: nzdrl
+fb_tracking_code: 939847969521385
 service_worker: true
 id: fragments
 # Build settings
