@@ -7,6 +7,8 @@ colors:
   primary: "#3f50a3"
   accent: "#e76f45"
 ga_tracking_code: UA-19123154-36
+twitter_tracking_code: nzdrl
+fb_tracking_code: 939847969521385
 icons:
   touch:
   - src: "images/touch/anthillinside-icon-192.png"
