@@ -13,6 +13,11 @@ funnel:
   url: "https://reactfoo.talkfunnel.com/2018-delhi/"
   open: true
   
+related_events:
+- reactfoo-2018-pune-react-0-to-100
+- reactfoo-2018-mumbai
+- reactfoo-2018-mumbai-graphql-apollo-workshop
+
 overview:
   left_content: |
     After successful editions in Bangalore and Pune, ReactFoo travels to other cities like Hyderabad, Mumbai and Delhi. The Delhi edition will focus on the following topics:
