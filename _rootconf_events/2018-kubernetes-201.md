@@ -20,6 +20,7 @@ instructors:
     [Neependra Khare](https://twitter.com/neependra){:target="_blank"} is Founder and Principal Consultant at [CloudYuga](www.cloudyuga.guru){:target="_blank"}. CloudYuga provides training and consulting on Docker, Kubernetes, CoreOS, GO Programming etc. He is one of the [Docker Captain](https://www.docker.com/community/docker-captains){:target="_blank"} as well and running [Docker Meetup Group in Bangalore](https://www.meetup.com/Docker-Bangalore/){target="_target"} for 4 years. In 2015 he authored a book on Docker, [Docker Cookbook](https://www.packtpub.com/virtualization-and-cloud/docker-cookbook){:target="_blank"}. In 2016 he co-authored a course on [Cloud Infrastructure Technologies at Edx for Linux Foundation](https://www.edx.org/course/introduction-cloud-infrastructure-linuxfoundationx-lfs151-x){:target="_blank"}. Last year he launched few [container ralated courses](https://school.cloudyuga.guru/){:target="_blank"}, including [Introduction to Kubernetes course](https://www.edx.org/course/introduction-to-kubernetes){:target="_blank"} on Edx for The Linux Foundation.
 
 related_events:
+- rootconf-2018
 - rootconf-2018-designing-microservices
 - rootconf-2018-designing-restful-apis
 - rootconf-2018-automation-with-ansible
