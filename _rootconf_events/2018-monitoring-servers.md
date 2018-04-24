@@ -20,6 +20,7 @@ instructors:
     Working as DevOps Engineer at Scripbox. Having 5 years of experience in Ruby on Rails. Currently working on Elixir and Phoenix.
 
 related_events:
+- rootconf-2018
 - rootconf-2018-designing-microservices
 - rootconf-2018-designing-restful-apis
 - rootconf-2018-automation-with-ansible
