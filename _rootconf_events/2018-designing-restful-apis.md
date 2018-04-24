@@ -20,6 +20,7 @@ instructors:
     [Anand](https://twitter.com/anandology){:target="_blank"} has been crafting beautiful software since a decade and half. He’s now building a data science platform, [rorodata](https://rorodata.com/){:target="_blank"}, which he recently co-founded. He regularly conducts advanced programming courses through [Pipal Academy](https://pipal.in/){:target="_blank"}. He is co-author of web.py, a micro web framework in Python. He has worked at Strand Life Sciences and Internet Archive.
 
 related_events:
+- rootconf-2018
 - rootconf-2018-designing-microservices
 - rootconf-2018-automation-with-ansible
 - rootconf-2018-kubernetes-201
