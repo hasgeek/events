@@ -20,6 +20,7 @@ instructors:
     Rahul is a part of the official foreman organization. He contributes mostly to the Foreman project and is a ‘Red Hat Certified Specialist in Configuration Management’. He is also the organizer of Foreman Pune Meetups. 
 
 related_events:
+- rootconf-2018
 - rootconf-2018-designing-microservices
 - rootconf-2018-designing-restful-apis
 - rootconf-2018-kubernetes-201
