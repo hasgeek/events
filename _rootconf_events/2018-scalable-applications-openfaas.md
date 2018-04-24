@@ -20,6 +20,7 @@ instructors:
     Vivek is a tech enthusiast with over 11 years experience in the Software Industry. He is currently working as a Developer Advocate with DigitalOcean and has been a Technology Advisor to several tech startups. Previously he was Head of DevOps & QA at Blackbuck and was a DevOps Solution Architect at HCL (Australia) in client engagement and pre-sales roles. Vivek started his career with IBM Rational (INDIA Software Labs) and is passionate about working with software developer communities. 
 
 related_events:
+- rootconf-2018
 - rootconf-2018-designing-microservices
 - rootconf-2018-designing-restful-apis
 - rootconf-2018-automation-with-ansible
