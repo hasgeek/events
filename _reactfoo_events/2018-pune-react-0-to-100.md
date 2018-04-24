@@ -26,6 +26,12 @@ instructors:
   byline: Senior Developer at BookMyShow.
   bio: |
     Manjula Dube works on React/Redux and led the PWA team at bookmyshow. She is an established speaker at React conferences around the world (JSChannel, Reactfoo, ReactAmsterdam, ReactBerlin). She’s also an organizer of Mumbai Women Coders.
+
+related_events:
+- reactfoo-2018-mumbai
+- reactfoo-2018-mumbai-graphql-apollo-workshop
+- reactfoo-2018-delhi
+
 overview:
   left_content: |
 
