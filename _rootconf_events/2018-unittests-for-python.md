@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: Writing unit tests: It's now or never!"
 subtitle: "Automate UnitTests using nose as you build code together at this workshop."
-datelocation: "20 May 2018, Bangalore"
+datelocation: "10 AM to 1:15 PM, 20 May 2018, Bangalore"
 city: Bangalore
 start_time: 2018-05-20
 end_time: 2018-05-20
