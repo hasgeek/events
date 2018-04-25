@@ -24,7 +24,7 @@ npm install
 
 npm link lru-cache
 
-gulp generate-service-worker
+# gulp generate-service-worker
 
 git init
 
