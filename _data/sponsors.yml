@@ -615,6 +615,19 @@ avi:
   url: https://avinetworks.com/
   display_url: www.avinetworks.com
   blurb: |
+    Delivering Cloud-like Simplicity for Application Networking to Enterprises
+
+    Enterprises seek public-cloud- like agility. However, appliance-based load balancers can’t meet the needs of cloud-native applications in modern data centers. We built
+    Avi Networks to match the application services needs of these dynamic environments that go well beyond load balancing. Avi eliminates overspending and
+    over-provisioning and elevates load balancing by taking advantage of the strategic position of load balancers (in the path of application traffic) to deliver application insights that have never before been possible. The Avi Vantage
+    Platform delivers elastic and programmable application services on standard x86 servers, VMs, or containers on-premises or in the cloud.
+
+    “We immediately knew we had hit the ‘holy grail’ for app delivery.”
+
+    We built the Avi Vantage Platform on software-defined principles to separate the control plane (for central management) from the data plane (of distributed load
+    balancers). Global 2000 technology, media, and financial services companies use Avi Networks to deliver scalable application-centric services in SDN load
+    balancing, OpenStack, VMware, container, bare metal, or public cloud environments. PS: Avi means “rising sun” in Sanskrit. By eliminating the final obstacles that
+    customers face in dynamic data centers and clouds, we bring them to the dawn of accelerated service delivery.
 
 postman:
   title: "Postman"
