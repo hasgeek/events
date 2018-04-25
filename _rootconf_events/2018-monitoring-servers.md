@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: Monitoring Servers using Collectd, Riemann, Graphite and Grafana"
 subtitle: "Make your server monitoring cost effective using open source tools."
-datelocation: "13 May 2018, Bangalore"
+datelocation: "10 AM to 1:30 PM, 13 May 2018, Bangalore"
 city: Bangalore
 start_time: 2018-05-13
 end_time: 2018-05-13
