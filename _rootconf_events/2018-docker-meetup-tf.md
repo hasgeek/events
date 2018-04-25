@@ -52,8 +52,8 @@ sponsor:
 
     Write to us for the sponsorship deck or for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
   sponsors:
-  - title: "Sponsored By"
+  - title: "Venue Partner"
     size: "l"
     sponsors:
-    - walmartlabs     
+    - thoughtfactory
 ---
