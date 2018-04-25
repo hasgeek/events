@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: React 0 to 100 in a day"
 subtitle: "Learn React and start implementing reusable, interactive and stateful UI components"
-datelocation: "28 April 2018, ThoughtWorks, Pune"
+datelocation: "11 AM to 5 PM,28 April 2018, ThoughtWorks, Pune"
 city: Pune
 start_time: 2018-04-28
 end_time: 2018-04-28
