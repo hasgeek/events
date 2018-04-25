@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: Kubernetes 201"
 subtitle: "Upskill with advance topics of Kubernetes."
-datelocation: "13 May 2018, Bangalore"
+datelocation: " 9:30 AM to 1:15 PM, 13 May 2018, Bangalore"
 city: Bangalore
 start_time: 2018-05-13
 end_time: 2018-05-13
