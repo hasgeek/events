@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: Automation with Ansible - 101"
 subtitle: "Get deep-dive Hands-On experience in developing Ansible playbooks."
-datelocation: "9 May 2018, Bangalore"
+datelocation: "10 AM to 1:15 PM, 9 May 2018, Bangalore"
 city: Bangalore
 start_time: 2018-05-09
 end_time: 2018-05-09
