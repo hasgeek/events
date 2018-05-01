@@ -2,12 +2,22 @@
 layout: workshop
 title: "Workshop: Writing unit tests: It's now or never!"
 subtitle: "Automate UnitTests using nose as you build code together at this workshop."
-datelocation: "10 AM to 1:15 PM, 20 May 2018, Bangalore"
+datelocation: "10 AM to 1:15 PM, 20 May 2018, ThoughtFactory, Bangalore"
 city: Bangalore
 start_time: 2018-05-20
 end_time: 2018-05-20
 description: "This workshop is aimed at people who would like to improve their development skills by practially learning to write professional quality code"
 boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
+
+venue:
+  label: ThoughtFactory, Bangalore
+  address: |
+    ThoughtFactory,
+    Tower D, 2nd Floor,
+    Diamond District, Bengaluru, Karnataka 560102
+  lat: 12.95921
+  lng: 77.64431
+  google_maps_url: https://goo.gl/maps/eaNceNnatu62
 
 instructors:
 - name: Pooja Shah
