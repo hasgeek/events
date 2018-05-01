@@ -2,12 +2,22 @@
 layout: workshop
 title: "Workshop: Kubernetes 201"
 subtitle: "Upskill with advance topics of Kubernetes."
-datelocation: " 9:30 AM to 1:15 PM, 13 May 2018, Bangalore"
+datelocation: " 9:30 AM to 1:15 PM, 13 May 2018, ThoughtFactory, Bangalore"
 city: Bangalore
 start_time: 2018-05-13
 end_time: 2018-05-13
 description: "In 2017, Kubernetes had emerged as default choice of Container Orchestration. This workshop will look at some of the advance topics of Kubernetes like RBAC, Ingress, Storage management, Monitoring etc. "
 boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
+
+venue:
+  label: ThoughtFactory, Bangalore
+  address: |
+    ThoughtFactory,
+    Tower D, 2nd Floor,
+    Diamond District, Bengaluru, Karnataka 560102
+  lat: 12.95921
+  lng: 77.64431
+  google_maps_url: https://goo.gl/maps/eaNceNnatu62
 
 instructors:
 - name: Neependra Khare
