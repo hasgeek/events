@@ -2,12 +2,22 @@
 layout: workshop
 title: "Workshop: Automation with Ansible - 101"
 subtitle: "Get deep-dive Hands-On experience in developing Ansible playbooks."
-datelocation: "10 AM to 1:15 PM, 9 May 2018, Bangalore"
+datelocation: "10 AM to 1:15 PM, 9 May 2018, Thoughtfactory, Bangalore"
 city: Bangalore
 start_time: 2018-05-09
 end_time: 2018-05-09
 description: "Ansible is software that automates software provisioning, configuration management, and application deployment. Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on remote systems."
 boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
+
+venue:
+  label: ThoughtFactory, Bangalore
+  address: |
+    ThoughtFactory,
+    Tower D, 2nd Floor,
+    Diamond District, Bengaluru, Karnataka 560102
+  lat: 12.95921
+  lng: 77.64431
+  google_maps_url: https://goo.gl/maps/eaNceNnatu62
 
 instructors:
 - name: Rahul Bajaj
