@@ -2,12 +2,22 @@
 layout: workshop
 title: "Workshop: Automation with Ansible - 101"
 subtitle: "Get deep-dive Hands-On experience in developing Ansible playbooks."
-datelocation: "10 AM to 1:15 PM, 9 May 2018, Bangalore"
+datelocation: "10 AM to 1:15 PM, 9 May 2018, Thoughtfactory, Bangalore"
 city: Bangalore
 start_time: 2018-05-09
 end_time: 2018-05-09
 description: "Ansible is software that automates software provisioning, configuration management, and application deployment. Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on remote systems."
 boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
+
+venue:
+  label: ThoughtFactory, Bangalore
+  address: |
+    ThoughtFactory,
+    Tower D, 2nd Floor,
+    Diamond District, Bengaluru, Karnataka 560102
+  lat: 12.95921
+  lng: 77.64431
+  google_maps_url: https://goo.gl/maps/eaNceNnatu62
 
 instructors:
 - name: Rahul Bajaj
@@ -28,6 +38,17 @@ related_events:
 - rootconf-2018-scalable-applications-openfaas
 - rootconf-2018-unittests-for-python
 
+sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, sales and hiring.
+
+    Write to us for the sponsorship deck or for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - thoughtfactory
+
 overview:
   left_content: |
 
@@ -45,39 +66,39 @@ overview:
 
     This workshop introduces a beginner to basic fundamentals of Ansible with easy to do hands-on exercises. The workshop introduces basic use cases of Ansible followed by an introduction to Ansible Inventory, Playbooks, Modules, Variables, Conditionals, Loops and Roles. Each mentioned topic is accompanied by a set of coding exercises giving the attendies a hands-on experience in developing Ansible Playbooks.
 
-    - Introduction to configuration management [15 mins]
+    #### Introduction to configuration management [15 mins]
 
-    > What is configuration management? <br>
-    > Agent vs Agent-less <br>
-    > Push and Pull configurations. <br>
-    > Imperative vs Declarative
+    - What is configuration management? <br>
+    - Agent vs Agent-less <br>
+    - Push and Pull configurations. <br>
+    - Imperative vs Declarative
 
-    - DevOps Concepts [10 mins]
+    #### DevOps Concepts [10 mins]
 
-    > Infrastructure as code. <br>
-    > Deterministic Builds/Deployements. <br>
-    > Idempotency. <br>
-    > Communications channels – Message Queueing vs SSH
+    - Infrastructure as code. <br>
+    - Deterministic Builds/Deployements. <br>
+    - Idempotency. <br>
+    - Communications channels – Message Queueing vs SSH
 
-    - Indroduction to Ansible [30 mins]
+    #### Indroduction to Ansible [30 mins]
 
-    > Requirements <br>
-    > Installation <br>
-    > Configuration
+    - Requirements <br>
+    - Installation <br>
+    - Configuration
 
-    - Working with Ansible [100 mins]
+    #### Working with Ansible [100 mins]
 
-    > Ansible Inventory <br>
-    > Playbooks <br>
-    > Modules <br>
-    > Variables <br>
-    > Conditionals <br>
-    > Loops <br>
-    > Roles <br>
-    > Anisble Galaxy
+    - Ansible Inventory <br>
+    - Playbooks <br>
+    - Modules <br>
+    - Variables <br>
+    - Conditionals <br>
+    - Loops <br>
+    - Roles <br>
+    - Anisble Galaxy
 
-    - Ansible in DevOps environment [20 mins]
+    #### Ansible in DevOps environment [20 mins]
 
-    - Questions and Answers [10 mins] 
+    #### Questions and Answers [10 mins] 
 
 ---
