@@ -45,39 +45,39 @@ overview:
 
     This workshop introduces a beginner to basic fundamentals of Ansible with easy to do hands-on exercises. The workshop introduces basic use cases of Ansible followed by an introduction to Ansible Inventory, Playbooks, Modules, Variables, Conditionals, Loops and Roles. Each mentioned topic is accompanied by a set of coding exercises giving the attendies a hands-on experience in developing Ansible Playbooks.
 
-    - Introduction to configuration management [15 mins]
+    #### Introduction to configuration management [15 mins]
 
-    > What is configuration management? <br>
-    > Agent vs Agent-less <br>
-    > Push and Pull configurations. <br>
-    > Imperative vs Declarative
+    - What is configuration management? <br>
+    - Agent vs Agent-less <br>
+    - Push and Pull configurations. <br>
+    - Imperative vs Declarative
 
-    - DevOps Concepts [10 mins]
+    #### DevOps Concepts [10 mins]
 
-    > Infrastructure as code. <br>
-    > Deterministic Builds/Deployements. <br>
-    > Idempotency. <br>
-    > Communications channels – Message Queueing vs SSH
+    - Infrastructure as code. <br>
+    - Deterministic Builds/Deployements. <br>
+    - Idempotency. <br>
+    - Communications channels – Message Queueing vs SSH
 
-    - Indroduction to Ansible [30 mins]
+    #### Indroduction to Ansible [30 mins]
 
-    > Requirements <br>
-    > Installation <br>
-    > Configuration
+    - Requirements <br>
+    - Installation <br>
+    - Configuration
 
-    - Working with Ansible [100 mins]
+    #### Working with Ansible [100 mins]
 
-    > Ansible Inventory <br>
-    > Playbooks <br>
-    > Modules <br>
-    > Variables <br>
-    > Conditionals <br>
-    > Loops <br>
-    > Roles <br>
-    > Anisble Galaxy
+    - Ansible Inventory <br>
+    - Playbooks <br>
+    - Modules <br>
+    - Variables <br>
+    - Conditionals <br>
+    - Loops <br>
+    - Roles <br>
+    - Anisble Galaxy
 
-    - Ansible in DevOps environment [20 mins]
+    #### Ansible in DevOps environment [20 mins]
 
-    - Questions and Answers [10 mins] 
+    #### Questions and Answers [10 mins] 
 
 ---
