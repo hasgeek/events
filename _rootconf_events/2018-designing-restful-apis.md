@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: Designing RESTful APIs"
 subtitle: "Learn everything that you need to know to design great RESTful APIs"
-datelocation: "10 AM to 5 PM, 6 May 2018, Bangalore"
+datelocation: "10 AM to 5 PM, 6 May 2018, Datalicious, Bangalore"
 city: Bangalore
 start_time: 2018-05-06
 end_time: 2018-05-06
