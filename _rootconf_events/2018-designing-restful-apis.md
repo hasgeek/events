@@ -32,9 +32,9 @@ overview:
   left_content: |
 
     # Abstract
-    REST is a simple architectural style based on the priniciples of HTTP for building modern web applications and APIs. This hands-on workshop takes you through everything that you need to know to design great RESTful APIs.
+    REST is a simple architectural style based on the principles of HTTP for building modern web applications and APIs. This hands-on workshop takes you through everything that you need to know to design great RESTful APIs.
 
-    During the workshop, the participants will understand the key concepts behind RESTful APIs, critically examine some of the popular APIs, design an API from scratch and see how APIs evolve. We’ll also take couple of popular APIs, rip them apart and design a better version of them. Partipants will be divided into smaller groups to allow discussions and most of the time is spent in thinking about the APIs and discussions.
+    During the workshop, the participants will understand the key concepts behind RESTful APIs, critically examine some of the popular APIs, design an API from scratch and see how APIs evolve. We’ll also take couple of popular APIs, rip them apart and design a better version of them. Participants will be divided into smaller groups to allow discussions and most of the time is spent in thinking about the APIs and discussions.
 
     # Links
 
@@ -67,12 +67,12 @@ overview:
         * version 3 - add support for comments
         * version 4 - add suport for authors
 
-    * Authentication and Secutity
+    * Authentication and Security
         * Introduction to authentication patterns
         * Study of Basic Auth, OAuth, access keys and JWT
         * Adding authentication to the blog API
 
-    * Excercises
+    * Exercises
 
     * Best Practices
         * Pratical tips and tricks
