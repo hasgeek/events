@@ -1,7 +1,7 @@
 ---
 layout: workshop
-title: "Workshop: Design and implement a scalable application using OpenFaaS"
-subtitle: "Learn to buil and scale applications by building API's for an e-commerce site"
+title: "Workshop: Design & implement a scalable application using OpenFaaS (Functions as a Service)"
+subtitle: ""
 datelocation: "9 AM to 1:30 PM, 19 May 2018, Bangalore"
 city: Bangalore
 start_time: 2018-05-19
@@ -33,17 +33,51 @@ overview:
 
     # Abstract
     
-    - How infrastructure evolved from Data Center to functions <br><br>
-    - When to think about designing functions (Important considerations - break event points, startup latency, complexity managing processes and many more) <br><br>
-    - Principles & uses cases <br><br>
-    - Emerging technologies in the area of functions from security, management, governance, data access, event management & platforms perspective <br><br>
-    - Introduction to one of the platform and framework for functions - OpenFaaS <br><br>
-    - Design principles/patterns from a functions perspective <br><br>
+    Is there a better time to be a developer! Thanks to Cloud Computing, deploying applications is much more comfortable than it used to be. Serverless computing is an abstraction layer in the cloud. It does not mean that there are no servers, but instead, underlying infrastructure (VM, storage, containers, etc.), as well as the operating system, is abstracted away from the developer. Applications are run in compute containers that are event triggered. Developers have to create functions and depend on the infrastructure to allocate the proper resources to execute the task. Manage the load by creating copies of the functions and scale to meet the demand. 
+
+    OpenFaaS (Functions as a Service) is a framework for building serverless functions with Docker Swarm or Kubernetes which has fantastic support for metrics. We can package/deploy any simple API / service as a function.
+
+    At a high level in this session, we will discuss and deploy some the functions to Docker Swarm & Kubernetes. We will apply the functions design pattern to build the e-commerce site and learn how to connect functions to UI, connect functions to functions and scale this application with Docker Swarm / Kubernetes. We will touch upon monitoring which is an in-stacked component of OpenFaaS. At the end of the session, participants should be able to build & deploy some of the functions integrated with UI and understand how to orchestrate functions to build applications with some lab exercise.
     
+
+    # Resources
+
+    The material for this workshop will be available on GitHub with documentation and slides used for this workshop.
+
 
   right_content: |
-    # Outline:
+    # Outline
 
-    We will build API’s for an e-commerce site (using OpenFaaS framework) and learn how to connect them via UI and scale this application using Docker & K8’s and touch up monitoring which is an in-built component of OpenFaaS. 
+    - How infrastructure evolved from DC to functions
+        
+    - Use - Cases & Problems
     
+    - Emerging technologies to solve problems related to scale
+    
+    - Introduction to the OpenFaaS framework (Hand-On)
+    
+        - Installing OpenFaaS
+    
+        - Deploy a function & learn FaaS CLI
+    
+        - Metrics & Prometheus
+    
+        - Introduction to Functions templates & deep-dive
+    
+        - Integrating UI with functions
+    
+        - Collaborating with other functions
+    
+        - Auto-Scaling demo with OpenFaaS
+        
+    # Pre-requisites
+
+    1. This is a hands-on workshop, and hence, participants should bring laptops and should be comfortable with any one of  the programming language (Go, Python3, Python, NodeJS, etc.)
+    2. Prior knowledge of Docker / Microservices & DigitalOcean is helpful.
+
+    # Takeaways
+
+    At the end of the session, attendees should be able to build & deploy some of the functions integrated with UI and understand how to orchestrate functions to create scalable applications.
+
+
 ---
