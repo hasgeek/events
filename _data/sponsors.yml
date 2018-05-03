@@ -734,4 +734,11 @@ cis:
   url: https://cis-india.org/
   display_url: cis-india.org
   blurb: |
-    
+
+nutanix:
+  title: "NUTANIX"
+  logo_url: https://images.hasgeek.com/embed/file/284897b925d84112b54ae3833408146f
+  url: https://www.nutanix.com/
+  display_url: www.nutanix.com
+  blurb: |
+
