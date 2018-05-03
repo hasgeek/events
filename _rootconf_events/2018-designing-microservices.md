@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: Designing Microservices"
 subtitle: "Hands-on workshop to deep-dive into the world of microservices"
-datelocation: "10 AM to 5 PM, 5 May 2018, Bangalore"
+datelocation: "10 AM to 5 PM, 5 May 2018, Datalicious, Bangalore"
 city: Bangalore
 start_time: 2018-05-05
 end_time: 2018-05-05
