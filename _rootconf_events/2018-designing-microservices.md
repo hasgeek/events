@@ -9,6 +9,14 @@ end_time: 2018-05-05
 description: "In this workshop, participants get to know what it takes to design an application as microservices, while clearly undertanding the price they are paying and the the benefits they are receiving. During the workshop, the participants will be divided into groups of 4/5 people and each group will discuss and design a non-trivial application as microservices."
 boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
 
+venue:
+  label: Datalicious, Bangalore
+  address: |
+    L77, 15th Cross Rd, Sector 6, HSR Layout, Bengaluru, Karnataka 560102
+  lat: 12.9140351
+  lng: 77.5604874
+  google_maps_url: https://goo.gl/maps/vviVVX3LiLL2
+  
 instructors:
 - name: Anand Chitipothu 
   image_url: https://images.hasgeek.com/embed/file/682380671aae4a41aef7ca3e17a15005
