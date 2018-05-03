@@ -56,10 +56,18 @@ overview:
 
     Ansible is software that automates software provisioning, configuration management, and application deployment. Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on remote systems.
 
-    # Requirements:
+    # Pre-Requisites
 
     - Basic Linux Administrator Skills
     - Open mind and spirit to learn.
+    
+    # Software Requirements
+    
+    We will be using two centos7 vagrant machines for the workshop. Make sure you are using a Linux distribution and have vagrant configured with any of the providers like libvirt, virtual box, etc.
+
+    If you are unable to install vagrant on your Linux systems, then you might want to install Fedora operating system and come for the workshop, we can do the rest together.
+
+
 
   right_content: |
     # Outline:
