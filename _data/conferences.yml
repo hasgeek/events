@@ -84,9 +84,9 @@
   city: Bangalore
   venue: NIMHANS Convention Centre, Dairy Circle
   google_maps_pin: https://goo.gl/maps/guzuU8H37Zy
-  start_time: 2019-01-01
-  end_time: 2019-01-01
-  funnel: https://metarefresh.in/2017/
+  start_time: 2018-10-26
+  end_time: 2018-10-27
+  funnel: https://metarefresh.in/2018/
   blurb: On interaction design and CSS from product and business standpoints.
   color:
     primary: "#b22e40"
