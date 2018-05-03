@@ -9,6 +9,14 @@ end_time: 2018-05-06
 description: "This workshop takes you through the key concept of RESTful APIs, and gives you the experience of desiging a better version for some of the popular APIs."
 boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
 
+venue:
+  label: Datalicious, Bangalore
+  address: |
+    L77, 15th Cross Rd, Sector 6, HSR Layout, Bengaluru, Karnataka 560102
+  lat: 12.9140351
+  lng: 77.5604874
+  google_maps_url: https://goo.gl/maps/vviVVX3LiLL2
+  
 instructors:
 - name: Anand Chitipothu 
   image_url: https://images.hasgeek.com/embed/file/682380671aae4a41aef7ca3e17a15005
