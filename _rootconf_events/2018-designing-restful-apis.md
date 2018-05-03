@@ -36,6 +36,17 @@ related_events:
 - rootconf-2018-scalable-applications-openfaas
 - rootconf-2018-unittests-for-python
 
+sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, sales and hiring.
+
+    Write to us for the sponsorship deck or for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - datalicious
+    
 overview:
   left_content: |
 
