@@ -21,6 +21,20 @@ layout: base
     {% include assign_all_events.html %}
     <div class="columns is-centered is-multiline">
       {% for event in all_events %}
+      <div class="column is-full">
+        <p class="featured-tag">Featured</p>
+        {% include event_card.html event=event featured=event.featured %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {% include assign_all_events.html %}
+    <div class="columns is-centered is-multiline">
+      {% for event in all_events %}
       <div class="column is-one-third">
         {% include event_card.html event=event featured=event.featured %}
       </div>
@@ -33,7 +47,7 @@ layout: base
 {% if past_events != "" %}
 <section class="section">
   <div class="container">
-      <h1 class="title">Past Events</h1>
+      <h1 class="title">Past Events hola</h1>
       <hr>
       <div class="columns is-centered is-multiline">
         {% for event in past_events %}

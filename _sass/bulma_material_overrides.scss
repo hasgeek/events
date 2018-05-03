@@ -432,4 +432,19 @@ a{
     text-transform: uppercase;
 }
 
+.featured-tag{
+    display: inline-block;
+    background-color: #61C491;
+    padding: 4px 8px;
+    border-radius: 2px 2px 0 0;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.no-padding{
+    padding: 0px !important;
+}
+
+
+
 
