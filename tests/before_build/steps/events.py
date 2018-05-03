@@ -514,6 +514,17 @@ event_schema = {
         'schema': featured_speakers_schema
     },
 
+    'featured': {
+        'type': 'boolean',
+        'required': False
+    },
+
+    'featured_image': {
+        'type': 'string',
+        'validator': valid_external_url,
+        'required': False
+    },
+
     'canonical': {
         'type': 'string',
         'required': False
