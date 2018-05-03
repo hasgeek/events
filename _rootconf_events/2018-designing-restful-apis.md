@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: Designing RESTful APIs"
 subtitle: "Learn everything that you need to know to design great RESTful APIs"
-datelocation: "10 AM to 5 PM, 6 May 2018, Bangalore"
+datelocation: "10 AM to 5 PM, 6 May 2018, Datalicious, Bangalore"
 city: Bangalore
 start_time: 2018-05-06
 end_time: 2018-05-06
@@ -36,6 +36,17 @@ related_events:
 - rootconf-2018-scalable-applications-openfaas
 - rootconf-2018-unittests-for-python
 
+sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, sales and hiring.
+
+    Write to us for the sponsorship deck or for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - datalicious
+    
 overview:
   left_content: |
 
