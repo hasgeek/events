@@ -734,7 +734,14 @@ cis:
   url: https://cis-india.org/
   display_url: cis-india.org
   blurb: |
-  
+
+nutanix:
+  title: "NUTANIX"
+  logo_url: https://images.hasgeek.com/embed/file/284897b925d84112b54ae3833408146f
+  url: https://www.nutanix.com/
+  display_url: www.nutanix.com
+  blurb: |
+
 torproject:
   title: Tor Project
   logo_url: https://images.hasgeek.com/embed/file/2b18a13f236942159c79f5b001017c91
@@ -750,4 +757,3 @@ torproject:
     These trends also undermine national security and critical infrastructure by making communication among individuals, organisations,
     corporations, and governments more vulnerable to analysis. Each new Tor user and Tor relay provides additional diversity, enhancing 
     Tor's ability to put control over your security and privacy back into your hands.
-    
