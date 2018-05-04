@@ -441,8 +441,24 @@ a{
     font-weight: 600;
 }
 
+.featured{
+   p{
+        font-size: 20px;
+    }
+}
+
 .no-padding{
     padding: 0px !important;
+}
+
+.featured-section{
+    padding-top: 24px;
+    padding-bottom: 0;
+
+}
+
+.featured-card-content{
+    padding-bottom: 0;
 }
 
 
