@@ -16,6 +16,20 @@ layout: base
   </div>
 </section>
 
+<section class="section featured-section">
+  <div class="container">
+    {% include assign_featured_events.html %}
+    <div class="columns is-centered is-multiline">
+      {% for event in featured_events %}
+      <div class="column is-full">
+        <p class="featured-tag">Featured</p>
+        {% include featured_event_card.html event=event featured=event.featured %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="container">
     {% include assign_all_events.html %}
