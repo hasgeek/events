@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: Monitoring Servers using Collectd, Riemann, Graphite and Grafana"
 subtitle: "Make your server monitoring cost effective using open source tools."
-datelocation: "10 AM to 1:30 PM, 13 May 2018, Bangalore"
+datelocation: "10 AM to 1:30 PM, 13 May 2018,HasGeek House, Bangalore"
 city: Bangalore
 start_time: 2018-05-13
 end_time: 2018-05-13
@@ -28,6 +28,16 @@ related_events:
 - rootconf-2018-scalable-applications-openfaas
 - rootconf-2018-unittests-for-python
 
+venue:
+  label: HasGeek House, Bangalore
+  lat: 12.96149473
+  lng: 77.64430654
+  address: |
+    2699, 19th Main Road
+    HAL 2nd Stage, Indiranagar
+    Bengaluru, Karnataka 560008
+  google_maps_url: https://goo.gl/maps/1oAmjTuHXMv
+  
 overview:
   left_content: |
 
