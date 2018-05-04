@@ -722,7 +722,7 @@ datalicious:
   title: "Datalicious"
   logo_url: https://images.hasgeek.com/embed/file/559c3fc7ea374948810c643b6e1aac30
   url: https://www.datalicious.com/
-  display_url: datalicious.com
+  display_url: www.datalicious.com
   blurb: |
     Datalicious is a global data analytics agency that helps marketers improve customer journeys through the implementation of smart data-driven marketing strategies. Our team of marketing data specialists offer a wide range of skills suitable for any challenge and cover everything from web analytics to data engineering, data science, and software development. 
     
@@ -742,3 +742,18 @@ nutanix:
   display_url: www.nutanix.com
   blurb: |
 
+torproject:
+  title: Tor Project
+  logo_url: https://images.hasgeek.com/embed/file/2b18a13f236942159c79f5b001017c91
+  url: https://www.torproject.org/
+  display_url: www.torproject.org
+  blurb: |
+    The Tor network is a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet. 
+    Tor's users employ this network by connecting through a series of virtual tunnels rather than making a direct connection, thus allowing 
+    both organizations and individuals to share information over public networks without compromising their privacy. Along the same line, 
+    Tor is an effective censorship circumvention tool, allowing its users to reach otherwise blocked destinations or content. Tor can also be 
+    used as a building block for software developers to create new communication tools with built-in privacy features.
+    Ongoing trends in law, policy, and technology threaten anonymity as never before, undermining our ability to speak and read freely online. 
+    These trends also undermine national security and critical infrastructure by making communication among individuals, organisations,
+    corporations, and governments more vulnerable to analysis. Each new Tor user and Tor relay provides additional diversity, enhancing 
+    Tor's ability to put control over your security and privacy back into your hands.
