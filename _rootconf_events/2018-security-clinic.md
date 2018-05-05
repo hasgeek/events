@@ -23,7 +23,7 @@ overview:
     ### Who should attend?
     You should attend if you're:
     - interested in security, but not sure how to start.
-    - tasked with or responsible for security in your company and want to understand the landscape by interacting with people who do this daily for glibal clients.
+    - tasked with or responsible for security in your company and want to understand the landscape by interacting with people who do this daily for global clients.
 
     ### Pitstops
     At Appsecco we pride ourselves in being extremely pragmatic about explaining security and helping people understand the hard to understand industry lingo as well. Based on working with companies, teams and individuals all over the world we have come up with the following pit stops to cover at Rootconf 2018.
@@ -39,7 +39,7 @@ overview:
     ### Agenda
     Each pitstop will cover the following:
     1. Introduction to the pitstop topic
-    2. Chance to play arund with tools that attackers and security professionals daily
+    2. Chance to play around with tools that attackers and security professionals daily
     3. Resources about Open Source tools which you can download and try on your own
     4. Awareness about practice labs so that you can practice things safely in a legal mannger
     5. Answers to questions you may have on the topic
