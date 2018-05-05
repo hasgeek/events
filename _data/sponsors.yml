@@ -741,7 +741,9 @@ nutanix:
   url: https://www.nutanix.com/
   display_url: www.nutanix.com
   blurb: |
-
+    Nutanix enables IT teams to build and operate powerful multi-cloud architectures. 
+    Our Enterprise Cloud OS software melds private, public and distributed cloud operating environments and provides a single point of control to manage IT infrastructure and applications at any scale.
+    
 torproject:
   title: Tor Project
   logo_url: https://images.hasgeek.com/embed/file/2b18a13f236942159c79f5b001017c91
