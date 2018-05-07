@@ -54,7 +54,7 @@ deploy:
   on:
     branch: master
 - provider: pages
-  skip_cleanup: false
+  skip_cleanup: true
   github_token: "$GITHUB_TOKEN"
   target_branch: gh-pages
   on:

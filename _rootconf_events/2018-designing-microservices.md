@@ -2,13 +2,21 @@
 layout: workshop
 title: "Workshop: Designing Microservices"
 subtitle: "Hands-on workshop to deep-dive into the world of microservices"
-datelocation: "10 AM to 5 PM, 5 May 2018, Bangalore"
+datelocation: "10 AM to 5 PM, 5 May 2018, Datalicious, Bangalore"
 city: Bangalore
 start_time: 2018-05-05
 end_time: 2018-05-05
 description: "In this workshop, participants get to know what it takes to design an application as microservices, while clearly undertanding the price they are paying and the the benefits they are receiving. During the workshop, the participants will be divided into groups of 4/5 people and each group will discuss and design a non-trivial application as microservices."
 boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
 
+venue:
+  label: Datalicious, Bangalore
+  address: |
+    L77, 15th Cross Rd, Sector 6, HSR Layout, Bengaluru, Karnataka 560102
+  lat: 12.9140351
+  lng: 77.5604874
+  google_maps_url: https://goo.gl/maps/vviVVX3LiLL2
+  
 instructors:
 - name: Anand Chitipothu 
   image_url: https://images.hasgeek.com/embed/file/682380671aae4a41aef7ca3e17a15005
@@ -28,6 +36,18 @@ related_events:
 - rootconf-2018-scalable-applications-openfaas
 - rootconf-2018-unittests-for-python
 
+sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, sales and hiring.
+
+    Write to us for the sponsorship deck or for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - datalicious
+    
+    
 overview:
   left_content: |
 
