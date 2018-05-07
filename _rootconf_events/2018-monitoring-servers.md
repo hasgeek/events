@@ -42,20 +42,35 @@ overview:
   left_content: |
 
     # Abstract
-    This workshop focuses on setting up of Riemann, Graphite and Grafana on Docker and then using collectd to send metrics to Riemann from a server.
+    This workshop aims to help attendees in getting familiar with monitoring tools so that the focus can be extended to measuring application performance and business outcomes rather than just stock 
+    concerns like disk, CPU and memory.
 
-    # Requirements
+    In this workshop, we would be setting up tools to collect metrics and visualizing them, using dashboards. While making use of annotation and alerts, we will learn to detect, diagnose and resolve faults.
 
-    Participants should bring laptop with Linux OS installed.
+    # Target Audience
+
+    - Beginners to Monitoring tools
+    
+    - Newbies to handling infrastructure
+    
+    - Fast growing Start-ups looking to make better use of their infrastructure
     
   right_content: |
-    # Outline:
 
+    # Approach
     
-    1. Benefits of monitoring <br><br>
-    2. Setup of monitoring tools <br><br>
-    3. Sending server metrics like Memory, CPU, Disk & Network <br><br>
-    4. Show sample monitoring dashboards <br><br>
+    The first hour, we’ll discuss about basics of monitoring and its benefits. Then we will get our hands dirty with setting up monitoring tools.
+    
+    # Outline
 
-
+    1. Benefits of monitoring 
+    2. Setup of monitoring tools 
+    3. Sending server metrics like Memory, CPU, Disk & Network
+    4. Show sample monitoring dashboards
+    
+    # Pre-requisites
+    
+    - Participants should be comfortable with Unix system
+    - Participants should be familiar with docker
+      
 ---
