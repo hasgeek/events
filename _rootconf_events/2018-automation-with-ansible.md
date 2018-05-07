@@ -72,7 +72,7 @@ overview:
   right_content: |
     # Outline:
 
-    This workshop introduces a beginner to basic fundamentals of Ansible with easy to do hands-on exercises. The workshop introduces basic use cases of Ansible followed by an introduction to Ansible Inventory, Playbooks, Modules, Variables, Conditionals, Loops and Roles. Each mentioned topic is accompanied by a set of coding exercises giving the attendies a hands-on experience in developing Ansible Playbooks.
+    This workshop introduces a beginner to basic fundamentals of Ansible with easy to do hands-on exercises. The workshop introduces basic use cases of Ansible followed by an introduction to Ansible Inventory, Playbooks, Modules, Variables, Conditionals, Loops and Roles. Each mentioned topic is accompanied by a set of coding exercises giving the attendees a hands-on experience in developing Ansible Playbooks.
 
     #### Introduction to configuration management [15 mins]
 
