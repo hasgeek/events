@@ -290,6 +290,14 @@ iframe {
     transition: all 300ms;
   }
 
+  .nav-featured-tag{
+    margin: 8px;
+    border: solid 1px #ffffff;
+    border-radius: 20px;
+    padding: 2px 4px;
+    font-size: 10px;
+  }
+
   .nav-item a:not(.button),
   a.nav-item:not(.button) {
     color: $white;
@@ -454,12 +462,23 @@ a{
 .featured-section{
     padding-top: 24px;
     padding-bottom: 0;
-
 }
 
 .featured-card-content{
     padding-bottom: 0;
 }
+
+.nav-item{
+  font-size: 14px;
+}
+
+.nav-home{
+  font-weight: bold;
+
+}
+
+
+
 
 
 
