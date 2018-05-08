@@ -871,3 +871,40 @@
   end_time: 2018-04-29 17:00
   url: https://in.explara.com/e/vuejs-0-to-1-in-javascript--typescript
   blurb: "Learn to build VueJS single-page apps, from scratch, to production level, using Javascript and Typescript"
+
+- name: workshop-kubernetes-201
+  title: "Workshop: Kubernetes 201"
+  city: Bangalore
+  venue: ThoughtFactory, Bangalore
+  start_time: 2018-05-13 09:30
+  end_time: 2018-05-13 13:15
+  url: https://rootconf.in/2018-kubernetes-201/
+  blurb: "Upskill with advance topics of Kubernetes.
+
+- name: workshop-monitoring-servers
+  title: "Workshop: Monitoring Servers using Collectd, Riemann, Graphite and Grafana"
+  city: Bangalore
+  venue: HasGeek House, Bangalore
+  start_time: 2018-05-13 10:00
+  end_time: 2018-05-13 13:30
+  url: https://rootconf.in/2018-monitoring-servers/
+  blurb: "Make your server monitoring cost effective using open source tools."  
+
+- name: workshop-openfaas
+  title: "Workshop: Design & implement a scalable application using OpenFaaS"
+  city: Bangalore
+  venue: Bangalore
+  start_time: 2018-05-19 09:00
+  end_time: 2018-05-19 13:30
+  url: https://rootconf.in/2018-scalable-applications-openfaas/
+  blurb: "Learn to build and scale applications by building API's for an e-commerce site"
+
+
+- name: workshop-unit-testing
+  title: "Workshop: Writing unit tests: It's now or never!"
+  city: Bangalore
+  venue: ThoughtFactory, Bangalore
+  start_time: 2018-05-20 10:00
+  end_time: 2018-05-20 13:30
+  url: https://rootconf.in/2018-unittests-for-python/
+  blurb: "Automate UnitTests using nose as you build code together at this workshop."
