@@ -1,8 +1,8 @@
 ---
 layout: event
-title: "Application of AI in real-life scenarios"
+title: "Meetup: Application of AI in real-life scenarios"
 subtitle: "On Challenges of implementing an AI solution"
-datelocation: "19 My 2018, 10:50 AM - 2:00 PM, WalmartLabs, Bangalore"
+datelocation: "19 May 2018, 10:50 AM - 2:00 PM, WalmartLabs, Bangalore"
 city: Bangalore
 start_time: 2018-05-19
 end_time: 2018-05-19
