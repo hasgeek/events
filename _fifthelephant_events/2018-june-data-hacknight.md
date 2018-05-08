@@ -4,7 +4,7 @@ title: "Hacknight: Data in Healthcare"
 subtitle: "Unleash the power of data and innovation to improve health"
 datelocation: "09 June, HasGeek House"
 city: Bangalore
-start_time: 2018-06-9
+start_time: 2018-06-09
 end_time: 2018-06-10
 description: "In this hacknight, we want you to explore healthcare issues and build prototypes for problems using data."
 
