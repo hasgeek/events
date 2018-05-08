@@ -2,7 +2,7 @@
 layout: event
 title: "Meetup: Application of AI in real-life scenarios"
 subtitle: "On Challenges of implementing an AI solution"
-datelocation: "19 May 2018, 10:50 AM - 2:00 PM, WalmartLabs, Bangalore"
+datelocation: "19 May 2018, 10:20 AM - 1:30 PM, WalmartLabs, Bangalore"
 city: Bangalore
 start_time: 2018-05-19
 end_time: 2018-05-19
@@ -29,17 +29,17 @@ overview:
 
     Schedule:
 
-    * 10:50 AM - 11:00 AM: introduction to the event and format.
-    * 11:00 AM - 11:15 AM: Sumod Mohan
-    * 11:20 AM - 11:35 AM: presentation 2
-    * 11:40 AM - 11:55 AM: presentation 3
-    * 12:00 PM - 12:15 PM: presentation 4
-    * 12:20 PM - 1:00 PM: moderated discussion with Q&A. 
-    * 1:00 PM - 2:00 PM: lunch, hosted by WalmartLabs
+    * 10:20 AM - 10:30 AM: introduction to the event and format.
+    * 10:30 AM - 10:45 AM: Sumod Mohan
+    * 10:50 AM - 11:05 AM: presentation 2
+    * 11:10 AM - 11:25 AM: presentation 3
+    * 11:30 PM - 11:45 PM: presentation 4
+    * 11:50 PM - 12:30 PM: moderated discussion with Q&A. 
+    * 12:30 PM - 01:30 PM: lunch, hosted by WalmartLabs
 
 
   right_content: |
-    <iframe src="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdi3-p_hIve3D9sSDWiiZ4dZyoaw4Q9u_OpGaLyzM1BYTxqPQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; height:45rem;">Loading...</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBR7sxwid1ggXlyDjF-_tXeX_S7NMJf4y-SAeARxqK1cJXCw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; height:45rem;">Loading...</iframe>
 
 
 featured_speakers:
