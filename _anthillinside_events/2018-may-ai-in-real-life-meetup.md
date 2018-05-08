@@ -39,7 +39,7 @@ overview:
 
 
   right_content: |
-    <iframe src="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdi3-p_hIve3D9sSDWiiZ4dZyoaw4Q9u_OpGaLyzM1BYTxqPQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; height:45rem;">Loading...</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBR7sxwid1ggXlyDjF-_tXeX_S7NMJf4y-SAeARxqK1cJXCw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; height:45rem;">Loading...</iframe>
 
 
 featured_speakers:
