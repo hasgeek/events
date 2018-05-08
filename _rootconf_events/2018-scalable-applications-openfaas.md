@@ -1,7 +1,7 @@
 ---
 layout: workshop
 title: "Workshop: Design & implement a scalable application using OpenFaaS"
-subtitle: "Learn to buil and scale applications by building API's for an e-commerce site"
+subtitle: "Learn to build and scale applications by building API's for an e-commerce site"
 datelocation: "9 AM to 1:30 PM, 19 May 2018, Bangalore"
 city: Bangalore
 start_time: 2018-05-19
