@@ -86,7 +86,7 @@
   start_time: 2017-06-30 19:00
   end_time: 2017-06-30 20:00
   url: https://www.facebook.com/events/1149033318533901/
-  blurb: "This Friday, we're putting together a meetup to discuss a paper with Lakshman Prasad. You can find more details about the paper and the topic on the event page."
+  blurb: This Friday, we're putting together a meetup to discuss a paper with Lakshman Prasad. You can find more details about the paper and the topic on the event page."
 
 - name: fifthel-pune-meetup
   title: The Fifth Elephant Pune meetup
@@ -899,7 +899,6 @@
   url: https://rootconf.in/2018-scalable-applications-openfaas/
   blurb: "Learn to build and scale applications by building API's for an e-commerce site"
 
-
 - name: workshop-unit-testing
   title: "Workshop: Writing unit tests: It's now or never!"
   city: Bangalore
@@ -918,7 +917,7 @@
   url: https://anthillinside.in/2018-may-ai-in-real-life-meetup/
   blurb: "On Challenges in implementing an AI solution"
   
-  - name: 2018-june-data-hacknight
+- name: 2018-june-data-hacknight
   title: "Hacknight: Data in Healthcare"
   city: Bangalore
   venue: HasGeek, Bangalore
@@ -927,7 +926,7 @@
   url: https://fifthelephant.in/2018-june-data-hacknight/
   blurb: "Unleash the power of data and innovation to improve health"
   
-  - name: 2018-june-building-data-products-open-house
+- name: 2018-june-building-data-products-open-house
   title: "Building Data products at Uber"
   city: Bangalore
   venue: HasGeek, Bangalore
@@ -936,7 +935,7 @@
   url: https://fifthelephant.in/2018-june-building-data-products-open-house/
   blurb: "HasGeek open house on how user experience can be powered by data"
   
-  - name: 2018-june-fraud-detection-meetup
+- name: 2018-june-fraud-detection-meetup
   title: "Role of data science in fraud detection"
   city: Bangalore
   venue: WalmartLabs, Bangalore
