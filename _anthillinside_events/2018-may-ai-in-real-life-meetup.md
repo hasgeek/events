@@ -31,7 +31,7 @@ overview:
 
     * 10:20 AM - 10:30 AM: introduction to the event and format.
     * 10:30 AM - 10:45 AM: Sumod Mohan
-    * 10:50 AM - 11:05 AM: presentation 2
+    * 10:50 AM - 11:05 AM: Avi Patchava
     * 11:10 AM - 11:25 AM: presentation 3
     * 11:30 PM - 11:45 PM: presentation 4
     * 11:50 PM - 12:30 PM: moderated discussion with Q&A. 
@@ -50,7 +50,13 @@ featured_speakers:
     image_url: https://images.hasgeek.com/embed/file/57b0d183f7c34a69894adaa376f9531f?size=200x200
     bio: |
       **Sumod Mohan** is CTO of Digital Aristotle and heads the Computer Vision and Machine Learning at Soliton Technologies. His experience spans Computer Vision, Machine Learning, 3D Vision, Deep Learning, NLP, Graph Algorithms, Probabilistic Graphical Models, Code Optimization and Parallelization and has worked in the Computer Vision and Machine Learning for past 10+ years. His broad research interest is in application of Graph Algorithms and Probabilistic Graphical Models in Computer Vision and holds an M.S degree from Clemson University, USA with specialization in Intelligent Systems and Robotics. Prior to this after dropping out of his Ph.D program, he worked for HighlightCam Inc, a startup in California where he led Computer Vision Algorithm Development.
-
+  - name: Avi Patchava
+    talk_title: Speaker
+    designation: Vice-President, Data Sciences, InMobi
+    funnel_url:  https://www.linkedin.com/in/avi-patchava-b49a012/
+    image_url: https://images.hasgeek.com/embed/file/ed8c806b43ba44e2bb5ed27150842a36?size=200x200
+    bio: |
+      **Avi Patchava** is VP of Data Sciences Strategy & Operations at InMobi. Avi leads the Data Science and Artificial Intelligence teams in Bangalore and is also a leader of InMobi's wider data strategy. Prior to InMobi, he was with McKinsey&Co's Advanced Analytics practice across the UK, Asia and India. He has led teams delivering operations, sales and strategy transformations in which data science and machine learning models were at the heart of the transformation. Avi is a research economist by training, with masters degrees from the University of Oxford and the London School of Economics. His academic areas of interest are in development and education economics. Avi is also an active blogger on the implications of AI technology for Indian macroeconomics.
 
 sponsor:
   blurb: |
