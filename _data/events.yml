@@ -1,3 +1,12 @@
+- name: BigBugTheory
+  title: The Big Bug Theory Testathon
+  city:  Bangalore
+  venue: Vebbler HQ, Indiranagar, Bangalore
+  start_time: 2018-05-19 14:00
+  end_time: 2018-05-19 17:00
+  url: https://www.eventshigh.com/detail/bangalore/c7157cdc8f57e045a6b17fa38c576498-the-big-bug-theory-testathon
+  blurb: The purpose of the event is to test the App for critical bugs and loopholes across Functionality, Security and Design. It promises to be a fun and resourceful afternoon, filled with conversations, new connections as well as insights into consumer-focused product platforms.
+
 - name: Hacktoberfest
   title: Chennai Hacktoberfest
   city:  Chennai
@@ -898,6 +907,15 @@
   end_time: 2018-05-19 13:30
   url: https://rootconf.in/2018-scalable-applications-openfaas/
   blurb: "Learn to build and scale applications by building API's for an e-commerce site"
+
+- name: ar-hands-on-workshop
+  title: "Devopedia Workshop: Create an Augmented Reality (AR) App"
+  city: Bangalore
+  venue: WeWork EGL, Bangalore
+  start_time: 2018-05-19 10:00
+  end_time: 2018-05-19 13:00
+  url: https://www.meetup.com/Devopedia/events/250505246/
+  blurb: "Experience the complete process of building an AR app. Learn to work with SDKs and tools."
 
 - name: workshop-unit-testing
   title: "Workshop: Writing unit tests: It's now or never!"
