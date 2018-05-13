@@ -909,7 +909,6 @@
   url: https://rootconf.in/2018-unittests-for-python/
   blurb: "Automate UnitTests using nose as you build code together at this workshop."
 
-remove
 - name: 2018-may-ai-in-real-life-meetup
   title: "Meetup: Application of AI in real-life scenarios"
   city: Bangalore
