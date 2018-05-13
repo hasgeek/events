@@ -908,3 +908,40 @@
   end_time: 2018-05-20 13:30
   url: https://rootconf.in/2018-unittests-for-python/
   blurb: "Automate UnitTests using nose as you build code together at this workshop."
+
+remove
+- name: 2018-may-ai-in-real-life-meetup
+  title: "Meetup: Application of AI in real-life scenarios"
+  city: Bangalore
+  venue: WalmartLabs, Bangalore
+  start_time: 2018-05-19 10:20
+  end_time: 2018-05-19 13:30
+  url: https://anthillinside.in/2018-may-ai-in-real-life-meetup/
+  blurb: "On Challenges in implementing an AI solution"
+  
+  - name: 2018-june-data-hacknight
+  title: "Hacknight: Data in Healthcare"
+  city: Bangalore
+  venue: HasGeek, Bangalore
+  start_time: 2018-06-09 17:00
+  end_time: 2018-06-10 10:00
+  url: https://fifthelephant.in/2018-june-data-hacknight/
+  blurb: "Unleash the power of data and innovation to improve health"
+  
+  - name: 2018-june-building-data-products-open-house
+  title: "Building Data products at Uber"
+  city: Bangalore
+  venue: HasGeek, Bangalore
+  start_time: 2018-06-15 19:30
+  end_time: 2018-06-15 21:00
+  url: https://fifthelephant.in/2018-june-building-data-products-open-house/
+  blurb: "HasGeek open house on how user experience can be powered by data"
+  
+  - name: 2018-june-fraud-detection-meetup
+  title: "Role of data science in fraud detection"
+  city: Bangalore
+  venue: WalmartLabs, Bangalore
+  start_time: 2018-06-23 11:15
+  end_time: 2018-06-23 14:00
+  url: https://fifthelephant.in/2018-june-fraud-detection-meetup/
+  blurb: "One of the known applications of data science is in detecting frauds. How does this work in practice?"
