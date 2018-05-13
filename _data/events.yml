@@ -909,6 +909,16 @@
   blurb: "Learn to build and scale applications by building API's for an e-commerce site"
 
 
+- name: ar-hands-on-workshop
+  title: "Devopedia Workshop: Create an Augmented Reality (AR) App"
+  city: Bangalore
+  venue: WeWork EGL, Bangalore
+  start_time: 2018-05-19 10:00
+  end_time: 2018-05-19 13:00
+  url: https://www.meetup.com/Devopedia/events/250505246/
+  blurb: "Experience the complete process of building an AR app. Learn to work with SDKs and tools."
+
+
 - name: workshop-unit-testing
   title: "Workshop: Writing unit tests: It's now or never!"
   city: Bangalore
