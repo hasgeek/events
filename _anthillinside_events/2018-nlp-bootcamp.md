@@ -2,7 +2,7 @@
 layout: workshop
 title: "Bootcamp: Learning representations of text for NLP"
 subtitle: Learn and implement an end-to-end deep learning models for natural language processing.
-datelocation: "19-20 May 2018, 09:00 AM - 05:00 PM, Bangalore"
+datelocation: "19-20 May 2018, 09:00 AM - 05:00 PM, IKP Eden, Bangalore"
 city: Bangalore
 start_time: 2018-05-19
 end_time: 2018-05-20
