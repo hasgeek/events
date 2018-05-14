@@ -9,6 +9,18 @@ end_time: 2018-05-27
 description: "In this workshop, you will learn how to build apps with React, GraphQL and Apollo. Various concepts of GraphQL and Apollo will be covered while building a simple e-commerce app."
 boxoffice_item_collection: "066a9093-6995-434c-8cf9-91c3a5769759"
 
+sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, networking with IT managers and decision-makers, and hiring.
+
+    Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com)
+  sponsorship_deck_url: 'http://hsgk.in/rootconf2018sponsor'
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - endurance
+    
 venue:
   label: Endurance International Group, Mumbai
   address: |
