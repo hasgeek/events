@@ -7,6 +7,34 @@ layout: base
 <!-- Primary Navbar -->
 
 <!-- /.Primary Navbar -->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "{{ page.title }}",
+    "startDate": "{{ page.start_time }}",
+    "location": {
+      "@type": "Place",
+      "name": "{{ page.venue.label }}",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "{{ page.city }}",
+        "addressCountry": "IN"
+      }
+    },
+    {% if page.logo.image_url %}
+    "image": [
+      "{{ page.logo.image_url | absolute_url }}"
+     ],
+    {% endif %}
+    "description": "{{ page.description }}",
+    "endDate": "{{ page.end_time }}",
+    "offers": {
+      "@type": "Offer",
+      "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+    }
+  }
+  </script>
 
 
   {% include event_header_section.html event=page %}
@@ -14,7 +42,6 @@ layout: base
   {% if page.subbanner %}
     {% include subbanner_{{ page.subbanner }}.html %}
   {% endif %}
-
 
 <div style="z-index:10;">
   <nav class="nav has-shadow nav-sticky" style="z-index:10;">
