@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: GraphQL & Apollo"
 subtitle: "Learn how to build apps with React, GraphQL and Apollo."
-datelocation: "27 May 2018, Mumbai"
+datelocation: "27 May 2018, Endurance International Group, Mumbai"
 city: Mumbai
 start_time: 2018-05-27
 end_time: 2018-05-27
@@ -20,6 +20,17 @@ sponsor:
     size: "l"
     sponsors:
     - endurance
+    
+venue:
+  label: Endurance International Group, Mumbai
+  address: |
+    Endurance International group of companies,
+    Unit no 5, 501, 5th floor, IT building 3, NESCO IT Park, 
+    Nesco complex, Western express highway, 
+    Goregoan (East), Mumbai - 400063
+  lat: 19.152355
+  lng: 72.855768
+  google_maps_url: https://goo.gl/maps/rS7J76NE5Ny
 
 instructors:
 - name: Kiran Abburi
