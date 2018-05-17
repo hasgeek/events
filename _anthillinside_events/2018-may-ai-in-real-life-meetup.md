@@ -63,6 +63,13 @@ featured_speakers:
     image_url: https://images.hasgeek.com/embed/file/6e43a1482302491589fde6ed118aa1f9
     bio: |
       **Nishant** is an independent researcher, engineer and speaker (ex-IBM Research, Ph.D., Carnegie Mellon) who loves to distill and transform complex technology into consumable products. He has experience across academia, industry and startups. He helps companies understand and maneuver through the complex, evolving AI space and build cutting-edge solutions which maximize ROI and enable market leadership. He enjoys teaching and giving talks on different theoretical and practical aspects of deep learning and AI.
+  - name: Vijay Gabale
+    talk_title: Speaker
+    designation: CTO and co-founder of Infilect Technologies
+    funnel_url: https://www.linkedin.com/in/vijaygabale/
+    image_url: https://images.hasgeek.com/embed/file/10b37fc53b224c8587a9483b80fa363c
+    bio: |
+      **Vijay** is CTO and co-founder of Infilect Technologies. Infilect offers several products in the domain of entertainment, media, and retail by leveraging visual data and providing visual intelligence. Vijay is a PhD from IIT Bombay, and ex-research-scientist IBM Research.
       
 sponsor:
   blurb: |
