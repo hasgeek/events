@@ -57,8 +57,8 @@ featured_speakers:
     image_url: https://images.hasgeek.com/embed/file/ed8c806b43ba44e2bb5ed27150842a36?size=200x200
     bio: |
       **Avi Patchava** is VP of Data Sciences Strategy & Operations at InMobi. Avi leads the Data Science and Artificial Intelligence teams in Bangalore and is also a leader of InMobi's wider data strategy. Prior to InMobi, he was with McKinsey&Co's Advanced Analytics practice across the UK, Asia and India. He has led teams delivering operations, sales and strategy transformations in which data science and machine learning models were at the heart of the transformation. Avi is a research economist by training, with masters degrees from the University of Oxford and the London School of Economics. His academic areas of interest are in development and education economics. Avi is also an active blogger on the implications of AI technology for Indian macroeconomics.
-  - name: Nishant Sinha
-    talk_title: Speaker
+  - name: Nishant Sinha
+    talk_title: Speaker
     designation: Independent researcher, engineer and speaker
     image_url: https://images.hasgeek.com/embed/file/6e43a1482302491589fde6ed118aa1f9
     bio: |
