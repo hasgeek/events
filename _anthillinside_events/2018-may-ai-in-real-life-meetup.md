@@ -32,8 +32,8 @@ overview:
     * 10:20 AM - 10:30 AM: introduction to the event and format.
     * 10:30 AM - 10:45 AM: Sumod Mohan
     * 10:50 AM - 11:05 AM: Avi Patchava
-    * 11:10 AM - 11:25 AM: presentation 3
-    * 11:30 PM - 11:45 PM: presentation 4
+    * 11:10 AM - 11:25 AM: Nishant Sinha
+    * 11:30 PM - 11:45 PM: Vijay Gabale
     * 11:50 PM - 12:30 PM: moderated discussion with Q&A. 
     * 12:30 PM - 01:30 PM: lunch, hosted by WalmartLabs
 
@@ -45,7 +45,7 @@ overview:
 featured_speakers:
   - name: Sumod Mohan
     talk_title: Speaker
-    designation: CTO of Digital Aristotle and heads the Computer Vision and Machine Learning at Soliton Technologies
+    designation: Founder, AutoInfer and CV/ML Architect Soliton.
     funnel_url: https://www.linkedin.com/in/sumod-k-mohan-3a30127
     image_url: https://images.hasgeek.com/embed/file/57b0d183f7c34a69894adaa376f9531f?size=200x200
     bio: |
