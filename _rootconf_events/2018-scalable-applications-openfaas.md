@@ -10,7 +10,7 @@ description: "Build API’s for an e-commerce site (using OpenFaaS framework) an
 boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
 
 venue:
-  label: AVI Networks India
+  label: Avi Networks India
   address: |
     #110, JB House, 1st Main Rd, 
     5th Block,, Koramangala Industrial Layout,
