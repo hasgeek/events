@@ -2,7 +2,7 @@
 layout: workshop
 title: "Bootcamp: Learning representations of text for NLP"
 subtitle: Learn and implement an end-to-end deep learning models for natural language processing.
-datelocation: "19-20 May 2018, 09:00 AM - 05:00 PM, IKP Eden, Bangalore"
+datelocation: "19-20 May 2018, 09:00 AM - 05:00 PM, ThoughtFactory, Bangalore"
 city: Bangalore
 start_time: 2018-05-19
 end_time: 2018-05-20
@@ -10,14 +10,14 @@ description: "Learn and implement an end-to-end deep learning models for natural
 boxoffice_item_collection: '761d606f-7c46-4926-b920-1386824de2e7'
 
 venue:
-  label: IKP Eden, Bangalore
+  label: ThoughtFactory, Bangalore
   address: |
-    IKP EDEN, 16, Bhuvanappa Layout, 
-    Tavarekere Main Rd, Kaveri Layout, 
-    Suddagunte Palya, Bengaluru, Karnataka 560029.
-  lat: 12.934072
-  lng: 77.609869
-  google_maps_url: https://goo.gl/maps/GDgyezM1fz12
+    ThoughtFactory,
+    Tower D, 2nd Floor,
+    Diamond District, Bengaluru, Karnataka 560102
+  lat: 12.95921
+  lng: 77.64431
+  google_maps_url: https://goo.gl/maps/eaNceNnatu62
 
 instructors:
 - name: Anuj Gupta
