@@ -12,13 +12,10 @@ venue:
   label: WalmartLabs, Bangalore
   address: |
     Walmart Labs,
-    Sy No 15/2 & 14, 4th, 5th & 6th Floors.
-    A-Block, Salarpuria Aura Building,
-    Kadubeesenahalli, Outer Ring Road Bangalore
+    Salarpuria Aura, BLOCK A, 1st Floor, Marathahalli - Sarjapur Outer Ring Rd, Kaverappa Layout, Kadubeesanahalli, Bengaluru, Karnataka 560103, India
   lat: 12.936681
   lng: 77.690946
   google_maps_url: https://goo.gl/maps/fEGy3MnRZRm
-
 
 overview:
   left_content: |
