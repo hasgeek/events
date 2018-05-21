@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: GraphQL & Apollo"
 subtitle: "Learn how to build apps with React, GraphQL and Apollo."
-datelocation: "9:30 AM to 1:30 PM,27 May 2018, Endurance International Group, Mumbai"
+datelocation: "10:00 AM to 5:00 PM,27 May 2018, Endurance International Group, Mumbai"
 city: Mumbai
 start_time: 2018-05-27
 end_time: 2018-05-27
