@@ -94,6 +94,22 @@ $(document).ready( function() {
       }
     }
 
+    if (typeof twq !== "undefined") {
+      if (userAction == 'add ticket' || userAction == 'First interaction') {
+        twq('track', 'AddToCart', {
+          content_ids: ['ticketing'], // Required
+          content_type: 'tickets', // Required
+          content_name: 'tickets'
+        });
+      } else if(userAction == 'booking complete') {
+        twq('track','Purchase', {
+          value: value,
+          currency: 'INR',
+          num_items: '1',
+        });
+      }
+    }
+
   });
 });
 </script>
