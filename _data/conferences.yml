@@ -277,3 +277,14 @@
   funnel: https://reactfoo.talkfunnel.com/2018-delhi/
   url: https://reactfoo.in/2018-delhi/
   blurb: A conference on the lessons learned while implememting React and React Native.
+
+- name: reactfoo-2019
+  title: ReactFoo 2019
+  city: Bangalore
+  venue: NIMHANS Convention Center
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2019-02-15
+  end_time: 2019-02-16
+  funnel: https://reactfoo.talkfunnel.com/2019/
+  url: https://reactfoo.in/2019/
+  blurb: A conference on the lessons learned while implememting React and React Native.
