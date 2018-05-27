@@ -2,13 +2,23 @@
 layout: workshop
 title: "Workshop: Design & implement a scalable application using OpenFaaS"
 subtitle: "Learn to build and scale applications by building API's for an e-commerce site"
-datelocation: "9 AM to 1:30 PM, 19 May 2018, Bangalore"
+datelocation: "9 AM to 1:30 PM, 19 May 2018, Avi Networks India, Bangalore"
 city: Bangalore
 start_time: 2018-05-19
 end_time: 2018-05-19
 description: "Build API’s for an e-commerce site (using OpenFaaS framework) and learn how to connect them via UI and scale this application using Docker & K8’s and touch up monitoring which is an in-built component of OpenFaaS."
 boxoffice_item_collection: "e2ea67ca-e20a-4f89-80c9-20641e04c13d"
 
+venue:
+  label: Avi Networks India
+  address: |
+    #110, JB House, 1st Main Rd, 
+    5th Block,, Koramangala Industrial Layout,
+    Koramangala, Bengaluru, Karnataka 560095.
+  lat: 12.934025
+  lng: 77.613376
+  google_maps_url: https://goo.gl/maps/9sFiG6QKNxK2
+  
 instructors:
 - name: Vivek Sridhar
   image_url: https://images.hasgeek.com/embed/file/830a6dac0c8d49589783c95d1d27c837

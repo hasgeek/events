@@ -5,6 +5,34 @@
 {% endif %}
 
 <div class="card is-clickable" onclick="goToUrl('{{ event_url }}')" style="height:21rem; overflow: hidden;"data-href="{{ event_url }}" data-label="view {{ include.event.title }}">
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "{{ include.event.title }}",
+    "startDate": "{{ include.event.start_time }}",
+    "location": {
+      "@type": "Place",
+      "name": "{{ include.event.venue.label }}",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "{{ include.event.city }}",
+        "addressCountry": "IN"
+      }
+    },
+    {% if include.event.logo.image_url %}
+    "image": [
+      "{{ include.event.logo.image_url | absolute_url }}"
+     ],
+    {% endif %}
+    "description": "{{ include.event.description }}",
+    "endDate": "{{ include.event.end_time }}",
+    "offers": {
+      "@type": "Offer",
+      "url": "{{ event_url }}"
+    }
+  }
+  </script>
   <div class="card-content">
     <p class="title is-4">
       {{ include.event.title }}

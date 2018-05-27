@@ -2,12 +2,23 @@
 layout: workshop
 title: "Bootcamp: Learning representations of text for NLP"
 subtitle: Learn and implement an end-to-end deep learning models for natural language processing.
-datelocation: "19-20 May 2018, 09:00 AM - 05:00 PM, Bangalore"
+datelocation: "19-20 May 2018, 09:00 AM - 05:00 PM, ThoughtFactory, Bangalore"
 city: Bangalore
 start_time: 2018-05-19
 end_time: 2018-05-20
 description: "Learn and implement an end-to-end deep learning models for natural language processing."
 boxoffice_item_collection: '761d606f-7c46-4926-b920-1386824de2e7'
+
+venue:
+  label: ThoughtFactory, Bangalore
+  address: |
+    ThoughtFactory,
+    Tower D, 2nd Floor,
+    Diamond District, Bengaluru, Karnataka 560102
+  lat: 12.95921
+  lng: 77.64431
+  google_maps_url: https://goo.gl/maps/eaNceNnatu62
+
 instructors:
 - name: Anuj Gupta
   byline: Director - Machine Learning, Huawei Technologies
