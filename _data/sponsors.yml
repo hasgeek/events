@@ -782,3 +782,13 @@ salesforce:
   blurb: |
     Salesforce is a trusted cloud platform that helps companies connect with their customers. 
     We run 24x7 systems at massive scale, and give our customers innovative new capabilities with social, mobile and data science apps.
+
+sumologic:
+  title: Sumologic
+  logo_url: https://images.hasgeek.com/embed/file/d9ac335b6ee042e4ae6e48aef49b289a
+  url: https://www.sumologic.com/
+  display_url: www.sumologic.com
+  blurb: |
+    Sumo Logic is a secure, cloud-native, machine data analytics service, delivering real-time, continuous intelligence across the entire application lifecycle and stack. 
+    More than 1,000 customers around the globe rely on Sumo Logic for the analytics and insights to build, run and secure their modern applications and cloud infrastructures. 
+    With Sumo Logic, customers gain a service-model advantage to accelerate their shift to continuous innovation, increasing competitive advantage, business value and growth.
