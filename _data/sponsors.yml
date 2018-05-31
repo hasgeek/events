@@ -789,9 +789,12 @@ sumologic:
   url: https://www.sumologic.com/
   display_url: www.sumologic.com
   blurb: |
-    Sumo Logic is a secure, cloud-native, machine data analytics service, delivering real-time, continuous intelligence across the entire application lifecycle and stack. 
-    More than 1,000 customers around the globe rely on Sumo Logic for the analytics and insights to build, run and secure their modern applications and cloud infrastructures. 
+    Sumo Logic is a secure, cloud-native, machine and log data analytics service, delivering real-time, continuous intelligence across the entire application lifecycle and stack. 
+    More than 2,000 customers around the globe rely on Sumo Logic for the analytics and insights to build, run and secure their modern applications and cloud infrastructures.
+    
     With Sumo Logic, customers gain a service-model advantage to accelerate their shift to continuous innovation, increasing competitive advantage, business value and growth.
+    
+    Our secure, cloud-native machine and log data analytics platform, with advanced machine learning capabilities, predictive analytics and anomaly detection technology, to help you search, analyze, and visualize what's happening across your infrastructure and applications.
 
 netapp-excellerator:
   title: NetApp Execellerator
@@ -799,6 +802,3 @@ netapp-excellerator:
   url: http://startup.netapp.in/
   display_url: startup.netapp.in
   blurb: |
-    Sumo Logic is a secure, cloud-native, machine data analytics service, delivering real-time, continuous intelligence across the entire application lifecycle and stack. 
-    More than 1,000 customers around the globe rely on Sumo Logic for the analytics and insights to build, run and secure their modern applications and cloud infrastructures. 
-    With Sumo Logic, customers gain a service-model advantage to accelerate their shift to continuous innovation, increasing competitive advantage, business value and growth.
