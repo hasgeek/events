@@ -1,3 +1,12 @@
+- name: CTOTalk by OrangeScape
+  title: CTOTalk
+  city:  Chennai
+  venue: OrangeScape, Tidel Park, Chennai
+  start_time: 2018-06-23 10:30
+  end_time: 2018-06-23 13:00
+  url: https://in.explara.com/e/ctotalk-with-vibhore-sharma-naukri
+  blurb: OrangeScape is hosting Vibhore Sharma, CTO-Naurki.com for the next CTOTalk session on "The Untold Naukri Tech Story: Thriving in Chaos"
+  
 - name: BigBugTheory
   title: The Big Bug Theory Testathon
   city:  Bangalore
