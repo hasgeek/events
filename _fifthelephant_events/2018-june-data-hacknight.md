@@ -61,6 +61,11 @@ featured_speakers:
   designation: CEO, Clean Air Platform
   funnel_url: https://www.linkedin.com/in/yogeshranganath/
   image_url: https://images.hasgeek.com/embed/file/2f81a42f16df41c6883d3ff20a8b6f26?size=200x200
+- name: Ranjith RP
+  talk_title: Mentor
+  designation: Engineering Manager at Walmart Labs
+  funnel_url: https://www.linkedin.com/in/ranjith-r-p-92880417/
+  image_url: https://images.hasgeek.com/embed/file/5e2032f6a02b499b82ea4971daff80ec
 rsvp: |
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdJ_YdRoGA-PcnXTwrVutTQKzl2myrabl1JKA92ssqgqkzdow/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
