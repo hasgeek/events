@@ -46,12 +46,16 @@ overview:
 
     
 featured_speakers:
+- name: Akshay S Dinesh
+  talk_title: Mentor
+  designation: Professional doctor, habitual hacker
+  funnel_url: https://www.linkedin.com/in/asdofindia/
+  image_url: https://images.hasgeek.com/embed/file/5a04b665b2d44c64ae292eb00d8c0c2b?size=200x200
 - name: Srinivas Kodali
   talk_title: Mentor
   designation: Civic Hacker, Co-Founder at Open Stats
   funnel_url: https://www.linkedin.com/in/iotakodali/
   image_url: https://images.hasgeek.com/embed/file/5da7fcc7b3df445e8b5a03ba7c26a3f6?size=200x200
-
 
 rsvp: |
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdJ_YdRoGA-PcnXTwrVutTQKzl2myrabl1JKA92ssqgqkzdow/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
