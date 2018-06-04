@@ -56,7 +56,11 @@ featured_speakers:
   designation: Civic Hacker, Co-Founder at Open Stats
   funnel_url: https://www.linkedin.com/in/iotakodali/
   image_url: https://images.hasgeek.com/embed/file/5da7fcc7b3df445e8b5a03ba7c26a3f6?size=200x200
-
+- name: Yogesh Ranganath
+  talk_title: Mentor
+  designation: CEO, Clean Air Platform
+  funnel_url: https://www.linkedin.com/in/yogeshranganath/
+  image_url: https://images.hasgeek.com/embed/file/2f81a42f16df41c6883d3ff20a8b6f26?size=200x200
 rsvp: |
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdJ_YdRoGA-PcnXTwrVutTQKzl2myrabl1JKA92ssqgqkzdow/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
