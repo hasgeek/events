@@ -104,6 +104,10 @@
 
     <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/jquery.sidr.2.2.1.min.css">
     <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/font-awesome.min.css">
+
+    {% if page.hasjob.feed_url %}
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500|McLaren">
+    {% endif %}
 </head>
 <body class="bg-light">
   {% include sidebar_site.html %}

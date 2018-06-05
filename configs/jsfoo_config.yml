@@ -42,6 +42,8 @@ sass_dir: _sass
 liquid:
   error_mode: strict
 
+feednami_api_key: 11b960d3a621040da933072084fa65905899a9a7a62654c5a13e5ac0b65cca68
+
 collections:
   jsfoo_events:
     type: event

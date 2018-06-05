@@ -280,6 +280,20 @@ event_schema = {
         },
         'required': False
     },
+    'hasjob': {
+        'type': 'dict',
+        'schema': {
+            'feed_url': {
+                'type': 'string',
+                'required': True
+            },
+            'url': {
+                'type': 'string',
+                'required': True
+            }
+        },
+        'required': False
+    },
     'mailchimp': {
         'type': 'dict',
         'schema': {

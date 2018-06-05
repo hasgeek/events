@@ -9,6 +9,7 @@ colors:
 ga_tracking_code: UA-19123154-20
 twitter_tracking_code: nzdrl
 fb_tracking_code: 939847969521385
+linkedin_tracking_code: 245595
 icons:
   touch:
   - src: "images/touch/fifthelephant-icon-192.png"
@@ -41,6 +42,8 @@ sass_dir: _sass
 
 liquid:
   error_mode: strict
+
+feednami_api_key: 32374997f4d7bf157e23aeb321f3beed6c8b93ccd4f68e4ab3e243e12fae640e
 
 collections:
   fifthelephant_events:
