@@ -37,7 +37,7 @@ sass_dir: _sass
 liquid:
   error_mode: strict
 
-feednami_api_key: 598766132c481ecb9c89b120994d020aaf997d2a123f1e7acd11d1449bc4fd63
+feednami_api_key: 655dac92aea8a093f9ce3220844f63ce2f62de384b97d470b30edb7162f6d7fc
 
 collections:
   50p_events:
