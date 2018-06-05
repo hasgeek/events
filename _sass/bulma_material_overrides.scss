@@ -1,5 +1,7 @@
 // Overrides
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,500|McLaren);
+
 
 hr {
   background-color: lighten($grey-lighter, 5);
@@ -476,6 +478,59 @@ a{
   font-weight: bold;
 
 }
+
+/* Hasjob job post includes in event page */
+.jobpost-container{
+  .button{
+    margin-top: 8px;
+  }
+}
+.hasjob-card{
+    background-color: #ffffa6;
+    border-radius: 2px;
+    padding: 0 .5rem 1.25rem .5rem;;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+    cursor: pointer;
+    .title{
+        font-size: 16px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+        font-family: 'McLaren', cursive;
+        padding-left: 16px;
+        a{
+          color: #333333;
+        }
+    }
+    p{
+      color: #816894;
+      font-weight: 500;
+      font-family: 'Fira Sans', sans-serif;
+    }
+}
+
+.job-post-date{
+    margin-top: 3px;
+}
+
+.hasjob-button{
+  background-color: #816894;
+  border-color: #816894;
+  border-bottom: 2px solid #554562;
+  margin-top: 15px;
+  margin-right: 4px;
+  padding: 0 15px;
+  color: #fff;
+  &:hover{
+    background-color: #725c83;
+    color: #ffffff;
+    border-bottom: 2px solid #554562;
+  }
+  &:active, &:focus{
+    color: #ffffff;
+    border-bottom: 2px solid #554562;
+  }
+}
+
 
 
 
