@@ -231,6 +231,14 @@ layout: base
 </section>
 {% endif %}
 
+{% if page.hasjob.feed_url %}
+<section class="section bg-light scroll-horizontal" id="job-posts">
+  <div class="container">
+     {% include hasjob_post.html %}
+  </div>
+</section>
+{% endif %}
+
 {% if page.accommodation %}
 <section class="section bg-light" id="accommodation">
   <div class="container">
