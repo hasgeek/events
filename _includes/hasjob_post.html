@@ -1,29 +1,29 @@
-<div class="columns is-centered is-multiline" id="hasjob-feed">
-  <div class="has-text-centered">
-      <h3 class="title">Related job posts</h3><br>
-  </div>
-  <div id="jobpost-container" class="jobpost-container">
-    {% raw %}
-    <script id="jobpost-entries" type="text/x-mustache-template">
-      <div class="columns is-centered is-multiline">
-        {{#jobPost}}
-          <div class="column is-one-quarter">
-          <div class="is-clickable" onclick="goToUrl('{{ link }}')" data-href="{{ link }}" data-label="view job post {{ title }}">
-            <article class="tile is-child hasjob-card">
-              <p><small class="">{{ location }}</small><small class="is-pulled-right job-post-date">{{ date }}</small></p>
-              <h1 class="title is-4"><strong><a href="{{ link }}" target="_blank" class="click link-unstyled" data-label="view blog {{ title }}">{{ title }}</a></strong></h1>
+<div class="has-text-centered">
+  <h3 class="title">Related job posts</h3><br>
+</div>
+<div id="jobpost-container" class="jobpost-container">
+  {% raw %}
+  <script id="jobpost-entries" type="text/x-mustache-template">
+    <div class="columns is-centered is-multiline">
+      {{#jobPost}}
+        <div class="column is-one-quarter">
+        <div class="is-clickable" onclick="goToUrl('{{ link }}')" data-href="{{ link }}" data-label="view job post {{ title }}">
+          <article class="tile is-child hasjob-card">
+            <p><small class="">{{ location }}</small><small class="is-pulled-right job-post-date">{{ date }}</small></p>
+            <h1 class="title is-4"><strong><a href="{{ link }}" target="_blank" class="click link-unstyled" data-label="view blog {{ title }}">{{ title }}</a></strong></h1>
+            {{#companyName}}
               <p><small class="is-pulled-right">{{ companyName }}</small></p>
-             </article>
-          </div>
-          </div>
-        {{/jobPost}}
-        <div class="has-text-centered">
-          <a class="button hasjob-button" href="{{ page.hasjob.url }}" target="_blank">View more job posts</a>
+            {{/companyName}}
+           </article>
         </div>
-      </div>
-      {% endraw %}
-    </script>
-  </div>
+        </div>
+      {{/jobPost}}
+    </div>
+    {% endraw %}
+  </script>
+</div>
+<div class="has-text-centered">
+  <a class="button hasjob-button" href="{{ page.hasjob.url }}" target="_blank">View more jobs on Hasjob</a>
 </div>
 
 <script src="{{ site.url }}{{ site.baseurl }}/js/feednami-client-v1.1.js"></script>
@@ -54,7 +54,7 @@
         	"date": getDateString(entry.pubDate),
         	"link": entry.link,
         	"location": entry['atom:location']['#'],
-        	"companyName": 'HasGeek' });
+        	"companyName": entry.company_name });
       }
       var jobFeed = { 'jobPost': jobPost };
       parseEnteries(jobFeed, '#jobpost-container', '#jobpost-entries');
