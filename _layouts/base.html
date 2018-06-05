@@ -224,13 +224,23 @@ next.addEventListener('click', () => mySiema.next());
 {% if site.service_worker == 'false' %}
 {% else %}
 <script type="text/javascript">
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('{{ site.url }}{{ site.baseurl }}/sw.js').then(function () {
-    // console.log('Service worker registered');
-    }).catch(function() {
-    // console.log('Service worker registration failed');
-  });
-};
+  // Unregister service worker
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+      if(registrations.length) {
+        for (var index = 0; index < registrations.length; index++) {
+          registrations[index].unregister();
+        }
+      }
+    });
+  }
+// if ('serviceWorker' in navigator) {
+//   navigator.serviceWorker.register('{{ site.url }}{{ site.baseurl }}/sw.js').then(function () {
+//     // console.log('Service worker registered');
+//     }).catch(function() {
+//     // console.log('Service worker registration failed');
+//   });
+// };
 </script>
 {% endif %}
 
