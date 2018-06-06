@@ -34,12 +34,12 @@
     };
 
     var getDateString = function (dateStr) {
-      var year = parseInt(dateStr.substr(0, 4), 10);
+      var monthNames = ["January", "February", "March", "April", 
+        "May", "June", "July", "August", "September", 
+        "October", "November", "December"];
       var month = parseInt(dateStr.substr(5, 2), 10) - 1;
       var day = parseInt(dateStr.substr(8, 2), 10);
-      var d = new Date();
-      d.setFullYear(year, month, day);
-      return d.toDateString();
+      return day + " " + monthNames[month];
     }
 
     feednami.setPublicApiKey('{{site.feednami_api_key}}');
@@ -47,7 +47,6 @@
     var jobPost = [];
     feednami.load(url).then(function (feed) {
       var jobPostEnteries = feed.entries.slice(0,4);
-      console.log('jobPostEnteries', jobPostEnteries);
       for (var i = 0; i < jobPostEnteries.length; i++) {
         var entry = feed.entries[i];
         jobPost.push({ "title": entry.title,
