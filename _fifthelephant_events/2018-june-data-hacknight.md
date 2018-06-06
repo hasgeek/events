@@ -29,14 +29,24 @@ overview:
     * To improve healthcare solutions for rare diseases and advanced detection of curable healthcare issues.
     * To improve management in hospitals with increased coordination between doctors and nursing staff. 
     * To improve quality of life an average citizen using tools that address air pollution, clean water, better sanitation, etc.
-
-
-  right_content: |
+    
     [Here](https://github.com/hasgeek/public-lists/blob/master/list-of-public-datasets-related-to-healthcare.md) is a compiled list of public datasets related to healthcare. Feel free to choose this or any other datasets which you know. If you find any relevant dataset missing in this list, send us a pull request.
 
     ## Who should attend?
 
     If you are a data enthusiast, machine learning expert, hardware ninja or anyone with data skills interested in exploring healthcare domain, you should be attending this hacknight.
+
+  right_content: |
+
+    ## Know your mentors
+    
+    *Akshay S Dinesh*: Akshay is a young medical doctor who is working with Swami Vivekananda Youth Movement in Saragur near Mysore. He is also a programmer who believes good software can solve many of world's problems. He is interested in helping teams build healthcare solutions with intelligent interfaces that make data collection more robust yet easy paving way to good analysis and intelligent predictions.
+ 
+    *Ranjith RP*: He is Engineering Manager at Walmart Labs. He has experience of more than a decade working on different healthcare and life sciences products, his expertise lies in building multiple platforms in healthcare that comply with the IHE &amp; HIPAA compliance. In his fulfilling career, Ranjith has been associated with organizations ranging from GE Healthcare to Thermo Fisher Scientific in various roles.
+
+    *Srinivas Kodali*: Srinivas Kodali is a Civic Hacker and researcher working on open data, data standards and information Security. He would be interested to work with teams building tools for data collection, electronic medical records, information security in health care and also about new business models on data to look at sustainability of anything you build.
+
+    *Yogesh Ranganath*: Yogesh Ranganath works at Azim Premji Philanthropic Initiatives (APPI) and he is on a mission to improve air quality in Bengaluru. Join him at this Hacknight and address air quality issues with data.  Read more about how you can contribute here.
 
     ## Why attend?
 
