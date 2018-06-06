@@ -52,7 +52,7 @@ overview:
 
     **Srinivas Kodali**: Srinivas is a Civic Hacker and researcher working on open data, data standards and information Security. He would be interested to work with teams building tools for data collection, electronic medical records, information security in health care and also about new business models on data to look at sustainability of anything you build.
 
-    **Yogesh Ranganath**: Yogesh works at Azim Premji Philanthropic Initiatives (APPI) and he is on a mission to improve air quality in Bengaluru. Join him at this Hacknight and address air quality issues with data.  Read more about how you can contribute here.
+    **Yogesh Ranganath**: Yogesh works at Azim Premji Philanthropic Initiatives (APPI) and he is on a mission to improve air quality in Bengaluru. Join him at this Hacknight and address air quality issues with data.  Read more about how you can contribute [here](https://medium.com/@yogesh.ranganath/crunching-large-data-sets-to-identify-air-pollution-hot-spots-73ae6882abf).
 
     
 featured_speakers:
