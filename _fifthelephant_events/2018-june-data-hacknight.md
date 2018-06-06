@@ -65,7 +65,7 @@ featured_speakers:
   talk_title: Mentor
   designation: Engineering Manager at Walmart Labs
   funnel_url: https://www.linkedin.com/in/ranjith-r-p-92880417/
-  image_url: https://images.hasgeek.com/embed/file/5e2032f6a02b499b82ea4971daff80ec
+  image_url: https://images.hasgeek.com/embed/file/675809cf08e04ce89b3b1e0a08508401
 rsvp: |
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdJ_YdRoGA-PcnXTwrVutTQKzl2myrabl1JKA92ssqgqkzdow/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
