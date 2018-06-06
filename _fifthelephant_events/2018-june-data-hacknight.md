@@ -32,11 +32,17 @@ overview:
     
     [Here](https://github.com/hasgeek/public-lists/blob/master/list-of-public-datasets-related-to-healthcare.md) is a compiled list of public datasets related to healthcare. Feel free to choose this or any other datasets which you know. If you find any relevant dataset missing in this list, send us a pull request.
 
+    ## Why attend?
+
+    Hacknights at HasGeek is a favourite among savvy geeks. Unlike regular quasi-social hackathons, our hacknights foster collaboration among developers who are truly passionate about building things. We bring in mentors from the community to hear out your project ideas and guide you when your mind hits a roadblock and no amount of coffee is seeming to help. Not convinced yet? Take a sneak peek into what happens at our hacknights by watching this [video](https://www.facebook.com/HasGeek/videos/vb.147575355285731/1250347611675161/) or read this [post](https://medium.com/hasgeek/with-hackathons-maybe-smaller-the-better-c332ef23bc9). 
+
+    Also, munchies are on us!
+    
+  right_content: |
+
     ## Who should attend?
 
     If you are a data enthusiast, machine learning expert, hardware ninja or anyone with data skills interested in exploring healthcare domain, you should be attending this hacknight.
-
-  right_content: |
 
     ## Know your mentors
     
@@ -46,13 +52,7 @@ overview:
 
     **Srinivas Kodali**: Srinivas is a Civic Hacker and researcher working on open data, data standards and information Security. He would be interested to work with teams building tools for data collection, electronic medical records, information security in health care and also about new business models on data to look at sustainability of anything you build.
 
-    **Yogesh Ranganath**: Yogesh works at Azim Premji Philanthropic Initiatives (APPI) and he is on a mission to improve air quality in Bengaluru. Join him at this Hacknight and address air quality issues with data.  Read more about how you can contribute here.
-
-    ## Why attend?
-
-    Hacknights at HasGeek is a favourite among savvy geeks. Unlike regular quasi-social hackathons, our hacknights foster collaboration among developers who are truly passionate about building things. We bring in mentors from the community to hear out your project ideas and guide you when your mind hits a roadblock and no amount of coffee is seeming to help. Not convinced yet? Take a sneak peek into what happens at our hacknights by watching this [video](https://www.facebook.com/HasGeek/videos/vb.147575355285731/1250347611675161/) or read this [post](https://medium.com/hasgeek/with-hackathons-maybe-smaller-the-better-c332ef23bc9). 
-
-    Also, munchies are on us!
+    **Yogesh Ranganath**: Yogesh works at Azim Premji Philanthropic Initiatives (APPI) and he is on a mission to improve air quality in Bengaluru. Join him at this Hacknight and address air quality issues with data.  Read more about how you can contribute [here](https://medium.com/@yogesh.ranganath/crunching-large-data-sets-to-identify-air-pollution-hot-spots-73ae6882abf).
 
     
 featured_speakers:
@@ -75,7 +75,7 @@ featured_speakers:
   talk_title: Mentor
   designation: Engineering Manager at Walmart Labs
   funnel_url: https://www.linkedin.com/in/ranjith-r-p-92880417/
-  image_url: https://images.hasgeek.com/embed/file/675809cf08e04ce89b3b1e0a08508401
+  image_url: https://images.hasgeek.com/embed/file/675809cf08e04ce89b3b1e0a08508401?size=200x200
 rsvp: |
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdJ_YdRoGA-PcnXTwrVutTQKzl2myrabl1JKA92ssqgqkzdow/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
