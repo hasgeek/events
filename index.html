@@ -35,9 +35,12 @@ layout: base
     {% include assign_all_events.html %}
     <div class="columns is-centered is-multiline">
       {% for event in all_events %}
-      <div class="column is-one-third">
-        {% include event_card.html event=event featured=event.featured %}
-      </div>
+        {% if featured_events contains event %}
+        {% else %}
+          <div class="column is-one-third">
+            {% include event_card.html event=event featured=event.featured %}
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
