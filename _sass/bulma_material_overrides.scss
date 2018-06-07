@@ -451,9 +451,14 @@ a{
 }
 
 .featured{
+    height: auto !important;
    p{
         font-size: 20px;
     }
+}
+
+.featured-image{
+  padding-bottom: 32px;
 }
 
 .no-padding{
