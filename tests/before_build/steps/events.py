@@ -296,18 +296,14 @@ event_schema = {
     },
 
     'hasgeektv-event-playlist-link': {
-      'type': 'dict',
-        'schema': {
-            'feed_url': {
-                'type': 'string',
-                'required': True
-            },
-            'url': {
-                'type': 'string',
-                'required': True
-            }
-        },
-        'required': False
+        'type': 'dict',
+          'schema': {
+              'url': {
+                  'type': 'string',
+                  'required': True
+              }
+          },
+          'required': False
     },
 
     'mailchimp': {
