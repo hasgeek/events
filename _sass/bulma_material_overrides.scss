@@ -451,7 +451,7 @@ a{
 }
 
 .featured{
-    height: auto !important;
+  height: auto !important;
    p{
         font-size: 20px;
     }
@@ -459,6 +459,12 @@ a{
 
 .featured-image{
   padding-bottom: 32px;
+}
+
+.featured-video{
+  .button{
+    margin-top: 24px;
+  }
 }
 
 .no-padding{
