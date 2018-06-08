@@ -13,7 +13,7 @@ funnel:
   url: "https://reactfoo.talkfunnel.com/2018-delhi/"
   open: true
   
-related_events:
+
 
 overview:
   left_content: |
