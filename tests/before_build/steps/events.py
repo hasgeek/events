@@ -374,6 +374,10 @@ event_schema = {
         },
         'required': False
     },
+    'fixed_announcements': {
+        'type': 'list',
+        'required': False
+    },
     'overview': {
         'type': 'dict',
         'schema': {

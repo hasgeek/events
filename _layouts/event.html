@@ -141,10 +141,14 @@ layout: base
 </section><hr>
 {% endif %}
 
-{% if page.related_events %}
-<section class="section bg-light">
+{% if page.fixed_announcements %}
+<section class="section bg-light" id="fixed_announcements">
   <div class="container">
-    {% include related_events_section.html %}
+    <div class="columns is-centered is-multiline">
+      {% for announcement in page.fixed_announcements %}
+      {% include {{ announcement }}_announcement.html announcements=page.announcements %}
+      {% endfor %}
+    </div>
   </div>
 </section><hr>
 {% endif %}
@@ -169,6 +173,14 @@ layout: base
 <section class="section bg-light"id="proposed_speakers">
   <div class="container">
   {% include proposed_speakers_section.html speakers=page.proposed_speakers %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.related_events %}
+<section class="section bg-light">
+  <div class="container">
+    {% include related_events_section.html %}
   </div>
 </section><hr>
 {% endif %}
