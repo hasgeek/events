@@ -44,7 +44,7 @@ layout: base
   {% endif %}
 
 <div style="z-index:10;">
-  <nav class="nav has-shadow nav-sticky" style="z-index:10;">
+  <nav class="nav nav-secondary has-shadow nav-sticky" style="z-index:10;">
     <div class="container">
       <div class="nav-left" style="z-index:10;">
         <span class="nav-toggle">
@@ -53,7 +53,7 @@ layout: base
           <span></span>
         </span>
         {% if page.boxoffice_item_collection %}
-        <a class="nav-item is-tab is-hidden-tablet" data-href="#tickets"><span class="button is-success">Buy Tickets</span></a>
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#tickets"><span class="button btn-is-primary">Buy Tickets</span></a>
         {% endif %}
         {% if page.overview %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#overview" style="z-index:10;">Overview</a>
@@ -116,7 +116,7 @@ layout: base
         <a class="nav-item is-tab is-hidden-mobile" data-href="#hasgeek">About HasGeek</a>
         <a class="nav-item is-tab is-hidden-mobile" href="{{ site.url }}{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
         {% if page.boxoffice_item_collection %}
-        <a class="nav-item is-tab is-hidden-mobile" data-href="#tickets"><span class="button is-success">Buy Tickets</span></a>
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#tickets"><span class="button btn-is-primary">Buy Tickets</span></a>
         {% endif %}
       </div>
       <div class="nav-right">

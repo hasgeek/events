@@ -393,6 +393,34 @@ iframe {
       }
     }
   }
+  .event-name{
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 700;
+  }
+  .event-date{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+  .event-title{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 32px;
+  }
+   @media only screen and (max-width: 600px) {
+    .event-title{
+      font-size: 40px;
+      line-height: 1.2;
+    }
+    .event-name{
+      font-size: 24px;
+    }
+    .event-date{
+    font-size: 14px;
+  }
 }
 
 .panel {
@@ -417,6 +445,28 @@ iframe {
     }
   }
 }
+}
+.btn-is-primary{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.29);
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 14px;
+    background-color: $primary;
+     &:hover, &:active, &:focus{
+      background-color: $primary;
+      color: #4a4a4a;
+    }
+  }
+  .btn-is-secondary{
+    background-color: transparent !important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 14px;
+    &:hover{
+      background-color: rgba(31, 45, 61, 0.10) !important;
+    }
+  }
 
 a{
     color: #4A90E2;
@@ -541,6 +591,16 @@ a{
   }
 }
 
+.nav-secondary{
+  .btn-is-primary{
+    background-color: #ffffff;
+    color: #4a4a4a;
+    &:hover, &:active, &:focus{
+      background-color: #ffffff;
+      color: #4a4a4a;
+    }
+  }
+}
 
 
 
