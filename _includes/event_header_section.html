@@ -22,7 +22,7 @@
         {% else %}
           {% assign logo_url = include.event.logo.image_url | absolute_url %}
         {% endif %}
-          <img src="{{ logo_url }}" style="max-width: 50px;" class="has-text-centered">
+          <img src="{{ logo_url }}" style="max-width: 60px;" class="has-text-centered">
         </div>
         <h1 class="event-name" style="color: {% if include.event.banner %}#ffffff{% else %}#000000{% endif %};">
         {{ include.event.title }}
