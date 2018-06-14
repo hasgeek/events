@@ -276,6 +276,10 @@ event_schema = {
             'url': {
                 'type': 'string',
                 'required': True
+            },
+            'title': {
+                'type': 'string',
+                'required': True
             }
         },
         'required': False
