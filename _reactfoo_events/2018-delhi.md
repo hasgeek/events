@@ -57,4 +57,19 @@ sponsor:
 
     Download our sponsorship deck or reach out to us for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
   sponsorship_deck_url: 'http://hsgk.in/reactfoo2018sponsor'
+
+blog:
+  feed_url: https://medium.com/feed/reactfoo
+  url: https://medium.com/reactfoo
+  title: ReactFoo
+
+photo_album:
+  title: "Highlights from ReactFoo Hyderabad, 2018"
+  photos:
+  - url: https://farm1.staticflickr.com/806/40896384401_699bd54f3b_z.jpg
+  - url: https://farm5.staticflickr.com/4788/26024249587_58d547d628_z.jpg
+  - url: https://farm1.staticflickr.com/788/39086973950_701b45e5f6_z.jpg
+  - url: https://farm1.staticflickr.com/788/40896388801_e6f7630f21_z.jpg
+  - url: https://farm1.staticflickr.com/800/40896382561_24dcc7d1b1_z.jpg
+  - url: https://farm5.staticflickr.com/4788/40896395541_852be2773a_z.jpg
 ---
