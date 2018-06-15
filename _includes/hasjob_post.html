@@ -1,0 +1,61 @@
+<div class="has-text-centered">
+  <h3 class="title">Jobs</h3><br>
+</div>
+<div id="jobpost-container" class="jobpost-container">
+  {% raw %}
+  <script id="jobpost-entries" type="text/x-mustache-template">
+    <div class="columns is-centered is-multiline">
+      {{#jobPost}}
+        <div class="column is-one-quarter">
+        <div class="is-clickable" onclick="goToUrl('{{ link }}')" data-href="{{ link }}" data-label="view job post {{ title }}">
+          <article class="tile is-child hasjob-card">
+            <p><small class="">{{ location }}</small><small class="is-pulled-right job-post-date">{{ date }}</small></p>
+            <h1 class="title is-4"><strong><a href="{{ link }}" target="_blank" class="click link-unstyled" data-label="view blog {{ title }}">{{ title }}</a></strong></h1>
+            {{#companyName}}
+              <p><small class="is-pulled-right">{{ companyName }}</small></p>
+            {{/companyName}}
+           </article>
+        </div>
+        </div>
+      {{/jobPost}}
+    </div>
+    {% endraw %}
+  </script>
+</div>
+<div class="has-text-centered">
+  <a class="button hasjob-button" href="{{ page.hasjob.url }}" target="_blank">View more jobs on Hasjob</a>
+</div>
+
+<script src="{{ site.url }}{{ site.baseurl }}/js/feednami-client-v1.1.js"></script>
+<script>
+    var parseEnteries = function (data, wrapper, template) {
+      var jobPostTemplate = $(template).html();
+      $(wrapper).append(Mustache.render(jobPostTemplate, data));
+    };
+
+    var getDateString = function (dateStr) {
+      var monthNames = ["January", "February", "March", "April", 
+        "May", "June", "July", "August", "September", 
+        "October", "November", "December"];
+      var month = parseInt(dateStr.substr(5, 2), 10) - 1;
+      var day = parseInt(dateStr.substr(8, 2), 10);
+      return day + " " + monthNames[month];
+    }
+
+    feednami.setPublicApiKey('{{site.feednami_api_key}}');
+    var url = '{{ page.hasjob.feed_url }}';
+    var jobPost = [];
+    feednami.load(url).then(function (feed) {
+      var jobPostEnteries = feed.entries.slice(0,4);
+      for (var i = 0; i < jobPostEnteries.length; i++) {
+        var entry = feed.entries[i];
+        jobPost.push({ "title": entry.title,
+        	"date": getDateString(entry.pubDate),
+        	"link": entry.link,
+        	"location": entry['atom:location']['#'],
+        	"companyName": entry.company_name });
+      }
+      var jobFeed = { 'jobPost': jobPost };
+      parseEnteries(jobFeed, '#jobpost-container', '#jobpost-entries');
+    })
+</script>

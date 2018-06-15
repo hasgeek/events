@@ -19,6 +19,7 @@
       {% endraw %}
     </script>
   </div>
+  <p class="has-text-centered"><a class="button is-primary" href="{{ page.blog.url }}" target="_blank">Read more on {{ page.blog.title }} blog</a></p>
 </div>
 
 {% if page.mailchimp.url %}
@@ -70,8 +71,9 @@
     var url = '{{ page.blog.feed_url }}';
     var blog = [];
     feednami.load(url).then(function (feed) {
-      for (var i = 0; i < 6; i++) {
-        var entry = feed.entries[i]
+      var entries = feed.entries.slice(0, 6);
+      for (var i = 0; i < entries.length; i++) {
+        var entry = entries[i];
         var description = entry.description.replace(/<\/?[^>]+(>|$)/g, "").slice(0, 300) + '...';
         blog.push({ "title": entry.title, "author": entry.author, "description": description, "link": entry.link, "date": getDateString(entry.pubDate) });
       }

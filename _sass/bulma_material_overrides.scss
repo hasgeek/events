@@ -1,6 +1,7 @@
 // Overrides
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
 
+
 hr {
   background-color: lighten($grey-lighter, 5);
 }
@@ -392,6 +393,34 @@ iframe {
       }
     }
   }
+  .event-name{
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 700;
+  }
+  .event-date{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+  .event-title{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 32px;
+  }
+   @media only screen and (max-width: 600px) {
+    .event-title{
+      font-size: 40px;
+      line-height: 1.2;
+    }
+    .event-name{
+      font-size: 24px;
+    }
+    .event-date{
+    font-size: 14px;
+  }
 }
 
 .panel {
@@ -416,6 +445,28 @@ iframe {
     }
   }
 }
+}
+.btn-is-primary{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.29);
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 14px;
+    background-color: $primary;
+     &:hover, &:active, &:focus{
+      background-color: $primary;
+      color: #4a4a4a;
+    }
+  }
+  .btn-is-secondary{
+    background-color: transparent !important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 14px;
+    &:hover{
+      background-color: rgba(31, 45, 61, 0.10) !important;
+    }
+  }
 
 a{
     color: #4A90E2;
@@ -450,9 +501,20 @@ a{
 }
 
 .featured{
+  height: auto !important;
    p{
         font-size: 20px;
     }
+}
+
+.featured-image{
+  padding-bottom: 32px;
+}
+
+.featured-video{
+  .button{
+    margin-top: 24px;
+  }
 }
 
 .no-padding{
@@ -475,6 +537,69 @@ a{
 .nav-home{
   font-weight: bold;
 
+}
+
+/* Hasjob job post includes in event page */
+.jobpost-container{
+  .button{
+    margin-top: 8px;
+  }
+}
+.hasjob-card{
+    background-color: #ffffa6;
+    border-radius: 2px;
+    padding: 0 .5rem 1.25rem .5rem;;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+    cursor: pointer;
+    .title{
+        font-size: 16px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+        font-family: 'McLaren', cursive;
+        padding-left: 16px;
+        a{
+          color: #333333;
+        }
+    }
+    p{
+      color: #816894;
+      font-weight: 500;
+      font-family: 'Fira Sans', sans-serif;
+    }
+}
+
+.job-post-date{
+    margin-top: 3px;
+}
+
+.hasjob-button{
+  background-color: #816894;
+  border-color: #816894;
+  border-bottom: 2px solid #554562;
+  margin-top: 25px;
+  margin-right: 4px;
+  padding: 0 15px;
+  color: #fff;
+  &:hover{
+    background-color: #725c83;
+    color: #ffffff;
+    border-bottom: 2px solid #554562;
+  }
+  &:active, &:focus{
+    color: #ffffff;
+    border-bottom: 2px solid #554562;
+  }
+}
+
+.nav-secondary{
+  .btn-is-primary{
+    background-color: #ffffff;
+    color: #4a4a4a;
+    &:hover, &:active, &:focus{
+      background-color: #ffffff;
+      color: #4a4a4a;
+    }
+  }
 }
 
 

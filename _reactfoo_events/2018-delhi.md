@@ -1,56 +1,75 @@
 ---
 layout: event
 title: "ReactFoo Delhi"
-subtitle: "On React, alternatives to React, React Native and front-end engineering."
+subtitle: "On React, front-end engineering and performance."
 datelocation: "18 August 2018, Venue TBA, Delhi"
 city: Delhi/NCR
 start_time: 2018-08-18
 end_time: 2018-08-18
-description: "A conference on React, alternatives to React, React Native and front-end engineering."
+description: "A conference on React, front-end engineering and performance."
 
 boxoffice_item_collection: "6e5bfb42-c1f3-4d87-b1f0-2fcaba012173"
 funnel:
   url: "https://reactfoo.talkfunnel.com/2018-delhi/"
   open: true
-  
-related_events:
-- reactfoo-2018-pune-react-0-to-100
-- reactfoo-2018-mumbai
-- reactfoo-2018-mumbai-graphql-apollo-workshop
+logo:
+  image_url: /images/reactfoo-logo.png
+schedule:
+  url: "https://reactfoo.talkfunnel.com/2018-delhi/schedule"
+  json_url: "https://reactfoo.talkfunnel.com/2018-delhi/schedule/json"
+  type: "conference"
 
 overview:
   left_content: |
-    After successful editions in Bangalore and Pune, ReactFoo travels to other cities like Hyderabad, Mumbai and Delhi. The Delhi edition will focus on the following topics:
-    
-    1. Success and failure stories of implementing React and React Native for your use-case.
-    2. Your experiences with alternatives to React – such as Angular, Vue and other frameworks – why these worked / did not work for your use-case. 
-    3. Front-end architecture patterns and approaches with React.
-    4. Mobile engineering with React Native or alternatives. 
+    After successful editions in Bangalore, Pune, Hyderabad and Mumbai, ReactFoo travels to Delhi. The Delhi edition will focus on the following topics:
+
+    1. Performance and React.
+    2. Performance, in general.
+    3. Architecture with React.
+    4. Alternatives to React – such as Angular, Vue and other frameworks – why these worked / did not work for your use-case.
+    5. Mobile engineering with ReactNative or alternatives.
 
 
-    **ReactFoo Delhi is an event for JavaScript and front-end engineers, cross-platform developers.**
+    **ReactFoo Delhi is an event for JavaScript, React and front-end engineers.**
 
     ReactFoo Delhi is a single-day event with talks and Birds Of Feather (BOF) sessions.     
 
-    Hands-on workshops for 30-40 participants will be held on next day of the conference. Workshops will be announced shortly. **Tickets have to be purchased separately.** 
+    Hands-on workshops for 30-40 participants will be held on next day of the conference. Workshops will be announced shortly. **Tickets have to be purchased separately.**
 
   right_content: |
     ### Who should attend?
 
-    * Front-end engineers and JS engineers.
-    * Decision-makers considering the pros and cons of switching to React and React Native.
-    * Cross-platform mobile developers and React Native enthusiasts.
+    * Front-end engineers
+    * JS engineers from enterprises.
+    * JS engineers from startups.
+    * Architects.
+    * Cross-platform mobile developers.
 
     ### Why you should attend?
 
     * To learn from and network with peers from the industry.
     * To gain insights from case studies of practical implementation, and evaluate ReactJS and React Native for your work.
     * To become better at front-end engineering.
-    
+
 sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach and hiring.
 
     Download our sponsorship deck or reach out to us for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
   sponsorship_deck_url: 'http://hsgk.in/reactfoo2018sponsor'
+
+blog:
+  feed_url: https://medium.com/feed/reactfoo
+  url: https://medium.com/reactfoo
+  title: ReactFoo
+
+photo_album:
+  title: "Highlights from ReactFoo Hyderabad, 2018"
+  photos:
+  - url: https://farm1.staticflickr.com/806/40896384401_699bd54f3b_z.jpg
+  - url: https://farm5.staticflickr.com/4788/26024249587_58d547d628_z.jpg
+  - url: https://farm1.staticflickr.com/788/39086973950_701b45e5f6_z.jpg
+  - url: https://farm1.staticflickr.com/788/40896388801_e6f7630f21_z.jpg
+  - url: https://farm1.staticflickr.com/800/40896382561_24dcc7d1b1_z.jpg
+  - url: https://farm5.staticflickr.com/4788/40896395541_852be2773a_z.jpg
 ---

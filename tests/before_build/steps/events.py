@@ -276,10 +276,40 @@ event_schema = {
             'url': {
                 'type': 'string',
                 'required': True
+            },
+            'title': {
+                'type': 'string',
+                'required': True
             }
         },
         'required': False
     },
+    'hasjob': {
+        'type': 'dict',
+        'schema': {
+            'feed_url': {
+                'type': 'string',
+                'required': True
+            },
+            'url': {
+                'type': 'string',
+                'required': True
+            }
+        },
+        'required': False
+    },
+
+    'hasgeektv-event-playlist-link': {
+        'type': 'dict',
+          'schema': {
+              'url': {
+                  'type': 'string',
+                  'required': True
+              }
+          },
+          'required': False
+    },
+
     'mailchimp': {
         'type': 'dict',
         'schema': {
@@ -358,6 +388,10 @@ event_schema = {
                 'required': True
             }
         },
+        'required': False
+    },
+    'fixed_announcements': {
+        'type': 'list',
         'required': False
     },
     'overview': {
