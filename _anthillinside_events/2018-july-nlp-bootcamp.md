@@ -1,140 +1,103 @@
 ---
 layout: workshop
-title: "Deep Learning Bootcamp"
-subtitle: "Getting started with deep learning for image and text"
-datelocation: "23-24 July 2018, Bangalore"
+title: "Bootcamp: Learning representations of text for NLP"
+subtitle: Learn and implement an end-to-end deep learning models for natural language processing.
+datelocation: "28-29 July 2018, 09:00 AM - 05:00 PM, Bangalore"
 city: Bangalore
-start_time: 2018-07-23
-end_time: 2018-07-24
-description: "Learn theory and practical concepts of building a deep learning solution in the space of computer vision and natural language processing."
-boxoffice_item_collection: "26ac0e6c-4a1d-4b13-ae9c-c8bb372dd1b1"
+start_time: 2018-07-28
+end_time: 2018-07-29
+description: "Learn and implement an end-to-end deep learning models for natural language processing."
+boxoffice_item_collection: '26ac0e6c-4a1d-4b13-ae9c-c8bb372dd1b1'
 
 instructors:
-- name: Amit Kapoor
-  image_url: https://imgee.s3.amazonaws.com/imgee/aff28bc2a9cf4e5881f3dd51d56d53b7.jpeg
+- name: Anuj Gupta
+  byline: Director - Machine Learning, Huawei Technologies
+  image_url: https://images.hasgeek.com/embed/file/a524455ee6b34301aaaa4faa31a2564a
   website:
-    url: http://amitkaps.com/
-    label: amitkaps.com
-  byline: Crafting Visual Stories with Data
+    url: https://www.linkedin.com/in/anuj-gupta-15585792/
+    label: Linkedin
   bio: |
-    **Amit** teaches the craft of telling visual stories with data. He conducts workshops and trainings on Data Science in Python and R, as well as on Data Visualisation topics. His background is in strategy consulting having worked with AT Kearney in India, then with Booz & Company in Europe and more recently for startups in Bangalore. He did his B.Tech in Mechanical Engineering from IIT, Delhi and PGDM (MBA) from IIM, Ahmedabad. You can find more about him at [amitkaps.com](http://amitkaps.com/) and tweet him at [@amitkaps](https://twitter.com/amitkaps).
-- name: Bargava Subramanian
-  image_url: https://images.hasgeek.com/embed/file/195574f5c883459c927ecfdef066715c
-  website:
-    url: https://twitter.com/bargava
-    label: "@bargava"
-  byline: Senior Data Scientist
-  bio: |
-    **Bargava** is a practicing Data Scientist. He has 14 years of experience delivering business analytics solutions to Investment Banks, Entertainment Studios and High-Tech companies. He has given talks and conducted workshops on Data Science, Machine Learning, Deep Learning and Optimization in Python and R. He has a Masters in Statistics from University of Maryland, College Park, USA. He is an ardent NBA fan. You can tweet to him at @bargava.
+    **Anuj** is a seasoned ML researcher; working in the area NLP, Machine Learning, Deep learning. Currently he is heading ML/DL efforts for Huawei India R&D. Prior to this he was heading ML efforts at Freshworks and Airwoot(Now acquired by Freshdesk). He dropped out of Phd in ML to work with startups. He graduated from IIIT H with specialization in theoretical comp science. He has authored a bunch of research publications and patents. He is a regular speaker at prestigious forums like PyData, Anthill, The Fifth Elephant, NVidia Dev conf, conferences in distributed algorithms. He is also co-organizer of special interest groups like DLBLR.
 
 overview:
   left_content: |
-    ### Approach
-    This would be a two-day instructor-led hands-on bootcamp to learn and implement an end-to-end deep learning model for computer vision (image recognition and generation) and natural language processing (text classfication and generation)
+    Think of your favorite NLP application that you wish to build - sentiment analysis, named entity recognition, machine translation, information extraction, summarization, recommender system, to name a few. A key step towards achieving any of the above task is - using the right set of techniques to represent text in a form that machine can easily understand.
+    
+    Unlike images, where directly using the intensity of pixels is a natural way to represent the image; in case of text there is no such natural representation. No matter how good is your ML algorithm, it can do only so much unless there is a richer way to represent underlying text data. Thus, whatever NLP application you are building, it’s imperative to find a good representation for your text data. Motivated from this, the subfield of  representation learning of text for NLP has attracted a lot of research interest in the past few years.
+    
+    In this bootcamp, we will understand key concepts, maths, and code behind the state-of-the-art techniques for text representation. Various representation learning techniques have been proposed in literature, but still there is a dearth of comprehensive tutorials that provides full coverage with mathematical explanations as well as implementation details of these algorithms to a satisfactory depth.
+    
+    This bootcamp aims to bridge this gap. It aims to demystify, both - Theory (key concepts, maths) and Practice (code) that goes into building these representation schemes. At the end of this bootcamp participants would have gained a fundamental understanding of these schemes with an ability to implement them on datasets of their interest.
 
-    - Day 1 will cover introduction to deep learning and applications to computer vision
-    - Day 2 will cover applications to natural language processing
 
-    There will be **eight** sessions of **two** hours each over two days.
+    # Target Audience
+    
+    * Machine learning practitioners
+    * Anyone (researcher, student, professional) learning NLP
+    * Corporates and Start-ups looking to add NLP to their product or service offerings
 
-    ### Session 1: Deep Learning (DL) Theory
 
-    1. What is deep learning? 
-    2. Use cases in computer vision and natural language processing.
-    3. Overview of the building blocks
-      - Neurons
-      - Activation functions
-      - Back propagation algorithm
-      - Stochastic gradient descent
-      - Adaptive learning 
-      - Momentum
+    # Pre-requisites
 
-    ### Session 2: DL for Computer Vision 
+    * This is a hands-on course and hence, participants should be comfortable with programming. Familiarity with python data stack is ideal.
+    * Prior knowledge of machine learning will be helpful. Participants should have some practice with basic NLP problems e.g. sentiment analysis.
+    * While the DL concepts will be taught in an intuitive way, some prior knowledge of linear algebra and probability theory would be helpful.
 
-    1. Introduction to problem and data-set
-    2. Working on the cloud, including `keras` and `tensorflow`
-    3. Build your first DL Model - Multi-layer Perceptron (MLP)
 
-    ### Session 3: Convolutional Neural Networks (CNN)
+    # Resources
 
-    1. Concept of Convolution, Max-pooling and Dropouts
-    2. Build your second DL Model - CNN
-    3. Tricks to improve your model
-       - Augment your training data
-       - Batch normalization
-
-    ### Session 4: Transfer Learning
-
-    1. Concept of Transfer Learning
-    2. Build your third DL Model - Leverage pre-trained models
-    3. Deploying your DL model on the cloud
-
-    ### Session 5: DL for Natural Language Processing (NLP)
-
-    1. Challenges with traditional NLP techniques
-    2. Concept of Word Embedding - word2vec 
-    3. Build your fourth DL Model - MLP using word2vec
-
-    ### Session 6: Recurrent Neural Networks (RNN)
-
-    1. Concept of RNNs 
-    2. Concept of Long Short-Term Memory (LSTM)
-    3. Build your fifth DL Model - LSTM
-
-    ### Session 7: Build your DL Applications
-
-    1. Concept of Sequence-to-Sequence Learning
-    2. Build your sixth DL Model - Text Generation
-    3. Deploy it as a bot (e.g. TweetBot / ChatBot)
-
-    ### Session 8: Advanced Topics in DL (Theory)
-
-    1. Challenges in building DL apps
-    2. Concept of Generative Adversarial Network
-    3. Moving beyond Classification e.g. Object Detection
-    4. Concept of DL for Unsupervised Learning
-    5. Concept of Reinforcement Learning
-    7. Where to go from here
+    The material for the bootcamp is hosted on [github](https://github.com/anujgupta82/Representation-Learning-for-NLP). You can find slides for this workshop [here](https://www.slideshare.net/anujgupta5095/representation-learning-of-text-for-nlp).
+  
+    This is from the popular bootcamp series by the speakers on NLP. Additional materials relevant would be shared prior to the bootcamp.
 
   right_content: |
-    > “All knowledge is connected to all other knowledge. The fun is in making the connections.” — Arthur Aufderheide
+    # Approach
+    
+    This would be a two-day instructor-led hands-on bootcamp to learn and implement an end-to-end deep learning models for natural language processing.
 
-    # Deep Learning Bootcamp
+      * Day1 will cover introduction to text representation, old ways of representing text, followed by a deep dive into embedding spaces and word vectors.
+      * Day2 will cover more advanced techniques of representing text such as Paragraph2vec/doc2vector techniques and various architectures for char2vec.
+    
+    There will be  four  sessions of  three  hours each over two days .
+    
+    #### Session 1: Introduction to representation learning
+            
+    1. What is representation learning?
+    2. Use cases in natural language processing.
+    3. Old ways of representing text
+      * One-hot encoding
+      * Tf-idf
+      * N-grams
+    4. How to use pre-trained word embedding?
 
-    The objective for the Deep Learning bootcamp is to ensure that the participants have enough theory and practical concepts of building a deep learning solution in the space of computer vision and natural language processing. Post the bootcamp, all the participants would be familiar with the following key concepts and would be able to apply them to a problem.
+    #### Session 2: Word-vectors
+            
+    1. Introduction to word-vectors?
+    2. Different techniques of generating word-vectors
+      * CBOW, Skip-gram model
+      * Glove model
+    3. Detailed implementation of each of these models in tensorflow 
+    4. Negative sampling, hierarchical softmax, tSNE
+    5. Fine-tuning pretrained embeddings
+    
+    #### Session 3: Sentence2vec/Paragraph2vec/Doc2vec
+           
+    1. Extending word vectors to represent sentences/paragraphs/documents
+    2. Various techniques for training doc2vec 
+      * Doc2vec
+        i. DM
+        ii. DBOW 
+      * Skip - thoughts
+    3. Detailed implementation of each of these models in tensorflow
+    
+    #### Session 4: Char2vec
 
-    ### **Key Deep Learning Concept**
+    1. Building character embeddings
+    2. Tweet2vec - character embeddings from social data
+    3. CNN for character vectors.
+    4. fastText - character n-gram embeddings
 
-    - **Theory**: DL Motivation, Back-propagation, Activation
-    - **Paradigms**: Supervised, Unsupervised
-    - **Models**: Architecture, Pre-trained Models (Transfer Learning)
-    - **Methods**: Perceptron, Convolution, Pooling, Dropouts, Recurrent, LSTM
-    - **Process**: Setup, Encoding, Training, Serving
-    - **Tools**: `python-data-stack`, `keras`, `tensorflow`
-
-    ## Resources
-
-    The material for the bootcamp is hosted on github:
-    - For Image: [https://github.com/rouseguy/DeepLearning-Image](https://github.com/rouseguy/DeepLearning-Image)
-    - For NLP: [https://github.com/rouseguy/DeepLearning-NLP](https://github.com/rouseguy/DeepLearning-NLP)
-
-    This is from the popular bootcamp series by the speakers on deep learning. Additional materials relevant to learning Deep Learning would be shared prior to the bootcamp.
-
-    ## Target Audience
-
-    - A machine learning practitioner
-    - A programmer interested in building data science products
-    - Anyone (researcher, student, professional) learning machine learning
-    - Corporates and Start-ups looking to add DL to their product or service offerings
-
-    ##  Pre-requisites
-
-    - This is a hands-on course and hence, participants should be comfortable with programming. Familiarity with python data stack is ideal.
-    - Prior knowledge of machine learning will be helpful. Participants should have some practice with basic machine learning problems e.g. regression, classification.
-    - While the DL concepts will be taught in an intuitive way, some prior knowledge of linear algebra and calculus would be helpful.
-
-
-    ## Software Requirements
-
-    We will be using Python data stack for the bootcamp with `keras` and `tensorflow` for the deep learning component. Please install Ananconda for Python 3 for the bootcamp. Additional requirement will be communicated to participants.
+    # Software Requirements
+    
+    We will be using Python data stack for the bootcamp with keras and tensorflow for the deep learning component. Please install Anaconda for Python 3 for the bootcamp. Additional requirement will be communicated to participants.
 ---
