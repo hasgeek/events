@@ -7,7 +7,7 @@ city: Delhi
 start_time: 2018-08-19
 end_time: 2018-08-19
 description: "In this workshop, you will learn how to build apps with React, GraphQL and Apollo. Various concepts of GraphQL and Apollo will be covered while building a simple e-commerce app."
-boxoffice_item_collection: ""
+boxoffice_item_collection: "6e5bfb42-c1f3-4d87-b1f0-2fcaba012173"
 
 instructors:
 - name: Kiran Abburi
