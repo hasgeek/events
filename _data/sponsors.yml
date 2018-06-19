@@ -109,11 +109,13 @@ payu:
 
 qubole:
   title: "Qubole"
-  logo_url: https://images.hasgeek.com/embed/file/4188d2366eb8420a94ee508825fc78d4
+  logo_url: https://images.hasgeek.com/embed/file/55bb61a02a2d4eefa18ab982c7436edc
   url: https://www.qubole.com/
   display_url: www.qubole.com
   blurb: |
-    Qubole is passionate about making data-driven insights easily accessible to anyone. Qubole customers currently process nearly an exabyte of data every month, making us the leading cloud-agnostic big-data-as-a-service provider. Customers have chosen Qubole because we created the industry’s first autonomous data platform. This cloud-based data platform self-manages, self-optimizes and learns to improve automatically and as a result delivers unbeatable agility, flexibility, and TCO. Qubole customers focus on their data, not their data platform.
+    Qubole, the leading cloud-agnostic, big data-as-a-service provider, is passionate about making data-driven insights easily accessible to anyone. 
+    Qubole delivers the industry’s first autonomous data platform. The cloud-based data platform, Qubole Data Service (QDS), removes the burden of maintaining infrastructure of multiple big data processing engines, and enables customers to focus on their data. 
+    QDS is context-aware, self-managing, and self-learning to deliver unbeatable agility, flexibility and total cost of ownership. Qubole customers process nearly an exabyte of data every month. Qubole investors include CRV, Harmony Partners, IVP, Lightspeed Venture Partners, Norwest Venture Partners and Singtel Innov8. For more information visit www.qubole.com.
 
 imerit:
   title: "iMerit"
@@ -836,3 +838,17 @@ samsung:
     At SRI-B, employees not only have an opportunity to work on areas involving pure research but also carry it forward as proof of concept towards Advanced Development, by seeing the research being implemented.
 
     For further details please visit: https://research.samsung.com/sri-b
+
+
+expedia:
+  title: Expedia
+  logo_url: https://images.hasgeek.com/embed/file/9060ed6bb02e42d79c09a8a1959d164a
+  url: https://www.lifeatexpedia.com/
+  display_url: www.lifeatexpedia.com
+  blurb: |
+    We are the world’s travel platform.  Our purpose is to bring the world within reach.
+    
+    We are among the largest technology companies in the world, and our work is solely dedicated to one of the most socially and economically important activities on the planet – travel.
+    
+    Expedia Group includes a number of world renowned travel brands including Expedia, Hotels.com, Egencia, HomeAway, Trivago, Orbitz, Travelocity, Hotwire, etc.. 
+    A number of these brand’s have tech hubs in Bangalore and. We use Java, Scala, ML, AI, Big data technologies, AWS to develop cutting edge technology which puts us at the forefront of the travel industry.
