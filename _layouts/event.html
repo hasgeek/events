@@ -144,7 +144,7 @@ layout: base
 {% if page.fixed_announcements %}
 <section class="section bg-light" id="fixed_announcements">
   <div class="container">
-    <div class="columns is-centered is-multiline">
+    <div class="columns is-multiline">
       {% for announcement in page.fixed_announcements %}
       {% include {{ announcement }}_announcement.html announcements=page.announcements %}
       {% endfor %}
