@@ -3,7 +3,7 @@ layout: workshop
 title: "Workshop: GraphQL & Apollo"
 subtitle: "Learn how to build apps with React, GraphQL and Apollo."
 datelocation: "10:00 AM to 5:00 PM,19 August 2018, Delhi"
-city: Delhi
+city: Delhi/NCR
 start_time: 2018-08-19
 end_time: 2018-08-19
 description: "In this workshop, you will learn how to build apps with React, GraphQL and Apollo. Various concepts of GraphQL and Apollo will be covered while building a simple e-commerce app."
