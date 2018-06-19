@@ -113,7 +113,9 @@ qubole:
   url: https://www.qubole.com/
   display_url: www.qubole.com
   blurb: |
-    Qubole is passionate about making data-driven insights easily accessible to anyone. Qubole customers currently process nearly an exabyte of data every month, making us the leading cloud-agnostic big-data-as-a-service provider. Customers have chosen Qubole because we created the industry’s first autonomous data platform. This cloud-based data platform self-manages, self-optimizes and learns to improve automatically and as a result delivers unbeatable agility, flexibility, and TCO. Qubole customers focus on their data, not their data platform.
+    Qubole, the leading cloud-agnostic, big data-as-a-service provider, is passionate about making data-driven insights easily accessible to anyone. 
+    Qubole delivers the industry’s first autonomous data platform. The cloud-based data platform, Qubole Data Service (QDS), removes the burden of maintaining infrastructure of multiple big data processing engines, and enables customers to focus on their data. 
+    QDS is context-aware, self-managing, and self-learning to deliver unbeatable agility, flexibility and total cost of ownership. Qubole customers process nearly an exabyte of data every month. Qubole investors include CRV, Harmony Partners, IVP, Lightspeed Venture Partners, Norwest Venture Partners and Singtel Innov8. For more information visit www.qubole.com.
 
 imerit:
   title: "iMerit"
