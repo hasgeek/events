@@ -1,13 +1,13 @@
 ---
 layout: workshop
 title: "Math for Data Science"
-subtitle: 
+subtitle: Deal with math at your role as data science dev by intuitive understanding of the concepts
 datelocation: "28 July 2018, Bangalore"
 city: Bangalore
 start_time: 2018-07-28
 end_time: 2018-07-28
-description: ""
-boxoffice_item_collection: ''
+description: "Deal with math at your role as data science dev by intuitive understanding of the concepts"
+boxoffice_item_collection: '99292dc8-53e9-44f1-9b71-127ec986613c'
 
 instructors:
 - name: Vishal Gokhale
