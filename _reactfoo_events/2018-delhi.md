@@ -2,7 +2,7 @@
 layout: event
 title: "ReactFoo Delhi"
 subtitle: "On React, front-end engineering and performance."
-datelocation: "18 August 2018, Venue TBA, Delhi"
+datelocation: "18 August 2018, India International Centre, Seminar Hall 1, 2 & 3, 1st Floor, Kamaladevi Block, Lodhi Gardens, New Delhi"
 city: Delhi/NCR
 start_time: 2018-08-18
 end_time: 2018-08-18
@@ -19,6 +19,11 @@ schedule:
   json_url: "https://reactfoo.talkfunnel.com/2018-delhi/schedule/json"
   type: "conference"
 
+venue:
+  label: India International Centre, Seminar Hall 1, 2 & 3, 1st Floor, Kamaladevi Block, Max Mueller Marg, Lodhi Gardens, New Delhi - 110003.
+  lat: 28.594045
+  lng: 77.222978
+  google_maps_url: https://goo.gl/maps/dsw23WesSM42
 overview:
   left_content: |
     After successful editions in Bangalore, Pune, Hyderabad and Mumbai, ReactFoo travels to Delhi. The Delhi edition will focus on the following topics:
