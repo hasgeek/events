@@ -979,3 +979,12 @@
   end_time: 2018-06-23 14:00
   url: https://fifthelephant.in/2018-june-fraud-detection-meetup/
   blurb: "One of the known applications of data science is in detecting frauds. How does this work in practice?"
+
+- name: 2018-june-iot-unplugged-workshop
+  title: "IoT Unplugged: Hands-on Workshop for Beginners"
+  city: Bangalore
+  venue: Texas Instruments, Bagmane Tech Park
+  start_time: 2018-06-30 09:30
+  end_time: 2018-06-30 17:30
+  url: http://iot-unplugged.doattend.com/
+  blurb: "Work with actual hardware. Learn some basic of MCU-based electronics. Write and understand code that interface to sensors."
