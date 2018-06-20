@@ -2,7 +2,7 @@
 layout: event
 title: "ReactFoo Delhi"
 subtitle: "On React, front-end engineering and performance."
-datelocation: "18 August 2018, India International Centre, Seminar Hall 1, 2 & 3, 1st Floor, Kamaladevi Block, Lodhi Gardens, New Delhi"
+datelocation: "18 August 2018, India International Centre (IIC), Max Mueller Marg, New Delhi - 03"
 city: Delhi/NCR
 start_time: 2018-08-18
 end_time: 2018-08-18
@@ -20,7 +20,9 @@ schedule:
   type: "conference"
 
 venue:
-  label: India International Centre, Seminar Hall 1, 2 & 3, 1st Floor, Kamaladevi Block, Max Mueller Marg, Lodhi Gardens, New Delhi - 110003.
+  label: India International Centre (IIC), Kamaladevi Block, Max Mueller Marg, New Delhi - 03
+  address: |
+    India International Centre (IIC), Seminar Hall 1, 2 & 3, 1st Floor, Kamaladevi Block, Max Mueller Marg, Lodhi Gardens, New Delhi - 110003.
   lat: 28.594045
   lng: 77.222978
   google_maps_url: https://goo.gl/maps/dsw23WesSM42
