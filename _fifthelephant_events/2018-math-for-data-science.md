@@ -2,7 +2,7 @@
 layout: workshop
 title: "Math for Data Science"
 subtitle: Deal with math at your role as data science dev by intuitive understanding of the concepts
-datelocation: "28 July 2018, Bangalore"
+datelocation: "28 July 2018, IKP Eden, Bangalore"
 city: Bangalore
 start_time: 2018-07-28
 end_time: 2018-07-28
@@ -20,6 +20,16 @@ instructors:
     Vishal is a programmer with an odd love for math.
     He enjoys simplifying heavy math protein into more absorbable amino acids, only to be assimilated into plump biceps of confidence, to be flexed when the situation demands.
     He conducts sessions and workshops on math with an intent to instill an addiction to the epiphany that one gets from playing with math.
+
+venue:
+  label: IKP EDEN, Bangalore
+  address: |
+    IKP EDEN, 16, Bhuvanappa Layout, 
+    Tavarekere Main Rd, Kaveri Layout, 
+    Suddagunte Palya, Bengaluru, Karnataka 560029.
+  lat: 12.934072
+  lng: 77.609869
+  google_maps_url: https://goo.gl/maps/GDgyezM1fz12
 
 overview:
   left_content: |
