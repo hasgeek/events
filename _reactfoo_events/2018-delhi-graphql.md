@@ -9,6 +9,14 @@ end_time: 2018-08-19
 description: "In this workshop, you will learn how to build apps with React, GraphQL and Apollo. Various concepts of GraphQL and Apollo will be covered while building a simple e-commerce app."
 boxoffice_item_collection: "6e5bfb42-c1f3-4d87-b1f0-2fcaba012173"
 
+venue:
+  label: Wingify
+  address: |
+    KLJ Tower, Netaji Subash Place, Pitampura, New Delhi, Delhi 110034
+  lat: 28.6912473
+  lng: 77.1509495
+  google_maps_url: https://goo.gl/maps/X6dBpgGPMtz
+  
 instructors:
 - name: Kiran Abburi
   image_url: https://images.hasgeek.com/embed/file/634696c3e23b4b11930160bc77dc106f
@@ -18,6 +26,17 @@ instructors:
   byline: Freelance react developer. Blockchain enthusiast.
   bio: |
     Kiran Abburi is a freelance developer with 6+ years of experience in web development. He primarily works on reactjs, nodejs and GraphQL projects. He is also an organizer of the Reactjs Bangalore meetup group.
+
+sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, sales and hiring.
+
+    Write to us for the sponsorship deck or for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - wingify
 
 overview:
   left_content: |
