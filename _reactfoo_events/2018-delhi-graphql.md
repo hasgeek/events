@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: GraphQL & Apollo"
 subtitle: "Learn how to build apps with React, GraphQL and Apollo."
-datelocation: "10:00 AM to 5:00 PM,19 August 2018, Delhi"
+datelocation: "10:00 AM to 5:00 PM,19 August 2018, Wingify Delhi"
 city: Delhi/NCR
 start_time: 2018-08-19
 end_time: 2018-08-19
@@ -12,7 +12,7 @@ boxoffice_item_collection: "6e5bfb42-c1f3-4d87-b1f0-2fcaba012173"
 venue:
   label: Wingify
   address: |
-    KLJ Tower, Netaji Subash Place, Pitampura, New Delhi, Delhi 110034
+    Wingify, 14th Floor, KLJ Tower North, Netaji Subash Place, Pitampura, New Delhi, Delhi 110034
   lat: 28.6912473
   lng: 77.1509495
   google_maps_url: https://goo.gl/maps/X6dBpgGPMtz
