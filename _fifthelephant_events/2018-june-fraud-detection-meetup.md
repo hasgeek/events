@@ -18,7 +18,6 @@ venue:
   lng: 77.690946
   google_maps_url: https://goo.gl/maps/fEGy3MnRZRm
 
-
 overview:
   left_content: |
 
@@ -32,10 +31,10 @@ overview:
 
     Schedule:
 
-    * 11:15 AM - 11:25 AM: introduction to the event and moderator.
-    * 11:30 AM - 12:45 PM: panel discussion
-    * 12:45 PM - 12:55 PM: summary of panel and vote of thanks. 
-    * 1:00 PM - 2:00 PM: Lunch hosted by WalmartLabs
+    * 11:15 AM - 12:15 PM: Opening remarks by moderator and panelists
+    * 12:15 PM - 1:00 PM: Panel discussion
+    * 1:00 PM - 1:15 PM: Q&A session
+    * 1:15 PM - 2:00 PM: Lunch hosted by WalmartLabs
 
   right_content: |
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpfavLU8pKTHQ1fyP7YXixHkP9WOtlPBjWdXtjRlmGpihAJw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; height:45rem;">Loading...</iframe>
@@ -45,22 +44,22 @@ featured_speakers:
   image_url: https://images.hasgeek.com/embed/file/fab14320cce749a58bcc911c40e33b44
   website: https://www.linkedin.com/in/vinayakh/
   designation: CTO, Zoomcar
-    
+
 - name: Vivek Mehta
   image_url: https://images.hasgeek.com/embed/file/f3a837ce0514455fb0498d8063f7a067
   website: https://www.linkedin.com/in/vivek-mehta/
   designation: Revlo.in
-    
+
 - name: Nirmal J M
   image_url: https://images.hasgeek.com/embed/file/b9df1e4025f2463684c607bf34dde414
   website: https://www.linkedin.com/in/nirmalparate/
   designation: Head Payments Risk and Compliance at Ola Money
-    
+
 - name: Vamsi Varanasi
   image_url: https://images.hasgeek.com/embed/file/f576ea535671462cb44e095ea64484cd
   website: https://www.linkedin.com/in/vamsikvaranasi/
   designation: Product Manager, Ola Credit
-    
+
 sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach, sales and hiring.
