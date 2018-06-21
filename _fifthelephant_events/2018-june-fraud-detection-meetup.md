@@ -49,7 +49,7 @@ featured_speakers:
 - name: Vivek Mehta
   image_url: https://images.hasgeek.com/embed/file/f3a837ce0514455fb0498d8063f7a067
   website: https://www.linkedin.com/in/vivek-mehta/
-  designation: Data Scientist, Flipkart
+  designation: Revlo.in
     
 - name: Nirmal J M
   image_url: https://images.hasgeek.com/embed/file/b9df1e4025f2463684c607bf34dde414
