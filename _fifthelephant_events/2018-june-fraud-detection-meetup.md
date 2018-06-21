@@ -29,7 +29,6 @@ overview:
     * Data science techniques used for detecting frauds. 
     * Health, cleanliness and other facets of data that must be in place for carrying leveraging data science for fraud detection.
 
-    About the panelists: to be announced shortly.
 
     Schedule:
 
@@ -41,7 +40,27 @@ overview:
   right_content: |
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpfavLU8pKTHQ1fyP7YXixHkP9WOtlPBjWdXtjRlmGpihAJw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; height:45rem;">Loading...</iframe>
 
-
+featured_speakers:
+- name: Vinayak Hegde
+  image_url: https://images.hasgeek.com/embed/file/fab14320cce749a58bcc911c40e33b44
+  website: https://www.linkedin.com/in/vinayakh/
+  designation: CTO, Zoomcar
+    
+- name: Vivek Mehta
+  image_url: https://images.hasgeek.com/embed/file/f3a837ce0514455fb0498d8063f7a067
+  website: https://www.linkedin.com/in/vivek-mehta/
+  designation: Data Scientist, Flipkart
+    
+- name: Nirmal J M
+  image_url: https://images.hasgeek.com/embed/file/b9df1e4025f2463684c607bf34dde414
+  website: https://www.linkedin.com/in/nirmalparate/
+  designation: Head Payments Risk and Compliance at Ola Money
+    
+- name: Vamsi Varanasi
+  image_url: https://images.hasgeek.com/embed/file/f576ea535671462cb44e095ea64484cd
+  website: https://www.linkedin.com/in/vamsikvaranasi/
+  designation: Product Manager, Ola Credit
+    
 sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach, sales and hiring.
