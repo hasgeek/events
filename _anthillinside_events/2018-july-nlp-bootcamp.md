@@ -110,4 +110,12 @@ overview:
     # Software Requirements
     
     We will be using Python data stack for the bootcamp with keras and tensorflow for the deep learning component. Please install Anaconda for Python 3 for the bootcamp. Additional requirement will be communicated to participants.
+
+sponsor:
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - thoughtfactory
+
 ---
