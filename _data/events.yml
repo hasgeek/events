@@ -988,3 +988,12 @@
   end_time: 2018-06-30 17:30
   url: http://iot-unplugged.doattend.com/
   blurb: "Work with actual hardware. Learn some basic of MCU-based electronics. Write and understand code that interface to sensors."
+  
+- name: 2018-june-ai-day-at-treebo
+  title: "AI Day at Treebo"
+  city: Bangalore
+  venue: Treebo Hotels, AMR Tech Park, Bangalore
+  start_time: 2018-06-30 10:00
+  end_time: 2018-06-30 17:30
+  url: https://www.meetup.com/Practical-Data-Science-Workshops-Bangalore/events/251361758/
+  blurb: "If you're interested in exploring the various themes around cutting-edge AI and lessons learnt from productionizing them, drop in for a single day event at Treebo Hotels office. The event is free and open to all."
