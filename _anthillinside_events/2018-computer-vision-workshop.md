@@ -11,10 +11,11 @@ boxoffice_item_collection: "26ac0e6c-4a1d-4b13-ae9c-c8bb372dd1b1"
 
 instructors:
 - name: Sumod Mohan
-  byline: CTO of Digital Aristotle and heads the Computer Vision and Machine Learning at Soliton Technologies
+  byline: Founder, AutoInfer
   image_url: https://images.hasgeek.com/embed/file/57b0d183f7c34a69894adaa376f9531f
   bio: |
-    **Sumod Mohan** is CTO of Digital Aristotle and heads the Computer Vision and Machine Learning at Soliton Technologies. His experience spans Computer Vision, Machine Learning, 3D Vision, Deep Learning, NLP, Graph Algorithms, Probabilistic Graphical Models, Code Optimization and Parallelization and has worked in the Computer Vision and Machine Learning for past 10+ years. His broad research interest is in application of Graph Algorithms and Probabilistic Graphical Models in Computer Vision and holds an M.S degree from Clemson University, USA with specialization in Intelligent Systems and Robotics. Prior to this after dropping out of his Ph.D program, he worked for HighlightCam Inc, a startup in California where he led Computer Vision Algorithm Development.
+    **Sumod Mohan** is the founder of AutoInfer and heads the Computer Vision and Machine Learning at Soliton Technologies. His experience spans Computer Vision, Machine Learning, 3D Vision, Deep Learning, NLP, Graph Algorithms, Probabilistic Graphical Models, Code Optimization and Parallelization and has worked in the Computer Vision and Machine Learning for past 10+ years. His broad research interest is in application of Graph Algorithms and Probabilistic Graphical Models in Computer Vision and holds an M.S degree from Clemson University, USA with specialization in Intelligent Systems and Robotics. Prior to this after dropping out of his Ph.D program, he worked for HighlightCam Inc, a startup in California where he led Computer Vision Algorithm Development.
+
 - name: Shivarajkumar Magadi
   byline: Leads the 3D Vision team at Soliton Technologies
   image_url: https://images.hasgeek.com/embed/file/41c1c141aacd4764948bba808946a409
