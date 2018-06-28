@@ -36,7 +36,7 @@ instructors:
 
 - name: Harsha
   byline: Deep Learning/Computer Vision & Linux Driver Development Engineer in Soliton Technologies
-  image_url: https://images.hasgeek.com/embed/file/50cb2d007de24253bbd833961c64a2ec
+  image_url: https://images.hasgeek.com/embed/file/2614b0036a544e95960c7e28d7bc03a7
   bio: |
     **Harsha** is currently working as a Deep learning/Computer Vision and Linux Driver Development Engineer at Soliton Technologies. He is particularly intrigued by how Deep learning/Machine Learning can impact grassroot level problems in India. He has worked on projects like Surveillance Quadcopter, Human Action Recognition from videos and wearable universal gesture controller.
 
