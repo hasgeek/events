@@ -28,7 +28,13 @@ instructors:
   bio: |
     Arwa Lokhandwala is a passionate programmer and huge javascript lover who wants to create the best possible thing and deliver the best experience which a user can ever have. Currently working at BookMyShow as a Senior Full Stack Developer responsible for delivering the best possible experience on Mobile-Web/Desktop. Previous to this she was working for Jio as a Backend developer, responsible for handling Jio Cinemas and Jio XpressNews application. She always try to find a better way of doing the existing thing and she would love to share some insights on what she have learned so far.
 
-
+venue:
+  label: Wingify
+  address: |
+    Wingify, 14th Floor, KLJ Tower North, Netaji Subash Place, Pitampura, New Delhi, Delhi 110034
+  lat: 28.6912473
+  lng: 77.1509495
+  google_maps_url: https://goo.gl/maps/X6dBpgGPMtz
 
 overview:
   left_content: |
