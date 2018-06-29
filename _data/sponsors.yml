@@ -119,11 +119,14 @@ qubole:
 
 imerit:
   title: "iMerit"
-  logo_url: https://images.hasgeek.com/embed/file/caf2db57a84b47dfb5eeddcf62f52325
+  logo_url: https://images.hasgeek.com/embed/file/d5f9cafeeae744cb945713bb3537cda9
   url: http://imerit.net/
   display_url: imerit.net
   blurb: |
-    iMerit offers an on-demand, human-empowered computing workforce. The world’s most innovative and tech-driven companies partner with us to unlock the value hidden within complex, unstructured data and to improve technical process efficiencies while making a social impact. iMerit’s customers are able to focus on the projects that drive their company forward whether it be machine learning, computer vision, analytics or virtual reality while our team of specialists handle the data work. To give some examples, our data work powers robust applications in machine learning, computer vision, big data and fintech such as helping driverless cars understand their environment, advancing cancer cell research, improving crop-yield through the analysis of geo-spatial data and keeping the databases of a global financial data and media company updated in real-time. With an employee attrition rate of less than 5% and higher than 95% accuracy, iMerit is a reliable partner in delivering cost-effective, quality data projects on time and on budget.
+    iMerit specializes in enriching and annotating training data for Machine Learning and Computer Vision at scale and with enterprise-grade quality and security. 
+    Since 2012 we have labeled over 10 million data points for Computer Vision and over 2 million data points in Natural Language Processing. With 1400+ employees and growing, we are providing a vital service in the quest for better results from algorithms. 
+    iMerit works with the some of the top startups and established companies globally across a combination of proprietary and third-party tools. We recently launched our 6th delivery center in New Orleans. iMerit pursues a social vision of digital inclusion by hiring and training people from underprivileged backgrounds to perform data work. 
+    Over 80% of our employees come from this background, supported by our US Sales and Solution teams. Our goal is to help companies move their machine learning solutions from the lab to commercial production at scale.
 
 iqlect:
   title: "IQLECT"
