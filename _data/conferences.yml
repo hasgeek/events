@@ -283,8 +283,8 @@
   city: Bangalore
   venue: NIMHANS Convention Center
   google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
-  start_time: 2019-02-15
-  end_time: 2019-02-16
+  start_time: 2019-03-01
+  end_time: 2019-03-02
   funnel: https://reactfoo.talkfunnel.com/2019/
   url: https://reactfoo.in/2019/
   blurb: A conference on the lessons learned while implememting React and React Native.
