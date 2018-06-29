@@ -1,13 +1,13 @@
 ---
 layout: workshop
-title: "Workshop: React Beginner"
+title: "Workshop: React 0 to 100 in a day"
 subtitle: "Learn React and start implementing reusable, interactive and stateful UI components"
 datelocation: "21 July 2018, Bangalore"
 city: Bangalore
 start_time: 2018-07-21
 end_time: 2018-07-21
 description: "This workshop starts with understanding the basic internals of React before exploring how to \"think in React\", best practices and solutions to real problems that you will experience while building an application."
-boxoffice_item_collection: ""
+boxoffice_item_collection: "998d2617-931b-42cc-89e6-1d771ad87ce0"
 
 instructors:
 - name: Siddharth Kshetrapal
