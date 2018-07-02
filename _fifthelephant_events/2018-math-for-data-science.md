@@ -11,18 +11,20 @@ boxoffice_item_collection: '99292dc8-53e9-44f1-9b71-127ec986613c'
 
 instructors:
 - name: Vishal Gokhale
-  byline: 
-  image_url: https://images.hasgeek.com/embed/file/50cb2d007de24253bbd833961c64a2ec
+  byline: Data Science Engineer
+  image_url: https://images.hasgeek.com/embed/file/745e4963afb34648948f3892c079d7a7
   website:
     url: 
     label: 
   bio: |
-    Vishal is a programmer with an odd love for math.
-    He enjoys simplifying heavy math protein into more absorbable amino acids, only to be assimilated into plump biceps of confidence, to be flexed when the situation demands.
-    He conducts sessions and workshops on math with an intent to instill an addiction to the epiphany that one gets from playing with math.
+    **Vishal** is a programmer with an odd love for maths. He enjoys simplifying heavy math protein into more absorbable    amino acids, only to be assimilated into plump biceps of confidence that need to be flexed when the situation demands.
+    
+    He wants to infect people with the addiction of epiphanies that comes with solving math problems.
+    
+    He has been working as a programmer on Data Science projects for the last 6+ years and as a programmer for last 13+ years.
 
 venue:
-  label: IKP EDEN, Bangalore
+  label: IKP Eden, Bangalore
   address: |
     IKP EDEN, 16, Bhuvanappa Layout, 
     Tavarekere Main Rd, Kaveri Layout, 
