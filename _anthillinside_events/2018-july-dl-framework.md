@@ -9,6 +9,14 @@ end_time: 2018-07-29
 description: "We have all used all the high end frameworks that works really well. How about writing a small strip down version of one. In this session, I’ll walk you through how to write a small Deep Learning Framework in Pure python and numpy which has auto grad and optimizers and easy to create models. Also, the framework will be extendible so that you can easily play around with."
 boxoffice_item_collection: '26ac0e6c-4a1d-4b13-ae9c-c8bb372dd1b1'
 
+venue:
+  label: Datalicious, Bangalore
+  address: |
+    L77, 15th Cross Rd, Sector 6, HSR Layout, Bengaluru, Karnataka 560102
+  lat: 12.9140351
+  lng: 77.5604874
+  google_maps_url: https://goo.gl/maps/vviVVX3LiLL2
+  
 instructors:
 - name: Nithish Divakar
   byline: Computer Vision Research Engineer, Cogknit Semantis
@@ -19,6 +27,17 @@ instructors:
   bio: |
     Nithish Divakar is a Computer Vision Research Engineer at Cogknit Semantics. He Is a masters graduate from IISc bangalore and has been working in deep learning for past 4 years. He has prior published research work in GANs and Image captioning. See everythingproject.in for more.
 
+sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, sales and hiring.
+
+    Write to us for the sponsorship deck or for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - datalicious
+    
 overview:
   left_content: |
     # Socpe of the Workshop
