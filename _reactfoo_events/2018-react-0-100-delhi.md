@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: React 0 to 100 in a day"
 subtitle: "Get a hands-on experience on the most thriving framework of 2018 and create your own React.js application"
-datelocation: "10 AM to 5 PM,18 April 2018, Delhi"
+datelocation: "10 AM to 5 PM,19 August 2018, Delhi"
 city: Delhi/NCR
 start_time: 2018-08-19
 end_time: 2018-08-19
