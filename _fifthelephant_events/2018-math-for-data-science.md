@@ -17,12 +17,14 @@ instructors:
     url: 
     label: 
   bio: |
-    **Vishal** is a programmer with an odd love for maths. He enjoys simplifying heavy math protein into more absorbable    amino acids, only to be assimilated into plump biceps of confidence, to be flexed when the situation demands.
-    He wants to infect people with the addictive epiphanies from solving math problems.
+    **Vishal** is a programmer with an odd love for maths. He enjoys simplifying heavy math protein into more absorbable    amino acids, only to be assimilated into plump biceps of confidence that need to be flexed when the situation demands.
+    
+    He wants to infect people with the addiction of epiphanies that comes with solving math problems.
+    
     He has been working as a programmer on Data Science projects for the last 6+ years and as a programmer for last 13+ years.
 
 venue:
-  label: IKP EDEN, Bangalore
+  label: IKP Eden, Bangalore
   address: |
     IKP EDEN, 16, Bhuvanappa Layout, 
     Tavarekere Main Rd, Kaveri Layout, 
