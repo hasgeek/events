@@ -11,7 +11,7 @@ boxoffice_item_collection: '99292dc8-53e9-44f1-9b71-127ec986613c'
 
 instructors:
 - name: Vishal Gokhale
-  byline: Data Science Engineer
+  byline: Software Engineer, AgileFAQs
   image_url: https://images.hasgeek.com/embed/file/745e4963afb34648948f3892c079d7a7
   website:
     url: 
@@ -76,6 +76,4 @@ overview:
     * Managers / testers who need to understand what their team members are talking about.
     * Anyone who wishes to get into data science projects but sees math as the obstacle.
     Participants don’t need to know any math apart from basic +,-, x, / operations.
-
-    
 ---
