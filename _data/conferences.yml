@@ -271,7 +271,7 @@
 - name: reactfoo-delhi
   title: ReactFoo Delhi
   city: Delhi/NCR
-  venue: India International Centre, Max Mueller Marg, New Delhi
+  venue: IIC, Max Mueller Marg, New Delhi
   start_time: 2018-08-18
   end_time: 2018-08-18
   funnel: https://reactfoo.talkfunnel.com/2018-delhi/
