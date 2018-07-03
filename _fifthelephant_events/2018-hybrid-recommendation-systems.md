@@ -6,7 +6,7 @@ datelocation: "27 July 2018, Auditorium 3, NIMHANS, Bangalore"
 city: Bangalore
 start_time: 2018-07-27
 end_time: 2018-07-27
-description: "Building, training and deploying machine learning models efficiently and at scale"
+description: "Gain an end-to-end view of deep learning-based recommendation and learning-to-rank systems using TensorFlow"
 
 instructors:
 - name: Dr. Vijay Srinivas Agneeswaran
