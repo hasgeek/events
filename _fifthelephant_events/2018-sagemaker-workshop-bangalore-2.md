@@ -39,7 +39,7 @@ overview:
     
     Technology leaders from Startups and Enterprises  (Engineering, Architecture, Product, Development) who are interested in expanding your knowledge on Artificial Intelligence, Machine Learning, and how it can be applied to your business. 
 
-    *Note: This workshop is sponsored by AWS and they will be collecting participants data for generating coupons. These credits are exclusively for hands-on labs. We will be opening up RSVP for this workshop shortly.   *
+    **Note: This workshop is sponsored by AWS and they will be collecting participants data for generating coupons. These credits are exclusively for hands-on labs. We will be opening up RSVP for this workshop shortly.**
     
   right_content: |
 
