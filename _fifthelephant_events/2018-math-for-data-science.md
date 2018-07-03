@@ -42,15 +42,15 @@ overview:
 
     The purpose of the workshop is to develop an intuitive understanding of the concepts.
     We let go the fear of rigorous notation and embrace the rationale behind it.
-    The key take away for a participant has to be confidence of being able to deal with any math thrown to them in their role as data science developers
+    The key take away for a participant has to be confidence of being able to deal with any math thrown to them in their role as data science developers.
 
     # Pre-requisites
 
     Things to get along:
     While you won’t need any particular softwares for this workshop, you will need the following:
     * Willingness to think !!
-    * a notepad and a pen
-    * courage to walk up to the board to show your awesome solutions to every one else !
+    * A notepad and a pen.
+    * Courage to walk up to the board to show your awesome solutions to every one else !
     * A device with a browser and internet .. preferably bigger screens, but mobiles can do as well.
 
   right_content: |
