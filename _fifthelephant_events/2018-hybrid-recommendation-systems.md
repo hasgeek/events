@@ -28,10 +28,10 @@ overview:
     We outline how deep learning can be used to extract features of images, product meta-data (or domain ontology) and convert these into embeddings. The text+image embeddings plus the embedded latent features of both items and users (meta-data of users, including browsing and purchase history) is combined with a feed-forward deep learning network.
 
     This is a short form of the three hour tutorial we gave at Strata Data conference in California in March 2018: 
-    https://conferences.oreilly.com/strata/strata-ca/public/schedule/detail/63818 
+    [https://conferences.oreilly.com/strata/strata-ca/public/schedule/detail/63818](https://conferences.oreilly.com/strata/strata-ca/public/schedule/detail/63818) 
 
     Our code has been open sourced at: 
-    https://pypi.org/project/tfrecommender/
+    [https://pypi.org/project/tfrecommender/](https://pypi.org/project/tfrecommender/)
     
     **Note: This workshop requires cloud credits and cloud providers will be collecting participants data for generating coupons. These credits are exclusively for hands-on labs. We will be opening up RSVP for this workshop shortly.**
     
