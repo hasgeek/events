@@ -40,41 +40,41 @@ sponsor:
     
 overview:
   left_content: |
-    # Socpe of the Workshop
+    # Scope of the workshop
 
-    This will be a theory and implementation workshop. The theory part will be focused towards explaining the fundamentals and giving reasons for various design decisions of the implementations part. 
+    This will be a theory and hands-on workshop. The theory part will be focused towards explaining the fundamentals and giving reasons for various design decisions during the implementation. 
 
     # Sections of the workshop
 
 
-    1. The basics
-    2. Implementing a neural Network
-    3. Computational Graph and implementing auto grad
-    4. Implementing our very own nabla framework.
+    1. The basics.
+    2. Implementing a neural Network.
+    3. Computational Graph and implementing auto grad.
+    4. Implementing your very own nabla framework.
 
     # What do you need to know/have a priori!
 
-    * A laptop with good battery backup
-    * A python environment installed and ready to go (python3 and numpy latest versions)
-    * Some basic knowledge in how neural networks work
+    * A laptop with good battery backup.
+    * A python environment installed and ready to go (python3 and numpy latest versions).
+    * Some basic knowledge in how neural networks work.
 
 
   right_content: |
     # Detailed overview
 
-    ### The basics
+    ### The Basics
     * Parameterized models
     * Gradient Descent
     * Computational view of Neural Network
     * Arriving at backprop algorithm
     
-    ### Implementing a neural network
+    ### Implementing a Neural network
     * Deriving gradients of a network
     * details of implementation
     * Some pitfalls and pointers
     * Why this approach cannot be used to build a framework
     
-    ### Computational graph and Implementing auto grad
+    ### Computational graph and implementing auto grad
     * What is Computational Graph?
     * Automatic differentiation
     * Forward and backward accumulation
