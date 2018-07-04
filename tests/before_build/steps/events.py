@@ -292,7 +292,7 @@ event_schema = {
                 'required': True
             },
             'limit': {
-                'type': 'int',
+                'type': 'float',
                 'required': True
             }
         },
