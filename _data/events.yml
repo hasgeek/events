@@ -1006,3 +1006,12 @@
   end_time: 2018-06-30 17:30
   url: https://www.meetup.com/Practical-Data-Science-Workshops-Bangalore/events/251361758/
   blurb: "If you're interested in exploring the various themes around cutting-edge AI and lessons learnt from productionizing them, drop in for a single day event at Treebo Hotels office. The event is free and open to all."
+
+- name: react-0-100-delhi
+  title: "Workshop: React 0 to 100 in a day - Delhi"
+  city: Delhi/NCR
+  venue: Delhi
+  start_time: 2018-08-19 10:00
+  end_time: 2018-08-19 17:30
+  url: https://reactfoo.in/2018-react-0-100-delhi/
+  blurb: "Get a hands-on experience on the most thriving framework of 2018 and create your own React.js application"
