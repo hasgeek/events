@@ -1006,3 +1006,12 @@
   end_time: 2018-06-30 17:30
   url: https://www.meetup.com/Practical-Data-Science-Workshops-Bangalore/events/251361758/
   blurb: "If you're interested in exploring the various themes around cutting-edge AI and lessons learnt from productionizing them, drop in for a single day event at Treebo Hotels office. The event is free and open to all."
+
+- name: react-0-100-blr-july
+  title: "Workshop: React 0 to 100 in a day"
+  city: Bangalore
+  venue: Bangalore
+  start_time: 2018-07-21 10:00
+  end_time: 2018-07-21 17:30
+  url: https://reactfoo.in/2018-july-react-beginner-blr/
+  blurb: "Learn React and start implementing reusable, interactive and stateful UI components"
