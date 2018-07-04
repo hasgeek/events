@@ -287,12 +287,12 @@ event_schema = {
     'hasjob': {
         'type': 'dict',
         'schema': {
-            'feed_url': {
+            'url': {
                 'type': 'string',
                 'required': True
             },
-            'url': {
-                'type': 'string',
+            'limit': {
+                'type': 'float',
                 'required': True
             }
         },

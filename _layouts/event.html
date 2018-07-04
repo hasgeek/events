@@ -70,7 +70,7 @@ layout: base
         {% if page.blog.feed_url %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#blog">Blog</a>
         {% endif %}
-        {% if page.hasjob.feed_url %}
+        {% if page.hasjob.url %}
         <a class="nav-item is-tab is-hidden-tablet" data-href="#jobs">Jobs</a>
         {% endif %}
         {% if page.accommodation %}
@@ -101,7 +101,7 @@ layout: base
         {% if page.blog.feed_url %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#blog">Blog</a>
         {% endif %}
-        {% if page.hasjob.feed_url %}
+        {% if page.hasjob.url %}
         <a class="nav-item is-tab is-hidden-mobile" data-href="#jobs">Jobs</a>
         {% endif %}
         {% if page.accommodation %}
@@ -249,10 +249,10 @@ layout: base
 </section><hr>
 {% endif %}
 
-{% if page.hasjob.feed_url %}
+{% if page.hasjob.url %}
 <section class="section bg-light scroll-horizontal" id="jobs">
   <div class="container">
-     {% include hasjob_post.html %}
+     {% include hasjob_widget_section.html %}
   </div>
 </section><hr>
 {% endif %}
