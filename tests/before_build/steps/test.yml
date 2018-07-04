@@ -1,0 +1,865 @@
+- name: CTOTALK by OrangeScape
+  title: "Bigbasket's Tech Stack: Learning from the trenches of Scaling-up"
+  city:  Chennai
+  venue: OrangeScape Technologies, Chennai
+  start_time: 2018-04-28 11:00 
+  end_time: 2018-04-28 13:00
+  url: https://in.explara.com/e/cto-talk-by-orangescape
+  blurb: "CTOTalk is a platform for open dialogue and deep-learning where Chieftains of Technology Organizations (CTOs) from well-known companies come to share their successes and challenges with peers. For this edition we have Pramod Jajoo, Ex-CTO - Bigbasket & Partner - Kalaari Capital as Guest Speaker."
+
+- name: Advanced React Workshop
+  title: Advanced React Workshop by Reactjs Bangalore
+  city: Bangalore
+  venue: reliance jio infocomm, Ashok Nagar
+  start_time: 2018-03-31 15:00
+  end_time: 2018-03-31 18:00
+  url: https://www.meetup.com/ReactJS-Bangalore/events/248148010/
+  blurb: "This is a hands on workshop that covers intermediate and advanced concepts of React. Covers topics like higher order components, server side rendering, performance optimisations"
+
+- name: DevHack 2018
+  title: "DevHack 2018: A hackathon by Axis Bank"
+  city:  Bangalore
+  venue: Online
+  start_time: 2018-03-12 09:00
+  end_time: 2018-03-31 23:59
+  url: https://www.axisbank.com/thoughtfactory/hackathon.html
+  blurb: "Build brilliant solutions for #Bankingtech sector at #DevHack2018 ,the one-of-its-kind hackathon by Thought Factory & Zone Startups & takeaway cash prizes, PoC opportunities and much more with Axis Bank. Problem statements: Live photo detection, Voice Authentication"
+
+- name: Hacktoberfest
+  title: Chennai Hacktoberfest
+  city:  Chennai
+  venue: SoftwareAG
+  start_time: 2017-10-28 17:00
+  end_time: 2017-10-28 20:00
+  url: https://www.eventbrite.com/e/chennai-hacktoberfest-tickets-38846336438
+  blurb: Hacktoberfest is a partnership between Digital Ocean and GitHub, where we are celebrating open source software during the entire month of October, for the 4th year!
+
+- name: data-science-bootcamp-1
+  title: Data Science Bootcamp
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-08-20 09:00
+  end_time: 2017-08-20 17:00
+  url: https://fifthelephant.in/2017-aug-ds-bootcamp/
+  blurb: The ability to take a business problem, frame it as as an analytical problem and then provide a solution to the business to take decisions on it, has become an important skill to learn. Attend this bootcamp and get started on building your own personal data science portfolio
+
+- name: open-house-information-breaches
+  title: Open House on Information Breaches
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-05-26 19:00
+  end_time: 2017-05-26 22:00
+  url: https://www.facebook.com/events/299253997189888/
+  blurb: Understand the state of information security in India and abroad, and legal and regulatory measures that companies must comply with, and consumers should be aware of.
+
+- name: kilter-picnic
+  title: "Kilter Picnic #2"
+  city: Bangalore
+  venue: Cubbon Park
+  start_time: 2017-05-28 08:00
+  end_time: 2017-05-28 10:00
+  url: https://blog.kilter.in/kilter-picnic-2-98f50058b8fc
+  blurb: Let’s enjoy a Kilter morning in the park. Invite your friends and bring the kids; this picnic is what you make it. You can discuss habit formation, trade recipes, stretch, or get active with other Kilterers. The slackline group meets nearby, so stay a while and play with them, too.
+
+- name: open-house-inclusive-spaces
+  title: Open House on building inclusive spaces
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-06-02 19:00
+  end_time: 2017-06-02 21:00
+  url: https://www.facebook.com/events/1694671104175474/
+  blurb: In an era where AI and virtual reality would be the next big truth, how do we make sure that this future is inclusive and reflective of everyone's realities? Joining us on Friday to talk more about this is Jasmine from Hidden Pockets.
+
+- name: open-house-engineering-design
+  title: Open House on engineering for good design
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-06-09 19:00
+  end_time: 2017-06-09 21:00
+  url: https://www.facebook.com/events/1578118532239183/
+  blurb: Engineering involves crafting great user experiences for customers. For this week's open house, we have Mario Stallone, who works on front-end at Myntra.
+
+- name: open-house-hasjob
+  title: Hasjob open house for employers
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-06-16 19:00
+  end_time: 2017-06-16 20:00
+  url: https://www.facebook.com/events/377669675968615/
+  blurb: The open house on Friday is for startup founders and CEOs, CTOs, HR personnel from enterprises and mid-sized companies, talent acquisition teams & recruiters to discuss challenges in hiring for tech.
+
+- name: medianama-securing-online-data
+  title: Session on securing online data - MediaNama
+  city: Bangalore
+  venue: Hilton Embassy GolfLinks
+  start_time: 2017-06-23 19:00
+  end_time: 2017-06-23 21:30
+  url: https://docs.google.com/forms/d/e/1FAIpQLScLqpDJLKfxZQsZHcLl-WlG2-R6k9HzLE1b9BSogG1QVgiSXg/viewform
+  blurb: MediaNama is hosting a free, invitation-only, interactive discussion this Friday for Founders, CTO's, CPO's and CIO’s on cloud data security. Apply to attend. (Attendees will be confirmed by 21st June)
+
+- name: open-house-modern-mobile-teams
+  title: Open House on modern mobile dev teams
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-06-23 19:00
+  end_time: 2017-06-23 20:00
+  url: https://www.facebook.com/events/1789987124627442/
+  blurb: We’d like to invite mobile developers, team leads, and architects for an open discussion to help understand how modern mobile development teams are structured, mobile strategies arrived at, and how tech decisions at made.
+
+- name: open-house-papers-we-love
+  title: Papers we love with Lakshman Prasad
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-06-30 19:00
+  end_time: 2017-06-30 20:00
+  url: https://www.facebook.com/events/1149033318533901/
+  blurb: This Friday, we're putting together a meetup to discuss a paper with Lakshman Prasad. You can find more details about the paper and the topic on the event page.
+
+- name: fifthel-pune-meetup
+  title: The Fifth Elephant Pune meetup
+  city: Pune
+  venue: Wingify
+  start_time: 2017-07-08 11:00
+  end_time: 2017-07-08 14:00
+  url: https://fifthelephant.in/2017/pune-meetup
+  blurb: We're putting together a Fifth Elephant meetup in Pune on 8th July at Wingify office. We'll have one workshop followed by talks. If you're a data scientist, analyst, researcher or technologist working in the areas of machine learning and learning engineer in and around Pune, do attend!
+
+- name: open-house-design-community
+  title: Open house on design community
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-07-07 19:00
+  end_time: 2017-07-07 20:00
+  url: https://www.facebook.com/events/145817529307226/
+  blurb: This Friday, we're putting together a meetup to discuss about the anchor(s) a design community needs in Bangalore and about the existence of multiple communities. If you are passionate about design and community, you should come over!
+
+- name: open-house-stellar-voices-1
+  title: Open House - ISRO's History
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-07-14 19:00
+  end_time: 2017-07-14 20:00
+  url: https://www.facebook.com/events/101658303796453
+  blurb: Prof. S Chandrashekar spent more than 20 years working at the Indian Space Research Organisation (ISRO). Post his career at ISRO, Chandra joined the Indian Institute of Management Bangalore (IIMB) as a Professor in the Corporate Strategy and Policy Area.
+
+- name: fifthel-bangalore-meetup
+  title: The Fifth Elephant Bangalore Meetup
+  city: Bangalore
+  venue: WalmartLabs
+  start_time: 2017-07-15 11:00
+  end_time: 2017-07-15 14:00
+  url: https://fifthelephant.in/2017/bangalore-meetup
+  blurb: On Saturday, 15th July, we're putting together a meetup on trends in machine learning and artificial intelligence in e-commerce.
+
+- name: perf-testing-meetup
+  title: Performance testing at cloud scale meetup
+  city: Bangalore
+  venue: CA Technologies
+  start_time: 2017-07-19 18:00
+  end_time: 2017-07-19 20:00
+  url: https://rootconf.in/2017/perf-testing-meetup
+  blurb: On 19th July, we’re putting together a meetup at CA technologies on ‘Performance testing at cloud scale'. If you work on DevOps, cloud, automation, testing etc. this is a great opportunity for you to meet people working in this domain.
+
+- name: hackgsf-bangalore-2017
+  title: HackGSF 2017, Bangalore
+  city: Bangalore
+  venue: Y Media Lab, Kodihalli
+  start_time: 2017-07-29 10:30
+  end_time: 2017-07-30 13:30
+  url: https://hackgsf.hackerearth.com/
+  blurb: HackGSF encourages developers to build products that employ one or more frontier technologies. We will provide developers with resources such as data and frameworks to implement these technologies into their projects. The event will be witness to workshops curated by experts in these fields.
+
+
+- name: open-house-stellar-voices-2
+  title: Open House - A life in astronomy
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-08-11 19:30
+  end_time: 2017-08-11 20:30
+  url: https://www.facebook.com/events/579152092474113/
+  blurb: Professor Jayant Murthy will talk about his experiences in working on astronomical instruments for space over the last 3 decades from when he was a student at Johns Hopkins through Astrosat and Tauvex at IIA. He will talk about their work on small payloads at IIA and their plans for the future.
+
+- name: kilter-metrics-challenge
+  title: "Kilter Metrics Challenge"
+  city: Online
+  venue: Online
+  start_time: 2017-08-02 08:00
+  end_time: 2017-08-25 21:00
+  url: https://blog.kilter.in/august-2017-metrics-challenge-1b1d48ee1864
+  blurb: How do you know how much you’ve improved your health and wellness? You compare yourself to your starting point. Join us this month in a project to collect our personal metrics.
+
+- name: kilter-metrics-fitness
+  title: "Fitness testing - Kilter metrics challenge"
+  city: Bangalore
+  venue: Cubbon Park
+  start_time: 2017-08-20 08:00
+  end_time: 2017-08-20 10:00
+  url: https://blog.kilter.in/fitness-testing-at-cubbon-park-580faed2a6ff
+  blurb: How fit are you? Come find out with some self-paced exercise tests at Cubbon Park on Sunday, August 20th. Wear comfortable clothes. Bring a yoga mat if you have one.
+
+- name: open-house-kilter-metrics
+  title: "Open House - Kilter metrics challenge"
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-08-25 19:30
+  end_time: 2017-08-25 20:30
+  url: https://blog.kilter.in/
+  blurb: An OTR disussion session with Kilterers about personal metrics and plans going forward. From 7:30 - 8:30 at HasGeek House.
+
+- name: jsfoo-reactjs-meetup
+  title: "ReactJS Meetup Bangalore"
+  city: Bangalore
+  venue: WalmartLabs
+  start_time: 2017-08-19 14:00
+  end_time: 2017-08-19 17:00
+  url: https://jsfoo.in/reactjs-walmart-meetup/
+  blurb: A meetup for all React enthusiasts, in collaboration with the ReactJS Bangalore community.
+
+- name: fragments-chennai-meetup
+  title: "Fragments meetup in Chennai"
+  city: Chennai
+  venue: Zoho Corporation
+  start_time: 2017-09-02 10:00
+  end_time: 2017-09-02 13:00
+  url: https://fragments.in/2017-sep-chennai-meetup/
+  blurb: A meetup for anyone interested in the evolution of the mobile ecosystem. This meetup is happening at Zoho Corporation in Chennai.
+
+- name: jsfoo-hacknight
+  title: "JSFoo hacknight at HasGeek house"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-09-09 15:00
+  end_time: 2017-09-10 08:00
+  url: https://jsfoo.in/2017-sept-hacknight/
+  blurb: We're conducting a hacknight for all the JavaScript enthusiasts. Unlike regular hackathons, hacknights at HasGeek foster collaboration among developers who are passionate about building things. RSVP now to attend!
+
+- name: jsfoo-keralajs-meetup
+  title: "JavaScript meetup in Kerala"
+  city: Kochi
+  venue: TBD
+  start_time: 2017-08-26 14:00
+  end_time: 2017-08-26 17:00
+  url: https://www.eventbrite.com/e/kerala-js-meetup-august-2017-tickets-36826621416
+  blurb: A meetup for all JavaScript enthusiasts, in collaboration with the KeralaJS community.
+
+- name: open-house-anthill-math
+  title: "Anthill Inside open house on math and stats for programmers"
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-09-01 19:00
+  end_time: 2017-09-01 21:00
+  url: https://www.facebook.com/events/164410417454521/
+  blurb: Anthill Inside open house on “How much math and statistics do programmers need to know to plunge into Machine Learning and Deep Learning.”
+
+- name: open-house-right-to-privacy
+  title: "Celebrating the Right to Privacy verdict"
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-08-25 19:30
+  end_time: 2017-08-25 21:30
+  url: https://www.facebook.com/events/108583926542255/
+  blurb: "In light of the Supreme Court's Right to Privacy verdict yesterday, we are hosting a celebration! Join us as we talk about we got here, the historical context behind this judgement, and what doors this opens up in future."
+
+- name: anthill-computer-vision-meetup
+  title: "Computer vision in e-commerce meetup"
+  city: Bangalore
+  venue: WalmartLabs
+  start_time: 2017-09-09 11:00
+  end_time: 2017-09-09 13:00
+  url: https://anthillinside.in/2017-sep-bangalore-meetup/
+  blurb: We’re putting together a meetup at WalmartLabs to discuss about the application of computer vision in e-commerce. One of the key areas in which computer vision is currently used in e-commerce is in “fashion”. Our speakers will walk us through some of the applications and use cases of the same.
+
+- name: open-data-hyderabad
+  title: "Talk on Open Data Standards"
+  city: Hyderabad
+  venue: Gramener Hyderabad office
+  start_time: 2017-09-14 17:00
+  end_time: 2017-09-14 18:00
+  url: https://docs.google.com/forms/d/e/1FAIpQLSdWOpN3L1jPvftcJDne0-uabyGKOS14KVMoL0H0SY7NyGPyQg/viewform
+  blurb: This talk introduces you to various issues of proprietary data formats and the importance of open data standards
+
+- name: serverles-meetup-bangalore
+  title: "Serverless Architecture meetup at WalmartLabs"
+  city: Bangalore
+  venue: WalmartLabs, Bangalore
+  start_time: 2017-09-23 11:00
+  end_time: 2017-09-23 14:00
+  url: https://rootconf.in/sept-2017-meetup/
+  blurb: A meetup for anyone curious about serverless architecture. We'll have 2 talks followed by a panel discussion about the good, bad and ugly of serverless.
+
+- name: uber-mobility-techtalk-bangalore
+  title: "Uber for Everyone and Everywhere - Mobile and Web Performance Challenges"
+  city: Bangalore
+  venue: Uber, Bangalore
+  start_time: 2017-10-05 18:00
+  end_time: 2017-10-05 20:00
+  url: http://ubr.to/1SPGu12
+  blurb: Come and learn how Uber has built the foundations of Mobile and Web to suit the Indian market and solved some hard engineering challenges like device performance, networking and super lite web architecture.
+
+- name: open-house-prototyping
+  title: "Prototyping & motion in product design - Meta Refresh Open House"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-09-29 19:00
+  end_time: 2017-09-29 21:00
+  url: https://www.facebook.com/events/118427388821182/
+  blurb: Product design is a complex process. Come listen to Abhinav Chhikara share his experience with prototyping and motion design at the Meta Refresh open house on Friday.
+
+- name: javascript-enterprise-meetup-walmart
+  title: "JavaScript in Enterprise Meetup at WalmartLabs "
+  city: Bangalore
+  venue: WalmartLabs, Bangalore
+  start_time: 2017-10-14 11:00
+  end_time: 2017-10-14 14:00
+  url: https://jsfoo.in/2017-oct-enterprise-walmart-meetup/
+  blurb: On 14th October, we’re putting together a meetup on JavaScript in the enterprise world. We'll have 2 talks followed by a panel discussion on topics like hiring JS, adopting and adapting with new JS frameworks, impact of browser changes etc. RSVP now to attend!
+
+- name: open-house-icos
+  title: "ICOs, investing in cryptocurrencies, Segwit 101 and, scaling challenges"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-10-06 19:00
+  end_time: 2017-10-06 21:00
+  url: https://www.facebook.com/events/1962471267348058/
+  blurb: Discuss the new buzz in the cryptocurrency space with Nitin Sharma and Vivek K, who will talk in depth on cryptocurrencies, ICOs, what the future of investing looks like and touch on the 'hard fork' of bitcoin.
+
+- name: kilter-oct-fitness-festival
+  title: "October Fitness Festival"
+  city: Online
+  venue: Online
+  start_time: 2017-10-01 00:00
+  end_time: 2017-10-29 23:59
+  url: https://blog.kilter.in
+  blurb: Kilter's focus is on fitness through October. Daily step goals, exercise challenges, dance, meditation, and more. Join the community on Slack or WhatsApp.
+
+- name: react-native-workshop-1
+  title: React Native Beginners workshop
+  city: Bangalore
+  venue: ThoughtFactory
+  start_time: 2017-10-29 09:00
+  end_time: 2017-10-29 13:15
+  url: https://reactfoo.in/2017-react-native-workshop/
+  blurb: Learn how to build native iOS and android app using React Native such that it can easily be extended to any platform such as Windows Phone, Web, Desktop, Electron and even VR*.
+
+- name: artds-workshops-1
+  title: Workshops series on The Art of Data Science
+  city: Bangalore
+  venue: IKP Eden
+  start_time: 2017-11-03 10:00
+  end_time: 2017-11-05 17:00
+  url: https://fifthelephant.in/2017-nov-artds-workshop/
+  blurb: Learn how to employ statistical and machine learning algorithms to solve real life problems
+
+- name: dl-and-ml-for-cv-workshop-1
+  title: Deep Learning and Machine Learning for Computer Vision
+  city: Bangalore
+  venue: Innov8
+  start_time: 2017-11-04 09:30
+  end_time: 2017-11-04 18:00
+  url: https://fifthelephant.in/2017-aug-dl-and-ml-for-cv-workshop/
+  blurb: Get a hands-on experience of using ML / DL for solving Computer Vision problems
+
+- name: pwa-workshop-1
+  title: Angular PWA workshop
+  city: Bangalore
+  venue: TBD
+  start_time: 2017-11-11 10:00
+  end_time: 2017-11-11 13:30
+  url: https://jsfoo.in/2017-nov-pwa-workshop/
+  blurb: Learn how to build progressive web apps using Angular
+
+- name: hackermath-workshop-1
+  title: Hacker Math for Machine Learning
+  city: Bangalore
+  venue: IKP Eden
+  start_time: 2017-11-25 10:00
+  end_time: 2017-11-26 17:00
+  url: https://fifthelephant.in/2017-nov-hackermath-workshop/
+  blurb: Workshop on learning Hacker Math for Machine Learning
+
+- name: interactive-viz-workshop-1
+  title: Interactive Visualisation for Data Science
+  city: Bangalore
+  venue: IKP Eden
+  start_time: 2017-11-18 10:00
+  end_time: 2017-11-18 13:00
+  url: https://fifthelephant.in/2017-nov-interactive-viz-workshop/
+  blurb: Workshop on learning the grammar of interactive graphics
+
+- name: recommendation-systems-workshop-1
+  title: Introduction to Recommendation Systems
+  city: Bangalore
+  venue: IKP Eden
+  start_time: 2017-12-16 10:00
+  end_time: 2017-12-16 17:00
+  url: https://fifthelephant.in/2017-dec-recommendation-systems-workshop/
+  blurb: Workshop on learning how to build various types of recommendation system
+
+- name: girls-who-javascript-3
+  title: "Girls Who JavaScript Meetup #3"
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-10-07 11:00
+  end_time: 2017-10-07 14:00
+  url: https://www.meetup.com/preview/Girls-Who-Javascript/events/243455082
+  blurb: A meetup for women who write JavaScript (or who want to learn JavaScript). Come discuss your work, interests, and ideas!
+
+- name: 50p-gnosis-consensys-meetup
+  title: "Meetup on applications of Blockchain in business trends"
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-10-08 15:00
+  end_time: 2017-10-08 16:00
+  url: https://www.facebook.com/events/308613639615900/
+  blurb: We're partnering with InOut to put together a meetup on the applications of blockchain & business trends. For this meetup, we'll have the amazing folks from Gnosis & ConsenSys.
+
+- name: right-to-information-right-to-knowledge
+  title: "The Right to Information, The Right to Knowledge"
+  city: Bangalore
+  venue: NUMA
+  start_time: 2017-10-15 15:00
+  end_time: 2017-10-15 17:00
+  url: https://geekup.in/2017/right-to-information-and-knowledge
+  blurb: Sam Pitroda and Carl Malamud will talk about their efforts in India, the U.S., and many other countries to help promote universal access to knowledge.
+
+- name: open-house-design-school
+  title: "Open House: How much value do design schools add?"
+  city: Bangalore
+  venue: HasGeek House
+  start_time: 2017-10-13 19:00
+  end_time: 2017-10-13 21:00
+  url: https://www.facebook.com/events/895786890597881
+  blurb: How differently do designers from a design background work when compared to folks from non-design backgrounds? Join us for an open discussion.
+
+- name: performance-scalability-fireside-chat
+  title: "Fireside chat: High performance and scalability"
+  city: Bangalore
+  venue: Go-Jek
+  start_time: 2017-10-27 19:00
+  end_time: 2017-10-27 20:30
+  url: https://www.facebook.com/events/983869095097210/
+  blurb: Tanmai,Co-Founder of Hasura, will be talking to Adrian Hornsby, Technical Evangelist at AWS about performance and scalablity.
+
+- name: open-house-newspace-india-goel
+  title: "Open House: NewSpace India's Stellar Voices"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-10-27 19:00
+  end_time: 2017-10-27 21:0
+  url: https://www.facebook.com/events/2035236650028986/
+  blurb: Dr. PS Goel is retired from ISRO where he served as the director of the satellite system. He is currently Chairman of Recruitment and Assessment Centre at DRDO.
+
+- name: kilter-no-sugar-november
+  title: "Kilter's No Sugar November"
+  city: Online
+  venue: Online
+  start_time: 2017-11-01 00:00
+  end_time: 2017-11-30 23:59
+  url: https://blog.kilter.in
+  blurb: Boost your health by reducing excess sugars in your food and beverages. Learn lots and feel better. Articles, recipes, video and more on the Kilter blog. Join the community on Slack or WhatsApp.
+
+- name: conversational-ui-meetup
+  title: "Meetup: Conversational UI Bangalore"
+  city: Bangalore
+  venue: To be decided
+  start_time: 2017-11-18 14:00
+  end_time: 2017-11-18 17:00
+  url: https://www.meetup.com/Conversational-UI-Bangalore/events/244001239/
+  blurb: This will be our first meetup. We will start with sessions on the Basics of Conversational UI and then workshop on creating a Hello World App on Google Assistant
+
+- name: rust-workshop-chennai
+  title: "Workshop: Let's work on Rust"
+  city: Chennai
+  venue: To be decided
+  start_time: 2017-12-16 10:30
+  end_time: 2017-12-16 18:00
+  url: https://www.meetup.com/mad-rs/events/245248866/
+  blurb: An introductory workshop to get folks into Rust.
+
+- name: open-house-data-science-in-js-amit-kapoor
+  title: "Open House: Data Science in Javascript"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-11-03 19:30
+  end_time: 2017-11-03 20:30
+  url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
+  blurb: Come to this Open House and lets talk about how you can start doing Data Wrangling, Data Visualisation, Statistics and Machine Learning and even Deep Learning in JS
+
+- name: open-house-fintech-security-practices
+  title: "Open House #86: Security practices in FinTech"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-11-17 18:30
+  end_time: 2017-11-17 22:30
+  url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
+  blurb: 50p, along with the Centre for Internet and Society (CIS) will be hosting an Open House to discuss security practices in the fintech industry.
+
+- name: open-house-conversational-ui
+  title: "Open House #85: Conversational UI"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-11-10 19:00
+  end_time: 2017-11-10 22:00
+  url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
+  blurb: Meta Refresh is hosting Souvik Basu for an Open House to discuss more about fundamentals and design aspects of conversational UI.
+
+- name: data-science-from-scratch
+  title: "Data Science from Scratch"
+  city: Pune
+  venue: Wingify Office
+  start_time: 2017-11-25 10:00
+  end_time: 2017-11-25 17:15
+  url: https://anthillinside.in/2017-nov-data-science-from-scratch/
+  blurb: Learn fundamental math and take a first dip in the data science ocean in a day-long immersive workshop
+
+- name: leapfrog-in-deep-learning-workshop
+  title: "Leapfrog in Deep Learning"
+  city: Pune
+  venue: Helpshift Office
+  start_time: 2017-11-25 09:00
+  end_time: 2017-11-25 14:15
+  url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
+  blurb: An introductory workshop on machine learning and deep learning
+
+- name: open-house-applications-of-or-ds
+  title: "Open House #88: Applications of Operations Research & Data Science in e-commerce"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-12-01 18:30
+  end_time: 2017-12-01 22:30
+  url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
+  blurb: Different algorithms that can impact and help make intuitive decisions on customer satisfaction and retainment using operations research and data science to tackle deliveries of products in e-commerce.
+
+- name: open-house-fundamentals-of-crypto-economics
+  title: "Open House #89: Fundamentals of Cryptoeconomics"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-12-08 18:30
+  end_time: 2017-12-08 22:30
+  url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
+  blurb: Learn the fundamentals of Cryptoeconomics and how to design and incentivize tokens for an ICO.
+  
+- name: open-house-visual-linear-algebra
+  title: "Open House #87: Visual Linear Algebra"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-11-24 19:30
+  end_time: 2017-11-24 22:30
+  url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
+  blurb: Learning the math behind Machine Learning and Deep Learning Algorithms requires a good solid understanding of Linear Algebra. In this open sessions, we will aim to understand the essence of Linear Algebra in an interactive and visual way.
+  
+- name: vue-js-meetup
+  title: "VueBLR #4 - The future of Vue.js"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-11-25 14:00
+  end_time: 2017-11-25 16:00
+  url: https://opencollective.com/vue-bangalore/events/meetup-4-the-future-of-vuejs-8863ev
+  blurb: Join Vue.js enthusiasts and VueBLR to discuss the future of Vue.js. There will be talks on the internals of Vue, testing Vue components and a show & tell session, where you can show off anything you built with Vue.js
+
+- name: public-lecture-on-decentralized-ai-by-gene-kogan
+  title: "Public lecture on Decentralized AI by Gene Kogan"
+  city: Bangalore
+  venue: NASSCOM 10000 Startup Warehouse
+  start_time: 2017-12-12 18:00
+  end_time: 2017-12-12 21:00
+  url: https://anthillinside.in/2017-dec-bangalore-lecture/
+  blurb: A talk on possibilities that lie at the intersection of artificial intelligence and blockchains
+
+- name: decentralized-ai-applications
+  title: "Workshop: Decentralized AI applications"
+  city: Bangalore
+  venue: To be decided
+  start_time: 2017-12-17 10:00
+  end_time: 2017-12-17 16:30
+  url: https://anthillinside.in/2017-decentralized-ai-applications/
+  blurb: A workshop about the intersection of AI with blockchains and smart contracts.
+
+- name: open-house-magic-and-technology
+  title: "Open House #90: Magic & Technology - Strange Bedfellows"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-12-15 19:00
+  end_time: 2017-12-15 20:30
+  url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
+  blurb: In the first of his public talks on this arcane subject, Nakul Shenoy throws light on the historic connection between magic and science, and then helps us peer into the future of magical entertainment as humankind continues to further its technological prowess.
+
+- name: open-house-aadhaar-fraud
+  title: "Open House #91: Understanding Fraud with Aadhaar"
+  city: Bangalore
+  venue: HasGeek house
+  start_time: 2017-12-22 18:00
+  end_time: 2017-12-22 21:00
+  url: https://boxoffice.hasgeek.com/hasgeek/hasgeek-open-house
+  blurb: The Airtel Payments Bank fraud was possible because of how the technology of the Aadhaar ecosystem was designed. Please join us for an open house discussion on how the technology works, and why this case won't be the last instance.
+  
+- name: geekup-diptanu 
+  title: "Geekup! with Diptanu Choudhury on cluster schedulers" 
+  city: Bangalore 
+  venue: HasGeek house 
+  start_time: 2018-01-04 17:00 
+  end_time: 2018-01-04 19:00 
+  url: https://www.facebook.com/events/963423563816574/ 
+  blurb: Tomorrow, 4 January, Rootconf has organized a Geekup with Diptanu on his upcoming paper about failure and reliability strategies of cluster schedulers such as Mesos and Nomad.
+
+- name: codeup-blr-dotJS-101
+  title: CodeUp Bangalore - dotJS 101
+  city: Bangalore
+  venue: 91Springboard MG Road
+  start_time: 2018-01-06 17:00
+  end_time: 2018-01-06 20:00
+  url: http://register.payumoney.com/codeupblr9
+  blurb: 6th of Jan, PayU has organised a CodeUp Session on .js frameworks. The session would be followed by networking.
+
+- name: open-house-walking-along-indian-ricers 
+  title: "Open House #92: Walking along Indian Rivers" 
+  city: Bangalore 
+  venue: HasGeek house 
+  start_time: 2018-01-12 19:30 
+  end_time: 2018-01-12 20:30 
+  url: https://www.facebook.com/events/564541860551924/ 
+  blurb: From the Open Session we can expect to hear some stories of the people of the river basin, the everyday life and some insights into how climate change and increased human activities are changing local landscapes, making it more challenging in everyday life.
+  
+- name: tor-meetup-and-user-testing-session
+  title: "Tor meet-up and user testing session" 
+  city: Mumbai
+  venue: Only Much Louder (OML), Mumbai
+  start_time: 2018-01-20 12:00 
+  end_time: 2018-01-20 15:30 
+  url: https://rootconf.in/2018-tor-meetup-mumbai/
+  blurb: Tor researchers and trainers – Sukhbir Singh, Antonela Debiasi and Isabela Bagueros – will talk about user testing at Tor, and test new features with users familiar and new to Tor.
+
+- name: roundtable-ai-finance
+  title: "Roundtable on AI and Finance in India" 
+  city: Bangalore
+  venue: (TERI), Bangalore
+  start_time: 2018-02-07 14:00 
+  end_time: 2018-02-07 17:00 
+  url: https://50p.in/AI-finance-roundtable/
+  blurb: The Centre for Internet and Society, with HasGeek and the 50p Conference, hosts a roundtable on AI and Finance in India about trajectories of artificial intelligence across sub-sectors of banking in India and emergent regulatory and public policy concerns.
+  
+- name: mumbai-javascript-meetup
+  title: "First Javascript Meetup of 2018" 
+  city: Mumbai
+  venue: Rise Mumbai, Lower Parel, Mumbai
+  start_time: 2018-02-17 10:30
+  end_time: 2018-02-17 14:30 
+  url: https://www.meetup.com/Mumbai-JavaScript-Meetup/events/247306128/
+  blurb: We have awesome speakers, who'll make tech jargons easy for you to understand.
+
+
+- name: bangalore-dl-bootcamp-2
+  title: "Deep Learning Bootcamp" 
+  city: Bangalore
+  venue: To be decided
+  start_time: 2018-03-10 09:30
+  end_time: 2018-03-11 17:00 
+  url: https://fifthelephant.in/2018-mar-dl-bootcamp/
+  blurb: Learn theory and practical concepts of building a deep learning solution in the space of computer vision and natural language processing.
+
+- name: vidhi-bengaluru-book-launch
+  title: "Vidhi Bengaluru Book Launch on Legal Reforms" 
+  city: Bangalore
+  venue: Mother Tekla Auditorium, Bengaluru
+  start_time: 2018-02-16 18:00
+  end_time: 2018-02-16 19:30 
+  url: https://goo.gl/qUXnpB
+  blurb: Please join us for a discussion on improving urban governance in Karnataka.
+
+- name: 2018-feb-hacknight
+  title: "Node.js Hacknight at HasGeek" 
+  city: Bangalore
+  venue: HasGeek House, Bengaluru
+  start_time: 2018-02-24 17:00
+  end_time: 2018-02-25 10:00 
+  url: https://jsfoo.in/2018-feb-hacknight/
+  blurb: Hack on Node.js at HasGeek on 24-25 Feb from 5 pm. Food and snacks on us. Limited seats, sign up now!
+
+- name: symposium-on-computational-gastronomy
+  title: "Symposium on Computational Gastronomy"
+  city: Delhi/NCR
+  venue: IIIT-Delhi
+  start_time: 2018-03-17 09:00
+  end_time: 2018-03-17 18:30
+  url: https://www.iiitd.ac.in/webstory/gastrosym2018
+  blurb: A one day Symposium on the emerging theme of Computational Gastronomy - the data science of food, flavors and health. Conducted by the Complex Systems Laboratory, Center for Computational Biology, IIIT-Delhi. Organizer - Dr. Ganesh Bagler.
+
+- name: girls-who-javascript
+  title: "Girls Who JavaScript"
+  city: Bangalore
+  venue: Treebo Hotels, Bommanahalli, Bangalore
+  start_time: 2018-03-11 11:00
+  end_time: 2018-03-11 13:00
+  url: https://www.meetup.com/Girls-Who-Javascript/events/248084970/
+  blurb: A meetup for women who write JavaScript (or who want to learn JavaScript). Come discuss your work, interests, and ideas!
+
+- name: graphql-appolo-workshop-blr
+  title: "Workshop: GraphQL & Apollo"
+  city: Bangalore
+  venue: HasGeek House, Bengaluru
+  start_time: 2018-04-07 09:00
+  end_time: 2018-04-07 13:00
+  url: https://reactfoo.in/2018-graphql-apollo-workshop-blr/
+  blurb: Learn how to build apps with React, GraphQL and Apollo.
+
+- name: 2018-selenium-conf-india
+  title: "Selenium Conference India 2018"
+  city: Bangalore
+  venue: Lalit Ashok, High Grounds, Bengaluru 
+  start_time: 2018-06-28 9:00
+  end_time: 2018-06-30 17:30
+  url: https://2018.seleniumconf.in/
+  blurb: A conference that brings together Selenium developers & enthusiasts from around the world to share ideas, socialize, and work together on advancing the present and future of Selenium. The Call for proposals are closing soon.
+
+- name: public-lecture-zooko
+  title: "Public lecture by Zooko Wilcox"
+  city: Bangalore
+  venue: Mother Tekla Auditorium, Bangalore
+  start_time: 2018-03-28 17:00
+  end_time: 2018-03-28 19:00
+  url: https://50p.in/public-lecture-zooko/
+  blurb: A talk on cryptocurrencies, blockchain and the importance of privacy.
+
+- name: diversity-meetup-@Walmartlabs
+  title: "Inclusiveness and diversity meetup, @WalmartLabs"
+  city: Bangalore
+  venue: Walmart Labs, Bangalore
+  start_time: 2018-04-07 11:00
+  end_time: 2018-04-07 12:45
+  url: https://rootconf.in/2018-diversity-meetup-walmart/
+  blurb: Giving voice to our work; making work spaces safe and inclusive.  
+
+- name: Koffee-with-Kubernetes@Hasura
+  title: "Meetup: Koffee with Kubernetes"
+  city: Bangalore
+  venue: Hasura Technologies, Bangalore
+  start_time: 2018-03-29 18:00
+  end_time: 2018-03-29 20:00
+  url: https://www.meetup.com/Kubernetes-for-Application-Developers/
+  blurb: Demos, talks and discussions for application developers running or planning to run Kubernetes in production. Come and learn, explore different use cases, show off your k8s pipeline, discuss the problems you're facing or help the rest of the community!
+  
+- name: learning-nlp-bootcamp-may-2018
+  title: "Bootcamp: Learning representations of text for NLP"
+  city: Bangalore
+  venue: Bangalore
+  start_time: 2018-05-19 09:00
+  end_time: 2018-05-20 17:00
+  url: https://anthillinside.in/2018-nlp-bootcamp/
+  blurb: Learn and implement an end-to-end deep learning models for natural language processing.
+  
+- name: GitkubeWebinar@Hasura
+  title: "Open Source Demo: Gitkube - Deploy to Kubernetes using git push"
+  city: Bangalore
+  venue: Online
+  start_time: 2018-03-28 22:00
+  end_time: 2018-03-28 23:00
+  url: https://zoom.us/meeting/register/327b2f6fc966bb3fc5b9141539e44ee6
+  blurb: A live-coding demo using GitKube to build and deploy Docker images to Kubernetes with a simple git push. 
+
+- name: girls-who-javascript
+  title: "Girls Who JavaScript Meetup #6"
+  city: Bangalore
+  venue: Treebo Hotels, Bommanahalli, Bangalore
+  start_time: 2018-05-06 11:00
+  end_time: 2018-05-06 13:00
+  url: https://www.meetup.com/Girls-Who-Javascript/events/248947763/
+  blurb: A meetup for women who write JavaScript (or who want to learn JavaScript). Come discuss your work, interests, and ideas!
+
+- name: workshop-machine-learning-with-amazon-sagemaker-blr
+  title: "Workshop: Machine Learning with Amazon SageMaker - Bangalore"
+  city: Bangalore
+  venue: IKP Eden, Bangalore
+  start_time: 2018-04-04 10:00
+  end_time: 2018-04-04 16:15
+  url: https://fifthelephant.in/2018-sagemaker-workshop-bangalore/
+  blurb: Building, training and deploying machine learning models efficiently and at scale.
+
+- name: workshop-machine-learning-with-amazon-sagemaker-delhi
+  title: "Workshop: Machine Learning with Amazon SageMaker - Delhi/NCR"
+  city: Delhi/NCR
+  venue: Amazon Internet Services, Delhi
+  start_time: 2018-04-06 10:00
+  end_time: 2018-04-06 16:15
+  url: https://fifthelephant.in/2018-sagemaker-workshop-delhi/
+  blurb: Building, training and deploying machine learning models efficiently and at scale.
+
+- name: workshop-machine-learning-with-amazon-sagemaker-mumbai
+  title: "Workshop: Machine Learning with Amazon SageMaker - Mumbai"
+  city: Mumbai
+  venue: Amazon Internet Services, Mumbai
+  start_time: 2018-04-13 10:00
+  end_time: 2018-04-13 16:15
+  url: https://fifthelephant.in/2018-sagemaker-workshop-mumbai/
+  blurb: Building, training and deploying machine learning models efficiently and at scale. 
+
+- name: workshop-machine-learning-with-amazon-sagemaker-pune
+  title: "Workshop: Machine Learning with Amazon SageMaker - Pune"
+  city: Pune
+  venue: Venue TBA, Pune
+  start_time: 2018-04-20 10:00
+  end_time: 2018-04-20 16:15
+  url: https://fifthelephant.in/2018-sagemaker-workshop-pune/
+  blurb: Building, training and deploying machine learning models efficiently and at scale.
+
+- name: workshop-machine-learning-with-amazon-sagemaker-chennai
+  title: "Workshop: Machine Learning with Amazon SageMaker - Chennai"
+  city: Chennai
+  venue: Venue TBA, Chennai
+  start_time: 2018-04-27 10:00
+  end_time: 2018-04-27 16:15
+  url: https://fifthelephant.in/2018-sagemaker-workshop-chennai/
+  blurb: Building, training and deploying machine learning models efficiently and at scale.
+  
+- name: workshop-machine-learning-with-amazon-sagemaker-hyderabad
+  title: "Workshop: Machine Learning with Amazon SageMaker - Hyderabad"
+  city: Hyderabad
+  venue: Venue TBA, Hyderabad
+  start_time: 2018-05-03 10:00
+  end_time: 2018-05-03 16:15
+  url: https://fifthelephant.in/2018-sagemaker-workshop-hyderabad/
+  blurb: Building, training and deploying machine learning models efficiently and at scale.
+  
+- name: geekabyte-reactjs-workshop-mumbai
+  title: "Geekabyte: Starter Byte Zero to Hero in React"
+  city: Mumbai
+  venue: Of10, Powai
+  start_time: 2018-04-21 09:00
+  end_time: 2018-04-21 18:00
+  url: http://www.geekabyte.tech/
+  blurb: Learn React & React core concepts from experts Manjula Dube, Vihang Patel.
+
+- name: vue-blr-april
+  title: "VueBLR #7 - Building Mobile Apps"
+  city: Bangalore
+  venue: HasGeek office, Indira Nagar
+  start_time: 2018-04-28 14:00
+  end_time: 2018-04-28 17:00
+  url: https://www.meetup.com/vue-bangalore
+  blurb: Learn to build native applications using Vue.
+
+- name: workshop-react-0to100-pune
+  title: "Workshop: React 0 to 100 in a day"
+  city: Pune
+  venue: Pune
+  start_time: 2018-04-28 09:00
+  end_time: 2018-04-28 18:00
+  url: https://reactfoo.in/2018-pune-react-0-to-100/
+  blurb: Learn React and start implementing reusable, interactive and stateful UI components.
+
+- name: legacy-code-open-house
+  title: "Modelling costs of security issues in legacy code"
+  city: Bangalore
+  venue: HasGeek House, Bangalore
+  start_time: 2018-04-20 17:00
+  end_time: 2018-04-20 19:00
+  url: https://rootconf.in/legacy-code-open-house/
+  blurb: Learn more about legacy code and the costs associated with it.
+  
+- name: docker-meetup-walmartlabs
+  title: "Docker meetup at WalmartLabs"
+  city: Bangalore
+  venue: WalmartLabs, Bangalore
+  start_time: 2018-04-28 09:30
+  end_time: 2018-04-28 13:00
+  url: https://rootconf.in/2018-docker-meetup-walmartlabs/
+  blurb: A hands-on workshop on Docker.
