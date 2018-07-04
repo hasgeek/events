@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: Machine Learning with Amazon SageMaker"
 subtitle: "Building, training and deploying machine learning models efficiently and at scale"
-datelocation: "26 April 2018, Auditorium 3, NIMHANS, Bangalore"
+datelocation: "26 July 2018, Auditorium 3, NIMHANS, Bangalore"
 city: Bangalore
 start_time: 2018-07-26
 end_time: 2018-07-26
