@@ -69,4 +69,14 @@ overview:
     - State management
     - Data fetching
     - Redux
+
+blog:
+  feed_url: https://medium.com/feed/reactfoo
+  url: https://medium.com/reactfoo
+  title: ReactFoo
+
+hasjob:
+  url: https://hasjob.co?q=react
+  limit: 8
+
 ---
