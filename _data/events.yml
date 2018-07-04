@@ -1051,6 +1051,15 @@
   end_time: 2018-08-05 17:30
   url: https://anthillinside.in/2018-computer-vision-workshop/
   blurb: "Get a hands-on experience of using ML / DL for solving computer vision problems"
+  
+- name: react-0-100-blr-july
+  title: "Workshop: React 0 to 100 in a day"
+  city: Bangalore
+  venue: Bangalore
+  start_time: 2018-07-21 10:00
+  end_time: 2018-07-21 17:30
+  url: https://reactfoo.in/2018-july-react-beginner-blr/
+  blurb: "Learn React and start implementing reusable, interactive and stateful UI components"
 
 - name: react-0-100-delhi
   title: "Workshop: React 0 to 100 in a day - Delhi"

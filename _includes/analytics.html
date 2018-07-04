@@ -34,10 +34,23 @@
       EventDetails.sendGA('click', action, target);
     });
 
+    $('.nav-item').click(function(event) {
+      var target = $(this).data('href');
+      EventDetails.sendGA('click', target, target);
+    });
+
     $('#mc-embedded-subscribe').click(function(event) {
       EventDetails.sendGA('event_page_blog', 'subscribe', '');
     });
 
+    {% if page.hasjob.url %}
+      $(".hasjob-embed").appear().on('appear', function(event, element) {
+        if($(this).hasClass('appear')){
+          EventDetails.sendGA('hasjob-widget', 'view hasjob embed', '');
+          $(this).removeClass('appear');
+        }
+      });
+    {% endif %}
   });
 </script>
 

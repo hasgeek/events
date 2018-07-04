@@ -70,6 +70,10 @@ blog:
   url: https://medium.com/reactfoo
   title: ReactFoo
 
+hasjob:
+  url: https://hasjob.co?q=react
+  limit: 8
+
 photo_album:
   title: "Highlights from ReactFoo Hyderabad, 2018"
   photos:
