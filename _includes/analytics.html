@@ -34,10 +34,23 @@
       EventDetails.sendGA('click', action, target);
     });
 
+    $('.nav-item').click(function(event) {
+      var target = $(this).data('href');
+      EventDetails.sendGA('click', target, target);
+    });
+
     $('#mc-embedded-subscribe').click(function(event) {
       EventDetails.sendGA('event_page_blog', 'subscribe', '');
     });
 
+    {% if page.hasjob.url %}
+      $(".hasjob-embed").appear().on('appear', function(event, element) {
+        if($(this).hasClass('appear')){
+          EventDetails.sendGA('hasjob-widget', 'view hasjob embed', '');
+          $(this).removeClass('appear');
+        }
+      });
+    {% endif %}
   });
 </script>
 
@@ -71,6 +84,11 @@
   &noscript=1"/>
 </noscript>
 <!-- End Facebook Pixel Code -->
+
+  
+<!-- LinkedIn Insight Tag -->
+<script type="text/javascript"> _linkedin_data_partner_id = "{{ include.linkedin_tracking_code }}"; </script><script type="text/javascript"> (function(){var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(); </script> <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid={{ include.linkedin_tracking_code }}&fmt=gif" /> </noscript>
+<!-- End LinkedIn Insight Tag -->
 
 <script>
 $(document).ready( function() {
