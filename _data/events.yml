@@ -1006,3 +1006,48 @@
   end_time: 2018-06-30 17:30
   url: https://www.meetup.com/Practical-Data-Science-Workshops-Bangalore/events/251361758/
   blurb: "If you're interested in exploring the various themes around cutting-edge AI and lessons learnt from productionizing them, drop in for a single day event at Treebo Hotels office. The event is free and open to all."
+
+- name: deep-learning-bootcamp
+  title: "Deep Learning Bootcamp"
+  city: Bangalore
+  venue: IKP Eden, Bangalore
+  start_time: 2018-07-23 09:00
+  end_time: 2018-07-24 17:30
+  url: https://anthillinside.in/2018-july-dl-bootcamp/
+  blurb: "Getting started with deep learning for image and text."
+
+- name: july-nlp-bootcamp
+  title: "Bootcamp: Learning representations of text for NLP"
+  city: Bangalore
+  venue: ThoughtFactory, Bangalore
+  start_time: 2018-07-28 09:00
+  end_time: 2018-07-29 17:30
+  url: https://anthillinside.in/2018-july-nlp-bootcamp/
+  blurb: "Learn and implement an end-to-end deep learning models for natural language processing."
+
+- name: math-for-data-science
+  title: "Workshop: Math for Data Science"
+  city: Bangalore
+  venue: IKP Eden, Bangalore
+  start_time: 2018-07-28 09:00
+  end_time: 2018-07-28 17:30
+  url: https://fifthelephant.in/2018-math-for-data-science/
+  blurb: "Deal with math at your role as data science dev by intuitive understanding of the concepts"
+
+- name: make-your-own-dl-framework
+  title: "Workshop: Make your own DL framework"
+  city: Bangalore
+  venue: Datalicious, Bangalore
+  start_time: 2018-07-29 09:00
+  end_time: 2018-07-29 17:30
+  url: https://anthillinside.in/2018-july-dl-framework/
+  blurb: "Learn to write Deep Learning Framework in pure Python and numpy"
+
+- name: make-your-own-dl-framework
+  title: "Workshop: DL and ML for Computer Vision"
+  city: Bangalore
+  venue: Bangalore
+  start_time: 2018-08-05 09:00
+  end_time: 2018-08-05 17:30
+  url: https://anthillinside.in/2018-computer-vision-workshop/
+  blurb: "Get a hands-on experience of using ML / DL for solving computer vision problems"
