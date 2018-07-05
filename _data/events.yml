@@ -1069,3 +1069,21 @@
   end_time: 2018-08-19 17:30
   url: https://reactfoo.in/2018-react-0-100-delhi/
   blurb: "Get a hands-on experience on the most thriving framework of 2018 and create your own React.js application"
+
+- name: sagemaker-bangalore-july
+  title: "Workshop: Machine Learning with Amazon SageMaker"
+  city: Bangalore
+  venue: Nimhans Convention Centre
+  start_time: 2018-07-26 10:00
+  end_time: 2018-07-26 17:30
+  url: https://fifthelephant.in/2018-sagemaker-workshop-bangalore-2/
+  blurb: "Building, training and deploying machine learning models efficiently and at scale"
+
+- name: hybrid-recommendation-systems
+  title: "Workshop: Deep learning based hybrid recommendation systems in TensorFlow"
+  city: Bangalore
+  venue: Nimhans Convention Centre
+  start_time: 2018-07-27 10:00
+  end_time: 2018-07-27 17:30
+  url: https://fifthelephant.in/2018-hybrid-recommendation-systems/
+  blurb: "Gain an end-to-end view of deep learning-based recommendation and learning-to-rank systems using TensorFlow"
