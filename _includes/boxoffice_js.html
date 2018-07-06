@@ -1,7 +1,7 @@
 <script type="text/javascript">
 $(document).ready(function() {
 
-  var boxofficeUrl = "https://boxoffice.hasgeek.com";
+  var boxofficeUrl = "http://boxoffice.vidya.local:6500";
 
   $.get({
     url: boxofficeUrl + "/api/1/boxoffice.js",
@@ -45,8 +45,24 @@ $(document).ready(function() {
     window.Boxoffice.init({
       org: "hasgeek",
       itemCollection: "{{ page.boxoffice_item_collection }}",
-      paymentDesc: "{{ page.title }}"
+      paymentDesc: "{{ page.title }}",
+      {% if page.boxoffice_item_categories %}
+        categories: [
+        {% for category in page.boxoffice_item_categories %}
+        {
+          'name': "{{ category.name}} ",
+          'title': "{{ category.title }}",
+          'item_ids': [
+            {% for item_id in category.item_ids %}
+            "{{ item_id }}",
+            {% endfor %}
+          ]
+        }
+        {% endfor %}
+        ]
+      {% endif %}
     });
   }, false);
+
 });
 </script>
