@@ -45,8 +45,24 @@ $(document).ready(function() {
     window.Boxoffice.init({
       org: "hasgeek",
       itemCollection: "{{ page.boxoffice_item_collection }}",
-      paymentDesc: "{{ page.title }}"
+      paymentDesc: "{{ page.title }}",
+      {% if page.boxoffice_item_categories %}
+        categories: [
+        {% for category in page.boxoffice_item_categories %}
+        {
+          'name': "{{ category.name}} ",
+          'title': "{{ category.title }}",
+          'item_ids': [
+            {% for item_id in category.item_ids %}
+            "{{ item_id }}",
+            {% endfor %}
+          ]
+        }
+        {% endfor %}
+        ]
+      {% endif %}
     });
   }, false);
+
 });
 </script>

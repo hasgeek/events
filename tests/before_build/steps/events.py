@@ -437,6 +437,11 @@ event_schema = {
         'required': False
     },
 
+    'boxoffice_item_categories': {
+        'type': 'list',
+        'required': False
+    },
+
     'outreach_item_collection': {
         'type': 'string',
         'required': False
