@@ -8,7 +8,32 @@ start_time: 2018-08-05
 end_time: 2018-08-05
 description: "Get a hands-on experience of using ML / DL for solving computer vision problems"
 boxoffice_item_collection: "26ac0e6c-4a1d-4b13-ae9c-c8bb372dd1b1"
+boxoffice_item_categories:
+  - name: workshop
+    title: Workshop
+    item_ids:
+      - 9249cc2b-24d2-43d4-914e-b17a5b4c4a91    
+      - be77a858-cf15-4c9d-b268-3e2071891bcc 
+      - fc3f2d1c-d106-4fb3-93b7-3c13fcfd8a9f
+      - 9f9191ae-3d5f-4115-82d0-5109966eee06
+  
+  - name: conference
+    title: Conference
+    item_ids: 
+      - 719d27f8-abc7-41c3-862d-0664d50769fa
+      - a34b8f55-44e5-49b5-85c0-03eb62e17785
+      - 5b1b9d9b-8f20-4530-826b-3c04c3d52d85
 
+  - name: merchandise
+    title: Merchandise
+    iterm_ids:
+      - e50ed2ec-54eb-4e48-8783-a74c5dda31f4
+
+  - name: food-court
+    title: Food Court
+    iterm_ids:
+      - cb36e286-fb03-4058-9380-579384b7f447
+      
 instructors:
 - name: Sumod Mohan
   byline: Founder, AutoInfer
