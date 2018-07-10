@@ -64,6 +64,11 @@ sponsor:
 
     Download our sponsorship deck or reach out to us for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
   sponsorship_deck_url: 'https://hsgk.in/reactfoo2018sponsor'
+  sponsors:
+  - title: "T-shirt Sponsor"
+    size: "l"
+    sponsors:
+    - bigbinary
 
 blog:
   feed_url: https://medium.com/feed/reactfoo
