@@ -1,6 +1,8 @@
-title: Anthill Inside
-subtitle: "India's community of deep learning and artificial intelligence practitioners"
+title: Anthill Inside + The Fifth Elephant
+subtitle: "Community powered conferences, workshops, and meet ups on AI and data"
 description: "India's community of deep learning and artificial intelligence practitioners"
+logo:
+  image_url: https://images.hasgeek.com/embed/file/388138390f464e279d5429669293c040
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://anthillinside.in" # the base hostname & protocol for your site, e.g. http://example.com
 colors:

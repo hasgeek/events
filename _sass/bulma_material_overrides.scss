@@ -433,6 +433,28 @@ iframe {
   }
 }
 
+.site-title{
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+.site-subtitle{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+ @media only screen and (max-width: 600px) {
+    .site-title{
+      font-size: 40px;
+      line-height: 1.2;
+    }
+    .site-subtitle{
+      font-size: 24px;
+    }
+  }
+
 .panel {
   box-shadow: $shadow;
 

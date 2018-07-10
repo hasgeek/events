@@ -1,6 +1,8 @@
-title: The Fifth Elephant
-subtitle: "India's most renowned data science community and conference"
+title: The Fifth Elephant + Anthill Inside
+subtitle: "Community powered conferences, workshops, and meet ups on data and AI"
 description: "India’s most renowned data science conference. Discuss the most cutting edge developments in the fields of machine learning, data science and technology that power data collection and analysis."
+logo:
+  image_url: https://images.hasgeek.com/embed/file/71893a055f3f4f77961b2c7360bf0f48
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fifthelephant.in" # the base hostname & protocol for your site, e.g. http://example.com
 colors:
