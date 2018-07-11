@@ -2,8 +2,8 @@
 layout: workshop
 title: "Workshop: React 0 to 100 in a day"
 subtitle: "Learn React and start implementing reusable, interactive and stateful UI components"
-datelocation: "9:30 AM to 1:30 PM, 21 July 2018, Bangalore"
-city: ThoughtFactory, Bangalore
+datelocation: "9:30 AM to 1:30 PM, 21 July 2018, ThoughtFactory, Bangalore"
+city: Bangalore
 start_time: 2018-07-21
 end_time: 2018-07-21
 description: "This workshop starts with understanding the basic internals of React before exploring how to \"think in React\", best practices and solutions to real problems that you will experience while building an application."
