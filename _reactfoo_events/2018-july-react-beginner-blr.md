@@ -2,12 +2,22 @@
 layout: workshop
 title: "Workshop: React 0 to 100 in a day"
 subtitle: "Learn React and start implementing reusable, interactive and stateful UI components"
-datelocation: "21 July 2018, Bangalore"
+datelocation: "9:30 AM to 1:30 PM, 21 July 2018, ThoughtFactory, Bangalore"
 city: Bangalore
 start_time: 2018-07-21
 end_time: 2018-07-21
 description: "This workshop starts with understanding the basic internals of React before exploring how to \"think in React\", best practices and solutions to real problems that you will experience while building an application."
 boxoffice_item_collection: "998d2617-931b-42cc-89e6-1d771ad87ce0"
+
+venue:
+  label: ThoughtFactory, Bangalore
+  address: |
+    ThoughtFactory,
+    Tower D, 2nd Floor,
+    Diamond District, Bengaluru, Karnataka 560102
+  lat: 12.95921
+  lng: 77.64431
+  google_maps_url: https://goo.gl/maps/eaNceNnatu62
 
 instructors:
 - name: Siddharth Kshetrapal
@@ -79,4 +89,11 @@ hasjob:
   url: https://hasjob.co?q=react
   limit: 8
 
+sponsor:
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - thoughtfactory
+    
 ---
