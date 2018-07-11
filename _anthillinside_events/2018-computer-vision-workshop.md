@@ -34,6 +34,16 @@ boxoffice_item_categories:
     item_ids: 
       - cb36e286-fb03-4058-9380-579384b7f447
 
+venue:
+  label: ThoughtFactory, Bangalore
+  address: |
+    ThoughtFactory,
+    Tower D, 2nd Floor,
+    Diamond District, Bengaluru, Karnataka 560102
+  lat: 12.95921
+  lng: 77.64431
+  google_maps_url: https://goo.gl/maps/eaNceNnatu62
+  
 instructors:
 - name: Sumod Mohan
   byline: Founder, AutoInfer
@@ -116,4 +126,12 @@ overview:
     - Compare ML and DL (hands-on)
     - Real time examples of DL (Demo)
     - How to solve a CV problem by choosing the appropriate technique?
+
+sponsor:
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - thoughtfactory
+    
 ---
