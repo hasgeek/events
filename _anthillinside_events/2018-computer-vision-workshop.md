@@ -3,7 +3,7 @@ layout: workshop
 title: "Workshop: DL and ML for Computer Vision"
 subtitle: "Get a hands-on experience of using ML / DL for solving computer vision problems"
 datelocation: "5 Aug 2018, 9:30 AM to 6:00 PM, Bengaluru"
-city: Bangalore
+city: ThoughtFactory, Bangalore
 start_time: 2018-08-05
 end_time: 2018-08-05
 description: "Get a hands-on experience of using ML / DL for solving computer vision problems"
