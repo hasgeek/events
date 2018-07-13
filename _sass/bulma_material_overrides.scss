@@ -674,14 +674,18 @@ a{
 .featured-card{
     margin-top: -130px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .featured-card{
     margin-top: 0 !important;
 }
 }
 
 .event-masthead-medium .hero-body{
-    margin-top: -4em !important;
+    margin-top: -1em !important;
+}
+
+.featured-card-content{
+    min-height: 280px;
 }
 
 

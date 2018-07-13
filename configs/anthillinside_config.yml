@@ -48,4 +48,8 @@ collections:
   anthillinside_events:
     type: event
     output: true
-    permalink: /:path/
+    permalink: /anthillinside/:path/
+  fifthelephant_events:
+    type: event
+    output: true
+    permalink: /fifthelephant/:path/
