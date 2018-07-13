@@ -7,7 +7,6 @@ city: Bangalore
 start_time: 2018-07-26
 end_time: 2018-07-26
 description: "Building, training and deploying machine learning models efficiently and at scale"
-featured: true
 
 instructors:
 - name: Praveen Jayakumar
