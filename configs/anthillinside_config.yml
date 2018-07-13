@@ -49,3 +49,7 @@ collections:
     type: event
     output: true
     permalink: /:path/
+  fifthelephant_events:
+    type: event
+    output: true
+    permalink: /:path/
