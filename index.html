@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<section class="hero is-primary is-bold">
+<section class="hero is-primary is-medium is-bold event-masthead-medium">
   <div class="hero-body" style="background-image: url('{{ site.banner }}'); background-size:cover;">
     <div class="container">
         <div class="hero-icon">
@@ -28,11 +28,11 @@ layout: base
 
 <section class="section featured-section">
   <div class="container">
+    <div class="columns is-multiline">
     {% include assign_featured_events.html %}
-    <div class="columns is-centered is-multiline">
       {% for event in featured_events %}
-      <div class="column is-full">
-        <p class="featured-tag">Featured</p>
+      <div class="column is-half featured-card">
+        <p class="featured-tag">FEATURED</p>
         {% include featured_event_card.html event=event featured=event.featured %}
       </div>
       {% endfor %}
