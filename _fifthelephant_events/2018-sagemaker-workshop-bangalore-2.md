@@ -14,13 +14,13 @@ instructors:
   byline: Solutions Architect
   bio: |
     **Praveen** is a Solutions Architect at Amazon India.
-
+    
 venue:
   label: NIMHANS Convention Centre, Bangalore
   lat: 12.943240
   lng: 77.596911
   google_maps_url: https://goo.gl/maps/K2LFmAcdrWB2
-
+  
 overview:
   left_content: |
     In this workshop, you will learn how to use Amazon SageMaker to build, train and host machine learning models. Going through a number of Jupyter notebooks, you will first learn how to use built-in algorithms to perform complex tasks like image classification or clustering. Then, trainers will teach you how you can bring your own Tensorflow or Apache MXNet script to train deep learning models. Finally, you will deploy your models to SageMaker-managed infrastructure and use them to predict new samples.
@@ -36,11 +36,11 @@ overview:
 
 
     ## Who should attend?
-
-    Technology leaders from Startups and Enterprises  (Engineering, Architecture, Product, Development) who are interested in expanding your knowledge on Artificial Intelligence, Machine Learning, and how it can be applied to your business.
+    
+    Technology leaders from Startups and Enterprises  (Engineering, Architecture, Product, Development) who are interested in expanding your knowledge on Artificial Intelligence, Machine Learning, and how it can be applied to your business. 
 
     **Note: This workshop is sponsored by AWS and they will be collecting participants data for generating coupons. These credits are exclusively for hands-on labs. We will be opening up RSVP for this workshop shortly.**
-
+    
   right_content: |
 
     ## Agenda
@@ -71,7 +71,7 @@ sponsor:
   - title: "Sponsored By"
     size: "l"
     sponsors:
-    - aws
+    - aws     
 
 
 ---
