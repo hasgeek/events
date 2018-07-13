@@ -536,7 +536,7 @@ a{
 .featured{
   height: auto !important;
    p{
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
@@ -678,6 +678,10 @@ a{
     .featured-card{
     margin-top: 0 !important;
 }
+}
+
+.event-masthead-medium .hero-body{
+    margin-top: -4em !important;
 }
 
 
