@@ -52,3 +52,7 @@ collections:
     type: event
     output: true
     permalink: /:path/
+  anthillinside_events:
+    type: event
+    output: true
+    permalink: /:path/
