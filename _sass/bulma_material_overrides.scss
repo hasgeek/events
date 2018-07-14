@@ -525,18 +525,17 @@ a{
 
 .featured-tag{
     display: inline-block;
-    background-color: #f7e2c5;
+    background-color: #61C491;
     padding: 4px 8px;
     border-radius: 2px 2px 0 0;
-    color: #906b37;
+    color: #ffffff;
     font-weight: 600;
-    font-size: 12px;
 }
 
 .featured{
   height: auto !important;
    p{
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 
@@ -666,26 +665,6 @@ a{
   animation-name: zoomIn;
   animation-delay: 1s;
 }
-
-.title{
-    font-weight: 700;
-}
-
-.featured-card{
-    margin-top: -130px;
-}
-@media only screen and (max-width: 600px) {
-    .featured-card{
-    margin-top: 0 !important;
-}
-}
-
-.event-masthead-medium .hero-body{
-    margin-top: -4em !important;
-}
-
-
-
 
 
 
