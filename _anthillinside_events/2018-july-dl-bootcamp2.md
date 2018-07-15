@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Deep Learning Bootcamp"
+title: "Deep Learning Bootcamp II"
 subtitle: "Getting started with deep learning for image and text"
 datelocation: "30-31 July 2018, IKP Eden, Bangalore"
 city: Bangalore
