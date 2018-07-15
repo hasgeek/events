@@ -1087,3 +1087,12 @@
   end_time: 2018-07-27 17:30
   url: https://fifthelephant.in/2018-hybrid-recommendation-systems/
   blurb: "Gain an end-to-end view of deep learning-based recommendation and learning-to-rank systems using TensorFlow"
+  
+- name: deep-learning-bootcamp ii
+  title: "Deep Learning Bootcamp II"
+  city: Bangalore
+  venue: IKP Eden, Bangalore
+  start_time: 2018-07-30 09:00
+  end_time: 2018-07-31 17:30
+  url: https://anthillinside.in/2018-july-dl-bootcamp2/
+  blurb: "Getting started with deep learning for image and text."
