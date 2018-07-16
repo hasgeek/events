@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Bootcamp: Learning representations of text for NLP"
+title: "Bootcamp for NLP"
 subtitle: Learn and implement an end-to-end deep learning models for natural language processing.
 datelocation: "28-29 July 2018, 09:00 AM - 05:00 PM, ThoughtFactory, Bangalore"
 city: Bangalore
