@@ -62,7 +62,7 @@ overview:
 
     In this bootcamp, we will understand key concepts, maths, and code behind the state-of-the-art NLP techniques. Various representation learning techniques have been proposed in literature, but still there is a dearth of comprehensive tutorials that provides full coverage with mathematical explanations as well as implementation details of these algorithms to a satisfactory depth.
 
-This bootcamp aims to bridge this gap. It aims to demystify, both - Theory (key concepts, maths) and Practice (code) that goes into building NLP models. At the end of this bootcamp participants would have gained a fundamental understanding of these approaches with an ability to implement them on datasets of their interest.
+    This bootcamp aims to bridge this gap. It aims to demystify, both - Theory (key concepts, maths) and Practice (code) that goes into building NLP models. At the end of this bootcamp participants would have gained a fundamental understanding of these approaches with an ability to implement them on datasets of their interest.
 
 
     # Target Audience
