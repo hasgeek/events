@@ -29,10 +29,10 @@ overview:
   About Logistics conference:
   
   Logistics is evolving as a domain that requires understanding of:
-
-  1. The landscape (literally), and interesting problems to solve for logistics – be they supply-chain management, warehousing, transportation, delivery of goods and services or fleet management.
-  2. Complexities in current technology and processes for collecting, managing and updating geo-spatial data
-  3. Areas of collaboration and cooperation between industry, startups and government – including municipalities, urban planning and infrastructure.
+  
+    1. The landscape (literally), and interesting problems to solve for logistics – be they supply-chain management, warehousing, transportation, delivery of goods and services or fleet management.
+    2. Complexities in current technology and processes for collecting, managing and updating geo-spatial data
+    3. Areas of collaboration and cooperation between industry, startups and government – including municipalities, urban planning and infrastructure.
   
   right_content: |
 
