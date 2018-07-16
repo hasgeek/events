@@ -26,9 +26,9 @@ hasgeektv-event-playlist-link:
 overview:
   left_content: |
 
-  About Logistics conference:
+    About Logistics conference:
   
-  Logistics is evolving as a domain that requires understanding of:
+    Logistics is evolving as a domain that requires understanding of:
   
     1. The landscape (literally), and interesting problems to solve for logistics – be they supply-chain management, warehousing, transportation, delivery of goods and services or fleet management.
     2. Complexities in current technology and processes for collecting, managing and updating geo-spatial data
@@ -89,9 +89,10 @@ accommodation:
 sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach, sales and hiring.
-    
+
     Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com) for more info.
   sponsorship_deck_url: 'https://hsgk.in/fifthel2018sponsor'
+  sponsors:
   - title: "Community Partner"
     size: "m"
     sponsors:
