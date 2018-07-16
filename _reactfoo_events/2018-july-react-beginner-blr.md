@@ -46,7 +46,7 @@ overview:
 
     Bring your laptop with node (>=6) and npm (>=4) installed and an open mind :)
 
-    # Duration: 6 Hours
+    # Duration: 4 Hours
 
   right_content: |
     # Outline:
