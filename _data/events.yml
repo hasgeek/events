@@ -1088,6 +1088,15 @@
   url: https://fifthelephant.in/2018-hybrid-recommendation-systems/
   blurb: "Gain an end-to-end view of deep learning-based recommendation and learning-to-rank systems using TensorFlow"
   
+- name: devopedia-2018-jul-ds-know-hack
+  title: "Data Science Knowledge Hackathon"
+  city: Bangalore
+  venue: WeWork EGL
+  start_time: 2018-07-28 14:00
+  end_time: 2018-07-28 18:00
+  url: https://www.meetup.com/Devopedia/events/252626169/
+  blurb: "Research on a topic. Summarize and document. Learn from the research of others. Win prizes!"
+  
 - name: deep-learning-bootcamp ii
   title: "Deep Learning Bootcamp II"
   city: Bangalore
