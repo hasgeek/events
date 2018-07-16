@@ -2,8 +2,8 @@
 layout: workshop
 title: "Workshop: DL and ML for Computer Vision"
 subtitle: "Get a hands-on experience of using ML / DL for solving computer vision problems"
-datelocation: "5 Aug 2018, 9:30 AM to 6:00 PM, Bengaluru"
-city: ThoughtFactory, Bangalore
+datelocation: "5 Aug 2018, 9:30 AM to 6:00 PM, Great Learning Bangalore"
+city: Bangalore
 start_time: 2018-08-05
 end_time: 2018-08-05
 description: "Get a hands-on experience of using ML / DL for solving computer vision problems"
@@ -35,14 +35,15 @@ boxoffice_item_categories:
       - cb36e286-fb03-4058-9380-579384b7f447
 
 venue:
-  label: ThoughtFactory, Bangalore
+  label: Great Learning, Bangalore
   address: |
-    ThoughtFactory,
-    Tower D, 2nd Floor,
-    Diamond District, Bengaluru, Karnataka 560102
-  lat: 12.95921
-  lng: 77.64431
-  google_maps_url: https://goo.gl/maps/eaNceNnatu62
+    Great Learning Bangalore (Great Lakes E-Learning)
+Ground Floor
+Plot No. 758 - 759, 19th Main Rd, 
+Sector 2, HSR Layout, (Near Sri Sai Mandir), Bengaluru, Karnataka 560102
+  lat: 12.9098108
+  lng: 77.6425886
+  google_maps_url: https://goo.gl/maps/3e3osPsgJj62
   
 instructors:
 - name: Sumod Mohan
@@ -127,11 +128,5 @@ overview:
     - Real time examples of DL (Demo)
     - How to solve a CV problem by choosing the appropriate technique?
 
-sponsor:
-  sponsors:
-  - title: "Venue Partner"
-    size: "l"
-    sponsors:
-    - thoughtfactory
     
 ---
