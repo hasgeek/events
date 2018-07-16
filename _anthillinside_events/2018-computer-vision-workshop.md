@@ -37,10 +37,9 @@ boxoffice_item_categories:
 venue:
   label: Great Learning, Bangalore
   address: |
-    Great Learning Bangalore (Great Lakes E-Learning)
-Ground Floor
-Plot No. 758 - 759, 19th Main Rd, 
-Sector 2, HSR Layout, (Near Sri Sai Mandir), Bengaluru, Karnataka 560102
+    Great Learning Bangalore (Great Lakes E-Learning),
+    Ground Floor, Plot No. 758 - 759, 19th Main Rd, 
+    Sector 2, HSR Layout, (Near Sri Sai Mandir), Bengaluru, Karnataka 560102
   lat: 12.9098108
   lng: 77.6425886
   google_maps_url: https://goo.gl/maps/3e3osPsgJj62
