@@ -884,13 +884,13 @@ cummins:
     Cummins Inc. designs, manufactures, sells and services diesel and alternative fuel engines, diesel and alternative-fueled electrical generator sets, as well as related components and technology. 
     Cummins Inc. is organized into distinct but complementary business segments:
     
-    *Engine Segment: The Engine Segment designs and manufactures state-of-the-art diesel and natural gas powered engines for on-highway and off-highway use. The business also offers new parts and remanufactured parts and engines.
+    * Engine Segment: The Engine Segment designs and manufactures state-of-the-art diesel and natural gas powered engines for on-highway and off-highway use. The business also offers new parts and remanufactured parts and engines.
     
-    *Power Systems Segment: The Power Systems Segment is a global provider of high-speed high-horsepower engines and power generation equipment, including standby and prime power generator sets, alternators, switchgear and other components.
+    * Power Systems Segment: The Power Systems Segment is a global provider of high-speed high-horsepower engines and power generation equipment, including standby and prime power generator sets, alternators, switchgear and other components.
     
-    *Components Segment: The Components Segment consists of four businesses with key technologies for delivering integrated solutions: Cummins Filtration, Cummins Turbo Technologies, Cummins Emission Solutions and Cummins Electronics and Fuel Systems.
+    * Components Segment: The Components Segment consists of four businesses with key technologies for delivering integrated solutions: Cummins Filtration, Cummins Turbo Technologies, Cummins Emission Solutions and Cummins Electronics and Fuel Systems.
     
-    *Distribution Segment: The Distribution Segment drives a comprehensive global distribution strategy and channel management. This business provides sales, service and support to our customers around the world through the largest number of certified service and support locations of any engine manufacturer.
+    * Distribution Segment: The Distribution Segment drives a comprehensive global distribution strategy and channel management. This business provides sales, service and support to our customers around the world through the largest number of certified service and support locations of any engine manufacturer.
 
     **General Information**
     * Corporate Headquarters: Columbus, Indiana – U.S.A.
@@ -900,3 +900,16 @@ cummins:
     * 2017 Revenues:$20.4 billion.
     * Employees:58,600 worldwide.
     * Website: www.cummins.com.
+
+startv:
+  title: Star TV
+  logo_url: https://images.hasgeek.com/embed/file/74ce47277fbd45fea019937f586a9f8e
+  url: http://www.startv.com/about-us/
+  display_url: http://www.startv.com/about-us/
+  blurb: |
+    Star is the leading media company in India reaching more than 700 million people through broadcast and digital technologies.  We are at the forefront of entertaining the nation and touching peoples’ lives through our 60+ tv channels, digital media platform and movie studio. We have reinvented sports in India and are inspiring a new generation to play through nurturing and developing regional and non-cricket sports such as kabaddi.
+    
+    We are on a mission to transform ourselves into a fully data driven company. We want to harness the power of big data through building the platform, systems and applications that will enable us to reinvent the media ecosystem, dramatically improve viewer experience and deliver significantly better value to our advertisers through sharper targeting. We have established an agile culture that encourages innovation and experimentation.
+    
+    We are looking for the best data scientists, data engineers and software developers to join us in this transformative mission. This is a innovative area for data science and hence offers a unique opportunity to work on greenfield projects, deliver novel solutions and touch lives of millions of people.
+
