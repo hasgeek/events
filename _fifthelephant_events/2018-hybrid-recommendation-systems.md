@@ -13,26 +13,6 @@ boxoffice_item_categories:
     title: Workshop
     item_ids:
       - b1430331-57d6-47a3-a958-66b2b5cd027f
-      - 5caca43a-d5ef-4b21-9214-95e31d1f9e31
-      
-  - name: conference 
-    title: Conference  
-    item_ids:  
-      - 8ea5bee3-ebce-4250-b2d4-0db488df36a9
-      - ab609b24-60ce-4f33-ae99-75b1887ac13d
-      - 84b4ce7a-6d8e-4fc5-a141-0624c7870eb2
-      - d4cd95ec-7a3e-48e2-9dde-7f4f472934d5
-      - 5540cc28-98e2-4167-bd2b-3b9d13de3644
- 
-  - name: merchandise  
-    title: Merchandise 
-    item_ids: 
-      - c0834652-9188-496b-905e-db322212ac28
- 
-  - name: food-court 
-    title: Food Court  
-    item_ids: 
-      - 74f7c4c3-c80e-4d5d-abff-02e1b1ab0191
       
 instructors:
 - name: Dr. Vijay Srinivas Agneeswaran
