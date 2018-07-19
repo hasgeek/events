@@ -154,12 +154,18 @@ layout: base
 {% endif %}
 
 {% if page.featured_speakers %}
-<section class="section has-featured-speakers scroll-horizontal  bg-light"id="featured_speakers">
+<section class="section scroll-horizontal  bg-light"id="featured_speakers">
   <div class="container">
   {% include featured_speakers_section.html speakers=page.featured_speakers %}
   </div>
 </section><hr>
 {% endif %}
+
+<section class="section scroll-horizontal  bg-light"id="featured_speakers">
+  <div class="container">
+  {% include all_speakers.html speakers=page.featured_speakers %}
+  </div>
+</section><hr>
 
 {% if page.discussions %}
 <section class="section bg-light scroll-horizontal"id="dicussions">
