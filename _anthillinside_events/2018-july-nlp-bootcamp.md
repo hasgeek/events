@@ -2,7 +2,7 @@
 layout: workshop
 title: "Bootcamp for NLP"
 subtitle: Learn and implement an end-to-end deep learning models for natural language processing.
-datelocation: "28-29 July 2018, 09:00 AM - 05:00 PM, ThoughtFactory, Bangalore"
+datelocation: "10:00 AM to 5:30 PM, 28-29 July 2018, 09:00 AM - 05:00 PM, ThoughtFactory, Bangalore"
 city: Bangalore
 start_time: 2018-07-28
 end_time: 2018-07-29
