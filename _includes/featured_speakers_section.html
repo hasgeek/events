@@ -7,7 +7,7 @@
   {% if include.instructors %}
   {% assign speakers = include.instructors %}
   {% else %}
-  {% assign speakers = include.speakers %}
+  {% assign speakers = include.speakers | where:'featured', 'true' %}
   {% endif %}
   {% for speaker in speakers %}
   <div class="column is-three-quarters-mobile is-one-third-desktop">

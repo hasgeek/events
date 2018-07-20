@@ -6,7 +6,15 @@
   {% if include.instructors %}
   {% assign speakers = include.instructors %}
   {% else %}
-  {% assign speakers = include.speakers %}
+    {% assign speakers = "" | split: ',' %}
+    {% assign all_speakers = include.speakers %}
+    {% assign featured_speakers = include.speakers | where:'featured', 'true' %}
+    {% for speaker in all_speakers %}
+      {% if featured_speakers contains speaker %}
+      {% else %}
+        {% assign speakers = speakers | push: speaker %}
+      {% endif %}
+    {% endfor %}
   {% endif %}
   {% for speaker in speakers %}
   <div class="column is-one-quarter-tablet is-three-quarters-mobile is-one-quarter-desktop">
