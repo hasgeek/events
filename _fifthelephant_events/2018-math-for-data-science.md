@@ -2,7 +2,7 @@
 layout: workshop
 title: "Math for Data Science"
 subtitle: Deal with math at your role as data science dev by intuitive understanding of the concepts
-datelocation: "28 July 2018, IKP Eden, Bangalore"
+datelocation: "10:00 AM to 5:30 PM, 28 July 2018, IKP Eden, Bangalore"
 city: Bangalore
 start_time: 2018-07-28
 end_time: 2018-07-28
