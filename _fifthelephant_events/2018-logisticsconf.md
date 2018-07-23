@@ -62,9 +62,7 @@ overview:
     
 fixed_announcements:
 - recommend_speaker
-- office_hours
 - community_space
-- childcare
 - food_court
 
 hasjob:
