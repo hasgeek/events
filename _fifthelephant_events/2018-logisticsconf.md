@@ -7,7 +7,7 @@ city: Bangalore
 start_time: 2018-11-24
 end_time: 2018-11-24
 description: "The Fifth Elephant is India’s best big data and machine learning conference. It is a conference for practitioners by practitioners."
-boxoffice_item_collection: "99292dc8-53e9-44f1-9b71-127ec986613c"
+boxoffice_item_collection: "84fe117d-5dfd-4032-a607-87373f213732"
 logo:
   image_url: https://images.hasgeek.com/embed/file/9ab895ef4ce24b1cb8f43f8b20619593
 funnel:
