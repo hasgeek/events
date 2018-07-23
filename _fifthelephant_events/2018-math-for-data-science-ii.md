@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Math for Data Science"
+title: "Math for Data Science II"
 subtitle: Deal with math at your role as data science dev by intuitive understanding of the concepts
 datelocation: "10:00 AM to 5:30 PM, 30 July 2018, Bangalore"
 city: Bangalore
