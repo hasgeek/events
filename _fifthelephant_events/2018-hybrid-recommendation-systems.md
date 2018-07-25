@@ -8,11 +8,6 @@ start_time: 2018-07-27
 end_time: 2018-07-27
 description: "Gain an end-to-end view of deep learning-based recommendation and learning-to-rank systems using TensorFlow"
 boxoffice_item_collection: '99292dc8-53e9-44f1-9b71-127ec986613c'
-boxoffice_item_categories:
-  - name: workshop
-    title: Workshop
-    item_ids:
-      - b1430331-57d6-47a3-a958-66b2b5cd027f
       
 instructors:
 - name: Dr. Vijay Srinivas Agneeswaran
