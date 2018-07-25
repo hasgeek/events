@@ -8,12 +8,7 @@ start_time: 2018-07-26
 end_time: 2018-07-26
 description: "Building, training and deploying machine learning models efficiently and at scale"
 boxoffice_item_collection: '99292dc8-53e9-44f1-9b71-127ec986613c'
-boxoffice_item_categories:
-  - name: workshop
-    title: Workshop
-    item_ids:
-      - 03a04830-d88e-48b8-a624-ff660060ccfe
-      
+
 instructors:
 - name: Praveen Jayakumar
   image_url: https://images.hasgeek.com/embed/file/40f4d8bd829f4d978fc778379caf8320
