@@ -1,20 +1,19 @@
 ---
 layout: workshop
-title: "Math for Data Science"
+title: "Math for Data Science II"
 subtitle: Deal with math at your role as data science dev by intuitive understanding of the concepts
-datelocation: "10:00 AM to 5:30 PM, 28 July 2018, IKP Eden, Bangalore"
+datelocation: "10:00 AM to 5:30 PM, 30 July 2018, Bangalore"
 city: Bangalore
-start_time: 2018-07-28
-end_time: 2018-07-28
+start_time: 2018-07-30
+end_time: 2018-07-30
 description: "Deal with math at your role as data science dev by intuitive understanding of the concepts"
 boxoffice_item_collection: '99292dc8-53e9-44f1-9b71-127ec986613c'
 boxoffice_item_categories:
   - name: workshop
     title: Workshop
     item_ids: 
-      - 5caca43a-d5ef-4b21-9214-95e31d1f9e31
       - e9e5e170-0afd-4fed-901c-2a4f7c3b3d0b
-      - e109c84e-b5f4-4813-999c-1bfbe08960db
+      - 5caca43a-d5ef-4b21-9214-95e31d1f9e31
       
   - name: conference 
     title: Conference  
@@ -49,15 +48,6 @@ instructors:
     
     He has been working as a programmer on Data Science projects for the last 6+ years and as a programmer for last 13+ years.
 
-venue:
-  label: IKP Eden, Bangalore
-  address: |
-    IKP EDEN, 16, Bhuvanappa Layout, 
-    Tavarekere Main Rd, Kaveri Layout, 
-    Suddagunte Palya, Bengaluru, Karnataka 560029.
-  lat: 12.934072
-  lng: 77.609869
-  google_maps_url: https://goo.gl/maps/GDgyezM1fz12
 
 overview:
   left_content: |
