@@ -91,6 +91,11 @@ sponsor:
     Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com) for more info.
   sponsorship_deck_url: 'https://hsgk.in/fifthel2018sponsor'
   sponsors:
+  - title: "Bronze Sponsor"
+    size: "l"
+    sponsors:
+    - walmartlabs
+    
   - title: "Community Partner"
     size: "m"
     sponsors:
