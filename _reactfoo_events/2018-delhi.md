@@ -69,6 +69,10 @@ sponsor:
     size: "l"
     sponsors:
     - bigbinary
+  - title: "Bronze Sponsor"
+    size: "l"
+    sponsors:
+    - sapient
 
 blog:
   feed_url: https://medium.com/feed/reactfoo
