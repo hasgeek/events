@@ -73,6 +73,10 @@ sponsor:
     size: "l"
     sponsors:
     - sapient
+  - title: "Community Partners"
+    size: "s"
+    sponsors:
+    - mozilla
 
 blog:
   feed_url: https://medium.com/feed/reactfoo
