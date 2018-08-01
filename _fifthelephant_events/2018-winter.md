@@ -14,6 +14,11 @@ funnel:
   url: "https://fifthelephant.talkfunnel.com/winter-edition-2018/"
   open: true
 
+schedule:
+  url: "https://fifthelephant.talkfunnel.com/winter-edition-2018/schedule"
+  json_url: "https://fifthelephant.talkfunnel.com/winter-edition-2018/schedule/json"
+  type: "conference"
+
 banner: https://images.hasgeek.com/embed/file/64ad91e3789c482ea9f3bb87456545dd
 
 overview:
