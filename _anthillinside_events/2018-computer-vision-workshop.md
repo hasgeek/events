@@ -127,5 +127,11 @@ overview:
     - Real time examples of DL (Demo)
     - How to solve a CV problem by choosing the appropriate technique?
 
-    
+sponsor:
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - greatlearning
+
 ---
