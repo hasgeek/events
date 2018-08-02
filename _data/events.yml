@@ -1105,3 +1105,12 @@
   end_time: 2018-07-31 17:30
   url: https://anthillinside.in/2018-july-dl-bootcamp2/
   blurb: "Getting started with deep learning for image and text."
+
+- name: ethindia-tech-talks
+  title: "ETHIndia Tech Talks + Workshops"
+  city: Bangalore
+  venue: MLR JP Nagar, Bangalore
+  start_time: 2018-08-10 09:00
+  end_time: 2018-08-10 19:30
+  url: https://ethindia.co/
+  blurb: "ETHIndia is all about introducing Indian developers to the Ethereum blockchain ecosystem & giving them the opportunity to meet the people behind this technology."
