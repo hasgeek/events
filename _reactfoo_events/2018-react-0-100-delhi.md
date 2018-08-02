@@ -109,4 +109,10 @@ hasjob:
   url: https://hasjob.co?q=react
   limit: 8
 
+sponsor:
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - wingify
 ---
