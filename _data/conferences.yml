@@ -301,7 +301,7 @@
   url: https://fifthelephant.in/2018-logisticsconf/
   blurb: The Fifth Elephant presents the first edition of Logistics conference.
 
-- name: winter-2018
+- name: fifthelephant-winter-2018
   title: The Fifth Elephant Winter 2018
   city: Mumbai
   venue: TBD
@@ -311,16 +311,6 @@
   url: https://fifthelephant.in/2018-winter/
   blurb: The winter 2018 edition of India's best conference on big data and machine learning.
   
-- name: pune-2019
-  title: JSFoo Pune 2019
-  city: Pune
-  venue: MCCIA Trade tower, Pune
-  start_time: 2019-01-10
-  end_time: 2019-01-10
-  funnel: https://jsfoo.in/2019-pune/
-  url: https://jsfoo.talkfunnel.com/2019-pune/
-  blurb: The second Pune edition of India's premier JavaScript conference.
-
 - name: pune-2019
   title: JSFoo Pune 2019
   city: Pune
