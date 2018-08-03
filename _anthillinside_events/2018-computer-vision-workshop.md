@@ -16,23 +16,6 @@ boxoffice_item_categories:
       - be77a858-cf15-4c9d-b268-3e2071891bcc
       - fc3f2d1c-d106-4fb3-93b7-3c13fcfd8a9f
       - 9f9191ae-3d5f-4115-82d0-5109966eee06
-   
-  - name: conference 
-    title: Conference  
-    item_ids:  
-      - 719d27f8-abc7-41c3-862d-0664d50769fa
-      - a34b8f55-44e5-49b5-85c0-03eb62e17785
-      - 5b1b9d9b-8f20-4530-826b-3c04c3d52d85
- 
-  - name: merchandise  
-    title: Merchandise 
-    item_ids: 
-      - e50ed2ec-54eb-4e48-8783-a74c5dda31f4
- 
-  - name: food-court 
-    title: Food Court  
-    item_ids: 
-      - cb36e286-fb03-4058-9380-579384b7f447
 
 venue:
   label: Great Learning, Bangalore
@@ -127,5 +110,11 @@ overview:
     - Real time examples of DL (Demo)
     - How to solve a CV problem by choosing the appropriate technique?
 
-    
+sponsor:
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - greatlearning
+
 ---
