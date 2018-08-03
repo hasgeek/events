@@ -76,7 +76,7 @@ sponsor:
   - title: "Community Partners"
     size: "s"
     sponsors:
-    - mozilla
+    - mozilla-delhi
 
 blog:
   feed_url: https://medium.com/feed/reactfoo
