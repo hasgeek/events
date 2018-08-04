@@ -2,10 +2,10 @@
 layout: workshop
 title: "Workshop: DL and ML for Computer Vision"
 subtitle: "Get a hands-on experience of using ML / DL for solving computer vision problems"
-datelocation: "09:30 AM to 06:00 PM, 5 Aug 2018, Great Learning Bangalore"
+datelocation: "09:30 AM to 06:00 PM, 6 Oct 2018, Great Learning Bangalore"
 city: Bangalore
-start_time: 2018-08-05
-end_time: 2018-08-05
+start_time: 2018-10-06
+end_time: 2018-10-06
 description: "Get a hands-on experience of using ML / DL for solving computer vision problems"
 boxoffice_item_collection: "26ac0e6c-4a1d-4b13-ae9c-c8bb372dd1b1"
 boxoffice_item_categories:
