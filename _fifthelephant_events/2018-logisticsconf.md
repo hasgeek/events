@@ -40,25 +40,28 @@ overview:
 
     **You should attend and/or speak at the logistics conference if your work involves:**
 
-    * Fleet management
-    * Supply chain management
-    * Urban planning
-    * Transportation
-    * Warehousing
-    * Food delivery
-    * Grocery delivery
-    * Managing, collecting (or crowdsourcing) and updating geo-spatial data
+    * Product development for fleet management.
+    * Operational challenges with respect to fleet management.
+    * Solutions for on demand availability of vehicles to participate in a ridesharing networks.
+    * Data science for fleet management.
+    * Engineering for fleet management
+    * “Shared mobility” – including cab aggregators, car pooling, metros, buses, shuttles, etc
+    * India-specific challenges in traffic management and congestion. 
+    * India-specific challenges with respect to address standardisation.
+    * AI-based solutions in transportation space.
 
-    Logistics conference is not a conference on engineering. It is conference for:
+    Logistics conference is for:
 
     * Product managers
     * Division and business heads
     * Data scientists
-    * Representatives from municipalities
-    * Representatives from urban planning departments
-    * Representatives from transportation departments
+    * Senior Engineers
+    * Techmnical leads
+    * VPs of Engineering
+    * Representatives from municipalities, urban planning and transportation departments
     * Geo-spatial data experts
-    *CEOs and founders of startups working in the space of logistics
+    * CEOs and founders of startups working in the space of logistics, fleet management, e-commerce and retail, and mobility
+    * Technology heads and VPs of companies operating in the logistics space
     
 fixed_announcements:
 - recommend_speaker
