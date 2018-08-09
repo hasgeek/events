@@ -33,9 +33,8 @@ overview:
     1. The landscape (literally), and interesting problems to solve for logistics – be they supply-chain management, warehousing, transportation, delivery of goods and services or fleet management.
     2. Complexities in current technology and processes for collecting, managing and updating geo-spatial data
     3. Areas of collaboration and cooperation between industry, startups and government – including municipalities, urban planning and infrastructure.
-  
-  right_content: |
-
+    
+    
     #### **Target Audience:**
 
     **You should attend and/or speak at the logistics conference if your work involves:**
@@ -49,6 +48,10 @@ overview:
     * India-specific challenges in traffic management and congestion. 
     * India-specific challenges with respect to address standardisation.
     * AI-based solutions in transportation space.
+
+  
+  right_content: |
+
 
     Logistics conference is for:
 
