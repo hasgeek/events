@@ -41,7 +41,7 @@ overview:
 
     ReactFoo Delhi is a single-day event with talks and Birds Of Feather (BOF) sessions.     
 
-    Hands-on workshops for 30-40 participants will be held on next day of the conference. Workshops will be announced shortly. **Tickets have to be purchased separately.**
+    Hands-on workshops for 30-40 participants will be held on next day of the conference. **Tickets have to be purchased separately.**
 
   right_content: |
     ### Who should attend?
