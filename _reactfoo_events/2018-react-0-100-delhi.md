@@ -13,8 +13,8 @@ instructors:
 - name: Kiran Abburi
   image_url: https://images.hasgeek.com/embed/file/634696c3e23b4b11930160bc77dc106f
   website:
-    url: https://github.com/akiran
-    label: Github Page
+    url: https://neostack.com/
+    label: Neostack
   byline: Freelance react developer. Blockchain enthusiast.
   bio: |
     Kiran Abburi is a freelance developer with 6+ years of experience in web development. He primarily works on reactjs, nodejs and GraphQL projects. He is also an organizer of the Reactjs Bangalore meetup group.
