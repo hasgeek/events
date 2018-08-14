@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: React 0 to 100 in a day"
 subtitle: "Learn React and start implementing reusable, interactive and stateful UI components"
-datelocation: "10:o0 AM to 4:00 PM, 25 August 2018, Delhi"
+datelocation: "10:00 AM to 4:00 PM, 25 August 2018, Delhi"
 city: Delhi/NCR
 start_time: 2018-08-25
 end_time: 2018-08-25
