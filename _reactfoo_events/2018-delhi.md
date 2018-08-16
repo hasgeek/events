@@ -73,6 +73,7 @@ sponsor:
     size: "l"
     sponsors:
     - sapient
+    -  srijan
   - title: "Community Partners"
     size: "s"
     sponsors:
