@@ -31,7 +31,7 @@ instructors:
 venue:
   label: Wingify
   address: |
-    Wingify, 14th Floor, KLJ Tower North, Netaji Subash Place, Pitampura, New Delhi, Delhi 110034
+    Wingify, 12th Floor, KLJ Tower North, Netaji Subash Place, Pitampura, New Delhi, Delhi 110034
   lat: 28.6912473
   lng: 77.1509495
   google_maps_url: https://goo.gl/maps/X6dBpgGPMtz
