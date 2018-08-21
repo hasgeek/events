@@ -869,7 +869,7 @@ exadatum:
 sapient:
   title: Sapient
   logo_url: https://images.hasgeek.com/embed/file/90bd41262f7d425fbb29118e0b2ce8b5
-  url: www.publicis.sapient.com
+  url: https://www.publicis.sapient.com
   display_url: www.publicis.sapient.com
   blurb: |
     Publicis.Sapient, the digital business transformation hub of Publicis Groupe, helps clients drive growth and efficiency and evolve the ways they work, in a world where consumer behavior and technology are catalyzing social and commercial change at an unprecedented pace. With 19,000 people and over 100 offices around the globe, our expertise spanning technology, data sciences, consulting and creative combined with our culture of innovation enables us to deliver on complex transformation initiatives that accelerate our clients’ businesses through creating the products and services their customers expect. For more information, visit [www.publicis.sapient.com](www.publicis.sapient.com).
@@ -971,5 +971,15 @@ atlassian:
      With a customer list that reads like a who's who in tech, and a highly disruptive business model, we’re advancing the art of team collaboration with products like Jira, Confluence, Bitbucket, Trello, and now Stride. 
      Driven by honest values, an amazing culture, and consistent revenue growth, we’re out to unleash the potential of every team. From Amsterdam and Austin to Sydney and Bangalore to San Francisco, we’re looking for people who are powered by passion and eager to do the best work of their lives in a highly autonomous yet collaborative, no B.S. environment.
      
-     
-     
+srijan:
+  title: SRIJAN
+  logo_url: https://images.hasgeek.com/embed/file/f2104b0870c4461abd8276a6b8b3b271
+  url: https://www.srijan.net/
+  display_url: www.srijan.net
+  blurb: |
+      [Srijan](https://www.srijan.net/) is a global leader in open source technologies with Asia's largest team in Drupal and JavaScript. 
+
+      Headquartered in New Delhi, the company has delivery centers in Goa, Gurugram, Bangalore, Manila; and also has presence in the USA, UK, Singapore, New Zealand, Malaysia, Japan, Germany, and Australia. Srijan works with Fortune 500 clients and large enterprises in travel, media, BFSI and retail. 
+      With continuous innovation and open culture at our core, Srijan has a transparent work culture where salaries and yearly profits are known to all employees. A strong support structure ensures active guidance, mentoring and coaching from peers. Team members are encouraged to invest in self-learning to become T-shaped well-rounded people. Srijan has been recognized among world's Most Democratic Workplaces by WorldBlu.
+      
+      [View open job opportunities at Srijan.](https://srijantech.recruiterbox.com/)
