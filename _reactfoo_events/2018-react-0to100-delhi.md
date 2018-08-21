@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: React 0 to 100 in a day"
 subtitle: "Learn React and start implementing reusable, interactive and stateful UI components"
-datelocation: "10:00 AM to 2:00 PM, 25 August 2018, Delhi"
+datelocation: "10:00 AM to 2:00 PM, 25 August 2018, Wingify, Delhi"
 city: Delhi/NCR
 start_time: 2018-08-25
 end_time: 2018-08-25
@@ -20,6 +20,15 @@ instructors:
   bio: |
     Siddharth Kshetrapal builds design systems for Auth0 (ex frontend architect at Practo). He is a regular speaker at javascript conferences (JSChannel, Reactfoo, CodeEurope, ReactFest London). He also co-organises React Bangalore.
 
+venue:
+  label: Wingify
+  address: |
+    Wingify, 12th Floor, KLJ Tower North, Netaji Subash Place, Pitampura, New Delhi, Delhi 110034
+  lat: 28.6912473
+  lng: 77.1509495
+  google_maps_url: https://goo.gl/maps/X6dBpgGPMtz
+
+
 overview:
   left_content: |
 
@@ -31,7 +40,7 @@ overview:
     
     # Who is this workshop for?
 
-    This workshop is for developers who have an understanding of javascript, looking to get started with React or moving from a different framework like angular, ember, etc.
+    This workshop is for developers who have an understanding of javascript, looking to get started with React or moving from a different framework like ANGULAR, EMBER, etc.
 
     # Requirements
 
@@ -79,5 +88,12 @@ blog:
 hasjob:
   url: https://hasjob.co?q=react
   limit: 8
+
+sponsor:
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - wingify
 
 ---
