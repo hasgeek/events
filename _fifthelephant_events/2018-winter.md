@@ -1,7 +1,7 @@
 ---
 layout: event
 title: The Fifth Elephant Winter 2018
-subtitle: "The winter 2018 edition of India's best conference on big data and machine learning"
+subtitle: "The winter edition of India's most renowned conference on big data and data science"
 datelocation: "7 December 2018, Mumbai"
 city: Mumbai
 start_time: 2018-12-07
@@ -26,39 +26,41 @@ overview:
 
     The Fifth Elephant is rated as India’s best conference on big data, data science and application of data to real-life use cases.
 
-    It is a conference for practitioners, by practitioners. In 2018, The Fifth Elephant completed its seventh edition in Bangalore, on 26 and 27 July 2018. The Bangalore edition caters to data and ML engineers, architects, technologists, data scientists, product managers, researchers and business decision-makers.
+    It is a conference for practitioners, by practitioners. The Fifth Elephant completed its seventh edition in Bangalore, on 26 and 27 July 2018. The Bangalore edition caters to data and ML engineers, architects, technologists, data scientists, product managers, researchers and business decision-makers. 
 
-    The first edition of The Fifth Elephant winter edition will be held in Mumbai on 8 December. The conference venue will be announced by 10 August.
+    The Winter edition of The Fifth Elephant will be held in Mumbai on 7 December. The conference venue will be announced shortly. 
 
     ### Theme of the winter edition, and topics for submitting talks:
 
-    The winter edition will primarily cater to the following domains:
+    The winter edition will cover the following topics:
 
-    1. Media
-    2. Payments
-    3. Finance
-    4. Consumer internet companies
+    1. Data engineering.
+    2. Data governance including data quality, version control and trust in data, and workflows in organizations. 
+    3. Leveraging data for business use cases -- case studies of how and why analytics and data science were applied in organizations.
+    4. Optimizing analytics with innovations and tooling for enabling super users of data in organizations and for business teams. 
+    5. Inculcating analytical thinking in teams and organizations.
 
-    We work with our speakers to help participants from other domains understand and apply insights presented to their use cases. Therefore, individuals and companies from other domains should consider attending the winter edition.
+    We are seeking talks from media, finance, payments and consumer internet companies to submit proposals for the winter edition. 
 
   right_content: |
 
-    The winter edition will primarily focus on the following topics:
+    The winter edition will cover the following topics:
 
-    1. How analytics is performed and optimised in media, finance, payments and consumer internet companies.
-    2. Data governance issues, including data quality, version control and trust in data, and workflows in organizations.
-    3. Inculcating analytical thinking in teams and organizations.
-    4. Innovations and tooling for enabling super users of data in organizations and for business teams.
+    1. Data engineering.
+    2. Data governance including data quality, version control and trust in data, and workflows in organizations. 
+    3. Leveraging data for business use cases -- case studies of how and why analytics and data science were applied in organizations.
+    4. Optimizing analytics with innovations and tooling for enabling super users of data in organizations and for business teams. 
+    5. Inculcating analytical thinking in teams and organizations.
 
     ### Target audience - who should attend and speak at The Fifth Elephant:
 
-    You should attend and speak at The Fifth Elephant if your work involves:
+    You should attend and/or speak at The Fifth Elephant if your work involves:
 
-    1. Analytics.
-    2. Building dashboards for analytics.
-    3. Product development - analyzing data to build features for existing products.
-    4. Decision science.
-    5. Cleaning data and ensuring better data quality.
+    1. Engineering -- ML engineering, data engineering, data-ops
+    2. Analytics.
+    3. Data science.
+    4. Product development - analyzing data to build features for existing products.
+    5. Cleaning data and ensuring better data quality. 
 
 related_events:
 - fifthelephant-2018-logisticsconf
