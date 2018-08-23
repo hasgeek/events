@@ -2,10 +2,10 @@
 layout: event
 title: The Fifth Elephant Winter 2018
 subtitle: "The winter 2018 edition of India's best conference on big data and machine learning"
-datelocation: "8 December 2018, Mumbai"
+datelocation: "7 December 2018, Mumbai"
 city: Mumbai
-start_time: 2018-12-08
-end_time: 2018-12-08
+start_time: 2018-12-07
+end_time: 2018-12-07
 description: "The Fifth Elephant is India’s best big data and machine learning conference. It is a conference for practitioners by practitioners."
 boxoffice_item_collection: "fa00e268-fa4c-4659-9773-03407bf9995a"
 logo:
