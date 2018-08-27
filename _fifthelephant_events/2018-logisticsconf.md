@@ -59,7 +59,7 @@ overview:
     * Division and business heads
     * Data scientists
     * Senior Engineers
-    * Techmnical leads
+    * Technical leads
     * VPs of Engineering
     * Representatives from municipalities, urban planning and transportation departments
     * Geo-spatial data experts
