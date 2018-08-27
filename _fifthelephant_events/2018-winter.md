@@ -2,7 +2,7 @@
 layout: event
 title: The Fifth Elephant Winter 2018
 subtitle: "The winter edition of India's most renowned conference on big data and data science"
-datelocation: "7 December 2018, 18.99 Latitude Banquets, Mumbai."
+datelocation: "7 December 2018, 18.99 Latitude, Lower Parel, Mumbai."
 city: Mumbai
 start_time: 2018-12-07
 end_time: 2018-12-07
@@ -22,7 +22,7 @@ schedule:
 banner: https://images.hasgeek.com/embed/file/64ad91e3789c482ea9f3bb87456545dd
 
 venue:
-  label: 18.99 Latitude Banquets, Mumbai.
+  label: 18.99 Latitude, Lower Parel, Mumbai.
   address: |
     18.99 Latitude Banquets, GN 4, 4th Flr, Trade View Bldg Oasis complex, Kamala Mills, Lower Parel, Mumbai - 400013.
   lat: 19.005650
