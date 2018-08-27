@@ -74,33 +74,20 @@ related_events:
 - fifthelephant-2018-logisticsconf
 
 photo_album:
-  title: "Highlights from The Fifth Elephant 2017"
+  title: "Highlights from The Fifth Elephant 2018"
   photos:
-  - url: https://images.hasgeek.com/embed/file/885a118b4e2a420dab7b7c4f2a918d23?size=640x480
-  - url: https://images.hasgeek.com/embed/file/dbeb0465cc284ec6a795293a74953538?size=640x480
-  - url: https://images.hasgeek.com/embed/file/55cc823053704e02af73fd4b72cf3790?size=640x480
-  - url: https://images.hasgeek.com/embed/file/85a6993aa09943c982e39dc6ebcc2502?size=640x480
-  - url: https://images.hasgeek.com/embed/file/0ead0af0a9c74e789c3e38136ef7c1d8?size=640x480
-  - url: https://images.hasgeek.com/embed/file/bc048d47f5404b958b2b1167ddf0ffc4?size=640x480
-  - url: https://images.hasgeek.com/embed/file/b9320288425845d198f89582a02b3d9e?size=640x480
-  - url: https://images.hasgeek.com/embed/file/14b70702f7da470686db7ff9afc7309c?size=640x480
-  - url: https://images.hasgeek.com/embed/file/6a57d8f200074b8b9cd740704d98779f?size=640x480
-  - url: https://images.hasgeek.com/embed/file/ed50e4806d9b4b2c8216bae08486d782?size=640x480
-  - url: https://images.hasgeek.com/embed/file/f9bcf210a0604d73936bf207ee22e178?size=640x480
-  - url: https://images.hasgeek.com/embed/file/7e9db42ac6df49c6b61642118426a099?size=640x480
-  - url: https://images.hasgeek.com/embed/file/3f865520a3f846d6ac3b36e57d778e9c?size=640x480
-  - url: https://images.hasgeek.com/embed/file/79bffdcc293c490da61360e4aed8507c?size=640x480
-  - url: https://images.hasgeek.com/embed/file/d43e81668be8442cae1a536f738eaa52?size=640x480
-  - url: https://images.hasgeek.com/embed/file/944ca181a87249c7a4539c01c48a74a4?size=640x480
-  - url: https://images.hasgeek.com/embed/file/691b5c9fdf704918a35cb9b8b0995b6c?size=640x480
-  - url: https://images.hasgeek.com/embed/file/13111611326448dabae968f4098b62ea?size=640x480
-  - url: https://images.hasgeek.com/embed/file/23179ab8c7824af3af3adb449532473e?size=640x480
-  - url: https://images.hasgeek.com/embed/file/3c6e2e1c19474a5cb5a67028607ff2b3?size=640x480
-  - url: https://images.hasgeek.com/embed/file/d94082429eec4c5a9122f72e8f3988bf?size=640x480
-  - url: https://images.hasgeek.com/embed/file/49d2f041f51b455da2a82a8862efbb5c?size=640x480
+  - url: https://images.hasgeek.com/embed/file/84ea401cab1c4bda9832ab4a8b499c55?size=640x480
+  - url: https://images.hasgeek.com/embed/file/b88162c0c36644e2b199b9c3fc4964ea?size=640x480
+  - url: https://images.hasgeek.com/embed/file/98f86ef400f5492ba5a5aab8fc2446d5?size=640x480
+  - url: https://images.hasgeek.com/embed/file/da27fe5cfef344fcae58c2ae030d634a?size=640x480
+  - url: https://images.hasgeek.com/embed/file/76d198a4aa8c47399a051ce0115eb05f?size=640x480
+  - url: https://images.hasgeek.com/embed/file/921360aec8e04a539917f7ae9ad0b429?size=640x480
+  - url: https://images.hasgeek.com/embed/file/1f97a81b80b5471e848844367f3056ce?size=640x480
+  - url: https://images.hasgeek.com/embed/file/b1e63a0606b94fd0b272bf262812d642?size=640x480
+
 youtube_url:
     title: "Most Popular Video from The Fifth Elephant 2017"
-    youtube_embed: "https://www.youtube.com/embed/6vNJOHDE15g"
+    youtube_embed: "https://www.youtube.com/embed/H4BxdPcd-58"
 
 hasjob:
   url: https://fifthelephant.hasjob.co
