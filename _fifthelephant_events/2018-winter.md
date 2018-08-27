@@ -52,14 +52,8 @@ overview:
 
   right_content: |
 
-    The winter edition will cover the following topics:
-
-    1. Data engineering.
-    2. Data governance including data quality, version control and trust in data, and workflows in organizations. 
-    3. Leveraging data for business use cases -- case studies of how and why analytics and data science were applied in organizations.
-    4. Optimizing analytics with innovations and tooling for enabling super users of data in organizations and for business teams. 
-    5. Inculcating analytical thinking in teams and organizations.
-
+    We are seeking talks from media, finance, payments and consumer internet companies to submit proposals for the winter edition. 
+    
     ### Target audience - who should attend and speak at The Fifth Elephant:
 
     You should attend and/or speak at The Fifth Elephant if your work involves:
