@@ -1,3 +1,12 @@
+- name: CTOTalk by OrangeScape
+  title: CTOTalk with Snapdeal's Prashant Parashar
+  city:  Chennai
+  venue: OrangeScape, Tidel Park, Chennai
+  start_time: 2018-09-22 10:30
+  end_time: 2018-09-22 13:00
+  url: https://in.explara.com/e/ctotalk-with-prashant-prashar
+  blurb: Hosting Guest Speaker Prashant Parashar from Snapdeal (Ex-CTO Zomato) for a talk on "Rapid Product Experimentation at Scale: The Tech Underneath". CTOTalk sessions are intended to provide deep insights into different applications of technology, for senior architects and tech leaders.
+
 - name: PySangamam 2018
   title: PySangamam 2018
   city: Chennai
