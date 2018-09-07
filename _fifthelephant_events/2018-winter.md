@@ -1,11 +1,11 @@
 ---
 layout: event
-title: The Fifth Elephant Winter 2018
+title: The Fifth Elephant Winter 2019
 subtitle: "The winter edition of India's most renowned conference on big data and data science"
-datelocation: "7 December 2018, 18.99 Latitude, Lower Parel, Mumbai."
+datelocation: "18 January 2019, TBA, Mumbai."
 city: Mumbai
-start_time: 2018-12-07
-end_time: 2018-12-07
+start_time: 2019-01-18
+end_time: 2019-01-19
 description: "The Fifth Elephant is India’s best big data and machine learning conference. It is a conference for practitioners by practitioners."
 boxoffice_item_collection: "fa00e268-fa4c-4659-9773-03407bf9995a"
 logo:
@@ -21,14 +21,6 @@ schedule:
 
 banner: https://images.hasgeek.com/embed/file/64ad91e3789c482ea9f3bb87456545dd
 
-venue:
-  label: 18.99 Latitude, Lower Parel, Mumbai.
-  address: |
-    18.99 Latitude Banquets, GN 4, 4th Flr, Trade View Bldg Oasis complex, Kamala Mills, Lower Parel, Mumbai - 400013.
-  lat: 19.005650
-  lng: 72.826992
-  google_maps_url: https://goo.gl/maps/9ZtHJV5PP6L2
-
 overview:
   left_content: |
 
@@ -36,7 +28,7 @@ overview:
 
     It is a conference for practitioners, by practitioners. The Fifth Elephant completed its seventh edition in Bangalore, on 26 and 27 July 2018. The Bangalore edition caters to data and ML engineers, architects, technologists, data scientists, product managers, researchers and business decision-makers. 
 
-    The Winter edition of The Fifth Elephant will be held in Mumbai on 7 December. The conference venue will be announced shortly. 
+    The Winter edition of The Fifth Elephant will be held in Mumbai on 18 January. The conference venue will be announced shortly. 
 
     ### Theme of the winter edition, and topics for submitting talks:
 
