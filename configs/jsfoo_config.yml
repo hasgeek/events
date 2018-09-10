@@ -45,7 +45,7 @@ liquid:
 feednami_api_key: 11b960d3a621040da933072084fa65905899a9a7a62654c5a13e5ac0b65cca68
 
 collections:
-  jsfoo_events:
+  metarefresh_events:
     type: event
     output: true
     permalink: /:path/
