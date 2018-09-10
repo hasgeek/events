@@ -43,7 +43,7 @@ liquid:
   error_mode: strict
 
 collections:
-  metarefresh_events:
+  jsfoo_events:
     type: event
     output: true
     permalink: /:path/
