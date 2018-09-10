@@ -49,3 +49,8 @@ collections:
     type: event
     output: true
     permalink: /:path/
+  metarefresh_events:
+    type: event
+    output: true
+    permalink: /metarefresh/:path/
+
