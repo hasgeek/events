@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: Secure web development"
 subtitle: "Learn secure web development using Damn Vulnerable NodeJS Application"
-datelocation: "9:00 AM to 5:00 PM, 10 – 11 November 2018, Bangalore"
+datelocation: "9:00 AM to 5:00 PM, 28 October 2018, Bangalore"
 city: Bangalore
 start_time: 2018-10-28
 end_time: 2018-10-28
