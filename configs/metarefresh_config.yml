@@ -1,4 +1,4 @@
-title: Meta Refresh
+title: Meta Refresh + JSFoo 2018
 subtitle: "A community and conference on the construction of user experience on the web"
 description: "A community and conference on the construction of user experience on the web."
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -47,3 +47,7 @@ collections:
     type: event
     output: true
     permalink: /:path/
+  jsfoo_events:
+    type: event
+    output: true
+    permalink: /jsfoo/:path/
