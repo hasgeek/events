@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Workshop: Kubernetes Pune"
+title: "Workshop: Kubernetes Mumbai"
 subtitle: "Upskill with basics to advance topics of Kubernetes."
 datelocation: " 9:30 AM to 5:30 PM, 17 November 2018, Mumbai "
 city: Bangalore
