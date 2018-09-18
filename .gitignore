@@ -6,3 +6,5 @@ node_modules
 .DS_Store
 .bundle
 vendor
+Gemfile.lock
+Gemfile.lock
