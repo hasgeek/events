@@ -1132,3 +1132,12 @@
   end_time: 2018-08-25 14:00
   url: https://reactfoo.in/2018-react-0to100-delhi/
   blurb: "Learn React and start implementing reusable interactive and stateful UI components"
+
+- name: dl-ml-computer-vision
+  title: "Workshop: DL and ML for Computer vision"
+  city: Bangalore
+  venue: Great Learning, Bangalore
+  start_time: 2018-10-13 9:30
+  end_time: 2018-10-14 18:00
+  url: https://anthillinside.in/2018-computer-vision-workshop/
+  blurb: "Get a hands-on experience of using ML/DL for solving Computer Vision problems."
