@@ -11,7 +11,7 @@ boxoffice_item_collection: "fa00e268-fa4c-4659-9773-03407bf9995a"
 logo:
   image_url: https://images.hasgeek.com/embed/file/9ab895ef4ce24b1cb8f43f8b20619593
 funnel:
-  url: "https://fifthelephant.talkfunnel.com/winter-edition-2018/"
+  url: "https://fifthelephant.talkfunnel.com/winter-edition-2019/"
   open: true
 
 schedule:
