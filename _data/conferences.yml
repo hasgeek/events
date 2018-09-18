@@ -288,7 +288,7 @@
   end_time: 2019-03-02
   funnel: https://reactfoo.talkfunnel.com/2019/
   url: https://reactfoo.in/2019/
-  blurb: A conference on the lessons learned while implememting React and React Native.
+  blurb: A conference on the lessons learned while implementing React and React Native.
   
 - name: logistics-2018
   title: Logistics Conference 2018
@@ -320,3 +320,14 @@
   funnel: https://jsfoo.talkfunnel.com/2019-pune/
   url: https://jsfoo.in/2019-pune/
   blurb: The second Pune edition of India's premier JavaScript conference.
+  
+- name: fragments-2019
+  title: Fragments 2019
+  city: Bangalore
+  venue: NIMHANS Convention Center
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2019-03-01
+  end_time: 2019-03-02
+  funnel: https://fragments.talkfunnel.com/2019/
+  url: https://fragments.in/2019/
+  blurb: On future of the Mobile Developement.  
