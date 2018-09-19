@@ -429,8 +429,8 @@ hasura:
   url: https://hasura.io/
   display_url: www.hasura.io
   blurb: |
-     Hasura is a platform for developers to build powerful applications fast. Hasura comes powered with APIs for data, auth, files on Postgres and a git push to deploy set up for custom APIs.
-     The  quickstarts on Hasura Hub are one of the fastest ways to get up and running with a stack of your choice (in under 5 minutes). These quickstarts are wired up stacks - for instance the React project comes wired up backend APIs (for data, auth, and files) and a node-express microservice for custom APIs, on a Kubernetes & docker substrate.
+     The Hasura GraphQL Engine is a blazing-fast, open-source GraphQL server that gives you realtime GraphQL APIs over Postgres, with webhook triggers on database events for asynchronous business logic. 
+     Hasura helps you build GraphQL apps backed by Postgres or incrementally move to GraphQL for existing applications using Postgres.
 
 medianama:
   title: "Medianama"
