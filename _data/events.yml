@@ -1137,7 +1137,7 @@
   title: "Workshop: DL and ML for Computer vision"
   city: Bangalore
   venue: Great Learning, Bangalore
-  start_time: 2018-10-13 9:30
+  start_time: 2018-10-13 09:30
   end_time: 2018-10-14 18:00
   url: https://anthillinside.in/2018-computer-vision-workshop/
   blurb: "Get a hands-on experience of using ML/DL for solving Computer Vision problems."
@@ -1146,7 +1146,7 @@
   title: "Workshop: Kubernetes Pune"
   city: Pune
   venue: Pune
-  start_time: 2018-10-06 9:30
+  start_time: 2018-10-06 09:30
   end_time: 2018-10-06 17:30
   url: https://rootconf.in/2018-kubernetes-pune/
   blurb: "Upskill with basics to advance topics of Kubernetes."
@@ -1155,7 +1155,7 @@
   title: "Workshop: Kubernetes Pune"
   city: Mumbai
   venue: Mumbai
-  start_time: 2018-11-17 9:30
+  start_time: 2018-11-17 09:30
   end_time: 2018-11-17 17:30
   url: https://rootconf.in/2018-kubernetes-mumbai/
   blurb: "Upskill with basics to advance topics of Kubernetes."
@@ -1164,7 +1164,7 @@
   title: "Workshop: Pace up with Vue"
   city: Bangalore
   venue: TBD, Bangalore
-  start_time: 2018-10-28 9:00
+  start_time: 2018-10-28 09:00
   end_time: 2018-10-28 17:00
   url: https://jsfoo.in/2018-paceup-with-vue/
   blurb: "Pace up to develop elegant, debuggable, maintainable, and organized applications"
@@ -1173,7 +1173,7 @@
   title: "Workshop: Secure web development"
   city: Bangalore
   venue: TBD, Bangalore
-  start_time: 2018-10-28 9:00
+  start_time: 2018-10-28 09:00
   end_time: 2018-10-28 17:00
   url: https://jsfoo.in/2018-secure-web-development/
   blurb: "Learn secure web development using Damn Vulnerable NodeJS Application"
@@ -1182,7 +1182,7 @@
   title: "Bootcamp: GraphQL & Apollo"
   city: Bangalore
   venue: TBD, Bangalore
-  start_time: 2018-11-10 9:00
+  start_time: 2018-11-10 09:00
   end_time: 2018-11-11 17:00
   url: https://jsfoo.in/2018-graphql-apollo/
   blurb: "Learn all about building API servers with GrapQL, and connect complex apps to GraphQL servers using Apollo"
