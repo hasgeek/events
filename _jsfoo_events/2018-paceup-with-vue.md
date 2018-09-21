@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Workshop: Pace up with VUE"
+title: "Workshop: Pace up with Vue"
 subtitle: "Pace up to develop elegant, debuggable, maintainable, and organized applications"
 datelocation: "9:00 AM to 5:00 PM, 28 October 2018, Bangalore"
 city: Bangalore
