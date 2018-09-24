@@ -25,18 +25,19 @@ instructors:
 overview:
   left_content: |
 
-    Developing a web application is now easier than ever! Between counteless tutorials and results for "How to do X in Node.js", security is lost. In this workshop we will cover the OWASP Top 10 vulnerabilities, fixes and how to avoid them.
+    Web Application security is a must have requirement for any organisation with business critical web applications deployed internally or external to the organisation. The number of application security related incidents reported by even large organisations in the recent past have confirmed the urgency to ensure that application security is handled as an important requirement for business continuity.
 
-    We will use Damn Vulnerable NodeJS Application (DVNA), an intentionally vulnerable application built to learn security.
+    Developing web applications is now easier than ever! Between countless tutorials and results for “How to do X in Node.js”, developers often miss out on security. In this workshop we will exploit OWASP Top 10 vulnerabilities in Damn Vulnerable NodeJS Application and gain hands-on experience in fixing them.
+
 
     # Who should attend this workshop?
 
-    Developers who want to build secure web applications
+    Developers who want to build secure web applications.
 
     # Pre-requisites
 
-    - Laptop with wifi connectivity
-    - Expreience with NodeJS development
+    - Laptop with Wifi connectivity
+    - Exprerience with NodeJS development
 
   right_content: |
     
@@ -44,14 +45,14 @@ overview:
 
     Plan for the workshop
 
-    - Hands-on exploiting vulnerabilities in DVNA
+    - Hands-on exploitation of vulnerabilities in DVNA
     - Understanding the cause of vulnerabilities
-    - Hands-on practice on fixing vulnerabilities
+    - Hands-on fixing of vulnerabilities in DVNA
     - Discussing recommendations and mitigations
 
     The following vulnerabilities will be covered
 
-    - SQL and command Injection
+    - SQL and Command Injection
     - Broken Authentication
     - Sensitive Data Exposure
     - XML External Entities
