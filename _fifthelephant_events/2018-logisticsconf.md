@@ -101,7 +101,12 @@ sponsor:
     size: "l"
     sponsors:
     - walmartlabs
-    
+
+  - title: "Exhibition Sponsor"
+    size: "l"
+    sponsors:
+    - e2enetworks
+
   - title: "Community Partner"
     size: "m"
     sponsors:
