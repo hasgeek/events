@@ -3,26 +3,50 @@
   <h3 class="title">Featured Talks</h3>
   <br>
 </div>
-<div class="columns">
+<div class="columns is-mobile is-desktop">
   {% if include.instructors %}
   {% assign speakers = include.instructors %}
   {% else %}
-  {% assign speakers = include.speakers %}
+  {% assign speakers = include.speakers | where:'featured', 'true' %}
   {% endif %}
   {% for speaker in speakers %}
-  <div class="column is-3">
-      <article class="tile is-child notification">
-      {% if speaker.image_url %}
-        <figure class="image is-4by4">
-          <img src="{{ speaker.image_url }}" height="200px">
-        </figure>
-         {% endif %}
-        <br>
-        <h1 class="title is-4"><strong><a href="{{ speaker.funnel_url }}" target="_blank" class="click link-unstyled" data-label="view {{ speaker.talk_title }}">{{ speaker.talk_title }}</a></strong></h1>
-        <p class=""><span><strong>{{ speaker.name }}</strong></span> | <span>{{ speaker.designation }}</span></p>
-      </article>
+  <div class="column is-three-quarters-mobile is-one-third-desktop">
+    <a href="{{ speaker.funnel_url }}" target="_blank">
+    <div class="card is-clickable">
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            {% if speaker.image_url %}
+            <figure class="image is-64x64">
+              <img src="{{ speaker.image_url }}" alt="Placeholder image">
+            </figure>
+            {% endif %}
+          </div>
+          <div class="media-content">
+            <p class="subtitle" style="font-size: 10px; color: #906b37; font-weight: 700; padding-bottom: 8px;">FEATURED</p>
+            <p class="title is-6">{{ speaker.name }}</p>
+            <p class="subtitle is-6">{{ speaker.designation }}</p>
+          </div>
+        </div>
+
+        <div>
+        <h1></h1>
+          <strong class="title is-4">
+            {{ speaker.talk_title }}.
+          </strong>
+          <br>
+        </div>
+        <div>
+
+        </div>
+      </div>
+    </div>
+     </a>
   </div>
   {% endfor %}
 </div>
+
+
+
 
 

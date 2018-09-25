@@ -59,6 +59,11 @@ datelocation_schema = {
     'required': True
 }
 
+all_speakers_schema = {
+    'type': 'boolean',
+    'required': False
+}
+
 featured_speakers_schema = {
     'funnel_url': {
         'validator': valid_external_url,
@@ -94,6 +99,10 @@ featured_speakers_schema = {
         'type': 'string',
         'required': False
     },
+    'featured': {
+        'type': 'boolean',
+        'required': False
+    }
 }
 
 proposed_speakers_schema = {
@@ -554,6 +563,11 @@ event_schema = {
     },
 
     'featured': {
+        'type': 'boolean',
+        'required': False
+    },
+
+    'all_speakers': {
         'type': 'boolean',
         'required': False
     },
