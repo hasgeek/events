@@ -43,9 +43,7 @@ overview:
     We are seeking talks from media, finance, payments and consumer internet companies to submit proposals for the winter edition. 
 
   right_content: |
-
-    We are seeking talks from media, finance, payments and consumer internet companies to submit proposals for the winter edition. 
-    
+  
     ### Target audience - who should attend and speak at The Fifth Elephant:
 
     You should attend and/or speak at The Fifth Elephant if your work involves:
