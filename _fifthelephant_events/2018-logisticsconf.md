@@ -12,7 +12,11 @@ logo:
   image_url: https://images.hasgeek.com/embed/file/9ab895ef4ce24b1cb8f43f8b20619593
 funnel:
   url: "https://fifthelephant.talkfunnel.com/logistics-conf-2018/"
-  open: true
+  open: false
+schedule:
+  url: "https://fifthelephant.talkfunnel.com/logistics-conf-2018/schedule"
+  json_url: "https://fifthelephant.talkfunnel.com/logistics-conf-2018/schedule/json"
+  type: "conference"  
 featured: false
 featured_image: https://images.hasgeek.com/embed/file/2b3078dd886749548b41bf143f5dde75
 banner: https://images.hasgeek.com/embed/file/64ad91e3789c482ea9f3bb87456545dd
