@@ -47,7 +47,7 @@ instructors:
 
 overview:
   left_content: |
-    
+ 
     #### Abstract 
     The human body is one of the most complex machines on Earth. We are fascinated by how the Human Visual System works. How as a human, we see the world, store the visual information and learn from what we see and recognize patterns from previous experiences. The goal of the workshop is to help build an understanding of how to solve real world problems using Computer Vision with examples. We start from biological motivations for Computer Vision, developing intuitions to solve problems, converting the intuitions into the language of mathematics and finally developing code that represents the mathematics. With the help of Machine Learning and Deep learning, we are able to attain state-of-art performance in many Computer Vision Problems. The workshop is meant for those who want to get a hands-on experience of using ML / DL for solving Computer Vision problems.
     
@@ -60,7 +60,6 @@ overview:
     - Day 1: Or those with exposure to ML / DL and new to ML / DL in Computer Vision
 
     - Day 2: Experienced with Computer Vision, Machine Learning and Deep Learning or have attended Day 1. Want to know more 3D Vision and wants to learn how to do Disciplined Machine Learning.
-
 
     #### Prerequisites
 
