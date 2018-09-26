@@ -2,13 +2,12 @@
 layout: workshop
 title: "Workshop: Kubernetes Mumbai"
 subtitle: "Upskill with basics to advance topics of Kubernetes."
-datelocation: " 9:30 AM to 5:30 PM, 17 November 2018, Mumbai "
+datelocation: " 9:30 AM to 5:30 PM, 17 November 2018, Endurance International, Mumbai "
 city: Bangalore
 start_time: 2018-11-17
 end_time: 2018-11-17
 description: "In 2017, Kubernetes had emerged as default choice of Container Orchestration. The workshop will cover basics of Kubernetes with a hands on lab covering deployment of a simple application on Kubernetes. "
 boxoffice_item_collection: "09dc7636-e781-48b2-bd1b-3f850b46b137"
-
 
 
 instructors:
@@ -21,6 +20,16 @@ instructors:
   bio: |
     Vishal is an engineer focused on programmable & scalable infrastructure in his earlier roles and latest as a CTO at Infracloud Technologies. He is a contributor to Fission - Serverless functions for Kubernetes, organizes “Pune Kubernetes & CNCF Meetup” and “Pune Serverless Meetup” every month and is a Google Developer expert. Oh and he likes books, cycle and natural/urban landscapes.
 
+venue:
+  label: Endurance International Group, Mumbai
+  lat: 19.152355
+  lng: 72.855768
+  address: |
+    Endurance International group of companies,
+    Unit no 5, 501, 5th floor, IT building 3, NESCO IT Park, 
+    Nesco complex, Western express highway, 
+    Goregoan (East), Mumbai - 400063
+  google_maps_url: https://goo.gl/maps/rS7J76NE5Ny
 
 overview:
   left_content: |
@@ -79,4 +88,15 @@ overview:
     - Where to go from here (10 minutes)
 
         - References, links, DIY workshops etc. 
+
+sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, sales and hiring.
+
+    Write to us for the sponsorship deck or for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - endurance
 ---
