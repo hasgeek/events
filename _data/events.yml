@@ -1145,16 +1145,16 @@
 - name: kubernetes-workshop-pune
   title: "Workshop: Kubernetes Pune"
   city: Pune
-  venue: Pune
+  venue: Wingify, Pune
   start_time: 2018-10-06 09:30
   end_time: 2018-10-06 17:30
   url: https://rootconf.in/2018-kubernetes-pune/
   blurb: "Upskill with basics to advance topics of Kubernetes."
 
 - name: kubernetes-workshop-mumbai
-  title: "Workshop: Kubernetes Pune"
+  title: "Workshop: Kubernetes Mumbai"
   city: Mumbai
-  venue: Mumbai
+  venue: Endurance International, Mumbai
   start_time: 2018-11-17 09:30
   end_time: 2018-11-17 17:30
   url: https://rootconf.in/2018-kubernetes-mumbai/
