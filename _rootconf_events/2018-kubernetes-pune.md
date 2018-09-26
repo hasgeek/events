@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: Kubernetes Pune"
 subtitle: "Upskill with basics to advance topics of Kubernetes."
-datelocation: " 9:30 AM to 5:30 PM, 6 October 2018, Pune "
+datelocation: " 9:30 AM to 5:30 PM, 6 October 2018, Wingify, Pune "
 city: Bangalore
 start_time: 2018-10-06
 end_time: 2018-10-06
@@ -20,6 +20,16 @@ instructors:
   byline: CTO, Infracloud technologies
   bio: |
     Vishal is an engineer focused on programmable & scalable infrastructure in his earlier roles and latest as a CTO at Infracloud Technologies. He is a contributor to Fission - Serverless functions for Kubernetes, organizes “Pune Kubernetes & CNCF Meetup” and “Pune Serverless Meetup” every month and is a Google Developer expert. Oh and he likes books, cycle and natural/urban landscapes.
+
+venue:
+  label: Wingify, Pune
+  lat: 18.530485
+  lng: 73.913642
+  address: |
+    Wingify,
+    402, 4th Floor, Zero One Building, 
+    Near Passport office, Mundhwa Road, Pune 411036
+  google_maps_url: https://goo.gl/maps/AHwjAxxytKE2
 
 
 overview:
@@ -79,4 +89,16 @@ overview:
     - Where to go from here (10 minutes)
 
         - References, links, DIY workshops etc. 
+
+sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, sales and hiring.
+
+    Write to us for the sponsorship deck or for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - wingify
+
 ---
