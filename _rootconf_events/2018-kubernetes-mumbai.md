@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Workshop: Kubernetes Mumbai"
+title: "Workshop: Upskil with Kubernetes"
 subtitle: "Upskill with basics to advance topics of Kubernetes."
 datelocation: " 9:30 AM to 5:30 PM, 17 November 2018, Endurance International, Mumbai "
 city: Bangalore
