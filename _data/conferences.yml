@@ -89,6 +89,7 @@
   url: https://metarefresh.in/2018/
   funnel: https://metarefresh.in/2018/
   blurb: On interaction design and CSS from product and business standpoints.
+  banner: https://images.hasgeek.com/embed/file/995b8e3afdcc4937b5a2784cdf745bb7
   color:
     primary: "#b22e40"
     primary_dark: "#921b3f"
@@ -244,6 +245,7 @@
   url: https://jsfoo.in/2018/
   funnel: https://jsfoo.talkfunnel.com/2018/
   blurb: The eighth edition of India’s first JavaScript conference.
+  banner: https://images.hasgeek.com/embed/file/10acd7709d8e45b598ea107ff29a985e
   color:
     primary: "#549eaf"
     primary_dark: "#2e3661"
@@ -258,6 +260,7 @@
   funnel: https://reactfoo.talkfunnel.com/2018-hyd/
   url: https://reactfoo.in/2018-hyderabad/
   blurb: A conference on the lessons learned while implememting React and React Native.
+
 
 - name: reactfoo-mumbai
   title: ReactFoo Mumbai
@@ -289,7 +292,8 @@
   funnel: https://reactfoo.talkfunnel.com/2019/
   url: https://reactfoo.in/2019/
   blurb: A conference on the lessons learned while implementing React and React Native.
-  
+  banner: https://images.hasgeek.com/embed/file/e924fc223b8548f8a5dae6d49a8c4437
+
 - name: logistics-2018
   title: Logistics Conference 2018
   city: Bangalore
@@ -301,6 +305,7 @@
   url: https://fifthelephant.in/2018-logisticsconf/
   blurb: The Fifth Elephant presents the first edition of Logistics conference.
 
+
 - name: fifthelephant-winter-2019
   title: The Fifth Elephant Winter 2019
   city: Mumbai
@@ -310,7 +315,8 @@
   funnel: https://fifthelephant.talkfunnel.com/winter-edition-2019/
   url: https://fifthelephant.in/2019-winter/
   blurb: The winter 2019 edition of India's best conference on big data and machine learning.
-  
+  banner: https://images.hasgeek.com/embed/file/c782f6a5e5034bcd810acded5bf6879d
+
 - name: pune-2019
   title: JSFoo Pune 2019
   city: Pune
@@ -320,7 +326,8 @@
   funnel: https://jsfoo.talkfunnel.com/2019-pune/
   url: https://jsfoo.in/2019-pune/
   blurb: The second Pune edition of India's premier JavaScript conference.
-  
+  banner: https://images.hasgeek.com/embed/file/10acd7709d8e45b598ea107ff29a985e
+
 - name: fragments-2019
   title: Fragments 2019
   city: Bangalore
@@ -330,4 +337,5 @@
   end_time: 2019-03-02
   funnel: https://fragments.talkfunnel.com/2019/
   url: https://fragments.in/2019/
-  blurb: On future of the Mobile Developement.  
+  blurb: On future of the Mobile Developement.
+  banner: https://images.hasgeek.com/embed/file/ca000328f3824dde84ace578bac83179
