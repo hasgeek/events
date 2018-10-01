@@ -9,6 +9,16 @@ end_time: 2018-11-11
 description: "In this workshop, On day 1, you will learn all the concepts required for building API servers with GraphQL. On day 2, you will learn how to leverage Apollo to build complex apps with React and connect to GraphQL servers"
 boxoffice_item_collection: "68d5da5b-959e-4984-b6b6-bd2f3c28145c"
 
+venue:
+  label: Great Learning, Bangalore
+  address: |
+    Great Learning Bangalore (Great Lakes E-Learning),
+    Ground Floor, Plot No. 758 - 759, 19th Main Rd, 
+    Sector 2, HSR Layout, (Near Sri Sai Mandir), Bengaluru, Karnataka 560102
+  lat: 12.9098108
+  lng: 77.6425886
+  google_maps_url: https://goo.gl/maps/3e3osPsgJj62
+  
 instructors:
 - name: Kiran Abburi
   image_url: https://images.hasgeek.com/embed/file/634696c3e23b4b11930160bc77dc106f
@@ -55,5 +65,12 @@ overview:
     * Local state management with Apollo
     * How Apollo cache works
     * Using Apollo links to enhance its functionality
+
+sponsor:
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - greatlearning
 
 ---
