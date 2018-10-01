@@ -1,6 +1,6 @@
 ---
 layout: workshop
-title: "Workshop: Upsill with Kubernetes"
+title: "Workshop: Upskill with Kubernetes"
 subtitle: "Upskill with basics to advance topics of Kubernetes."
 datelocation: " 9:30 AM to 5:30 PM, 6 October 2018, Wingify, Pune "
 city: Bangalore
