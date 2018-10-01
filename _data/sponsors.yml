@@ -201,10 +201,11 @@ equal-experts:
   url: https://www.equalexperts.com/
   display_url: www.equalexperts.com
   blurb: |
-    Equal Experts is an award-winning agile software consultancy, specialising in simple software solutions for big business challenges. We use highly productive working methods to deliver innovative software for a wide range of public and private-sector clients.
+    At Equal Experts we help organisations achieve great things – processing millions of transactions per day in government; building top-5 mobile apps for iOS and Android; launching startups with lean, elegant technology and much, much more. 
+    We’re a community of over 750 experienced consultants (across eight countries, five continents), comprising user researchers, designers, strategic thinkers, product people, BAs, developers, architects, QAs, devops and more – all bound by our shared set of values.
+    Our network model means experienced, pragmatic people are always invited to join us (even if you’re not looking for an imminent move). Once in the network you’re part of our community, and we’ll keep you informed of new developments and opportunities. 
+    When the time is right, we’ll work quickly to find you new challenges – always working with experienced, like-minded practitioners, and helping us achieve even greater things.  
 
-    We never compromise on expertise – our talented software consultants typically boast at least 8 years’ experience – but crucially,  our values are just as important to us. Our core engineering values are automation, continuous delivery, constant learning, responsible innovation and low ego, hands-on delivery.
-    This respectful, grown-up approach delivers work that our teams and our clients can both be proud of – and it’s helped Equal Experts to be recognised on Glassdoor as an exceptional place to work.
 qube-cinema:
   title: "Qube Cinema"
   logo_url: https://images.hasgeek.com/embed/file/3c0f6e3d0e31464ba62574a50afc4641
@@ -868,7 +869,7 @@ exadatum:
 
 sapient:
   title: Sapient
-  logo_url: https://images.hasgeek.com/embed/file/90bd41262f7d425fbb29118e0b2ce8b5
+  logo_url: https://images.hasgeek.com/embed/file/64cd8ca050c64847bb1b4be5e92744b9
   url: https://www.publicis.sapient.com
   display_url: www.publicis.sapient.com
   blurb: |

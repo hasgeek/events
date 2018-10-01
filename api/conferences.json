@@ -18,7 +18,8 @@
 			"end_time": "{{ conf.end_time | date_to_xmlschema }}",
 			"url": "{{ conf.url }}",
 			"funnel": "{{ conf.funnel }}",
-			"blurb": "{{ conf.blurb }}"
+			"blurb": "{{ conf.blurb }}",
+			"banner": "{{ conf.banner }}",
 			{%- if conf.color -%}, "color": {{conf.color|jsonify}} {%- endif -%}
 		}
 		{% if forloop.last == false %},{% endif %}
