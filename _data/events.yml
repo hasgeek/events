@@ -1186,3 +1186,12 @@
   end_time: 2018-11-11 17:00
   url: https://jsfoo.in/2018-graphql-apollo/
   blurb: "Learn all about building API servers with GrapQL, and connect complex apps to GraphQL servers using Apollo"
+
+- name: js-done-right-oct2018
+  title: "Devopedia Talk: JavaScript Done Right!"
+  city: Bangalore
+  venue: WeWork Koramangala, Bangalore
+  start_time: 2018-10-18 18:00
+  end_time: 2018-10-18 20:00
+  url: https://www.meetup.com/Devopedia/events/255221755/
+  blurb: "DOM access. Event processing. Form processing. Pitfalls and best practices."
