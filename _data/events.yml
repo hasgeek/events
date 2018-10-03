@@ -1,3 +1,12 @@
+- name: CTOTalk by OrangeScape
+  title: CTOTalk with Snapdeal's Prashant Parashar
+  city:  Chennai
+  venue: OrangeScape, Tidel Park, Chennai
+  start_time: 2018-09-22 10:30
+  end_time: 2018-09-22 13:00
+  url: https://in.explara.com/e/ctotalk-with-prashant-prashar
+  blurb: Hosting Guest Speaker Prashant Parashar from Snadeal for a talk on "Rapid Product Experimentation at Scale- The Tech Underneath". CTOTalk sessions are intended to provide deep insights into different applications of technology.
+
 - name: PySangamam 2018
   title: PySangamam 2018
   city: Chennai
@@ -1017,7 +1026,7 @@
   blurb: "Getting started with deep learning for image and text."
 
 - name: july-nlp-bootcamp
-  title: "Bootcamp: Learning representations of text for NLP"
+  title: "Bootcamp for NLP"
   city: Bangalore
   venue: ThoughtFactory, Bangalore
   start_time: 2018-07-28 09:00
@@ -1105,3 +1114,75 @@
   end_time: 2018-07-31 17:30
   url: https://anthillinside.in/2018-july-dl-bootcamp2/
   blurb: "Getting started with deep learning for image and text."
+
+- name: ethindia-tech-talks
+  title: "ETHIndia Tech Talks + Workshops"
+  city: Bangalore
+  venue: MLR JP Nagar, Bangalore
+  start_time: 2018-08-10 09:00
+  end_time: 2018-08-10 19:30
+  url: https://ethindia.co/
+  blurb: "ETHIndia is all about introducing Indian developers to the Ethereum blockchain ecosystem & giving them the opportunity to meet the people behind this technology."
+
+- name: react-0-to-100-2
+  title: "Workshop: React 0 to 100 in a day"
+  city: Delhi/NCR
+  venue: Wingify, Delhi
+  start_time: 2018-08-25 10:00
+  end_time: 2018-08-25 14:00
+  url: https://reactfoo.in/2018-react-0to100-delhi/
+  blurb: "Learn React and start implementing reusable interactive and stateful UI components"
+
+- name: dl-ml-computer-vision
+  title: "Workshop: DL and ML for Computer vision"
+  city: Bangalore
+  venue: Great Learning, Bangalore
+  start_time: 2018-10-13 09:30
+  end_time: 2018-10-14 18:00
+  url: https://anthillinside.in/2018-computer-vision-workshop/
+  blurb: "Get a hands-on experience of using ML/DL for solving Computer Vision problems."
+
+- name: kubernetes-workshop-pune
+  title: "Workshop: Upskill with Kubernetes"
+  city: Pune
+  venue: Wingify, Pune
+  start_time: 2018-10-06 09:30
+  end_time: 2018-10-06 17:30
+  url: https://rootconf.in/2018-kubernetes-pune/
+  blurb: "Upskill with basics to advance topics of Kubernetes."
+
+- name: kubernetes-workshop-mumbai
+  title: "Workshop: Upskill with Kubernetes"
+  city: Mumbai
+  venue: Endurance International, Mumbai
+  start_time: 2018-11-17 09:30
+  end_time: 2018-11-17 17:30
+  url: https://rootconf.in/2018-kubernetes-mumbai/
+  blurb: "Upskill with basics to advance topics of Kubernetes."
+
+- name: pace-up-with-vue
+  title: "Workshop: Pace up with Vue"
+  city: Bangalore
+  venue: TBD, Bangalore
+  start_time: 2018-10-28 09:00
+  end_time: 2018-10-28 17:00
+  url: https://jsfoo.in/2018-paceup-with-vue/
+  blurb: "Pace up to develop elegant, debuggable, maintainable, and organized applications"
+
+- name: secure-web-development
+  title: "Workshop: Secure web development"
+  city: Bangalore
+  venue: TBD, Bangalore
+  start_time: 2018-10-28 09:00
+  end_time: 2018-10-28 17:00
+  url: https://jsfoo.in/2018-secure-web-development/
+  blurb: "Learn secure web development using Damn Vulnerable NodeJS Application"
+
+- name: bootcamp-graphql-apollo
+  title: "Bootcamp: GraphQL & Apollo"
+  city: Bangalore
+  venue: TBD, Bangalore
+  start_time: 2018-11-10 09:00
+  end_time: 2018-11-11 17:00
+  url: https://jsfoo.in/2018-graphql-apollo/
+  blurb: "Learn all about building API servers with GrapQL, and connect complex apps to GraphQL servers using Apollo"

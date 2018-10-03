@@ -11,7 +11,7 @@ description: "A conference on React, front-end engineering and performance."
 boxoffice_item_collection: "6e5bfb42-c1f3-4d87-b1f0-2fcaba012173"
 funnel:
   url: "https://reactfoo.talkfunnel.com/2018-delhi/"
-  open: true
+  open: false
 logo:
   image_url: /images/reactfoo-logo.png
 schedule:
@@ -41,7 +41,7 @@ overview:
 
     ReactFoo Delhi is a single-day event with talks and Birds Of Feather (BOF) sessions.     
 
-    Hands-on workshops for 30-40 participants will be held on next day of the conference. Workshops will be announced shortly. **Tickets have to be purchased separately.**
+    Hands-on workshops for 30-40 participants will be held on next day of the conference. **Tickets have to be purchased separately.**
 
   right_content: |
     ### Who should attend?
@@ -69,6 +69,15 @@ sponsor:
     size: "l"
     sponsors:
     - bigbinary
+  - title: "Bronze Sponsor"
+    size: "l"
+    sponsors:
+    - sapient
+    -  srijan
+  - title: "Community Partners"
+    size: "s"
+    sponsors:
+    - mozilla-delhi
 
 blog:
   feed_url: https://medium.com/feed/reactfoo

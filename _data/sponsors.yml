@@ -201,10 +201,11 @@ equal-experts:
   url: https://www.equalexperts.com/
   display_url: www.equalexperts.com
   blurb: |
-    Equal Experts is an award-winning agile software consultancy, specialising in simple software solutions for big business challenges. We use highly productive working methods to deliver innovative software for a wide range of public and private-sector clients.
+    At Equal Experts we help organisations achieve great things – processing millions of transactions per day in government; building top-5 mobile apps for iOS and Android; launching startups with lean, elegant technology and much, much more. 
+    We’re a community of over 750 experienced consultants (across eight countries, five continents), comprising user researchers, designers, strategic thinkers, product people, BAs, developers, architects, QAs, devops and more – all bound by our shared set of values.
+    Our network model means experienced, pragmatic people are always invited to join us (even if you’re not looking for an imminent move). Once in the network you’re part of our community, and we’ll keep you informed of new developments and opportunities. 
+    When the time is right, we’ll work quickly to find you new challenges – always working with experienced, like-minded practitioners, and helping us achieve even greater things.  
 
-    We never compromise on expertise – our talented software consultants typically boast at least 8 years’ experience – but crucially,  our values are just as important to us. Our core engineering values are automation, continuous delivery, constant learning, responsible innovation and low ego, hands-on delivery.
-    This respectful, grown-up approach delivers work that our teams and our clients can both be proud of – and it’s helped Equal Experts to be recognised on Glassdoor as an exceptional place to work.
 qube-cinema:
   title: "Qube Cinema"
   logo_url: https://images.hasgeek.com/embed/file/3c0f6e3d0e31464ba62574a50afc4641
@@ -429,8 +430,8 @@ hasura:
   url: https://hasura.io/
   display_url: www.hasura.io
   blurb: |
-     Hasura is a platform for developers to build powerful applications fast. Hasura comes powered with APIs for data, auth, files on Postgres and a git push to deploy set up for custom APIs.
-     The  quickstarts on Hasura Hub are one of the fastest ways to get up and running with a stack of your choice (in under 5 minutes). These quickstarts are wired up stacks - for instance the React project comes wired up backend APIs (for data, auth, and files) and a node-express microservice for custom APIs, on a Kubernetes & docker substrate.
+     The Hasura GraphQL Engine is a blazing-fast, open-source GraphQL server that gives you realtime GraphQL APIs over Postgres, with webhook triggers on database events for asynchronous business logic. 
+     Hasura helps you build GraphQL apps backed by Postgres or incrementally move to GraphQL for existing applications using Postgres.
 
 medianama:
   title: "Medianama"
@@ -467,9 +468,9 @@ epicor:
 
 takshashila:
   title: "Takshashila"
-  logo_url: https://images.hasgeek.com/embed/file/c437d06c0b8844aca848962154eadb67
+  logo_url: https://images.hasgeek.com/embed/file/f623174ef3d84703992289b4475ec117
   url: http://takshashila.org.in/
-  display_url: www.takshashila.org.in
+  display_url: takshashila.org.in
   blurb: |
     The Takshashila Institution—an independent, non-partisan, non-profit organisation—contributes towards building the intellectual foundations of an India that has global interests.
     It aims to establish itself as one of the most credible voices in India’s public policy discourse, known for its unambiguous pursuit of the national interest, through consistent high-quality policy advisories.
@@ -868,10 +869,147 @@ exadatum:
 
 sapient:
   title: Sapient
-  logo_url: https://images.hasgeek.com/embed/file/357d6d23c71a4cdebc024f5fde920f37
-  url: www.publicis.sapient.com
+  logo_url: https://images.hasgeek.com/embed/file/64cd8ca050c64847bb1b4be5e92744b9
+  url: https://www.publicis.sapient.com
   display_url: www.publicis.sapient.com
   blurb: |
     Publicis.Sapient, the digital business transformation hub of Publicis Groupe, helps clients drive growth and efficiency and evolve the ways they work, in a world where consumer behavior and technology are catalyzing social and commercial change at an unprecedented pace. With 19,000 people and over 100 offices around the globe, our expertise spanning technology, data sciences, consulting and creative combined with our culture of innovation enables us to deliver on complex transformation initiatives that accelerate our clients’ businesses through creating the products and services their customers expect. For more information, visit [www.publicis.sapient.com](www.publicis.sapient.com).
-    At Sapient, our full-service data capabilities rest on the pillars of Data Engineering, Data Analytics and Data Sciences. This naturally empowers us with the ability to ingest data across multiple sources -- the potential to analyze that data for relevant consumer insights, harness structured and unstructured data meaningfully, leverage the power of Artificial Intelligence and Data Analytics to drive insights and the next best action.
+
+cummins:
+  title: Cummins Inc
+  logo_url: https://images.hasgeek.com/embed/file/3b80669fbf3b4bae82acd1be4f949bb2
+  url: http://www.cummins.com/
+  display_url: www.cummins.com
+  blurb: |
+    Cummins Inc. designs, manufactures, sells and services diesel and alternative fuel engines, diesel and alternative-fueled electrical generator sets, as well as related components and technology. 
+    Cummins Inc. is organized into distinct but complementary business segments:
     
+    * Engine Segment: The Engine Segment designs and manufactures state-of-the-art diesel and natural gas powered engines for on-highway and off-highway use. The business also offers new parts and remanufactured parts and engines.
+    
+    * Power Systems Segment: The Power Systems Segment is a global provider of high-speed high-horsepower engines and power generation equipment, including standby and prime power generator sets, alternators, switchgear and other components.
+    
+    * Components Segment: The Components Segment consists of four businesses with key technologies for delivering integrated solutions: Cummins Filtration, Cummins Turbo Technologies, Cummins Emission Solutions and Cummins Electronics and Fuel Systems.
+    
+    * Distribution Segment: The Distribution Segment drives a comprehensive global distribution strategy and channel management. This business provides sales, service and support to our customers around the world through the largest number of certified service and support locations of any engine manufacturer.
+
+    **General Information**
+    * Corporate Headquarters: Columbus, Indiana – U.S.A.
+    * Stock Symbol: CMI (traded on NYSE.
+    * Founded: 1919.
+    * 2017 Fortune 500 Rank:159.
+    * 2017 Revenues:$20.4 billion.
+    * Employees:58,600 worldwide.
+    * Website: www.cummins.com.
+
+startv:
+  title: Star TV
+  logo_url: https://images.hasgeek.com/embed/file/74ce47277fbd45fea019937f586a9f8e
+  url: http://www.startv.com/about-us/
+  display_url: http://www.startv.com/about-us/
+  blurb: |
+    Star is the leading media company in India reaching more than 700 million people through broadcast and digital technologies.  We are at the forefront of entertaining the nation and touching peoples’ lives through our 60+ tv channels, digital media platform and movie studio. We have reinvented sports in India and are inspiring a new generation to play through nurturing and developing regional and non-cricket sports such as kabaddi.
+    
+    We are on a mission to transform ourselves into a fully data driven company. We want to harness the power of big data through building the platform, systems and applications that will enable us to reinvent the media ecosystem, dramatically improve viewer experience and deliver significantly better value to our advertisers through sharper targeting. We have established an agile culture that encourages innovation and experimentation.
+    
+    We are looking for the best data scientists, data engineers and software developers to join us in this transformative mission. This is a innovative area for data science and hence offers a unique opportunity to work on greenfield projects, deliver novel solutions and touch lives of millions of people.
+
+datakind:
+  title: DataKind BLR
+  logo_url: https://images.hasgeek.com/embed/file/1ca5891bdfec439b827a4ddd88b739f1
+  url: http://www.datakind.org/chapters/datakind-blr
+  display_url: www.datakind.org/chapters/datakind-blr
+  blurb: |
+    [DataKind](http://www.datakind.org/) create teams of pro-bono data scientists who work together with several NGOs and mission-driven organizations to understand their need, find a solution, and collaborate to tackle several problems with the help of data science. We founded [DataKind Bangalore](http://www.datakind.org/chapters/datakind-blr) Chapter in August 2014, with an aim to build a strong data-for-good community and since then we have collaborated with several non-profits and helped them with their data related problems.
+
+hotstar:
+  title: Hotstar
+  logo_url: https://images.hasgeek.com/embed/file/32eadb7dba474374a2d16d15e008db48
+  url: https://tech.hotstar.com/
+  display_url: tech.hotstar.com
+  blurb: |
+    Hotstar is India’s largest premium streaming platform with more than 100,000 hours of drama and movies in 17 languages, and coverage of every major global sporting event. Launched in early 2015, it is one of India’s most downloaded apps and has attracted more than 350 million followers on the back of a highly evolved video streaming technology and high attention to quality of experience across devices and platforms. Hotstar has appropriated top spots on the Google Play Store as well as the Apple App Store, named among the most popular apps of 2017 on both platforms.
+    
+mozilla:
+  title: Mozilla Community
+  logo_url: https://images.hasgeek.com/embed/file/ba9bf3b893614f5cab70a2882821e5cd
+  url: https://mozilla.org
+  display_url: https://mozilla.org
+  blurb: |
+     Mozilla is the not-for-profit behind Firefox, the original alternative browser. We create products and policy to keep the internet in service of people, not profit and make the internet safer, healthier and faster for good. We believe that the Internet must always remain a global public resource that is open and accessible to all. We are constantly working and reworking to build the best possible resource for a healthy open internet. The real power behind Mozilla is a global community of 10,000s of volunteers, allies and partners. Members of the Mozilla community participate by doing everything from contributing code to Firefox and [teaching digital literacy](https://learning.mozilla.org/) to translating our software, organizing advocacy campaigns and writing the world's most referenced [web developer site](https://developer.mozilla.org/). **Mozilla India**, one of the largest regional Mozilla communities in the world is a volunteer-run organization engaged in promoting openness, innovation, and opportunity on the Web in the country.
+
+mozilla-delhi:
+  title: Mozilla Community
+  logo_url: https://images.hasgeek.com/embed/file/92c90410d6324812926c2d572bf78232
+  url: https://mozilla.org
+  display_url: https://mozilla.org
+  blurb: |
+     Mozilla is the not-for-profit behind Firefox, the original alternative browser. We create products and policy to keep the internet in service of people, not profit and make the internet safer, healthier and faster for good. We believe that the Internet must always remain a global public resource that is open and accessible to all. We are constantly working and reworking to build the best possible resource for a healthy open internet. The real power behind Mozilla is a global community of 10,000s of volunteers, allies and partners. Members of the Mozilla community participate by doing everything from contributing code to Firefox and [teaching digital literacy](https://learning.mozilla.org/) to translating our software, organizing advocacy campaigns and writing the world's most referenced [web developer site](https://developer.mozilla.org/). **Mozilla India** is one of the largest regional Mozilla communities in the world, Mozilla Delhi is the Delhi community of Mozilla.
+
+greatlearning:
+  title: Great Learning
+  logo_url: https://images.hasgeek.com/embed/file/1f87a06f046c4cfbbb8d85f7c120a8d4
+  url: https://www.greatlearning.in/
+  display_url: www.greatlearning.in
+  blurb: |
+     Great Learning is an ed-tech company that offers programs in career critical competencies such as Analytics, Data Science, Big Data, Machine Learning, Data Science, Artificial Intelligence, Cloud Computing, Deep Learning and more. Our programs are taken by thousands of professionals every year who build competencies in these emerging areas to secure and grow their careers.
+
+      We are among the top 5 ed-tech startups in India in terms of revenue and scale
+      * Over 5000+ professionals have taken Great Learning programs and they have delivered 2 million+ hours of learning
+      * We have a network of 300+ Great Learning Gurus, all of who are industry experts engaged in teaching, guiding and mentoring candidates through their programs
+      * We have an alumni network of 3000+ professionals working across marquee organizations in India and beyond
+      * Our analytics programs have been ranked as India’s best program for 2015, 2016 and 2017
+      * We have learning centers established in 6 cities: Bangalore, Chennai, Hyderabad, Gurgaon, Pune and Mumbai
+
+      We are on a mission to make professionals proficient and future ready. We do this by creating industry-relevant programs and crafting learning experiences that help candidates learn, apply and demonstrate capabilities in these high-growth areas. At Great Learning, our programs always focus on the next frontier of growth in the industry.
+
+atlassian:
+  title: Atlassian
+  logo_url: https://images.hasgeek.com/embed/file/f4f2397354324716b0a87ecf1d1bd8e8
+  url: https://www.atlassian.com/
+  display_url: www.atlassian.com
+  blurb: |
+     Software is changing the world, and we’re at the center of it all. 
+     With a customer list that reads like a who's who in tech, and a highly disruptive business model, we’re advancing the art of team collaboration with products like Jira, Confluence, Bitbucket, Trello, and now Stride. 
+     Driven by honest values, an amazing culture, and consistent revenue growth, we’re out to unleash the potential of every team. From Amsterdam and Austin to Sydney and Bangalore to San Francisco, we’re looking for people who are powered by passion and eager to do the best work of their lives in a highly autonomous yet collaborative, no B.S. environment.
+     
+srijan:
+  title: SRIJAN
+  logo_url: https://images.hasgeek.com/embed/file/f2104b0870c4461abd8276a6b8b3b271
+  url: https://www.srijan.net/
+  display_url: www.srijan.net
+  blurb: |
+      [Srijan](https://www.srijan.net/) is a global leader in open source technologies with Asia's largest team in Drupal and JavaScript. 
+
+      Headquartered in New Delhi, the company has delivery centers in Goa, Gurugram, Bangalore, Manila; and also has presence in the USA, UK, Singapore, New Zealand, Malaysia, Japan, Germany, and Australia. Srijan works with Fortune 500 clients and large enterprises in travel, media, BFSI and retail. 
+      With continuous innovation and open culture at our core, Srijan has a transparent work culture where salaries and yearly profits are known to all employees. A strong support structure ensures active guidance, mentoring and coaching from peers. Team members are encouraged to invest in self-learning to become T-shaped well-rounded people. Srijan has been recognized among world's Most Democratic Workplaces by WorldBlu.
+      
+      [View open job opportunities at Srijan.](https://srijantech.recruiterbox.com/)
+      
+thoughtspot:
+  title: ThoughtSpot
+  logo_url: https://images.hasgeek.com/embed/file/ca05772dec564abdad4a12caaaa296a3
+  url: https://www.thoughtspot.com/
+  display_url: www.thoughtspot.com
+  blurb: |
+     ThoughtSpot, the leader in search &amp; AI-driven analytics for the enterprise, is helping the largest companies in the world succeed in the digital era by putting the power of a thousand analysts in every business person&#39;s hands. 
+     With ThoughtSpot’s next-generation analytics platform, business people can use Google-like search to easily analyze complex, large-scale enterprise data and get trusted insights to questions they didn’t know to ask, automatically - all with a single click. 
+     ThoughtSpot connects with any on-premise, cloud, big data, or desktop data source, deploying 85 percent faster than legacy technologies. Customers like Amway, Bed Bath and Beyond, BT, Capital One, Celebrity Cruises, Chevron Federal Credit Union, De Beers, PetCo and Scotiabank have put ThoughtSpot at the core of their business processes. 
+     With ThoughtSpot, business leaders and frontline workers alike have made more than 3 million data informed decisions per year.
+     
+     ThoughtSpot was co-founded in 2012 by Ajeet Singh, former co-founder and Chief Product Officer at Nutanix, the largest tech IPO of 2016. 
+     With a founding team coming from Google, Amazon, and Facebook, ThoughtSpot has raised over $300M in funding from Lightspeed Venture Partners, Khosla Ventures, General Catalyst Partners, Sapphire Ventures, Geodesic Capital, and Capital One Growth Ventures. 
+     The company is headquartered in Palo Alto, with offices in Seattle, London and Bangalore. For more information please visit www.thoughtspot.com.
+     
+imagekit:
+  title: ImageKit
+  logo_url: https://images.hasgeek.com/embed/file/85fdb5f5d73a4943a26cd8872368f801
+  url: https://imagekit.io/
+  display_url: www.imagekit.io
+  blurb: |
+     ImageKit.io is an image management, transformation and optimization solution providing an end-to-end managed service for images on websites and apps. 
+     With servers and delivery nodes across the globe, it combines the 4 most important parts of image delivery - image delivery CDN, automatic image size optimizations, real-time image transformations (like resizing, smart crop) and image storage. 
+     It can also be integrated with other CDNs or any image storage or server of your choice.
+     
+     ImageKit, is headquartered in Delhi NCR and was started with the aim of making image optimization dead simple and economical at all scales. 
+     In the past 2 years, ImageKit has helped companies in different domains - ecommerce, media, travel, fashion, web services etc. - to manage and automate their image infrastructure. With ImageKit, companies have been able to deliver a faster & high-quality experience to their users, improve SEO and conversion rates while cutting down on image delivery costs. We currently help 500+ companies and developers across the globe manage images on their website and apps processing more than 7 billion images every month.
+     

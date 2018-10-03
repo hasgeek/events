@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: React 0 to 100 in a day"
 subtitle: "Get a hands-on experience on the most thriving framework of 2018 and create your own React.js application"
-datelocation: "10 AM to 5 PM,19 August 2018, Delhi"
+datelocation: "10 AM to 5 PM,19 August 2018, Wingify, Delhi"
 city: Delhi/NCR
 start_time: 2018-08-19
 end_time: 2018-08-19
@@ -13,8 +13,8 @@ instructors:
 - name: Kiran Abburi
   image_url: https://images.hasgeek.com/embed/file/634696c3e23b4b11930160bc77dc106f
   website:
-    url: https://github.com/akiran
-    label: Github Page
+    url: https://neostack.com/
+    label: Neostack
   byline: Freelance react developer. Blockchain enthusiast.
   bio: |
     Kiran Abburi is a freelance developer with 6+ years of experience in web development. He primarily works on reactjs, nodejs and GraphQL projects. He is also an organizer of the Reactjs Bangalore meetup group.
@@ -31,7 +31,7 @@ instructors:
 venue:
   label: Wingify
   address: |
-    Wingify, 14th Floor, KLJ Tower North, Netaji Subash Place, Pitampura, New Delhi, Delhi 110034
+    Wingify, 12th Floor, KLJ Tower North, Netaji Subash Place, Pitampura, New Delhi, Delhi 110034
   lat: 28.6912473
   lng: 77.1509495
   google_maps_url: https://goo.gl/maps/X6dBpgGPMtz
@@ -109,4 +109,10 @@ hasjob:
   url: https://hasjob.co?q=react
   limit: 8
 
+sponsor:
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - wingify
 ---

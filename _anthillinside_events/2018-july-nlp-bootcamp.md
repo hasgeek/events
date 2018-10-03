@@ -1,8 +1,8 @@
 ---
 layout: workshop
-title: "Bootcamp: Learning representations of text for NLP"
+title: "Bootcamp for NLP"
 subtitle: Learn and implement an end-to-end deep learning models for natural language processing.
-datelocation: "28-29 July 2018, 09:00 AM - 05:00 PM, ThoughtFactory, Bangalore"
+datelocation: "09:00 AM to 5:00 PM, 28-29 July 2018, ThoughtFactory, Bangalore"
 city: Bangalore
 start_time: 2018-07-28
 end_time: 2018-07-29
@@ -56,28 +56,25 @@ instructors:
 
 overview:
   left_content: |
-    Think of your favorite NLP application that you wish to build - sentiment analysis, named entity recognition, machine translation, information extraction, summarization, recommender system, to name a few. A key step towards achieving any of the above task is - using the right set of techniques to represent text in a form that machine can easily understand.
-    
-    Unlike images, where directly using the intensity of pixels is a natural way to represent the image; in case of text there is no such natural representation. No matter how good is your ML algorithm, it can do only so much unless there is a richer way to represent underlying text data. Thus, whatever NLP application you are building, it’s imperative to find a good representation for your text data. Motivated from this, the subfield of  representation learning of text for NLP has attracted a lot of research interest in the past few years.
-    
-    In this bootcamp, we will understand key concepts, maths, and code behind the state-of-the-art techniques for text representation. Various representation learning techniques have been proposed in literature, but still there is a dearth of comprehensive tutorials that provides full coverage with mathematical explanations as well as implementation details of these algorithms to a satisfactory depth.
-    
-    This bootcamp aims to bridge this gap. It aims to demystify, both - Theory (key concepts, maths) and Practice (code) that goes into building these representation schemes. At the end of this bootcamp participants would have gained a fundamental understanding of these schemes with an ability to implement them on datasets of their interest.
+    Think of your favorite NLP application that you wish to build - sentiment analysis, named entity recognition, machine translation, information extraction, text summarization, recommender system, to name a few. Recent advances in DL have acted as a great catalyst for pushing the boundaries of NLP
+
+    However, feature engineering still remains a critical coponent for any NLP task. Unlike images, where directly using the intensity of pixels is a natural way to represent the image; in case of text there is no such natural representation. No matter how good is your ML/DL algorithm, it can do only so much unless there is a richer way to represent underlying text data. Thus, whatever NLP application you are building, it’s imperative to find a good representation for your text data.
+
+    In this bootcamp, we will understand key concepts, maths, and code behind the state-of-the-art NLP techniques. Various representation learning techniques have been proposed in literature, but still there is a dearth of comprehensive tutorials that provides full coverage with mathematical explanations as well as implementation details of these algorithms to a satisfactory depth.
+
+    This bootcamp aims to bridge this gap. It aims to demystify, both - Theory (key concepts, maths) and Practice (code) that goes into building NLP models. At the end of this bootcamp participants would have gained a fundamental understanding of these approaches with an ability to implement them on datasets of their interest.
 
 
     # Target Audience
     
-    * Machine learning practitioners
-    * Anyone (researcher, student, professional) learning NLP
-    * Corporates and Start-ups looking to add NLP to their product or service offerings
+    * Data Science practitioners
+    * Corporates and Start-ups working with NLP
+    * Anyone (researcher, student, professional) working NLP  
 
 
     # Pre-requisites
 
-    * This is a hands-on course and hence, participants should be comfortable with programming. Familiarity with python data stack is ideal.
-    * Prior knowledge of machine learning will be helpful. Participants should have some practice with basic NLP problems e.g. sentiment analysis.
-    * While the DL concepts will be taught in an intuitive way, some prior knowledge of linear algebra and probability theory would be helpful.
-
+    This is a very hands-on course and hence, participants should be comfortable with programming. Familiarity with python data stack is ideal. Prior knowledge of machine learning will be helpful.
 
     # Resources
 
@@ -134,7 +131,7 @@ overview:
 
     # Software Requirements
     
-    We will be using Python data stack for the bootcamp with keras and tensorflow for the deep learning component. Please install Anaconda for Python 3 for the bootcamp. Additional requirement will be communicated to participants.
+    We will be using Python data stack for this bootcamp with keras and tensorflow for the deep learning component. Additional requirement will be communicated to participants.
 
 sponsor:
   sponsors:

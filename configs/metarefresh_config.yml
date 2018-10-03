@@ -1,4 +1,4 @@
-title: Meta Refresh
+title: Meta Refresh + JSFoo 2018
 subtitle: "A community and conference on the construction of user experience on the web"
 description: "A community and conference on the construction of user experience on the web."
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -7,8 +7,9 @@ colors:
   primary: "#b22e40"
   accent: "#921b3f"
 ga_tracking_code: UA-19123154-19
-twitter_tracking_code: nzdrl
+twitter_tracking_code: o09nd
 fb_tracking_code: 939847969521385
+linkedin_tracking_code: 245595
 icons:
   touch:
   - src: "images/touch/metarefresh-icon-192.png"
@@ -47,3 +48,7 @@ collections:
     type: event
     output: true
     permalink: /:path/
+  jsfoo_events:
+    type: event
+    output: true
+    permalink: /jsfoo/:path/

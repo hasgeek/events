@@ -2,22 +2,13 @@
 layout: workshop
 title: "Workshop: React 0 to 100 in a day"
 subtitle: "Learn React and start implementing reusable, interactive and stateful UI components"
-datelocation: "9:30 AM to 1:30 PM, 21 July 2018, ThoughtFactory, Bangalore"
-city: Bangalore
-start_time: 2018-07-21
-end_time: 2018-07-21
+datelocation: "10:00 AM to 2:00 PM, 25 August 2018, Wingify, Delhi"
+city: Delhi/NCR
+start_time: 2018-08-25
+end_time: 2018-08-25
 description: "This workshop starts with understanding the basic internals of React before exploring how to \"think in React\", best practices and solutions to real problems that you will experience while building an application."
-boxoffice_item_collection: "998d2617-931b-42cc-89e6-1d771ad87ce0"
+boxoffice_item_collection: "6e5bfb42-c1f3-4d87-b1f0-2fcaba012173"
 
-venue:
-  label: ThoughtFactory, Bangalore
-  address: |
-    ThoughtFactory,
-    Tower D, 2nd Floor,
-    Diamond District, Bengaluru, Karnataka 560102
-  lat: 12.95921
-  lng: 77.64431
-  google_maps_url: https://goo.gl/maps/eaNceNnatu62
 
 instructors:
 - name: Siddharth Kshetrapal
@@ -28,6 +19,15 @@ instructors:
   byline: Builds design systems for Auth0
   bio: |
     Siddharth Kshetrapal builds design systems for Auth0 (ex frontend architect at Practo). He is a regular speaker at javascript conferences (JSChannel, Reactfoo, CodeEurope, ReactFest London). He also co-organises React Bangalore.
+
+venue:
+  label: Wingify
+  address: |
+    Wingify, 12th Floor, KLJ Tower North, Netaji Subash Place, Pitampura, New Delhi, Delhi 110034
+  lat: 28.6912473
+  lng: 77.1509495
+  google_maps_url: https://goo.gl/maps/X6dBpgGPMtz
+
 
 overview:
   left_content: |
@@ -40,7 +40,7 @@ overview:
     
     # Who is this workshop for?
 
-    This workshop is for developers who have an understanding of javascript, looking to get started with React or moving from a different framework like angular, ember, etc.
+    This workshop is for developers who have an understanding of javascript, looking to get started with React or moving from a different framework like ANGULAR, EMBER, etc.
 
     # Requirements
 
@@ -94,6 +94,6 @@ sponsor:
   - title: "Venue Partner"
     size: "l"
     sponsors:
-    - thoughtfactory
-    
+    - wingify
+
 ---

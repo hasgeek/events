@@ -2,7 +2,7 @@
 layout: workshop
 title: "Workshop: Make your own DL framework"
 subtitle: Learn to write Deep Learning Framework in Pure Python and numpy
-datelocation: "29 July 2018, 09:00 AM - 05:00 PM, Bangalore"
+datelocation: "09:00 AM to 5:00 PM, 29 July 2018, Bangalore"
 city: Bangalore
 start_time: 2018-07-29
 end_time: 2018-07-29
