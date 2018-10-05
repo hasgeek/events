@@ -411,7 +411,7 @@ bigbinary:
   display_url: www.bigbinary.com
   blurb: |
      BigBinary is a ReactJS and Ruby on Rails Consulting company based in San Francisco, Miami and Pune. Over the years, they have made tons of contributions to Ruby on Rails code, with their team consisting of three of the top 40 contributors to Ruby on Rails.
-     Last year, Vipul & Prathamesh from the team also released their book on ReactJS -  Building Modern Web Applications with React.js (https://www.bigbinary.com/building-modern-web-applications-with-reactjs). They build web and mobile applications using React, Ruby on Rails and React Native.
+     Last year, Vipul & Prathamesh from the team also released their book on ReactJS -  Building Modern Web Applications with React.js (https://www.bigbinary.com/building-modern-web-applications-with-reactjs). They build web and mobile applications using React, Ruby on Rails and React Native. You can reach BigBinary at [hello@BigBinary.com](hello@BigBinary.com).
 
 bonzai:
   title: "Bonzai"
@@ -1013,3 +1013,9 @@ imagekit:
      ImageKit, is headquartered in Delhi NCR and was started with the aim of making image optimization dead simple and economical at all scales. 
      In the past 2 years, ImageKit has helped companies in different domains - ecommerce, media, travel, fashion, web services etc. - to manage and automate their image infrastructure. With ImageKit, companies have been able to deliver a faster & high-quality experience to their users, improve SEO and conversion rates while cutting down on image delivery costs. We currently help 500+ companies and developers across the globe manage images on their website and apps processing more than 7 billion images every month.
      
+noon-academy:
+  title: Noon Academy
+  logo_url: https://images.hasgeek.com/embed/file/8fe09848d9114466a652e96c760f6712
+  url: 
+  display_url: 
+  blurb: |
