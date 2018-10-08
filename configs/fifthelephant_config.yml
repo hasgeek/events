@@ -1,4 +1,4 @@
-title: The Fifth Elephant + Anthill Inside
+title: The Fifth Elephant
 subtitle: "Community powered conferences, workshops, and meet ups on data and AI"
 description: "India’s most renowned data science conference. Discuss the most cutting edge developments in the fields of machine learning, data science and technology that power data collection and analysis."
 logo:
@@ -9,7 +9,7 @@ colors:
   primary: "#498f94"
   accent: "#EC6015"
 ga_tracking_code: UA-19123154-20
-twitter_tracking_code: nzdrl
+twitter_tracking_code: o0bfl
 fb_tracking_code: 939847969521385
 linkedin_tracking_code: 245595
 icons:
