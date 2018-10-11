@@ -54,6 +54,13 @@ overview:
     4. Product development - analyzing data to build features for existing products.
     5. Cleaning data and ensuring better data quality. 
 
+featured_speakers:
+  - funnel_url: https://fifthelephant.talkfunnel.com/winter-edition-2019/12-reducing-cost-of-production-ai-feature-engineering
+    designation: Co-Founder and CEO, Scribble Data
+    talk_title: "Reducing cost of production AI: Feature engineering case study"
+    image_url: https://images.hasgeek.com/embed/file/6516e69c1eae4fe282f5e019fb795d20
+    name: Vekata Pingali
+
 related_events:
 - fifthelephant-2018-logisticsconf
 
@@ -82,6 +89,6 @@ sponsor:
     Sponsor for developer evangelism, community outreach, sales and hiring.
 
     Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com)
-  sponsorship_deck_url: 'https://hsgk.in/FifthEl_Mumbai'
+  sponsorship_deck_url: 'https://hsgk.in/Mumbai_Fifthel2NxB9jW'
 
 ---

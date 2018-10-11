@@ -1,0 +1,28 @@
+<div class="has-text-centered">
+	<h3 class="title">Past speakers</h3>
+	<br>
+</div>
+<div class="columns">
+	{% if include.instructors %}
+	{% assign speakers = include.instructors %}
+	{% else %}
+	{% assign speakers = include.speakers %}
+	{% endif %}
+	{% for speaker in speakers %}
+	<div class="column is-3 randomize">
+		<article class="tile is-child notification">
+			{% if speaker.image_url %}
+			<figure class="image is-4by4">
+				<img src="{{ speaker.image_url }}" height="200px">
+			</figure>
+			{% endif %}
+			<br>
+			<h1 class="title is-4"><strong><a href="{{ speaker.funnel_url }}" target="_blank" class="click link-unstyled"
+					 data-label="view {{ speaker.talk_title }}">{{ speaker.talk_title }}</a></strong></h1>
+			<p class=""><span><strong>{{ speaker.name }}</strong></span> | <span>{{ speaker.designation }}</span></p>
+		</article>
+	</div>
+	{% endfor %}
+	<script src="{{ site.url }}{{ site.baseurl }}/js/jquery-3.2.1.min.js"></script>
+	{% include randomize.html %}
+</div>
