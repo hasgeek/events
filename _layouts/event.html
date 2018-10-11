@@ -162,9 +162,9 @@ layout: base
 {% endif %}
 
 {% if page.past_speakers %}
-<section class="section bg-light"id="past_speakers">
+<section class="section bg-light scroll-horizontal"id="past_speakers">
   <div class="container">
-  {% include past_speakers.html speakers=page.past_speakers %}
+  {% include past_speakers_section.html speakers=page.past_speakers %}
   </div>
 </section><hr>
 {% endif %}
