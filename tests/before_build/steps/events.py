@@ -133,6 +133,42 @@ proposed_speakers_schema = {
     },
 }
 
+past_speakers_schema = {
+    'funnel_url': {
+        'validator': valid_external_url,
+        'required': False
+    },
+    'talk_title': {
+        'type': 'string',
+        'required': True
+    },
+    'name': {
+        'type': 'string',
+        'required': True
+    },
+    'image_url': {
+        'validator': valid_external_url,
+        'required': False
+    },
+    'website': {
+        'type': 'dict',
+        'schema': {
+            'label': {
+                'type': 'string',
+                'required': True
+            },
+            'url': {
+                'validator': valid_external_url,
+                'required': True
+            }
+        },
+        'required': False
+    },
+    'blurb': {
+        'type': 'string',
+        'required': False
+    },
+}
 flickr_album_schema = {
     'title': {
         'type': 'string',
