@@ -168,7 +168,6 @@ past_speakers_schema = {
         'required': False
     },
 }
-
 flickr_album_schema = {
     'title': {
         'type': 'string',
@@ -539,6 +538,11 @@ event_schema = {
     },
 
     'proposed_speakers': {
+        'type': 'list',
+        'required': False
+    },
+    
+    'past_speakers': {
         'type': 'list',
         'required': False
     },
