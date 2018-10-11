@@ -83,7 +83,7 @@ fixed_announcements:
 - community_space
 - food_court
 
-featured_talks:
+featured_speakers:
   - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/11-sustainable-transport-measures-for-liveable-indian
     designation: Associate Professor, Transportation Engg, IISc Bangaore
     talk_title: "Sustainable transport measures for liveable Indian cities"
