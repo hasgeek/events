@@ -223,7 +223,7 @@
 - name: anthillinside-2018
   title: Anthill Inside 2018
   city: Bangalore
-  venue: NIMHANS Convention Center
+  venue: NIMHANS Convention Centre
   google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
   start_time: 2018-07-25
   end_time: 2018-07-25
@@ -285,7 +285,7 @@
 - name: reactfoo-2019
   title: ReactFoo 2019
   city: Bangalore
-  venue: NIMHANS Convention Center
+  venue: NIMHANS Convention Centre
   google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
   start_time: 2019-03-01
   end_time: 2019-03-02
@@ -297,7 +297,7 @@
 - name: logistics-2018
   title: Logistics Conference 2018
   city: Bangalore
-  venue: NIMHANS Convention Center
+  venue: NIMHANS Convention Centre
   google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
   start_time: 2018-11-24
   end_time: 2018-11-24
@@ -309,7 +309,7 @@
 - name: fifthelephant-winter-2019
   title: The Fifth Elephant Winter 2019
   city: Mumbai
-  venue: TBD
+  venue: ISDI ACE, Lower Parel
   start_time: 2019-01-18
   end_time: 2019-01-18
   funnel: https://fifthelephant.talkfunnel.com/winter-edition-2019/
@@ -331,7 +331,7 @@
 - name: fragments-2019
   title: Fragments 2019
   city: Bangalore
-  venue: NIMHANS Convention Center
+  venue: NIMHANS Convention Centre
   google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
   start_time: 2019-03-01
   end_time: 2019-03-02

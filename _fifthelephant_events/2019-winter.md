@@ -2,7 +2,7 @@
 layout: event
 title: The Fifth Elephant Winter 2019
 subtitle: "The winter edition of India's most renowned conference on big data and data science"
-datelocation: "18 January 2019, TBA, Mumbai."
+datelocation: "18 January 2019, ISDI ACE, Mumbai."
 city: Mumbai
 start_time: 2019-01-18
 end_time: 2019-01-19
@@ -14,6 +14,14 @@ funnel:
   url: "https://fifthelephant.talkfunnel.com/winter-edition-2019/"
   open: true
 
+venue:
+  label: ISDI ACE, Dice Districts, Mumbai
+  address: |
+    ISDI ACE, Dice Districts, Colab Area, 7th Floor, ISDI ACE, Tower 2B, 841, Senapati Bapat Pawar Marg, BDD Chawl, Lower Parel, Mumbai, Maharashtra - 400013.
+  lat: 19.007142
+  lng: 72.833581
+  google_maps_url: https://goo.gl/maps/wds7WB44b3x
+  
 schedule:
   url: "https://fifthelephant.talkfunnel.com/winter-edition-2018/schedule"
   json_url: "https://fifthelephant.talkfunnel.com/winter-edition-2018/schedule/json"
@@ -54,6 +62,13 @@ overview:
     4. Product development - analyzing data to build features for existing products.
     5. Cleaning data and ensuring better data quality. 
 
+featured_speakers:
+  - funnel_url: https://fifthelephant.talkfunnel.com/winter-edition-2019/12-reducing-cost-of-production-ai-feature-engineering
+    designation: Co-Founder and CEO, Scribble Data
+    talk_title: "Reducing cost of production AI: Feature engineering case study"
+    image_url: https://images.hasgeek.com/embed/file/6516e69c1eae4fe282f5e019fb795d20
+    name: Vekata Pingali
+
 related_events:
 - fifthelephant-2018-logisticsconf
 
@@ -83,5 +98,9 @@ sponsor:
 
     Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com)
   sponsorship_deck_url: 'https://hsgk.in/Mumbai_Fifthel2NxB9jW'
-
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - isdi
 ---
