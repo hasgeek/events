@@ -19,6 +19,7 @@ id: fragments
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
