@@ -1204,3 +1204,12 @@
   end_time: 2018-10-18 20:00
   url: https://www.meetup.com/Devopedia/events/255221755/
   blurb: "DOM access. Event processing. Form processing. Pitfalls and best practices."
+
+- name: cyber-security-roundtable
+  title: "Roundtable on Cyber-security and the Private Sector"
+  city: Bangalore
+  venue: Omidyar Network, Bangalore
+  start_time: 2018-10-17 10:00
+  end_time: 2018-10-17 16:00
+  url: https://cis-india.org/internet-governance/events/roundtable-on-cyber-security-and-the-private-sector
+  blurb: "The Centre for Internet & Society (CIS) is organising a roundtable discussion on cyber-security and the private sector. The goal of this event is to create a platform for discussion on cyber-security concerns the private sector is facing, and also potential solutions to address present and future cyber-security problems."
