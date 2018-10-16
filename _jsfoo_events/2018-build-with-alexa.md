@@ -2,7 +2,7 @@
 layout: workshop
 title: "Build Voice-Enabled Experiences with Alexa"
 subtitle: "Get deep-dive into future of voice-based experience"
-datelocation: "9:00 AM to 5:00 PM, 26 October 2018, Bangalore"
+datelocation: "10:00 AM to 01:00 PM, 26 October 2018, Bangalore"
 city: Bangalore
 start_time: 2018-10-26
 end_time: 2018-10-26
