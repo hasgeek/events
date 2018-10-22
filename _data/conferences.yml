@@ -339,3 +339,14 @@
   url: https://fragments.in/2019/
   blurb: On future of the Mobile Developement.
   banner: https://images.hasgeek.com/embed/file/ca000328f3824dde84ace578bac83179
+  
+- name: rootconf-209
+  title: Rootconf 2019
+  city: Bangalore
+  venue: NIMHANS Convention Center
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2019-06-21
+  end_time: 2019-06-22
+  url: https://rootconf.in/2019/
+  funnel: https://rootconf.talkfunnel.com/2019/
+  blurb: On infrastructure security, cost optimisation, and distributed syystems.
