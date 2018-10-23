@@ -1034,3 +1034,15 @@ shuttl:
      Shuttl has demonstrated the ability to simultaneously address the dual challenge of congestion and pollution. The company catalyzes a shift away from private vehicles towards shared mobility - a win-win for citizens and cities. It also drives entrepreneurship by providing bus-owners on its platform with the latest technology, better financing, and relevant training, to help them scale and participate in offering a smarter, safer, and greener solution to bus riders.
      
      Today, Shuttl serves over 55,000 rides daily in eight cities including Delhi-NCR region, Mumbai, Kolkata, Hyderabad and Pune. It covers 150+ long routes and operates a fleet of 800 buses. It has also been awarded UK’s Ashden Award (2018) and Road Safety Award by FICCI (2017). Shuttl is backed by Sequoia Capital, Amazon Alexa Fund, Times Internet, Lightspeed Ventures and Dentsu Ventures.
+
+alexa:
+  title: Amazon Alexa
+  logo_url: https://images.hasgeek.com/embed/file/300a1e5191b64ebaa34a59d729889fa4
+  url: https://developer.amazon.com/en-in/alexa-skills-kit?&sc_category=Earned&sc_channel=LE&sc_campaign=HasGeek_JSFoo_Workshop&sc_publisher=HasGeek&sc_content=Promotion&sc_funnel=Discover&sc_country=IN&sc_medium=Earned_LE_HasGeek_JSFoo_Workshop_HasGeek_Promotion_Discover_IN_Individuals&sc_segment=Individuals
+  display_url: developer.amazon.com/en-in/alexa-skills-kit
+  blurb: |
+     Amazon Alexa, the cloud based voice service that powers Amazon Echo, provides access to thousands of skills that enable customers to voice control their world, whether it’s listening to music hands free, controlling their smart home devices with a simple ask of “turn on the lights,” setting timers when their hands are busy in the kitchen, listening to the news in the morning as they get ready for work, or even ordering a pizza. 
+     You don’t need to have a background in natural language understanding (NLU) or speech recognition to build great voice experiences for Alexa. Through a series of free, self-service, public APIs like the [Alexa Skills Kit](https://developer.amazon.com/en-in/alexa-skills-kit?&sc_category=Earned&sc_channel=LE&sc_campaign=HasGeek_JSFoo_Workshop&sc_publisher=HasGeek&sc_content=Promotion&sc_funnel=Discover&sc_country=IN&sc_medium=Earned_LE_HasGeek_JSFoo_Workshop_HasGeek_Promotion_Discover_IN_Individuals&sc_segment=Individuals), developers can build new skills for Alexa and integrate Alexa into their products and services.
+     
+     
+     
