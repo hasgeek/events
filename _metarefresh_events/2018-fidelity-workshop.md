@@ -34,16 +34,16 @@ venue:
   
 instructors:
 - name: Wolfram Thurm
-  image_url: https://images.hasgeek.com/embed/file/50cb2d007de24253bbd833961c64a2ec
+  image_url: https://images.hasgeek.com/embed/file/d8faa77fb09740258fed961516d39c0e
   website:
     url: 
     label: 
-  byline: Digital Designer, Uncommon
+  byline: Product Designer, Uncommon
   bio: |
     Wolfram is a musician and designer from Germany. If he is not pushing around pixels he cycles, works with low value garbage recycling and teaches music. He studied product design at the Bauhaus university but has grown fond of digital design since he has become a part of uncommon about three years ago. He worked on apps for clients like Flipkart, OLX, GoJek and TCS.
 
-- name: Akshay
-  image_url: https://images.hasgeek.com/embed/file/50cb2d007de24253bbd833961c64a2ec
+- name: Akshay Verma
+  image_url: https://images.hasgeek.com/embed/file/c74e0d85f84846298bb201f1bf65271d
   website:
     url: 
     label: 
@@ -51,12 +51,12 @@ instructors:
   bio: |
     Akshay is a product designer at Uncommon. He studied at Copenhagen Institute of Interaction Design, Denmark and National Institute of Design, India. He has worked on projects for clients like IKEA, Barclays and the Copenhagen Municipality and his work has been featured on Fast Company, Wired and The Creators Project.
 
-- name: Tanushree
-  image_url: https://images.hasgeek.com/embed/file/50cb2d007de24253bbd833961c64a2ec
+- name: Tanushree Jindal
+  image_url: https://images.hasgeek.com/embed/file/bf550ecdb9494d03a1feff0eeae2f80c
   website:
     url: 
     label: 
-  byline: Front-end developer, Uncommon
+  byline: Product Engineer, Uncommon
   bio: |
     Tanushree is a front-end developer at Uncommon. Previously she worked with Microsoft and Cognitive Match, and more recently with clients such as Shoonya Space and Black Baza Coffee. She studied Information Systems at UC Berkeley. She is a trained expressive arts therapist and runs spaces with an aim towards better emotional well-being and free expression using different arts.
 
