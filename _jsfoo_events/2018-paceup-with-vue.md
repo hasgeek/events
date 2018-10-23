@@ -19,6 +19,10 @@ instructors:
   bio: |
       Rahul is a member of Vue core team. He contributes to compilation tools for Vue and runs Vue Bangalore meetup. He works as a senior engineer at Myntra.
 
+related_events:
+- jsfoo-2018-secure-web-development
+- jsfoo-2018-graphql-apollo
+
 overview:
   left_content: |
 

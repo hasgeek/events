@@ -21,6 +21,9 @@ instructors:
 
     Subash's training on "Automated Defense using Cloud Services for AWS, Azure and GCP" has been presented at Blackhat USA 2018 and Appsec EU 2018. Subash is the author of Damn Vulnerable NodeJS Application(DVNA). He has presented various talks and trainings on learning web security using DVNA
 
+related_events:
+- jsfoo-2018-paceup-with-vue
+- jsfoo-2018-graphql-apollo
 
 overview:
   left_content: |

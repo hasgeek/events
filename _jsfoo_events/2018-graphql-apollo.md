@@ -29,6 +29,10 @@ instructors:
   bio: |
     Kiran Abburi is a freelance developer with 6+ years of experience in web development. He primarily works on reactjs, nodejs and GraphQL projects. He is also an organizer of the Reactjs Bangalore meetup group.
 
+related_events:
+- jsfoo-2018-secure-web-development
+- jsfoo-2018-paceup-with-vue
+
 overview:
   left_content: |
 
