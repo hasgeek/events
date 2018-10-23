@@ -1213,3 +1213,12 @@
   end_time: 2018-10-17 16:00
   url: https://cis-india.org/internet-governance/events/roundtable-on-cyber-security-and-the-private-sector
   blurb: "A roundtable discussion on cyber-security and the private sector which will discuss the concerns the private sector is facing, and also potential solutions to address present and future cyber-security problems."
+
+- name: code-war
+  title: "Code.War at Narvar"
+  city: Bengaluru
+  venue: Narvar India, A5101, 5th Floor, WeWork, EGL, Domlur, Bangalore
+  start_time: 2018-10-26 17:00
+  end_time: 2018-10-26 21:00
+  url: https://codewar.splashthat.com/
+  blurb: "Narvar welcomes passionate coders for a coding contest. This is followed by networking, drinks, food, goodies for all and some cool WINS!"
