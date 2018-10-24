@@ -7,7 +7,27 @@ city: Bangalore
 start_time: 2018-10-28
 end_time: 2018-10-28
 description: "This workshop is crash course for JavaScript developers to know the fundamentals of third most used JavaScript framework, Vue and by the end of day be able to develop elegant, debuggable, maintainable, and organized applications."
-boxoffice_item_collection: "68d5da5b-959e-4984-b6b6-bd2f3c28145c"
+boxoffice_item_collection: '68d5da5b-959e-4984-b6b6-bd2f3c28145c'
+boxoffice_item_categories:
+  - name: workshop
+    title: Workshop
+    item_ids: 
+      - 17d9c90c-b6a9-4b80-ac04-1d6c836b56bd 
+      - 88430997-d62d-41ba-a667-4528f4b04450
+      - 0d942c20-548b-4970-8de7-7cda26ce3806
+   
+  - name: conference 
+    title: Conference  
+    item_ids:  
+      - a409be67-2cee-4b32-bc30-fbd0f57d4629
+      - 1d908618-a1f7-4cf0-a441-fcb789c625e5
+      - 9dac2014-d893-4b64-a502-43e81c30694b
+ 
+  - name: merchandise  
+    title: Merchandise 
+    item_ids: 
+      - 43896efc-c3d8-4495-9202-222bdf22a775
+
 
 venue:
   label: ThoughtFactory, Bangalore
