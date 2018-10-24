@@ -9,6 +9,16 @@ end_time: 2018-10-28
 description: "This workshop is crash course for JavaScript developers to know the fundamentals of third most used JavaScript framework, Vue and by the end of day be able to develop elegant, debuggable, maintainable, and organized applications."
 boxoffice_item_collection: "68d5da5b-959e-4984-b6b6-bd2f3c28145c"
 
+venue:
+  label: ThoughtFactory, Bangalore
+  address: |
+    ThoughtFactory,
+    Tower D, 2nd Floor,
+    Diamond District, Bengaluru, Karnataka 560102
+  lat: 12.95921
+  lng: 77.64431
+  google_maps_url: https://goo.gl/maps/eaNceNnatu62
+  
 instructors:
 - name: Rahul Kadyan
   image_url: https://images.hasgeek.com/embed/file/3af07f3a52b343cf8c6518271035351b
