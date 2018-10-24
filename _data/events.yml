@@ -1222,3 +1222,12 @@
   end_time: 2018-10-26 21:00
   url: https://codewar.splashthat.com/
   blurb: "Narvar welcomes passionate coders for a coding contest. This is followed by networking, drinks, food, goodies for all and some cool WINS!"
+
+- name: minds-workshop
+  title: "Workshop on Machine Learning in Networked Data and Systems"
+  city: Bangalore
+  venue: Bangalore
+  start_time: 2019-01-07 09:00
+  end_time: 2019-01-07 17:00
+  url: https://www.comsnets.org/minds_workshop.html
+  blurb: "MINDS will discuss and present latest achievements and innovations at the cross-section of machine learning, systems, and networking."
