@@ -2,7 +2,7 @@
 layout: workshop
 title: "Build Voice-Enabled Experiences with Alexa"
 subtitle: "Get deep-dive into future of voice-based experience"
-datelocation: "02:00 AM to 05:30 PM, 26 October 2018, Bangalore"
+datelocation: "01:45 PM to 05:30 PM, 26 October 2018, Bangalore"
 city: Bangalore
 start_time: 2018-10-26
 end_time: 2018-10-26
@@ -62,19 +62,19 @@ overview:
 
     # Agenda
 
-    **10:00 AM - Intro to Alexa**
+    **1:45 PM - Intro to Alexa**
 
     - The future of voice-based experiences
     - Overview of Echo, Alexa, and the tools used to build Alexa skills.  
  
-    **10:30 AM - Skill Building Basics**
+    **2:15 PM - Skill Building Basics**
 
     - Intro to Intents, Slots, Samples
     - Handling Requests with AWS Lambda and Node.JS
     - Build your first skill:  https://alexa.design/factskill
     - Certify and Publish your skill
 
-    **12:00 AM - Voice Design**
+    **4:00 PM - Voice Design**
 
     - The principles of Voice Design
     - Best practices for engaging skills
