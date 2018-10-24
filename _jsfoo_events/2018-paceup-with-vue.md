@@ -83,4 +83,12 @@ overview:
     # Who is this Workshop for?
 
     This workshop is an awareness effort for tech leads, frontend architects and tech founders to validate framework options for their next product/venture. It is also a nice value add for developers looking for diverse knowledge. And finally for developers working on legacy tech who wants to build modern applications.
+
+sponsor:
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - thoughtfactory
+    
 ---
