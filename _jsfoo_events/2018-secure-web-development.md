@@ -28,6 +28,16 @@ boxoffice_item_categories:
     item_ids: 
       - 43896efc-c3d8-4495-9202-222bdf22a775
 
+venue:
+  label: HasGeek House, Bangalore
+  lat: 12.96149473
+  lng: 77.64430654
+  address: |
+    2699, 19th Main Road
+    HAL 2nd Stage, Indiranagar
+    Bengaluru, Karnataka 560008
+  google_maps_url: https://goo.gl/maps/1oAmjTuHXMv
+  
 instructors:
 - name: Subash
   image_url: https://images.hasgeek.com/embed/file/99453b18e1944ff8bc3ebe31c7bc90b5
