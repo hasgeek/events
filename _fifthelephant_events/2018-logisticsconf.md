@@ -109,6 +109,7 @@ sponsor:
     size: "l"
     sponsors:
     - walmartlabs
+    - swiggy
 
   - title: "Exhibition Sponsor"
     size: "l"
