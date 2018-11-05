@@ -17,7 +17,7 @@ funnel:
 venue:
   label: ISDI ACE, Dice Districts, Mumbai
   address: |
-    ISDI ACE, Dice Districts, Colab Area, 7th Floor, ISDI ACE, Tower 2B, 841, Senapati Bapat Pawar Marg, BDD Chawl, Lower Parel, Mumbai, Maharashtra - 400013.
+    ISDI ACE, Dice Districts, Colab Area, 7th Floor, Tower 2B, 841, Senapati Bapat Pawar Marg, BDD Chawl, Lower Parel, Mumbai, Maharashtra - 400013.
   lat: 19.007142
   lng: 72.833581
   google_maps_url: https://goo.gl/maps/wds7WB44b3x
