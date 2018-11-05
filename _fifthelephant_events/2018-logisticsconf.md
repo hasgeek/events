@@ -105,6 +105,11 @@ sponsor:
     Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com) for more info.
   sponsorship_deck_url: 'https://hsgk.in/2CkW0GK'
   sponsors:
+  - title: "Gold Sponsor"
+    size: "l"
+    sponsors:
+    - flipkart
+
   - title: "Bronze Sponsor"
     size: "l"
     sponsors:
