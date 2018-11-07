@@ -2,14 +2,13 @@ dist: trusty
 language: ruby
 cache: bundler
 rvm:
-- 2.5
+- 2.2
 before_install:
   - nvm install node
 before_script:
 - pip install --user -r requirements.txt
 script:
 - behave tests/before_build
-- gem install bundler
 - bundle exec jekyll build
 - behave tests/after_build
 - echo "If the build fails, scroll up to look for failed test cases"
