@@ -9,7 +9,6 @@ before_script:
 - pip install --user -r requirements.txt
 script:
 - behave tests/before_build
-- bundle install
 - bundle exec jekyll build
 - behave tests/after_build
 - echo "If the build fails, scroll up to look for failed test cases"
