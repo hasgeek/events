@@ -2,7 +2,7 @@ dist: trusty
 language: ruby
 cache: bundler
 rvm:
-- 2.2
+- 2.5
 before_install:
   - nvm install node
 before_script:
@@ -15,7 +15,7 @@ script:
 - echo "If the build fails, scroll up to look for failed test cases"
 deploy:
 - provider: script
-  script: deploy/deploy.sh fragments
+  script: bash deploy/deploy.sh fragments
   skip_cleanup: true
   on:
     branch: master
