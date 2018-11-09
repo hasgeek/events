@@ -9,6 +9,7 @@ before_script:
 - pip install --user -r requirements.txt
 script:
 - behave tests/before_build
+- gem install bundler
 - bundle install
 - bundle exec jekyll build
 - behave tests/after_build
