@@ -197,7 +197,7 @@ cowrks:
 
 equal-experts:
   title: "Equal Experts"
-  logo_url: https://images.hasgeek.com/embed/file/496efb1f5c8547eebbf492f39fe4fe61
+  logo_url: https://images.hasgeek.com/embed/file/02d66de061d543b9a1df5ed79c1d5746
   url: https://www.equalexperts.com/
   display_url: www.equalexperts.com
   blurb: |
@@ -411,7 +411,7 @@ bigbinary:
   display_url: www.bigbinary.com
   blurb: |
      BigBinary is a ReactJS and Ruby on Rails Consulting company based in San Francisco, Miami and Pune. Over the years, they have made tons of contributions to Ruby on Rails code, with their team consisting of three of the top 40 contributors to Ruby on Rails.
-     Last year, Vipul & Prathamesh from the team also released their book on ReactJS -  Building Modern Web Applications with React.js (https://www.bigbinary.com/building-modern-web-applications-with-reactjs). They build web and mobile applications using React, Ruby on Rails and React Native.
+     Last year, Vipul & Prathamesh from the team also released their book on ReactJS -  Building Modern Web Applications with React.js (https://www.bigbinary.com/building-modern-web-applications-with-reactjs). They build web and mobile applications using React, Ruby on Rails and React Native. You can reach BigBinary at [hello@BigBinary.com](hello@BigBinary.com).
 
 bonzai:
   title: "Bonzai"
@@ -426,7 +426,7 @@ bonzai:
 
 hasura:
   title: "Hasura"
-  logo_url: https://images.hasgeek.com/embed/file/d18d13e55de04fc1a84d21bb45d38f12
+  logo_url: https://images.hasgeek.com/embed/file/e113114163b44a55a1c78f187d54768c
   url: https://hasura.io/
   display_url: www.hasura.io
   blurb: |
@@ -514,8 +514,9 @@ trustingsocial:
   display_url: www.trustingsocial.com
   blurb: |
     Trusting Social is one of the strongest tech players  in financial inclusion. We apply our algorithms to petabytes of data to identify credit worthiness of individuals, this while protecting their privacy through encrypted and anonymised data exchange on our platform.
-    Our proprietary credit score that sits at the heart of our platform is proven to outperform the current state of the art (measured in terms of GINI score) and enable additional 40% of population getting access to credit. These are people who never had any kind of banking exposure earlier and now are accessible and visible, giving them a great chance at improving their lives. We are building a global credit marketplace with a vision to connect borrowers and lenders on all digital consumption channels. This platform aims to make lending and underwriting a completely digital and predictable workflow, enabling a launchpad for next generation of credit products.
-    We love engineers and product managers with a track record of building awesome technology products. If this excites you,  reach us at knock.knock@trustingsocial.com
+    Our proprietary credit score that sits at the heart of our platform is proven to outperform the current state of the art (measured in terms of GINI score) and enable additional 40% of population getting access to credit. These are people who never had any kind of banking exposure earlier and now are accessible and visible, giving them a great chance at improving their lives. 
+    We are building a global credit marketplace with a vision to connect borrowers and lenders on all digital consumption channels. This platform aims to make lending and underwriting a completely digital and predictable workflow, enabling a launchpad for next generation of credit products.
+    We love engineers and product managers with a track record of building awesome technology products. Visit [https://trustingsocial.com/jobs](https://trustingsocial.com/jobs) to learn more.
 
 circles.life:
   title: "Circles.Life"
@@ -998,7 +999,7 @@ thoughtspot:
      
      ThoughtSpot was co-founded in 2012 by Ajeet Singh, former co-founder and Chief Product Officer at Nutanix, the largest tech IPO of 2016. 
      With a founding team coming from Google, Amazon, and Facebook, ThoughtSpot has raised over $300M in funding from Lightspeed Venture Partners, Khosla Ventures, General Catalyst Partners, Sapphire Ventures, Geodesic Capital, and Capital One Growth Ventures. 
-     The company is headquartered in Palo Alto, with offices in Seattle, London and Bangalore. For more information please visit www.thoughtspot.com.
+     The company is headquartered in Palo Alto, with offices in Seattle, London and Bangalore. For more information please visit [www.thoughtspot.com](https://www.thoughtspot.com).
      
 imagekit:
   title: ImageKit
@@ -1013,3 +1014,78 @@ imagekit:
      ImageKit, is headquartered in Delhi NCR and was started with the aim of making image optimization dead simple and economical at all scales. 
      In the past 2 years, ImageKit has helped companies in different domains - ecommerce, media, travel, fashion, web services etc. - to manage and automate their image infrastructure. With ImageKit, companies have been able to deliver a faster & high-quality experience to their users, improve SEO and conversion rates while cutting down on image delivery costs. We currently help 500+ companies and developers across the globe manage images on their website and apps processing more than 7 billion images every month.
      
+noon-academy:
+  title: Noon Academy
+  logo_url: https://images.hasgeek.com/embed/file/8fe09848d9114466a652e96c760f6712
+  url: https://www.noonacademy.com/
+  display_url: Noonacademy.com
+  blurb: |
+     [Noon Academy](https://www.noonacademy.com/) is one of the fastest growing EdTech startups in the Middle East, with over 1.5 Million registered students. We invest our time and energy in changing how people learn, in making education fun and effective, and in fixing the Private Tutoring mess in our world!
+     We are building the largest SOCIAL learning platform that would make the study experience fun and interactive! Students would learn from their peers, compete with them, and initiate LIVE on-demand tutoring together in their study groups. We’ve validated this, figured out the product-market-fit (with more than 1.5 Million registered users in Saudi and just expanded to Egypt) , and about to close Series A round. It’s time to shoot for massive growth!
+     
+shuttl:
+  title: Shuttl
+  logo_url: https://images.hasgeek.com/embed/file/1a1fa4df28d4461f8deb9c97f4ac5693
+  url: https://ride.shuttl.com/
+  display_url: shuttl.com
+  blurb: |
+     Founded in 2015, Shuttl is India’s largest office commute service provider. With a mission of solving the pain of commute, Shuttl offers a space-efficient, safe, and cost-effective solution for urban India.
+     
+     Shuttl has demonstrated the ability to simultaneously address the dual challenge of congestion and pollution. The company catalyzes a shift away from private vehicles towards shared mobility - a win-win for citizens and cities. It also drives entrepreneurship by providing bus-owners on its platform with the latest technology, better financing, and relevant training, to help them scale and participate in offering a smarter, safer, and greener solution to bus riders.
+     
+     Today, Shuttl serves over 55,000 rides daily in eight cities including Delhi-NCR region, Mumbai, Kolkata, Hyderabad and Pune. It covers 150+ long routes and operates a fleet of 800 buses. It has also been awarded UK’s Ashden Award (2018) and Road Safety Award by FICCI (2017). Shuttl is backed by Sequoia Capital, Amazon Alexa Fund, Times Internet, Lightspeed Ventures and Dentsu Ventures.
+
+alexa:
+  title: Amazon Alexa
+  logo_url: https://images.hasgeek.com/embed/file/300a1e5191b64ebaa34a59d729889fa4
+  url: https://developer.amazon.com/en-in/alexa-skills-kit?&sc_category=Earned&sc_channel=LE&sc_campaign=HasGeek_JSFoo_Workshop&sc_publisher=HasGeek&sc_content=Promotion&sc_funnel=Discover&sc_country=IN&sc_medium=Earned_LE_HasGeek_JSFoo_Workshop_HasGeek_Promotion_Discover_IN_Individuals&sc_segment=Individuals
+  display_url: developer.amazon.com/en-in/alexa-skills-kit
+  blurb: |
+     Amazon Alexa, the cloud based voice service that powers Amazon Echo, provides access to thousands of skills that enable customers to voice control their world, whether it’s listening to music hands free, controlling their smart home devices with a simple ask of “turn on the lights,” setting timers when their hands are busy in the kitchen, listening to the news in the morning as they get ready for work, or even ordering a pizza. 
+     You don’t need to have a background in natural language understanding (NLU) or speech recognition to build great voice experiences for Alexa. Through a series of free, self-service, public APIs like the [Alexa Skills Kit](https://developer.amazon.com/en-in/alexa-skills-kit?&sc_category=Earned&sc_channel=LE&sc_campaign=HasGeek_JSFoo_Workshop&sc_publisher=HasGeek&sc_content=Promotion&sc_funnel=Discover&sc_country=IN&sc_medium=Earned_LE_HasGeek_JSFoo_Workshop_HasGeek_Promotion_Discover_IN_Individuals&sc_segment=Individuals), developers can build new skills for Alexa and integrate Alexa into their products and services.
+     
+techdomain:
+  title: .tech Domain
+  logo_url: https://images.hasgeek.com/embed/file/96571435e3054e85885f5a2bb6c3e481
+  url: https://www.get.tech/
+  display_url: www.get.tech
+  blurb: |
+     .TECH is an exclusive domain extension for those in the technology space. If you are a tech startup, a programmer, a student of technology or provide tech support, .TECH is the domain extension for you to highlight your tech expertise.
+     
+     With 190k+ registrations since its launch and adoption by frontliners such as CES.tech, Viacom.tech, Edgar.tech, .TECH is on its way to become the go-to online identity of thousands of developers, tech influencers and startups.
+     
+     A .TECH domain is a fantastic way to showcase your futuristic ideas and innovation-led mindset. It is definitive, descriptive and establishes who you are with just your website address and establishes you as the builder of the future. 
+     This is precisely why Tech startups, that have raised over $500 million in funding, have chosen .TECH domains. 
+     Yes, the global tech industry is moving towards the new and innovative way of branding their websites by choosing dotTECH domains.
+     
+     What are you waiting for? 
+     
+     Register your dotTech domain NOW. Use code JSFOO18 / METAREFRESH2018 and get 98% off for 1 and 5 year registrations on www.get.tech. Don’t miss out!
+     
+     1 yr - $0.99
+     5 yr - $24.99
+
+
+swiggy:
+  title: Swiggy
+  logo_url: https://images.hasgeek.com/embed/file/daf8ec5ad30a41caa1770d4aaf10bd64
+  url: https://careers.swiggy.com
+  display_url: www.careers.swiggy.com
+  blurb: |
+     Swiggy is the leading food ordering and delivery platform in India. 
+     We are redefining the hyperlocal ecosystem by becoming the most reliable one-stop solution for consumers food needs. 
+     Swiggy’s innovative technology, large and nimble delivery service, and customer focus enable a host of benefits including lightning fast deliveries, live order tracking, no restrictions on minimum order amounts, and strong customer support. 
+     More than 45,000 restaurant partners across 45+ cities, leverage Swiggy to reach new customers and increase their sales.
+     
+flipkart:
+  title: Flipkart FSG
+  logo_url: https://images.hasgeek.com/embed/file/0ba59fd016ed490786e2c8ca12e47df5
+  url: http://www.flipkartcareers.com/technovation.php        
+  display_url: www.flipkartcareers.com/technovation.php
+  blurb: |
+     The Fulfilment Services Group — Flipkart FSG — is the technology wing of Flipkart’s supply chain division, invested in solving some real-world, on-ground logistics challenges. For close to a decade, the FSG Tech group has pioneered innovations in the space of First Mile Experience, Warehousing, Transportation and Last Mile Experience, to name a few, building incremental and scalable solutions suited specifically for the Indian supply chain ecosystem.
+     
+     In the past, FSG Tech has been instrumental in enabling first-of-its-kind services such as Same-Day-Delivery, Next-Day-Delivery, Address Geocoding, Returns Assessment, etc, that’s foundational to the way logistics operate in the current industry.
+     
+     Today, the Flipkart FSG Tech team is all set to lead the next wave of change in the space of supply chain innovation and technology. With more focus on improving customer experiences, innovating for gaps in traditional logistics models, improving workforce engagement and developing the foundation for an organized supply chain ecosystem, we are at the tipping point of the next wave of disruptive change.
+

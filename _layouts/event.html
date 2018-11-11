@@ -161,6 +161,14 @@ layout: base
 </section><hr>
 {% endif %}
 
+{% if page.past_speakers %}
+<section class="section bg-light scroll-horizontal"id="past_speakers">
+  <div class="container">
+  {% include past_speakers_section.html speakers=page.past_speakers %}
+  </div>
+</section><hr>
+{% endif %}
+
 {% if page.discussions %}
 <section class="section bg-light scroll-horizontal"id="dicussions">
   <div class="container">

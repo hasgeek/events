@@ -19,7 +19,7 @@
 			"url": "{{ conf.url }}",
 			"funnel": "{{ conf.funnel }}",
 			"blurb": "{{ conf.blurb }}",
-			"banner": "{{ conf.banner }}",
+			"banner": "{{ conf.banner }}"
 			{%- if conf.color -%}, "color": {{conf.color|jsonify}} {%- endif -%}
 		}
 		{% if forloop.last == false %},{% endif %}

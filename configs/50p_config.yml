@@ -15,6 +15,7 @@ linkedin_tracking_code: 245595
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock

@@ -7,7 +7,27 @@ city: Bangalore
 start_time: 2018-11-10
 end_time: 2018-11-11
 description: "In this workshop, On day 1, you will learn all the concepts required for building API servers with GraphQL. On day 2, you will learn how to leverage Apollo to build complex apps with React and connect to GraphQL servers"
-boxoffice_item_collection: "68d5da5b-959e-4984-b6b6-bd2f3c28145c"
+boxoffice_item_collection: '68d5da5b-959e-4984-b6b6-bd2f3c28145c'
+boxoffice_item_categories:
+  - name: workshop
+    title: Workshop
+    item_ids: 
+      - 0d942c20-548b-4970-8de7-7cda26ce3806
+      - 17d9c90c-b6a9-4b80-ac04-1d6c836b56bd 
+      - 88430997-d62d-41ba-a667-4528f4b04450
+   
+  - name: conference 
+    title: Conference  
+    item_ids:  
+      - a409be67-2cee-4b32-bc30-fbd0f57d4629
+      - 1d908618-a1f7-4cf0-a441-fcb789c625e5
+      - 9dac2014-d893-4b64-a502-43e81c30694b
+ 
+  - name: merchandise  
+    title: Merchandise 
+    item_ids: 
+      - 43896efc-c3d8-4495-9202-222bdf22a775
+
 
 venue:
   label: Great Learning, Bangalore
@@ -28,6 +48,10 @@ instructors:
   byline: Founder, Neostack.
   bio: |
     Kiran Abburi is a freelance developer with 6+ years of experience in web development. He primarily works on reactjs, nodejs and GraphQL projects. He is also an organizer of the Reactjs Bangalore meetup group.
+
+related_events:
+- jsfoo-2018-secure-web-development
+- jsfoo-2018-paceup-with-vue
 
 overview:
   left_content: |

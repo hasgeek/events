@@ -87,7 +87,7 @@
   start_time: 2018-10-26
   end_time: 2018-10-27
   url: https://metarefresh.in/2018/
-  funnel: https://metarefresh.in/2018/
+  funnel: https://metarefresh.talkfunnel.com/2018/
   blurb: On interaction design and CSS from product and business standpoints.
   banner: https://images.hasgeek.com/embed/file/995b8e3afdcc4937b5a2784cdf745bb7
   color:
@@ -223,7 +223,7 @@
 - name: anthillinside-2018
   title: Anthill Inside 2018
   city: Bangalore
-  venue: NIMHANS Convention Center
+  venue: NIMHANS Convention Centre
   google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
   start_time: 2018-07-25
   end_time: 2018-07-25
@@ -285,7 +285,7 @@
 - name: reactfoo-2019
   title: ReactFoo 2019
   city: Bangalore
-  venue: NIMHANS Convention Center
+  venue: NIMHANS Convention Centre
   google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
   start_time: 2019-03-01
   end_time: 2019-03-02
@@ -297,7 +297,7 @@
 - name: logistics-2018
   title: Logistics Conference 2018
   city: Bangalore
-  venue: NIMHANS Convention Center
+  venue: NIMHANS Convention Centre
   google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
   start_time: 2018-11-24
   end_time: 2018-11-24
@@ -309,7 +309,7 @@
 - name: fifthelephant-winter-2019
   title: The Fifth Elephant Winter 2019
   city: Mumbai
-  venue: TBD
+  venue: ISDI ACE, Lower Parel
   start_time: 2019-01-18
   end_time: 2019-01-18
   funnel: https://fifthelephant.talkfunnel.com/winter-edition-2019/
@@ -331,7 +331,7 @@
 - name: fragments-2019
   title: Fragments 2019
   city: Bangalore
-  venue: NIMHANS Convention Center
+  venue: NIMHANS Convention Centre
   google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
   start_time: 2019-03-01
   end_time: 2019-03-02
@@ -339,3 +339,14 @@
   url: https://fragments.in/2019/
   blurb: On future of the Mobile Developement.
   banner: https://images.hasgeek.com/embed/file/ca000328f3824dde84ace578bac83179
+  
+- name: rootconf-209
+  title: Rootconf 2019
+  city: Bangalore
+  venue: NIMHANS Convention Center
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2019-06-21
+  end_time: 2019-06-22
+  url: https://rootconf.in/2019/
+  funnel: https://rootconf.talkfunnel.com/2019/
+  blurb: On infrastructure security, cost optimisation, and distributed syystems.
