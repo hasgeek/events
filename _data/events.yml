@@ -1240,3 +1240,12 @@
   end_time: 2019-01-07 17:00
   url: https://www.comsnets.org/minds_workshop.html
   blurb: "MINDS will discuss and present latest achievements and innovations at the cross-section of machine learning, systems, and networking."
+
+- name: state-of-the-map-asia
+  title: "State of the Map Asia 2018"
+  city: Bangalore
+  venue: IIM, Bangalore
+  start_time: 2018-11-17 08:30
+  end_time: 2018-11-18 16:30
+  url: https://stateofthemap.asia
+  blurb: "Learn about mapping, meet community and industry leaders, and get involved with the OpenStreetMap project.The program over two days feature keynotes, workshops, and talks about mapping stories, technical and policy challenges from across the region."
