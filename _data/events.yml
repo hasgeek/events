@@ -1223,6 +1223,15 @@
   url: https://codewar.splashthat.com/
   blurb: "Narvar welcomes passionate coders for a coding contest. This is followed by networking, drinks, food, goodies for all and some cool WINS!"
 
+- name: secrets-productive-programmer
+  title: "Devopedia Talk: Secrets to Becoming a Productive Programmer"
+  city: Bangalore
+  venue: WeWork EGL, Bangalore
+  start_time: 2018-11-21 17:00
+  end_time: 2018-11-21 19:00
+  url: https://www.meetup.com/Devopedia/events/255761621/
+  blurb: "Get better in your daily work as a programmer: Thinking, Coding, Verifying, Debugging, Learning. A talk followed by Q&A."
+
 - name: minds-workshop
   title: "Workshop on Machine Learning in Networked Data and Systems"
   city: Bangalore
