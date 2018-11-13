@@ -110,6 +110,11 @@ sponsor:
     sponsors:
     - flipkart
 
+  - title: "Silver Sponsor"
+    size: "l"
+    sponsors:
+    - shuttl
+
   - title: "Bronze Sponsor"
     size: "l"
     sponsors:
