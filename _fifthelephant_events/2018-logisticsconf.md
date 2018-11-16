@@ -116,11 +116,6 @@ featured_speakers:
     talk_title: "Virtual assistant for hiring last-mile workforce"
     name: Piyush Makhija
 
-
-hasjob:
-  url: https://fifthelephant.hasjob.co
-  limit: 8
-
 sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach, sales and hiring.
