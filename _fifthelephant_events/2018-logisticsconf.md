@@ -16,7 +16,7 @@ funnel:
 schedule:
   url: "https://fifthelephant.talkfunnel.com/logistics-conf-2018/schedule"
   json_url: "https://fifthelephant.talkfunnel.com/logistics-conf-2018/schedule/json"
-  type: "conference"  
+  type: "conference"
 featured: true
 featured_image: https://images.hasgeek.com/embed/file/9ab895ef4ce24b1cb8f43f8b20619593
 banner: https://images.hasgeek.com/embed/file/64ad91e3789c482ea9f3bb87456545dd
@@ -40,16 +40,22 @@ hasgeektv-event-playlist-link:
    url: https://hasgeek.tv/fifthelephant/
 overview:
   left_content: |
-    **Logistics in Mobility Conference by The Fifth Elephant will focus on the following domains:**
 
-    1. The landscape (literally), and interesting problems to solve for logistics – be they supply-chain management, warehousing, transportation, delivery of goods and services or fleet management.
-    2. Complexities in current technology and processes for collecting, managing and updating geo-spatial data
-    3. Areas of collaboration and cooperation between industry, startups and government – including municipalities, urban planning and infrastructure.
+    Logistics in Mobility conference will have Product managers, senior engineers and data scientists from different companies working in the domain of logistics and mobility. These experts and practitioners will talk about how they're approaching the following challenges:
 
+    *  Managing uniqueness of address and location data in India in delivering goods.
+    * Effectiveness and costs of using different maps APIs and services.
+    * The role of internal and external facing visualizations to plan resources for logistics (and to prepare teams).
+    * Use of ML and AI to solve problems in fleet management.
+    * Fulfilling demand.
+    * War stories in operations -- and what are lessons to be learned in the interplay of technological solutions and human intent and planning.
+    * Solving the problem of last mile connectivity.
+
+    The Logistics in Mobility conference is a journey of recognizing issues underlying mapping, location data and their relationship with mobility and logistics.
 
     ### Target Audience:
 
-    **You should attend and/or speak at the conference if your work involves:**
+    **You should attend the conference if your work involves:**
 
     * Product development for fleet management.
     * Operational challenges with respect to fleet management.
@@ -63,25 +69,23 @@ overview:
 
 
   right_content: |
+    **The conference covers different aspects of logistics such as:**
+    1. The problem of address and location data.
+    2. Evaluating the use of mapping APIs and services such as OSM, Google Maps, etc.
 
+    The talks are on how the problems were approached and how they might affect use-cases. The goal is to facilitate problem-solving and ideation, while also promoting conversations around technical architecture and solutions.
 
-    ### You should attend Logistics in Mobility Conference if you work in the following domains:
+    Birds of a Feather (BoF) sessions on problems to solve for last mile connectivity, war stories in operations will help you think of product approaches and ideas for your business. These include:
 
-    * Product managers
-    * Division and business heads
-    * Data scientists
-    * Senior Engineers
-    * Technical leads
-    * VPs of Engineering
-    * Representatives from municipalities, urban planning and transportation departments
-    * Geo-spatial data experts
-    * CEOs and founders of startups working in the space of logistics, fleet management, e-commerce and retail, and mobility
-    * Technology heads and VPs of companies operating in the logistics space
+      * How location and address problems affect your use case? How have you approached these problems?
+      * Comparing GIS map providers.
+      * Solving last mile problems in logistics, fleet management and mobility.
+      * Your use case and how you have approached the problem of supply chain, warehousing and demand fulfillment?
+      * Operations War stories - where tech assits and where tech fails.
 
-fixed_announcements:
-- recommend_speaker
-- community_space
-- food_court
+hasjob:
+  url: https://fifthelephant.hasjob.co
+  limit: 8
 
 featured_speakers:
   - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/3-using-visualizations-for-addressing-fleet-manageme
@@ -89,9 +93,26 @@ featured_speakers:
     talk_title: "Using Visualizations for addressing fleet management problems"
     image_url: https://images.hasgeek.com/embed/file/031393e303674d33bee6620ae0f4718c
     name: Jayaram Kasi
-hasjob:
-  url: https://fifthelephant.hasjob.co
-  limit: 8
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/8-daily-run-sheet-is-not-a-daily-manual-work-anymore
+    designation: Data Scientist, GO-JEK
+    talk_title: "Daily run sheet is not a daily manual work anymore"
+    image_url: https://images.hasgeek.com/embed/file/02c4e3a47abc4bb3ac2f71ceca5b42fd
+    name: Divya Choudhary
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/14-perfect-grocery-deliveries-solving-location-proble
+    designation: Senior Product Manager, Flipkart
+    talk_title: "Perfect grocery deliveries: Solving location problem of India"
+    image_url: https://images.hasgeek.com/embed/file/b1da8e3b92b045daa3fcb19d8ffd3f01
+    name: Aditya Madan
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/6-sales-fleet-transformation-and-optimisation
+    designation: Data Scientist, Locus.sh
+    talk_title: "Sales fleet transformation and optimisation"
+    image_url: https://images.hasgeek.com/embed/file/5f70607b83d4487a9589d2b479fbfd74
+    name: Rahul Jain
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/10-virtual-assistant-for-hiring-last-mile-workforce
+    designation: Machine Learning Engineer, Vahan Inc.
+    image_url: https://images.hasgeek.com/embed/file/f4dca9d59e59452e96837a4ab4dc040e
+    talk_title: "Virtual assistant for hiring last-mile workforce"
+    name: Piyush Makhija
 
 sponsor:
   blurb: |
