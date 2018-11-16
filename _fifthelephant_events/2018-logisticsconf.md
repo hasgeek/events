@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Logistics in Mobility Conference"
+title: Logistics in Mobility Conference
 subtitle: "The Fifth Elephant presents the first edition of Logistics in Mobility Conference"
 datelocation: "24 November, NIMHANS Convention Centre, Bangalore"
 city: Bangalore
@@ -40,6 +40,7 @@ hasgeektv-event-playlist-link:
    url: https://hasgeek.tv/fifthelephant/
 overview:
   left_content: |
+
     Logistics in Mobility conference will have Product managers, senior engineers and data scientists from different companies working in the domain of logistics and mobility. These experts and practitioners will talk about how they're approaching the following challenges:
 
     *  Managing uniqueness of address and location data in India in delivering goods.
@@ -51,7 +52,6 @@ overview:
     * Solving the problem of last mile connectivity.
 
     The Logistics in Mobility conference is a journey of recognizing issues underlying mapping, location data and their relationship with mobility and logistics.
-
 
     ### Target Audience:
 
@@ -69,8 +69,6 @@ overview:
 
 
   right_content: |
-
-
     **The conference covers different aspects of logistics such as:**
     1. The problem of address and location data.
     2. Evaluating the use of mapping APIs and services such as OSM, Google Maps, etc.
