@@ -51,30 +51,27 @@ overview:
     * War stories in operations -- and what are lessons to be learned in the interplay of technological solutions and human intent and planning.
     * Solving the problem of last mile connectivity.
 
-    The Logistics in Mobility conference is a journey of recognizing issues underlying mapping, location data and their relationship with mobility and logistics.
-
     ### Target Audience:
 
     **You should attend the conference if your work involves:**
 
-    * Product development for fleet management.
-    * Operational challenges with respect to fleet management.
+    * Product development for logistics.
+    * Operational challenges with respect to logistics.
     * Solutions for on demand availability of vehicles to participate in a ridesharing networks.
-    * Data science for fleet management.
-    * Engineering for fleet management
+    * Data science & Engineering for logistics and fleet management.
     * “Shared mobility” – including cab aggregators, car pooling, metros, buses, shuttles, etc
     * India-specific challenges in traffic management and congestion.
     * India-specific challenges with respect to address standardisation.
     * AI-based solutions in transportation space.
 
-
   right_content: |
-    **The conference covers different aspects of logistics such as:**
-    1. The problem of address and location data.
-    2. Evaluating the use of mapping APIs and services such as OSM, Google Maps, etc.
 
+    ### Format of the conference
+
+    #### Talks
     The talks are on how the problems were approached and how they might affect use-cases. The goal is to facilitate problem-solving and ideation, while also promoting conversations around technical architecture and solutions.
 
+    #### Discussions
     Birds of a Feather (BoF) sessions on problems to solve for last mile connectivity, war stories in operations will help you think of product approaches and ideas for your business. These include:
 
       * How location and address problems affect your use case? How have you approached these problems?
@@ -113,6 +110,11 @@ featured_speakers:
     image_url: https://images.hasgeek.com/embed/file/f4dca9d59e59452e96837a4ab4dc040e
     talk_title: "Virtual assistant for hiring last-mile workforce"
     name: Piyush Makhija
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/13-predicting-order-batchability
+    designation: Senior Data Scientist, Swiggy
+    image_url: https://images.hasgeek.com/embed/file/b5db80207f704ce380117349aeaef6f7
+    talk_title: "Predicting order batchability"
+    name: Sunil Rathee
 
 sponsor:
   blurb: |
