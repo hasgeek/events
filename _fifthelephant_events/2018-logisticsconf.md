@@ -145,9 +145,7 @@ sponsor:
     - e2enetworks
 
   - title: "Community Partner"
-    size: "m"
+    size: "l"
     sponsors:
-    - numa
-    - thoughtfactory
-
+    - headstart
 ---
