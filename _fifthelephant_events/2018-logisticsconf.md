@@ -115,6 +115,21 @@ featured_speakers:
     image_url: https://images.hasgeek.com/embed/file/b5db80207f704ce380117349aeaef6f7
     talk_title: "Predicting order batchability"
     name: Sunil Rathee
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/9-revenue-maximisation-from-pedl-trips-using-network
+    designation: Associate Director, Data Science, Zoomcar
+    image_url: https://images.hasgeek.com/embed/file/f9778463f9f24e1499ab2cb61a26b54e
+    talk_title: "Revenue maximisation from PEDL trips using network analysis and geospatial mapping"
+    name: Arpit Agarwal
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/15-supply-chain-network-intelligence-orchestration
+    designation: Director of Products, Flipkart
+    image_url: https://images.hasgeek.com/embed/file/1f4f53b53e2249f49043dbb5484ee067
+    talk_title: "Supply chain: Network intelligence and orchestration"
+    name: Senthil M
+  - funnel_url:
+    designation: Co-Founder and CTO, ShadowFax
+    image_url: https://images.hasgeek.com/embed/file/c86fd835ba52415c9405c2e36c4cfd9e
+    talk_title: "Product Development for fleet management"
+    name: Vaibhav Khandelwal
 
 sponsor:
   blurb: |
