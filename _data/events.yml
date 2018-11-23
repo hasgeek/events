@@ -1,4 +1,13 @@
 - name: CTOTalk by OrangeScape
+  title: CTOTalk with Walmart Labs
+  city:  Chennai
+  venue: OrangeScape, Tidel Park, Chennai
+  start_time: 2018-12-08 10:30
+  end_time: 2018-12-08 13:00
+  url: https://in.explara.com/e/ctotalk-with-walmart-labs
+  blurb: Talk by Hari Vasudev on the "Future of Tech in Retail"
+  
+- name: CTOTalk by OrangeScape
   title: CTOTalk with Swiggy's Rahul Jaimini
   city:  Chennai
   venue: OrangeScape, Tidel Park, Chennai
