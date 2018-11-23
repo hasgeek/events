@@ -163,4 +163,5 @@ sponsor:
     size: "l"
     sponsors:
     - headstart
+    - yourstory
 ---
