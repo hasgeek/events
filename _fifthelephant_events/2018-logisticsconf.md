@@ -7,7 +7,6 @@ city: Bangalore
 start_time: 2018-11-24
 end_time: 2018-11-24
 description: "Logistics in Mobility Conference by The Fifth Elephant explores the domain and landscape of Logisitcs and supply chain management."
-boxoffice_item_collection: "84fe117d-5dfd-4032-a607-87373f213732"
 logo:
   image_url: https://images.hasgeek.com/embed/file/9ab895ef4ce24b1cb8f43f8b20619593
 funnel:
@@ -27,8 +26,8 @@ venue:
   google_maps_url: https://goo.gl/maps/K2LFmAcdrWB2
 
 youtube_url:
-    title: "Popular video from The Fifth Elephant 2018"
-    youtube_embed: https://www.youtube.com/embed/oLiEv-cM_yI
+    title: "View talks from Logistics in Mobility Conf 2018"
+    youtube_embed: https://www.youtube.com/embed/ctRUSQ5DKmE
 
 related_events:
 - title: "The Fifth Elephant Winter 2019"
@@ -37,9 +36,10 @@ related_events:
   description: The winter edition of India's most renowned conference on big data and data science.
 
 hasgeektv-event-playlist-link:
-   url: https://hasgeek.tv/fifthelephant/
+   url: https://hasgeek.tv/fifthelephant/logistics-in-mobility-conf-2018
 overview:
   left_content: |
+    **Logistics in Mobility Conf 2018 is now over. For more events, check out [hasgeek.com](https://hasgeek.com). View all the talks on [HasGeek TV](https://hasgeek.tv/fifthelephant/logistics-in-mobility-conf-2018).**
 
     Logistics in Mobility conference will have Product managers, senior engineers and data scientists from different companies working in the domain of logistics and mobility. These experts and practitioners will talk about how they're approaching the following challenges:
 
