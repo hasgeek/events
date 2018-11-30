@@ -677,9 +677,9 @@ elastic:
   url: https://www.elastic.co/
   display_url: www.elastic.co
   blurb: |
-    Elastic is the world’s leading software provider for making structured and unstructured data usable in real time for use cases like search, logging, security, and analytics.
-    Founded in 2012 by the people behind the Elasticsearch, Kibana, Beats, and Logstash open source projects, the Elastic Stack, X-Pack, and Elastic Cloud have had more than 100 million cumulative downloads to date.
-    Elastic is backed by Benchmark Capital, Index Ventures, and NEA with headquarters in Amsterdam and Mountain View, California, and offices and employees around the world. To learn more, visit [www.elastic.co](https://www.elastic.co/).
+    Elastic is a search company. As the creators of the Elastic Stack (Elasticsearch, Kibana, Beats, and Logstash), Elastic builds self-managed and SaaS offerings that make data usable in real time and at scale for search, logging, security, and analytics use cases. 
+    Since its founding in 2012, there have been more than 350 million cumulative downloads of Elastic software. The Elastic community is 100,000 members strong. Thousands of organizations worldwide, including Cisco, eBay, Goldman Sachs, Microsoft, The Mayo Clinic, NASA, The New York Times, Wikipedia, and Verizon, use Elastic to power mission-critical systems. 
+    Elastic is a distributed company with more than 1,000 Elasticians working in 30 countries. Learn more at [elastic.co](https://www.elastic.co/).  
 
 dhn:
   title: "Daily Host News"
