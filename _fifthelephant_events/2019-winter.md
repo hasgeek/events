@@ -103,4 +103,10 @@ sponsor:
     size: "l"
     sponsors:
     - isdi
+
+  - title: "Community sponsor"
+    size: "l"
+    sponsors:
+    - elastic
+
 ---
