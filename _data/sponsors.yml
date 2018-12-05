@@ -677,9 +677,9 @@ elastic:
   url: https://www.elastic.co/
   display_url: www.elastic.co
   blurb: |
-    Elastic is the world’s leading software provider for making structured and unstructured data usable in real time for use cases like search, logging, security, and analytics.
-    Founded in 2012 by the people behind the Elasticsearch, Kibana, Beats, and Logstash open source projects, the Elastic Stack, X-Pack, and Elastic Cloud have had more than 100 million cumulative downloads to date.
-    Elastic is backed by Benchmark Capital, Index Ventures, and NEA with headquarters in Amsterdam and Mountain View, California, and offices and employees around the world. To learn more, visit [www.elastic.co](https://www.elastic.co/).
+    Elastic is a search company. As the creators of the Elastic Stack (Elasticsearch, Kibana, Beats, and Logstash), Elastic builds self-managed and SaaS offerings that make data usable in real time and at scale for search, logging, security, and analytics use cases. 
+    Since its founding in 2012, there have been more than 350 million cumulative downloads of Elastic software. The Elastic community is 100,000 members strong. Thousands of organizations worldwide, including Cisco, eBay, Goldman Sachs, Microsoft, The Mayo Clinic, NASA, The New York Times, Wikipedia, and Verizon, use Elastic to power mission-critical systems. 
+    Elastic is a distributed company with more than 1,000 Elasticians working in 30 countries. Learn more at [elastic.co](https://www.elastic.co/).  
 
 dhn:
   title: "Daily Host News"
@@ -1104,3 +1104,14 @@ yourstory:
   display_url: yourstory.com
   blurb: |
     YourStory is the gateway to India’s entrepreneurs, with deep relationships across the ecosystem and millions of engaged readers. The platform’s clients include industry leaders like GE, Adobe, SAP, Microsoft, Vodafaone, Amazon Stanford University. YourStory is backed by marquee investors that include Ratan Tata & UC Berkeley (UC-RNT), Kalaari Capital, Qualcomm Ventures, and 3one4 Capital.
+
+optymyze:
+  title: Optymyze
+  logo_url: https://images.hasgeek.com/embed/file/15ce11871f36420084e8c6913d8ddb15
+  url: https://optymyze.com/
+  display_url: www.optymyze.com
+  blurb: |
+     Optymyze provides a comprehensive set of SPM solutions—including the management of sales compensation, sales quotas, sales territories, and sales objectives—that leverage a unique business model. 
+     Optymyze delivers cloud applications, setup services, and on-going strategic planning and operational support services. Named as a Leader for the third consecutive year, Optymyze is distinguished itself through agile operations, a strong business model, and excellent market execution. 
+     With zero client churn since its founding five years ago, Optymyze is known for high levels of client satisfaction.
+

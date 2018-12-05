@@ -122,8 +122,14 @@ sponsor:
     Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com)
   sponsorship_deck_url: 'https://hsgk.in/Mumbai_Fifthel2NxB9jW'
   sponsors:
-  - title: "Venue Partner"
+  - title: "Community sponsor"
     size: "l"
     sponsors:
+    - elastic
+
+  - title: "Venue Partner"
+    size: "m"
+    sponsors:
     - isdi
+
 ---
