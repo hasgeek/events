@@ -31,6 +31,20 @@ schedule:
 
 banner: https://images.hasgeek.com/embed/file/64ad91e3789c482ea9f3bb87456545dd
 
+accommodation:
+  blurb: |
+    Treebo has provided us with recommendations of two properties close to the event venue
+
+  accommodations:
+  - title: Treebo anam International
+    location: Grant Road, Mumbai
+    distance: 5.3km, ~20 minutes from venue
+    url: https://www.google.com/maps/dir/Treebo+Anam+International+-+Near+Mumbai+Central,+PG+Solanki+Path,+Grant+Road+East,+Bharat+Nagar,+Grant+Road,+Mumbai,+Maharashtra/ISDI+ACE,+Tulsi+Pipe+Road,+Saidham+Nagar,+Lower+Parel,+Mumbai,+Maharashtra/@18.9872377,72.79401,13z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3be7ce6d3f032f45:0x698859845891edc6!2m2!1d72.8185241!2d18.9654189!1m5!1m1!1s0x3be7ceebe3b97807:0x7ea1ad99fa83fd8c!2m2!1d72.833581!2d19.0071418
+  - title: Treebo Rosewood
+    location: Tulsiwadi Lane, Mumbai
+    distance: 5.7km, ~15 minutes from venue
+    url: https://www.google.com/maps/dir/Treebo+Rosewood+Mumbai+Central,+Arya+Nagar,+Tulsiwadi,+Tardeo,+Mumbai,+Maharashtra/ISDI+ACE,+Tulsi+Pipe+Road,+Saidham+Nagar,+Lower+Parel,+Mumbai,+Maharashtra/@18.9894356,72.8062044,14z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3be7ce704d1637e1:0x23eda1d1ff3af58b!2m2!1d72.8157658!2d18.9726004!1m5!1m1!1s0x3be7ceebe3b97807:0x7ea1ad99fa83fd8c!2m2!1d72.833581!2d19.0071418
+
 overview:
   left_content: |
 
