@@ -10,8 +10,8 @@ description: "A mini conference on Machine Learning and Deep Learning concepts, 
 logo:
   image_url: /images/anthillinside-logo.svg
 schedule:
-  url: "https://anthillinside.talkfunnel.com/2017-miniconf-pune/schedule"
-  json_url: "https://anthillinside.talkfunnel.com/2017-miniconf-pune/schedule/json"
+  url: "https://hasgeek.com/anthillinside/2017-miniconf-pune/schedule"
+  json_url: "https://hasgeek.com/anthillinside/2017-miniconf-pune/schedule/json"
   type: "conference"
 
 boxoffice_item_collection: "4c802769-6687-471a-8c05-2b98aa49a9b4"
@@ -58,35 +58,35 @@ overview:
 featured_speakers:
 - name: Harshad Saykhedkar
   talk_title: "Bayesian methods in data analysis, an introduction"
-  funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/2-bayesian-methods-in-data-analysis-an-introduction
+  funnel_url: https://hasgeek.com/anthillinside/2017-miniconf-pune/2-bayesian-methods-in-data-analysis-an-introduction
   designation: Head of data science, onlinesales.ai
   image_url: 
   blurb:
   
 - name: Vishal Gokhale
   talk_title: "(Not so) Straight (!) fun with Linear Regression"
-  funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/4-not-so-straight-fun-with-linear-regression
+  funnel_url: https://hasgeek.com/anthillinside/2017-miniconf-pune/4-not-so-straight-fun-with-linear-regression
   designation: Data Scientist
   image_url: 
   blurb:
   
 - name: Ajay Kelkar
   talk_title: "Analytics without paralysis!"
-  funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/10-analytics-without-paralysis 
+  funnel_url: https://hasgeek.com/anthillinside/2017-miniconf-pune/10-analytics-without-paralysis 
   designation: Data Entrepreneur and co-founder, Hansa Cequity
   image_url: 
   blurb:
 
 - name: Saurabh Agarwal
   talk_title: "Inference in Deep Neural Networks"
-  funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/5-inference-in-deep-neural-networks
+  funnel_url: https://hasgeek.com/anthillinside/2017-miniconf-pune/5-inference-in-deep-neural-networks
   designation: Machine learning engineer, MAD Street Den
   image_url: 
   blurb:
   
 - name: Leelavati Narlikar
   talk_title: "Machine Learning in Molecular Biology"
-  funnel_url: https://anthillinside.talkfunnel.com/2017-miniconf-pune/9-machine-learning-in-molecular-biology
+  funnel_url: https://hasgeek.com/anthillinside/2017-miniconf-pune/9-machine-learning-in-molecular-biology
   designation: Scientist, National Chemical Laboratory, Pune
   image_url: 
   blurb:  
