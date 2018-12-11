@@ -10,11 +10,11 @@ description: "Cloud server management brings with it as many challenges as it of
 rsvp: |
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTsvltrvUf_J04UEuI53AILh3FvYMsWLZwwJz3RJOPQ8tzeA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 funnel:
-  url: "https://hasgeek.com/rootconf/cloud-server-management-miniconf-2017/"
+  url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-2017/"
   open: false
 schedule:
-  url: "https://hasgeek.com/rootconf/cloud-server-management-miniconf-new-delhi-2017/schedule"
-  json_url: "https://hasgeek.com/rootconf/cloud-server-management-miniconf-new-delhi-2017/schedule/json"
+  url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-new-delhi-2017/schedule"
+  json_url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-new-delhi-2017/schedule/json"
   type: "conference"
 related_events:
 - rootconf-2017-cloud-server-management-miniconf

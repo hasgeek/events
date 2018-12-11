@@ -18,11 +18,11 @@ venue:
 
 boxoffice_item_collection: "066a9093-6995-434c-8cf9-91c3a5769759"
 funnel:
-  url: "https://hasgeek.com/reactfoo/2018-mumbai/"
+  url: "https://reactfoo.talkfunnel.com/2018-mumbai/"
   open: false
 schedule:
-  url: "https://hasgeek.com/reactfoo/2018-mumbai/schedule"
-  json_url: "https://hasgeek.com/reactfoo/2018-mumbai/schedule/json"
+  url: "https://reactfoo.talkfunnel.com/2018-mumbai/schedule"
+  json_url: "https://reactfoo.talkfunnel.com/2018-mumbai/schedule/json"
   type: "conference"
 
 related_events:

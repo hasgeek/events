@@ -9,11 +9,11 @@ end_time: 2017-12-08
 description: "Cloud server management brings with it as many challenges as it offers conveniences. It is time to unbundle questions on resource allocation, scaling, security, and more."
 boxoffice_item_collection: "416a6332-3d84-4986-b25e-d566eb7ab066"
 funnel:
-  url: "https://hasgeek.com/rootconf/cloud-server-management-miniconf-2017/"
+  url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-2017/"
   open: false
 schedule:
-  url: "https://hasgeek.com/rootconf/cloud-server-management-miniconf-mumbai-2017/schedule"
-  json_url: "https://hasgeek.com/rootconf/cloud-server-management-miniconf-mumbai-2017/schedule/json"
+  url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-mumbai-2017/schedule"
+  json_url: "https://rootconf.talkfunnel.com/cloud-server-management-miniconf-mumbai-2017/schedule/json"
   type: "conference"
 related_events:
 - rootconf-2017-cloud-server-management-miniconf
