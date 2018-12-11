@@ -6,7 +6,7 @@
   start_time: 2017-07-08
   end_time: 2017-07-08
   url: https://50p.in/devpay2017/
-  funnel: https://50p.talkfunnel.com/building-reliable-payment-systems-2017/
+  funnel: https://hasgeek.com/50p/building-reliable-payment-systems-2017/
   blurb: Revisiting the payments ecosystem in India.
   color:
     primary: "#826995"
@@ -35,7 +35,7 @@
   start_time: 2017-07-29
   end_time: 2017-07-29
   url: https://anthillinside.in/2017/
-  funnel: https://anthillinside.talkfunnel.com/2017/
+  funnel: https://hasgeek.com/anthillinside/2017/
   blurb: The new avatar of last year’s Deep Learning Conf. It is a spin off of The Fifth Elephant that focuses specifically on deep learning and artificial intelligence, attempting to bridge the gap and bring theoretical advances closer to functioning reality.
   color:
     primary: "#3f50a3"
@@ -50,7 +50,7 @@
   start_time: 2017-09-15
   end_time: 2017-09-16
   url: https://jsfoo.in/2017/
-  funnel: https://jsfoo.talkfunnel.com/2017/
+  funnel: https://hasgeek.com/jsfoo/2017/
   blurb: Our annual conference on JavaScript. This year, the focus is on building reliable web apps.
   color:
     primary: "#549eaf"
@@ -65,7 +65,7 @@
   start_time: 2017-09-12
   end_time: 2017-09-13
   url: https://fragments.in/2017/
-  funnel: https://fragments.talkfunnel.com/2017/
+  funnel: https://hasgeek.com/fragments/2017/
   blurb: Our new conference on the mobile ecosystem in India. Fragments aims to bring together professionals working across the spectrum of mobile applications. Whether Android, iOS, mobile websites, or progressive web apps.
 
 - name: reactfoo-2017
@@ -76,7 +76,7 @@
   start_time: 2017-09-14
   end_time: 2017-09-14
   url: https://reactfoo.in/2017/
-  funnel: https://reactfoo.talkfunnel.com/2017/
+  funnel: https://hasgeek.com/reactfoo/2017/
   blurb: Our new conference on the state of React in India. We’ll have more news on this in the coming weeks.
 
 - name: metarefresh-2018
@@ -87,7 +87,7 @@
   start_time: 2018-10-26
   end_time: 2018-10-27
   url: https://metarefresh.in/2018/
-  funnel: https://metarefresh.talkfunnel.com/2018/
+  funnel: https://hasgeek.com/metarefresh/2018/
   blurb: On interaction design and CSS from product and business standpoints.
   banner: https://images.hasgeek.com/embed/file/995b8e3afdcc4937b5a2784cdf745bb7
   color:
@@ -116,7 +116,7 @@
   venue: To be announced
   start_time: 2018-01-19
   end_time: 2018-01-20
-  funnel: https://reactfoo.talkfunnel.com/2018-pune/
+  funnel: https://hasgeek.com/reactfoo/2018-pune/
   url: https://reactfoo.in/2018-pune/
   blurb: A conference on the lessons learned while implememting React and React Native.
 
@@ -126,7 +126,7 @@
   venue: To be announced
   start_time: 2017-11-24
   end_time: 2017-11-24
-  funnel: https://anthillinside.talkfunnel.com/2017-miniconf-pune/
+  funnel: https://hasgeek.com/anthillinside/2017-miniconf-pune/
   url: https://anthillinside.in/2017-miniconf-pune/
   blurb: "A mini conference on Machine Learning, Deep Learning and Artificial Intelligence: concepts, applications and tools."
   color:
@@ -140,7 +140,7 @@
   venue: NIMHANS, Bangalore
   start_time: 2018-02-08
   end_time: 2018-02-09
-  funnel: https://50p.talkfunnel.com/2018/
+  funnel: https://hasgeek.com/50p/2018/
   url: https://50p.in/2018/
   blurb: "India’s first independent conference on payments and the payment ecosystem."
   color:
@@ -154,7 +154,7 @@
   venue: To be announced
   start_time: 2017-11-25
   end_time: 2017-11-25
-  funnel: https://rootconf.talkfunnel.com/cloud-server-management-miniconf-2017/
+  funnel: https://hasgeek.com/rootconf/cloud-server-management-miniconf-2017/
   url: https://rootconf.in/2017-cloud-server-management-miniconf/
   blurb: "Cloud server management brings with it as many challenges as it offers conveniences."
   color:
@@ -168,7 +168,7 @@
   venue: To be announced
   start_time: 2017-12-08
   end_time: 2017-12-08
-  funnel: https://rootconf.talkfunnel.com/cloud-server-management-miniconf-2017/
+  funnel: https://hasgeek.com/rootconf/cloud-server-management-miniconf-2017/
   url: https://rootconf.in/2017-cloud-server-management-miniconf-mumbai/
   blurb: "Cloud server management brings with it as many challenges as it offers conveniences."
   color:
@@ -182,7 +182,7 @@
   venue: Investopad
   start_time: 2018-01-20
   end_time: 2018-01-20
-  funnel: https://rootconf.talkfunnel.com/cloud-server-management-miniconf-2017/
+  funnel: https://hasgeek.com/rootconf/cloud-server-management-miniconf-2017/
   url: https://rootconf.in/2017-cloud-server-management-miniconf-delhi-ncr/
   blurb: "Cloud server management brings with it as many challenges as it offers conveniences."
   color:
@@ -198,7 +198,7 @@
   start_time: 2018-05-10
   end_time: 2018-05-11
   url: https://rootconf.in/2018/
-  funnel: https://rootconf.talkfunnel.com/2018/
+  funnel: https://hasgeek.com/rootconf/2018/
   blurb: India's principal conference on devops and infrastucture.
   color:
     primary: "#826995"
@@ -213,7 +213,7 @@
   start_time: 2018-07-26
   end_time: 2018-07-27
   url: https://fifthelephant.in/2018/
-  funnel: https://fifthelephant.talkfunnel.com/2018/
+  funnel: https://hasgeek.com/fifthelephant/2018/
   blurb: The seventh edition of India's best conference on big data and machine learning.
   color:
     primary: "#68bec1"
@@ -228,7 +228,7 @@
   start_time: 2018-07-25
   end_time: 2018-07-25
   url: https://anthillinside.in/2018/
-  funnel: https://anthillinside.talkfunnel.com/2018/
+  funnel: https://hasgeek.com/anthillinside/2018/
   blurb: A conference on deep learning and artificial intelligence.
   color:
     primary: "#3f50a3"
@@ -243,7 +243,7 @@
   start_time: 2018-10-26
   end_time: 2018-10-27
   url: https://jsfoo.in/2018/
-  funnel: https://jsfoo.talkfunnel.com/2018/
+  funnel: https://hasgeek.com/jsfoo/2018/
   blurb: The eighth edition of India’s first JavaScript conference.
   banner: https://images.hasgeek.com/embed/file/10acd7709d8e45b598ea107ff29a985e
   color:
@@ -257,7 +257,7 @@
   venue: To be announced
   start_time: 2018-03-17
   end_time: 2018-03-17
-  funnel: https://reactfoo.talkfunnel.com/2018-hyd/
+  funnel: https://hasgeek.com/reactfoo/2018-hyd/
   url: https://reactfoo.in/2018-hyderabad/
   blurb: A conference on the lessons learned while implememting React and React Native.
 
@@ -268,7 +268,7 @@
   venue: ISDI ACE, Lower Parel, Mumbai
   start_time: 2018-05-26
   end_time: 2018-05-26
-  funnel: https://reactfoo.talkfunnel.com/2018-mumbai/
+  funnel: https://hasgeek.com/reactfoo/2018-mumbai/
   url: https://reactfoo.in/2018-mumbai/
   blurb: A conference on the lessons learned while implememting React and React Native.
 
@@ -278,7 +278,7 @@
   venue: IIC, Max Mueller Marg, New Delhi
   start_time: 2018-08-18
   end_time: 2018-08-18
-  funnel: https://reactfoo.talkfunnel.com/2018-delhi/
+  funnel: https://hasgeek.com/reactfoo/2018-delhi/
   url: https://reactfoo.in/2018-delhi/
   blurb: A conference on the lessons learned while implememting React and React Native.
 
@@ -289,7 +289,7 @@
   google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
   start_time: 2019-03-01
   end_time: 2019-03-02
-  funnel: https://reactfoo.talkfunnel.com/2019/
+  funnel: https://hasgeek.com/reactfoo/2019/
   url: https://reactfoo.in/2019/
   blurb: A conference on the lessons learned while implementing React and React Native.
   banner: https://images.hasgeek.com/embed/file/e924fc223b8548f8a5dae6d49a8c4437
@@ -301,7 +301,7 @@
   google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
   start_time: 2018-11-24
   end_time: 2018-11-24
-  funnel: https://fifthelephant.talkfunnel.com/logistics-conf-2018/
+  funnel: https://hasgeek.com/fifthelephant/logistics-conf-2018/
   url: https://fifthelephant.in/2018-logisticsconf/
   blurb: The Fifth Elephant presents the first edition of Logistics conference.
 
@@ -312,7 +312,7 @@
   venue: ISDI ACE, Lower Parel
   start_time: 2019-01-18
   end_time: 2019-01-18
-  funnel: https://fifthelephant.talkfunnel.com/winter-edition-2019/
+  funnel: https://hasgeek.com/fifthelephant/winter-edition-2019/
   url: https://fifthelephant.in/2019-winter/
   blurb: The winter 2019 edition of India's best conference on big data and machine learning.
   banner: https://images.hasgeek.com/embed/file/c782f6a5e5034bcd810acded5bf6879d
@@ -323,7 +323,7 @@
   venue: MCCIA Trade tower, Pune
   start_time: 2019-01-10
   end_time: 2019-01-10
-  funnel: https://jsfoo.talkfunnel.com/2019-pune/
+  funnel: https://hasgeek.com/jsfoo/2019-pune/
   url: https://jsfoo.in/2019-pune/
   blurb: The second Pune edition of India's premier JavaScript conference.
   banner: https://images.hasgeek.com/embed/file/10acd7709d8e45b598ea107ff29a985e
@@ -335,7 +335,7 @@
   google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
   start_time: 2019-03-01
   end_time: 2019-03-02
-  funnel: https://fragments.talkfunnel.com/2019/
+  funnel: https://hasgeek.com/fragments/2019/
   url: https://fragments.in/2019/
   blurb: On future of the Mobile Developement.
   banner: https://images.hasgeek.com/embed/file/ca000328f3824dde84ace578bac83179
@@ -348,5 +348,5 @@
   start_time: 2019-06-21
   end_time: 2019-06-22
   url: https://rootconf.in/2019/
-  funnel: https://rootconf.talkfunnel.com/2019/
+  funnel: https://hasgeek.com/rootconf/2019/
   blurb: On infrastructure security, cost optimisation, and distributed syystems.
