@@ -10,11 +10,11 @@ description: "Logistics in Mobility Conference by The Fifth Elephant explores th
 logo:
   image_url: https://images.hasgeek.com/embed/file/9ab895ef4ce24b1cb8f43f8b20619593
 funnel:
-  url: "https://hasgeek.com/fifthelephant/logistics-conf-2018/"
+  url: "https://fifthelephant.talkfunnel.com/logistics-conf-2018/"
   open: false
 schedule:
-  url: "https://hasgeek.com/fifthelephant/logistics-conf-2018/schedule"
-  json_url: "https://hasgeek.com/fifthelephant/logistics-conf-2018/schedule/json"
+  url: "https://fifthelephant.talkfunnel.com/logistics-conf-2018/schedule"
+  json_url: "https://fifthelephant.talkfunnel.com/logistics-conf-2018/schedule/json"
   type: "conference"
 featured: true
 featured_image: https://images.hasgeek.com/embed/file/9ab895ef4ce24b1cb8f43f8b20619593
@@ -85,42 +85,42 @@ hasjob:
   limit: 8
 
 featured_speakers:
-  - funnel_url: https://hasgeek.com/fifthelephant/logistics-conf-2018/3-using-visualizations-for-addressing-fleet-manageme
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/3-using-visualizations-for-addressing-fleet-manageme
     designation: Vice President, Product & Data Sciences, Pikkol
     talk_title: "Using Visualizations for addressing fleet management problems"
     image_url: https://images.hasgeek.com/embed/file/031393e303674d33bee6620ae0f4718c
     name: Jayaram Kasi
-  - funnel_url: https://hasgeek.com/fifthelephant/logistics-conf-2018/8-daily-run-sheet-is-not-a-daily-manual-work-anymore
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/8-daily-run-sheet-is-not-a-daily-manual-work-anymore
     designation: Data Scientist, GO-JEK
     talk_title: "Daily run sheet is not a daily manual work anymore"
     image_url: https://images.hasgeek.com/embed/file/02c4e3a47abc4bb3ac2f71ceca5b42fd
     name: Divya Choudhary
-  - funnel_url: https://hasgeek.com/fifthelephant/logistics-conf-2018/14-perfect-grocery-deliveries-solving-location-proble
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/14-perfect-grocery-deliveries-solving-location-proble
     designation: Senior Product Manager, Flipkart
     talk_title: "Perfect grocery deliveries: Solving location problem of India"
     image_url: https://images.hasgeek.com/embed/file/b1da8e3b92b045daa3fcb19d8ffd3f01
     name: Aditya Madan
-  - funnel_url: https://hasgeek.com/fifthelephant/logistics-conf-2018/6-sales-fleet-transformation-and-optimisation
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/6-sales-fleet-transformation-and-optimisation
     designation: Data Scientist, Locus.sh
     talk_title: "Sales fleet transformation and optimisation"
     image_url: https://images.hasgeek.com/embed/file/5f70607b83d4487a9589d2b479fbfd74
     name: Rahul Jain
-  - funnel_url: https://hasgeek.com/fifthelephant/logistics-conf-2018/10-virtual-assistant-for-hiring-last-mile-workforce
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/10-virtual-assistant-for-hiring-last-mile-workforce
     designation: Machine Learning Engineer, Vahan Inc.
     image_url: https://images.hasgeek.com/embed/file/f4dca9d59e59452e96837a4ab4dc040e
     talk_title: "Virtual assistant for hiring last-mile workforce"
     name: Piyush Makhija
-  - funnel_url: https://hasgeek.com/fifthelephant/logistics-conf-2018/13-predicting-order-batchability
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/13-predicting-order-batchability
     designation: Senior Data Scientist, Swiggy
     image_url: https://images.hasgeek.com/embed/file/b5db80207f704ce380117349aeaef6f7
     talk_title: "Predicting order batchability"
     name: Sunil Rathee
-  - funnel_url: https://hasgeek.com/fifthelephant/logistics-conf-2018/9-revenue-maximisation-from-pedl-trips-using-network
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/9-revenue-maximisation-from-pedl-trips-using-network
     designation: Associate Director, Data Science, Zoomcar
     image_url: https://images.hasgeek.com/embed/file/f9778463f9f24e1499ab2cb61a26b54e
     talk_title: "Revenue maximisation from PEDL trips using network analysis and geospatial mapping"
     name: Arpit Agarwal
-  - funnel_url: https://hasgeek.com/fifthelephant/logistics-conf-2018/15-supply-chain-network-intelligence-orchestration
+  - funnel_url: https://fifthelephant.talkfunnel.com/logistics-conf-2018/15-supply-chain-network-intelligence-orchestration
     designation: Director of Products, Flipkart
     image_url: https://images.hasgeek.com/embed/file/1f4f53b53e2249f49043dbb5484ee067
     talk_title: "Supply chain: Network intelligence and orchestration"

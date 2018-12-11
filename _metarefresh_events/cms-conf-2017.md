@@ -8,7 +8,7 @@ start_time: 2018-02-01
 end_time: 2018-02-01
 description: "The core focus of the Content Management Systems (CMS) conf is understanding CMS workflows – why does your workflow necessitate either building a custom CMS or using an existing CMS."
 funnel:
-  url: "https://hasgeek.com/metarefresh/cms-conf-2017/"
+  url: "https://metarefresh.talkfunnel.com/cms-conf-2017/"
   open: close
 related_events:
 - metarefresh-2017

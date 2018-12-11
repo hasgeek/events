@@ -13,7 +13,7 @@ boxoffice_item_collection: "fa00e268-fa4c-4659-9773-03407bf9995a"
 logo:
   image_url: https://images.hasgeek.com/embed/file/9ab895ef4ce24b1cb8f43f8b20619593
 funnel:
-  url: "https://hasgeek.com/fifthelephant/winter-edition-2019/"
+  url: "https://fifthelephant.talkfunnel.com/winter-edition-2019/"
   open: true
 
 venue:
@@ -25,8 +25,8 @@ venue:
   google_maps_url: https://goo.gl/maps/wds7WB44b3x
 
 schedule:
-  url: "https://hasgeek.com/fifthelephant/winter-edition-2018/schedule"
-  json_url: "https://hasgeek.com/fifthelephant/winter-edition-2018/schedule/json"
+  url: "https://fifthelephant.talkfunnel.com/winter-edition-2018/schedule"
+  json_url: "https://fifthelephant.talkfunnel.com/winter-edition-2018/schedule/json"
   type: "conference"
 
 banner: https://images.hasgeek.com/embed/file/64ad91e3789c482ea9f3bb87456545dd
@@ -79,27 +79,27 @@ overview:
     5. Cleaning data and ensuring better data quality.
 
 featured_speakers:
-  - funnel_url: https://hasgeek.com/fifthelephant/winter-edition-2019/12-reducing-cost-of-production-ai-feature-engineering
+  - funnel_url: https://fifthelephant.talkfunnel.com/winter-edition-2019/12-reducing-cost-of-production-ai-feature-engineering
     designation: Co-Founder and CEO, Scribble Data
     talk_title: "Reducing cost of production AI: Feature engineering case study"
     image_url: https://images.hasgeek.com/embed/file/6516e69c1eae4fe282f5e019fb795d20
     name: Vekata Pingali
-  - funnel_url: https://hasgeek.com/fifthelephant/winter-edition-2019/22-data-pipeline-on-day-1-of-your-startup-cost-and-sc
+  - funnel_url: https://fifthelephant.talkfunnel.com/winter-edition-2019/22-data-pipeline-on-day-1-of-your-startup-cost-and-sc
     designation: CTO & Co-Founder, Moonfrog
     talk_title: "Data pipeline on Day 1 of your startup: cost and scale sensitive!"
     image_url: https://images.hasgeek.com/embed/file/65599a61bd804487b8b38d08f24001f1
     name: Kumar Puspesh
-  - funnel_url: https://hasgeek.com/fifthelephant/winter-edition-2019/13-detecting-anomalies-within-flipkarts-fulfillment-n
+  - funnel_url: https://fifthelephant.talkfunnel.com/winter-edition-2019/13-detecting-anomalies-within-flipkarts-fulfillment-n
     designation: Senior Engineering Manager, Flipkart
     talk_title: "Detecting anomalies within Flipkart's fulfillment network"
     image_url: https://images.hasgeek.com/embed/file/df6510c58f244c899022231fa6c31c4f
     name: Govind Pandey
-  - funnel_url: https://hasgeek.com/fifthelephant/winter-edition-2019/3-fantastic-audiences-and-where-to-find-them
+  - funnel_url: https://fifthelephant.talkfunnel.com/winter-edition-2019/3-fantastic-audiences-and-where-to-find-them
     designation: Managing partner, OML
     talk_title: "Fantastic audiences, and where to find them"
     image_url: https://images.hasgeek.com/embed/file/476e1c6153a342c2939f59b51eea96e4
     name: Gunjan Arya
-  - funnel_url: https://hasgeek.com/fifthelephant/winter-edition-2019/1-data-governance-lessons-on-data-usage-and-data-con
+  - funnel_url: https://fifthelephant.talkfunnel.com/winter-edition-2019/1-data-governance-lessons-on-data-usage-and-data-con
     designation: Vice President, Wells Fargo
     talk_title: "Data governance: lessons on data usage and data controls from finance domain"
     image_url: https://images.hasgeek.com/embed/file/b27dd975b68a431db7489c779509a444
