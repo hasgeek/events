@@ -13,7 +13,7 @@ boxoffice_item_collection: "fa00e268-fa4c-4659-9773-03407bf9995a"
 logo:
   image_url: https://images.hasgeek.com/embed/file/9ab895ef4ce24b1cb8f43f8b20619593
 funnel:
-  url: "https://fifthelephant.talkfunnel.com/winter-edition-2019/"
+  url: "https://hasgeek.com/fifthelephant/winter-edition-2019/"
   open: true
 
 venue:
@@ -25,8 +25,8 @@ venue:
   google_maps_url: https://goo.gl/maps/wds7WB44b3x
 
 schedule:
-  url: "https://fifthelephant.talkfunnel.com/winter-edition-2018/schedule"
-  json_url: "https://fifthelephant.talkfunnel.com/winter-edition-2018/schedule/json"
+  url: "https://hasgeek.com/fifthelephant/winter-edition-2018/schedule"
+  json_url: "https://hasgeek.com/fifthelephant/winter-edition-2018/schedule/json"
   type: "conference"
 
 banner: https://images.hasgeek.com/embed/file/64ad91e3789c482ea9f3bb87456545dd

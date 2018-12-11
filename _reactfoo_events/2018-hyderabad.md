@@ -8,8 +8,8 @@ start_time: 2018-03-17
 end_time: 2018-03-17
 description: "A conference on React, alternatives to React, React Native and front-end engineering."
 schedule:
-  url: "https://reactfoo.talkfunnel.com/2018-hyd/schedule"
-  json_url: "https://reactfoo.talkfunnel.com/2018-hyd/schedule/json"
+  url: "https://hasgeek.com/reactfoo/2018-hyd/schedule"
+  json_url: "https://hasgeek.com/reactfoo/2018-hyd/schedule/json"
   type: "conference"
 
 venue:
@@ -20,7 +20,7 @@ venue:
   lng: 78.348779
   google_maps_url: https://goo.gl/maps/FX3e2EaepUo
 funnel:
-  url: "https://reactfoo.talkfunnel.com/2018-hyd/"
+  url: "https://hasgeek.com/reactfoo/2018-hyd/"
   open: false
   
 overview:

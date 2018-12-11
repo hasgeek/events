@@ -10,13 +10,13 @@ description: "A conference on React, front-end engineering and performance."
 
 boxoffice_item_collection: "6e5bfb42-c1f3-4d87-b1f0-2fcaba012173"
 funnel:
-  url: "https://reactfoo.talkfunnel.com/2018-delhi/"
+  url: "https://hasgeek.com/reactfoo/2018-delhi/"
   open: false
 logo:
   image_url: /images/reactfoo-logo.png
 schedule:
-  url: "https://reactfoo.talkfunnel.com/2018-delhi/schedule"
-  json_url: "https://reactfoo.talkfunnel.com/2018-delhi/schedule/json"
+  url: "https://hasgeek.com/reactfoo/2018-delhi/schedule"
+  json_url: "https://hasgeek.com/reactfoo/2018-delhi/schedule/json"
   type: "conference"
 
 venue:
