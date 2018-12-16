@@ -3,7 +3,7 @@ layout: workshop
 title: "Workshop: Apollo-GraphQL & Github V4 GraphQL APIs"
 subtitle: "Learn GraphQL and its advantages by building simple application with Apollo."
 datelocation: "9:30 AM to 5:30 PM, 12 Jan 2019, Pune"
-city: Bangalore
+city: Pune
 start_time: 2019-01-12
 end_time: 2019-01-12
 description: "This workshop starts with understanding the basics of GraphQL Schema before exploring how to use \"Apollo-Graphql\", best practices and introduction to quires and Github V4 GraphQL APIs while building an application."
