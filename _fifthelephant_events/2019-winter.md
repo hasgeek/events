@@ -141,7 +141,7 @@ sponsor:
     sponsors:
     - elastic
 
-  - title: "Venue Partner"
+  - title: "Ecosystem Partner"
     size: "m"
     sponsors:
     - isdi
