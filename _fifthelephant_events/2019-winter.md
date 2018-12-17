@@ -100,7 +100,7 @@ featured_speakers:
     image_url: https://images.hasgeek.com/embed/file/476e1c6153a342c2939f59b51eea96e4
     name: Gunjan Arya
   - funnel_url: https://fifthelephant.talkfunnel.com/winter-edition-2019/1-data-governance-lessons-on-data-usage-and-data-con
-    designation: Vice President, Wells Fargo
+    designation: Vice President
     talk_title: "Data governance: lessons on data usage and data controls from finance domain"
     image_url: https://images.hasgeek.com/embed/file/b27dd975b68a431db7489c779509a444
     name: Kaushik Bhatt
