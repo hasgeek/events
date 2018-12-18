@@ -11,13 +11,13 @@ boxoffice_item_collection: "9da13f04-31de-495b-9f96-5b81b31abb96"
 
 instructors:
 - name: Abhay Nikam
-  image_url: https://images.hasgeek.com/embed/file/50cb2d007de24253bbd833961c64a2ec
+  image_url: https://images.hasgeek.com/embed/file/e12fe716dd824a7296130c1ce272084d
   website:
     url: https://github.com/abhaynikam
     label: Github
-  byline: 
+  byline: Software Developer, BigBinary
   bio: |
-    Abhay Nikam
+    Abhay is a Ruby on Rails and Frontend developer. He is passionate about learning new technologies and tries to contribute to the open-source community. Abhay loves basketball and is a huge fan of Golden State Warriors NBA team. He also loves travelling and playing outdoor sports like basketball, cricket.
 
 overview:
   left_content: |

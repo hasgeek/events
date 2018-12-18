@@ -9,6 +9,17 @@ end_time: 2019-01-19
 description: "Deal with math at your role as data science dev by intuitive understanding of the concepts"
 boxoffice_item_collection: 'fa00e268-fa4c-4659-9773-03407bf9995a'
 
+venue:
+  label: Endurance International Group, Mumbai
+  address: |
+    Endurance International group of companies,
+    Unit no 5, 501, 5th floor, IT building 3, NESCO IT Park, 
+    Nesco complex, Western express highway, 
+    Goregoan (East), Mumbai - 400063
+  lat: 19.152355
+  lng: 72.855768
+  google_maps_url: https://goo.gl/maps/rS7J76NE5Ny
+
 instructors:
 - name: Vishal Gokhale
   byline: Software Engineer, AgileFAQs
@@ -66,4 +77,16 @@ overview:
     * Managers / testers who need to understand what their team members are talking about.
     * Anyone who wishes to get into data science projects but sees math as the obstacle.
     Participants don’t need to know any math apart from basic +,-, x, / operations.
+
+sponsor:
+  blurb: |
+    Sponsor for developer evangelism, community outreach, sales and hiring.
+
+    Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com)
+    
+  sponsors:
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - endurance
 ---
