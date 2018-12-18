@@ -2,12 +2,11 @@
 layout: workshop
 title: "Build Voice-Enabled Experiences with Alexa"
 subtitle: "Get deep-dive into future of voice-based experience"
-datelocation: "09:30 PM to 05:30 PM, 11 January 2019, Bangalore"
+datelocation: "09:30 PM to 05:30 PM, 11 January 2019, Thoughtworks, Pune"
 city: Pune
 start_time: 2019-01-11
 end_time: 2019-01-11
 description: "Alexa is Amazon’s cloud-based voice service available on tens of millions of devices from Amazon and third-party device manufacturers. With Alexa, you can build natural voice experiences that offer customers a more intuitive way to interact with the technology they use every day."
-boxoffice_item_collection: '9da13f04-31de-495b-9f96-5b81b31abb96'
 
 venue:
   label: Thoughtworks, Pune.
