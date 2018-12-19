@@ -2,7 +2,7 @@
 layout: workshop
 title: "Math for Data Science"
 subtitle: Deal with math at your role as data science dev by intuitive understanding of the concepts
-datelocation: "10:00 AM to 5:30 PM, 19 Jan 2019, Mumbai"
+datelocation: "10:00 AM to 5:30 PM, 19 Jan 2019, Endurance International Group, Mumbai"
 city: Mumbai
 start_time: 2019-01-19
 end_time: 2019-01-19
