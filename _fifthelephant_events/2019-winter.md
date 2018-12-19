@@ -33,7 +33,7 @@ banner: https://images.hasgeek.com/embed/file/64ad91e3789c482ea9f3bb87456545dd
 
 accommodation:
   blurb: |
-    Treebo has provided us with recommendations of two properties close to the event venue
+    Treebo has provided us with recommendations of two properties close to the event venue. Avail special discounted price by applying the discount code "HasGeek" while booking rooms at any treebo hotels in Mumbai on Treebo website.
 
   accommodations:
   - title: Treebo anam International
