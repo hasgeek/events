@@ -13,23 +13,37 @@ boxoffice_item_collection: "fa00e268-fa4c-4659-9773-03407bf9995a"
 logo:
   image_url: https://images.hasgeek.com/embed/file/9ab895ef4ce24b1cb8f43f8b20619593
 funnel:
-  url: "https://fifthelephant.talkfunnel.com/winter-edition-2019/"
+  url: "https://hasgeek.com/fifthelephant/winter-edition-2019/"
   open: true
 
 venue:
   label: ISDI ACE, Dice Districts, Mumbai
   address: |
-    ISDI ACE, Dice Districts, Colab Area, 7th Floor, Tower 2B, 841, Senapati Bapat Pawar Marg, BDD Chawl, Lower Parel, Mumbai, Maharashtra - 400013.
+    ISDI ACE, Dice Districts, Colab Area, 7th Floor, Tower 2B, 841, Lower Parel, Mumbai, Maharashtra - 400013.
   lat: 19.007142
   lng: 72.833581
   google_maps_url: https://goo.gl/maps/wds7WB44b3x
 
 schedule:
-  url: "https://fifthelephant.talkfunnel.com/winter-edition-2018/schedule"
-  json_url: "https://fifthelephant.talkfunnel.com/winter-edition-2018/schedule/json"
+  url: "https://hasgeek.com/fifthelephant/winter-edition-2018/schedule"
+  json_url: "https://hasgeek.com/fifthelephant/winter-edition-2018/schedule/json"
   type: "conference"
 
 banner: https://images.hasgeek.com/embed/file/64ad91e3789c482ea9f3bb87456545dd
+
+accommodation:
+  blurb: |
+    Treebo has provided us with recommendations of two properties close to the event venue. Avail special discounted price by applying the discount code "HasGeek" while booking rooms at any treebo hotels in Mumbai on Treebo website.
+
+  accommodations:
+  - title: Treebo anam International
+    location: Grant Road, Mumbai
+    distance: 5.3km, ~20 minutes from venue
+    url: https://www.google.com/maps/dir/Treebo+Anam+International+-+Near+Mumbai+Central,+PG+Solanki+Path,+Grant+Road+East,+Bharat+Nagar,+Grant+Road,+Mumbai,+Maharashtra/ISDI+ACE,+Tulsi+Pipe+Road,+Saidham+Nagar,+Lower+Parel,+Mumbai,+Maharashtra/@18.9872377,72.79401,13z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3be7ce6d3f032f45:0x698859845891edc6!2m2!1d72.8185241!2d18.9654189!1m5!1m1!1s0x3be7ceebe3b97807:0x7ea1ad99fa83fd8c!2m2!1d72.833581!2d19.0071418
+  - title: Treebo Rosewood
+    location: Tulsiwadi Lane, Mumbai
+    distance: 5.7km, ~15 minutes from venue
+    url: https://www.google.com/maps/dir/Treebo+Rosewood+Mumbai+Central,+Arya+Nagar,+Tulsiwadi,+Tardeo,+Mumbai,+Maharashtra/ISDI+ACE,+Tulsi+Pipe+Road,+Saidham+Nagar,+Lower+Parel,+Mumbai,+Maharashtra/@18.9894356,72.8062044,14z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3be7ce704d1637e1:0x23eda1d1ff3af58b!2m2!1d72.8157658!2d18.9726004!1m5!1m1!1s0x3be7ceebe3b97807:0x7ea1ad99fa83fd8c!2m2!1d72.833581!2d19.0071418
 
 overview:
   left_content: |
@@ -86,7 +100,7 @@ featured_speakers:
     image_url: https://images.hasgeek.com/embed/file/476e1c6153a342c2939f59b51eea96e4
     name: Gunjan Arya
   - funnel_url: https://fifthelephant.talkfunnel.com/winter-edition-2019/1-data-governance-lessons-on-data-usage-and-data-con
-    designation: Vice President, Wells Fargo
+    designation: Vice President
     talk_title: "Data governance: lessons on data usage and data controls from finance domain"
     image_url: https://images.hasgeek.com/embed/file/b27dd975b68a431db7489c779509a444
     name: Kaushik Bhatt
@@ -127,7 +141,7 @@ sponsor:
     sponsors:
     - elastic
 
-  - title: "Venue Partner"
+  - title: "Ecosystem Partner"
     size: "m"
     sponsors:
     - isdi

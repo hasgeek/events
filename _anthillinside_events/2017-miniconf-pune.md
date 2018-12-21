@@ -10,8 +10,8 @@ description: "A mini conference on Machine Learning and Deep Learning concepts, 
 logo:
   image_url: /images/anthillinside-logo.svg
 schedule:
-  url: "https://anthillinside.talkfunnel.com/2017-miniconf-pune/schedule"
-  json_url: "https://anthillinside.talkfunnel.com/2017-miniconf-pune/schedule/json"
+  url: "https://hasgeek.com/anthillinside/2017-miniconf-pune/schedule"
+  json_url: "https://hasgeek.com/anthillinside/2017-miniconf-pune/schedule/json"
   type: "conference"
 
 boxoffice_item_collection: "4c802769-6687-471a-8c05-2b98aa49a9b4"
