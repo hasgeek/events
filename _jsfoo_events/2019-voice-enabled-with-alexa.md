@@ -26,6 +26,11 @@ instructors:
   bio: |
     Sohan is an Alexa Evangelist at Amazon. His role involves inspiring and helping developers build incredible voice experiences using Alexa. Sohan has earlier worked as a developer evangelist for Gupshup and InMobi and has spoken at conferences around the world. In his spare time, you will find him either consuming pop culture or tossing a frisbee around.
 
+related_events:
+- jsfoo-2019-pune
+- jsfoo-2019-graphql-workshop-pune
+- reactfoo-2019
+
 overview:
   left_content: |
 
