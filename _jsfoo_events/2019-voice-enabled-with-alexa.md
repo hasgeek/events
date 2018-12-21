@@ -26,6 +26,11 @@ instructors:
   bio: |
     Sohan is an Alexa Evangelist at Amazon. His role involves inspiring and helping developers build incredible voice experiences using Alexa. Sohan has earlier worked as a developer evangelist for Gupshup and InMobi and has spoken at conferences around the world. In his spare time, you will find him either consuming pop culture or tossing a frisbee around.
 
+related_events:
+- jsfoo-2019-pune
+- jsfoo-2019-graphql-workshop-pune
+- reactfoo-2019
+
 overview:
   left_content: |
 
@@ -33,11 +38,8 @@ overview:
 
     # Pre-Requisites
 
-    - Developers to carry their laptops or to be provided with Desktops to work on building skills
-    - Wi-Fi connectivity (to handle concurrent connections for all participants)
-    - Power strips for the laptops.
-    - Audio Video Projector, Microphone, training room style setup preferred for the venue.
-    - Amazon developer account and verified AWS account created in advance, so developers don’t spend time doing that in the workshop.
+    - Developers to work on building skills.
+    - Amazon developer account and verified AWS account created in advance.
 
   right_content: |
 

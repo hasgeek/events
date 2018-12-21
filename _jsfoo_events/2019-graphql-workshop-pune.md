@@ -19,6 +19,11 @@ instructors:
   bio: |
     Abhay is a Ruby on Rails and Frontend developer. He is passionate about learning new technologies and tries to contribute to the open-source community. Abhay loves basketball and is a huge fan of Golden State Warriors NBA team. He also loves travelling and playing outdoor sports like basketball, cricket.
 
+related_events:
+- jsfoo-2019-pune
+- jsfoo-2019-voice-enabled-with-alexa
+- reactfoo-2019
+
 overview:
   left_content: |
     

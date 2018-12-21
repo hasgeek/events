@@ -107,7 +107,7 @@ featured_speakers:
 
 
 related_events:
-- fifthelephant-2018-logisticsconf
+- fifthelephant-2019-math-for-data-science-mumbai
 
 photo_album:
   title: "Highlights from The Fifth Elephant 2018"
