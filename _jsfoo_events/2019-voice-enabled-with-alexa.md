@@ -38,11 +38,8 @@ overview:
 
     # Pre-Requisites
 
-    - Developers to carry their laptops or to be provided with Desktops to work on building skills
-    - Wi-Fi connectivity (to handle concurrent connections for all participants)
-    - Power strips for the laptops.
-    - Audio Video Projector, Microphone, training room style setup preferred for the venue.
-    - Amazon developer account and verified AWS account created in advance, so developers don’t spend time doing that in the workshop.
+    - Developers to work on building skills.
+    - Amazon developer account and verified AWS account created in advance.
 
   right_content: |
 
