@@ -1,4 +1,13 @@
 - name: CTOTalk by OrangeScape
+  title: CTOTalk with Walmart Labs
+  city:  Chennai
+  venue: OrangeScape, Tidel Park, Chennai
+  start_time: 2018-12-08 10:30
+  end_time: 2018-12-08 13:00
+  url: https://in.explara.com/e/ctotalk-with-walmart-labs
+  blurb: Talk by Hari Vasudev on the "Future of Tech in Retail"
+  
+- name: CTOTalk by OrangeScape
   title: CTOTalk with Swiggy's Rahul Jaimini
   city:  Chennai
   venue: OrangeScape, Tidel Park, Chennai
@@ -1240,3 +1249,21 @@
   end_time: 2019-01-07 17:00
   url: https://www.comsnets.org/minds_workshop.html
   blurb: "MINDS will discuss and present latest achievements and innovations at the cross-section of machine learning, systems, and networking."
+
+- name: state-of-the-map-asia
+  title: "State of the Map Asia 2018"
+  city: Bangalore
+  venue: IIM, Bangalore
+  start_time: 2018-11-17 08:30
+  end_time: 2018-11-18 16:30
+  url: https://stateofthemap.asia
+  blurb: "Learn about mapping, meet community and industry leaders, and get involved with the OpenStreetMap project.The program over two days feature keynotes, workshops, and talks about mapping stories, technical and policy challenges from across the region."
+
+- name: code-war
+  title: "Code.War II at Narvar"
+  city: Bangalore
+  venue: WeWork EGL, Bangalore
+  start_time: 2018-12-08 00:00
+  end_time: 2018-12-09 23:59
+  url: https://codewar2.splashthat.com/
+  blurb: "Narvar welcomes passionate coders for a online coding event."

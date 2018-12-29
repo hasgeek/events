@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hasgeek/events.svg?branch=master)](https://travis-ci.org/hasgeek/events)
+
 # HasGeek Events
 
 A database of tech events in India.
