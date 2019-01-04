@@ -2,7 +2,7 @@
 layout: workshop
 title: "Build Voice-Enabled Experiences with Alexa"
 subtitle: "Get deep-dive into future of voice-based experience"
-datelocation: "09:30 PM to 05:30 PM, 11 January 2019, Thoughtworks, Pune"
+datelocation: "09:30 AM to 05:30 PM, 11 January 2019, Thoughtworks, Pune"
 city: Pune
 start_time: 2019-01-11
 end_time: 2019-01-11
@@ -39,7 +39,8 @@ overview:
     # Pre-Requisites
 
     - Developers to work on building skills.
-    - Amazon developer account and verified AWS account created in advance.
+    - Developer.amazon.com account and verified AWS account created in advance. AWS Account takes 24 hours to verify so please do it before the workshop.
+    - Attendees to carry their own laptops.
 
     # RSVP
     
