@@ -35,6 +35,10 @@ overview:
 
     Bring your laptop with node (>=6) and npm (>=4) installed and an open mind :)
 
+    # Resources
+
+    Github – [https://github.com/abhaynikam/graphql-workshop#workshop-on-graphql-using-apollo](https://github.com/abhaynikam/graphql-workshop#workshop-on-graphql-using-apollo){:target="_blank"}
+
     # Duration: 5 Hours
 
   right_content: |
@@ -57,5 +61,13 @@ overview:
     - Introduction to GraphQL clients: Apollo and Relay. 
     - Building the sample application examples with Apollo.
       - Basic examples explaining how GraphQL has advantages. 
+
+sponsor:
+
+  sponsors:
+  - title: "Venue Sponsors"
+    size: "l"
+    sponsors:
+    - equal-experts
 
 ---
