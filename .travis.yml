@@ -64,8 +64,6 @@ deploy:
 addons:
   ssh_known_hosts: e2e.hasgeek.com
 
-cache: bundler
-
 notifications:
   email: false
   slack:
