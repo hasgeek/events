@@ -94,11 +94,6 @@ featured_speakers:
     talk_title: "Detecting anomalies within Flipkart's fulfillment network"
     image_url: https://images.hasgeek.com/embed/file/df6510c58f244c899022231fa6c31c4f
     name: Govind Pandey
-  - funnel_url: https://fifthelephant.talkfunnel.com/winter-edition-2019/3-fantastic-audiences-and-where-to-find-them
-    designation: Managing partner, OML
-    talk_title: "Fantastic audiences, and where to find them"
-    image_url: https://images.hasgeek.com/embed/file/476e1c6153a342c2939f59b51eea96e4
-    name: Gunjan Arya
   - funnel_url: https://fifthelephant.talkfunnel.com/winter-edition-2019/1-data-governance-lessons-on-data-usage-and-data-con
     designation: Vice President
     talk_title: "Data governance: lessons on data usage and data controls from finance domain"
@@ -140,7 +135,7 @@ sponsor:
     size: "l"
     sponsors:
     - trustingsocial
-  
+
   - title: "Community sponsor"
     size: "l"
     sponsors:
