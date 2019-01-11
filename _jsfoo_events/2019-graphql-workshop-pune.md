@@ -23,9 +23,9 @@ venue:
   label: Equal Experts, Pune.
   address: |
     Equal Experts India Pvt Ltd, Office No. 502B, 5th Floor, Cerebrum IT Park No. B1 Kumar City, Marigold complex, Kalyani Nagar, Pune, Maharashtra 411006
-  lat: 18.544905
-  lng: 73.9075623
-  google_maps_url: https://goo.gl/maps/AoiFQ92uKrs
+  lat: 18.5450838
+  lng: 73.9098423
+  google_maps_url: https://goo.gl/maps/x8NN11HToE22
 
 related_events:
 - jsfoo-2019-pune
