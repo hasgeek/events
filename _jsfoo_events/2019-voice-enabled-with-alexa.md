@@ -2,7 +2,7 @@
 layout: workshop
 title: "Build Voice-Enabled Experiences with Alexa"
 subtitle: "Get deep-dive into future of voice-based experience"
-datelocation: "09:30 PM to 05:30 PM, 11 January 2019, Thoughtworks, Pune"
+datelocation: "09:30 AM to 05:30 PM, 11 January 2019, Thoughtworks, Pune"
 city: Pune
 start_time: 2019-01-11
 end_time: 2019-01-11
@@ -39,31 +39,52 @@ overview:
     # Pre-Requisites
 
     - Developers to work on building skills.
-    - Amazon developer account and verified AWS account created in advance.
+    - Developer.amazon.com account and verified AWS account created in advance. AWS Account takes 24 hours to verify so please do it before the workshop.
+    - Attendees to carry their own laptops.
+
+    # RSVP
+    
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtD3CO3VGNCVMux9KOVMmz4Cbrjw_f3q4YSnw1gbissEKl5w/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" style="width:100%; height:45rem;">Loading...</iframe>
 
   right_content: |
 
     # Agenda
+  
+    **9:00 AM - Intro to Alexa**
+    - The future of voice-based experiences
+    - Overview of Echo, Alexa, and the tools used to build Alexa skills.  
 
-    **1:45 PM - Intro to Alexa**
-
-    - The future of voice-based experiences
-    - Overview of Echo, Alexa, and the tools used to build Alexa skills.  
- 
-    **2:15 PM - Skill Building Basics**
-
+    **9:30 AM - Skill Building Basics** 
     - Intro to Intents, Slots, Samples
-    - Handling Requests with AWS Lambda and Node.JS
-    - Build your first skill:  https://alexa.design/factskill
+    - Handling Requests with AWS Lambda and Node.JS
+    - Build your first skill:  https://alexa.design/factskill
     - Certify and Publish your skill
 
-    **4:00 PM - Voice Design**
-
+    **11:00 AM - Voice Design**
     - The principles of Voice Design
     - Best practices for engaging skills
     - Brainstorming and flow diagrams
-    - Using the Skill Builder tool
+    - Using the Skill Builder tool 
+    
+    **12:30 PM – Lunch**
 
+    **1:30 PM – Skill Building (cont.)**
+    - Remembering with Session Attributes
+    - Building skills with data and lists
+    - Adding Long term memory with Dynamo DB
+    - Build the High Low game: http://alexa.design/highlow
+
+    **3:00 PM – Break**
+
+    **3.30 PM – Conversational UI**
+    - Multi-turn dialogs
+    - Intro to intent and slot confirmations
+    - Slot filling
+
+    **4.30 PM - New Features and APIs**
+    - Introduction to Alexa’s newest features
+    - Demos
+    - Wrap up
 
 sponsor:
 

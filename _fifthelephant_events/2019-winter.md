@@ -136,6 +136,11 @@ sponsor:
     Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com)
   sponsorship_deck_url: 'https://hsgk.in/Mumbai_Fifthel2NxB9jW'
   sponsors:
+  - title: "Gold sponsor"
+    size: "l"
+    sponsors:
+    - trustingsocial
+  
   - title: "Community sponsor"
     size: "l"
     sponsors:
