@@ -17,9 +17,9 @@ funnel:
   open: true
 
 venue:
-  label: ISDI ACE, Dice Districts, Mumbai
+  label: ISDI ACE, One India Bulls Center, Mumbai
   address: |
-    ISDI ACE, Dice Districts, Colab Area, 7th Floor, Tower 2B, 841, Lower Parel, Mumbai, Maharashtra - 400013.
+    ISDI ACE, Colab Area, 7th Floor, Tower 2A, One India Bulls Center, Lower Parel, Mumbai, Maharashtra - 400013.
   lat: 19.007142
   lng: 72.833581
   google_maps_url: https://goo.gl/maps/wds7WB44b3x
