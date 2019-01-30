@@ -7,7 +7,7 @@ city: Bangalore
 start_time: 2019-02-01
 end_time: 2019-02-01
 description: "Office Hours - one to one interactions with Souvik where you (and your team) can discuss on how you have planned your website including content strategy, information architecture, CMS implementation, publishing workflows, performance, and technical SEO etc."
-boxoffice_item_collection: ''
+boxoffice_item_collection: 'b3a61d4f-c29f-40c1-be26-103578c34af4'
 venue:
   label: HasGeek House, Bangalore
   lat: 12.96149473
