@@ -31,7 +31,19 @@ overview:
     ### JSFoo is the annual JavaScript conference hosted by HasGeek. 
     The Coimbatore edition is the first edition, and the second in the series of traveling editions of JSFoo in 2019.
     
+    ### You should attend JSFoo if you work in any of the following domains
+    
+    * Architecture of Web Apps
+    * Frameworks, tools and alternatives to JS
+    * Front end and its security
+    * Building systems, tools and processes for teams
+    * Performance and UX
+    * Management and scaling of Infrastructure
+    * Debugging, testing and profiling on the Web
+    
   right_content: |
+    ### How it all began
+  
     HasGeek launched JSFoo in 2011 as India’s first JavaScript conference. The JS community in India has grown phenomenally since then. JavaScript now prevades every aspect of web development - browsers, apps, front-end, back-end, mobile and IoT. There is always scope to understand new ideas and solutions. JSFoo explores new ideas, implementing innovative solutions, and learning from experiences and anti-patterns.
 
     Want to see the talks from last year’s conference? Watch the [JSFoo 2018 videos](https://hasgeek.tv/jsfoo){:target="_blank"} or [JSFoo Pune 2018 videos](https://hasgeek.tv/jsfoo/pune-2019){:target="_blank"}.
