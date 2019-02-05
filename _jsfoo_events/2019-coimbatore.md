@@ -3,7 +3,7 @@ layout: event
 title: JSFoo Coimbatore 2019
 subtitle: "On building a fast and secure web"
 datelocation: "8 June 2019, Coimbatore"
-city: Pune
+city: Coimbatore
 start_time: 2019-06-08
 end_time: 2019-06-08
 featured: true
