@@ -13,7 +13,7 @@ boxoffice_item_collection: "4c76be80-1e31-49d1-9a96-993ce7addb2f"
 logo:
   image_url: https://images.hasgeek.com/embed/file/5b1223b1600548bb9b4756f2f1c11e16
 funnel:
-  url: "https://hasgeek.com/jsfoo/2019-coimbatore/proposals#proposals"
+  url: "https://hasgeek.com/jsfoo/2019-coimbatore/#call-for-proposal"
   open: true
 
 banner: https://images.hasgeek.com/embed/file/1cf24cbf955e4277b7648c0a483cc475
