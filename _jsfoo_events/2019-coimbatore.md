@@ -39,7 +39,7 @@ related_events:
 - reactfoo-2019
 
 photo_album:
-  title: "Highlights from JSFoo, 2017"
+  title: "Highlights from JSFoo, 2018"
   photos:
   - url: https://images.hasgeek.com/embed/file/de43425ef32244f983290a575c99fb58
   - url: https://images.hasgeek.com/embed/file/16d5249b63594ffa91a4945990a0103d
