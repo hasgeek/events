@@ -36,7 +36,6 @@ overview:
 related_events:
 - reactfoo-2019
 
-
 sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach, sales and hiring.
