@@ -1,6 +1,6 @@
 ---
 layout: event
-title: State of platforms: Fragments Ahmedabad 2019
+title: Fragments Ahmedabad 2019
 subtitle: "On the state of platforms: React Native, Flutter, iOS, React"
 datelocation: "9 March 2019, Venue TBA, Ahmedabad"
 city: Ahmedabad
