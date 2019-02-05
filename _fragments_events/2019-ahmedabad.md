@@ -32,10 +32,6 @@ overview:
   right_content: |
     ### Who should attend?
     Mobile developers working across platforms must attend this event.
-
-related_events:
-- reactfoo-2019
-
 sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach, sales and hiring.
