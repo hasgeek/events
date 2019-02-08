@@ -17,9 +17,9 @@ funnel:
   open: true
 
 venue:
-  label: ISDI ACE, Dice Districts, Mumbai
+  label: ISDI ACE, One India Bulls Center, Mumbai
   address: |
-    ISDI ACE, Dice Districts, Colab Area, 7th Floor, Tower 2B, 841, Lower Parel, Mumbai, Maharashtra - 400013.
+    ISDI ACE, Colab Area, 7th Floor, Tower 2A, One India Bulls Center, Lower Parel, Mumbai, Maharashtra - 400013.
   lat: 19.007142
   lng: 72.833581
   google_maps_url: https://goo.gl/maps/wds7WB44b3x
@@ -33,7 +33,7 @@ banner: https://images.hasgeek.com/embed/file/64ad91e3789c482ea9f3bb87456545dd
 
 accommodation:
   blurb: |
-    Treebo has provided us with recommendations of two properties close to the event venue
+    Treebo has provided us with recommendations of two properties close to the event venue. Avail special discounted price by applying the discount code "HasGeek" while booking rooms at any treebo hotels in Mumbai on Treebo website.
 
   accommodations:
   - title: Treebo anam International
@@ -94,20 +94,15 @@ featured_speakers:
     talk_title: "Detecting anomalies within Flipkart's fulfillment network"
     image_url: https://images.hasgeek.com/embed/file/df6510c58f244c899022231fa6c31c4f
     name: Govind Pandey
-  - funnel_url: https://fifthelephant.talkfunnel.com/winter-edition-2019/3-fantastic-audiences-and-where-to-find-them
-    designation: Managing partner, OML
-    talk_title: "Fantastic audiences, and where to find them"
-    image_url: https://images.hasgeek.com/embed/file/476e1c6153a342c2939f59b51eea96e4
-    name: Gunjan Arya
   - funnel_url: https://fifthelephant.talkfunnel.com/winter-edition-2019/1-data-governance-lessons-on-data-usage-and-data-con
-    designation: Vice President, Wells Fargo
+    designation: Vice President
     talk_title: "Data governance: lessons on data usage and data controls from finance domain"
     image_url: https://images.hasgeek.com/embed/file/b27dd975b68a431db7489c779509a444
     name: Kaushik Bhatt
 
 
 related_events:
-- fifthelephant-2018-logisticsconf
+- fifthelephant-2019-math-for-data-science-mumbai
 
 photo_album:
   title: "Highlights from The Fifth Elephant 2018"
@@ -136,12 +131,17 @@ sponsor:
     Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com)
   sponsorship_deck_url: 'https://hsgk.in/Mumbai_Fifthel2NxB9jW'
   sponsors:
+  - title: "Gold sponsor"
+    size: "l"
+    sponsors:
+    - trustingsocial
+
   - title: "Community sponsor"
     size: "l"
     sponsors:
     - elastic
 
-  - title: "Venue Partner"
+  - title: "Ecosystem Partner"
     size: "m"
     sponsors:
     - isdi
