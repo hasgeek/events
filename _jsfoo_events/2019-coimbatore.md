@@ -1,19 +1,19 @@
 ---
 layout: event
 title: JSFoo Coimbatore 2019
-subtitle: "The first Coimbatore edition of India’s premier JavaScript conference"
+subtitle: "On building a fast and secure web"
 datelocation: "8 June 2019, Coimbatore"
-city: Pune
+city: Coimbatore
 start_time: 2019-06-08
 end_time: 2019-06-08
 featured: true
 featured_image: https://images.hasgeek.com/embed/file/5b1223b1600548bb9b4756f2f1c11e16
-description: "The first Coimbatore edition of India’s premier JavaScript conference."
+description: "On building a fast and secure web"
 boxoffice_item_collection: "4c76be80-1e31-49d1-9a96-993ce7addb2f"
 logo:
   image_url: https://images.hasgeek.com/embed/file/5b1223b1600548bb9b4756f2f1c11e16
 funnel:
-  url: "https://hasgeek.com/jsfoo/2019-coimbatore/proposals#proposals"
+  url: "https://hasgeek.com/jsfoo/2019-coimbatore/#call-for-proposal"
   open: true
 
 banner: https://images.hasgeek.com/embed/file/1cf24cbf955e4277b7648c0a483cc475
@@ -28,13 +28,26 @@ hasjob:
   limit: 8
 overview:
   left_content: |
-    ### JSFoo is India’s premier JavaScript conference, hosted by HasGeek.
-
-    The Pune edition is the second edition (earlier, we had organized JSFoo in Pune in 2012, and ReactFoo in January 2019).
+    ### JSFoo is the annual JavaScript conference hosted by HasGeek. 
+    The Coimbatore edition is the first edition, and the second in the series of traveling editions of JSFoo in 2019.
+    
+    ### You should attend JSFoo if you work in any of the following domains
+    
+    * Architecture of Web Apps
+    * Frameworks, tools and alternatives to JS
+    * Front end and its security
+    * Building systems, tools and processes for teams
+    * Performance and UX
+    * Management and scaling of Infrastructure
+    * Debugging, testing and profiling on the Web
+    
   right_content: |
-    HasGeek launched JSFoo in 2011 as India’s first JavaScript conference. The JS community in India has grown phenomenally since then. JavaScript now pervades every aspect of web development – browsers, apps, front-end, backend, mobile and IoT, and there’s always scope to understand new ideas and solutions. The conference explores new ideas, implementing innovative solutions, and learning from experiences, especially negative ones!
+    ### How it all began
+  
+    HasGeek launched JSFoo in 2011 as India’s first JavaScript conference. The JS community in India has grown phenomenally since then. JavaScript now prevades every aspect of web development - browsers, apps, front-end, back-end, mobile and IoT. There is always scope to understand new ideas and solutions. JSFoo explores new ideas, implementing innovative solutions, and learning from experiences and anti-patterns.
 
-    Want to see the quality and topics of talks at last year's conference? You can watch the [JSFoo 2018 videos](https://hasgeek.tv/jsfoo){:target="_blank"} or the related [ReactFoo 2018 videos](https://hasgeek.tv/reactfoo){:target="_blank"} to see what was on trend. Or check out the [2018 conference website](https://jsfoo.in/2018/){:target="_blank"}.
+    Want to see the talks from last year’s conference? Watch the [JSFoo 2018 videos](https://hasgeek.tv/jsfoo){:target="_blank"} or [JSFoo Pune 2018 videos](https://hasgeek.tv/jsfoo/pune-2019){:target="_blank"}.
+    
 related_events:
 - reactfoo-2019
 
