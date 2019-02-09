@@ -36,4 +36,6 @@ sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach, sales and hiring.
     Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com)
+  sponsorship_deck_url: 'https://hsgk.in/Fragments_Ahmedabad'
+  
 ---
