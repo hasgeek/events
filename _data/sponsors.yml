@@ -666,10 +666,6 @@ do:
   url: https://www.digitalocean.com/
   display_url: digitalocean.com
   blurb: |
-    DigitalOcean is a cloud platform company focused on simplifying the complexities of infrastructure for software developers.
-    DigitalOcean has become the second largest and fastest growing cloud computing platform in the total number of public facing apps and websites, according to Netcraft.com.
-    The company has raised $123 million in funding from Andreessen Horowitz, Access Industries, IA Ventures, CrunchFund and Techstars. The company is headquartered in New York City with datacenter regions throughout the world including one in Bangalore (India).
-    For more information, visit www.digitalocean.com or follow @digitalocean.
 
 elastic:
   title: "Elastic"
