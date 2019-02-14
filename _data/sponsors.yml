@@ -509,9 +509,9 @@ mysql:
 
 trustingsocial:
   title: "Trusting Social"
-  logo_url: https://images.hasgeek.com/embed/file/b8cf4d930b3c4b3ea2db77ee511bdbd9
-  url: https://trustingsocial.com/
-  display_url: www.trustingsocial.com
+  logo_url: https://images.hasgeek.com/embed/file/fe295924d5fe4fa98ce799d4786a181a
+  url: https://tsengineering.io/
+  display_url: www.tsengineering.io
   blurb: |
     Trusting Social is one of the strongest tech players  in financial inclusion. We apply our algorithms to petabytes of data to identify credit worthiness of individuals, this while protecting their privacy through encrypted and anonymised data exchange on our platform.
     Our proprietary credit score that sits at the heart of our platform is proven to outperform the current state of the art (measured in terms of GINI score) and enable additional 40% of population getting access to credit. These are people who never had any kind of banking exposure earlier and now are accessible and visible, giving them a great chance at improving their lives.
@@ -588,7 +588,7 @@ sequoia:
 
 isdi:
   title: "Dice Districts"
-  logo_url: https://images.hasgeek.com/embed/file/66515076ec47473ea0a20b6b4e4d3c00
+  logo_url: https://images.hasgeek.com/embed/file/e65912c5a79a4683990d09618ba423ae
   url: http://www.isdi.in/
   display_url: www.isdi.in
   blurb: |
@@ -666,10 +666,6 @@ do:
   url: https://www.digitalocean.com/
   display_url: digitalocean.com
   blurb: |
-    DigitalOcean is a cloud platform company focused on simplifying the complexities of infrastructure for software developers.
-    DigitalOcean has become the second largest and fastest growing cloud computing platform in the total number of public facing apps and websites, according to Netcraft.com.
-    The company has raised $123 million in funding from Andreessen Horowitz, Access Industries, IA Ventures, CrunchFund and Techstars. The company is headquartered in New York City with datacenter regions throughout the world including one in Bangalore (India).
-    For more information, visit www.digitalocean.com or follow @digitalocean.
 
 elastic:
   title: "Elastic"
@@ -1115,3 +1111,20 @@ optymyze:
      Optymyze delivers cloud applications, setup services, and on-going strategic planning and operational support services. Named as a Leader for the third consecutive year, Optymyze is distinguished itself through agile operations, a strong business model, and excellent market execution. 
      With zero client churn since its founding five years ago, Optymyze is known for high levels of client satisfaction.
 
+vimeo:
+  title: Vimeo
+  logo_url: https://images.hasgeek.com/embed/file/d3609a7e5a3e4c9cb12c736b67325ddc
+  url: https://vimeo.com/
+  display_url: www.vimeo.com
+  blurb: |
+
+devx:
+  title: "DevX"
+  logo_url: https://images.hasgeek.com/embed/file/e15260db3cc9466ab7363a6b866048f8
+  url: https://devx.work/
+  display_url: www.devx.work
+  blurb: |
+    DevX has built Gujarat’s largest Co-working space sprawling over 40,000 Sq. Ft. area with 700+ seat, along with Corporate Accelerator program to attract emerging tech Startups. 
+    It also has a B2B SaaS product named Hackathon-as-a-Solution (HaaS), utilized by Corporates to crowd source Innovation.
+    
+    
