@@ -666,7 +666,10 @@ do:
   url: https://www.digitalocean.com/
   display_url: digitalocean.com
   blurb: |
-
+    DigitalOcean is the cloud of choice for developers around the world to create modern applications. With a community of more than 3.5 million developers and a global network of 
+    data centers, we focus on open source and simplicity to allow developers and their teams to spend more time on innovation instead of managing complex infrastructure. For more 
+    information, visit [www.digitalocean.com](https://www.digitalocean.com) or follow [@digitalocean](https://twitter.com/digitalocean) on Twitter.
+    
 elastic:
   title: "Elastic"
   logo_url: https://images.hasgeek.com/embed/file/4c5239f64f2f4f7995d1a50a4ec6aa69
