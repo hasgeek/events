@@ -35,11 +35,11 @@ overview:
 
 venue:
   label: DevX Accelerator
-  lat: 23.022505
-  lng: 72.571365
+  lat: 23.0302
+  lng: 72.5299
   google_maps_url: https://goo.gl/maps/qxmy2TZ9mv52
   address: |
-    C-201, 2nd Floor, The First, B/h Keshav Baugh Party Plot, Nr. Shivalik High-Street, Vastrapur, Ahmedabad-380015.
+    DevX Accelerator, C-201, 2nd Floor, The First, B/h Keshav Baugh Party Plot, Nr. Shivalik High-Street, Vastrapur, Ahmedabad-380015.
 
 sponsor:
   blurb: |
