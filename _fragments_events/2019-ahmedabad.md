@@ -2,7 +2,7 @@
 layout: event
 title: Fragments Ahmedabad 2019
 subtitle: "On the state of platforms: React Native, Flutter, iOS, React"
-datelocation: "9 March 2019, Venue TBA, Ahmedabad"
+datelocation: "9 March 2019, DevX, Ahmedabad"
 city: Ahmedabad
 start_time: 2019-03-09
 end_time: 2019-03-09
@@ -32,6 +32,15 @@ overview:
   right_content: |
     ### Who should attend?
     Mobile developers working across platforms must attend this event.
+
+venue:
+  label: DevX Accelerator
+  lat: 23.022505
+  lng: 72.571365
+  google_maps_url: https://goo.gl/maps/qxmy2TZ9mv52
+  address: |
+    C-201, 2nd Floor, The First, B/h Keshav Baugh Party Plot, Nr. Shivalik High-Street, Vastrapur, Ahmedabad-380015.
+
 sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach, sales and hiring.
