@@ -33,6 +33,11 @@ overview:
     ### Who should attend?
     Mobile developers working across platforms must attend this event.
 
+schedule:
+  url: "https://hasgeek.com/fragments/ahmedabad-2019/schedule"
+  json_url: "https://hasgeek.com/fragments/ahmedabad-2019/schedule/json"
+  type: "conference"
+
 venue:
   label: DevX Accelerator
   lat: 23.0302
