@@ -56,5 +56,10 @@ sponsor:
        size: "l"
        sponsors:
        - devx
+       
+     - title: "Exhibition Sponsor"
+       size: "l"
+       sponsors:
+       - infostretch
 
 ---
