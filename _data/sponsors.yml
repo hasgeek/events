@@ -1169,3 +1169,10 @@ hashnode:
   display_url: www.hashnode.com
   blurb: |
 
+blockstack:
+  title: "Blockstack"
+  logo_url: https://images.hasgeek.com/embed/file/7baa4efc00134048973a26a685f05b8e
+  url: https://blockstack.org/
+  display_url: www.blockstack.org
+  blurb: |
+
