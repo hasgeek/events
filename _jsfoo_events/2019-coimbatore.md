@@ -67,7 +67,9 @@ photo_album:
 
 sponsor:
   blurb: |
-    Sponsor for developer evangelism, community outreach, sales and hiring.
+    Sponsor for developer evangelism, community outreach and hiring.
 
-    Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com)
+    Download our sponsorship deck or reach out to us for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
+  sponsorship_deck_url: 'https://hsgk.in/JSFoo-Coimbatore'
+  
 ---
