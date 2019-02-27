@@ -1176,3 +1176,11 @@ blockstack:
   display_url: www.blockstack.org
   blurb: |
     Blockstack is a new internet for decentralized apps. Blockstack’s mission is to enable an open, decentralized internet which will benefit all internet users by giving them more control over information and computation.
+
+myntra:
+  title: "Myntra"
+  logo_url: https://images.hasgeek.com/embed/file/fc40eb2f885943cd97f7bc6c2e2aed53
+  url: https://medium.com/myntra-engineering
+  display_url: medium.com/myntra-engineering
+  blurb: |
+  
