@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Fragments Ahmedabad 2019
+title: State of platforms:Fragments Ahmedabad
 subtitle: "On the state of platforms: React Native, Flutter, iOS, React"
 datelocation: "9 March 2019, Dev accelerator, Ahmedabad"
 city: Ahmedabad
@@ -23,15 +23,27 @@ overview:
   left_content: |
     ### About Fragments Ahmedabad:State of Platforms
     
-    Fragments Ahmedabad is a single-day event with:
-
-    * Short and long talks on React Native, Flutter, iOS and React.
-    * Hands-on workshop(s) of 4-6 hours in a parallel track. 
-    * Office hours and Birds of Feather (BOF) sessions.
+    The Ahmedabad edition of Fragments Conference is a technical, deep-dive conference, discussing:
+    
+    * React: where Vipul AM, director at Big Binary, elaborates [on tooling, resources and how to get started with React] (https://hasgeek.com/fragments/ahmedabad-2019/proposals/state-of-react-BDg5te9DaeahZN9kVaahRV)
+    * React Native: working with the React Native team at Facebook in San Francisco, Parashuram explains [how you can build high quality applications with React Native](https://hasgeek.com/fragments/ahmedabad-2019/proposals/building-high-quality-mobile-apps-with-react-nativ-T4xVLyEQFFGKzgvNsdRuta)
+    * Flutter: Pooja Bhaumik explains [the ease of development with Flutter in terms of reduced development times, ease of learning, and other technical features which make Flutter an attractive platform](https://hasgeek.com/fragments/ahmedabad-2019/proposals/flutter-a-nightmare-for-freelancers-jbAn8PKhyFgna44bvJ8fHf)
+    * Comparisons of the above platforms with Kotlin and NativeScript: Arnav Gupta, known for his active involvement with the Android community, demonstrates [the pros and cons of different platforms by showing how he built an app using Kotlin, Flutter and NativeScript](https://hasgeek.com/fragments/ahmedabad-2019/proposals/what-i-learnt-by-building-the-exact-same-app-in-ko-NuZgd4bLfKkcck2yHEGRmg)
+    * **While platforms have brought in frameworks and ease of development, at the heart of a good mobile app underlies sound engineering.** One such practice is that of end-to-end testing. Preeti Wadhwani argues about [the importance of E2E testing, in her talk at the conference](https://hasgeek.com/fragments/ahmedabad-2019/proposals/meet-my-new-friend-testing-Y5FuAn6jCmXDdyL7o72LtM)
+    * We have organized a flash talks session for audience to showcase their open source work, and contribute to the above discussions. **See the full conference schedule [here](https://hasgeek.com/fragments/ahmedabad-2019/schedule)**
+    
     
   right_content: |
+    ### Workshops and BOF sessions:
+    Conferences are as much about interactions and sharing of experiences, as they are about learning. Post-lunch, we have two tracks at Fragments Ahmedabad edition:
+
+    1. [**A hands-on tutorial on React**](https://hasgeek.com/fragments/ahmedabad-2019/proposals/react-beginners-workshop-XgmZCjfvVLFYBAYotH8jeE)
+    2. Birds of Feather (BOF) sessions, where interested members of the audience can join discussions on React Native, Flutter and NativeScript. [**See the schedule for more details**](https://hasgeek.com/fragments/ahmedabad-2019/schedule)
+
     ### Who should attend?
-    Mobile developers working across platforms must attend this event.
+    
+    1. Mobile developers working across platforms.
+    2. Co-founders and product managers who are evaluating platforms for business and customer use cases.
 
 schedule:
   url: "https://hasgeek.com/fragments/ahmedabad-2019/schedule"
