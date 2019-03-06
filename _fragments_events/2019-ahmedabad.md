@@ -74,4 +74,11 @@ sponsor:
        sponsors:
        - infostretch
 
+     - title: "Community Partners"
+       size: "l"
+       sponsors:
+       - headstart
+       - pydata
+       - googledev
+
 ---
