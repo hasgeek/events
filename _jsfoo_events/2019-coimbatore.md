@@ -71,5 +71,9 @@ sponsor:
 
     Download our sponsorship deck or reach out to us for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
   sponsorship_deck_url: 'https://hsgk.in/JSFoo-Coimbatore'
-  
+  sponsors:
+  - title: "Gold sponsor"
+    size: "l"
+    sponsors:
+    - mockflow
 ---
