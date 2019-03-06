@@ -1194,3 +1194,31 @@ bam:
   display_url: blog.bam.tech/developper-news
   blurb: |
   
+headstart:
+  title: "Headstart"
+  logo_url: https://images.hasgeek.com/embed/file/a4291f5919b74d5f917cf68abc902935
+  url: https://headstart.in/chapter/ahmedabad
+  display_url: headstart.in/chapter/ahmedabad
+  blurb: |
+
+mockflow:
+  title: "MockFlow"
+  logo_url: https://images.hasgeek.com/embed/file/37f8c291c8df4ca1860c6abbc31a632b
+  url: https://mockflow.com/
+  display_url: www.mockflow.com
+  blurb: |
+
+pydata:
+  title: "Py Data Ahmedabad"
+  logo_url: https://images.hasgeek.com/embed/file/6eaa563bb39c4e9b87fd2076beb19c52
+  url: https://www.facebook.com/pydataahmedabad/
+  display_url: www.facebook.com/pydataahmedabad/
+  blurb: |
+
+googledev:
+  title: "Google Cloud Developer Community"
+  logo_url: https://images.hasgeek.com/embed/file/7271c544b61f40dbab526e5684f26d97
+  url: https://www.facebook.com/gcdcahmedabad
+  display_url: www.facebook.com/gcdcahmedabad
+  blurb: |
+
