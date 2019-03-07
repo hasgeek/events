@@ -80,5 +80,7 @@ sponsor:
        - headstart
        - pydata
        - googledev
+       - wtmrjk
+       - gdgrjk
 
 ---
