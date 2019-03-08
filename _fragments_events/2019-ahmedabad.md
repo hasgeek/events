@@ -83,5 +83,6 @@ sponsor:
        - googledev
        - wtmrjk
        - gdgrjk
+       - echai
 
 ---
