@@ -78,11 +78,10 @@ sponsor:
      - title: "Community Partners"
        size: "l"
        sponsors:
+       - echai
+       - wtmrjk
+       - gdgrjk
        - headstart
        - pydata
        - googledev
-       - wtmrjk
-       - gdgrjk
-       - echai
-
 ---
