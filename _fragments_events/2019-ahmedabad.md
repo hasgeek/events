@@ -69,10 +69,11 @@ sponsor:
        sponsors:
        - devx
        
-     - title: "Exhibition Sponsor"
+     - title: "Sponsor"
        size: "l"
        sponsors:
        - infostretch
+       - 3sidedcoin
 
      - title: "Community Partners"
        size: "l"
