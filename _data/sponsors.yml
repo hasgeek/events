@@ -790,16 +790,14 @@ salesforce:
 
 sumologic:
   title: Sumologic
-  logo_url: https://images.hasgeek.com/embed/file/d9ac335b6ee042e4ae6e48aef49b289a
+  logo_url: https://images.hasgeek.com/embed/file/ebbe9434a777448ab564ce5e005c5b48
   url: https://www.sumologic.com/
   display_url: www.sumologic.com
   blurb: |
-    Sumo Logic is a secure, cloud-native, machine and log data analytics service, delivering real-time, continuous intelligence across the entire application lifecycle and stack.
-    More than 2,000 customers around the globe rely on Sumo Logic for the analytics and insights to build, run and secure their modern applications and cloud infrastructures.
-
-    With Sumo Logic, customers gain a service-model advantage to accelerate their shift to continuous innovation, increasing competitive advantage, business value and growth.
-
-    Our secure, cloud-native machine and log data analytics platform, with advanced machine learning capabilities, predictive analytics and anomaly detection technology, to help you search, analyze, and visualize what's happening across your infrastructure and applications.
+    Sumo Logic is the leading cloud-native, machine data analytics platform that delivers continuous intelligence across the entire application lifecycle and stack. 
+    More than 1,600 customers around the globe rely on Sumo Logic for the analytics and insights to build, run and secure their modern applications and cloud infrastructures. 
+    With SumoLogic, customers gain a service-model advantage to accelerate their shift to continuous innovation, increasing competitive advantage, business value and growth. 
+    Founded in 2010, Sumo Logic is a privately held company based in Redwood City, CA and is backed by Accel Partners, DFJ, Greylock Partners, IVP, Sapphire Ventures, Sequoia Capital and Sutter Hill Ventures. For more information, visit [www.sumologic.com](https://www.sumologic.com/).
 
 netapp-excellerator:
   title: NetApp Execellerator
