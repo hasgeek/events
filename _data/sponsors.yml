@@ -790,16 +790,14 @@ salesforce:
 
 sumologic:
   title: Sumologic
-  logo_url: https://images.hasgeek.com/embed/file/d9ac335b6ee042e4ae6e48aef49b289a
+  logo_url: https://images.hasgeek.com/embed/file/ebbe9434a777448ab564ce5e005c5b48
   url: https://www.sumologic.com/
   display_url: www.sumologic.com
   blurb: |
-    Sumo Logic is a secure, cloud-native, machine and log data analytics service, delivering real-time, continuous intelligence across the entire application lifecycle and stack.
-    More than 2,000 customers around the globe rely on Sumo Logic for the analytics and insights to build, run and secure their modern applications and cloud infrastructures.
-
-    With Sumo Logic, customers gain a service-model advantage to accelerate their shift to continuous innovation, increasing competitive advantage, business value and growth.
-
-    Our secure, cloud-native machine and log data analytics platform, with advanced machine learning capabilities, predictive analytics and anomaly detection technology, to help you search, analyze, and visualize what's happening across your infrastructure and applications.
+    Sumo Logic is the leading cloud-native, machine data analytics platform that delivers continuous intelligence across the entire application lifecycle and stack. 
+    More than 1,600 customers around the globe rely on Sumo Logic for the analytics and insights to build, run and secure their modern applications and cloud infrastructures. 
+    With SumoLogic, customers gain a service-model advantage to accelerate their shift to continuous innovation, increasing competitive advantage, business value and growth. 
+    Founded in 2010, Sumo Logic is a privately held company based in Redwood City, CA and is backed by Accel Partners, DFJ, Greylock Partners, IVP, Sapphire Ventures, Sequoia Capital and Sutter Hill Ventures. For more information, visit [www.sumologic.com](https://www.sumologic.com/).
 
 netapp-excellerator:
   title: NetApp Execellerator
@@ -1217,7 +1215,7 @@ pydata:
 
 googledev:
   title: "Google Cloud Developer Community"
-  logo_url: https://images.hasgeek.com/embed/file/7271c544b61f40dbab526e5684f26d97
+  logo_url: https://images.hasgeek.com/embed/file/26db04bf892642e49bd799d857bbb294
   url: https://www.facebook.com/gcdcahmedabad
   display_url: www.facebook.com/gcdcahmedabad
   blurb: |
@@ -1254,3 +1252,10 @@ echai:
      Over the last 8 years, we have helped companies like FlipKart, WebEngage, SpringBoard, Fisdom, Quintype, and some of your favourite financial institutes create award-winning products. In 2018, FroggiPedia - an iPad Augmented Reality product we designed for DesignMate won Apple’s “iPad App of the Year”. 
      
      Focussed on the human elements of the creating products, we are a space that aims in growth of our clients, employees and the societies our work interacts with.
+
+cred:
+  title: "Cred"
+  logo_url: https://images.hasgeek.com/embed/file/8476b3d5bff54408adc81ac5b77a3688
+  url: https://www.cred.club/
+  display_url: www.cred.club
+  blurb: |
