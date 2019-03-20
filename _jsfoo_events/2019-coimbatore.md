@@ -76,4 +76,9 @@ sponsor:
     size: "l"
     sponsors:
     - mockflow
+
+  - title: "Bronze sponsor"
+    size: "l"
+    sponsors:
+    - hasura
 ---
