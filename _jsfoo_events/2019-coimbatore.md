@@ -81,4 +81,5 @@ sponsor:
     size: "l"
     sponsors:
     - hasura
+    - thoughtworks
 ---
