@@ -350,3 +350,14 @@
   url: https://rootconf.in/2019/
   funnel: https://hasgeek.com/rootconf/2019/
   blurb: On infrastructure security, cost optimisation, and distributed syystems.
+
+- name: vueday-2019
+  title: "JSFoo: VueDay 2019"
+  city: Bangalore
+  venue: Bangalore Internatoinal Center (BIC)
+  google_maps_pin: https://goo.gl/maps/7FkxmyZ7Z3E2
+  start_time: 2019-08-30
+  end_time: 2019-08-31
+  url: https://jsfoo.in/2019-vueday/
+  funnel: https://hasgeek.com/jsfoo/2019-vueday/
+  blurb: A day spent discussing Vue.js, developments in the Vue ecosystem and component architecture
