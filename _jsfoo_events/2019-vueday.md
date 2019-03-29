@@ -1,6 +1,6 @@
 ---
 layout: event
-title: JSFoo: VueDay 2019
+title: "JSFoo: VueDay 2019"
 subtitle: "A day spent discussing Vue.js, developments in the Vue ecosystem and component architecture"
 datelocation: "30 August 2019, Bangalore International Center (BIC), Bangalore"
 city: Bangalore
