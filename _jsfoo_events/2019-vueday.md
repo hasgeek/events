@@ -47,7 +47,7 @@ overview:
          4. Web standards and Vue.js
          5. Vue 3 - to be released.
 
-     **If you are interested in participating in JSFoo: VueDay, submit a talk/tutorial/workshop/BOF proposal here. Proposal submissions close on 15 May 2019.**
+       **If you are interested in participating in JSFoo: VueDay, submit a talk/tutorial/workshop/BOF proposal here. Proposal submissions close on 15 May 2019.**
     
   right_content: |
     
