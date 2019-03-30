@@ -1256,3 +1256,13 @@ cred:
   url: https://www.cred.club/
   display_url: www.cred.club
   blurb: |
+
+platform.sh:
+  title: "Platform.sh"
+  logo_url: https://images.hasgeek.com/embed/file/0b0eb18c41c140dd87a1791ca3132943
+  url: https://platform.sh/
+  display_url: www.platform.sh
+  blurb: |
+    Platform.sh is a Platform-as-a-service (PaaS) that develop and deliver applications in multiple languages and frameworks across multiple clouds. 
+    We take care of your infrastructure—from hosting and technology to global deployment, enterprise-grade SLAs, and 24x7 expert support. 
+    So you can refocus on building cool, new features and apps—faster.
