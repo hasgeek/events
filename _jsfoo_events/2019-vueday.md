@@ -69,6 +69,11 @@ sponsor:
 
     Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com)
   sponsorship_deck_url: 'https://hsgk.in/VueDay19'
-
+  
+sponsors:   
+   - title: "Community Sponsor"
+       size: "l"
+       sponsors:
+       - sapient
 
 ---
