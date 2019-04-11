@@ -62,13 +62,19 @@ overview:
         * Arnav Gupta – founding member at Coding Blocs
         * Chirag Jain, front-end developer by practice, is part of the coordinating team for the conference, from the community.
     For details, contact HasGeek on info@hasgeek.com or jsfoo.editorial@hasgeek.com; call 7676332020.
-
+    
 sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach, sales and hiring.
 
     Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com)
+    
   sponsorship_deck_url: 'https://hsgk.in/VueDay19'
-
+  
+  sponsors:
+  - title: "Community Sponsor"
+    size: "l"
+    sponsors:
+    - sapient
 
 ---
