@@ -2,7 +2,7 @@
 layout: event
 title: JSFoo Coimbatore 2019
 subtitle: "On building a fast and secure web"
-datelocation: "8 June 2019, Coimbatore"
+datelocation: "8 June 2019, Hotel Fairfield by Marriott, Coimbatore"
 city: Coimbatore
 start_time: 2019-06-08
 end_time: 2019-06-08
@@ -15,7 +15,12 @@ logo:
 funnel:
   url: "https://hasgeek.com/jsfoo/2019-coimbatore/#call-for-proposal"
   open: true
-
+venue:
+  label: Hotel Fairfield by Marriott, Coimbatore
+  lat: 11.035747
+  lng: 77.037236
+  google_maps_url: https://goo.gl/maps/nyaK7gFWen4dd26G9
+  
 banner: https://images.hasgeek.com/embed/file/1cf24cbf955e4277b7648c0a483cc475
 
 youtube_url:
