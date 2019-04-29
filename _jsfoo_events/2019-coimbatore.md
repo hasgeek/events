@@ -17,6 +17,8 @@ funnel:
   open: true
 venue:
   label: Hotel Fairfield by Marriott, Coimbatore
+  address: |
+    Hotel Fairfield by Marriott, 469/2B, Airport Rd, TNHB Colony, Civil Aerodrome Post, Peelamedu, Coimbatore.
   lat: 11.035747
   lng: 77.037236
   google_maps_url: https://goo.gl/maps/nyaK7gFWen4dd26G9
