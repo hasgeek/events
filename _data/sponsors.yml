@@ -1285,7 +1285,7 @@ upcloud:
 paytm:
   title: "Paytm"
   logo_url: https://images.hasgeek.com/embed/file/f000b3607ce2489a98ac6f0f63cadf59
-  url: https://blog.paytm.com/
+  url: https://paytm.com/
   display_url: www.paytm.com
   blurb: |
     Paytm is India’s largest digital payments company that offers multi-source and multi-destination payment solutions. 
