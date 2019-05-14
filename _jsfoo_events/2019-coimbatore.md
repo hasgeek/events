@@ -2,10 +2,10 @@
 layout: event
 title: JSFoo Coimbatore 2019
 subtitle: "On building a fast and secure web"
-datelocation: "8 June 2019, Hotel Fairfield by Marriott, Coimbatore"
+datelocation: "05 July 2019, TBA, Coimbatore"
 city: Coimbatore
-start_time: 2019-06-08
-end_time: 2019-06-08
+start_time: 2019-07-05
+end_time: 2019-07-05
 featured: true
 featured_image: https://images.hasgeek.com/embed/file/5b1223b1600548bb9b4756f2f1c11e16
 description: "On building a fast and secure web"
@@ -15,13 +15,6 @@ logo:
 funnel:
   url: "https://hasgeek.com/jsfoo/2019-coimbatore/#call-for-proposal"
   open: true
-venue:
-  label: Hotel Fairfield by Marriott, Coimbatore
-  address: |
-    Hotel Fairfield by Marriott, 469/2B, Airport Rd, TNHB Colony, Civil Aerodrome Post, Peelamedu, Coimbatore.
-  lat: 11.035747
-  lng: 77.037236
-  google_maps_url: https://goo.gl/maps/nyaK7gFWen4dd26G9
   
 banner: https://images.hasgeek.com/embed/file/1cf24cbf955e4277b7648c0a483cc475
 
