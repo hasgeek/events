@@ -468,7 +468,8 @@ takshashila:
   url: http://takshashila.org.in/
   display_url: takshashila.org.in
   blurb: |
-    The Takshashila Institution—an independent, non-partisan, non-profit organisation—contributes towards building the intellectual foundations of an India that has global interests.
+    The Takshashila Institution—
+    an independent, non-partisan, non-profit organisation—contributes towards building the intellectual foundations of an India that has global interests.
     It aims to establish itself as one of the most credible voices in India’s public policy discourse, known for its unambiguous pursuit of the national interest, through consistent high-quality policy advisories.
 
 hike:
@@ -1303,4 +1304,11 @@ freshworks:
     
     Founded in October 2010, Freshworks Inc. is backed by Accel, Tiger Global Management, CapitalG and Sequoia Capital India. Freshworks is a 2,000 + team headquartered in San Mateo, California, with global offices in India, UK, Australia and Germany. 
     The company's cloud-based suite is widely used by over 150,000 businesses around the world including the NHS, Honda, Rightmove, Hugo Boss, Citizens Advice, Toshiba and Cisco. For more information, please visit [www.freshworks.com](https://www.freshworks.com/)
+    
+nilenso:
+  title: "Nilenso"
+  logo_url: https://images.hasgeek.com/embed/file/716773aaade943fdb037869e02487f3a
+  url: https://nilenso.com/
+  display_url: www.nilenso.com
+  blurb: |
     
