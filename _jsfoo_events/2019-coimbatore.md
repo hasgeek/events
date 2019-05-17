@@ -2,7 +2,7 @@
 layout: event
 title: JSFoo Coimbatore 2019
 subtitle: "On building a fast and secure web"
-datelocation: "05 July 2019, TBA, Coimbatore"
+datelocation: "05 July 2019, The Residency Tower, Coimbatore"
 city: Coimbatore
 start_time: 2019-07-05
 end_time: 2019-07-05
@@ -14,10 +14,21 @@ logo:
   image_url: https://images.hasgeek.com/embed/file/5b1223b1600548bb9b4756f2f1c11e16
 funnel:
   url: "https://hasgeek.com/jsfoo/2019-coimbatore/#call-for-proposal"
-  open: true
+  open: false
   
 banner: https://images.hasgeek.com/embed/file/1cf24cbf955e4277b7648c0a483cc475
-
+schedule:
+  url: "https://hasgeek.com/jsfoo/2019-coimbatore/schedule"
+  json_url: "https://hasgeek.com/jsfoo/2019-coimbatore/schedule/json"
+  type: "conference"
+venue:
+  label: The Residency Towers, Coimbatore
+  address: |
+    The Residency Towers, 1075, Avinashi Rd, P N Palayam, Coimbatore, Tamil Nadu.
+  lat: 11.010330
+  lng: 76.980034
+  google_maps_url: https://goo.gl/maps/U1pW9dyVUBfKC6vaA
+  
 youtube_url:
     title: "Most Popular Video from JSFoo 2018"
     youtube_embed: "https://www.youtube.com/embed/wAlLe7uvOxc"
