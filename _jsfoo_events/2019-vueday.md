@@ -72,6 +72,11 @@ sponsor:
   sponsorship_deck_url: 'https://hsgk.in/VueDay19'
   
   sponsors:
+  - title: "Platinum Sponsor"
+    size: "l"
+    sponsors:
+    - anatta
+
   - title: "Community Sponsor"
     size: "l"
     sponsors:
