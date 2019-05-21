@@ -48,6 +48,8 @@ overview:
     * Web application security
     * Performance
     * Debugging, testing, profiling
+    * Frameworks, tools and alternatives to JS
+    * Management and scaling of Infrastructure
     
   right_content: |
   
