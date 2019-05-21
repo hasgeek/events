@@ -1,14 +1,14 @@
 ---
 layout: event
 title: JSFoo Coimbatore 2019
-subtitle: "On building a fast and secure web"
+subtitle: "On building faster, performant and secure web applications"
 datelocation: "05 July 2019, The Residency Tower, Coimbatore"
 city: Coimbatore
 start_time: 2019-07-05
 end_time: 2019-07-05
 featured: true
 featured_image: https://images.hasgeek.com/embed/file/5b1223b1600548bb9b4756f2f1c11e16
-description: "On building a fast and secure web"
+description: "On building faster, performant and secure web applications"
 boxoffice_item_collection: "4c76be80-1e31-49d1-9a96-993ce7addb2f"
 logo:
   image_url: https://images.hasgeek.com/embed/file/5b1223b1600548bb9b4756f2f1c11e16
@@ -39,20 +39,25 @@ hasjob:
   limit: 8
 overview:
   left_content: |
-    ### JSFoo is the annual JavaScript conference hosted by HasGeek. 
-    The Coimbatore edition is the first edition, and the second in the series of traveling editions of JSFoo in 2019.
+    ### JSFoo Coimbatore is a single-day conference with talks, Birds of Feather (BOF) sessions and speaker connect sessions. 
+    The conference will be held on Friday, 5 July, The Residency Tower, Coimbatore.
     
-    ### You should attend JSFoo if you work in any of the following domains
+    ### You should attend JSFoo Coimbatore if you work on
     
-    * Architecture of Web Apps
-    * Frameworks, tools and alternatives to JS
-    * Front end and its security
-    * Building systems, tools and processes for teams
-    * Performance and UX
-    * Management and scaling of Infrastructure
-    * Debugging, testing and profiling on the Web
+    * Web application architecture
+    * Web application security
+    * Performance
+    * Debugging, testing, profiling
     
   right_content: |
+  
+    ###JSFoo Coimbatore features talks on:
+    
+    * [How to secure your web applications by identifying vulnerabilities.](https://hasgeek.com/jsfoo/2019-coimbatore/proposals/captain-marvellous-javascript-a-look-at-how-hacker-sT4uN59S4pgx5TRAw77GcM)
+    * [Leveraging OSINT to identify overly permissive application programming interfaces, business logic errors, insecure direct object reference attacks and use of insecure identifiers.](https://hasgeek.com/jsfoo/2019-coimbatore/proposals/leveraging-web-application-vulnerabilities-to-buil-DYytevdsvUWh8moNMiq4r9)
+    * [Case studies of performance improvements](https://hasgeek.com/jsfoo/2019-coimbatore/proposals/improving-react-app-performance-a-case-study-sVB8zdPyMz6ufCYaLBaAZf) and [Using the modular approach to building front-ends.](https://hasgeek.com/jsfoo/2019-coimbatore/proposals/breaking-the-monolithic-front-end-a-hackerranks-ca-LhubczPKvZRXXbycbusmUL)
+    * [Node.js and good engineering practices such as logging, debugging and integrating security into your applications.](https://hasgeek.com/jsfoo/2019-coimbatore/proposals/architect-for-scale-my-learnings-in-node-js-a-case-wjKoM5DuZZ89jpV6Di3mnN)
+    
     ### How it all began
   
     HasGeek launched JSFoo in 2011 as India’s first JavaScript conference. The JS community in India has grown phenomenally since then. JavaScript now prevades every aspect of web development - browsers, apps, front-end, back-end, mobile and IoT. There is always scope to understand new ideas and solutions. JSFoo explores new ideas, implementing innovative solutions, and learning from experiences and anti-patterns.
