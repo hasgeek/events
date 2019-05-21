@@ -48,10 +48,11 @@ overview:
     * Web application security
     * Performance
     * Debugging, testing, profiling
+    * Frameworks, tools and alternatives to JS
+    * Management and scaling of Infrastructure
     
   right_content: |
-  
-    ###JSFoo Coimbatore features talks on:
+    ### JSFoo Coimbatore features talks on:
     
     * [How to secure your web applications by identifying vulnerabilities.](https://hasgeek.com/jsfoo/2019-coimbatore/proposals/captain-marvellous-javascript-a-look-at-how-hacker-sT4uN59S4pgx5TRAw77GcM)
     * [Leveraging OSINT to identify overly permissive application programming interfaces, business logic errors, insecure direct object reference attacks and use of insecure identifiers.](https://hasgeek.com/jsfoo/2019-coimbatore/proposals/leveraging-web-application-vulnerabilities-to-buil-DYytevdsvUWh8moNMiq4r9)
