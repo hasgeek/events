@@ -1349,4 +1349,25 @@ anatta:
     Anatta’s staff works from offices in Bangalore, Charleston, and Los Angeles. Because Anatta works with clients on a monthly retainer instead of a traditional hourly rate, employees get to fully immerse themselves in projects and focus on one client project.
     
     Anatta has best-in-class expertise with Progressive Web Apps (PWAs), User Experience (UX) and Design, Performance Optimization, Shopify Plus, Brand Storytelling and more.
+
+sharechat:
+  title: "ShareChat"
+  logo_url: https://images.hasgeek.com/embed/file/e9251f95e16243d18660fa03c69e078d
+  url: https://sharechat.com/
+  display_url: www.sharechat.com
+  blurb: |
+    ShareChat is an Indian regional social media startup offering content consumption and sharing in 15 Indian vernacular languages. 
+    It was conceptualised and built with one thought in mind- giving India’s next billion internet users a platform to raise their voice, express their opinion and showcase their talent in their own language. 
+    At ShareChat, we play host to over 45 million monthly active users (MAUs). Being a diversified social media platform that provides an online medium for India’s newest internet users, our platform sees a massive amount of variety - in terms of content shared, text, photographs and video content. 
+    At ShareChat, every single day brings with it a new experience in terms of user preferences, usage trends, and how first-time internet users interact with an entirely new world of the online, content-driven ecosystem.
+
+appdynamics:
+  title: "AppDynamics"
+  logo_url: https://images.hasgeek.com/embed/file/d47accbee3d0442eac9ab09ac72311c0
+  url: https://www.appdynamics.com/
+  display_url: www.appdynamics.com
+  blurb: |
+    AppDynamics is an application performance monitoring solution that uses machine learning and artificial intelligence (AI) to provide real-time visibility and insight into IT environments. 
+    With our unique AIOps solution, you can take the right action at exactly the right time with automated anomaly detection, rapid root-cause analysis, and a unified view of your entire application ecosystem, including private and public clouds.  
+    Using AppDynamics, you’ll finally align IT, DevOps, and the business around the information that helps you protect your bottom line and deliver flawless customer experiences at scale.
     
