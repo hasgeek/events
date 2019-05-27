@@ -1308,10 +1308,18 @@ freshworks:
 nilenso:
   title: "Nilenso"
   logo_url: https://images.hasgeek.com/embed/file/716773aaade943fdb037869e02487f3a
-  url: https://nilenso.com/
-  display_url: www.nilenso.com
+  url: https://nilenso.com/careers.html
+  display_url: nilenso.com/careers
   blurb: |
-
+    nilenso is a technology co-operative based in Bangalore. We believe in self governance, openness and transparency.
+    
+    We enjoy LISP, hardened virtual machines, distributed computing, hot chai on rainy afternoons, making music, knitting, cycling and board games.
+    
+    We write Clojure / ClojureScript, Elixir, Go with a dash of Haskell / PureScript, Javascript, Java and Ruby / Rails, in the places those languages make sense. We've spent significant time scaling and squeezing runtime performance out of Postgres and analytics performance out of HBase and Redshift.
+    
+    We'd love to hear from you. Talk to us!
+    [careers@nilenso.com](careers@nilenso.com)|[nilenso.com/careers](https://nilenso.com/careers.html)
+  
 cloudsek:
   title: "CloudSek"
   logo_url: https://images.hasgeek.com/embed/file/57f8ad5b4eab473e879ba0a24eff7049
