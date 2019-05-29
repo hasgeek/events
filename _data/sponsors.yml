@@ -1378,4 +1378,14 @@ appdynamics:
     AppDynamics is an application performance monitoring solution that uses machine learning and artificial intelligence (AI) to provide real-time visibility and insight into IT environments. 
     With our unique AIOps solution, you can take the right action at exactly the right time with automated anomaly detection, rapid root-cause analysis, and a unified view of your entire application ecosystem, including private and public clouds.  
     Using AppDynamics, you’ll finally align IT, DevOps, and the business around the information that helps you protect your bottom line and deliver flawless customer experiences at scale.
-    
+
+ansible:
+  title: "Ansible"
+  logo_url: https://images.hasgeek.com/embed/file/5813bbaf37934f34ac129cc287c102af
+  url: https://www.ansible.com/
+  display_url: ansible.com
+  blurb: |
+    Ansible is an open source community project sponsored by Red Hat and it's the simplest way to automate IT. 
+    Ansible is the only automation language that can be used across entire IT teams from systems and network administrators to developers and managers. 
+    It is a universal language, unraveling the mystery of how work gets done. Turn tough tasks into repeatable playbooks. Roll out enterprise-wide protocols with the push of a button.
+
