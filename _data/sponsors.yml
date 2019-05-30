@@ -1389,3 +1389,13 @@ ansible:
     Ansible is the only automation language that can be used across entire IT teams from systems and network administrators to developers and managers. 
     It is a universal language, unraveling the mystery of how work gets done. Turn tough tasks into repeatable playbooks. Roll out enterprise-wide protocols with the push of a button.
 
+planetscale:
+  title: "Planetscale"
+  logo_url: https://images.hasgeek.com/embed/file/2490e6a28ccb4b0bb850f36b43a8f6f4
+  url: https://planetscale.com/
+  display_url: planetscale.com
+  blurb: |
+    PlanetScale is a relational database platform aimed at helping companies horizontally scale data in the cloud. Founded by the creators of Vitess, MySQL industry’s most proven database sharding solution, and backed by Andreessen Horowitz, SignalFire, head of the US Digital Service Matt Cutts and Cultural Leadership Fund, PlanetScale allows businesses to operationalize Vitess to protect, access and derive insights from their data
+    
+    The company’s seed investors include: YouTube Founder Steve Chen; Dropbox’s ex-CTO Aditya Agarwal; Google’s ‘Browser Boss’ and Director of Engineering Parisa Tabriz; Affirm  Co-Founder & CEO Max Levchin; MuleSoft Founder & CTO Ross Mason; Quora CEO Adam D’Angelo; GitHub VP of Infrastructure Engineering Sam Lambert; Prasanna Srikhanta; Coda Co-Founder and CEO Shishir Mehrotra; Investor, Advisor and former SVP of Engineering at Yelp Mike Stoppelman; Start Smart Labs Founders Ellen Salisbury and Raymie Stata; South Park Commons Founder Ruchi Sanghvi; and Box Group. 
+    Chris Aniszczyk, COO and CTO at Cloud Native Computing Foundation and the VP at Linux Foundation also stands as an advisor to the company.
