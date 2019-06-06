@@ -32,7 +32,6 @@ hasjob:
 overview:
   left_content: |
     ### JSFoo Coimbatore is a single-day conference with talks, Birds of Feather (BOF) sessions and speaker connect sessions. 
-    The conference will be held on Friday, 5 July, The Residency Tower, Coimbatore.
     
     ### You should attend JSFoo Coimbatore if you work on
     
