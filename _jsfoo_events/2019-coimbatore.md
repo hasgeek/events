@@ -58,7 +58,8 @@ overview:
     Want to see the talks from last year’s conference? Watch the [JSFoo 2018 videos](https://hasgeek.tv/jsfoo){:target="_blank"} or [JSFoo Pune 2018 videos](https://hasgeek.tv/jsfoo/pune-2019){:target="_blank"}.
     
 related_events:
-- reactfoo-2019
+- jsfoo-2019
+- vueday-2019
 
 photo_album:
   title: "Highlights from JSFoo, 2018"
