@@ -1392,3 +1392,13 @@ planetscale:
   display_url: planetscale.com
   blurb: |
     PlanetScale is a relational database platform aimed at helping companies horizontally scale data in the cloud. Founded by the creators of Vitess, MySQL industry’s most proven database sharding solution, and backed by Andreessen Horowitz, SignalFire, head of the US Digital Service Matt Cutts and Cultural Leadership Fund, PlanetScale allows businesses to operationalize Vitess to protect, access and derive insights from their data.
+
+atlan:
+  title: "Atlan"
+  logo_url: https://images.hasgeek.com/embed/file/825d00a80db3484da757e130a2b1a9d0
+  url: https://atlan.com/
+  display_url: atlan.com
+  blurb: |
+    Atlan is a delightful new way for teams to work with data. It is creating a home for data teams—bringing together diverse data, tools, and people to create a frictionless collaboration experience. 
+    Today, more than 200 teams in 50+ countries rely on Atlan to democratize data in their organizations, acquire external data instantly, digitize data collection, and automate repetitive tasks. Data can be chaos, work shouldn't be!
+
