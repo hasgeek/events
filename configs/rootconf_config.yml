@@ -4,7 +4,6 @@ description: "A community and conference on DevOps and cloud infrastructure"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rootconf.in" # the base hostname & protocol for your site, e.g. http://example.com
 id: rootconf
-hasgeek_url: https://hasgeek.com/rootconf
 colors:
   primary: "#192967"
   accent: "#C85626"
