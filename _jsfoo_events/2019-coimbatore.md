@@ -99,4 +99,10 @@ sponsor:
     sponsors:
     - hasura
     - thoughtworks
+
+  - title: "Venue Partner"
+    size: "l"
+    sponsors:
+    - grd
+
 ---
