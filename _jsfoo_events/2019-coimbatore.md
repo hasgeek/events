@@ -2,7 +2,7 @@
 layout: event
 title: JSFoo Coimbatore 2019
 subtitle: "On building faster, performant and secure web applications"
-datelocation: "05 July 2019, GRD Auditorium, Dr.G.R.Damodaran College of Science, Coimbatore"
+datelocation: "05 July 2019, Dr.G.R.Damodaran College of Science, Coimbatore"
 city: Coimbatore
 start_time: 2019-07-05
 end_time: 2019-07-05
@@ -17,12 +17,12 @@ funnel:
   open: false
   
 venue:
-  label: GRD Auditorium, Dr. G R Damodaran College of Science, Avinashi Road, Coimbatore.
+  label: IT Block, Dr. G R Damodaran College of Science, Avinashi Road, Coimbatore.
   address: |
-    GRD Auditorium, Dr. G R Damodaran College of Science, 2/2, Avinashi Rd, Opp CIT, Civil Aerodrome Post, Peelamedu, Coimbatore, Tamil Nadu 641014.
+    IT Block, Dr. G R Damodaran College of Science, 2/2, Avinashi Rd, Opp CIT, Civil Aerodrome Post, Peelamedu, Coimbatore, Tamil Nadu 641014.
   lat: 11.033323
   lng: 77.030235
-  google_maps_url: https://goo.gl/maps/Wvz2RD926ZZd2tc5A
+  google_maps_url: https://goo.gl/maps/nbXg6bhNuQeaPNew8
 
 banner: https://images.hasgeek.com/embed/file/1cf24cbf955e4277b7648c0a483cc475
 schedule:
