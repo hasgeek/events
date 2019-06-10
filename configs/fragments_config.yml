@@ -3,7 +3,6 @@ subtitle: "India's community of Android, iOS, and mobile web developers<br>(form
 description: "India's community of Android, iOS, and mobile web developers"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fragments.in" # the base hostname & protocol for your site, e.g. http://example.com
-hasgeek_url: https://hasgeek.com/fragments
 colors:
   primary: "#1BAF82"
   accent: "#99CB54"
