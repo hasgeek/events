@@ -59,6 +59,12 @@ datelocation_schema = {
     'required': True
 }
 
+hasgeek_url_schema = {
+    'validator': valid_external_url,
+    'required': False
+}
+
+
 featured_speakers_schema = {
     'funnel_url': {
         'validator': valid_external_url,
@@ -251,6 +257,11 @@ event_schema = {
     'end_time': {
         'type': 'date',
         'required': True
+    },
+    'hasgeek_url': {
+        'type': 'string',
+        'schema': hasgeek_url_schema,
+        'required': False
     },
     'description': {
         'type': 'string',
