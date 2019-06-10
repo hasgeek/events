@@ -5,6 +5,7 @@ logo:
   image_url: https://images.hasgeek.com/embed/file/388138390f464e279d5429669293c040
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://anthillinside.in" # the base hostname & protocol for your site, e.g. http://example.com
+hasgeek_url: https://hasgeek.com/anthillinside
 colors:
   primary: "#3f50a3"
   accent: "#e76f45"

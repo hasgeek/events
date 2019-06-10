@@ -3,6 +3,7 @@ subtitle: "A community and conference on JavaScript"
 description: "A community and conference on JavaScript"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jsfoo.in" # the base hostname & protocol for your site, e.g. http://example.com
+hasgeek_url: https://hasgeek.com/jsfoo
 colors:
   primary: "#549EAF"
   accent: "#FAA51A"

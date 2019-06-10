@@ -3,6 +3,7 @@ subtitle: "A community and conference on the construction of user experience on 
 description: "A community and conference on the construction of user experience on the web."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://metarefresh.in" # the base hostname & protocol for your site, e.g. http://example.com
+hasgeek_url: https://hasgeek.com/metarefresh
 colors:
   primary: "#b22e40"
   accent: "#921b3f"

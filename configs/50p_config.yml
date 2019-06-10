@@ -4,6 +4,7 @@ description: "A community and conference on India's payment ecosystem"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://50p.in" # the base hostname & protocol for your site, e.g. http://example.com
 id: 50p
+hasgeek_url: https://hasgeek.com/50p
 colors:
   primary: "#434556"
   accent: "#ECC378"
