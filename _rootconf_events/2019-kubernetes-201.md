@@ -7,6 +7,7 @@ city: Bangalore
 start_time: 2019-06-23
 end_time: 2019-06-23
 description: "Once you learn Kubernetes Basics, you get excited to know more and would like to do a deep dive. But sometime it becomes just too overwhelming what Kubernetes can do. In this workshop we would simplify some of the advance topics like RBAC, Ingress, Storage Management, Monitoring etc and demonstrate them hands-on on Kubernetes cluster."
+hasgeek_url: https://hasgeek.com/rootconf/2019-kubernetes-201/
 boxoffice_item_collection: "0c6fc1c3-c458-4449-ab38-7e71a357dee6"
  
 

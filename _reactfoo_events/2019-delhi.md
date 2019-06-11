@@ -7,7 +7,7 @@ city: Delhi/NCR
 start_time: 2019-11-16
 end_time: 2019-11-17
 description: "A conference on React, front-end engineering and performance."
-
+hasgeek_url: https://hasgeek.com/reactfoo/2019-delhi/
 boxoffice_item_collection: "50f9500b-691d-476a-87c4-9f610f23cbde"
 funnel:
   url: "https://hasgeek.com/reactfoo/2019-delhi/"

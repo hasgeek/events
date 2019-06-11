@@ -3,6 +3,7 @@ layout: event
 title: "JSFoo: VueDay 2019"
 subtitle: "A day spent discussing Vue.js, developments in the Vue ecosystem and component architecture"
 datelocation: "30 August 2019, Bangalore International Center (BIC), Bangalore"
+hasgeek_url: https://hasgeek.com/jsfoo/2019-vueday/
 city: Bangalore
 start_time: 2019-08-30
 end_time: 2019-08-31
