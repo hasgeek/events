@@ -1451,7 +1451,12 @@ medianet:
     Media.net is one of the world's leading companies in the Contextual Advertising space that provides a wide range of advertising and traffic monetization solutions. Since its founding, Media.net has constantly broken new ground in building innovative contextual advertising solutions. 
     With 1300+ employees, Media.net has one of the largest teams worldwide building a global contextual advertising business. By market cap, Media.net is one of the Top 5 largest ad tech companies worldwide. By revenue, Media.net is the #2 largest contextual advertising businesses worldwide.
     
-    About the SRE team:
+    <strong>About the SRE team:</strong>
+    
     Site Reliability Engineering team in Media.Net is responsible for managing scaling, performance, monitoring, security, availability of the production environment. The focus is to architect, develop, automate and deploy products and infrastructure based on Linux and Linux application stacks.
-    Our environment consists of our own BareMetal and private cloud across co-located datacenter facility and the AWS public cloud. Our engineering teams follow DevOps practices and we rely heavily on open source tools like Jenkins, Selenium, Git, Puppet, Docker, Kubernetes, Open stack, Nagios/Icinga, Kafka, Graphite, Hadoop, , ELK, Vault etc. We use Python and Go majorly in SRE teams. 
-    We serve our contextual real-time ads customized for each visitor and each page view across billions of visitors, We sreve 2+ billion ad impressions a day across 10's of millions sites/domains on a server infrastructure that runs 1000+ CPUs, terabytes of RAM, and 100's of petabytes of data. If you would like to know more about us please visit us at the Medi.net booth at the conference  or write to us at [careers@media.net](careers@media.net).
+    
+
+    Our environment consists of our own BareMetal and private cloud across co-located datacenter facility and the AWS public cloud. Our engineering teams follow DevOps practices and we rely heavily on open source tools like Jenkins, Selenium, Git, Puppet, Docker, Kubernetes, Open stack, Nagios/Icinga, Kafka, Graphite, Hadoop, ELK, Vault etc. We use Python and Go majorly in SRE teams.
+    
+    We serve our contextual real-time ads customized for each visitor and each page view across billions of visitors, We sreve 2+ billion ad impressions a day across 10's of millions sites/domains on a server infrastructure that runs 1000+ CPUs, terabytes of RAM, and 100's of petabytes of data. If you would like to know more about us please visit us at the Media.net booth at the conference or write to us at [careers@media.net](careers@media.net)
+    
