@@ -9,7 +9,6 @@ end_time: 2019-07-05
 featured: true
 featured_image: https://images.hasgeek.com/embed/file/5b1223b1600548bb9b4756f2f1c11e16
 description: "On building faster, performant and secure web applications"
-hasgeek_url: https://hasgeek.com/jsfoo/2019-coimbatore/
 boxoffice_item_collection: "4c76be80-1e31-49d1-9a96-993ce7addb2f"
 logo:
   image_url: https://images.hasgeek.com/embed/file/5b1223b1600548bb9b4756f2f1c11e16
