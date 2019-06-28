@@ -37,6 +37,31 @@ hasgeektv-event-playlist-link:
 hasjob:
   url: https://jsfoo.hasjob.co
   limit: 8
+
+featured_speakers:
+- name: Karan Saini
+  talk_title: "Leveraging web application vulnerabilities for resourceful intelligence gathering."
+  funnel_url: https://hasgeek.com/jsfoo/2019-coimbatore/proposals/leveraging-web-application-vulnerabilities-for-res-DYytevdsvUWh8moNMiq4r9
+  designation: Security researcher and program officer at Centre for Internet and Society.
+  image_url: https://images.hasgeek.com/embed/file/eb6f069ea4964547a4e13cd6fd055be8
+  blurb: 
+  
+- name: Punit Sethi
+  talk_title: "Improving the performance of a React app: a case study"
+  funnel_url: https://hasgeek.com/jsfoo/2019-coimbatore/proposals/improving-react-app-performance-a-case-study-sVB8zdPyMz6ufCYaLBaAZf
+  designation: Founder Tezify
+  image_url: https://images.hasgeek.com/embed/file/428779782a7645fca8b8322ef433ee0a
+  blurb:
+
+- name: Sudhanshu Yadav
+  talk_title: "Breaking a monolithic front-end: HackerRank's case study"
+  funnel_url: https://hasgeek.com/jsfoo/2019-coimbatore/proposals/breaking-the-monolithic-front-end-a-hackerranks-ca-LhubczPKvZRXXbycbusmUL
+  designation: Front-end Architect at HackerRank
+  image_url: https://images.hasgeek.com/embed/file/90b1a3438ea7426aaddbfca9f10d0431
+  blurb:
+
+
+
 overview:
   left_content: |
     ### JSFoo Coimbatore is a single-day conference with talks, Birds of Feather (BOF) sessions and speaker connect sessions. 
