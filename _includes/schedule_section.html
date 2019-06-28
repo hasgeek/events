@@ -39,7 +39,7 @@
                 {{/track}}
                 <div class="schedule-talk">
                   <h4 class="title">{{title}}</h4>
-                  <p class="duration">{{start}} - {{end}}</p>
+                  <p class="duration">{{start_at}} - {{end_at}}</p>
                   {{#description}}
                     <div class="description-text">{{{description}}}</div>
                   {{/description}}
@@ -50,7 +50,7 @@
               <td colspan="{{rooms.length}}" class="break tab-active" rowspan={{rowspan}}>
                 <div class="schedule-talk">
                   <h4 class="title">{{title}}</h4>
-                  <p class="duration">{{start}} - {{end}}</p>
+                  <p class="duration">{{start_at}} - {{end_at}}</p>
                   {{#description}}
                     <div class="description-text">{{{description}}}</div>
                   {{/description}}
@@ -84,7 +84,7 @@
                   <p class="speaker">{{speaker}}</p>
                   {{/speaker}}
                   {{#title}}
-                  <p class="duration">{{start}} - {{end}}</p>
+                  <p class="duration">{{start_at}} - {{end_at}}</p>
                   {{/title}}
                   {{#roomTitle}}
                   <p class="venue"><i class="fa fa-map-marker"></i> {{roomTitle}}</p>
