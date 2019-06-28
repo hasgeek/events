@@ -34,9 +34,6 @@ youtube_url:
     youtube_embed: "https://www.youtube.com/embed/wAlLe7uvOxc"
 hasgeektv-event-playlist-link:
    url: https://hasgeek.tv/jsfoo/
-hasjob:
-  url: https://jsfoo.hasjob.co
-  limit: 8
 
 featured_speakers:
 - name: Karan Saini
@@ -60,7 +57,33 @@ featured_speakers:
   image_url: https://images.hasgeek.com/embed/file/90b1a3438ea7426aaddbfca9f10d0431
   blurb:
 
+- name: Riyaz Walikar
+  talk_title: "Captain Marvellous JavaScript: a look at how hackers use JS"
+  funnel_url: https://hasgeek.com/jsfoo/2019-coimbatore/proposals/captain-marvellous-javascript-a-look-at-how-hacker-sT4uN59S4pgx5TRAw77GcM
+  designation: Head of Offensive Security at Appsecco
+  image_url: https://images.hasgeek.com/embed/file/6a72e43d2985495988dc1ce725dba22c
+  blurb:
+  
+- name: Nishi Jain
+  talk_title: "WebSDK: switching between service providers on the fly"
+  funnel_url: https://hasgeek.com/jsfoo/2019-coimbatore/proposals/websdk-switching-b-w-service-providers-on-the-fly-bzR9bKnL8hm7pGzkjPmE7D
+  designation: Software Engineer at Hotstar
+  image_url: https://images.hasgeek.com/embed/file/4811553b8042476399cc0cff8809fcff
+  blurb:
 
+- name: Shreyansh Pandey
+  talk_title: "Architect for scale: case studies of my learnings with Node.js"
+  funnel_url: https://hasgeek.com/jsfoo/2019-coimbatore/proposals/architect-for-scale-my-learnings-in-node-js-a-case-wjKoM5DuZZ89jpV6Di3mnN
+  designation: Backend & Infrastructure Engineer and Open-Source Community Evangelist, Chained Ventures
+  image_url: https://images.hasgeek.com/embed/file/c84e186423af4ac49947c9133db2b61a
+  blurb:
+
+- name: Tejesh P
+  talk_title: "State Machines for Frontend State Management"
+  funnel_url: https://hasgeek.com/jsfoo/2019-coimbatore/proposals/state-machines-for-frontend-state-management-kixYL57oK33wop3NMdjLpY
+  designation: Developer, Gramener
+  image_url: https://images.hasgeek.com/embed/file/b63e46dddaab40b5ad83e9273e3b6fee
+  blurb:
 
 overview:
   left_content: |
