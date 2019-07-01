@@ -1459,4 +1459,16 @@ medianet:
     Our environment consists of our own BareMetal and private cloud across co-located datacenter facility and the AWS public cloud. Our engineering teams follow DevOps practices and we rely heavily on open source tools like Jenkins, Selenium, Git, Puppet, Docker, Kubernetes, Open stack, Nagios/Icinga, Kafka, Graphite, Hadoop, ELK, Vault etc. We use Python and Go majorly in SRE teams.
     
     We serve our contextual real-time ads customized for each visitor and each page view across billions of visitors, We sreve 2+ billion ad impressions a day across 10's of millions sites/domains on a server infrastructure that runs 1000+ CPUs, terabytes of RAM, and 100's of petabytes of data. If you would like to know more about us please visit us at the Media.net booth at the conference or write to us at [careers@media.net](careers@media.net)
+
+
+databricks:
+  title: "Databricks"
+  logo_url: https://images.hasgeek.com/embed/file/69f7c635b6594a85ba3fb8da33effe0f
+  url: https://databricks.com/
+  display_url: www.databricks.com
+  blurb: |
+    Databricks’ mission is to accelerate innovation for its customers by unifying Data Science, Engineering and Business. Founded by the original creators of Apache Spark, Databricks provides a Unified Analytics Platform for data science teams to collaborate with data engineering and lines of business to build data products. 
+    Users achieve faster time-to-value with Databricks by creating analytic workflows that go from ETL and interactive exploration to production. The company also makes it easier for its users to focus on their data by providing a fully managed, scalable, and secure cloud infrastructure that reduces operational complexity and total cost of ownership. Databricks has secured investments from Andreessen Horowitz, Coatue Management, Microsoft, New Enterprise Associates (NEA), Battery Ventures, Green Bay Ventures, and Geodesic, among others, and has a global customer base that includes Viacom, Shell and HP.
+    
+    Apache, Apache Spark and Spark are trademarks of the Apache Software Foundation.
     
