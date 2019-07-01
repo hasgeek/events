@@ -3,7 +3,6 @@ layout: event
 title: "JSFoo: VueDay 2019"
 subtitle: "A day spent discussing Vue.js, developments in the Vue ecosystem and component architecture"
 datelocation: "30 August 2019, Bangalore International Center (BIC), Bangalore"
-hasgeek_url: https://hasgeek.com/jsfoo/2019-vueday/
 city: Bangalore
 start_time: 2019-08-30
 end_time: 2019-08-31
@@ -63,15 +62,15 @@ overview:
         * Arnav Gupta – founding member at Coding Blocs
         * Chirag Jain, front-end developer by practice, is part of the coordinating team for the conference, from the community.
     For details, contact HasGeek on info@hasgeek.com or jsfoo.editorial@hasgeek.com; call 7676332020.
-    
+
 sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach, sales and hiring.
 
     Write to us for customized options. Email [sales@hasgeek.com](mailto:sales@hasgeek.com)
-    
+
   sponsorship_deck_url: 'https://hsgk.in/VueDay19'
-  
+
   sponsors:
   - title: "Platinum Sponsor"
     size: "l"

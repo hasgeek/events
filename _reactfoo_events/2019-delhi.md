@@ -7,14 +7,13 @@ city: Delhi/NCR
 start_time: 2019-11-16
 end_time: 2019-11-17
 description: "A conference on React, front-end engineering and performance."
-hasgeek_url: https://hasgeek.com/reactfoo/2019-delhi/
 boxoffice_item_collection: "50f9500b-691d-476a-87c4-9f610f23cbde"
 funnel:
   url: "https://hasgeek.com/reactfoo/2019-delhi/"
   open: true
 logo:
   image_url: /images/reactfoo-logo.png
-  
+
 venue:
   label: CD Deshmukh Auditorium, India International Centre, Max Mueller Marg, New Delhi
   address: |
@@ -25,7 +24,7 @@ venue:
 overview:
   left_content: |
     ### After a successful edition in Delhi in 2018, we are back with the 2019 edition of ReactFoo Delhi.
-     
+
     ReactFoo Delhi will feature talks on the following topics:
     * UI improvements with React
     * Case studies of patterns and anti-patterns when running React on the front-end
