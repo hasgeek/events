@@ -48,11 +48,11 @@ $(document).ready( function() {
     var endTime;
     var slots;
     var slotTime;
-    hr = getHrMin(schedule.start)[0];
-    min = getHrMin(schedule.start)[1];
+    hr = getHrMin(schedule.start_at)[0];
+    min = getHrMin(schedule.start_at)[1];
     startTime = getdateObject(hr, min);
-    hr = getHrMin(schedule.end)[0];
-    min = getHrMin(schedule.end)[1];
+    hr = getHrMin(schedule.end_at)[0];
+    min = getHrMin(schedule.end_at)[1];
     endTime = getdateObject(hr, min);
     schedule.slots = [];
     do {
@@ -92,8 +92,8 @@ $(document).ready( function() {
     datapoints.forEach(function(slot, slotindex, slots) {
     var sessions = slot.sessions;
     sessions.forEach(function(session, sessionindex, sessions) {
-      var sessionTime = getTotalMins(session.start);
-      var sessionEndTime = getTotalMins(session.end);
+      var sessionTime = getTotalMins(session.start_at);
+      var sessionEndTime = getTotalMins(session.end_at);
       emptyschedule.slots.forEach(function(emptyscheduleSlot, emptyscheduleSlotIndex, emptyscheduleSlots) {
         //Check if the session start time is equal to time interval
         if (getTotalMins(emptyscheduleSlot.slot) === sessionTime) {
@@ -113,15 +113,15 @@ $(document).ready( function() {
         }
         var sessions = slot.sessions;
         for(sessionindex = 0; sessionindex < sessions.length; sessionindex++) {
-          var sessionEndTime = getTotalMins(sessions[sessionindex].end);
+          var sessionEndTime = getTotalMins(sessions[sessionindex].end_at);
           var index = slotindex + 1;
           var rowspan = 1;
           var rows = false;
           for (index = slotindex + 1; index < slots.length; index++) {
-            if (slots[index].issession === true && sessionEndTime <= getTotalMins(slots[index].sessions[0].start)) {
+            if (slots[index].issession === true && sessionEndTime <= getTotalMins(slots[index].sessions[0].start_at)) {
               break;
             }
-            else if(slots[index].issession === true && sessionEndTime > getTotalMins(slots[index].sessions[0].start)) {
+            else if(slots[index].issession === true && sessionEndTime > getTotalMins(slots[index].sessions[0].start_at)) {
               rows = true;
               rowspan = rowspan + 1;
             }
@@ -141,18 +141,18 @@ $(document).ready( function() {
         //Check previous session extends till this one
         var found = false;
         for(j=counter-1; j>0; j--) {
-          if(schedule.slots[j].issession && getTotalMins(schedule.slots[j].sessions[0].end) > getTotalMins(schedule.slots[counter].sessions[0].start)) {
+          if(schedule.slots[j].issession && getTotalMins(schedule.slots[j].sessions[0].end_at) > getTotalMins(schedule.slots[counter].sessions[0].start_at)) {
             found = true;
           }
         }
         if (found === false) {
           //Add a empty track session
-          var hr = parseInt(getHrMin(schedule.slots[counter].sessions[0].start)[0], 10);
-          var min = parseInt(getHrMin(schedule.slots[counter].sessions[0].start)[1], 10) + 5;
+          var hr = parseInt(getHrMin(schedule.slots[counter].sessions[0].start_at)[0], 10);
+          var min = parseInt(getHrMin(schedule.slots[counter].sessions[0].start_at)[1], 10) + 5;
           var time = getdateObject(hr, min);
           var endTime = toTimeString(time);
           schedule.slots[counter].sessions[1] = schedule.slots[counter].sessions[0];
-          schedule.slots[counter].sessions[0] = {track: 'empty', start: schedule.slots[counter].sessions[1].start, end: endTime};
+          schedule.slots[counter].sessions[0] = {track: 'empty', start_at: schedule.slots[counter].sessions[1].start_at, end_at: endTime};
         }
       }
     }
@@ -203,10 +203,10 @@ $(document).ready( function() {
         var EndTime;
         //Start and end time in a schedule
         if (slotindex === 0) {
-          schedules[scheduleindex].start = getIST(getTimeString(slot.sessions[0].start));
+          schedules[scheduleindex].start_at = getIST(getTimeString(slot.sessions[0].start_at));
         }
         if (slotindex === slots.length-1) {
-          schedules[scheduleindex].end = getIST(getTimeString(slot.sessions[sessions.length-1].end));
+          schedules[scheduleindex].end_at = getIST(getTimeString(slot.sessions[sessions.length-1].end_at));
         }
         sessions.forEach(function(session, sessionindex, sessions) {
           //Tracks or No:of auditorium
@@ -214,8 +214,8 @@ $(document).ready( function() {
               rooms.push(session.room);
           }
           //set IST time
-          schedules[scheduleindex].slots[slotindex].sessions[sessionindex].start = getIST(getTimeString(session.start));
-          schedules[scheduleindex].slots[slotindex].sessions[sessionindex].end = getIST(getTimeString(session.end));
+          schedules[scheduleindex].slots[slotindex].sessions[sessionindex].start_at = getIST(getTimeString(session.start_at));
+          schedules[scheduleindex].slots[slotindex].sessions[sessionindex].end_at = getIST(getTimeString(session.end_at));
         }); //eof sessions loop
 
         schedules[scheduleindex].type = 'conference';
@@ -241,7 +241,7 @@ $(document).ready( function() {
         });
       });
 
-      conferenceSchedule.push({date: schedules[scheduleindex].date, tableid: schedules[scheduleindex].tableid, rooms: schedules[scheduleindex].rooms, start: schedules[scheduleindex].start, end: schedules[scheduleindex].end});
+      conferenceSchedule.push({date: schedules[scheduleindex].date, tableid: schedules[scheduleindex].tableid, rooms: schedules[scheduleindex].rooms, start_at: schedules[scheduleindex].start_at, end_at: schedules[scheduleindex].end_at});
       createTable(conferenceSchedule[conferenceScheduleCounter]);
       conferenceScheduleCounter += 1;
     });//eof schedules loop
