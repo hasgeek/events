@@ -41,7 +41,7 @@
                   <h4 class="title">{{title}}</h4>
                   <p class="duration">{{start_at}} - {{end_at}}</p>
                   {{#description}}
-                    <div class="description-text">{{{description}}}</div>
+                    <div class="description-text">{{{description.html}}}</div>
                   {{/description}}
                 </div>
               </td>
@@ -52,7 +52,7 @@
                   <h4 class="title">{{title}}</h4>
                   <p class="duration">{{start_at}} - {{end_at}}</p>
                   {{#description}}
-                    <div class="description-text">{{{description}}}</div>
+                    <div class="description-text">{{{description.html}}}</div>
                   {{/description}}
                 </div>
               </td>
@@ -78,7 +78,7 @@
                     {{/proposal_url}}
                   </h4>
                   {{#description}}
-                  <div class="description-text">{{{description}}}</div>
+                  <div class="description-text">{{{description.html}}}</div>
                   {{/description}}
                   {{#speaker}}
                   <p class="speaker">{{speaker}}</p>
