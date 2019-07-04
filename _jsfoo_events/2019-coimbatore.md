@@ -148,6 +148,11 @@ sponsor:
     - hasura
     - thoughtworks
 
+  - title: "Community Sponsor"
+    size: "l"
+    sponsors:
+    - psg
+
   - title: "Venue Partner"
     size: "l"
     sponsors:
