@@ -1403,8 +1403,12 @@ atlan:
   url: https://atlan.com/
   display_url: atlan.com
   blurb: |
-    Atlan is a delightful new way for teams to work with data. It is creating a home for data teams—bringing together diverse data, tools, and people to create a frictionless collaboration experience. 
-    Today, more than 200 teams in 50+ countries rely on Atlan to democratize data in their organizations, acquire external data instantly, digitize data collection, and automate repetitive tasks. Data can be chaos, work shouldn't be!
+    Atlan is a data democratization company that helps data teams collaborate frictionlessly on data projects. It is creating a home for data teams—allowing them to truly democratize both internal and external data while automating repetitive tasks. The team is on a mission to help data teams do their lives' best work. 
+    
+    Atlan works with 200+ teams ranging from startups to Fortune 500 companies in over 50 countries. Our customers include Milkbasket, Barbeque Nation, Unilever, WPP & GroupM, Mahindra Group, and Kotak Mahindra Bank. 
+    
+    Atlan is headquartered in Singapore, with teams in New Delhi and Bengaluru (India), San Francisco (US) and Nairobi (Kenya). Please visit [www.atlan.com](https://atlan.com/) for more information.
+
 
 grd:
   title: "GRDCS"
