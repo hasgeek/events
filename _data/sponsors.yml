@@ -1507,20 +1507,13 @@ anaconda:
 aruba:
   title: "Aruba Networks"
   logo_url: https://images.hasgeek.com/embed/file/7469ecda61b14db08119dcb28ed986a7
-  url: https://www.arubanetworks.com/
-  display_url: www.arubanetworks.com
+  url: https://www.arubanetworks.com/en-in/
+  display_url: www.arubanetworks.com/en-in/
   blurb: |
      <strong>ARUBA, A HEWLETT PACKARD ENTERPRISE COMPANY</strong>, is redefining the intelligent edge with reliable mobility and IOT Solutions for organizations of all sizes. The company delivers solutions that empower organizations to serve mobile savvy users who rely on internal and cloud-based apps for every aspect of their work and personal lives. With services offered as software from the public or private cloud, Aruba also delivers secure connectivity for mobile and IoT. 
      An open architecture allows IT professionals to build networks that keep up with changing technology and user behavior by migrating away from expensive-to-operate and proprietary infrastructures which were originally designed for fixed network connections within physical locations.
      
-     <strong>ARUBA VALUES:</strong>
      
-     * CUSTOMER FIRST, CUSTOMER LAST : We believe in relationships over transactions, where everything we do starts and ends with our customers.
-     
-     * EXPERIENCE EDGE INNOVATION : We’re changing the rules of networking to create smart digital experiences. Provided by a next-generation network – one that’s software-defined, secure, and designed for mobile and IoT. You benefit from the best of both worlds: amazing experiences with amazing simplicity.
-     
-     * FOSTERING A CULTURE BUILT ON TRUST : Through global communities and collaboration, we are committed to empowering customers and partners alike to be the driving force that shapes the future of networking.
-
 flipkart:
   title: "Flipkart"
   logo_url: https://images.hasgeek.com/embed/file/bdd7f08afa9d4e79869451ab06c6e582
