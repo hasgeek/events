@@ -13,7 +13,10 @@ funnel:
   open: true
 logo:
   image_url: /images/reactfoo-logo.png
-
+schedule:
+  url: "https://hasgeek.com/reactfoo/2019-delhi/schedule"
+  json_url: "https://hasgeek.com/reactfoo/2019-delhi/schedule/json"
+  type: "conference"
 venue:
   label: CD Deshmukh Auditorium, India International Centre, Max Mueller Marg, New Delhi
   address: |
