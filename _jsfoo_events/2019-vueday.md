@@ -81,5 +81,6 @@ sponsor:
     size: "l"
     sponsors:
     - sapient
+    - netlify
 
 ---
