@@ -27,41 +27,34 @@ venue:
   google_maps_url: https://goo.gl/maps/7FkxmyZ7Z3E2
 
 overview:
-  left_content: |
+  left_content: |  
+    JSFoo: VueDay is a conference for practitioners working with VueJS. We will discuss:
+          1. Why pick VueJS over other frameworks?
+          2. Leveraging Vue CLI, customizing Vue configuration and leveraging other aspects of VueJS for developer productivity.
+          3. Web components and VueJS.
 
-      ### Why JSFoo: VueDay?
-
-      In the third week of March 2019, Vue.js became the most starred project on GitHub. The organic growth of the community around Vue.js is notable.
-
-      The community in India is gradually taking off. Large and small Indian companies are among the early adopters of Vue.js and NativeScript (for mobile). Below are some of the case studies we have featured at HasGeek events in 2018:
-
-         1. [https://hasgeek.com/jsfoo/2019-pune/proposals/the-vuetiful-journey-from-angularjs-to-vue-migrati-viQja9N7G6auVWkLniFFgD](https://hasgeek.com/jsfoo/2019-pune/proposals/the-vuetiful-journey-from-angularjs-to-vue-migrati-viQja9N7G6auVWkLniFFgD)
-         2. [https://hasgeek.tv/reactfoo/hyderabad/1472-react-to-vue-why-and-how-rahul-kadyan](https://hasgeek.tv/reactfoo/hyderabad/1472-react-to-vue-why-and-how-rahul-kadyan)
-         3. [https://hasgeek.tv/jsfoo/2018-day-1/1594-vuejs-at-olacabs](https://hasgeek.tv/jsfoo/2018-day-1/1594-vuejs-at-olacabs)
-
-      JSFoo: VueDay is a conference in response to the community’s growing needs to discuss:
-
-         1. Tooling with Vue and Vue CLI.
-         2. NativeScript as an alternative for building cross-platform apps
-         3. Component architecture with Vue – building web applications with Vue as one of the components in the architecture
-         4. Web standards and Vue.js
-         5. Vue 3 - to be released.
-
-       **If you are interested in participating in JSFoo: VueDay, submit a talk/tutorial/workshop/BOF proposal here. Proposal submissions close on 15 May 2019.**
+      We are accepting proposals for:
+          1. 40 mins duration talks
+          2. 20 mins duration talks
+          3. Birds of a Feather (BoF) sessions on focused topics
+          4. Tutorials (90 mins duration)
+          5. Hands-on workshops (3-6 hour duration) where participants follow instructions on their laptops
+          6. Flash talks of 5 mins duration
 
   right_content: |
+      You can propose talks on the following topics:
+        1. Typescript and Vue
+        2. Local state management using GraphQL and Vue Apollo
+        3. How to overcome gotchas with the current Vue reactivity system
+        4. Building a component library and publishing it using Vue CLI 3 build targets. Share best practices
+        5. Tooling with Vue - case study talks, showing how this has or has not worked for your use case
+        6. Deploying apps with Vue at scale
+        7. NativeScript as an alternative for building cross-platform apps
+        8. Approaches to structuring Vue components inside projects, communication between components, and what to choose specific use cases
+        9. Web standards and Vue.js: accessibility and web components
+        10. Latest developments in the Vue ecosystem: Vue 3 and other developments by the time we reach 30 August 2019
 
-    ### Collaborators and community participation with JSFoo: VueDay
-
-    "JSFoo: VueDay is being curated with support from the community. The following community members are involved with speaker outreach, proposal reviews, community engagement and putting the conference programme together:"
-
-        * Rahul Kadyan – Vue core team member, senior software engineer at Myntra
-        * Vidya Ramakrishnan – front-end developer at HasGeek
-        * Navya Agarwal – Member of Technical Staff at Adobe
-        * Hemanth Rai – front-end lead at Cloudnaut Technologies
-        * Arnav Gupta – founding member at Coding Blocs
-        * Chirag Jain, front-end developer by practice, is part of the coordinating team for the conference, from the community.
-    For details, contact HasGeek on info@hasgeek.com or jsfoo.editorial@hasgeek.com; call 7676332020.
+      **Suggest topics not covered in the above list by submitting a proposal on the topic for someone to speak on. We will find a speaker.**
 
 sponsor:
   blurb: |
