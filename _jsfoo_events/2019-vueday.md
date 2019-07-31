@@ -29,17 +29,17 @@ venue:
 overview:
   left_content: |  
     JSFoo: VueDay is a conference for practitioners working with VueJS. We will discuss:
-          1. Why pick VueJS over other frameworks?
-          2. Leveraging Vue CLI, customizing Vue configuration and leveraging other aspects of VueJS for developer productivity.
-          3. Web components and VueJS.
+      1. Why pick VueJS over other frameworks?
+      2. Leveraging Vue CLI, customizing Vue configuration and leveraging other aspects of VueJS for developer productivity.
+      3. Web components and VueJS.
 
-      We are accepting proposals for:
-          1. 40 mins duration talks
-          2. 20 mins duration talks
-          3. Birds of a Feather (BoF) sessions on focused topics
-          4. Tutorials (90 mins duration)
-          5. Hands-on workshops (3-6 hour duration) where participants follow instructions on their laptops
-          6. Flash talks of 5 mins duration
+    **We are accepting proposals for:**
+      1. 40 mins duration talks
+      2. 20 mins duration talks
+      3. Birds of a Feather (BoF) sessions on focused topics
+      4. Tutorials (90 mins duration)
+      5. Hands-on workshops (3-6 hour duration) where participants follow instructions on their laptops
+      6. Flash talks of 5 mins duration
 
   right_content: |
       You can propose talks on the following topics:
