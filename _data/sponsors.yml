@@ -1537,7 +1537,7 @@ greatlearning:
 netlify:
   title: "Netlify"
   logo_url: https://images.hasgeek.com/embed/file/40d52c694e8f46ae8a17534a740a8314
-  url:
-  display_url:
+  url: https://www.netlify.com/
+  display_url: www.netlify.com
   blurb: |
-     
+     Netlify is an all-in-one platform for automating modern web projects. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow. Integrate dynamic functionality like serverless functions, user authentication, and form handling as your projects grow. Get started for free and find resources to help along the way at [Netlify.com.](https://www.netlify.com/)
