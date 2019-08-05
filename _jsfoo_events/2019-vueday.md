@@ -70,10 +70,14 @@ sponsor:
     sponsors:
     - anatta
 
-  - title: "Community Sponsor"
+  - title: "Exhibition Sponsor"
     size: "l"
     sponsors:
     - sapient
+
+  - title: "Community Sponsor"
+    size: "l"
+    sponsors:
     - netlify
 
 ---
