@@ -16,8 +16,8 @@ funnel:
   url: "https://hasgeek.com/jsfoo/2019-vueday/"
   open: true
 schedule:
-  url: "https://hasgeek.com/jsfoo/2019/schedule"
-  json_url: "https://hasgeek.com/jsfoo/2019/schedule/json"
+  url: "https://hasgeek.com/jsfoo/2019-vueday/schedule"
+  json_url: "https://hasgeek.com/jsfoo/2019-vueday/schedule/json"
   type: "conference"
 banner: https://images.hasgeek.com/embed/file/1cf24cbf955e4277b7648c0a483cc475
 
