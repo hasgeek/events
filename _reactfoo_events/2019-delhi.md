@@ -62,8 +62,13 @@ sponsor:
   blurb: |
     Sponsor for developer evangelism, community outreach and hiring.
 
-    Download our sponsorship deck or reach out to us for customized options at [info@hasgeek.com](mailto:info@hasgeek.com)
+    Download our sponsorship deck or reach out to us for customized options at [sales@hasgeek.com](mailto:sales@hasgeek.com)
   sponsorship_deck_url: 'https://hsgk.in/ReactFoo_Delhi19'
+  sponsors:
+  - title: "Bronze Sponsor"
+    size: "l"
+    sponsors:
+    - shuttl
 
 blog:
   feed_url: https://medium.com/feed/reactfoo
