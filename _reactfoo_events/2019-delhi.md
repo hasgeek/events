@@ -3,6 +3,7 @@ layout: event
 title: "ReactFoo Delhi"
 subtitle: "On React, front-end engineering and performance."
 datelocation: "16 November 2019, India International Centre, Max Mueller Marg, New Delhi"
+hasgeek_url: https://hasgeek.com/reactfoo/2019-delhi/
 city: Delhi/NCR
 start_time: 2019-11-16
 end_time: 2019-11-17
