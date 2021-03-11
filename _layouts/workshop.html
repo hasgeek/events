@@ -1,0 +1,154 @@
+---
+layout: base
+---
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "{{ page.title }}",
+    "startDate": "{{ page.start_time }}",
+    "location": {
+      "@type": "Place",
+      "name": "{{ page.venue.label }}",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "{{ page.city }}",
+        "addressCountry": "IN"
+      }
+    },
+    {% if page.logo.image_url %}
+    "image": [
+      "{{ page.logo.image_url | absolute_url }}"
+     ],
+    {% endif %}
+    "description": "{{ page.description }}",
+    "endDate": "{{ page.end_time }}",
+    "offers": {
+      "@type": "Offer",
+      "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+    }
+  }
+  </script>
+
+  {% include event_header_section.html event=page %}
+
+  {% if page.subbanner %}
+    {% include subbanner_{{ page.subbanner }}.html %}
+  {% endif %}
+
+  <div style="z-index:10;">
+    <nav class="nav has-shadow nav-sticky" style="z-index:10;">
+      <div class="container">
+        <div class="nav-left" style="z-index:10;">
+          <span class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          {% if page.overview %}
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#overview">Overview</a>
+          {% endif %}
+          {% if page.instructors or page.speakers %}
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#{% if page.instructors %}instructors{%else%}speakers{%endif%}">{% if page.instructors %}Instructors{%else%}Speakers{%endif%}</a>
+          {% endif %}
+          <!-- <li><a href="#schedule">Schedule</a></li> -->
+          {% if page.boxoffice_item_collection %}
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#tickets">Tickets</a>
+          {% endif %}
+          {% if page.venue %}
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#venue">Venue</a>
+          {% endif %}
+          {% if page.sponsor %}
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#sponsor">Sponsors</a>
+          {% endif %}
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#hasgeek">About HasGeek</a>
+          <a class="nav-item is-tab is-hidden-tablet" href="{{ site.url }}{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
+        </div>
+        <div class="nav-center" style="z-index:10;">
+          {% if page.overview %}
+          <a class="nav-item is-tab is-hidden-mobile" data-href="#overview">Overview</a>
+          {% endif %}
+          {% if page.instructors or page.speakers %}
+          <a class="nav-item is-tab is-hidden-mobile" data-href="#{% if page.instructors %}instructors{%else%}speakers{%endif%}">{% if page.instructors %}Instructors{%else%}Speakers{%endif%}</a>
+          {% endif %}
+          <!-- <li><a href="#schedule">Schedule</a></li> -->
+          {% if page.boxoffice_item_collection %}
+          <a class="nav-item is-tab is-hidden-mobile" data-href="#tickets">Tickets</a>
+          {% endif %}
+          {% if page.venue %}
+          <a class="nav-item is-tab is-hidden-mobile" data-href="#venue">Venue</a>
+          {% endif %}
+          {% if page.sponsor %}
+          <a class="nav-item is-tab is-hidden-mobile" data-href="#sponsor">Sponsors</a>
+          {% endif %}
+          <a class="nav-item is-tab is-hidden-mobile" data-href="#hasgeek">About HasGeek</a>
+          <a class="nav-item is-tab is-hidden-mobile" href="{{ site.url }}{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
+        </div>
+        <div class="nav-right">
+        </div>
+      </div>
+    </nav>
+  </div>
+
+<!--/.Secondary Navbar -->
+
+{% if page.overview %}
+<section class="section" id="overview">
+  <div class="container">
+    {% include content_section.html left=page.overview.left_content right=page.overview.right_content center=page.overview.center_content %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.instructors or page.speakers %}
+<section class="section" id="{% if page.instructors %}instructors{%else%}speakers{%endif%}">
+  <div class="container">
+    {% include instructors_section.html instructors=page.instructors speakers=page.speakers%}
+  </div>
+</section>
+{% endif %}
+
+{% if page.related_events %}
+<section class="section">
+  <div class="container">
+    {% include related_events_section.html %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.boxoffice_item_collection %}
+<section class="section" id="tickets">
+  <div class="container">
+    {% include boxoffice_tickets_section.html %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.venue %}
+<section class="section "id="venue">
+  <div class="container">
+    {% include venue_section.html venue=page.venue %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.sponsor.blurb %}
+{% assign sponsor_blurb = page.sponsor.blurb %}
+{% else %}
+{% capture sponsor_blurb %}Interested in sponsoring {{ page.title }}?{% endcapture %}
+{% endif %}
+{% if page.sponsor %}
+
+  {% include sponsor_section.html blurb=sponsor_blurb sponsorship_deck_url=page.sponsor.sponsorship_deck_url sponsors=page.sponsor.sponsors %}
+
+{% endif %}
+
+{% if page.footer %}
+<section class="section" id="footer">
+  <div class="container">
+    {% include content_section.html left=page.footer.left_content right=page.footer.right_content center=page.footer.center_content %}
+  </div>
+</section>
+{% endif %}
+
+{% include footer.html %}

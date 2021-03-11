@@ -1,0 +1,312 @@
+---
+layout: base
+---
+
+
+
+<!-- Primary Navbar -->
+
+<!-- /.Primary Navbar -->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "{{ page.title }}",
+    "startDate": "{{ page.start_time }}",
+    "location": {
+      "@type": "Place",
+      "name": "{{ page.venue.label }}",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "{{ page.city }}",
+        "addressCountry": "IN"
+      }
+    },
+    {% if page.logo.image_url %}
+    "image": [
+      "{{ page.logo.image_url | absolute_url }}"
+     ],
+    {% endif %}
+    "description": "{{ page.description }}",
+    "endDate": "{{ page.end_time }}",
+    "offers": {
+      "@type": "Offer",
+      "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+    }
+  }
+  </script>
+
+
+  {% include event_header_section.html event=page %}
+
+  {% if page.subbanner %}
+    {% include subbanner_{{ page.subbanner }}.html %}
+  {% endif %}
+
+<div style="z-index:10;">
+  <nav class="nav nav-secondary has-shadow nav-sticky" style="z-index:10;">
+    <div class="container">
+      <div class="nav-left" style="z-index:10;">
+        <span class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        {% if page.boxoffice_item_collection %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#tickets"><span class="button btn-is-primary">Buy Tickets</span></a>
+        {% endif %}
+        {% if page.overview %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#overview" style="z-index:10;">Overview</a>
+        {% endif %}
+        {% if page.funnel.open == true %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#speak">Call for Proposals</a>
+        {% endif %}
+        {% if page.show_proposals %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#proposals">Proposals</a>
+        {% endif %}
+        {% if page.schedule %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#schedule">Schedule</a>
+        {% endif %}
+        {% if page.blog.feed_url %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#blog">Blog</a>
+        {% endif %}
+        {% if page.hasjob.url %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#jobs">Jobs</a>
+        {% endif %}
+        {% if page.accommodation %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#accommodation">Accommodation</a>
+        {% endif %}
+        {% if page.venue %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#venue">Venue</a>
+        {% endif %}
+        {% if page.sponsor %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#sponsor">Sponsors</a>
+        {% endif %}
+        <a class="nav-item is-tab is-hidden-tablet" data-href="#hasgeek">About HasGeek</a>
+        <a class="nav-item is-tab is-hidden-tablet" href="{{ site.url }}{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
+      </div>
+      <div class="nav-center" style="z-index:10;">
+        {% if page.overview %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#overview">Overview</a>
+        {% endif %}
+        {% if page.funnel.open == true %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#speak">Call for Proposals</a>
+        {% endif %}
+        {% if page.show_proposals %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#proposals">Proposals</a>
+        {% endif %}
+        {% if page.schedule %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#schedule">Schedule</a>
+        {% endif %}
+        {% if page.blog.feed_url %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#blog">Blog</a>
+        {% endif %}
+        {% if page.hasjob.url %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#jobs">Jobs</a>
+        {% endif %}
+        {% if page.accommodation %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#accommodation">Accommodation</a>
+        {% endif %}
+        {% if page.venue %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#venue">Venue</a>
+        {% endif %}
+        {% if page.sponsor %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#sponsor">Sponsors</a>
+        {% endif %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#hasgeek">About HasGeek</a>
+        <a class="nav-item is-tab is-hidden-mobile" href="{{ site.url }}{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
+        {% if page.boxoffice_item_collection %}
+        <a class="nav-item is-tab is-hidden-mobile" data-href="#tickets"><span class="button btn-is-primary">Buy Tickets</span></a>
+        {% endif %}
+      </div>
+      <div class="nav-right">
+      </div>
+    </div>
+  </nav>
+</div>
+
+{% if page.overview %}
+<section class="section bg-light" id="overview">
+  <div class="container font-light">
+    {% include content_section.html left=page.overview.left_content right=page.overview.right_content center=page.overview.center_content %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.announcements %}
+<section class="section bg-light" id="announcements">
+  <div class="container">
+    {% include announcements_section.html announcements=page.announcements %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.fixed_announcements %}
+<section class="section bg-light" id="fixed_announcements">
+  <div class="container">
+    <div class="columns is-multiline">
+      {% for announcement in page.fixed_announcements %}
+      {% include {{ announcement }}_announcement.html announcements=page.announcements %}
+      {% endfor %}
+    </div>
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.featured_speakers %}
+<section class="section has-featured-speakers scroll-horizontal  bg-light"id="featured_speakers">
+  <div class="container">
+  {% include featured_speakers_section.html speakers=page.featured_speakers %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.past_speakers %}
+<section class="section bg-light scroll-horizontal"id="past_speakers">
+  <div class="container">
+  {% include past_speakers_section.html speakers=page.past_speakers %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.discussions %}
+<section class="section bg-light scroll-horizontal"id="dicussions">
+  <div class="container">
+  {% include discussions.html speakers=page.discussions %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.proposed_speakers %}
+<section class="section bg-light"id="proposed_speakers">
+  <div class="container">
+  {% include proposed_speakers_section.html speakers=page.proposed_speakers %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.related_events %}
+<section class="section bg-light">
+  <div class="container">
+    {% include related_events_section.html %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.funnel %}
+<section class="section bg-light" id="speak">
+  <div class="container">
+  {% include proposal_section.html %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.show_proposals %}
+<section class="section bg-light" id="proposals">
+  <div class="container">
+    {% include submitted_proposal.html %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.schedule %}
+<section class="section bg-light" id="schedule">
+  <div class="container">
+    {% include schedule_section.html %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.boxoffice_item_collection %}
+<section class="section bg-light" id="tickets">
+  <div class="container">
+    {% include boxoffice_tickets_section.html %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.photo_album %}
+<section class="section bg-light" id="photo-album">
+  <div class="container">
+    {% include photo_album.html title=page.photo_album.title photos=page.photo_album.photos %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.youtube_url %}
+<section class="section bg-light" id="">
+  <div class="container">
+  {% include featured_video.html title=page.youtube_url.title youtube_embed=page.youtube_url.youtube_embed %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.rsvp %}
+<section class="section" id="tickets">
+  <div class="container">
+    {% include rsvp.html rsvp=page.rsvp %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.blog.feed_url %}
+<section class="section bg-light scroll-horizontal" id="blog">
+  <div class="container">
+     {% include blog_section.html %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.hasjob.url %}
+<section class="section bg-light scroll-horizontal" id="jobs">
+  <div class="container">
+     {% include hasjob_widget_section.html %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.accommodation %}
+<section class="section bg-light" id="accommodation">
+  <div class="container">
+    {% include accommodation_section.html accommodation=page.accommodation %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.venue %}
+<section class="section bg-light" id="venue">
+  <div class="container">
+    {% include venue_section.html venue=page.venue %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.archive %}
+<section class="section bg-light" id="archive">
+  <div class="container">
+  {% include archive_section.html photos_url=page.archive.photos_url videos_url=page.archive.videos_url %}
+  </div>
+</section><hr>
+{% endif %}
+
+{% if page.sponsor.blurb %}
+{% assign sponsor_blurb = page.sponsor.blurb %}
+{% else %}
+{% capture sponsor_blurb %}Interested in sponsoring {{ page.title }}?{% endcapture %}
+{% endif %}
+{% if page.sponsor %}
+
+  {% include sponsor_section.html blurb=sponsor_blurb sponsorship_deck_url=page.sponsor.sponsorship_deck_url sponsors=page.sponsor.sponsors %}
+
+{% endif %}
+
+{% if page.footer %}
+<section class="section" id="footer">
+  <div class="container">
+    {% include content_section.html left=page.footer.left_content right=page.footer.right_content center=page.footer.center_content %}
+  </div>
+</section>
+{% endif %}
+
+
+{% include footer.html %}

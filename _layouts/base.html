@@ -1,0 +1,259 @@
+---
+---
+
+{% if page.description %}
+  {% assign description = page.description %}
+{% else %}
+  {% assign description = site.description %}
+{% endif %}
+
+{% if page.meta.image %}
+  {% assign image = page.meta.image %}
+{% else %}
+  {% assign image = site.meta.image %}
+{% endif %}
+
+{% if page.meta.favicon %}
+  {% assign favicon = page.meta.favicon %}
+{% elsif site.meta.favicon %}
+  {% assign favicon = site.meta.favicon %}
+{% else %}
+  {% assign favicon = "images/hg-favicon.ico" %}
+{% endif %}
+
+{% if image contains "://" %}
+{% else %}
+  {% assign image = image | absolute_url %}
+{% endif %}
+
+{% if favicon contains "://" %}
+{% else %}
+  {% assign favicon = favicon | absolute_url %}
+{% endif %}
+
+{% if page.title %}
+  {% if page.title contains site.title %}
+    {% capture title %}{{ page.title }}{% endcapture %}
+  {% else %}
+    {% capture title %}{{ page.title }} - {{ site.title }}{% endcapture %}
+  {% endif %}
+{% else %}
+  {% capture title %}{{ site.title }}{% endcapture %}
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="en" class="svg inlinesvg">
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    {% if site.colors %}
+    <meta name="theme-color" content="{{ site.colors.primary }}"/>
+    {% else %}
+    <meta name="theme-color" content="#826995"/>
+    {% endif %}
+    
+    <meta name="description" content="{{ description }}">
+    <meta name="keywords" content="{{ site.keywords }}">
+    <link rel="shortcut icon" href="{{ favicon }}" />
+    <link rel="author" href="https://plus.google.com/{{googlePlusId}}" />    
+
+    {% if page.hasgeek_url %}
+    <meta http-equiv="refresh" content="0; url={{ page.hasgeek_url }}">
+    <link rel="canonical" href="{{ page.hasgeek_url }}" />
+    {% else %}
+      {% if page.canonical %}
+        {% if page.canonical contains "://" %}
+        {% else %}
+          {% assign page.canonical = page.canonical | absolute_url %}
+        {% endif %}
+      <link rel="canonical" href="{{ page.canonical }}" />
+      {% endif %}
+    {% endif %}
+
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <meta property="og:image" content="{{ image }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:see_also" content="{{ site.url }}{{ site.baseurl }}">
+    <meta property="og:type" content="website">
+
+    <meta itemprop="name" content="{{ title }}">
+    <meta itemprop="description" content="{{ description }}">
+    <meta itemprop="image" content="{{ image }}">
+
+    <meta name="twitter:card" content="{% if image %}summary_large_image{% else %}summary{% endif %}">
+    <meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="{{ image }}">
+
+
+    {% if site.icons.touch %}
+    <link rel="manifest" href="{{ site.url }}{{ site.baseurl }}/manifest.json">
+    {% endif %}
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/main.css">
+
+    {% if page.custom_css %}
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/{{ page.custom_css }}">
+    {% endif %}
+
+    {% if page.venue %}
+      {% if page.venue.mapbox %}
+      <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/mapbox-gl-0.39.1.css">
+      {% else %}
+      <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/leaflet.css">
+      {% endif %}
+    {% endif %}
+
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/jquery.sidr.2.2.1.min.css">
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/font-awesome.min.css">
+</head>
+<body class="bg-light">
+  {% include sidebar_site.html %}
+
+  {% include navbar_site.html %}
+
+  {{ content }}
+
+  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery-3.2.1.min.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.sidr-2.2.1.min.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/mustache.min.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/siema.min.js"></script>
+{% if page.venue %}
+  {% if page.venue.mapbox %}
+  <script src="{{ site.url }}{{ site.baseurl }}/js/mapbox-gl.0.39.1.min.js"></script>
+  {% else %}
+  <script src="{{ site.url }}{{ site.baseurl }}/js/leaflet.js"></script>
+  {% endif %}
+{% endif %}
+
+{% if page.hasjob.url %}
+  <script src="{{ site.url }}{{ site.baseurl }}/js/jquery-appear.js"></script>
+{% endif %}
+
+<script>
+    window.EventDetails = {};
+    // carousel
+    const mySiema = new Siema({
+      perPage: {
+        768: 2,
+        1024: 3,
+      },
+    });
+    const prev = document.querySelector('#carousel-prev');
+    const next = document.querySelector('#carousel-next');
+
+prev.addEventListener('click', () => mySiema.prev());
+next.addEventListener('click', () => mySiema.next());
+</script>
+<script>
+  $(document).ready( function() {
+
+    var stickyNav = $(".nav-sticky");
+    var navHeight;
+    if (stickyNav.length > 0) {
+      stuck = "nav-stuck";
+      headerHeight = $(stickyNav[0]).offset().top;
+      nextSibling = stickyNav.parent().next()[0];
+      navHeight = stickyNav[0].clientHeight;
+      $(window).scroll(function() {
+        if( $(this).scrollTop() > headerHeight) {
+          stickyNav.parent().addClass(stuck);
+          nextSibling.style.marginTop = navHeight+"px";
+        } else {
+          stickyNav.parent().removeClass(stuck);
+          nextSibling.style.marginTop = 0;
+        }
+      });
+    }
+    $("a").click(function (e) {
+      var goto = $(this).attr('data-href');
+      if (goto) {
+        // Prevent a page reload when a link is pressed
+        e.preventDefault();
+        // Scroll to section
+        var offset_top = $(goto).offset().top - navHeight || 0;
+        $("body,html").stop(true,true).animate({scrollTop:offset_top},300)
+      }
+    });
+
+    {% if page.venue %}
+      initLeaflets();
+    {% endif %}
+
+    $('#sidebar').show();
+    $('.nav-toggle').sidr({
+      name: 'sidebar',
+      source: '#sidebar',
+      renaming: false
+    });
+
+  })
+
+  function goToUrl(url) {
+    window.location.href = url;
+  }
+  function goToUrlNewTab(url) {
+    var win = window.open(url, '_blank');
+    win.focus();
+  }
+  function showModal(modalId) {
+    $('#'+modalId).addClass('is-active');
+  }
+  function hideModal(modalId) {
+    $('#'+modalId).removeClass('is-active');
+  }
+</script>
+{% if page.boxoffice_item_collection %}
+  {% include boxoffice_js.html %}
+{% endif %}
+{% if page.outreach_item_collection %}
+  {% include outreach_js.html %}
+{% endif %}
+
+{% if page.schedule %}
+  <script>
+    window.EventDetails.schedule_url = "{{ page.schedule.json_url }}";
+    window.EventDetails.schedule_type = "{{ page.schedule.type }}";
+  </script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/schedule.js"></script>
+{% endif %}
+
+{% if page.show_proposals %}
+  <script>
+    window.EventDetails.proposal_url = "{{ page.show_proposals.url }}";
+  </script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/proposal.js"></script>
+{% endif %}
+
+{% include analytics.html ga_tracking_code=site.ga_tracking_code twitter_tracking_code=site.twitter_tracking_code fb_tracking_code=site.fb_tracking_code %}
+
+
+{% if site.service_worker == 'false' %}
+{% else %}
+<script type="text/javascript">
+  // Unregister service worker
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+      if(registrations.length) {
+        for (var index = 0; index < registrations.length; index++) {
+          registrations[index].unregister();
+        }
+      }
+    });
+  }
+// if ('serviceWorker' in navigator) {
+//   navigator.serviceWorker.register('{{ site.url }}{{ site.baseurl }}/sw.js').then(function () {
+//     // console.log('Service worker registered');
+//     }).catch(function() {
+//     // console.log('Service worker registration failed');
+//   });
+// };
+</script>
+{% endif %}
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<div class="columns is-centered is-multiline" id="blog-feed">
+  <div class="has-text-centered">
+      <h3 class="title">Latest blog posts</h3><br>
+  </div>
+  <div id="blog-container">
+    {% raw %}
+    <script id="entries" type="text/x-mustache-template">
+      <div class="columns">
+        {{#blog}}
+          <div class="column is-3">
+            <article class="tile is-child notification">
+              <p><small>{{ date }}</small></p>
+              <h1 class="title is-4"><strong><a href="{{ link }}" target="_blank" class="click link-unstyled" data-label="view blog {{ title }}">{{ title }}</a></strong></h1>
+                <p>{{ description }}</p>
+              </article>
+          </div>
+        {{/blog}}
+      </div>
+      {% endraw %}
+    </script>
+  </div>
+  <p class="has-text-centered"><a class="button is-primary" href="{{ page.blog.url }}" target="_blank">Read more on {{ page.blog.title }} blog</a></p>
+</div>
+
+{% if page.mailchimp.url %}
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <section class="hero is-dark has-text-centered">
+    <div class="hero-body" id="mc_embed_signup" class="has-text-centered">
+        <form action="{{ page.mailchimp.url }}" method="post"
+            id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+                <label for="mce-EMAIL">Sign up to be notified about {{ site.title }} updates.</label>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_{{ page.mailchimp.u }}_{{ page.mailchimp.id }}" tabindex="-1" value="">
+                </div>
+                <div class="clear">
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                </div>
+            </div>
+        </form>
+    </div>
+    </section>
+    <!--End mc_embed_signup-->
+{% endif %}
+
+<script src="{{ site.url }}{{ site.baseurl }}/js/feednami-client-v1.1.js"></script>
+<script>
+    var parseBlog = function (data, wrapper, template) {
+      var blogTemplate = $(template).html();
+      $(wrapper).append(Mustache.render(blogTemplate, data));
+    };
+
+    var getDateString = function (dateStr) {
+      var year = parseInt(dateStr.substr(0, 4), 10);
+      var month = parseInt(dateStr.substr(5, 2), 10) - 1;
+      var day = parseInt(dateStr.substr(8, 2), 10);
+      var d = new Date();
+      d.setFullYear(year, month, day);
+      return d.toDateString();
+    }
+
+    feednami.setPublicApiKey('{{site.feednami_api_key}}');
+    var url = '{{ page.blog.feed_url }}';
+    var blog = [];
+    feednami.load(url).then(function (feed) {
+      var entries = feed.entries.slice(0, 6);
+      for (var i = 0; i < entries.length; i++) {
+        var entry = entries[i];
+        var description = entry.description.replace(/<\/?[^>]+(>|$)/g, "").slice(0, 300) + '...';
+        blog.push({ "title": entry.title, "author": entry.author, "description": description, "link": entry.link, "date": getDateString(entry.pubDate) });
+      }
+      var blogData = { 'blog': blog };
+      parseBlog(blogData, '#blog-container', '#entries')
+    })
+</script>

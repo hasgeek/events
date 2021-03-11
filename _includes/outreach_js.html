@@ -1,0 +1,36 @@
+<script type="text/javascript">
+  $(function(){
+    //outreach widget
+    var outreachUrl = "https://outreach.hasgeek.com"
+    $.get({
+      url: outreachUrl+"/api/1/outreach.js",
+      crossDomain: true
+    }).done(function(data) {
+      var outreachScript = document.createElement('script');
+      outreachScript.innerHTML = data.script;
+      document.getElementsByTagName('body')[0].appendChild(outreachScript);
+      window.setTimeout(function() {
+        window.outreach_widget.init({
+          orgName: 'hasgeek',
+          itemCollection: '{{ page.outreach_item_collection }}',
+          eventName: '{{ page.title }}'
+        });
+      }, 1000);
+
+    }).fail(function(response) {
+      var error_msg;
+      if (response.readyState === 4) {
+        error_msg = "Server error, please try again later";
+      }
+      else if (response.readyState === 0) {
+        if(!navigator.onLine) {
+          error_msg = "Unable to connect. There is no network!";
+        }
+        else {
+          error_msg = "<p>Unable to connect. If you are behind a firewall or using any script blocking extension (like Privacy Badger).<p></p> Please ensure your browser can load outreach.hasgeek.com</p>";
+        }
+      }
+      $('#outreach-widget p').html(error_msg);
+    });
+  });
+</script>

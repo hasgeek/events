@@ -1,0 +1,28 @@
+{% assign past_events = "" | split: "" %}
+
+{% assign all_events = "" | split: "" %}
+{% assign all_collections = site.collections | where:'type', 'event'%}
+{% for collection in all_collections  %}
+  {% assign all_events_c = collection.docs %}
+  {% for event in all_events_c  %}
+    {% assign event_d = event.end_time | date: '%Y%m%d' | plus: 0%}
+    {% assign site_d = site.time | date: '%Y%m%d' | plus: 0 %}
+    {% if event_d < site_d %}
+      {% assign past_events = past_events | push: event %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% assign past_events = past_events | sort: 'start_time' %}
+
+{% if site.id == 'hasgeek' %}
+  {% for event_c in site.data.past-events  %}
+    {% for event in event_c[1] %}
+      {% assign past_events = past_events | push: event %}
+    {% endfor %}
+  {% endfor %}
+{% elsif site.id == "" %}
+{% else %}
+  {% for event in site.data.past-events[site.id] %}
+    {% assign past_events = past_events | push: event %}
+  {% endfor %}
+{% endif %}

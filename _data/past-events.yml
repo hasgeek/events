@@ -1,0 +1,39 @@
+fragments:
+- title: "droidconIN 2016"
+  datelocation: "10-11 Nov 2016, Bangalore"
+  url: "https://droidcon.in/2016/"
+  description: "droidconIN is India’s largest Android conference, and part of a worldwide series of conferences focused on the Android ecosystem."
+
+rootconf:
+- title: "Rootconf 2017"
+  datelocation: "11–12 May 2017, Bangalore"
+  url: "https://rootconf.in/2017/"
+  description: "This year's theme is service reliability. You will hear case studies of how organizations and teams plan, monitor and automate their infrastructure to ensure continous reliabilty and availability of services. You can participate in candid, Off-The-Record (OTR) conversations on cost optimization and resource allocation to make better decisions for your organization."
+
+jsfoo:
+- title: "JSFoo 2016"
+  datelocation: "15-16 Sept 2016, Bangalore"
+  url: "https://jsfoo.in/2016/"
+  description: "JSFoo is India’s premier JavaScript conference. We launched JSFoo in 2011 as India’s first JavaScript conference. The JS community in India has grown phenomenally since then. JavaScript now pervades every aspect of web development – browsers, apps, front-end, backend, mobile and IoT."
+
+metarefresh:
+- title: "Meta Refresh 2016"
+  datelocation: "17 Sept 2016, Bangalore"
+  url: "https://metarefresh.in/2016/"
+  description: "Meta Refresh is a conference on user experience for the web. Speakers in this event are working web designers and developers who describe how their work has advanced the state of the web in the past year."
+
+fifthelephant:
+- title: "The Fifth Elephant 2016"
+  datelocation: "28-29 Jul 2016, Bangalore"
+  url: "https://fifthelephant.in/2016/"
+  description: "Discuss the most cutting edge developments in the fields of machine learning, data science and technology that power data collection and analysis."
+
+50p:
+- title: "50p 2017, Mumbai"
+  datelocation: "8 Jul 2017, Mumbai"
+  url: "https://50p.in/devpay2017/"
+  description: "The second edition of 50p was held in Mumbai."
+- title: "50p 2017, Bangalore"
+  datelocation: "24-25 Jan 2017, Bangalore"
+  url: "https://50p.in/2017/"
+  description: "The first edition of 50p was held in Bangalore."

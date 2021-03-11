@@ -1,0 +1,20 @@
+---
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+  </head>
+  <body>
+
+  </body>
+  <script type="text/javascript">
+    {% if page.redirect_to %}
+      window.location.href = "{{ site.url }}{{ site.baseurl }}{{ page.redirect_to }}";
+    {% elsif page.redirect_external %}
+      window.location.href = "{{ page.redirect_external }}";
+    {% else %}
+    {% endif %}
+  </script>
+</html>

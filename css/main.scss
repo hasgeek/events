@@ -1,0 +1,24 @@
+---
+---
+
+@import "bulma_material_variables";
+
+{% if site.colors %}
+$primary: {{ site.colors.primary }};
+$info: {{ site.colors.accent }};
+{% else %}
+$primary: #826995;
+$info: #514F74;
+{% endif %}
+$link-hover: darken($primary, 10);
+$button-hover: darken($primary, 10);
+
+@import "bulma/bulma";
+@import "bulma_material_overrides";
+@import "navbar_dropdown";
+@import "schedule";
+@import "proposal_card";
+@import "boxoffice";
+@import "outreach";
+@import "testimonial";
+@import "photo-album";

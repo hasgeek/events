@@ -1,0 +1,68 @@
+<script type="text/javascript">
+$(document).ready(function() {
+
+  var boxofficeUrl = "https://boxoffice.hasgeek.com";
+
+  $.get({
+    url: boxofficeUrl + "/api/1/boxoffice.js",
+    crossDomain: true,
+    timeout: 8000,
+    retries: 5,
+    retryInterval: 8000,
+    success: function(data) {
+      var boxofficeScript = document.createElement('script');
+      boxofficeScript.innerHTML = data.script;
+      document.getElementsByTagName('body')[0].appendChild(boxofficeScript);
+    },
+    error: function(response) {
+      var ajaxLoad = this;
+      ajaxLoad.retries -= 1;
+      var errorMsg;
+      if (response.readyState === 4) {
+        errorMsg = "Server error, please try again later.";
+        $('#boxoffice-widget p').html(errorMsg);
+      }
+      else if (response.readyState === 0) {
+        if (ajaxLoad.retries < 0) {
+          if(!navigator.onLine) {
+            errorMsg = "Unable to connect. There is no network!";
+            $('#boxoffice-widget p').html(errorMsg);
+          }
+          else {
+            errorMsg = "<p>Unable to connect. If you are behind a firewall or using any script blocking extension (like Privacy Badger), please ensure your browser can load boxoffice.hasgeek.com, api.razorpay.com and checkout.razorpay.com .</p>";
+            $('#boxoffice-widget p').html(errorMsg);
+          }
+        } else {
+          setTimeout(function() {
+            $.get(ajaxLoad);
+          }, ajaxLoad.retryInterval);
+        }
+      }
+    }
+  });
+
+  window.addEventListener('onBoxofficeInit', function (e) {
+    window.Boxoffice.init({
+      org: "hasgeek",
+      itemCollection: "{{ page.boxoffice_item_collection }}",
+      paymentDesc: "{{ page.title }}",
+      {% if page.boxoffice_item_categories %}
+        categories: [
+        {% for category in page.boxoffice_item_categories %}
+        {
+          'name': "{{ category.name}} ",
+          'title': "{{ category.title }}",
+          'item_ids': [
+            {% for item_id in category.item_ids %}
+            "{{ item_id }}",
+            {% endfor %}
+          ]
+        },
+        {% endfor %}
+        ]
+      {% endif %}
+    });
+  }, false);
+
+});
+</script>

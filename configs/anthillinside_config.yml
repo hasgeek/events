@@ -1,0 +1,53 @@
+title: Anthill Inside
+subtitle: "Community powered conferences, workshops, and meet ups on AI and data"
+description: "India's community of deep learning and artificial intelligence practitioners"
+logo:
+  image_url: https://images.hasgeek.com/embed/file/388138390f464e279d5429669293c040
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://anthillinside.in" # the base hostname & protocol for your site, e.g. http://example.com
+colors:
+  primary: "#3f50a3"
+  accent: "#e76f45"
+ga_tracking_code: UA-19123154-36
+twitter_tracking_code: nzdrl
+fb_tracking_code: 939847969521385
+linkedin_tracking_code: 245595
+icons:
+  touch:
+  - src: "images/touch/anthillinside-icon-192.png"
+    sizes: "192x192"
+    type: "image/png"
+id: anthillinside
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - .git
+  - .sass_cache
+  - node_modules
+  - _site
+  - tests
+  - vendor
+  - .DS_Store
+  - configs
+  - deploy
+  - requirements.txt
+  - README.md
+
+destination: _site/anthillinside
+
+sass_dir: _sass
+
+liquid:
+  error_mode: strict
+
+collections:
+  anthillinside_events:
+    type: event
+    output: true
+    permalink: /:path/

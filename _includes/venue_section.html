@@ -1,0 +1,15 @@
+<div class="has-text-centered">
+  <h1 class="title">Venue</h1>
+</div>
+<div id="venue-map" class="embed-map" data-label="{{ include.venue.label }}" data-markerlat="{{ include.venue.lat }}" data-markerlng="{{ include.venue.lng }}" data-style="{{ include.venue.mapbox.style }}" data-accesstoken="{{ include.venue.mapbox.access_token }}" style="height: 400px; width: 100%; z-index: 0; margin-top:10px"><h2>Loading...</h2></div>
+<div class="has-text-centered">
+  <br>
+  {% if include.venue.address %}
+  <div class="content">
+    {{ include.venue.address | markdownify }}
+  </div>
+  {% endif %}
+  {% if include.venue.google_maps_url %}
+  <a class="button is-primary" href="{{ include.venue.google_maps_url }}" target="_blank">Directions</a>
+  {% endif %}
+</div>

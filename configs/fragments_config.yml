@@ -1,0 +1,50 @@
+title: Fragments
+subtitle: "India's community of Android, iOS, and mobile web developers<br>(formerly called droidconIN)"
+description: "India's community of Android, iOS, and mobile web developers"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fragments.in" # the base hostname & protocol for your site, e.g. http://example.com
+colors:
+  primary: "#1BAF82"
+  accent: "#99CB54"
+meta:
+  image: "images/meta/fragments.png"
+id: fragments
+ga_tracking_code: UA-19123154-37
+twitter_tracking_code: nzdrl
+fb_tracking_code: 939847969521385
+linkedin_tracking_code: 245595
+service_worker: true
+id: fragments
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - .git
+  - .sass_cache
+  - node_modules
+  - _site
+  - tests
+  - vendor
+  - .DS_Store
+  - configs
+  - deploy
+  - requirements.txt
+  - README.md
+
+destination: _site/fragments
+
+sass_dir: _sass
+
+liquid:
+  error_mode: strict
+
+collections:
+  fragments_events:
+    type: event
+    output: true
+    permalink: /:path/

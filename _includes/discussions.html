@@ -1,0 +1,64 @@
+<!-- <div class="has-text-centered">
+    <h3 class="title">Discussions</h3>
+    <br>
+  </div>
+  <div class="columns is-centered is-multiline">
+    {% if include.instructors %}
+      {% assign speakers = include.instructors %}
+    {% else %}
+      {% assign speakers = include.speakers %}
+    {% endif %}
+    {% for speaker in speakers %}
+    <div class="column is-6">
+      <div class="card">
+        <div class="card-content">
+          <div class="columns is-mobile">
+            {% if speaker.image_url %}
+            <div class="column is-3">
+              <figure class="image is-1by1" style="background-image: url('{{ speaker.image_url }}'); background-size: cover; background-position: center;">
+              </figure>
+            </div>
+            {% endif %}
+            <div class="column">
+              <h1 class="title is-5"><a href="{{ speaker.funnel_url }}" target="_blank">{{ speaker.talk_title }}</a></h1>
+              <h2 class="title is-6">{{ speaker.name }}</h2>
+              <h2 class="subtitle is-6">{{ speaker.designation }}</p>
+              {% if speaker.website %}
+                <a href="{{ speaker.website.url }}" target="_blank">{{ speaker.website.label }}</a>
+              {% endif %}
+            </div>
+          </div>
+          <div class="content">
+            {{ speaker.blurb | markdownify }}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div> -->
+
+  <div class="has-text-centered">
+    <h3 class="title">Discussions</h3><br>
+  </div>
+  <div class="columns">
+    {% if include.instructors %}
+    {% assign speakers = include.instructors %}
+    {% else %}
+    {% assign speakers = include.speakers %}
+    {% endif %}
+    {% for speaker in speakers %}
+    <div class="column is-3">
+      <article class="tile is-child notification">
+      {% if speaker.image_url %}
+        <figure class="image is-4by4">
+          <img src="{{ speaker.image_url }}" height="200px">
+        </figure>
+        {% endif %}
+        <br>
+          <h1 class="title is-4"><strong><a href="{{ speaker.funnel_url }}" target="_blank" class="click link-unstyled" data-label="view {{ speaker.talk_title }}">{{ speaker.talk_title }}</a></strong></h1>
+          <p class="">{{ speaker.blurb | markdownify }}</p>
+        </article>
+    </div>
+    {% endfor %}
+  </div>
+

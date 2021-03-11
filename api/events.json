@@ -1,0 +1,27 @@
+---
+---
+{%- assign events = site.data.events | sort: 'start_time' -%}
+{%- capture now_date -%}{{ site.time | date: '%s' | plus: 0 }}{%- endcapture -%}
+
+{
+  "events": [
+	{%- for event in events -%}
+  {%- capture event_end_date -%}{{event.end_time | date: '%s' | plus: 0 }}{%- endcapture -%}
+  {%- if event_end_date > now_date -%}
+		{
+			"name": "{{ event.name }}",
+			"title": "{{ event.title }}",
+			"start_time": "{{ event.start_time | date_to_xmlschema }}",
+			"city": "{{ event.city }}",
+			"venue": "{{ event.venue }}",
+			"google_maps_link": "{{ event.google_maps_link }}",
+			"end_time": "{{ event.end_time | date_to_xmlschema }}",
+			"url": "{{ event.url }}",
+			"funnel": "{{ event.funnel }}",
+			"blurb": "{{ event.blurb | smartify }}"
+		}
+		{% if forloop.last == false %},{% endif %}
+  {%- endif -%}
+	{%- endfor -%}
+	]
+}

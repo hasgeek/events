@@ -1,0 +1,58 @@
+title: JSFoo + Meta Refresh
+subtitle: "A community and conference on JavaScript"
+description: "A community and conference on JavaScript"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jsfoo.in" # the base hostname & protocol for your site, e.g. http://example.com
+colors:
+  primary: "#549EAF"
+  accent: "#FAA51A"
+ga_tracking_code: UA-19123154-15
+twitter_tracking_code: o09dx
+fb_tracking_code: 939847969521385
+linkedin_tracking_code: 245595
+icons:
+  touch:
+  - src: "images/touch/jsfoo-icon-300.png"
+    sizes: "300x300"
+    type: "image/png"
+id: jsfoo
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - .git
+  - .sass_cache
+  - node_modules
+  - _site
+  - tests
+  - vendor
+  - .DS_Store
+  - configs
+  - deploy
+  - requirements.txt
+  - README.md
+
+destination: _site/jsfoo
+
+sass_dir: _sass
+
+liquid:
+  error_mode: strict
+
+feednami_api_key: 11b960d3a621040da933072084fa65905899a9a7a62654c5a13e5ac0b65cca68
+
+collections:
+  jsfoo_events:
+    type: event
+    output: true
+    permalink: /:path/
+  metarefresh_events:
+    type: event
+    output: true
+    permalink: /metarefresh/:path/
+

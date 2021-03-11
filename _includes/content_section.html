@@ -1,0 +1,23 @@
+<div class="columns has-text-justified">
+    {% if include.left %}
+    <div class="column">
+      <div class="content">
+        {{ include.left | markdownify }}
+      </div>
+    </div>
+    {% endif %}
+    {% if include.center %}
+    <div class="column">
+      <div class="content">
+        {{ include.center | markdownify }}
+      </div>
+    </div>
+    {% endif %}
+    {% if include.right %}
+    <div class="column">
+      <div class="content">
+        {{ include.right | markdownify }}
+      </div>
+    </div>
+    {% endif %}
+</div>

@@ -1,0 +1,101 @@
+{% if include.event.logo %}
+<section class="hero is-halfheight is-bold">
+{% if include.event.banner %}
+  <div class="hero-body" style="background-image: url('{{ page.banner }}'); background-size:cover;">
+{% else %}
+  <div class="hero-body">
+{% endif %}
+    <div class="container">
+      <!-- <figure class="image is-centered">
+        {% if include.event.logo.image_url contains "://" %}
+          {% assign logo_url = include.event.logo.image_url %}
+        {% else %}
+          {% assign logo_url = include.event.logo.image_url | absolute_url %}
+        {% endif %}
+        <img src="{{ logo_url }}" style="max-height: {% if include.event.logo.has_title %}16{% else %}12{% endif %}rem;width:  {% if include.event.banner %}250px{% else %}auto{% endif %}; display: inline-block;">
+      </figure>
+      {% if include.event.logo.has_title %}
+      {% else %} -->
+        <div class="hero-icon">
+        {% if include.event.logo.image_url contains "://" %}
+          {% assign logo_url = include.event.logo.image_url %}
+        {% else %}
+          {% assign logo_url = include.event.logo.image_url | absolute_url %}
+        {% endif %}
+          <img src="{{ logo_url }}" style="max-width: 60px;" class="has-text-centered animated zoomIn">
+        </div>
+        <h1 class="event-name" style="color: {% if include.event.banner %}#ffffff{% else %}#000000{% endif %};">
+        {{ include.event.title }}
+      </h1>
+      <h3 class="event-date" style="color: {% if include.event.banner %}#ffffff{% else %}#000000{% endif %};">{{ include.event.datelocation }}</h3>
+
+      {% assign event_d = event.end_time | date: '%Y%m%d' | plus: 0 %}
+      {% assign site_d = site.time | date: '%Y%m%d' | plus: 0 %}
+      <!-- <h1 class="title">
+        {{ include.event.title }}
+      </h1>
+      {% endif %} -->
+      {% if include.event.subtitle %}
+      <h2 class="event-title" style="color: {% if include.event.banner %}#ffffff{% else %}#000000{% endif %};">
+        {{ include.event.subtitle }}
+      </h2>
+      {% endif %}
+
+      <div class="block">
+        {% if event_d <= site_d %}
+          {% if include.event.boxoffice_item_collection %}
+            {% if include.event.boxoffice_item_collection_sold_out == true %}
+            <a class="button btn-is-primary" data-href="#tickets" disabled>Buy Tickets(sold out)</a>
+            {% else %}
+            <a class="button btn-is-primary" data-href="#tickets" style="background-color: {% if include.event.banner %}#ffffff{% else %}$primary{% endif %}; color: {% if include.event.banner %}#1F2D3D{% else %}#ffffff{% endif %};">Buy Tickets</a>
+            {% endif %}
+          {% endif %}
+        {% endif %}
+        {% if include.event.schedule %}
+        <a class="button btn-is-secondary" data-href="#schedule" style="color: {% if include.event.banner %}#ffffff{% else %}#1F2D3D{% endif %}; border: {% if include.event.banner %}2px solid #ffffff{% else %}2px solid #1F2D3D{% endif %};" >View Schedule</a>
+        {% endif %}
+        {% if include.event.funnel.open == true %}
+        <a class="button btn-is-secondary" href="{{ include.event.funnel.url }}" target="_blank" style="color: {% if include.event.banner %}#ffffff{% else %}#1F2D3D{% endif %}; border: {% if include.event.banner %}2px solid #ffffff{% else %}2px solid #1F2D3D{% endif %};">Propose a talk</a>
+        {% endif %}
+      </div>
+      {% if event_d >= site_d %}
+        {% if include.event.live %}
+          <div class="block">
+            <a class="button is-info" href="{{ site.url }}{{ site.baseurl }}/live"><span class="icon"><i class="fa fa-video-camera" aria-hidden="true"></i></span><span>Watch the live stream</span></a>
+          </div>
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="hero is-halfheight is-primary is-bold">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        {{ include.event.title }}
+      </h1>
+      {% if include.event.subtitle %}
+      <h2 class="subtitle">
+        {{ include.event.subtitle }}
+      </h2>
+      {% endif %}
+      <h3 class="subtitle is-6">{{ include.event.datelocation }}</h3>
+
+      <div class="block">
+        {% if include.event.boxoffice_item_collection %}
+        <a class="button is-primary" href="#tickets" data-href="#tickets">Buy Tickets</a>
+        {% endif %}
+        {% if include.event.funnel.open == true %}
+        <a class="button" href="{{ include.event.funnel.url }}" target="_blank">Propose a talk</a>
+        {% endif %}
+      </div>
+      {% if include.event.live %}
+        <div class="block">
+          <a class="button" href="{{ site.url }}{{ site.baseurl }}/live"><span class="icon"><i class="fa fa-video-camera" aria-hidden="true"></i></span><span>Watch the live stream</span></a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}

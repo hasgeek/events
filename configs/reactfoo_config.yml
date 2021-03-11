@@ -1,0 +1,48 @@
+title: ReactFoo
+subtitle: "India's community of React.js and React Native developers"
+description: "India's community of React.js and React Native developers"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://reactfoo.in" # the base hostname & protocol for your site, e.g. http://example.com
+id: reactfoo
+colors:
+  primary: "#549EAF"
+  accent: "#FAA51A"
+ga_tracking_code: UA-19123154-39
+twitter_tracking_code: nzdrl
+fb_tracking_code: 939847969521385
+linkedin_tracking_code: 245595
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - .git
+  - .sass_cache
+  - node_modules
+  - _site
+  - tests
+  - vendor
+  - .DS_Store
+  - configs
+  - deploy
+  - requirements.txt
+  - README.md
+
+destination: _site/reactfoo
+
+sass_dir: _sass
+
+liquid:
+  error_mode: strict
+
+feednami_api_key: 2c77b4225145c3d4f7c1332b8a6e50e0466587bc56808ad000c8d26fbb765d56
+
+collections:
+  reactfoo_events:
+    type: event
+    output: true
+    permalink: /:path/

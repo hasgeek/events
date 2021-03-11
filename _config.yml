@@ -1,0 +1,72 @@
+title: HasGeek Events
+subtitle: "We creates discussion spaces for geeks. Come to our events to meet like-minded people, learn new things and discover new opportunities."
+description: "HasGeek creates discussion spaces for geeks. Come to our events to meet like-minded people, learn new things and discover new opportunities."
+baseurl: "/events" # the subpath of your site, e.g. /blog
+url: "https://hasgeek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+id: hasgeek
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - .git
+  - .sass_cache
+  - node_modules
+  - _site
+  - tests
+  - vendor
+  - .DS_Store
+  - configs
+  - deploy
+  - requirements.txt
+  - README.md
+
+timezone: Asia/Calcutta
+webrick:
+  headers:
+    Access-Control-Allow-Origin: '*'
+
+destination: _site/_site
+
+sass_dir: _sass
+
+liquid:
+  error_mode: strict
+
+collections:
+  fragments_events:
+    type: event
+    output: true
+    permalink: /fragments/:path/
+  anthillinside_events:
+    type: event
+    output: true
+    permalink: /anthillinside/:path/
+  reactfoo_events:
+    type: event
+    output: true
+    permalink: /reactfoo/:path/
+  fifthelephant_events:
+    type: event
+    output: true
+    permalink: /fifthelephant/:path/
+  metarefresh_events:
+    type: event
+    output: true
+    permalink: /metarefresh/:path/
+  jsfoo_events:
+    type: event
+    output: true
+    permalink: /jsfoo/:path/
+  rootconf_events:
+    type: event
+    output: true
+    permalink: /rootconf/:path/
+  50p_events:
+    type: event
+    output: true
+    permalink: /50p/:path/

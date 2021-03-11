@@ -1,0 +1,46 @@
+/* This creates custom margin classes based on the values added. Eg. .mt-24 is margin-top: 24px */
+@mixin generate-spacing-classes(
+  $default-space-amounts-with-direction: (0 left l, 4 left l, 8 left l, 16 left l, 24 left l, 32 left l, 40 left l, 48 left l, 56 left l, 64 left l, 72 left l, 80 left l)
+) {
+  @each $space in $default-space-amounts-with-direction {
+    .m#{nth($space, 3)}-#{nth($space, 1)} {
+      margin-#{nth($space, 2)}: #{nth($space, 1)}px;
+    }
+  }
+}
+
+$right-space-vars: (0 right r, 4 right r, 8 right r, 16 right r, 24 right r, 32 right r, 40 right r, 48 right r, 56 right r, 64 right r, 72 right r, 80 right r);
+$bottom-space-vars: (0 bottom b, 4 bottom b, 8 bottom b, 16 bottom b, 24 bottom b, 32 bottom b, 40 bottom b, 48 bottom b, 56 bottom b, 64 bottom b, 72 bottom b, 80 bottom b);
+$top-space-vars: (0 top t, 4 top t, 8 top t, 16 top t, 24 top t, 32 top t, 40 top t, 48 top t, 56 top t, 64 top t, 72 top t, 80 top t);
+
+@include generate-spacing-classes(); // left comes by default
+@include generate-spacing-classes($right-space-vars);
+@include generate-spacing-classes($bottom-space-vars);
+@include generate-spacing-classes($top-space-vars);
+
+/*----------*/
+
+/* This creates custom padding classes based on the values added. Eg. .pt-24 is padding-top: 24px */
+@mixin generate-spacing-classes(
+  $default-space-amounts-with-direction: (0 left l, 4 left l, 8 left l, 16 left l, 24 left l, 32 left l, 40 left l, 48 left l, 56 left l, 64 left l, 72 left l, 80 left l)
+) {
+  @each $space in $default-space-amounts-with-direction {
+    .p#{nth($space, 3)}-#{nth($space, 1)} {
+      padding-#{nth($space, 2)}: #{nth($space, 1)}px;
+    }
+  }
+}
+
+$right-space-vars: (0 right r, 4 right r, 8 right r, 16 right r, 24 right r, 32 right r, 40 right r, 48 right r, 56 right r, 64 right r, 72 right r, 80 right r);
+$bottom-space-vars: (0 bottom b, 4 bottom b, 8 bottom b, 16 bottom b, 24 bottom b, 32 bottom b, 40 bottom b, 48 bottom b, 56 bottom b, 64 bottom b, 72 bottom b, 80 bottom b);
+$top-space-vars: (0 bottom t, 4 top t, 8 top t, 16 top t, 24 top t, 32 top t, 40 top t, 48 top t, 56 top t, 64 top t, 72 top t, 80 top t);
+
+@include generate-spacing-classes(); // left comes by default
+@include generate-spacing-classes($right-space-vars);
+@include generate-spacing-classes($bottom-space-vars);
+@include generate-spacing-classes($top-space-vars);
+
+/*----------*/
+
+
+

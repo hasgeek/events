@@ -1,0 +1,100 @@
+.p-48{
+  padding: 48px;
+}
+/* Media query breakpoints */
+/* Custom, iPhone Retina */
+$break-xxs: 320px;
+
+/* Extra Small Devices, Phones */
+$break-xs: 480px;
+
+/* Small Devices, Tablets */
+$break-s: 768px;
+
+/* Medium Devices, Desktops */
+$break-m: 992px;
+
+/* Large Devices, Wide Screens */
+$break-l: 1200px;
+
+/* z-index */
+.z-index-1{
+  z-index: 1;
+}
+
+.text-decoration-none{
+  text-decoration: none;
+}
+
+.text-decoration-underline{
+  text-decoration: underline;
+}
+
+.text-center{
+    text-align: center;
+}
+.opacity-none{
+  opacity: 0 !important;
+}
+.background-none{
+  background: none !important;
+}
+
+.card-box-shadow{
+  -webkit-box-shadow: 12px 15px 20px 0 rgba(46,61,73,.15);
+  -moz-box-shadow: 12px 15px 20px 0 rgba(46,61,73,.15);
+  box-shadow: 12px 15px 20px 0 rgba(46,61,73,.15);
+}
+.position-relative{
+  position: relative;
+}
+
+.position-absolute{
+  position: absolute;
+}
+.display-inline{
+  display: inline;
+}
+
+
+.image-overlay {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #4a4a4a;
+}
+
+.image-overlay:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+iframe {
+  width: 100%;
+}

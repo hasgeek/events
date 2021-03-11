@@ -1,0 +1,48 @@
+title: 50p
+subtitle: "A community and conference on India's payment ecosystem"
+description: "A community and conference on India's payment ecosystem"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://50p.in" # the base hostname & protocol for your site, e.g. http://example.com
+id: 50p
+colors:
+  primary: "#434556"
+  accent: "#ECC378"
+ga_tracking_code: UA-19123154-34
+twitter_tracking_code: nzdrl
+fb_tracking_code: 939847969521385
+linkedin_tracking_code: 245595
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - .git
+  - .sass_cache
+  - node_modules
+  - _site
+  - tests
+  - vendor
+  - .DS_Store
+  - configs
+  - deploy
+  - requirements.txt
+  - README.md
+
+destination: _site/50p
+
+sass_dir: _sass
+
+liquid:
+  error_mode: strict
+
+feednami_api_key: 655dac92aea8a093f9ce3220844f63ce2f62de384b97d470b30edb7162f6d7fc
+
+collections:
+  50p_events:
+    type: event
+    output: true
+    permalink: /:path/

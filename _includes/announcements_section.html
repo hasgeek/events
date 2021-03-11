@@ -1,0 +1,13 @@
+<div class="columns is-multiline">
+  {% for announcement in include.announcements %}
+  <div class="column is-4" style="margin-top: 32px;">
+    <div class="is-secondary">
+      <div class=""><img src="{{ announcement.icon }}" alt=""></div>
+      <h3 class="title is-6 uppercase"><strong>{{ announcement.title }}</strong></h3>
+      <div class="content">
+        {{ announcement.text | markdownify }}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

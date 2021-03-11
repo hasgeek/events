@@ -1,0 +1,363 @@
+- name: building-reliable-payment-systems-2017
+  title: Building reliable payment systems and services 2017
+  city: Mumbai
+  venue: VSIT Mumbai
+  google_maps_pin: https://goo.gl/maps/xvL5y19KiFT2
+  start_time: 2017-07-08
+  end_time: 2017-07-08
+  url: https://50p.in/devpay2017/
+  funnel: https://hasgeek.com/50p/building-reliable-payment-systems-2017/
+  blurb: Revisiting the payments ecosystem in India.
+  color:
+    primary: "#826995"
+    primary_dark: "#514F74"
+    accent: "#ECC378"
+
+- name: fifthelephant-2017
+  title: The Fifth Elephant 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
+  start_time: 2017-07-27
+  end_time: 2017-07-28
+  url: https://fifthelephant.in/2017/
+  blurb: An annual gathering of data scientists, analysts, researchers, and technologists working in the areas of data mining and analysis, data science, machine learning, and deep learning from different domains.
+  color:
+    primary: "#68bec1"
+    primary_dark: "#498f94"
+    accent: "#ec5f13"
+
+- name: anthillinside-2017
+  title: Anthill Inside 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
+  start_time: 2017-07-29
+  end_time: 2017-07-29
+  url: https://anthillinside.in/2017/
+  funnel: https://hasgeek.com/anthillinside/2017/
+  blurb: The new avatar of last year’s Deep Learning Conf. It is a spin off of The Fifth Elephant that focuses specifically on deep learning and artificial intelligence, attempting to bridge the gap and bring theoretical advances closer to functioning reality.
+  color:
+    primary: "#3f50a3"
+    primary_dark: "#213284"
+    accent: "#e76f45"
+
+- name: jsfoo-2017
+  title: JSFoo 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
+  start_time: 2017-09-15
+  end_time: 2017-09-16
+  url: https://jsfoo.in/2017/
+  funnel: https://hasgeek.com/jsfoo/2017/
+  blurb: Our annual conference on JavaScript. This year, the focus is on building reliable web apps.
+  color:
+    primary: "#549eaf"
+    primary_dark: "#2e3661"
+    accent: "#faa51a"
+
+- name: fragments-2017
+  title: Fragments 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zt
+  start_time: 2017-09-12
+  end_time: 2017-09-13
+  url: https://fragments.in/2017/
+  funnel: https://hasgeek.com/fragments/2017/
+  blurb: Our new conference on the mobile ecosystem in India. Fragments aims to bring together professionals working across the spectrum of mobile applications. Whether Android, iOS, mobile websites, or progressive web apps.
+
+- name: reactfoo-2017
+  title: ReactFoo 2017
+  city: Bangalore
+  venue: MLR Convention Center, Whitefield
+  google_maps_pin: https://goo.gl/maps/ziPb95Y77zts
+  start_time: 2017-09-14
+  end_time: 2017-09-14
+  url: https://reactfoo.in/2017/
+  funnel: https://hasgeek.com/reactfoo/2017/
+  blurb: Our new conference on the state of React in India. We’ll have more news on this in the coming weeks.
+
+- name: metarefresh-2018
+  title: Meta Refresh 2018
+  city: Bangalore
+  venue: NIMHANS Convention Centre, Dairy Circle
+  google_maps_pin: https://goo.gl/maps/guzuU8H37Zy
+  start_time: 2018-10-26
+  end_time: 2018-10-27
+  url: https://metarefresh.in/2018/
+  funnel: https://hasgeek.com/metarefresh/2018/
+  blurb: On interaction design and CSS from product and business standpoints.
+  banner: https://images.hasgeek.com/embed/file/995b8e3afdcc4937b5a2784cdf745bb7
+  color:
+    primary: "#b22e40"
+    primary_dark: "#921b3f"
+    accent: "#921b3f"
+
+- name: cmsconf-2018
+  title: ^CMS CONF 2018
+  city: Pune
+  venue: MCCIA, ICC Trade Tower, Pune
+  google_maps_pin: https://goo.gl/maps/Ufz6NCHKe9x
+  start_time: 2018-03-23
+  end_time: 2018-03-23
+  funnel: https://poweredbycms.in/
+  url: https://poweredbycms.in/tickets/
+  blurb: A conference centered around the practice of Content Management Systems presented by AmiWorks & In association with HasGeek.
+  color:
+    primary: "#b22e40"
+    primary_dark: "#921b3f"
+    accent: "#921b3f"
+
+- name: reactfoo-pune
+  title: ReactFoo Pune
+  city: Pune
+  venue: To be announced
+  start_time: 2018-01-19
+  end_time: 2018-01-20
+  funnel: https://hasgeek.com/reactfoo/2018-pune/
+  url: https://reactfoo.in/2018-pune/
+  blurb: A conference on the lessons learned while implememting React and React Native.
+
+- name: anthillinside-pune
+  title: Anthill Inside Miniconf - Pune
+  city: Pune
+  venue: To be announced
+  start_time: 2017-11-24
+  end_time: 2017-11-24
+  funnel: https://hasgeek.com/anthillinside/2017-miniconf-pune/
+  url: https://anthillinside.in/2017-miniconf-pune/
+  blurb: "A mini conference on Machine Learning, Deep Learning and Artificial Intelligence: concepts, applications and tools."
+  color:
+    primary: "#3f50a3"
+    primary_dark: "#213284"
+    accent: "#e76f45"
+
+- name: 50p-2018
+  title: 50p 2018
+  city: Bangalore
+  venue: NIMHANS, Bangalore
+  start_time: 2018-02-08
+  end_time: 2018-02-09
+  funnel: https://hasgeek.com/50p/2018/
+  url: https://50p.in/2018/
+  blurb: "India’s first independent conference on payments and the payment ecosystem."
+  color:
+    primary: "#826995"
+    primary_dark: "#514F74"
+    accent: "#ECC378"
+
+- name: 2017-cloud-server-management-miniconf-chennai
+  title: Miniconf on Cloud Server Management (Chennai)
+  city: Chennai
+  venue: To be announced
+  start_time: 2017-11-25
+  end_time: 2017-11-25
+  funnel: https://hasgeek.com/rootconf/cloud-server-management-miniconf-2017/
+  url: https://rootconf.in/2017-cloud-server-management-miniconf/
+  blurb: "Cloud server management brings with it as many challenges as it offers conveniences."
+  color:
+    primary: "#826995"
+    primary_dark: "#514F74"
+    accent: "#ECC378"
+
+- name: 2017-cloud-server-management-miniconf-mumbai
+  title: Miniconf on Cloud Server Management (Mumbai)
+  city: Mumbai
+  venue: To be announced
+  start_time: 2017-12-08
+  end_time: 2017-12-08
+  funnel: https://hasgeek.com/rootconf/cloud-server-management-miniconf-2017/
+  url: https://rootconf.in/2017-cloud-server-management-miniconf-mumbai/
+  blurb: "Cloud server management brings with it as many challenges as it offers conveniences."
+  color:
+    primary: "#826995"
+    primary_dark: "#514F74"
+    accent: "#ECC378"
+
+- name: 2017-cloud-server-management-miniconf-delhi-ncr
+  title: Miniconf on Cloud Server Management (Delhi/NCR)
+  city: Delhi/NCR
+  venue: Investopad
+  start_time: 2018-01-20
+  end_time: 2018-01-20
+  funnel: https://hasgeek.com/rootconf/cloud-server-management-miniconf-2017/
+  url: https://rootconf.in/2017-cloud-server-management-miniconf-delhi-ncr/
+  blurb: "Cloud server management brings with it as many challenges as it offers conveniences."
+  color:
+    primary: "#826995"
+    primary_dark: "#514F74"
+    accent: "#ECC378"
+
+- name: rootconf-2018
+  title: Rootconf 2018
+  city: Bangalore
+  venue: NIMHANS Convention Center
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2018-05-10
+  end_time: 2018-05-11
+  url: https://rootconf.in/2018/
+  funnel: https://hasgeek.com/rootconf/2018/
+  blurb: India's principal conference on devops and infrastucture.
+  color:
+    primary: "#826995"
+    primary_dark: "#514F74"
+    accent: "#ECC378"
+
+- name: fifthelephant-2018
+  title: The Fifth Elephant 2018
+  city: Bangalore
+  venue: NIMHANS Convention Center
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2018-07-26
+  end_time: 2018-07-27
+  url: https://fifthelephant.in/2018/
+  funnel: https://hasgeek.com/fifthelephant/2018/
+  blurb: The seventh edition of India's best conference on big data and machine learning.
+  color:
+    primary: "#68bec1"
+    primary_dark: "#498f94"
+    accent: "#ec5f13"
+
+- name: anthillinside-2018
+  title: Anthill Inside 2018
+  city: Bangalore
+  venue: NIMHANS Convention Centre
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2018-07-25
+  end_time: 2018-07-25
+  url: https://anthillinside.in/2018/
+  funnel: https://hasgeek.com/anthillinside/2018/
+  blurb: A conference on deep learning and artificial intelligence.
+  color:
+    primary: "#3f50a3"
+    primary_dark: "#213284"
+    accent: "#e76f45"
+
+- name: jsfoo-2018
+  title: JSFoo 2018
+  city: Bangalore
+  venue: NIMHANS Convention Center
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2018-10-26
+  end_time: 2018-10-27
+  url: https://jsfoo.in/2018/
+  funnel: https://hasgeek.com/jsfoo/2018/
+  blurb: The eighth edition of India’s first JavaScript conference.
+  banner: https://images.hasgeek.com/embed/file/10acd7709d8e45b598ea107ff29a985e
+  color:
+    primary: "#549eaf"
+    primary_dark: "#2e3661"
+    accent: "#faa51a"
+
+- name: reactfoo-hyderabad
+  title: ReactFoo Hyderabad
+  city: Hyderabad
+  venue: To be announced
+  start_time: 2018-03-17
+  end_time: 2018-03-17
+  funnel: https://hasgeek.com/reactfoo/2018-hyd/
+  url: https://reactfoo.in/2018-hyderabad/
+  blurb: A conference on the lessons learned while implememting React and React Native.
+
+
+- name: reactfoo-mumbai
+  title: ReactFoo Mumbai
+  city: Mumbai
+  venue: ISDI ACE, Lower Parel, Mumbai
+  start_time: 2018-05-26
+  end_time: 2018-05-26
+  funnel: https://hasgeek.com/reactfoo/2018-mumbai/
+  url: https://reactfoo.in/2018-mumbai/
+  blurb: A conference on the lessons learned while implememting React and React Native.
+
+- name: reactfoo-delhi
+  title: ReactFoo Delhi
+  city: Delhi/NCR
+  venue: IIC, Max Mueller Marg, New Delhi
+  start_time: 2018-08-18
+  end_time: 2018-08-18
+  funnel: https://hasgeek.com/reactfoo/2018-delhi/
+  url: https://reactfoo.in/2018-delhi/
+  blurb: A conference on the lessons learned while implememting React and React Native.
+
+- name: reactfoo-2019
+  title: ReactFoo 2019
+  city: Bangalore
+  venue: NIMHANS Convention Centre
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2019-03-01
+  end_time: 2019-03-02
+  funnel: https://hasgeek.com/reactfoo/2019/
+  url: https://reactfoo.in/2019/
+  blurb: A conference on the lessons learned while implementing React and React Native.
+  banner: https://images.hasgeek.com/embed/file/e924fc223b8548f8a5dae6d49a8c4437
+
+- name: logistics-2018
+  title: Logistics Conference 2018
+  city: Bangalore
+  venue: NIMHANS Convention Centre
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2018-11-24
+  end_time: 2018-11-24
+  funnel: https://hasgeek.com/fifthelephant/logistics-conf-2018/
+  url: https://fifthelephant.in/2018-logisticsconf/
+  blurb: The Fifth Elephant presents the first edition of Logistics conference.
+
+
+- name: fifthelephant-winter-2019
+  title: The Fifth Elephant Winter 2019
+  city: Mumbai
+  venue: ISDI ACE, Lower Parel
+  start_time: 2019-01-18
+  end_time: 2019-01-18
+  funnel: https://hasgeek.com/fifthelephant/winter-edition-2019/
+  url: https://fifthelephant.in/2019-winter/
+  blurb: The winter 2019 edition of India's best conference on big data and machine learning.
+  banner: https://images.hasgeek.com/embed/file/c782f6a5e5034bcd810acded5bf6879d
+
+- name: pune-2019
+  title: JSFoo Pune 2019
+  city: Pune
+  venue: MCCIA Trade tower, Pune
+  start_time: 2019-01-10
+  end_time: 2019-01-10
+  funnel: https://hasgeek.com/jsfoo/2019-pune/
+  url: https://jsfoo.in/2019-pune/
+  blurb: The second Pune edition of India's premier JavaScript conference.
+  banner: https://images.hasgeek.com/embed/file/10acd7709d8e45b598ea107ff29a985e
+
+- name: fragments-2019
+  title: Fragments 2019
+  city: Bangalore
+  venue: NIMHANS Convention Centre
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2019-03-01
+  end_time: 2019-03-02
+  funnel: https://hasgeek.com/fragments/2019/
+  url: https://fragments.in/2019/
+  blurb: On future of the Mobile Developement.
+  banner: https://images.hasgeek.com/embed/file/ca000328f3824dde84ace578bac83179
+  
+- name: rootconf-209
+  title: Rootconf 2019
+  city: Bangalore
+  venue: NIMHANS Convention Center
+  google_maps_pin: https://goo.gl/maps/zG1yFLK3jKt
+  start_time: 2019-06-21
+  end_time: 2019-06-22
+  url: https://rootconf.in/2019/
+  funnel: https://hasgeek.com/rootconf/2019/
+  blurb: On infrastructure security, cost optimisation, and distributed syystems.
+
+- name: vueday-2019
+  title: "JSFoo: VueDay 2019"
+  city: Bangalore
+  venue: Bangalore Internatoinal Center (BIC)
+  google_maps_pin: https://goo.gl/maps/7FkxmyZ7Z3E2
+  start_time: 2019-08-30
+  end_time: 2019-08-31
+  url: https://jsfoo.in/2019-vueday/
+  funnel: https://hasgeek.com/jsfoo/2019-vueday/
+  blurb: A day spent discussing Vue.js, developments in the Vue ecosystem and component architecture

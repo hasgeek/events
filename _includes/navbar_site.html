@@ -1,0 +1,21 @@
+{% include assign_featured_events.html %}
+{% include assign_all_events.html %}
+
+<nav class="nav has-shadow is-hidden-mobile">
+  <div class="container">
+    <a class="nav-item nav-home" href="{{site.url}}{{site.baseurl}}/" >
+      {{ site.title }}
+    </a>
+    <div class="nav-left">
+      {% for event in featured_events %}
+			  <a class="nav-item featured" href="{{site.url}}{{site.baseurl}}{{ event.url }}" >{{ event.title }}  <span class=" nav-featured-tag">FEATURED</span></a>
+			{% endfor %}
+      {% for event in all_events %}
+        {% if featured_events contains event %}
+        {% else %}    
+          <a class="nav-item" href="{{site.url}}{{site.baseurl}}{{ event.url }}" >{{ event.title }} </a>
+        {% endif %}
+			{% endfor %}
+    </div>
+  </div>
+</nav>

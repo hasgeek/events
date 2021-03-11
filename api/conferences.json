@@ -1,0 +1,29 @@
+---
+---
+{%- assign conferences = site.data.conferences | sort: 'start_time' -%}
+{%- capture now_date -%}{{ site.time | date: '%s' | plus: 0 }}{%- endcapture -%}
+
+{
+  "conferences": [
+	{%- for conf in conferences -%}
+  {%- capture conf_end_date -%}{{conf.end_time | date: '%s' | plus: 0 }}{%- endcapture -%}
+  {%- if conf_end_date > now_date -%}
+		{
+			"id": "{{ conf.name }}",
+			"title": "{{ conf.title }}",
+			"start_time": "{{ conf.start_time | date_to_xmlschema }}",
+			"city": "{{ conf.city }}",
+			"venue": "{{ conf.venue }}",
+			"google_maps_link": "{{ conf.google_maps_link }}",
+			"end_time": "{{ conf.end_time | date_to_xmlschema }}",
+			"url": "{{ conf.url }}",
+			"funnel": "{{ conf.funnel }}",
+			"blurb": "{{ conf.blurb }}",
+			"banner": "{{ conf.banner }}"
+			{%- if conf.color -%}, "color": {{conf.color|jsonify}} {%- endif -%}
+		}
+		{% if forloop.last == false %},{% endif %}
+  {%- endif -%}
+	{%- endfor -%}
+	]
+}

@@ -1,0 +1,58 @@
+<div class="has-text-centered">
+  <h3 class="title">{% if include.instructors %}Instructors{%else%}Speakers{%endif%}</h3>
+  <br>
+</div>
+<div class="columns is-centered is-multiline">
+  {% if include.instructors %}
+    {% assign instructors = include.instructors %}
+  {% else %}
+    {% assign instructors = include.speakers %}
+  {% endif %}
+  {% for instructor in instructors %}
+  <div class="column is-3">
+    <div class="card is-clickable" onclick="showModal('instructor-{{ instructor.name | slugify }}')" data-href="view {{ instructor.name }}" data-label="open Modal">
+      <div class="card-content">
+        <div class="media">
+          {% if instructor.image_url %}
+          <div class="media-left">
+            <figure class="image is-64x64" style="background-image: url('{{ instructor.image_url }}'); background-size: cover; background-position: center;">
+            </figure>
+          </div>
+          {% endif %}
+          <div class="media-content">
+            <p class="title is-4">{{ instructor.name }}</p>
+            <p class="subtitle is-6">{{ instructor.byline }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="instructor-{{ instructor.name | slugify }}" style="z-index:20;">
+      <div class="modal-background" onclick="hideModal('instructor-{{ instructor.name | slugify }}')"></div>
+      <div class="modal-content">
+        <div class="box">
+          <div class="media has-text-centered">
+
+            {% if instructor.image_url %}
+            <div class="media-left">
+              <figure class="image is-128x128" style="background-image: url('{{ instructor.image_url }}'); background-size: cover; background-position: center;">
+              </figure>
+            </div>
+            {% endif %}
+            <div class="media-content">
+              <p class="title is-4">{{ instructor.name }}</p>
+              <p class="subtitle is-6">{{ instructor.byline }}</p>
+              {% if instructor.website %}
+              <a href="{{ instructor.website.url }}" target="_blank">{{ instructor.website.label }}</a>
+              {% endif %}
+            </div>
+          </div>
+          <div class="content">
+            {{ instructor.bio | markdownify }}
+          </div>
+        </div>
+      </div>
+      <button class="modal-close is-large" onclick="hideModal('instructor-{{ instructor.name | slugify }}')"></button>
+    </div>
+  </div>
+  {% endfor %}
+</div>

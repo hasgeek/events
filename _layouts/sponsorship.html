@@ -1,0 +1,114 @@
+---
+layout: base
+---
+
+  {% include event_header_section.html event=page %}
+
+  {% if page.subbanner %}
+    {% include subbanner_{{ page.subbanner }}.html %}
+  {% endif %}
+
+  <div style="z-index:10;">
+    <nav class="nav has-shadow nav-sticky" style="z-index:10;">
+      <div class="container">
+        <div class="nav-left" style="z-index:10;">
+          <span class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          {% if page.highlights %}
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#highlights">Highlights</a>
+          {% endif %}
+          {% if page.outreach_item_collection %}
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#sponsorship">Become a sponsor</a>
+          {% endif %}
+          {% if page.testimonials %}
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#testimonials">Testimonials</a>
+          {% endif %}
+          {% if page.sponsor %}
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#sponsor">Sponsors</a>
+          {% endif %}
+          {% if page.venue %}
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#venue">Venue</a>
+          {% endif %}
+          <a class="nav-item is-tab is-hidden-tablet" data-href="#hasgeek">About HasGeek</a>
+          <a class="nav-item is-tab is-hidden-tablet" href="{{ site.url }}{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
+        </div>
+        <div class="nav-center" style="z-index:10;">
+          {% if page.highlights %}
+          <a class="nav-item is-tab is-hidden-mobile" data-href="#highlights">Highlights</a>
+          {% endif %}
+          {% if page.outreach_item_collection %}
+          <a class="nav-item is-tab is-hidden-mobile" data-href="#tickets">Become a sponsor</a>
+          {% endif %}
+          {% if page.testimonials %}
+          <a class="nav-item is-tab is-hidden-mobile" data-href="#testimonials">Testimonials</a>
+          {% endif %}
+          {% if page.sponsor %}
+          <a class="nav-item is-tab is-hidden-mobile" data-href="#sponsor">Sponsors</a>
+          {% endif %}
+          {% if page.venue %}
+          <a class="nav-item is-tab is-hidden-mobile" data-href="#venue">Venue</a>
+          {% endif %}
+          <a class="nav-item is-tab is-hidden-mobile" data-href="#hasgeek">About HasGeek</a>
+          <a class="nav-item is-tab is-hidden-mobile" href="{{ site.url }}{{ site.baseurl }}/code-of-conduct">Code of Conduct</a>
+        </div>
+        <div class="nav-right">
+        </div>
+      </div>
+    </nav>
+  </div>
+
+<!--/.Secondary Navbar -->
+
+{% if page.highlights %}
+<section class="section" id="highlights">
+  <div class="container">
+    {% include content_section.html left=page.highlights.left_content right=page.highlights.right_content center=page.highlights.center_content %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.outreach_item_collection %}
+<section class="section" id="tickets">
+  <div class="container">
+    {% include outreach_sponsorship_section.html %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.testimonials %}
+<section class="section" id="testimonials">
+  <div class="container">
+    {% include testimonials.html testimonials=page.testimonials %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.sponsor.blurb %}
+{% assign sponsor_blurb = page.sponsor.blurb %}
+{% else %}
+{% capture sponsor_blurb %}Interested in sponsoring {{ page.title }}?{% endcapture %}
+{% endif %}
+{% if page.sponsor %}
+  {% include sponsor_section.html blurb=sponsor_blurb sponsors=page.sponsor.sponsors %}
+{% endif %}
+
+{% if page.venue %}
+<section class="section" id="venue">
+  <div class="container">
+    {% include venue_section.html venue=page.venue %}
+  </div>
+</section>
+{% endif %}
+
+{% if page.footer %}
+<section class="section" id="footer">
+  <div class="container">
+    {% include content_section.html left=page.footer.left_content right=page.footer.right_content center=page.footer.center_content %}
+  </div>
+</section>
+{% endif %}
+
+{% include footer.html %}

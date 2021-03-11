@@ -1,0 +1,41 @@
+/* No more font size variants please. */
+@mixin generate-sizes($class, $xxs, $xs, $s, $m, $l, $xl, $xxl) {
+    .#{$class}-xxs { font-size: $xxs; }
+    .#{$class}-xs { font-size: $xs; }
+    .#{$class}-s { font-size: $s; }
+    .#{$class}-m { font-size: $m; }
+    .#{$class}-l { font-size: $l; }
+    .#{$class}-xl { font-size: $xl; }
+    .#{$class}-xxl { font-size: $xxl; }
+}
+@include generate-sizes("font", 10px, 13px, 16px, 18px, 32px, 40px, 64px);
+
+/* Font color guide is here. */
+.font-black{
+    color: #1F2D3D;
+}
+
+.font-steelgrey{
+    color: #8492a6;
+}
+
+.font-white{
+    color: #ffffff;
+}
+
+.font-off-white{
+    color: #fAfAfA;
+}
+
+/* Font weight is here. */
+.font-light{
+    font-weight: 300;
+}
+
+.font-regular{
+    font-weight: 400;
+}
+
+.font-bold{
+    font-weight: 700;
+}

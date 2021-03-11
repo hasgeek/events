@@ -1,0 +1,55 @@
+title: Meta Refresh + JSFoo
+subtitle: "A community and conference on the construction of user experience on the web"
+description: "A community and conference on the construction of user experience on the web."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://metarefresh.in" # the base hostname & protocol for your site, e.g. http://example.com
+colors:
+  primary: "#b22e40"
+  accent: "#921b3f"
+ga_tracking_code: UA-19123154-19
+twitter_tracking_code: o09nd
+fb_tracking_code: 939847969521385
+linkedin_tracking_code: 245595
+icons:
+  touch:
+  - src: "images/touch/metarefresh-icon-192.png"
+    sizes: "192x192"
+    type: "image/png"
+id: metarefresh
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - .git
+  - .sass_cache
+  - node_modules
+  - _site
+  - tests
+  - vendor
+  - .DS_Store
+  - configs
+  - deploy
+  - requirements.txt
+  - README.md
+
+destination: _site/metarefresh
+
+sass_dir: _sass
+
+liquid:
+  error_mode: strict
+
+collections:
+  metarefresh_events:
+    type: event
+    output: true
+    permalink: /:path/
+  jsfoo_events:
+    type: event
+    output: true
+    permalink: /jsfoo/:path/

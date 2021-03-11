@@ -1,0 +1,28 @@
+{
+  "name": "events",
+  "version": "1.0.0",
+  "description": "A conference on deep learning and artificial intelligence",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasgeek/events.git"
+  },
+  "keywords": [
+    "HasGeek",
+    "conference",
+    "Bangalore"
+  ],
+  "author": "HasGeek <infor@hasgeek.com> (https://hasgeek.com)",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hasgeek/events/issues"
+  },
+  "homepage": "https://github.com/hasgeek/events#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "sw-precache": "^5.1.0",
+    "gulp": "^3.9.1"
+  }
+}

@@ -1,0 +1,16 @@
+<div class="has-text-centered">
+  <h1 class="title">Call for Proposals</h1>
+  <h2 class="subtitle">
+    {% if page.funnel.open == true %}
+    We are currently accepting talk proposal submissions
+    {% else %}
+    Proposal submissions are currently closed
+    {% endif %}
+  </h2>
+  <a class="button is-primary" href="{{ page.funnel.url }}" target="_blank">
+    {% if page.funnel.open == true %}
+    Propose a talk
+    {% else %}
+    View all proposals
+    {% endif %}</a>
+</div>

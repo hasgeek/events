@@ -1,0 +1,55 @@
+title: The Fifth Elephant
+subtitle: "Community powered conferences, workshops, and meet ups on data and AI"
+description: "India’s most renowned data science conference. Discuss the most cutting edge developments in the fields of machine learning, data science and technology that power data collection and analysis."
+logo:
+  image_url: https://images.hasgeek.com/embed/file/71893a055f3f4f77961b2c7360bf0f48
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fifthelephant.in" # the base hostname & protocol for your site, e.g. http://example.com
+colors:
+  primary: "#498f94"
+  accent: "#EC6015"
+ga_tracking_code: UA-19123154-20
+twitter_tracking_code: o0bfl
+fb_tracking_code: 939847969521385
+linkedin_tracking_code: 245595
+icons:
+  touch:
+  - src: "images/touch/fifthelephant-icon-192.png"
+    sizes: "192x192"
+    type: "image/png"
+id: fifthelephant
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - .git
+  - .sass_cache
+  - node_modules
+  - _site
+  - tests
+  - vendor
+  - .DS_Store
+  - configs
+  - deploy
+  - requirements.txt
+  - README.md
+
+destination: _site/fifthelephant
+
+sass_dir: _sass
+
+liquid:
+  error_mode: strict
+
+feednami_api_key: 32374997f4d7bf157e23aeb321f3beed6c8b93ccd4f68e4ab3e243e12fae640e
+
+collections:
+  fifthelephant_events:
+    type: event
+    output: true
+    permalink: /:path/

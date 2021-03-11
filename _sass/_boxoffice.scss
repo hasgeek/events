@@ -1,0 +1,32 @@
+#boxoffice-widget .boxoffice-button-action {
+  background-color: $primary;
+  border-color:  #B94C1D;
+  color: #fff;
+}
+#boxoffice-widget .boxoffice-button-info {
+  background-color: $primary;
+  border-color: #2A9CBE;
+  color: #fff;
+}
+#boxoffice-widget .payment-stages-bg {
+  background-color: $primary;
+}
+#boxoffice-widget .progress-indicator>li {
+  color: #fff;
+}
+#boxoffice-widget .progress-indicator>li.active {
+color: #fff;
+}
+#boxoffice-widget .category-heading {
+  background-color: $primary;
+  border-bottom: 3px solid #3e50a3;
+  color: #fff;
+  line-height: 1.1;
+}
+#boxoffice-widget .category-heading:after {
+  border-color: $primary #fff $primary $primary;
+}
+#boxoffice-widget .ticket-description ol {
+  list-style-position: inside;
+  padding-left: 20px;
+}

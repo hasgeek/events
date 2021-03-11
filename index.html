@@ -1,0 +1,76 @@
+---
+layout: base
+---
+<section class="hero is-primary is-medium is-bold event-masthead-medium">
+  <div class="hero-body" style="background-image: url('{{ site.banner }}'); background-size:cover;">
+    <div class="container">
+        <div class="hero-icon">
+          {% if site.logo.image_url contains "://" %}
+            {% assign logo_url = site.logo.image_url %}
+          {% else %}
+            {% assign logo_url = site.logo.image_url | absolute_url %}
+          {% endif %}
+          <img src="{{ logo_url }}" style="max-width: 120px;" class="has-text-centered animated zoomIn">
+        </div>
+        <h1 class="site-title" style="color: #ffffff;">
+          {{ site.title }}
+        </h1>
+        {% assign event_d = event.end_time | date: '%Y%m%d' | plus: 0 %}
+        {% assign site_d = site.time | date: '%Y%m%d' | plus: 0 %}
+        {% if site.subtitle %}
+          <h2 class="site-subtitle" style="color: #ffffff;">
+            {{ site.subtitle }}
+          </h2>
+        {% endif %}
+      </div>
+    </div>
+</section>
+
+<section class="section featured-section">
+  <div class="container">
+    <div class="columns is-multiline">
+    {% include assign_featured_events.html %}
+      {% for event in featured_events %}
+      <div class="column is-half featured-card">
+        <p class="featured-tag">FEATURED</p>
+        {% include featured_event_card.html event=event featured=event.featured %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {% include assign_all_events.html %}
+    <div class="columns is-centered is-multiline">
+      {% for event in all_events %}
+        {% if featured_events contains event %}
+        {% else %}
+          <div class="column is-one-third">
+            {% include event_card.html event=event featured=event.featured %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include assign_past_events.html %}
+{% if past_events != "" %}
+<section class="section">
+  <div class="container">
+      <h1 class="title">Past Events</h1>
+      <hr>
+      <div class="columns is-centered is-multiline">
+        {% for event in past_events %}
+        <div class="column is-one-third">
+          {% include event_card.html event=event featured=event.featured %}
+        </div>
+        {% endfor %}
+      </div>
+  </div>
+</section>
+{% endif %}
+
+{% include footer.html %}
